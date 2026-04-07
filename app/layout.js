@@ -4,6 +4,7 @@
 };
 
 const links = [
+  { href: "/war-room", label: "War Room" },
   { href: "/control", label: "Control" },
   { href: "/workspace", label: "Workspace" },
   { href: "/strategy-lab", label: "Strategy Lab" },
