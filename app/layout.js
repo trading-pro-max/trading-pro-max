@@ -8,6 +8,7 @@ const links = [
   { href: "/workspace", label: "Workspace" },
   { href: "/strategy-lab", label: "Strategy Lab" },
   { href: "/execution", label: "Execution" },
+  { href: "/brokers", label: "Brokers" },
   { href: "/autonomy", label: "Autonomy" },
   { href: "/identity", label: "Identity" },
   { href: "/platform", label: "Platform" },
