@@ -1,4 +1,4 @@
-param([string]$RepoRoot = (Resolve-Path (Join-Path $PSScriptRoot "..\..")).Path)
+﻿param([string]$RepoRoot = (Resolve-Path (Join-Path $PSScriptRoot "..\..")).Path)
 
 $ErrorActionPreference = "Stop"
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force | Out-Null
@@ -60,7 +60,7 @@ $webErr = Join-Path $logDir 'web.err.log'
 $desktopOut = Join-Path $logDir 'desktop.out.log'
 $desktopErr = Join-Path $logDir 'desktop.err.log'
 
-Get-Process electron -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
+Get-Process electron -ErrorAction SilentlyContinue | Stop-Process -Force-Process -Force -ErrorAction SilentlyContinue
 Stop-PortProcess 8787
 Stop-PortProcess 5173
 Stop-PortProcess 5175

@@ -1,6 +1,6 @@
-param([string]$RepoRoot = (Split-Path -Parent $MyInvocation.MyCommand.Path))
+﻿param([string]$RepoRoot = (Split-Path -Parent $MyInvocation.MyCommand.Path))
 
-Get-Process cloudflared -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
+Get-Process cloudflared -ErrorAction SilentlyContinue | Stop-Process -Force-Process -Force -ErrorAction SilentlyContinue
 
 Get-CimInstance Win32_Process -ErrorAction SilentlyContinue | Where-Object {
   ($_.Name -ieq 'powershell.exe' -or $_.Name -ieq 'cmd.exe' -or $_.Name -ieq 'node.exe') -and

@@ -1,4 +1,4 @@
-param([string]$RepoRoot = (Split-Path -Parent $MyInvocation.MyCommand.Path))
+﻿param([string]$RepoRoot = (Split-Path -Parent $MyInvocation.MyCommand.Path))
 
 Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass -Force | Out-Null
 $ErrorActionPreference = "Stop"
@@ -17,7 +17,7 @@ function Stop-PortProcess {
 }
 
 function Stop-PublicTunnel {
-  Get-Process cloudflared -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
+  Get-Process cloudflared -ErrorAction SilentlyContinue | Stop-Process -Force-Process -Force -ErrorAction SilentlyContinue
 
   Get-CimInstance Win32_Process -ErrorAction SilentlyContinue | Where-Object {
     $_.ProcessId -ne $PID -and (

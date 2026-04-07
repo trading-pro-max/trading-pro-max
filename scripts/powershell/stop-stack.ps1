@@ -1,4 +1,4 @@
-param([string]$RepoRoot = (Resolve-Path (Join-Path $PSScriptRoot "..\..")).Path)
+﻿param([string]$RepoRoot = (Resolve-Path (Join-Path $PSScriptRoot "..\..")).Path)
 
 function Stop-PortProcess {
   param([int]$Port)
@@ -12,7 +12,7 @@ function Stop-PortProcess {
   } catch {}
 }
 
-Get-Process electron -ErrorAction SilentlyContinue | Stop-Process -Force -ErrorAction SilentlyContinue
+Get-Process electron -ErrorAction SilentlyContinue | Stop-Process -Force-Process -Force -ErrorAction SilentlyContinue
 Stop-PortProcess 8787
 Stop-PortProcess 5173
 Stop-PortProcess 5175
