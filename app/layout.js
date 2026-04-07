@@ -4,6 +4,7 @@
 };
 
 const links = [
+  { href: "/operator-os", label: "Operator OS" },
   { href: "/growth", label: "Growth" },
   { href: "/client-portal", label: "Client Portal" },
   { href: "/cloud", label: "Cloud" },
