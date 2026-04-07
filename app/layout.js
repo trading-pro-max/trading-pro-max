@@ -4,6 +4,8 @@
 };
 
 const links = [
+  { href: "/desktop-hq", label: "Desktop HQ" },
+  { href: "/mobile-hq", label: "Mobile HQ" },
   { href: "/operator-os", label: "Operator OS" },
   { href: "/growth", label: "Growth" },
   { href: "/client-portal", label: "Client Portal" },
