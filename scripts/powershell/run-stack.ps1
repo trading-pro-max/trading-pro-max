@@ -60,7 +60,7 @@ $webErr = Join-Path $logDir 'web.err.log'
 $desktopOut = Join-Path $logDir 'desktop.out.log'
 $desktopErr = Join-Path $logDir 'desktop.err.log'
 
-Get-Process electron -ErrorAction SilentlyContinue | Stop-Process -Force-Process -Force -ErrorAction SilentlyContinue
+Get-Process electron -ErrorAction SilentlyContinue | Stop-Process -Force-Process -Force-Process -Force -ErrorAction SilentlyContinue
 Stop-PortProcess 8787
 Stop-PortProcess 5173
 Stop-PortProcess 5175
@@ -105,3 +105,4 @@ Write-Host 'API     => http://localhost:8787' -ForegroundColor Cyan
 Write-Host 'Web     => http://localhost:5173' -ForegroundColor Cyan
 Write-Host 'Desktop => app launched' -ForegroundColor Cyan
 Write-Host 'Logs    => logs/runtime' -ForegroundColor Cyan
+

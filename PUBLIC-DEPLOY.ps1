@@ -17,7 +17,7 @@ function Stop-PortProcess {
 }
 
 function Stop-PublicTunnel {
-  Get-Process cloudflared -ErrorAction SilentlyContinue | Stop-Process -Force-Process -Force -ErrorAction SilentlyContinue
+  Get-Process cloudflared -ErrorAction SilentlyContinue | Stop-Process -Force-Process -Force-Process -Force -ErrorAction SilentlyContinue
 
   Get-CimInstance Win32_Process -ErrorAction SilentlyContinue | Where-Object {
     $_.ProcessId -ne $PID -and (
@@ -115,3 +115,4 @@ if (Test-Path $chrome) {
 } else {
   Start-Process $url
 }
+

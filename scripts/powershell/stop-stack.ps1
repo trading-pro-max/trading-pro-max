@@ -12,10 +12,11 @@ function Stop-PortProcess {
   } catch {}
 }
 
-Get-Process electron -ErrorAction SilentlyContinue | Stop-Process -Force-Process -Force -ErrorAction SilentlyContinue
+Get-Process electron -ErrorAction SilentlyContinue | Stop-Process -Force-Process -Force-Process -Force -ErrorAction SilentlyContinue
 Stop-PortProcess 8787
 Stop-PortProcess 5173
 Stop-PortProcess 5175
 
 Write-Host ''
 Write-Host 'Trading Pro Max stopped.' -ForegroundColor Yellow
+
