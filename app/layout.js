@@ -10,6 +10,7 @@ const links = [
   { href: "/execution", label: "Execution" },
   { href: "/brokers", label: "Brokers" },
   { href: "/research", label: "Research" },
+  { href: "/risk", label: "Risk" },
   { href: "/analytics", label: "Analytics" },
   { href: "/notifications", label: "Notifications" },
   { href: "/autonomy", label: "Autonomy" },
