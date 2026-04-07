@@ -4,6 +4,7 @@
 };
 
 const links = [
+  { href: "/release-center", label: "Release" },
   { href: "/intelligence", label: "Intelligence" },
   { href: "/desktop-hq", label: "Desktop HQ" },
   { href: "/mobile-hq", label: "Mobile HQ" },
