@@ -9,7 +9,13 @@ export default function LocalCommandPage() {
   const safeJson = async (url, options) => {
     const res = await fetch(url, options || { cache: "no-store" });
     const text = await res.text();
-    try { return JSON.parse(text); } catch { throw new Error(url + " -> " + text); }
+    try {
+      const data = JSON.parse(text);
+      if (!res.ok) throw new Error(data?.error || text);
+      return data;
+    } catch (e) {
+      throw new Error(String(e?.message || text));
+    }
   };
 
   const load = async () => {
@@ -29,17 +35,33 @@ export default function LocalCommandPage() {
   }, []);
 
   const runMode = async (mode) => {
-    await safeJson("/api/local-command/run", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ mode })
-    });
-    await load();
+    try {
+      const x = await safeJson("/api/local-command/run", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ mode })
+      });
+      setStatus(x.status || null);
+      setError("");
+    } catch (e) {
+      setError(String(e?.message || e));
+    }
   };
 
   const card = { background:"#111827", border:"1px solid #1f2937", borderRadius:22, padding:20 };
   const box = { background:"#020617", borderRadius:14, padding:14 };
   const btn = { padding:"12px 14px", borderRadius:14, border:"1px solid #334155", background:"#020617", color:"white", fontWeight:800, cursor:"pointer" };
+
+  if (!status && error) {
+    return (
+      <main style={{ minHeight:"100vh", display:"grid", placeItems:"center", background:"#020617", color:"white", fontFamily:"Arial, sans-serif", padding:24 }}>
+        <div style={card}>
+          <div style={{ fontWeight:900, fontSize:22 }}>Local Command Error</div>
+          <div style={{ marginTop:12, color:"#f87171" }}>{error}</div>
+        </div>
+      </main>
+    );
+  }
 
   if (!status) {
     return <main style={{ minHeight:"100vh", display:"grid", placeItems:"center", background:"#020617", color:"white" }}>Loading local command...</main>;
@@ -91,15 +113,16 @@ export default function LocalCommandPage() {
         </div>
 
         <div style={card}>
-          <div style={{ fontSize:22, fontWeight:900, marginBottom:12 }}>Command Catalog</div>
-          <div style={{ display:"grid", gap:10 }}>
-            {(status.commands || []).map((x) => (
-              <div key={x.key} style={box}>
-                <div style={{ fontWeight:900 }}>{x.title}</div>
-                <div style={{ marginTop:6, color:"#cbd5e1" }}>{x.detail}</div>
-                <div style={{ marginTop:6, color:"#94a3b8", fontSize:12 }}>{x.key}</div>
-              </div>
-            ))}
+          <div style={{ fontSize:22, fontWeight:900, marginBottom:12 }}>Metrics</div>
+          <div style={{ display:"grid", gridTemplateColumns:"repeat(4,minmax(0,1fr))", gap:12 }}>
+            <div style={box}>Cash: <b>{status.metrics?.cash ?? 0}</b></div>
+            <div style={box}>Positions: <b>{status.metrics?.positions ?? 0}</b></div>
+            <div style={box}>Watchlist: <b>{status.metrics?.watchlist ?? 0}</b></div>
+            <div style={box}>Alerts: <b>{status.metrics?.alerts ?? 0}</b></div>
+            <div style={box}>Orders: <b>{status.metrics?.orders ?? 0}</b></div>
+            <div style={box}>Ledger: <b>{status.metrics?.ledger ?? 0}</b></div>
+            <div style={box}>Users: <b>{status.metrics?.users ?? 0}</b></div>
+            <div style={box}>Brokers: <b>{status.metrics?.brokers ?? 0}</b></div>
           </div>
         </div>
       </div>
