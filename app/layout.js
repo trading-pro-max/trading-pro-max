@@ -5,6 +5,7 @@
 
 const links = [
   { href: "/local-os", label: "Local OS" },
+  { href: "/local-qa", label: "Local QA" },
   { href: "/release-center", label: "Release" },
   { href: "/intelligence", label: "Intelligence" },
   { href: "/desktop-hq", label: "Desktop HQ" },
