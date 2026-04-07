@@ -1,7 +1,4 @@
-﻿param(
-  [string]$ProjectPath = "C:\Users\ahmad\Desktop\trading-pro-max-full"
-)
-
+﻿param([string]$ProjectPath="C:\Users\ahmad\Desktop\trading-pro-max-full")
 Set-Location $ProjectPath
 Write-Host "PWD: $(Get-Location)"
 Write-Host "APP_EXISTS: $(Test-Path .\app)"
