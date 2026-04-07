@@ -1,0 +1,4 @@
+﻿SAFE_UPDATE_PHASE=1
+STATUS=LOCKING_BASELINE
+API_HEALTH=http://localhost:8787/api/health
+WEB_URL=http://localhost:5173

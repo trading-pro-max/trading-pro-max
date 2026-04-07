@@ -1,0 +1,45 @@
+{
+  "name": "Trading Pro Max",
+  "positioning": "Global #1 integrated intelligent trading platform",
+  "workspaceMode": "single-repo-backbone",
+  "backbone": {
+    "launcher": "RUN-TRADING-PRO-MAX.ps1",
+    "status": "STATUS-TRADING-PRO-MAX.ps1",
+    "stop": "STOP-TRADING-PRO-MAX.ps1",
+    "push": "PUSH-GITHUB.ps1",
+    "secretsVault": "secrets/vault.local.json"
+  },
+  "applications": {
+    "api": {
+      "path": "apps/api",
+      "defaultPort": 8787,
+      "health": "http://localhost:8787/api/health"
+    },
+    "web": {
+      "path": "apps/web",
+      "defaultPort": 5173,
+      "health": "http://localhost:5173"
+    },
+    "desktop": {
+      "path": "apps/desktop",
+      "defaultPort": 5175,
+      "health": "electron-vite"
+    }
+  },
+  "packages": [
+    "packages/shared",
+    "packages/db",
+    "packages/data",
+    "packages/engine",
+    "packages/studio",
+    "packages/ops",
+    "packages/cloud",
+    "packages/integrations"
+  ],
+  "operations": {
+    "localAutomation": true,
+    "secretsManagedLocally": true,
+    "githubLinked": true,
+    "paymentsLayerIntegrated": true
+  }
+}

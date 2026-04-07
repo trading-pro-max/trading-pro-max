@@ -1,0 +1,66 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20260407124043
+Username: AHMAD\ahmad
+RunAs User: AHMAD\ahmad
+Configuration Name: 
+Machine: AHMAD (Microsoft Windows NT 10.0.26200.0)
+Host Application: C:\WINDOWS\System32\WindowsPowerShell\v1.0\powershell.exe -NoExit -ExecutionPolicy Bypass -File .\TPM-AI-BRIDGE.ps1
+Process ID: 13204
+PSVersion: 5.1.26100.8115
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.26100.8115
+BuildVersion: 10.0.26100.8115
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+
+========================================
+ TPM AI BRIDGE READY
+ Session Log: C:\Users\ahmad\Desktop\trading-pro-max-full\logs\session_20260407_124043.log
+ Commands: tpm-status | tpm-tree | tpm-build | tpm-dev | tpm-health | tpm-control
+========================================
+
+TPM-BRIDGE PS C:\Users\ahmad\Desktop\trading-pro-max-full>
+PS>tpm-status
+
+=== TPM STATUS ===
+PWD: C:\Users\ahmad\Desktop\trading-pro-max-full
+package.json: True
+next.config.js: True
+src\app: False
+src\app\control\page.tsx: False
+src\app\control\page.js: False
+src\app\api\control\state\route.ts: False
+src\app\api\control\state\route.js: False
+
+Scripts:
+
+
+dev   : next dev
+build : next build
+start : next start
+lint  : next lint
+TPM-BRIDGE PS C:\Users\ahmad\Desktop\trading-pro-max-full>
+PS>tpm-status
+
+=== TPM STATUS ===
+PWD: C:\Users\ahmad\Desktop\trading-pro-max-full
+package.json: True
+next.config.js: True
+src\app: False
+src\app\control\page.tsx: False
+src\app\control\page.js: False
+src\app\api\control\state\route.ts: False
+src\app\api\control\state\route.js: False
+
+Scripts:
+
+
+dev   : next dev
+build : next build
+start : next start
+lint  : next lint
+TPM-BRIDGE PS C:\Users\ahmad\Desktop\trading-pro-max-full>

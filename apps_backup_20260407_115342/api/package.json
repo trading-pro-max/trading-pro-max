@@ -1,0 +1,39 @@
+{
+    "name":  "@trading-pro-max/api",
+    "version":  "0.3.0",
+    "private":  true,
+    "type":  "module",
+    "scripts":  {
+                    "dev":  "tsx watch src/server.ts",
+                    "build":  "tsc -p tsconfig.json",
+                    "start":  "node dist/server.js",
+                    "test:smoke":  "tsx src/tests/smoke.ts"
+                },
+    "dependencies":  {
+                         "@trading-pro-max/data":  "*",
+                         "@trading-pro-max/studio":  "*",
+                         "cors":  "^2.8.5",
+                         "dotenv":  "^16.4.7",
+                         "@trading-pro-max/engine":  "*",
+                         "@trading-pro-max/db":  "*",
+                         "@trading-pro-max/cloud":  "*",
+                         "@trading-pro-max/ops":  "*",
+                         "@trading-pro-max/integrations":  "*",
+                         "express":  "^4.21.1",
+                         "jsonwebtoken":  "^9.0.2",
+                         "stripe":  "^18.5.0",
+                         "express-rate-limit":  "^7.4.1",
+                         "@trading-pro-max/shared":  "*",
+                         "helmet":  "^8.0.0",
+                         "cookie-parser":  "^1.4.7"
+                     },
+    "devDependencies":  {
+                            "@types/cookie-parser":  "^1.4.8",
+                            "@types/cors":  "^2.8.17",
+                            "@types/jsonwebtoken":  "^9.0.10",
+                            "@types/node":  "^22.10.1",
+                            "typescript":  "^5.6.3",
+                            "tsx":  "^4.19.2",
+                            "@types/express":  "^5.0.0"
+                        }
+}

@@ -1,0 +1,9 @@
+﻿tmp_stripe_secret
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+node_modules
+.next

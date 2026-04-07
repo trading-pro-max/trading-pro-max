@@ -1,0 +1,21 @@
+{
+  "workspaceName": "Trading Pro Max",
+  "engineStatus": "running",
+  "activePreset": "balanced",
+  "aiAssist": true,
+  "maxOpenPositions": 3,
+  "signalConfidenceGate": 86,
+  "paperStake": 25,
+  "portfolioBase": 10000,
+  "heartbeat": 0,
+  "runningStrategies": 2,
+  "signals": [],
+  "ledger": [],
+  "journal": [],
+  "market": [],
+  "replayFrames": [],
+  "studioStrategies": [],
+  "incidents": [],
+  "cloudWorkspaces": [],
+  "environments": []
+}

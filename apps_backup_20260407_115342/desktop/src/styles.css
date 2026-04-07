@@ -1,0 +1,211 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  color-scheme: dark;
+  --bg: #07111f;
+  --panel: rgba(13, 24, 43, 0.88);
+  --line: rgba(255, 255, 255, 0.08);
+  --muted: #90a8d3;
+  --text: #eef4ff;
+  --blue: #2d6bff;
+  --cyan: #17c8ff;
+  --green: #1cc37b;
+  --red: #ff6278;
+  --radius: 22px;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+html,
+body,
+#root {
+  margin: 0;
+  min-height: 100%;
+  background:
+    radial-gradient(circle at top, rgba(45, 107, 255, 0.15), transparent 30%),
+    linear-gradient(180deg, #07111f 0%, #0b1729 100%);
+  color: var(--text);
+}
+
+body {
+  min-height: 100vh;
+}
+
+button,
+input,
+textarea {
+  font: inherit;
+}
+
+.app-shell {
+  padding: 24px;
+  display: grid;
+  gap: 18px;
+}
+
+.hero,
+.panel,
+.card {
+  border: 1px solid var(--line);
+  background: var(--panel);
+  border-radius: var(--radius);
+  backdrop-filter: blur(12px);
+}
+
+.hero {
+  padding: 22px;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+
+.hero h1,
+.panel h2,
+.panel h3 {
+  margin: 0;
+}
+
+.hero p,
+.subtle,
+.muted {
+  color: var(--muted);
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.stats-grid,
+.two-col,
+.three-col {
+  display: grid;
+  gap: 18px;
+}
+
+.stats-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+
+.two-col {
+  grid-template-columns: 1.35fr 1fr;
+}
+
+.three-col {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.card {
+  padding: 18px;
+}
+
+.card .value {
+  font-size: 30px;
+  font-weight: 800;
+  margin-top: 6px;
+}
+
+.panel {
+  padding: 18px;
+}
+
+.panel-head {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  align-items: flex-start;
+  margin-bottom: 14px;
+  flex-wrap: wrap;
+}
+
+.kpi-list,
+.simple-list {
+  display: grid;
+  gap: 12px;
+}
+
+.kpi,
+.list-row {
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.03);
+  border-radius: 18px;
+  padding: 14px;
+}
+
+.kpi strong,
+.list-row strong {
+  display: block;
+  margin-bottom: 6px;
+}
+
+.badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 12px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.04);
+}
+
+.badge.good {
+  background: rgba(28, 195, 123, 0.12);
+}
+
+.badge.warn {
+  background: rgba(255, 191, 71, 0.12);
+}
+
+.badge.bad {
+  background: rgba(255, 98, 120, 0.12);
+}
+
+.toolbar button,
+.action-row button {
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  border-radius: 14px;
+  padding: 10px 14px;
+  cursor: pointer;
+}
+
+.toolbar .primary,
+.action-row .primary {
+  background: linear-gradient(135deg, var(--blue), #4d87ff);
+  border: 0;
+}
+
+.command-box {
+  width: 100%;
+  border-radius: 14px;
+  border: 1px solid var(--line);
+  background: rgba(255, 255, 255, 0.04);
+  color: var(--text);
+  padding: 12px 14px;
+}
+
+.report-box {
+  white-space: pre-wrap;
+  color: var(--muted);
+  line-height: 1.45;
+  font-size: 13px;
+}
+
+@media (max-width: 1100px) {
+  .stats-grid,
+  .three-col,
+  .two-col {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 640px) {
+  .app-shell {
+    padding: 16px;
+  }
+}

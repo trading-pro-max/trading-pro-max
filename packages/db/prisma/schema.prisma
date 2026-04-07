@@ -1,0 +1,95 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id           String    @id @default(cuid())
+  email        String    @unique
+  name         String
+  passwordHash String
+  role         String    @default("owner")
+  sessions     Session[]
+  createdAt    DateTime  @default(now())
+  updatedAt    DateTime  @updatedAt
+}
+
+model Session {
+  id         String    @id @default(cuid())
+  userId     String
+  expiresAt  DateTime
+  revokedAt  DateTime?
+  createdAt  DateTime  @default(now())
+  user       User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@index([userId])
+  @@index([expiresAt])
+}
+
+model Workspace {
+  id                   String   @id @default(cuid())
+  name                 String
+  environment          String   @default("local")
+  engineStatus         String   @default("running")
+  activePreset         String   @default("balanced")
+  aiAssist             Boolean  @default(true)
+  maxOpenPositions     Int      @default(3)
+  signalConfidenceGate Int      @default(86)
+  paperStake           Float    @default(25)
+  portfolioBase        Float    @default(10000)
+  runningStrategies    Int      @default(2)
+  createdAt            DateTime @default(now())
+  updatedAt            DateTime @updatedAt
+}
+
+model Signal {
+  id         String   @id
+  pair       String
+  side       String
+  confidence Int
+  timeframe  String
+  source     String
+  createdAt  DateTime @default(now())
+
+  @@index([createdAt])
+}
+
+model LedgerEntry {
+  id         String   @id
+  pair       String
+  side       String
+  status     String
+  source     String
+  timeframe  String
+  confidence Int
+  stake      Float
+  pnl        Float    @default(0)
+  note       String
+  createdAt  DateTime @default(now())
+  closedAt   DateTime?
+
+  @@index([status])
+  @@index([createdAt])
+}
+
+model JournalEntry {
+  id        String   @id
+  text      String
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+}
+
+model Incident {
+  id        String   @id
+  severity  String
+  title     String
+  detail    String
+  createdAt DateTime @default(now())
+
+  @@index([createdAt])
+}

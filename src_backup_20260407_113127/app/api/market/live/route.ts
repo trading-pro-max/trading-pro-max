@@ -1,0 +1,1 @@
+import { NextResponse } from 'next/server'; export async function GET(){ return NextResponse.json({ symbol:'BTC/USDT', price:68871.09, signal:'CALL', confidence:84, time:new Date().toISOString() }); }

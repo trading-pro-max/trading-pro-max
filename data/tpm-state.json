@@ -1,0 +1,28 @@
+{
+  "status": "ONLINE",
+  "autoMode": true,
+  "aiEnabled": true,
+  "riskMode": "BALANCED",
+  "lastCommand": "BOOT",
+  "metrics": {
+    "engineReadiness": 82,
+    "platformReadiness": 76,
+    "launchReadiness": 68,
+    "privateOperatorStack": 72
+  },
+  "logs": [
+    {
+      "time": "2026-04-07T11:59:17.105Z",
+      "text": "CORE REBUILD ONLINE"
+    }
+  ],
+  "paperTrades": [],
+  "protection": {
+    "killSwitch": false,
+    "liveTradingEnabled": false,
+    "maxDailyLoss": 250,
+    "maxOpenPositions": 3,
+    "sessionMode": "PROTECTED",
+    "guardianStatus": "ARMED"
+  }
+}

@@ -1,0 +1,41 @@
+﻿generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+model User {
+  id        String   @id @default(cuid())
+  email     String   @unique
+  isActive  Boolean  @default(true)
+  plan      String   @default("free")
+  createdAt DateTime @default(now())
+}
+
+model Lead {
+  id          String   @id @default(cuid())
+  email       String   @unique
+  source      String   @default("launch")
+  referralCode String?
+  createdAt   DateTime @default(now())
+}
+
+model Referral {
+  id         String   @id @default(cuid())
+  code       String   @unique
+  email      String
+  visits     Int      @default(0)
+  signups    Int      @default(0)
+  createdAt  DateTime @default(now())
+}
+
+model ContactMessage {
+  id        String   @id @default(cuid())
+  name      String
+  email     String
+  message   String
+  createdAt DateTime @default(now())
+}

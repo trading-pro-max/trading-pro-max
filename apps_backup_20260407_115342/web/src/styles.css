@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  background: linear-gradient(180deg, #07111f 0%, #0b1729 100%);
+  color: #eef4ff;
+  font-family: Inter, system-ui, sans-serif;
+}
+.page {
+  padding: 28px;
+  display: grid;
+  gap: 20px;
+}
+.hero {
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
+  align-items: flex-start;
+}
+.hero h1 { margin: 0; font-size: 36px; }
+.hero p { margin: 8px 0 0; color: #91a8cf; }
+.badge {
+  padding: 10px 14px;
+  border: 1px solid rgba(255,255,255,0.1);
+  border-radius: 14px;
+  background: rgba(255,255,255,0.04);
+}
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+.card {
+  background: rgba(11,20,36,0.84);
+  border: 1px solid rgba(255,255,255,0.08);
+  border-radius: 22px;
+  padding: 18px;
+  box-shadow: 0 12px 40px rgba(0,0,0,.28);
+}
+.card p, .card small { color: #91a8cf; }
+.wide { grid-column: 1 / -1; }
+.phaseList { display: grid; gap: 12px; }
+.phaseRow { display: grid; gap: 4px; padding: 12px; border-radius: 16px; background: rgba(255,255,255,0.03); }
+.pill {
+  display: inline-flex;
+  width: fit-content;
+  padding: 5px 10px;
+  border-radius: 999px;
+  font-size: 12px;
+  margin: 2px 0;
+}
+.pill.foundation { background: rgba(255,255,255,0.08); }
+.pill.active { background: rgba(45,107,255,0.16); }
+.pill.planned { background: rgba(255,191,71,0.16); }
+@media (max-width: 900px) { .grid { grid-template-columns: 1fr; } }
