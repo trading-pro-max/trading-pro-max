@@ -4,6 +4,8 @@
 };
 
 const links = [
+  { href: "/growth", label: "Growth" },
+  { href: "/client-portal", label: "Client Portal" },
   { href: "/cloud", label: "Cloud" },
   { href: "/backbone", label: "Backbone" },
   { href: "/war-room", label: "War Room" },
