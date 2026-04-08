@@ -8,7 +8,7 @@ function Read-Env([string]$File){
   if(Test-Path $File){
     Get-Content $File | ForEach-Object {
       $line=$_.Trim()
-      if($line -and -not $line.StartsWith('#') -and $line -match '^\s*([^=]+?)\s*=\s*(.*)\s*$'){
+      if($line -and -not $line.StartsWith("#") -and $line -match '^\s*([^=]+?)\s*=\s*(.*)\s*$'){
         $k=$matches[1].Trim()
         $v=$matches[2].Trim().Trim('"').Trim("'")
         $map[$k]=$v
@@ -49,6 +49,8 @@ function Git-Sync{
 }
 
 Ensure-Dir ".\.tpm"
+$pidFile=".\.tpm\universal-autobind.pid"
+Set-Content $pidFile $PID -Encoding UTF8
 
 while($true){
   $envMap=Read-Env ".\.env.connectors"
