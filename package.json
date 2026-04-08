@@ -74,7 +74,9 @@
     "tpm:horizon:once": "node ./lib/tpm-horizon-core.mjs",
     "tpm:horizon": "node ./scripts/tpm-horizon-loop.mjs",
     "tpm:nexus:once": "node ./lib/tpm-nexus-core.mjs",
-    "tpm:nexus": "node ./scripts/tpm-nexus-loop.mjs"
+    "tpm:nexus": "node ./scripts/tpm-nexus-loop.mjs",
+    "tpm:sentinel:once": "node ./lib/tpm-sentinel-core.mjs",
+    "tpm:sentinel": "node ./scripts/tpm-sentinel-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

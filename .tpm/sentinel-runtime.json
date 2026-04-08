@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "TPM_SENTINEL_ACTIVE",
+  "overallProgress": 83,
+  "completed": 83,
+  "remaining": 17,
+  "domains": {
+    "sentinel": 83,
+    "experiments": 83,
+    "success": 50,
+    "proof": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "sentinel-discipline",
+      "title": "sentinel discipline",
+      "progress": 83,
+      "status": "active"
+    },
+    {
+      "slug": "experiment-density",
+      "title": "experiment density",
+      "progress": 83,
+      "status": "active"
+    },
+    {
+      "slug": "success-depth",
+      "title": "success depth",
+      "progress": 50,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-08T10:53:54.364Z"
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "guards": [
+    {
+      "slug": "runtime",
+      "title": "Runtime Sentinel",
+      "strength": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market",
+      "title": "Market Sentinel",
+      "strength": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "broker",
+      "title": "Broker Sentinel",
+      "strength": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "governance",
+      "title": "Governance Sentinel",
+      "strength": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeGuards": 12,
+    "protectedFlows": 18,
+    "alertDiscipline": 92,
+    "recoveryConfidence": 100
+  },
+  "time": "2026-04-08T10:53:54.363Z"
+}
