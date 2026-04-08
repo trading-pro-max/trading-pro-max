@@ -185,7 +185,11 @@
     "npm run tpm:infinity:once",
     "npm run tpm:infinity",
     "npm run tpm:helix:once",
-    "npm run tpm:helix"
+    "npm run tpm:helix",
+    "npm run tpm:autopilot:once",
+    "npm run tpm:autopilot",
+    "npm run tpm:kernel:once",
+    "npm run tpm:kernel"
   ],
   "pages": [
     "/master-control",
@@ -289,7 +293,14 @@
     "/global-command-lattice",
     "/helix-core",
     "/signal-parliament",
-    "/resilience-deck"
+    "/resilience-deck",
+    "/autopilot-center",
+    "/kernel-os",
+    "/scenario-genome",
+    "/operator-memory",
+    "/autonomy-director",
+    "/vault-matrix",
+    "/growth-command"
   ],
   "nextWave": [
     {
@@ -925,7 +936,7 @@
     {
       "slug": "infinity-core",
       "title": "infinity core",
-      "progress": 97,
+      "progress": 91,
       "stage": "ACTIVE",
       "status": "strong"
     },
@@ -961,6 +972,48 @@
       "slug": "resilience-deck",
       "title": "resilience deck",
       "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "kernel-os",
+      "title": "kernel os",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-genome",
+      "title": "scenario genome",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-memory",
+      "title": "operator memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomy-director",
+      "title": "autonomy director",
+      "progress": 91,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "vault-matrix",
+      "title": "vault matrix",
+      "progress": 91,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "growth-command",
+      "title": "growth command",
+      "progress": 91,
       "stage": "ACTIVE",
       "status": "strong"
     }
@@ -1194,5 +1247,80 @@
     "progress": 100,
     "status": "ACTIVE",
     "time": "2026-04-08T22:54:49.118Z"
+  },
+  "autopilot": {
+    "active": true,
+    "mode": "FULL_AUTO_LOCAL",
+    "cycle": 1,
+    "discoveredScripts": [
+      "tpm:agentmesh:once",
+      "tpm:ai:once",
+      "tpm:analytics:once",
+      "tpm:apex:once",
+      "tpm:atlas:once",
+      "tpm:broker:once",
+      "tpm:command:once",
+      "tpm:constellation:once",
+      "tpm:continuum:once",
+      "tpm:council:once",
+      "tpm:enterprise:once",
+      "tpm:executive:once",
+      "tpm:expansion:once",
+      "tpm:fabric:once",
+      "tpm:federation:once",
+      "tpm:final:once",
+      "tpm:governance:once",
+      "tpm:helix:once",
+      "tpm:horizon:once",
+      "tpm:hyper:once",
+      "tpm:infinity3:once",
+      "tpm:infinity7:once",
+      "tpm:infinity:once",
+      "tpm:intelligence:once",
+      "tpm:jump4:once",
+      "tpm:kernel:once",
+      "tpm:learning:once",
+      "tpm:market:once",
+      "tpm:meta:once",
+      "tpm:navigator:once",
+      "tpm:nexus:once",
+      "tpm:observability:once",
+      "tpm:omega:once",
+      "tpm:orchestrator:once",
+      "tpm:platform:once",
+      "tpm:prism:once",
+      "tpm:pulse:once",
+      "tpm:quantum:once",
+      "tpm:runtimeops:once",
+      "tpm:sentinel:once",
+      "tpm:simulation:once",
+      "tpm:sovereign:once",
+      "tpm:strategy:once",
+      "tpm:titan:once",
+      "tpm:vector:once",
+      "tpm:vertex:once",
+      "tpm:zenith:once",
+      "tpm:master:once"
+    ],
+    "successCount": 0,
+    "failedCount": 48,
+    "lastRunAt": "2026-04-08T22:55:00.067Z",
+    "status": "ACTIVE_WITH_ERRORS"
+  },
+  "kernelLayer": {
+    "active": true,
+    "layer": "KERNEL_OS_SCENARIO_GENOME_OPERATOR_MEMORY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "infinityContinuation": "ACTIVE",
+    "time": "2026-04-08T22:55:03.840Z"
+  },
+  "infinity": {
+    "active": true,
+    "mode": "ACTIVE",
+    "progress": 91,
+    "localState": "CLOSED_100",
+    "expansionState": "INFINITE_CONTINUATION_ACTIVE",
+    "time": "2026-04-08T22:55:10.584Z"
   }
 }

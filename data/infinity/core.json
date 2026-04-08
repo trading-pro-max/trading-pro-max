@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "towers": [
+    {
+      "slug": "runtime-infinity",
+      "title": "Runtime Infinity",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-infinity",
+      "title": "Evidence Infinity",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "autonomy-infinity",
+      "title": "Autonomy Infinity",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-infinity",
+      "title": "Growth Infinity",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "runtimeLayers": 24,
+    "protectedStores": 30,
+    "governedRoutes": 22,
+    "infinityConfidence": 100
+  },
+  "time": "2026-04-08T22:55:11.551Z"
+}

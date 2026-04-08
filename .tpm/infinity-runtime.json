@@ -1,35 +1,43 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 97,
-  "completed": 97,
-  "remaining": 3,
+  "overallProgress": 91,
+  "completed": 91,
+  "remaining": 9,
+  "infiniteContinuation": "ACTIVE",
+  "localState": "CLOSED_100",
   "domains": {
-    "infinity": 100,
-    "foundry": 86,
-    "lattice": 100,
-    "proof": 100,
+    "infinity": 83,
+    "autonomy": 86,
+    "vault": 100,
+    "growth": 86,
     "continuity": 100
   },
   "nextWave": [
     {
       "slug": "infinity-density",
       "title": "infinity density",
-      "progress": 100,
+      "progress": 83,
       "status": "active"
     },
     {
-      "slug": "foundry-scale",
-      "title": "foundry scale",
+      "slug": "autonomy-depth",
+      "title": "autonomy depth",
       "progress": 86,
       "status": "active"
     },
     {
-      "slug": "lattice-unification",
-      "title": "lattice unification",
+      "slug": "vault-strength",
+      "title": "vault strength",
       "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "growth-command",
+      "title": "growth command",
+      "progress": 86,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T22:54:48.991Z"
+  "time": "2026-04-08T22:55:10.577Z"
 }

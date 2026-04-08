@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "items": [
+  "vaults": [
     {
-      "slug": "growth-paths",
-      "title": "Growth Paths",
+      "slug": "proof-vault",
+      "title": "Proof Vault",
       "score": 100,
-      "status": "active"
+      "status": "closed"
     },
     {
-      "slug": "future-surfaces",
-      "title": "Future Surfaces",
+      "slug": "recovery-vault",
+      "title": "Recovery Vault",
       "score": 100,
-      "status": "active"
+      "status": "closed"
     },
     {
-      "slug": "strategy-branches",
-      "title": "Strategy Branches",
+      "slug": "policy-vault",
+      "title": "Policy Vault",
       "score": 100,
-      "status": "active"
+      "status": "closed"
     },
     {
-      "slug": "platform-branches",
-      "title": "Platform Branches",
+      "slug": "trust-vault",
+      "title": "Trust Vault",
       "score": 100,
-      "status": "active"
+      "status": "closed"
     }
   ],
-  "maps": {
-    "storedBranches": 32,
-    "replayablePaths": 26,
-    "governedExpansions": 22,
-    "evolutionConfidence": 100
+  "metrics": {
+    "securedArtifacts": 34,
+    "replayableStates": 26,
+    "trustStrength": 100,
+    "vaultConfidence": 100
   },
-  "time": "2026-04-08T13:57:27.505Z"
+  "time": "2026-04-08T22:55:10.577Z"
 }

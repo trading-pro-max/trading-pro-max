@@ -2,35 +2,35 @@
   "ok": true,
   "lanes": [
     {
-      "slug": "self-routing",
-      "title": "Self Routing",
+      "slug": "builder",
+      "title": "Builder Lane",
       "progress": 100,
-      "status": "active"
+      "status": "closed"
     },
     {
-      "slug": "self-hardening",
-      "title": "Self Hardening",
+      "slug": "governance",
+      "title": "Governance Lane",
       "progress": 100,
-      "status": "active"
+      "status": "closed"
     },
     {
-      "slug": "self-memory",
-      "title": "Self Memory",
+      "slug": "execution",
+      "title": "Execution Lane",
       "progress": 100,
-      "status": "active"
+      "status": "closed"
     },
     {
-      "slug": "self-expansion",
-      "title": "Self Expansion",
+      "slug": "continuity",
+      "title": "Continuity Lane",
       "progress": 100,
-      "status": "active"
+      "status": "closed"
     }
   ],
-  "maps": {
-    "autonomousLoops": 18,
-    "governedLoops": 18,
-    "protectedLoops": 18,
+  "metrics": {
+    "activeLoops": 22,
+    "guardedAutomations": 18,
+    "autonomousDecisions": 20,
     "autonomyConfidence": 100
   },
-  "time": "2026-04-08T13:57:27.505Z"
+  "time": "2026-04-08T22:55:10.577Z"
 }
