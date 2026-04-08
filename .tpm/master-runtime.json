@@ -167,7 +167,9 @@
     "npm run tpm:agentmesh:once",
     "npm run tpm:agentmesh",
     "npm run tpm:fabric:once",
-    "npm run tpm:fabric"
+    "npm run tpm:fabric",
+    "npm run tpm:prism:once",
+    "npm run tpm:prism"
   ],
   "pages": [
     "/master-control",
@@ -240,7 +242,10 @@
     "/growth-engine",
     "/fabric-core",
     "/autonomy-grid",
-    "/release-memory"
+    "/release-memory",
+    "/prism-core",
+    "/strategy-theater",
+    "/integrity-hub"
   ],
   "nextWave": [
     {
@@ -704,6 +709,27 @@
       "progress": 97,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "prism-core",
+      "title": "prism core",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "strategy-theater",
+      "title": "strategy theater",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "integrity-hub",
+      "title": "integrity hub",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T12:07:24.512Z",
@@ -834,27 +860,39 @@
     "layer": "API_GATEWAY_INTEGRATION_HUB_LIFECYCLE_OS",
     "progress": 83,
     "status": "ACTIVE",
-    "time": "2026-04-08T12:08:50.051Z"
+    "time": "2026-04-08T12:10:20.083Z"
   },
   "councilLayer": {
     "active": true,
     "layer": "COUNCIL_CORE_KNOWLEDGE_LEDGER_SWITCHBOARD",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T12:08:51.001Z"
+    "time": "2026-04-08T12:10:21.032Z"
   },
   "postCertification": {
     "active": true,
     "layer": "AGENT_MESH_EXPANSION",
     "progress": 96,
     "status": "ACTIVE",
-    "time": "2026-04-08T12:08:51.124Z"
+    "time": "2026-04-08T12:10:21.156Z"
   },
   "postCertificationFabric": {
     "active": true,
     "layer": "FABRIC_CORE",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T12:08:54.529Z"
+    "time": "2026-04-08T12:10:24.576Z"
+  },
+  "prismLayer": {
+    "active": true,
+    "layer": "PRISM_CORE_STRATEGY_THEATER_INTEGRITY_HUB",
+    "progress": 90,
+    "status": "ACTIVE",
+    "time": "2026-04-08T12:10:25.112Z"
+  },
+  "runtimeDepth": {
+    "active": 15,
+    "expected": 16,
+    "status": "CLOSED_100"
   }
 }

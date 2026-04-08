@@ -1,35 +1,34 @@
 {
   "ok": true,
-  "mode": "TPM_COUNCIL_ACTIVE",
+  "mode": "TPM_PRISM_ACTIVE",
   "overallProgress": 100,
   "completed": 100,
   "remaining": 0,
   "domains": {
-    "council": 100,
-    "ledger": 100,
-    "switchboard": 100,
+    "prism": 100,
+    "theater": 100,
+    "integrity": 100,
     "proof": 100,
     "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "council-discipline",
-      "title": "council discipline",
+      "slug": "prism-density",
+      "title": "prism density",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "ledger-density",
-      "title": "ledger density",
+      "slug": "theater-depth",
+      "title": "theater depth",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "switch-routing",
-      "title": "switch routing",
+      "slug": "integrity-discipline",
+      "title": "integrity discipline",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T12:10:21.021Z"
-}
+  "time": "2026-04-08T12:10:26.

@@ -102,7 +102,9 @@
     "tpm:federation:once": "node ./lib/tpm-federation-core.mjs",
     "tpm:federation": "node ./scripts/tpm-federation-loop.mjs",
     "tpm:quantum:once": "node ./lib/tpm-quantum-core.mjs",
-    "tpm:quantum": "node ./scripts/tpm-quantum-loop.mjs"
+    "tpm:quantum": "node ./scripts/tpm-quantum-loop.mjs",
+    "tpm:prism:once": "node ./lib/tpm-prism-core.mjs",
+    "tpm:prism": "node ./scripts/tpm-prism-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

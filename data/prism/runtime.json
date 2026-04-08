@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "facets": [
+    {
+      "slug": "runtime-facet",
+      "title": "Runtime Facet",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "strategy-facet",
+      "title": "Strategy Facet",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "signal-facet",
+      "title": "Signal Facet",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-facet",
+      "title": "Trust Facet",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeFacets": 16,
+    "routedViews": 20,
+    "protectedMatrices": 18,
+    "prismConfidence": 100
+  },
+  "time": "2026-04-08T12:10:26.119Z"
+}
