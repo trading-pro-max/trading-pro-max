@@ -1,15 +1,177 @@
 {
   "ok": true,
+  "mode": "TPM_MASTER_ACTIVE",
   "overallProgress": 100,
   "completed": 100,
   "remaining": 0,
-  "localCertified": true,
-  "releaseGate": "OPEN_LOCAL",
   "finalReadiness": "ready-local-100",
+  "activeModule": {
+    "slug": "surface",
+    "title": "Operator Surface",
+    "progress": 97,
+    "stage": "ACTIVE",
+    "description": "Mission control, launchpad, AI control, desktop HQ and mobile HQ.",
+    "remaining": 3,
+    "readiness": "high",
+    "status": "active"
+  },
+  "modules": [
+    {
+      "slug": "brain",
+      "title": "AI Brain",
+      "progress": 98,
+      "stage": "ACTIVE",
+      "description": "Autonomous intelligence and AI decision systems.",
+      "remaining": 2,
+      "readiness": "high",
+      "status": "active"
+    },
+    {
+      "slug": "strategy",
+      "title": "Strategy Engine",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "description": "Strategy lab, execution ranking, research and signal routing.",
+      "remaining": 0,
+      "readiness": "high",
+      "status": "closed"
+    },
+    {
+      "slug": "autonomy",
+      "title": "Autonomy Core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "description": "Self-running loops, autobind, orchestration and local continuity.",
+      "remaining": 0,
+      "readiness": "high",
+      "status": "closed"
+    },
+    {
+      "slug": "surface",
+      "title": "Operator Surface",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "description": "Mission control, launchpad, AI control, desktop HQ and mobile HQ.",
+      "remaining": 3,
+      "readiness": "high",
+      "status": "active"
+    },
+    {
+      "slug": "research",
+      "title": "Research Vault",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "description": "Tracked system knowledge, memory runtime and research intelligence.",
+      "remaining": 0,
+      "readiness": "high",
+      "status": "closed"
+    },
+    {
+      "slug": "operations",
+      "title": "Operations",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "description": "GitHub sync, runtime health and ops continuity.",
+      "remaining": 0,
+      "readiness": "high",
+      "status": "closed"
+    },
+    {
+      "slug": "deployment",
+      "title": "Deployment",
+      "progress": 84,
+      "stage": "BLOCKED_BY_PLAN",
+      "description": "External deployment path prepared; final hosting automation blocked by current plan.",
+      "remaining": 16,
+      "readiness": "building",
+      "status": "waiting"
+    },
+    {
+      "slug": "expansion",
+      "title": "Desktop + Mobile Expansion",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "description": "Desktop shell, mobile shell, workspace sync and notification bridge.",
+      "remaining": 0,
+      "readiness": "high",
+      "status": "closed"
+    },
+    {
+      "slug": "analytics",
+      "title": "Analytics + Client Intelligence",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "description": "Analytics center, client portal and operator intelligence.",
+      "remaining": 0,
+      "readiness": "high",
+      "status": "closed"
+    },
+    {
+      "slug": "simulation",
+      "title": "Backtest + Validation",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "description": "Signal hub, backtest lab, research studio and validation layer.",
+      "remaining": 0,
+      "readiness": "high",
+      "status": "closed"
+    }
+  ],
+  "blockers": [
+    "External GoDaddy deploy remains blocked by current hosting plan."
+  ],
+  "commands": [
+    "npm run tpm:master:once",
+    "npm run tpm:master",
+    "npm run tpm:analytics:once",
+    "npm run tpm:simulation:once",
+    "npm run tpm:intelligence:once",
+    "npm run tpm:prism:once",
+    "npm run tpm:prism",
+    "npm run tpm:sovereign:once",
+    "npm run tpm:sovereign",
+    "npm run tpm:sentinel:once",
+    "npm run tpm:sentinel",
+    "npm run tpm:quantum:once",
+    "npm run tpm:quantum",
+    "npm run tpm:helix:once",
+    "npm run tpm:helix",
+    "npm run tpm:omega:once",
+    "npm run tpm:omega",
+    "npm run tpm:executive:once",
+    "npm run tpm:executive",
+    "npm run tpm:vertex:once",
+    "npm run tpm:vertex",
+    "npm run tpm:federation:once",
+    "npm run tpm:federation",
+    "npm run tpm:learning:once",
+    "npm run tpm:learning",
+    "npm run tpm:horizon:once",
+    "npm run tpm:horizon",
+    "npm run tpm:nexus:once",
+    "npm run tpm:nexus",
+    "npm run tpm:meta:once",
+    "npm run tpm:meta",
+    "npm run tpm:constellation:once",
+    "npm run tpm:constellation",
+    "npm run tpm:navigator:once",
+    "npm run tpm:navigator",
+    "npm run tpm:runtimeops:once",
+    "npm run tpm:runtimeops",
+    "npm run tpm:vector:once",
+    "npm run tpm:vector",
+    "npm run tpm:observability:once",
+    "npm run tpm:observability"
+  ],
   "pages": [
-    "/fabric-core",
-    "/autonomy-grid",
-    "/release-memory",
+    "/master-control",
+    "/analytics-center",
+    "/client-portal",
+    "/operator-os",
+    "/signal-hub",
+    "/backtest-lab",
+    "/research-studio",
+    "/intelligence-center",
     "/prism-core",
     "/strategy-theater",
     "/integrity-hub",
@@ -34,59 +196,57 @@
     "/vertex-core",
     "/scenario-radar",
     "/control-memory",
-    "/pulse-grid",
-    "/chronicle-center",
-    "/launch-console",
+    "/federation-core",
+    "/operator-journal",
     "/learning-loop",
     "/route-arbitrator",
-    "/policy-studio"
-  ],
-  "commands": [
-    "npm run tpm:fabric:once",
-    "npm run tpm:fabric",
-    "npm run tpm:prism:once",
-    "npm run tpm:prism",
-    "npm run tpm:master:once",
-    "npm run tpm:sovereign:once",
-    "npm run tpm:sovereign",
-    "npm run tpm:sentinel:once",
-    "npm run tpm:sentinel",
-    "npm run tpm:quantum:once",
-    "npm run tpm:quantum",
-    "npm run tpm:helix:once",
-    "npm run tpm:helix",
-    "npm run tpm:omega:once",
-    "npm run tpm:omega",
-    "npm run tpm:executive:once",
-    "npm run tpm:executive",
-    "npm run tpm:vertex:once",
-    "npm run tpm:vertex",
-    "npm run tpm:pulse:once",
-    "npm run tpm:pulse",
-    "npm run tpm:learning:once",
-    "npm run tpm:learning"
+    "/policy-studio",
+    "/horizon-hub",
+    "/workspace-router",
+    "/evidence-vault",
+    "/nexus-core",
+    "/mission-ledger",
+    "/growth-radar",
+    "/meta-grid",
+    "/replay-library",
+    "/gatekeeper-panel",
+    "/constellation-core",
+    "/proof-engine",
+    "/runtime-registry",
+    "/navigator-core",
+    "/portfolio-simulator",
+    "/audit-stream",
+    "/connector-inspector",
+    "/env-doctor",
+    "/runtime-health",
+    "/vector-core",
+    "/policy-memory",
+    "/continuity-radar",
+    "/observability-core",
+    "/incident-center",
+    "/playbook-os"
   ],
   "nextWave": [
     {
-      "slug": "fabric-depth",
-      "title": "fabric depth",
-      "progress": 97,
+      "slug": "final-hardening",
+      "title": "final hardening",
+      "progress": 94,
       "stage": "ACTIVE",
-      "status": "strong"
+      "status": "building"
     },
     {
-      "slug": "autonomy-grid",
-      "title": "autonomy grid",
-      "progress": 97,
+      "slug": "launch-readiness",
+      "title": "launch readiness",
+      "progress": 95,
       "stage": "ACTIVE",
-      "status": "strong"
+      "status": "building"
     },
     {
-      "slug": "release-memory",
-      "title": "release memory",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
+      "slug": "deploy-switch",
+      "title": "deploy switch",
+      "progress": 70,
+      "stage": "WAITING_PLAN",
+      "status": "blocked"
     },
     {
       "slug": "prism-core",
@@ -257,22 +417,15 @@
       "status": "strong"
     },
     {
-      "slug": "pulse-grid",
-      "title": "pulse grid",
+      "slug": "federation-core",
+      "title": "federation core",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "chronicle-center",
-      "title": "chronicle center",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "launch-console",
-      "title": "launch console",
+      "slug": "operator-journal",
+      "title": "operator journal",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
@@ -297,87 +450,304 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "horizon-hub",
+      "title": "horizon hub",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "workspace-router",
+      "title": "workspace router",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "evidence-vault",
+      "title": "evidence vault",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "nexus-core",
+      "title": "nexus core",
+      "progress": 97,
+      "stage": "CLOSED",
+      "status": "closed"
+    },
+    {
+      "slug": "mission-ledger",
+      "title": "mission ledger",
+      "progress": 97,
+      "stage": "CLOSED",
+      "status": "closed"
+    },
+    {
+      "slug": "growth-radar",
+      "title": "growth radar",
+      "progress": 97,
+      "stage": "CLOSED",
+      "status": "closed"
+    },
+    {
+      "slug": "meta-grid",
+      "title": "meta grid",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "replay-library",
+      "title": "replay library",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "gatekeeper-panel",
+      "title": "gatekeeper panel",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "constellation-core",
+      "title": "constellation core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "proof-engine",
+      "title": "proof engine",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "runtime-registry",
+      "title": "runtime registry",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "navigator-core",
+      "title": "navigator core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "portfolio-simulator",
+      "title": "portfolio simulator",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "audit-stream",
+      "title": "audit stream",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "connector-inspector",
+      "title": "connector inspector",
+      "progress": 80,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "env-doctor",
+      "title": "env doctor",
+      "progress": 80,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "runtime-health",
+      "title": "runtime health",
+      "progress": 80,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "vector-core",
+      "title": "vector core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "policy-memory",
+      "title": "policy memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "continuity-radar",
+      "title": "continuity radar",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "observability-core",
+      "title": "observability core",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "incident-center",
+      "title": "incident center",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "playbook-os",
+      "title": "playbook os",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
-  "postCertificationFabric": {
-    "active": true,
-    "layer": "FABRIC_CORE",
-    "progress": 97,
-    "status": "ACTIVE",
-    "time": "2026-04-08T14:34:26.562Z"
-  },
+  "time": "2026-04-08T14:35:56.598Z",
+  "localCertified": true,
+  "releaseGate": "OPEN_LOCAL",
   "externalDeployBlocked": true,
-  "blockers": [
-    "External GoDaddy deploy remains blocked by current hosting plan."
-  ],
   "prismLayer": {
     "active": true,
     "layer": "PRISM_CORE_STRATEGY_THEATER_INTEGRITY_HUB",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T14:34:27.689Z"
+    "time": "2026-04-08T14:35:57.730Z"
   },
   "sovereignLayer": {
     "active": true,
     "layer": "SOVEREIGN_GRID_CONTINUITY_VAULT_COMMAND_NEXUS",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T14:34:28.883Z"
+    "time": "2026-04-08T14:35:58.944Z"
   },
   "sentinelLayer": {
     "active": true,
     "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
     "progress": 93,
     "status": "ACTIVE",
-    "time": "2026-04-08T14:34:29.898Z"
+    "time": "2026-04-08T14:35:59.960Z"
   },
   "quantumLayer": {
     "active": true,
     "layer": "QUANTUM_BOARD_GOVERNANCE_PULSE_SCENARIO_MEMORY",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T14:34:34.619Z"
+    "time": "2026-04-08T14:36:04.643Z"
   },
   "helixLayer": {
     "active": true,
     "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T14:34:37.493Z"
+    "time": "2026-04-08T14:36:07.559Z"
   },
   "omegaLayer": {
     "active": true,
     "layer": "OMEGA_CORE_RECOVERY_MATRIX_TRUST_CENTER",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T14:34:39.486Z"
+    "time": "2026-04-08T14:36:09.503Z"
   },
   "executiveLayer": {
     "active": true,
     "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
     "progress": 96,
     "status": "ACTIVE",
-    "time": "2026-04-08T14:34:41.396Z"
+    "time": "2026-04-08T14:36:11.456Z"
   },
   "vertexLayer": {
     "active": true,
     "layer": "VERTEX_CORE_SCENARIO_RADAR_CONTROL_MEMORY",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T14:34:41.841Z"
+    "time": "2026-04-08T14:36:11.911Z"
   },
-  "pulseLayer": {
+  "federationLayer": {
     "active": true,
-    "layer": "PULSE_GRID_CHRONICLE_CENTER_LAUNCH_CONSOLE",
+    "layer": "FEDERATION_CORE_SCENARIO_MEMORY_OPERATOR_JOURNAL",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T14:34:43.897Z"
+    "time": "2026-04-08T14:36:13.922Z"
   },
   "learningLayer": {
     "active": true,
     "layer": "LEARNING_LOOP_ROUTE_ARBITRATOR_POLICY_STUDIO",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T14:34:59.804Z"
+    "time": "2026-04-08T14:36:29.869Z"
+  },
+  "horizonLayer": {
+    "active": true,
+    "layer": "HORIZON_HUB_WORKSPACE_ROUTER_EVIDENCE_VAULT",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T14:36:37.560Z"
+  },
+  "globalExpansion": {
+    "active": true,
+    "layer": "NEXUS_CORE_MISSION_LEDGER_GROWTH_RADAR",
+    "progress": 97,
+    "status": "CLOSED_100",
+    "time": "2026-04-08T14:36:39.766Z"
+  },
+  "metaLayer": {
+    "active": true,
+    "layer": "META_GRID_REPLAY_LIBRARY_GATEKEEPER_PANEL",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T14:36:48.333Z"
+  },
+  "constellationLayer": {
+    "active": true,
+    "layer": "CONSTELLATION_CORE_PROOF_ENGINE_RUNTIME_REGISTRY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T14:36:49.196Z"
+  },
+  "navigatorLayer": {
+    "active": true,
+    "layer": "NAVIGATOR_CORE_PORTFOLIO_SIMULATOR_AUDIT_STREAM",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T14:36:52.332Z"
+  },
+  "runtimeOpsLayer": {
+    "active": true,
+    "layer": "CONNECTOR_INSPECTOR_ENV_DOCTOR_RUNTIME_HEALTH",
+    "progress": 80,
+    "status": "ACTIVE",
+    "time": "2026-04-08T14:37:00.545Z"
+  },
+  "vectorLayer": {
+    "active": true,
+    "layer": "VECTOR_CORE_POLICY_MEMORY_CONTINUITY_RADAR",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T14:37:01.389Z"
+  },
+  "observabilityLayer": {
+    "active": true,
+    "layer": "OBSERVABILITY_CORE_INCIDENT_CENTER_PLAYBOOK_OS",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T14:37:02.505Z"
   }
 }
