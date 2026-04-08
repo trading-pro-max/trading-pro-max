@@ -73,7 +73,19 @@
     "/deploy-freeze-wall",
     "/constellation-hub",
     "/scenario-exchange",
-    "/assurance-console"
+    "/assurance-console",
+    "/autopilot-center",
+    "/infinity-core",
+    "/autopilot-forge",
+    "/system-director",
+    "/kernel-os",
+    "/scenario-genome",
+    "/operator-memory",
+    "/quantum-hq",
+    "/revenue-cockpit",
+    "/partner-grid",
+    "/autonomy-factory",
+    "/client-command"
   ],
   "commands": [
     "npm run tpm:horizon:once",
@@ -120,7 +132,15 @@
     "npm run tpm:titan:once",
     "npm run tpm:titan",
     "npm run tpm:constellation:once",
-    "npm run tpm:constellation"
+    "npm run tpm:constellation",
+    "npm run tpm:autopilot:once",
+    "npm run tpm:autopilot",
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity",
+    "npm run tpm:kernel:once",
+    "npm run tpm:kernel",
+    "npm run tpm:quantum:once",
+    "npm run tpm:quantum"
   ],
   "nextWave": [
     {
@@ -591,6 +611,83 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "infinity-core",
+      "title": "infinity core",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autopilot-forge",
+      "title": "autopilot forge",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "system-director",
+      "title": "system director",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "kernel-os",
+      "title": "kernel os",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-genome",
+      "title": "scenario genome",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-memory",
+      "title": "operator memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "quantum-hq",
+      "title": "quantum hq",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "revenue-cockpit",
+      "title": "revenue cockpit",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "partner-grid",
+      "title": "partner grid",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomy-factory",
+      "title": "autonomy factory",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "client-command",
+      "title": "client command",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "horizonLayer": {
@@ -702,7 +799,13 @@
     "status": "ACTIVE",
     "time": "2026-04-08T23:10:45.220Z"
   },
-  "infinityContinuation": "ACTIVE",
+  "infinityContinuation": {
+    "active": true,
+    "status": "ACTIVE",
+    "layer": "QUANTUM_HQ",
+    "progress": 97,
+    "time": "2026-04-08T23:11:45.059Z"
+  },
   "prismLayer": {
     "active": true,
     "layer": "PRISM_CORE_MEMORY_MAP_EXECUTION_FORUM",
@@ -756,5 +859,80 @@
     "progress": 100,
     "status": "ACTIVE",
     "time": "2026-04-08T23:11:05.996Z"
+  },
+  "autopilot": {
+    "active": true,
+    "mode": "FULL_AUTO_LOCAL",
+    "cycle": 1,
+    "discoveredScripts": [
+      "tpm:agentmesh:once",
+      "tpm:ai:once",
+      "tpm:analytics:once",
+      "tpm:apex:once",
+      "tpm:atlas:once",
+      "tpm:broker:once",
+      "tpm:command:once",
+      "tpm:constellation:once",
+      "tpm:continuum:once",
+      "tpm:council:once",
+      "tpm:enterprise:once",
+      "tpm:executive:once",
+      "tpm:expansion:once",
+      "tpm:fabric:once",
+      "tpm:federation:once",
+      "tpm:final:once",
+      "tpm:governance:once",
+      "tpm:helix:once",
+      "tpm:horizon:once",
+      "tpm:hyper:once",
+      "tpm:infinity3:once",
+      "tpm:infinity7:once",
+      "tpm:infinity:once",
+      "tpm:intelligence:once",
+      "tpm:jump4:once",
+      "tpm:kernel:once",
+      "tpm:learning:once",
+      "tpm:market:once",
+      "tpm:meta:once",
+      "tpm:navigator:once",
+      "tpm:nexus:once",
+      "tpm:observability:once",
+      "tpm:omega:once",
+      "tpm:orchestrator:once",
+      "tpm:platform:once",
+      "tpm:prism:once",
+      "tpm:pulse:once",
+      "tpm:quantum:once",
+      "tpm:runtimeops:once",
+      "tpm:sentinel:once",
+      "tpm:simulation:once",
+      "tpm:sovereign:once",
+      "tpm:strategy:once",
+      "tpm:titan:once",
+      "tpm:vector:once",
+      "tpm:vertex:once",
+      "tpm:zenith:once",
+      "tpm:master:once"
+    ],
+    "successCount": 0,
+    "failedCount": 48,
+    "lastRunAt": "2026-04-08T23:11:26.211Z",
+    "status": "ACTIVE_WITH_ERRORS"
+  },
+  "infinityLayer": {
+    "active": true,
+    "layer": "INFINITY_CORE_AUTOPILOT_FORGE_SYSTEM_DIRECTOR",
+    "progress": 97,
+    "status": "ACTIVE",
+    "infiniteContinuation": true,
+    "time": "2026-04-08T23:11:30.432Z"
+  },
+  "kernelLayer": {
+    "active": true,
+    "layer": "KERNEL_OS_SCENARIO_GENOME_OPERATOR_MEMORY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "infinityContinuation": "ACTIVE",
+    "time": "2026-04-08T23:11:34.166Z"
   }
 }
