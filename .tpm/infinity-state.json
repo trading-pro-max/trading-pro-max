@@ -1,0 +1,10 @@
+﻿{
+    "ok":  true,
+    "mode":  "TPM_INFINITY_ACTIVE",
+    "local":  100,
+    "remaining":  0,
+    "infiniteContinuation":  "ACTIVE",
+    "status":  "BOOTING",
+    "cycleAt":  "2026-04-08T23:49:45",
+    "nextRunInSeconds":  90
+}
