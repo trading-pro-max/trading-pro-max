@@ -1,5 +1,20 @@
 [
   {
+    "cycle": 13,
+    "lastRunAt": "2026-04-08T13:12:48.178Z",
+    "successCount": 0,
+    "failedCount": 37,
+    "discoveredCount": 37,
+    "git": {
+      "addOk": true,
+      "commitOk": true,
+      "pushOk": true,
+      "changed": true,
+      "commitMessage": "tpm: autopilot cycle 13",
+      "pushOutput": "\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\nTo https://github.com/trading-pro-max/trading-pro-max.git\n   772208f6..afc567cd  main -> main\n"
+    }
+  },
+  {
     "cycle": 12,
     "lastRunAt": "2026-04-08T13:10:40.479Z",
     "successCount": 0,
