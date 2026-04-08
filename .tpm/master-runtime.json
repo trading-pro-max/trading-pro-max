@@ -130,7 +130,11 @@
     "npm run tpm:sentinel:once",
     "npm run tpm:sentinel",
     "npm run tpm:executive:once",
-    "npm run tpm:executive"
+    "npm run tpm:executive",
+    "npm run tpm:horizon:once",
+    "npm run tpm:horizon",
+    "npm run tpm:nexus:once",
+    "npm run tpm:nexus"
   ],
   "pages": [
     "/master-control",
@@ -146,7 +150,13 @@
     "/customer-success-hub",
     "/control-tower",
     "/capital-os",
-    "/execution-intelligence"
+    "/execution-intelligence",
+    "/horizon-hub",
+    "/workspace-router",
+    "/evidence-vault",
+    "/nexus-core",
+    "/mission-ledger",
+    "/growth-radar"
   ],
   "nextWave": [
     {
@@ -211,9 +221,51 @@
       "progress": 96,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "horizon-hub",
+      "title": "horizon hub",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "workspace-router",
+      "title": "workspace router",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "evidence-vault",
+      "title": "evidence vault",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "nexus-core",
+      "title": "nexus core",
+      "progress": 97,
+      "stage": "CLOSED",
+      "status": "closed"
+    },
+    {
+      "slug": "mission-ledger",
+      "title": "mission ledger",
+      "progress": 97,
+      "stage": "CLOSED",
+      "status": "closed"
+    },
+    {
+      "slug": "growth-radar",
+      "title": "growth radar",
+      "progress": 97,
+      "stage": "CLOSED",
+      "status": "closed"
     }
   ],
-  "time": "2026-04-08T10:55:22.865Z",
+  "time": "2026-04-08T10:56:52.892Z",
   "localCertified": true,
   "releaseGate": "OPEN_LOCAL",
   "sentinelLayer": {
@@ -221,13 +273,27 @@
     "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
     "progress": 93,
     "status": "ACTIVE",
-    "time": "2026-04-08T10:55:25.886Z"
+    "time": "2026-04-08T10:56:55.909Z"
   },
   "executiveLayer": {
     "active": true,
     "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
     "progress": 96,
     "status": "ACTIVE",
-    "time": "2026-04-08T10:55:37.714Z"
+    "time": "2026-04-08T10:57:07.740Z"
+  },
+  "horizonLayer": {
+    "active": true,
+    "layer": "HORIZON_HUB_WORKSPACE_ROUTER_EVIDENCE_VAULT",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T10:57:32.700Z"
+  },
+  "globalExpansion": {
+    "active": true,
+    "layer": "NEXUS_CORE_MISSION_LEDGER_GROWTH_RADAR",
+    "progress": 97,
+    "status": "CLOSED_100",
+    "time": "2026-04-08T10:57:35.619Z"
   }
 }
