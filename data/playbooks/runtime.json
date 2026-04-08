@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "books": [
+    {
+      "slug": "runtime-recovery",
+      "title": "Runtime Recovery",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-guard",
+      "title": "Risk Guard",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution-guard",
+      "title": "Execution Guard",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "platform-escalation",
+      "title": "Platform Escalation",
+      "score": 99,
+      "status": "strong"
+    }
+  ],
+  "metrics": {
+    "activePlaybooks": 14,
+    "protectedFlows": 20,
+    "replayableActions": 16,
+    "responseConfidence": 100
+  },
+  "time": "2026-04-08T11:03:58.376Z"
+}
