@@ -133,7 +133,17 @@
     "npm run tpm:sovereign:once",
     "npm run tpm:sovereign",
     "npm run tpm:sentinel:once",
-    "npm run tpm:sentinel"
+    "npm run tpm:sentinel",
+    "npm run tpm:quantum:once",
+    "npm run tpm:quantum",
+    "npm run tpm:helix:once",
+    "npm run tpm:helix",
+    "npm run tpm:omega:once",
+    "npm run tpm:omega",
+    "npm run tpm:executive:once",
+    "npm run tpm:executive",
+    "npm run tpm:vertex:once",
+    "npm run tpm:vertex"
   ],
   "pages": [
     "/master-control",
@@ -155,7 +165,22 @@
     "/command-nexus",
     "/sentinel-core",
     "/experiment-studio",
-    "/customer-success-hub"
+    "/customer-success-hub",
+    "/quantum-board",
+    "/governance-pulse",
+    "/scenario-memory",
+    "/helix-core",
+    "/signal-parliament",
+    "/resilience-deck",
+    "/omega-core",
+    "/recovery-matrix",
+    "/trust-center",
+    "/control-tower",
+    "/capital-os",
+    "/execution-intelligence",
+    "/vertex-core",
+    "/scenario-radar",
+    "/control-memory"
   ],
   "nextWave": [
     {
@@ -262,6 +287,111 @@
       "progress": 93,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "quantum-board",
+      "title": "quantum board",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "governance-pulse",
+      "title": "governance pulse",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-memory",
+      "title": "scenario memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "helix-core",
+      "title": "helix core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "signal-parliament",
+      "title": "signal parliament",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "resilience-deck",
+      "title": "resilience deck",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "omega-core",
+      "title": "omega core",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "recovery-matrix",
+      "title": "recovery matrix",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "trust-center",
+      "title": "trust center",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "control-tower",
+      "title": "control tower",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "capital-os",
+      "title": "capital os",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "execution-intelligence",
+      "title": "execution intelligence",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "vertex-core",
+      "title": "vertex core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-radar",
+      "title": "scenario radar",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "control-memory",
+      "title": "control memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T18:19:31.209Z",
@@ -295,5 +425,40 @@
     "progress": 93,
     "status": "ACTIVE",
     "time": "2026-04-08T18:19:35.709Z"
+  },
+  "quantumLayer": {
+    "active": true,
+    "layer": "QUANTUM_BOARD_GOVERNANCE_PULSE_SCENARIO_MEMORY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T18:19:40.485Z"
+  },
+  "helixLayer": {
+    "active": true,
+    "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T18:19:43.164Z"
+  },
+  "omegaLayer": {
+    "active": true,
+    "layer": "OMEGA_CORE_RECOVERY_MATRIX_TRUST_CENTER",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T18:19:44.820Z"
+  },
+  "executiveLayer": {
+    "active": true,
+    "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
+    "progress": 96,
+    "status": "ACTIVE",
+    "time": "2026-04-08T18:19:47.280Z"
+  },
+  "vertexLayer": {
+    "active": true,
+    "layer": "VERTEX_CORE_SCENARIO_RADAR_CONTROL_MEMORY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T18:19:47.328Z"
   }
 }
