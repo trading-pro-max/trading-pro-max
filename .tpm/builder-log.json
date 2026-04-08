@@ -1,5 +1,115 @@
 [
   {
+    "time": "2026-04-08T02:54:54.748Z",
+    "cycle": 47,
+    "activeModule": null,
+    "avgProgress": 100,
+    "avgReadiness": 100,
+    "closedModules": 2,
+    "totalModules": 2,
+    "autopilotIntegrated": true,
+    "finalizerIntegrated": true
+  },
+  {
+    "time": "2026-04-08T02:54:42.720Z",
+    "cycle": 46,
+    "activeModule": null,
+    "avgProgress": 100,
+    "avgReadiness": 100,
+    "closedModules": 2,
+    "totalModules": 2,
+    "autopilotIntegrated": true,
+    "finalizerIntegrated": true
+  },
+  {
+    "time": "2026-04-08T02:54:30.667Z",
+    "cycle": 45,
+    "activeModule": null,
+    "avgProgress": 100,
+    "avgReadiness": 100,
+    "closedModules": 2,
+    "totalModules": 2,
+    "autopilotIntegrated": true,
+    "finalizerIntegrated": true
+  },
+  {
+    "time": "2026-04-08T02:54:18.621Z",
+    "cycle": 44,
+    "activeModule": null,
+    "avgProgress": 100,
+    "avgReadiness": 100,
+    "closedModules": 2,
+    "totalModules": 2,
+    "autopilotIntegrated": true,
+    "finalizerIntegrated": true
+  },
+  {
+    "time": "2026-04-08T02:54:06.570Z",
+    "cycle": 43,
+    "activeModule": null,
+    "avgProgress": 100,
+    "avgReadiness": 100,
+    "closedModules": 2,
+    "totalModules": 2,
+    "autopilotIntegrated": true,
+    "finalizerIntegrated": true
+  },
+  {
+    "time": "2026-04-08T02:53:54.537Z",
+    "cycle": 42,
+    "activeModule": null,
+    "avgProgress": 100,
+    "avgReadiness": 100,
+    "closedModules": 2,
+    "totalModules": 2,
+    "autopilotIntegrated": true,
+    "finalizerIntegrated": true
+  },
+  {
+    "time": "2026-04-08T02:53:42.488Z",
+    "cycle": 41,
+    "activeModule": null,
+    "avgProgress": 100,
+    "avgReadiness": 100,
+    "closedModules": 2,
+    "totalModules": 2,
+    "autopilotIntegrated": true,
+    "finalizerIntegrated": true
+  },
+  {
+    "time": "2026-04-08T02:53:30.457Z",
+    "cycle": 40,
+    "activeModule": null,
+    "avgProgress": 100,
+    "avgReadiness": 100,
+    "closedModules": 2,
+    "totalModules": 2,
+    "autopilotIntegrated": true,
+    "finalizerIntegrated": true
+  },
+  {
+    "time": "2026-04-08T02:53:18.402Z",
+    "cycle": 39,
+    "activeModule": null,
+    "avgProgress": 100,
+    "avgReadiness": 100,
+    "closedModules": 2,
+    "totalModules": 2,
+    "autopilotIntegrated": true,
+    "finalizerIntegrated": true
+  },
+  {
+    "time": "2026-04-08T02:53:06.366Z",
+    "cycle": 38,
+    "activeModule": null,
+    "avgProgress": 100,
+    "avgReadiness": 100,
+    "closedModules": 2,
+    "totalModules": 2,
+    "autopilotIntegrated": true,
+    "finalizerIntegrated": true
+  },
+  {
     "time": "2026-04-08T02:52:54.298Z",
     "cycle": 37,
     "activeModule": null,
@@ -1092,86 +1202,5 @@
     "avgReadiness": 100,
     "closedModules": 2,
     "totalModules": 2
-  },
-  {
-    "time": "2026-04-08T01:50:07.880Z",
-    "cycle": 3,
-    "activeModule": null,
-    "avgProgress": 100,
-    "avgReadiness": 100,
-    "closedModules": 2,
-    "totalModules": 2
-  },
-  {
-    "time": "2026-04-08T01:49:55.866Z",
-    "cycle": 2,
-    "activeModule": null,
-    "avgProgress": 100,
-    "avgReadiness": 100,
-    "closedModules": 2,
-    "totalModules": 2
-  },
-  {
-    "time": "2026-04-08T01:49:43.859Z",
-    "cycle": 1,
-    "activeModule": null,
-    "avgProgress": 100,
-    "avgReadiness": 100,
-    "closedModules": 2,
-    "totalModules": 2
-  },
-  {
-    "time": "2026-04-08T01:45:20.754Z",
-    "cycle": 1,
-    "activeModule": {
-      "slug": "launchpad",
-      "title": "Launchpad",
-      "progress": 100,
-      "readiness": 100
-    },
-    "avgProgress": 100,
-    "avgReadiness": 100,
-    "closedModules": 2,
-    "totalModules": 2
-  },
-  {
-    "time": "2026-04-08T01:42:05.851Z",
-    "cycle": 1,
-    "activeModule": {
-      "slug": "launchpad",
-      "title": "Launchpad",
-      "progress": 96,
-      "readiness": 100
-    },
-    "avgProgress": 98,
-    "avgReadiness": 100,
-    "closedModules": 1,
-    "totalModules": 2
-  },
-  {
-    "time": "2026-04-08T01:37:30.279Z",
-    "cycle": 1,
-    "activeModule": {
-      "slug": "launchpad",
-      "title": "Launchpad",
-      "progress": 92,
-      "readiness": 98
-    },
-    "avgProgress": 96,
-    "avgReadiness": 99,
-    "closedModules": 1,
-    "totalModules": 2
-  },
-  {
-    "time": "2026-04-08T01:30:13.943Z",
-    "error": "Missing valid .tpm/manifest.json"
-  },
-  {
-    "time": "2026-04-08T01:28:01.494Z",
-    "error": "Missing valid .tpm/manifest.json"
-  },
-  {
-    "time": "2026-04-08T01:25:54.268Z",
-    "error": "Missing valid .tpm/manifest.json"
   }
 ]
