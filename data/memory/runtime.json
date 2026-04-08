@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "segments": [
+    {
+      "slug": "research",
+      "title": "Research Memory",
+      "density": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "runtime",
+      "title": "Runtime Memory",
+      "density": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "market",
+      "title": "Market Memory",
+      "density": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "governance",
+      "title": "Governance Memory",
+      "density": 99,
+      "status": "strong"
+    }
+  ],
+  "maps": {
+    "trackedRuntimes": 14,
+    "trackedPages": 27,
+    "trackedLoops": 9,
+    "trackedStores": 11
+  },
+  "time": "2026-04-08T10:14:08.546Z"
+}
