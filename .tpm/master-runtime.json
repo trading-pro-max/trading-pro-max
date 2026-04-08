@@ -8,7 +8,8 @@
   "finalReadiness": "ready-local-100",
   "externalDeployBlocked": true,
   "blockers": [
-    "External GoDaddy deploy remains blocked by current hosting plan."
+    "GoDaddy SFTP credentials are not filled yet.",
+    "External deploy remains constrained by current hosting plan."
   ],
   "pages": [
     "/atlas-mesh",
@@ -16,14 +17,44 @@
     "/runtime-theater",
     "/connector-inspector",
     "/env-doctor",
-    "/runtime-health"
+    "/runtime-health",
+    "/omega-core",
+    "/recovery-matrix",
+    "/trust-center",
+    "/agent-mesh",
+    "/memory-os",
+    "/growth-engine",
+    "/fabric-core",
+    "/autonomy-grid",
+    "/release-memory",
+    "/control-tower",
+    "/capital-os",
+    "/execution-intelligence",
+    "/revenue-os",
+    "/compliance-ledger",
+    "/ops-replay",
+    "/api-gateway",
+    "/integration-hub",
+    "/lifecycle-os"
   ],
   "commands": [
     "npm run tpm:atlas:once",
     "npm run tpm:atlas",
     "npm run tpm:master:once",
     "npm run tpm:runtimeops:once",
-    "npm run tpm:runtimeops"
+    "npm run tpm:runtimeops",
+    "npm run tpm:omega:once",
+    "npm run tpm:omega",
+    "npm run tpm:agentmesh:once",
+    "npm run tpm:agentmesh",
+    "npm run tpm:fabric:once",
+    "npm run tpm:fabric",
+    "npm run tpm:executive:once",
+    "npm run tpm:executive",
+    "npm run tpm:enterprise:once",
+    "npm run tpm:enterprise",
+    "npm run tpm:platform:once",
+    "npm run tpm:platform"
   ],
   "nextWave": [
     {
@@ -67,6 +98,111 @@
       "progress": 80,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "agent-mesh-depth",
+      "title": "agent mesh depth",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-os",
+      "title": "memory os",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "growth-engine",
+      "title": "growth engine",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "fabric-depth",
+      "title": "fabric depth",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomy-grid",
+      "title": "autonomy grid",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "release-memory",
+      "title": "release memory",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "control-tower",
+      "title": "control tower",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "capital-os",
+      "title": "capital os",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "execution-intelligence",
+      "title": "execution intelligence",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "revenue-os",
+      "title": "revenue os",
+      "progress": 89,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "compliance-ledger",
+      "title": "compliance ledger",
+      "progress": 89,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "ops-replay",
+      "title": "ops replay",
+      "progress": 89,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "api-gateway",
+      "title": "api gateway",
+      "progress": 83,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "integration-hub",
+      "title": "integration hub",
+      "progress": 83,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "lifecycle-os",
+      "title": "lifecycle os",
+      "progress": 83,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "atlasLayer": {
@@ -82,5 +218,46 @@
     "progress": 80,
     "status": "ACTIVE",
     "time": "2026-04-08T21:54:07.612Z"
+  },
+  "runtimeDepth": {
+    "active": 15,
+    "expected": 16,
+    "status": "CLOSED_100"
+  },
+  "time": "2026-04-08T21:54:36.392Z",
+  "postCertification": {
+    "active": true,
+    "layer": "AGENT_MESH_EXPANSION",
+    "progress": 96,
+    "status": "ACTIVE",
+    "time": "2026-04-08T21:54:41.822Z"
+  },
+  "postCertificationFabric": {
+    "active": true,
+    "layer": "FABRIC_CORE",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T21:54:42.729Z"
+  },
+  "executiveLayer": {
+    "active": true,
+    "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
+    "progress": 96,
+    "status": "ACTIVE",
+    "time": "2026-04-08T21:54:43.726Z"
+  },
+  "enterpriseLayer": {
+    "active": true,
+    "layer": "REVENUE_OS_COMPLIANCE_LEDGER_OPS_REPLAY",
+    "progress": 89,
+    "status": "ACTIVE",
+    "time": "2026-04-08T21:54:44.635Z"
+  },
+  "platformLayer": {
+    "active": true,
+    "layer": "API_GATEWAY_INTEGRATION_HUB_LIFECYCLE_OS",
+    "progress": 83,
+    "status": "ACTIVE",
+    "time": "2026-04-08T21:54:45.572Z"
   }
 }
