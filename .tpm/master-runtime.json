@@ -63,7 +63,10 @@
     "/runtime-health",
     "/autopilot-center",
     "/scenario-router",
-    "/assurance-wall"
+    "/assurance-wall",
+    "/zenith-core",
+    "/memory-cartography",
+    "/runtime-charter"
   ],
   "commands": [
     "npm run tpm:jump4:once",
@@ -102,7 +105,9 @@
     "npm run tpm:runtimeops:once",
     "npm run tpm:runtimeops",
     "npm run tpm:autopilot:once",
-    "npm run tpm:autopilot"
+    "npm run tpm:autopilot",
+    "npm run tpm:zenith:once",
+    "npm run tpm:zenith"
   ],
   "nextWave": [
     {
@@ -468,6 +473,27 @@
       "progress": 93,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "zenith-core",
+      "title": "zenith core",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-cartography",
+      "title": "memory cartography",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "runtime-charter",
+      "title": "runtime charter",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "jump4": {
@@ -645,13 +671,21 @@
   "infinityVectorLayer": {
     "active": true,
     "layer": "VECTOR_CORE_SCENARIO_ROUTER_ASSURANCE_WALL",
-    "progress": 93,
+    "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T20:58:56.321Z"
+    "time": "2026-04-08T20:58:57.786Z"
   },
   "runtimeDepth": {
     "active": 15,
     "expected": 16,
     "status": "CLOSED_100"
+  },
+  "infinitySystem": {
+    "active": true,
+    "jump": 7,
+    "layer": "ZENITH_CORE_MEMORY_CARTOGRAPHY_RUNTIME_CHARTER",
+    "progress": 100,
+    "status": "ACTIVE",
+    "mode": "POST_CLOSURE_INFINITY",
+    "time": "2026-04-08T20:59:29.909Z"
   }
-}

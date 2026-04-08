@@ -1,35 +1,34 @@
 {
   "ok": true,
-  "mode": "TPM_VECTOR_ACTIVE",
+  "mode": "TPM_ZENITH_ACTIVE",
   "overallProgress": 100,
   "completed": 100,
   "remaining": 0,
   "domains": {
-    "vector": 100,
-    "scenarios": 100,
-    "assurance": 100,
+    "zenith": 100,
+    "cartography": 100,
+    "charter": 100,
     "proof": 100,
     "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "vector-density",
-      "title": "vector density",
+      "slug": "zenith-density",
+      "title": "zenith density",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "scenario-routing",
-      "title": "scenario routing",
+      "slug": "memory-cartography",
+      "title": "memory cartography",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "assurance-strength",
-      "title": "assurance strength",
+      "slug": "runtime-charter",
+      "title": "runtime charter",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T20:58:57.780Z"
-}
+  "time": "2026-04-08T20:59:29.

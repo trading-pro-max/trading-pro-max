@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "maps": [
+    {
+      "slug": "research-map",
+      "title": "Research Map",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "runtime-map",
+      "title": "Runtime Map",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-map",
+      "title": "Evidence Map",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-map",
+      "title": "Growth Map",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedMaps": 20,
+    "replayableKnowledge": 18,
+    "protectedMemories": 22,
+    "cartographyConfidence": 100
+  },
+  "time": "2026-04-08T20:59:29.903Z"
+}

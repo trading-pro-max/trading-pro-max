@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "pillars": [
+    {
+      "slug": "runtime-zenith",
+      "title": "Runtime Zenith",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "memory-zenith",
+      "title": "Memory Zenith",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "charter-zenith",
+      "title": "Charter Zenith",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-zenith",
+      "title": "Trust Zenith",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activePillars": 4,
+    "linkedLayers": 24,
+    "governedArtifacts": 26,
+    "zenithConfidence": 100
+  },
+  "time": "2026-04-08T20:59:29.901Z"
+}
