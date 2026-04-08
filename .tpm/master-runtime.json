@@ -147,7 +147,9 @@
     "npm run tpm:pulse:once",
     "npm run tpm:pulse",
     "npm run tpm:federation:once",
-    "npm run tpm:federation"
+    "npm run tpm:federation",
+    "npm run tpm:learning:once",
+    "npm run tpm:learning"
   ],
   "pages": [
     "/master-control",
@@ -189,7 +191,10 @@
     "/chronicle-center",
     "/launch-console",
     "/federation-core",
-    "/operator-journal"
+    "/operator-journal",
+    "/learning-loop",
+    "/route-arbitrator",
+    "/policy-studio"
   ],
   "nextWave": [
     {
@@ -436,6 +441,27 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "learning-loop",
+      "title": "learning loop",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "route-arbitrator",
+      "title": "route arbitrator",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "policy-studio",
+      "title": "policy studio",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T18:15:01.114Z",
@@ -518,5 +544,12 @@
     "progress": 100,
     "status": "ACTIVE",
     "time": "2026-04-08T18:15:19.421Z"
+  },
+  "learningLayer": {
+    "active": true,
+    "layer": "LEARNING_LOOP_ROUTE_ARBITRATOR_POLICY_STUDIO",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T18:15:35.717Z"
   }
 }
