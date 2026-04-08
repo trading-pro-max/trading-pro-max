@@ -99,7 +99,9 @@
     "npm run tpm:governance:once",
     "npm run tpm:broker:once",
     "npm run tpm:command:once",
-    "npm run tpm:market:once"
+    "npm run tpm:market:once",
+    "npm run tpm:agentmesh:once",
+    "npm run tpm:agentmesh"
   ],
   "pages": [
     "/master-control",
@@ -111,7 +113,10 @@
     "/config-center",
     "/broker-bridge",
     "/live-ops",
-    "/decision-engine"
+    "/decision-engine",
+    "/agent-mesh",
+    "/memory-os",
+    "/growth-engine"
   ],
   "nextWave": [
     {
@@ -131,10 +136,4 @@
     {
       "slug": "hosting-switch",
       "title": "hosting switch",
-      "progress": 70,
-      "stage": "WAITING_PLAN",
-      "status": "blocked"
-    }
-  ],
-  "time": "2026-04-08T10:14:08.150Z"
-}
+      
