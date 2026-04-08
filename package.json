@@ -32,7 +32,8 @@
     "tpm:master:start": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-master-start.ps1",
     "tpm:master:stop": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-master-stop.ps1",
     "tpm:master:status": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-master-status.ps1",
-    "tpm:prodprep": "node ./scripts/tpm-prod-prep.mjs"
+    "tpm:prodprep": "node ./scripts/tpm-prod-prep.mjs",
+    "tpm:remote": "node ./scripts/tpm-remote-run.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

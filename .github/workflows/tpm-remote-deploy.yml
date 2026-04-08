@@ -1,0 +1,27 @@
+﻿name: tpm-remote-deploy
+
+on:
+  workflow_dispatch:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify production pack
+        run: |
+          test -f Dockerfile
+          test -f docker-compose.production.yml
+          test -f ops/nginx/default.conf
+          test -f ops/deploy/deploy.ps1
+          test -f ops/deploy/rollback.ps1
+          test -f .env.production.example
+          echo "TPM remote deployment pack verified"
+
+  deploy:
+    needs: verify
+    if: ${{ secrets.PROD_HOST != '' && secrets.PROD_USER != '' && secrets.PROD_SSH_KEY != '' && secrets.PROD_PATH != '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Remote deployment gate
+        run: echo "Remote deployment can run when real secrets are configured."

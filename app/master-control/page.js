@@ -13,7 +13,6 @@ function box() {
 export default function MasterControlPage() {
   const data = getMasterStatus();
   const c = card();
-  const b = box();
   const s = data.global.stages;
 
   return (
@@ -27,32 +26,20 @@ export default function MasterControlPage() {
           </div>
         </div>
 
-        <div style={{ display:"grid", gridTemplateColumns:"repeat(5,minmax(0,1fr))", gap:16 }}>
-          <div style={c}><div style={{ color:"#94a3b8", fontSize:12 }}>Build</div><div style={{ fontSize:28, fontWeight:900, marginTop:6 }}>{data.global.buildProgress}%</div></div>
-          <div style={c}><div style={{ color:"#94a3b8", fontSize:12 }}>Production</div><div style={{ fontSize:28, fontWeight:900, marginTop:6 }}>{s.productionPromotion.progress}%</div></div>
-          <div style={c}><div style={{ color:"#94a3b8", fontSize:12 }}>Trading</div><div style={{ fontSize:28, fontWeight:900, marginTop:6 }}>{s.realTrading.progress}%</div></div>
-          <div style={c}><div style={{ color:"#94a3b8", fontSize:12 }}>Product</div><div style={{ fontSize:28, fontWeight:900, marginTop:6 }}>{s.productSurface.progress}%</div></div>
-          <div style={c}><div style={{ color:"#94a3b8", fontSize:12 }}>Launch</div><div style={{ fontSize:28, fontWeight:900, marginTop:6 }}>{s.launchReadiness.progress}%</div></div>
-        </div>
-
-        <div style={c}>
-          <div style={{ fontSize:22, fontWeight:900, marginBottom:12 }}>Central Stages</div>
-          <div style={{ display:"grid", gridTemplateColumns:"repeat(4,minmax(0,1fr))", gap:12 }}>
-            {[
-              ["Production Promotion", s.productionPromotion],
-              ["Real Trading", s.realTrading],
-              ["Product Surface", s.productSurface],
-              ["Launch Readiness", s.launchReadiness]
-            ].map(([name, value]) => (
-              <div key={name} style={b}>
-                <div style={{ display:"flex", justifyContent:"space-between", gap:10 }}>
-                  <div style={{ fontWeight:900 }}>{name}</div>
-                  <div style={{ color:value.closed ? "#22c55e" : "#f59e0b", fontWeight:900 }}>{value.closed ? "CLOSED" : "OPEN"}</div>
-                </div>
-                <div style={{ marginTop:8, color:"#cbd5e1" }}>{value.progress}%</div>
-              </div>
-            ))}
-          </div>
+        <div style={{ display:"grid", gridTemplateColumns:"repeat(6,minmax(0,1fr))", gap:16 }}>
+          {[
+            ["Build", data.global.buildProgress],
+            ["Production", s.productionPromotion.progress],
+            ["Trading", s.realTrading.progress],
+            ["Product", s.productSurface.progress],
+            ["Launch", s.launchReadiness.progress],
+            ["Remote", s.remotePromotion.progress]
+          ].map(([name, value]) => (
+            <div key={name} style={c}>
+              <div style={{ color:"#94a3b8", fontSize:12 }}>{name}</div>
+              <div style={{ fontSize:28, fontWeight:900, marginTop:6 }}>{value}%</div>
+            </div>
+          ))}
         </div>
       </div>
     </main>
