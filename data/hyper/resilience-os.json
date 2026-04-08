@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "cores": [
+    {
+      "slug": "recovery",
+      "title": "Recovery Core",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "rollback",
+      "title": "Rollback Core",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity",
+      "title": "Continuity Core",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence",
+      "title": "Evidence Core",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "replayCoverage": 100,
+    "recoveryCoverage": 100,
+    "trustCoverage": 100,
+    "resilienceConfidence": 100
+  },
+  "time": "2026-04-08T22:52:16.949Z"
+}

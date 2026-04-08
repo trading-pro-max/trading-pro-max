@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "bastions": [
+    {
+      "slug": "billing",
+      "title": "Billing Bastion",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "revenue",
+      "title": "Revenue Bastion",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital",
+      "title": "Capital Bastion",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "retention",
+      "title": "Retention Bastion",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "guardedRevenue": 100,
+    "cashClarity": 100,
+    "capitalDiscipline": 100,
+    "expansionStrength": 100
+  },
+  "time": "2026-04-08T22:52:16.949Z"
+}

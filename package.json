@@ -130,7 +130,9 @@
     "tpm:kernel:once": "node ./lib/tpm-kernel-core.mjs",
     "tpm:kernel": "node ./scripts/tpm-kernel-loop.mjs",
     "tpm:titan:once": "node ./lib/tpm-titan-core.mjs",
-    "tpm:titan": "node ./scripts/tpm-titan-loop.mjs"
+    "tpm:titan": "node ./scripts/tpm-titan-loop.mjs",
+    "tpm:hyper:once": "node ./lib/tpm-hyper-core.mjs",
+    "tpm:hyper": "node ./scripts/tpm-hyper-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

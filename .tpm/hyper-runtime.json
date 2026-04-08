@@ -1,0 +1,46 @@
+{
+  "ok": true,
+  "mode": "TPM_HYPER_ACTIVE",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "domains": {
+    "hyper": 100,
+    "galaxy": 100,
+    "fortress": 100,
+    "resilience": 100,
+    "warroom": 100
+  },
+  "nextWave": [
+    {
+      "slug": "hyper-density",
+      "title": "hyper density",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "galaxy-unification",
+      "title": "galaxy unification",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "fortress-lock",
+      "title": "fortress lock",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "resilience-lock",
+      "title": "resilience lock",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "warroom-clarity",
+      "title": "warroom clarity",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-08T22:52

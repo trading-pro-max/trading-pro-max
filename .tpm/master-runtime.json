@@ -163,7 +163,19 @@
     "npm run tpm:enterprise:once",
     "npm run tpm:enterprise",
     "npm run tpm:runtimeops:once",
-    "npm run tpm:runtimeops"
+    "npm run tpm:runtimeops",
+    "npm run tpm:prism:once",
+    "npm run tpm:prism",
+    "npm run tpm:titan:once",
+    "npm run tpm:titan",
+    "npm run tpm:constellation:once",
+    "npm run tpm:constellation",
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity",
+    "npm run tpm:kernel:once",
+    "npm run tpm:kernel",
+    "npm run tpm:hyper:once",
+    "npm run tpm:hyper"
   ],
   "pages": [
     "/master-control",
@@ -228,7 +240,28 @@
     "/ops-replay",
     "/connector-inspector",
     "/env-doctor",
-    "/runtime-health"
+    "/runtime-health",
+    "/prism-core",
+    "/memory-map",
+    "/execution-forum",
+    "/titan-core",
+    "/war-room",
+    "/infinity-matrix",
+    "/memory-citadel",
+    "/constellation-hub",
+    "/scenario-exchange",
+    "/assurance-console",
+    "/infinity-core",
+    "/autonomous-foundry",
+    "/global-command-lattice",
+    "/kernel-os",
+    "/scenario-genome",
+    "/operator-memory",
+    "/hyper-core",
+    "/operator-galaxy",
+    "/revenue-fortress",
+    "/resilience-os",
+    "/launch-war-room"
   ],
   "nextWave": [
     {
@@ -636,6 +669,153 @@
       "progress": 80,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "prism-core",
+      "title": "prism core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-map",
+      "title": "memory map",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "execution-forum",
+      "title": "execution forum",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "titan-core",
+      "title": "titan core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "war-room",
+      "title": "war room",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "infinity-matrix",
+      "title": "infinity matrix",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-citadel",
+      "title": "memory citadel",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "constellation-hub",
+      "title": "constellation hub",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-exchange",
+      "title": "scenario exchange",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "assurance-console",
+      "title": "assurance console",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "infinity-core",
+      "title": "infinity core",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomous-foundry",
+      "title": "autonomous foundry",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "global-command-lattice",
+      "title": "global command lattice",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "kernel-os",
+      "title": "kernel os",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-genome",
+      "title": "scenario genome",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-memory",
+      "title": "operator memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "hyper-core",
+      "title": "hyper core",
+      "progress": 83,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-galaxy",
+      "title": "operator galaxy",
+      "progress": 83,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "revenue-fortress",
+      "title": "revenue fortress",
+      "progress": 83,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "resilience-os",
+      "title": "resilience os",
+      "progress": 83,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "launch-war-room",
+      "title": "launch war room",
+      "progress": 83,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T22:51:08.559Z",
@@ -776,5 +956,69 @@
     "progress": 80,
     "status": "ACTIVE",
     "time": "2026-04-08T22:51:09.502Z"
+  },
+  "infinityContinuation": {
+    "active": true,
+    "mode": "LOCAL_100_CONTINUOUS",
+    "layer": "INFINITY_CORE_AUTONOMOUS_FOUNDRY_GLOBAL_COMMAND_LATTICE",
+    "progress": 97,
+    "layerDepth": 25,
+    "status": "ACTIVE",
+    "time": "2026-04-08T22:51:48.816Z"
+  },
+  "prismLayer": {
+    "active": true,
+    "layer": "PRISM_CORE_MEMORY_MAP_EXECUTION_FORUM",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T22:51:16.074Z"
+  },
+  "titanLayer": {
+    "active": true,
+    "layer": "TITAN_CORE_WAR_ROOM_INFINITY_MATRIX_MEMORY_CITADEL",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T22:51:17.350Z"
+  },
+  "infinityPostClosure": {
+    "active": true,
+    "mode": "LOCAL_100_CONTINUATION",
+    "status": "ACTIVE",
+    "continuity": 100,
+    "precision": 100,
+    "time": "2026-04-08T22:51:17.350Z"
+  },
+  "runtimeDepth": {
+    "active": 15,
+    "expected": 16,
+    "status": "CLOSED_100"
+  },
+  "constellationLayer": {
+    "active": true,
+    "layer": "CONSTELLATION_HUB_SCENARIO_EXCHANGE_ASSURANCE_CONSOLE",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T22:51:35.514Z"
+  },
+  "kernelLayer": {
+    "active": true,
+    "layer": "KERNEL_OS_SCENARIO_GENOME_OPERATOR_MEMORY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "infinityContinuation": "ACTIVE",
+    "time": "2026-04-08T22:52:03.720Z"
+  },
+  "hyperLayer": {
+    "active": true,
+    "layer": "HYPER_CORE_OPERATOR_GALAXY_REVENUE_FORTRESS_RESILIENCE_OS_LAUNCH_WAR_ROOM",
+    "progress": 83,
+    "status": "ACTIVE",
+    "time": "2026-04-08T22:52:15.541Z"
+  },
+  "runtimeExpansion": {
+    "active": true,
+    "modules": 5,
+    "status": "ACTIVE",
+    "time": "2026-04-08T22:52:15.541Z"
   }
 }
