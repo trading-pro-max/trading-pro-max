@@ -1,13 +1,13 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 91,
-  "completed": 91,
-  "remaining": 9,
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
   "domains": {
-    "fabric": 83,
-    "memory": 86,
-    "throne": 86,
+    "fabric": 100,
+    "memory": 100,
+    "throne": 100,
     "proof": 100,
     "continuity": 100
   },
@@ -15,21 +15,21 @@
     {
       "slug": "fabric-density",
       "title": "fabric density",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "chronicle-depth",
       "title": "chronicle depth",
-      "progress": 86,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "throne-stability",
       "title": "throne stability",
-      "progress": 86,
+      "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T19:20:12.162Z"
+  "time": "2026-04-08T19:20:13.676Z"
 }
