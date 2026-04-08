@@ -8,11 +8,11 @@ if (!(Test-Path $pidFile)) {
   exit
 }
 
-$pid = Get-Content $pidFile -ErrorAction SilentlyContinue
-if ($pid) {
+$builderPid = Get-Content $pidFile -ErrorAction SilentlyContinue
+if ($builderPid) {
   try {
-    Get-Process -Id $pid -ErrorAction Stop | Stop-Process -Force
-    Write-Host "TPM_BUILDER_STOPPED PID=$pid"
+    Get-Process -Id $builderPid -ErrorAction Stop | Stop-Process -Force
+    Write-Host "TPM_BUILDER_STOPPED PID=$builderPid"
   } catch {
     Write-Host "TPM_BUILDER_PID_STALE"
   }

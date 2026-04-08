@@ -1,18 +1,13 @@
 {
   "running": true,
-  "cycle": 1,
-  "startedAt": "2026-04-08T01:45:20.748Z",
-  "lastRunAt": "2026-04-08T01:45:20.753Z",
+  "cycle": 3,
+  "startedAt": "2026-04-08T01:49:43.842Z",
+  "lastRunAt": "2026-04-08T01:50:07.879Z",
   "avgProgress": 100,
   "avgReadiness": 100,
   "closedModules": 2,
   "totalModules": 2,
-  "activeModule": {
-    "slug": "launchpad",
-    "title": "Launchpad",
-    "progress": 100,
-    "readiness": 100
-  },
+  "activeModule": null,
   "buildOk": true,
   "validateOk": true
 }

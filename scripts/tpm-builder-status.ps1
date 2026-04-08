@@ -5,7 +5,8 @@ $pidFile = ".\.tpm\builder.pid"
 $statusFile = ".\.tpm\builder-status.json"
 
 if (Test-Path $pidFile) {
-  Write-Host "PID=$(Get-Content $pidFile -ErrorAction SilentlyContinue)"
+  $builderPid = Get-Content $pidFile -ErrorAction SilentlyContinue
+  Write-Host "PID=$builderPid"
 } else {
   Write-Host "PID=NONE"
 }

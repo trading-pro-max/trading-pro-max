@@ -1,5 +1,17 @@
 [
   {
+    "id": "SNAP-OCKIK3PQ",
+    "label": "builder-cycle-3",
+    "createdAt": "2026-04-08T01:50:07.884Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
     "id": "SNAP-K01CPR40",
     "label": "self-heal",
     "createdAt": "2026-04-08T01:45:20.005Z",
