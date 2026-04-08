@@ -6,172 +6,72 @@
   "localCertified": true,
   "releaseGate": "OPEN_LOCAL",
   "finalReadiness": "ready-local-100",
+  "externalDeployBlocked": true,
+  "blockers": [
+    "External GoDaddy deploy remains blocked by current hosting plan."
+  ],
   "pages": [
-    "/observability-core",
-    "/incident-center",
-    "/playbook-os",
-    "/vector-core",
-    "/policy-memory",
-    "/continuity-radar",
-    "/horizon-hub",
-    "/workspace-router",
-    "/evidence-vault",
-    "/sentinel-core",
-    "/experiment-studio",
-    "/customer-success-hub",
-    "/constellation-core",
-    "/proof-engine",
-    "/runtime-registry",
-    "/nexus-core",
-    "/mission-ledger",
-    "/growth-radar",
+    "/atlas-mesh",
+    "/decision-archive",
+    "/runtime-theater",
+    "/quantum-board",
+    "/governance-pulse",
+    "/scenario-memory",
     "/connector-inspector",
     "/env-doctor",
     "/runtime-health"
   ],
   "commands": [
-    "npm run tpm:observability:once",
-    "npm run tpm:observability",
+    "npm run tpm:atlas:once",
+    "npm run tpm:atlas",
     "npm run tpm:master:once",
-    "npm run tpm:vector:once",
-    "npm run tpm:vector",
-    "npm run tpm:horizon:once",
-    "npm run tpm:horizon",
-    "npm run tpm:sentinel:once",
-    "npm run tpm:sentinel",
-    "npm run tpm:constellation:once",
-    "npm run tpm:constellation",
-    "npm run tpm:nexus:once",
-    "npm run tpm:nexus",
+    "npm run tpm:quantum:once",
+    "npm run tpm:quantum",
     "npm run tpm:runtimeops:once",
     "npm run tpm:runtimeops"
   ],
   "nextWave": [
     {
-      "slug": "observability-core",
-      "title": "observability core",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "incident-center",
-      "title": "incident center",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "playbook-os",
-      "title": "playbook os",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "vector-core",
-      "title": "vector core",
+      "slug": "atlas-mesh",
+      "title": "atlas mesh",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "policy-memory",
-      "title": "policy memory",
+      "slug": "decision-archive",
+      "title": "decision archive",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "continuity-radar",
-      "title": "continuity radar",
+      "slug": "runtime-theater",
+      "title": "runtime theater",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "horizon-hub",
-      "title": "horizon hub",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "workspace-router",
-      "title": "workspace router",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "evidence-vault",
-      "title": "evidence vault",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "sentinel-core",
-      "title": "sentinel core",
-      "progress": 93,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "experiment-studio",
-      "title": "experiment studio",
-      "progress": 93,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "customer-success-hub",
-      "title": "customer success hub",
-      "progress": 93,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "constellation-core",
-      "title": "constellation core",
+      "slug": "quantum-board",
+      "title": "quantum board",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "proof-engine",
-      "title": "proof engine",
+      "slug": "governance-pulse",
+      "title": "governance pulse",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "runtime-registry",
-      "title": "runtime registry",
+      "slug": "scenario-memory",
+      "title": "scenario memory",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
-    },
-    {
-      "slug": "nexus-core",
-      "title": "nexus core",
-      "progress": 97,
-      "stage": "CLOSED",
-      "status": "closed"
-    },
-    {
-      "slug": "mission-ledger",
-      "title": "mission ledger",
-      "progress": 97,
-      "stage": "CLOSED",
-      "status": "closed"
-    },
-    {
-      "slug": "growth-radar",
-      "title": "growth radar",
-      "progress": 97,
-      "stage": "CLOSED",
-      "status": "closed"
     },
     {
       "slug": "connector-inspector",
@@ -195,57 +95,25 @@
       "status": "strong"
     }
   ],
-  "observabilityLayer": {
+  "atlasLayer": {
     "active": true,
-    "layer": "OBSERVABILITY_CORE_INCIDENT_CENTER_PLAYBOOK_OS",
-    "progress": 97,
-    "status": "ACTIVE",
-    "time": "2026-04-08T19:11:14.191Z"
-  },
-  "externalDeployBlocked": true,
-  "blockers": [
-    "External GoDaddy deploy remains blocked by current hosting plan."
-  ],
-  "vectorLayer": {
-    "active": true,
-    "layer": "VECTOR_CORE_POLICY_MEMORY_CONTINUITY_RADAR",
+    "layer": "ATLAS_MESH_DECISION_ARCHIVE_RUNTIME_THEATER",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T19:11:14.217Z"
+    "time": "2026-04-08T19:12:44.592Z"
   },
-  "horizonLayer": {
+  "quantumLayer": {
     "active": true,
-    "layer": "HORIZON_HUB_WORKSPACE_ROUTER_EVIDENCE_VAULT",
-    "progress": 97,
-    "status": "ACTIVE",
-    "time": "2026-04-08T19:11:14.379Z"
-  },
-  "sentinelLayer": {
-    "active": true,
-    "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
-    "progress": 93,
-    "status": "ACTIVE",
-    "time": "2026-04-08T19:11:14.420Z"
-  },
-  "constellationLayer": {
-    "active": true,
-    "layer": "CONSTELLATION_CORE_PROOF_ENGINE_RUNTIME_REGISTRY",
+    "layer": "QUANTUM_BOARD_GOVERNANCE_PULSE_SCENARIO_MEMORY",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T19:11:14.470Z"
-  },
-  "globalExpansion": {
-    "active": true,
-    "layer": "NEXUS_CORE_MISSION_LEDGER_GROWTH_RADAR",
-    "progress": 97,
-    "status": "CLOSED_100",
-    "time": "2026-04-08T19:11:14.516Z"
+    "time": "2026-04-08T19:12:44.626Z"
   },
   "runtimeOpsLayer": {
     "active": true,
     "layer": "CONNECTOR_INSPECTOR_ENV_DOCTOR_RUNTIME_HEALTH",
     "progress": 80,
     "status": "ACTIVE",
-    "time": "2026-04-08T19:11:14.590Z"
+    "time": "2026-04-08T19:12:44.645Z"
   }
 }
