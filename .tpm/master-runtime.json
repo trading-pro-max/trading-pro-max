@@ -19,7 +19,10 @@
     "/scenario-memory",
     "/connector-inspector",
     "/env-doctor",
-    "/runtime-health"
+    "/runtime-health",
+    "/infinity-core",
+    "/autonomous-workforce",
+    "/opportunity-radar"
   ],
   "commands": [
     "npm run tpm:atlas:once",
@@ -28,7 +31,9 @@
     "npm run tpm:quantum:once",
     "npm run tpm:quantum",
     "npm run tpm:runtimeops:once",
-    "npm run tpm:runtimeops"
+    "npm run tpm:runtimeops",
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity"
   ],
   "nextWave": [
     {
@@ -93,6 +98,27 @@
       "progress": 80,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "infinity-core",
+      "title": "infinity core",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomous-workforce",
+      "title": "autonomous workforce",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "opportunity-radar",
+      "title": "opportunity radar",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "atlasLayer": {
@@ -115,5 +141,12 @@
     "progress": 80,
     "status": "ACTIVE",
     "time": "2026-04-08T19:12:44.645Z"
+  },
+  "infinityLayer": {
+    "active": true,
+    "layer": "INFINITY_CORE_AUTONOMOUS_WORKFORCE_OPPORTUNITY_RADAR",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:13:52.197Z"
   }
 }
