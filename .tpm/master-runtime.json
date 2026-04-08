@@ -167,7 +167,11 @@
     "npm run tpm:autopilot:once",
     "npm run tpm:autopilot",
     "npm run tpm:omega:once",
-    "npm run tpm:omega"
+    "npm run tpm:omega",
+    "npm run tpm:zenith:once",
+    "npm run tpm:zenith",
+    "npm run tpm:infinity7:once",
+    "npm run tpm:infinity7"
   ],
   "pages": [
     "/master-control",
@@ -237,7 +241,18 @@
     "/runtime-conductor",
     "/omega-core",
     "/recovery-matrix",
-    "/trust-center"
+    "/trust-center",
+    "/zenith-core",
+    "/memory-cartography",
+    "/runtime-charter",
+    "/infinity-seven",
+    "/infinity-command-grid",
+    "/strategic-memory-vault",
+    "/global-expansion-radar",
+    "/execution-arbitration-deck",
+    "/client-orbit-hub",
+    "/research-cinema",
+    "/autonomous-revenue-rail"
   ],
   "nextWave": [
     {
@@ -652,6 +667,76 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "zenith-core",
+      "title": "zenith core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-cartography",
+      "title": "memory cartography",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "runtime-charter",
+      "title": "runtime charter",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "infinity-command-grid",
+      "title": "Infinity Command Grid",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "strategic-memory-vault",
+      "title": "Strategic Memory Vault",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "global-expansion-radar",
+      "title": "Global Expansion Radar",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "execution-arbitration-deck",
+      "title": "Execution Arbitration Deck",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "client-orbit-hub",
+      "title": "Client Orbit Hub",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "research-cinema",
+      "title": "Research Cinema",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomous-revenue-rail",
+      "title": "Autonomous Revenue Rail",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T21:38:49.172Z",
@@ -779,10 +864,11 @@
   },
   "infinityLayer": {
     "active": true,
-    "layer": "INFINITY_CORE_STRATEGY_GENOME_RUNTIME_CONDUCTOR",
-    "progress": 100,
+    "layer": "INFINITY_CORE_AUTONOMY_THEATER_STRATEGY_VAULT",
+    "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:39:57.935Z"
+    "mode": "POST_CLOSURE_UNLIMITED",
+    "time": "2026-04-08T21:40:15.737Z"
   },
   "infinityVectorLayer": {
     "active": true,
@@ -850,5 +936,22 @@
     "active": 15,
     "expected": 16,
     "status": "CLOSED_100"
+  },
+  "infinitySystem": {
+    "active": true,
+    "jump": 7,
+    "layer": "ZENITH_CORE_MEMORY_CARTOGRAPHY_RUNTIME_CHARTER",
+    "progress": 100,
+    "status": "ACTIVE",
+    "mode": "POST_CLOSURE_INFINITY",
+    "time": "2026-04-08T21:40:00.732Z"
+  },
+  "infinitySevenLayer": {
+    "active": true,
+    "layer": "SEVEN_BIG_JUMPS",
+    "jumps": 7,
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T21:40:13.701Z"
   }
 }
