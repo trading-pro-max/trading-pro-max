@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "stages": [
+    {
+      "slug": "runtime-stage",
+      "title": "Runtime Stage",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ops-stage",
+      "title": "Ops Stage",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-stage",
+      "title": "Audit Stage",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity-stage",
+      "title": "Continuity Stage",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "visibleStages": 16,
+    "protectedScenes": 18,
+    "replayStrength": 100,
+    "theaterConfidence": 100
+  },
+  "time": "2026-04-08T21:17:15.700Z"
+}

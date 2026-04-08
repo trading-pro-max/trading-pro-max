@@ -1,35 +1,35 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
+  "overallProgress": 93,
+  "completed": 93,
+  "remaining": 7,
   "domains": {
     "infinity": 100,
-    "forge": 100,
-    "autopilot": 100,
+    "memory": 83,
+    "theater": 83,
     "proof": 100,
     "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "infinity-depth",
-      "title": "infinity depth",
+      "slug": "infinity-density",
+      "title": "infinity density",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "forge-density",
-      "title": "forge density",
-      "progress": 100,
+      "slug": "memory-depth",
+      "title": "memory depth",
+      "progress": 83,
       "status": "active"
     },
     {
-      "slug": "autopilot-strength",
-      "title": "autopilot strength",
-      "progress": 100,
+      "slug": "theater-clarity",
+      "title": "theater clarity",
+      "progress": 83,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T21:16:43.724Z"
+  "time": "2026-04-08T21:17:14.815Z"
 }
