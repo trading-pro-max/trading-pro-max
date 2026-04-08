@@ -1,5 +1,17 @@
 [
   {
+    "id": "SNAP-62WNSVBT",
+    "label": "builder-cycle-21",
+    "createdAt": "2026-04-08T01:58:29.686Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
     "id": "SNAP-WUSTCSV5",
     "label": "builder-cycle-18",
     "createdAt": "2026-04-08T01:57:53.634Z",
