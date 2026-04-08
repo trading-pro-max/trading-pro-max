@@ -118,8 +118,7 @@
     }
   ],
   "blockers": [
-    "GoDaddy SFTP credentials are not filled yet.",
-    "External deploy remains constrained by current hosting plan."
+    "External GoDaddy deploy remains blocked by current hosting plan."
   ],
   "commands": [
     "npm run tpm:master:once",
@@ -136,7 +135,9 @@
     "npm run tpm:horizon:once",
     "npm run tpm:horizon",
     "npm run tpm:nexus:once",
-    "npm run tpm:nexus"
+    "npm run tpm:nexus",
+    "npm run tpm:navigator:once",
+    "npm run tpm:navigator"
   ],
   "pages": [
     "/master-control",
@@ -161,7 +162,10 @@
     "/evidence-vault",
     "/nexus-core",
     "/mission-ledger",
-    "/growth-radar"
+    "/growth-radar",
+    "/navigator-core",
+    "/portfolio-simulator",
+    "/audit-stream"
   ],
   "nextWave": [
     {
@@ -289,6 +293,27 @@
       "progress": 97,
       "stage": "CLOSED",
       "status": "closed"
+    },
+    {
+      "slug": "navigator-core",
+      "title": "navigator core",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "portfolio-simulator",
+      "title": "portfolio simulator",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "audit-stream",
+      "title": "audit stream",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T11:07:23.056Z",
@@ -328,5 +353,18 @@
     "progress": 97,
     "status": "CLOSED_100",
     "time": "2026-04-08T11:08:05.825Z"
+  },
+  "navigatorLayer": {
+    "active": true,
+    "layer": "NAVIGATOR_CORE_PORTFOLIO_SIMULATOR_AUDIT_STREAM",
+    "progress": 90,
+    "status": "ACTIVE",
+    "time": "2026-04-08T11:08:16.946Z"
+  },
+  "externalDeployBlocked": true,
+  "runtimeDepth": {
+    "active": 15,
+    "expected": 16,
+    "status": "CLOSED_100"
   }
 }

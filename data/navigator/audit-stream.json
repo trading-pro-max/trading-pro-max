@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "streams": [
+    {
+      "slug": "runtime-audit",
+      "title": "Runtime Audit",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-audit",
+      "title": "Risk Audit",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution-audit",
+      "title": "Execution Audit",
+      "progress": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "release-audit",
+      "title": "Release Audit",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "auditedLayers": 18,
+    "replayableAudits": 16,
+    "proofCoverage": 100,
+    "trustCoverage": 100
+  },
+  "time": "2026-04-08T11:08:17.854Z"
+}
