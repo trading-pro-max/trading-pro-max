@@ -36,7 +36,9 @@
     "tpm:remote": "node ./scripts/tpm-remote-run.mjs",
     "tpm:auto": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-auto-mode.ps1",
     "tpm:autobind": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-universal-autobind.ps1",
-    "tpm:godaddy-sftp-status": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-godaddy-sftp-status.ps1"
+    "tpm:godaddy-sftp-status": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-godaddy-sftp-status.ps1",
+    "tpm:ai:once": "node ./lib/tpm-ai-brain.mjs",
+    "tpm:ai": "node ./scripts/tpm-ai-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

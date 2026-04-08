@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "mode": "TPM_AI_ACTIVE",
+  "vision": "Trading Pro Max global AI autonomous platform",
+  "overallProgress": 89,
+  "completed": 89,
+  "remaining": 11,
+  "domains": {
+    "autonomy": 100,
+    "ai": 83,
+    "surface": 86,
+    "deployment": 78,
+    "operations": 100
+  },
+  "blockers": [
+    "GoDaddy Basic plan blocks full external automation"
+  ],
+  "priorities": [
+    "Expand AI internal orchestration and decision loops",
+    "Increase product pages, APIs, and operator surfaces",
+    "Keep GoDaddy deployment path prepared until upgrade is available",
+    "Continue GitHub-centered autonomous sync"
+  ],
+  "nextWave": [
+    {
+      "slug": "ai-systems",
+      "title": "AI systems layer",
+      "progress": 83,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "surface-depth",
+      "title": "surface depth",
+      "progress": 86,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "external-deploy",
+      "title": "external deploy",
+      "progress": 78,
+      "stage": "BLOCKED_BY_PLAN",
+      "status": "waiting"
+    },
+    {
+      "slug": "ops-hardening",
+      "title": "ops hardening",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    }
+  ],
+  "commands": [
+    "npm run tpm:ai:once",
+    "npm run tpm:ai",
+    "npm run tpm:autobind",
+    "npm run tpm:godaddy-sftp-status"
+  ],
+  "time": "2026-04-08T08:34:55.615Z"
+}
