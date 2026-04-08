@@ -53,12 +53,12 @@
 
 ## Language Coverage
 - TypeScript: 212
-- JavaScript: 114
-- JSON: 60
-- PowerShell: 52
-- Markdown: 24
+- JavaScript: 140
+- JSON: 71
+- PowerShell: 59
+- Markdown: 26
 - Batch: 11
-- YAML: 5
+- YAML: 8
 - Shell: 4
 - CSS: 3
 - HTML: 2
@@ -66,6 +66,7 @@
 - SQL: 2
 
 <!-- TPM:PROGRESS:END -->
+
 
 
 
