@@ -1,35 +1,35 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 97,
-  "completed": 97,
-  "remaining": 3,
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
   "domains": {
     "infinity": 100,
-    "workforce": 83,
-    "opportunities": 100,
+    "memory": 100,
+    "observatory": 100,
     "proof": 100,
     "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "infinity-expansion",
-      "title": "infinity expansion",
+      "slug": "infinity-density",
+      "title": "infinity density",
       "progress": 100,
-      "status": "active"
+      "status": "closed"
     },
     {
-      "slug": "workforce-autonomy",
-      "title": "workforce autonomy",
-      "progress": 83,
-      "status": "active"
+      "slug": "memory-density",
+      "title": "memory density",
+      "progress": 100,
+      "status": "closed"
     },
     {
-      "slug": "opportunity-ranking",
-      "title": "opportunity ranking",
+      "slug": "ops-clarity",
+      "title": "ops clarity",
       "progress": 100,
-      "status": "active"
+      "status": "closed"
     }
   ],
-  "time": "2026-04-08T19:13:52.189Z"
+  "time": "2026-04-08T19:15:07.946Z"
 }

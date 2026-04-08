@@ -27,10 +27,10 @@
     }
   ],
   "metrics": {
-    "trackedPatterns": 32,
-    "replayableMemories": 24,
-    "governedArtifacts": 22,
-    "memoryConfidence": 100
+    "trackedArtifacts": 36,
+    "replayableStates": 28,
+    "memoryDepth": 100,
+    "continuityDepth": 100
   },
-  "time": "2026-04-08T19:14:14.169Z"
+  "time": "2026-04-08T19:15:07.946Z"
 }

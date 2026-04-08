@@ -2,35 +2,35 @@
   "ok": true,
   "engines": [
     {
-      "slug": "builder",
-      "title": "Builder Infinity",
+      "slug": "infinity-runtime",
+      "title": "Infinity Runtime",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "strategy",
-      "title": "Strategy Infinity",
+      "slug": "autonomy-runtime",
+      "title": "Autonomy Runtime",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "execution",
-      "title": "Execution Infinity",
+      "slug": "evidence-runtime",
+      "title": "Evidence Runtime",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "growth",
-      "title": "Growth Infinity",
+      "slug": "expansion-runtime",
+      "title": "Expansion Runtime",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeInfinityEngines": 4,
-    "protectedExpansionRoutes": 24,
-    "governedLoops": 18,
+    "activeLayers": 24,
+    "activePages": 42,
+    "protectedStores": 31,
     "infinityConfidence": 100
   },
-  "time": "2026-04-08T19:13:52.188Z"
+  "time": "2026-04-08T19:15:07.944Z"
 }
