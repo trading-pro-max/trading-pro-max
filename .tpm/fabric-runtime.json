@@ -1,14 +1,14 @@
 {
   "ok": true,
   "mode": "TPM_FABRIC_ACTIVE",
-  "overallProgress": 85,
-  "completed": 85,
-  "remaining": 15,
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
   "domains": {
     "fabric": 100,
     "autonomy": 83,
-    "memory": 83,
-    "nodes": 60,
+    "memory": 100,
+    "nodes": 100,
     "continuity": 100
   },
   "nextWave": [
@@ -27,9 +27,9 @@
     {
       "slug": "release-memory",
       "title": "release memory",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T10:25:20.884Z"
+  "time": "2026-04-08T10:26:51.928Z"
 }
