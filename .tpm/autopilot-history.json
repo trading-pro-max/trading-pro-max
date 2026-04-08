@@ -1,6 +1,21 @@
 [
   {
     "cycle": 1,
+    "lastRunAt": "2026-04-08T15:01:44.354Z",
+    "successCount": 0,
+    "failedCount": 40,
+    "discoveredCount": 40,
+    "git": {
+      "addOk": true,
+      "commitOk": true,
+      "pushOk": false,
+      "changed": true,
+      "commitMessage": "tpm: autopilot cycle 1",
+      "pushOutput": "\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\nTo https://github.com/trading-pro-max/trading-pro-max.git\n ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 783f62de1a13fe1f748df8d2c30de357cff0da6f but expected ca6237d05540524efda16700694ab7c47589ca41)\nerror: failed to push some refs to 'https://github.com/trading-pro-max/trading-pro-max.git'\n"
+    }
+  },
+  {
+    "cycle": 1,
     "lastRunAt": "2026-04-08T14:59:40.659Z",
     "successCount": 0,
     "failedCount": 40,
