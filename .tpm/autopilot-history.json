@@ -1,6 +1,20 @@
 [
   {
     "cycle": 1,
+    "lastRunAt": "2026-04-08T14:28:54.440Z",
+    "successCount": 0,
+    "failedCount": 40,
+    "discoveredCount": 40,
+    "git": {
+      "addOk": false,
+      "commitOk": false,
+      "pushOk": false,
+      "changed": false,
+      "commitMessage": "tpm: autopilot cycle 1"
+    }
+  },
+  {
+    "cycle": 1,
     "lastRunAt": "2026-04-08T14:26:54.175Z",
     "successCount": 0,
     "failedCount": 40,
