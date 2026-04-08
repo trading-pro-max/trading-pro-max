@@ -1,35 +1,34 @@
 {
   "ok": true,
   "mode": "TPM_CONTINUUM_ACTIVE",
-  "overallProgress": 97,
-  "completed": 97,
-  "remaining": 3,
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
   "domains": {
     "continuum": 100,
-    "treasury": 100,
-    "scenarios": 83,
-    "court": 100,
+    "commons": 100,
+    "assurance": 100,
+    "proof": 100,
     "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "treasury-discipline",
-      "title": "treasury discipline",
+      "slug": "continuum-density",
+      "title": "continuum density",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "scenario-depth",
-      "title": "scenario depth",
-      "progress": 83,
+      "slug": "commons-depth",
+      "title": "commons depth",
+      "progress": 100,
       "status": "active"
     },
     {
-      "slug": "court-clarity",
-      "title": "court clarity",
+      "slug": "assurance-strength",
+      "title": "assurance strength",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T21:44:39.604Z"
-}
+  "time": "2026-04-08T21:46:20.
