@@ -145,7 +145,9 @@
     "npm run tpm:pulse:once",
     "npm run tpm:pulse",
     "npm run tpm:federation:once",
-    "npm run tpm:federation"
+    "npm run tpm:federation",
+    "npm run tpm:learning:once",
+    "npm run tpm:learning"
   ],
   "pages": [
     "/master-control",
@@ -184,7 +186,10 @@
     "/chronicle-center",
     "/launch-console",
     "/federation-core",
-    "/operator-journal"
+    "/operator-journal",
+    "/learning-loop",
+    "/route-arbitrator",
+    "/policy-studio"
   ],
   "nextWave": [
     {
@@ -410,9 +415,30 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "learning-loop",
+      "title": "learning loop",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "route-arbitrator",
+      "title": "route arbitrator",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "policy-studio",
+      "title": "policy studio",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
-  "time": "2026-04-08T17:13:29.855Z",
+  "time": "2026-04-08T17:14:59.869Z",
   "localCertified": true,
   "releaseGate": "OPEN_LOCAL",
   "externalDeployBlocked": true,
@@ -421,69 +447,76 @@
     "layer": "PRISM_CORE_STRATEGY_THEATER_INTEGRITY_HUB",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T17:13:31.188Z"
+    "time": "2026-04-08T17:15:01.241Z"
   },
   "sovereignLayer": {
     "active": true,
     "layer": "SOVEREIGN_GRID_CONTINUITY_VAULT_COMMAND_NEXUS",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T17:13:32.798Z"
+    "time": "2026-04-08T17:15:02.821Z"
   },
   "sentinelLayer": {
     "active": true,
     "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
     "progress": 93,
     "status": "ACTIVE",
-    "time": "2026-04-08T17:13:33.844Z"
+    "time": "2026-04-08T17:15:03.871Z"
   },
   "quantumLayer": {
     "active": true,
     "layer": "QUANTUM_BOARD_GOVERNANCE_PULSE_SCENARIO_MEMORY",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T17:13:38.635Z"
+    "time": "2026-04-08T17:15:08.665Z"
   },
   "helixLayer": {
     "active": true,
     "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T17:13:41.323Z"
+    "time": "2026-04-08T17:15:11.354Z"
   },
   "omegaLayer": {
     "active": true,
     "layer": "OMEGA_CORE_RECOVERY_MATRIX_TRUST_CENTER",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T17:13:43.085Z"
+    "time": "2026-04-08T17:15:13.119Z"
   },
   "executiveLayer": {
     "active": true,
     "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
     "progress": 96,
     "status": "ACTIVE",
-    "time": "2026-04-08T17:13:45.376Z"
+    "time": "2026-04-08T17:15:15.397Z"
   },
   "vertexLayer": {
     "active": true,
     "layer": "VERTEX_CORE_SCENARIO_RADAR_CONTROL_MEMORY",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T17:13:45.628Z"
+    "time": "2026-04-08T17:15:15.732Z"
   },
   "pulseLayer": {
     "active": true,
     "layer": "PULSE_GRID_CHRONICLE_CENTER_LAUNCH_CONSOLE",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T17:13:47.648Z"
+    "time": "2026-04-08T17:15:17.669Z"
   },
   "federationLayer": {
     "active": true,
     "layer": "FEDERATION_CORE_SCENARIO_MEMORY_OPERATOR_JOURNAL",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T17:13:47.851Z"
+    "time": "2026-04-08T17:15:17.878Z"
+  },
+  "learningLayer": {
+    "active": true,
+    "layer": "LEARNING_LOOP_ROUTE_ARBITRATOR_POLICY_STUDIO",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T17:15:34.129Z"
   }
 }
