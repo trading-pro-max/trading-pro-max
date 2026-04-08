@@ -1,14 +1,14 @@
 {
   "ok": true,
   "mode": "TPM_CONSTELLATION_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
+  "overallProgress": 93,
+  "completed": 93,
+  "remaining": 7,
   "domains": {
     "constellation": 100,
+    "profit": 83,
+    "treaty": 83,
     "proof": 100,
-    "registry": 100,
-    "proofDepth": 100,
     "continuity": 100
   },
   "nextWave": [
@@ -19,17 +19,17 @@
       "status": "active"
     },
     {
-      "slug": "proof-clarity",
-      "title": "proof clarity",
-      "progress": 100,
+      "slug": "profit-discipline",
+      "title": "profit discipline",
+      "progress": 83,
       "status": "active"
     },
     {
-      "slug": "registry-depth",
-      "title": "registry depth",
-      "progress": 100,
+      "slug": "treaty-discipline",
+      "title": "treaty discipline",
+      "progress": 83,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T22:25:38.088Z"
+  "time": "2026-04-08T22:26:48.636Z"
 }

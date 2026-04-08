@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "treaties": [
+    {
+      "slug": "runtime",
+      "title": "Runtime Treaty",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market",
+      "title": "Market Treaty",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "broker",
+      "title": "Broker Treaty",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust",
+      "title": "Trust Treaty",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeTreaties": 12,
+    "governedRules": 22,
+    "enforcedPolicies": 20,
+    "treatyConfidence": 100
+  },
+  "time": "2026-04-08T22:26:49.456Z"
+}

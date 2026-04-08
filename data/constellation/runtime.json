@@ -8,29 +8,29 @@
       "status": "closed"
     },
     {
-      "slug": "policy-cluster",
-      "title": "Policy Cluster",
+      "slug": "capital-cluster",
+      "title": "Capital Cluster",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "evidence-cluster",
-      "title": "Evidence Cluster",
+      "slug": "governance-cluster",
+      "title": "Governance Cluster",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "launch-cluster",
-      "title": "Launch Cluster",
+      "slug": "expansion-cluster",
+      "title": "Expansion Cluster",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "linkedClusters": 22,
-    "protectedArtifacts": 30,
-    "registryCoverage": 100,
+    "linkedClusters": 12,
+    "governedVectors": 20,
+    "protectedStores": 26,
     "constellationConfidence": 100
   },
-  "time": "2026-04-08T22:25:38.087Z"
+  "time": "2026-04-08T22:26:49.455Z"
 }
