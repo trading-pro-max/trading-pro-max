@@ -9,9 +9,7 @@ function Read-Env([string]$File){
     Get-Content $File | ForEach-Object {
       $line=$_.Trim()
       if($line -and -not $line.StartsWith("#") -and $line -match '^\s*([^=]+?)\s*=\s*(.*)\s*$'){
-        $k=$matches[1].Trim()
-        $v=$matches[2].Trim().Trim('"').Trim("'")
-        $map[$k]=$v
+        $map[$matches[1].Trim()]=$matches[2].Trim().Trim('"').Trim("'")
       }
     }
   }
@@ -22,7 +20,7 @@ function Write-Json([string]$File,$Value){
   if($dir){ Ensure-Dir $dir }
   $Value | ConvertTo-Json -Depth 30 | Set-Content $File -Encoding UTF8
 }
-function Has-Cmd([string]$Name){ return [bool](Get-Command $Name -ErrorAction SilentlyContinue) }
+function Has-Cmd([string]$Name){ [bool](Get-Command $Name -ErrorAction SilentlyContinue) }
 function Test-GhAuth(){ if(Has-Cmd 'gh'){ try{ gh auth status *> $null; return $true }catch{} }; return $false }
 function Test-VercelAuth(){ if(Has-Cmd 'vercel'){ try{ vercel whoami *> $null; return $true }catch{} }; return $false }
 function Run-NpmIfExists([string]$ScriptName){
@@ -49,67 +47,78 @@ function Git-Sync{
 }
 
 Ensure-Dir ".\.tpm"
-$pidFile=".\.tpm\universal-autobind.pid"
-Set-Content $pidFile $PID -Encoding UTF8
+Set-Content ".\.tpm\universal-autobind.pid" $PID -Encoding UTF8
+
+$envMap=Read-Env ".\.env.connectors"
+$prodMap=Read-Env ".\.env.production"
+
+$state=[pscustomobject]@{
+  ok=$true
+  mode="FULL_AUTOMATIC_UNIVERSAL_AUTOBIND"
+  project="Trading Pro Max"
+  github=[pscustomobject]@{
+    auth=(Test-GhAuth)
+    pushReady=(Test-Path ".git")
+  }
+  vercel=[pscustomobject]@{
+    auth=(Test-VercelAuth)
+  }
+  godaddy=[pscustomobject]@{
+    sftpReady=(![string]::IsNullOrWhiteSpace($envMap["GODADDY_SFTP_HOST"])) -and (![string]::IsNullOrWhiteSpace($envMap["GODADDY_SFTP_USER"])) -and (![string]::IsNullOrWhiteSpace($envMap["GODADDY_SFTP_PASSWORD"]))
+    host=$envMap["GODADDY_SFTP_HOST"]
+    user=$envMap["GODADDY_SFTP_USER"]
+  }
+  ssh=[pscustomobject]@{
+    ready=(Test-Path "$HOME\.ssh\id_ed25519") -and (Test-Path "$HOME\.ssh\id_ed25519.pub")
+  }
+  production=[pscustomobject]@{
+    ready=(![string]::IsNullOrWhiteSpace($prodMap["PROD_HOST"])) -and (![string]::IsNullOrWhiteSpace($prodMap["PROD_USER"])) -and (![string]::IsNullOrWhiteSpace($prodMap["PROD_PATH"]))
+    host=$prodMap["PROD_HOST"]
+    user=$prodMap["PROD_USER"]
+    path=$prodMap["PROD_PATH"]
+  }
+  telegram=[pscustomobject]@{
+    ready=(![string]::IsNullOrWhiteSpace($envMap["TELEGRAM_BOT_TOKEN"])) -and (![string]::IsNullOrWhiteSpace($envMap["TELEGRAM_CHAT_ID"]))
+  }
+  openai=[pscustomobject]@{
+    ready=![string]::IsNullOrWhiteSpace($envMap["OPENAI_API_KEY"])
+  }
+  ibkr=[pscustomobject]@{
+    ready=![string]::IsNullOrWhiteSpace($envMap["IBKR_HOST"])
+    host=$envMap["IBKR_HOST"]
+    port=$envMap["IBKR_PORT"]
+  }
+  pushed=$false
+  cycleAt=(Get-Date).ToString("o")
+}
+Write-Json ".\.tpm\universal-autobind.json" $state
 
 while($true){
-  $envMap=Read-Env ".\.env.connectors"
-  $prodMap=Read-Env ".\.env.production"
-
-  $githubAuth=Test-GhAuth
-  $vercelAuth=Test-VercelAuth
-  $sshReady=(Test-Path "$HOME\.ssh\id_ed25519") -and (Test-Path "$HOME\.ssh\id_ed25519.pub")
-  $godaddySftpReady=(![string]::IsNullOrWhiteSpace($envMap["GODADDY_SFTP_HOST"])) -and (![string]::IsNullOrWhiteSpace($envMap["GODADDY_SFTP_USER"])) -and (![string]::IsNullOrWhiteSpace($envMap["GODADDY_SFTP_PASSWORD"]))
-  $telegramReady=(![string]::IsNullOrWhiteSpace($envMap["TELEGRAM_BOT_TOKEN"])) -and (![string]::IsNullOrWhiteSpace($envMap["TELEGRAM_CHAT_ID"]))
-  $openaiReady=![string]::IsNullOrWhiteSpace($envMap["OPENAI_API_KEY"])
-  $ibkrReady=![string]::IsNullOrWhiteSpace($envMap["IBKR_HOST"])
-  $prodReady=(![string]::IsNullOrWhiteSpace($prodMap["PROD_HOST"])) -and (![string]::IsNullOrWhiteSpace($prodMap["PROD_USER"])) -and (![string]::IsNullOrWhiteSpace($prodMap["PROD_PATH"]))
-
   Run-NpmIfExists "tpm:master" | Out-Null
   Run-NpmIfExists "tpm:remote" | Out-Null
   Run-NpmIfExists "tpm:prodprep" | Out-Null
 
-  $pushed=Git-Sync
+  $envMap=Read-Env ".\.env.connectors"
+  $prodMap=Read-Env ".\.env.production"
 
-  $state=[pscustomobject]@{
-    ok=$true
-    mode="FULL_AUTOMATIC_UNIVERSAL_AUTOBIND"
-    project="Trading Pro Max"
-    github=[pscustomobject]@{
-      auth=$githubAuth
-      pushReady=(Test-Path ".git")
-    }
-    vercel=[pscustomobject]@{
-      auth=$vercelAuth
-    }
-    godaddy=[pscustomobject]@{
-      sftpReady=$godaddySftpReady
-      host=$envMap["GODADDY_SFTP_HOST"]
-      user=$envMap["GODADDY_SFTP_USER"]
-    }
-    ssh=[pscustomobject]@{
-      ready=$sshReady
-    }
-    production=[pscustomobject]@{
-      ready=$prodReady
-      host=$prodMap["PROD_HOST"]
-      user=$prodMap["PROD_USER"]
-      path=$prodMap["PROD_PATH"]
-    }
-    telegram=[pscustomobject]@{
-      ready=$telegramReady
-    }
-    openai=[pscustomobject]@{
-      ready=$openaiReady
-    }
-    ibkr=[pscustomobject]@{
-      ready=$ibkrReady
-      host=$envMap["IBKR_HOST"]
-      port=$envMap["IBKR_PORT"]
-    }
-    pushed=$pushed
-    cycleAt=(Get-Date).ToString("o")
-  }
+  $state.github.auth=Test-GhAuth
+  $state.github.pushReady=(Test-Path ".git")
+  $state.vercel.auth=Test-VercelAuth
+  $state.godaddy.sftpReady=(![string]::IsNullOrWhiteSpace($envMap["GODADDY_SFTP_HOST"])) -and (![string]::IsNullOrWhiteSpace($envMap["GODADDY_SFTP_USER"])) -and (![string]::IsNullOrWhiteSpace($envMap["GODADDY_SFTP_PASSWORD"]))
+  $state.godaddy.host=$envMap["GODADDY_SFTP_HOST"]
+  $state.godaddy.user=$envMap["GODADDY_SFTP_USER"]
+  $state.ssh.ready=(Test-Path "$HOME\.ssh\id_ed25519") -and (Test-Path "$HOME\.ssh\id_ed25519.pub")
+  $state.production.ready=(![string]::IsNullOrWhiteSpace($prodMap["PROD_HOST"])) -and (![string]::IsNullOrWhiteSpace($prodMap["PROD_USER"])) -and (![string]::IsNullOrWhiteSpace($prodMap["PROD_PATH"]))
+  $state.production.host=$prodMap["PROD_HOST"]
+  $state.production.user=$prodMap["PROD_USER"]
+  $state.production.path=$prodMap["PROD_PATH"]
+  $state.telegram.ready=(![string]::IsNullOrWhiteSpace($envMap["TELEGRAM_BOT_TOKEN"])) -and (![string]::IsNullOrWhiteSpace($envMap["TELEGRAM_CHAT_ID"]))
+  $state.openai.ready=![string]::IsNullOrWhiteSpace($envMap["OPENAI_API_KEY"])
+  $state.ibkr.ready=![string]::IsNullOrWhiteSpace($envMap["IBKR_HOST"])
+  $state.ibkr.host=$envMap["IBKR_HOST"]
+  $state.ibkr.port=$envMap["IBKR_PORT"]
+  $state.pushed=Git-Sync
+  $state.cycleAt=(Get-Date).ToString("o")
 
   Write-Json ".\.tpm\universal-autobind.json" $state
   Start-Sleep -Seconds ([Math]::Max(60,$IntervalSec))
