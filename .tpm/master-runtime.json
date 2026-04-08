@@ -6,19 +6,11 @@
   "localCertified": true,
   "releaseGate": "OPEN_LOCAL",
   "finalReadiness": "ready-local-100",
+  "externalDeployBlocked": true,
+  "blockers": [
+    "External GoDaddy deploy remains blocked by current hosting plan."
+  ],
   "pages": [
-    "/observability-core",
-    "/incident-center",
-    "/playbook-os",
-    "/omega-core",
-    "/recovery-matrix",
-    "/trust-center",
-    "/pulse-grid",
-    "/chronicle-center",
-    "/launch-console",
-    "/navigator-core",
-    "/portfolio-simulator",
-    "/audit-stream",
     "/connector-inspector",
     "/env-doctor",
     "/runtime-health",
@@ -30,112 +22,25 @@
     "/strategy-vault",
     "/vector-core",
     "/scenario-router",
-    "/assurance-wall"
+    "/assurance-wall",
+    "/zenith-core",
+    "/memory-cartography",
+    "/runtime-charter"
   ],
   "commands": [
-    "npm run tpm:observability:once",
-    "npm run tpm:observability",
-    "npm run tpm:master:once",
-    "npm run tpm:omega:once",
-    "npm run tpm:omega",
-    "npm run tpm:pulse:once",
-    "npm run tpm:pulse",
-    "npm run tpm:navigator:once",
-    "npm run tpm:navigator",
     "npm run tpm:runtimeops:once",
     "npm run tpm:runtimeops",
+    "npm run tpm:master:once",
     "npm run tpm:agentmesh:once",
     "npm run tpm:agentmesh",
     "npm run tpm:infinity:once",
     "npm run tpm:infinity",
     "npm run tpm:vector:once",
-    "npm run tpm:vector"
+    "npm run tpm:vector",
+    "npm run tpm:zenith:once",
+    "npm run tpm:zenith"
   ],
   "nextWave": [
-    {
-      "slug": "observability-core",
-      "title": "observability core",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "incident-center",
-      "title": "incident center",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "playbook-os",
-      "title": "playbook os",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "omega-core",
-      "title": "omega core",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "recovery-matrix",
-      "title": "recovery matrix",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "trust-center",
-      "title": "trust center",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "pulse-grid",
-      "title": "pulse grid",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "chronicle-center",
-      "title": "chronicle center",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "launch-console",
-      "title": "launch console",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "navigator-core",
-      "title": "navigator core",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "portfolio-simulator",
-      "title": "portfolio simulator",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "audit-stream",
-      "title": "audit stream",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
     {
       "slug": "connector-inspector",
       "title": "connector inspector",
@@ -219,53 +124,42 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "zenith-core",
+      "title": "zenith core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-cartography",
+      "title": "memory cartography",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "runtime-charter",
+      "title": "runtime charter",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
-  "observabilityLayer": {
-    "active": true,
-    "layer": "OBSERVABILITY_CORE_INCIDENT_CENTER_PLAYBOOK_OS",
-    "progress": 97,
-    "status": "ACTIVE",
-    "time": "2026-04-08T21:32:49.470Z"
-  },
-  "omegaLayer": {
-    "active": true,
-    "layer": "OMEGA_CORE_RECOVERY_MATRIX_TRUST_CENTER",
-    "progress": 97,
-    "status": "ACTIVE",
-    "time": "2026-04-08T21:32:49.478Z"
-  },
-  "externalDeployBlocked": true,
-  "blockers": [
-    "External GoDaddy deploy remains blocked by current hosting plan."
-  ],
-  "pulseLayer": {
-    "active": true,
-    "layer": "PULSE_GRID_CHRONICLE_CENTER_LAUNCH_CONSOLE",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T21:32:49.542Z"
-  },
-  "navigatorLayer": {
-    "active": true,
-    "layer": "NAVIGATOR_CORE_PORTFOLIO_SIMULATOR_AUDIT_STREAM",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T21:32:49.565Z"
-  },
   "runtimeOpsLayer": {
     "active": true,
     "layer": "CONNECTOR_INSPECTOR_ENV_DOCTOR_RUNTIME_HEALTH",
     "progress": 80,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:32:49.572Z"
+    "time": "2026-04-08T21:34:19.588Z"
   },
   "postCertification": {
     "active": true,
     "layer": "AGENT_MESH_EXPANSION",
     "progress": 96,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:32:49.581Z"
+    "time": "2026-04-08T21:34:19.600Z"
   },
   "infinityLayer": {
     "active": true,
@@ -273,13 +167,22 @@
     "progress": 97,
     "status": "ACTIVE",
     "mode": "POST_CLOSURE_UNLIMITED",
-    "time": "2026-04-08T21:33:27.335Z"
+    "time": "2026-04-08T21:34:57.368Z"
   },
   "infinityVectorLayer": {
     "active": true,
     "layer": "VECTOR_CORE_SCENARIO_ROUTER_ASSURANCE_WALL",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:33:28.478Z"
+    "time": "2026-04-08T21:34:58.512Z"
+  },
+  "infinitySystem": {
+    "active": true,
+    "jump": 7,
+    "layer": "ZENITH_CORE_MEMORY_CARTOGRAPHY_RUNTIME_CHARTER",
+    "progress": 100,
+    "status": "ACTIVE",
+    "mode": "POST_CLOSURE_INFINITY",
+    "time": "2026-04-08T21:35:30.660Z"
   }
 }
