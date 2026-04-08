@@ -1,0 +1,22 @@
+{
+  "ok": true,
+  "filesTracked": 271,
+  "routes": 1,
+  "pages": 32,
+  "libs": 46,
+  "scripts": 63,
+  "watchedZones": [
+    "app",
+    "app/api",
+    "lib",
+    "scripts",
+    "ops",
+    ".tpm"
+  ],
+  "latestSnapshots": [
+    "ai-runtime.json",
+    "strategy-runtime.json",
+    "intelligence-runtime.json"
+  ],
+  "time": "2026-04-08T08:46:04.339Z"
+}

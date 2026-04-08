@@ -40,7 +40,9 @@
     "tpm:ai:once": "node ./lib/tpm-ai-brain.mjs",
     "tpm:ai": "node ./scripts/tpm-ai-loop.mjs",
     "tpm:strategy:once": "node ./lib/tpm-strategy-core.mjs",
-    "tpm:strategy": "node ./scripts/tpm-strategy-loop.mjs"
+    "tpm:strategy": "node ./scripts/tpm-strategy-loop.mjs",
+    "tpm:intelligence:once": "node ./lib/tpm-intelligence-core.mjs",
+    "tpm:intelligence": "node ./scripts/tpm-intelligence-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",
