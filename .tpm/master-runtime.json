@@ -146,6 +146,8 @@
     "npm run tpm:nexus",
     "npm run tpm:meta:once",
     "npm run tpm:meta",
+    "npm run tpm:quantum:once",
+    "npm run tpm:quantum",
     "npm run tpm:navigator:once",
     "npm run tpm:navigator",
     "npm run tpm:federation:once",
@@ -190,6 +192,9 @@
     "/meta-grid",
     "/replay-library",
     "/gatekeeper-panel",
+    "/quantum-mesh",
+    "/operator-memory",
+    "/assurance-bridge",
     "/navigator-core",
     "/portfolio-simulator",
     "/audit-stream",
@@ -430,6 +435,27 @@
       "status": "strong"
     },
     {
+      "slug": "quantum-mesh",
+      "title": "quantum mesh",
+      "progress": 91,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-memory",
+      "title": "operator memory",
+      "progress": 91,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "assurance-bridge",
+      "title": "assurance bridge",
+      "progress": 91,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
       "slug": "navigator-core",
       "title": "navigator core",
       "progress": 100,
@@ -472,7 +498,7 @@
       "status": "strong"
     }
   ],
-  "time": "2026-04-08T11:52:23.890Z",
+  "time": "2026-04-08T11:53:53.913Z",
   "localCertified": true,
   "releaseGate": "OPEN_LOCAL",
   "externalDeployBlocked": true,
@@ -481,83 +507,64 @@
     "layer": "SOVEREIGN_GRID_CONTINUITY_VAULT_COMMAND_NEXUS",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:52:26.435Z"
+    "time": "2026-04-08T11:53:56.463Z"
   },
   "sentinelLayer": {
     "active": true,
     "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
     "progress": 93,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:52:27.258Z"
+    "time": "2026-04-08T11:53:57.300Z"
   },
   "helixLayer": {
     "active": true,
     "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:52:34.531Z"
+    "time": "2026-04-08T11:54:04.583Z"
   },
   "omegaLayer": {
     "active": true,
     "layer": "OMEGA_CORE_RECOVERY_MATRIX_TRUST_CENTER",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:52:36.776Z"
+    "time": "2026-04-08T11:54:06.795Z"
   },
   "executiveLayer": {
     "active": true,
     "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
     "progress": 96,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:52:38.922Z"
+    "time": "2026-04-08T11:54:08.948Z"
   },
   "pulseLayer": {
     "active": true,
     "layer": "PULSE_GRID_CHRONICLE_CENTER_LAUNCH_CONSOLE",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:52:41.327Z"
+    "time": "2026-04-08T11:54:11.357Z"
   },
   "learningLayer": {
     "active": true,
     "layer": "LEARNING_LOOP_ROUTE_ARBITRATOR_POLICY_STUDIO",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:52:56.833Z"
+    "time": "2026-04-08T11:54:26.859Z"
   },
   "horizonLayer": {
     "active": true,
     "layer": "HORIZON_HUB_WORKSPACE_ROUTER_EVIDENCE_VAULT",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:53:04.058Z"
+    "time": "2026-04-08T11:54:34.082Z"
   },
   "globalExpansion": {
     "active": true,
     "layer": "NEXUS_CORE_MISSION_LEDGER_GROWTH_RADAR",
     "progress": 97,
     "status": "CLOSED_100",
-    "time": "2026-04-08T11:53:07.012Z"
+    "time": "2026-04-08T11:54:37.052Z"
   },
   "metaLayer": {
     "active": true,
-    "layer": "META_GRID_REPLAY_LIBRARY_GATEKEEPER_PANEL",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T11:53:15.280Z"
-  },
-  "navigatorLayer": {
-    "active": true,
-    "layer": "NAVIGATOR_CORE_PORTFOLIO_SIMULATOR_AUDIT_STREAM",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T11:53:19.045Z"
-  },
-  "federationLayer": {
-    "active": true,
-    "layer": "FEDERATION_CORE_STATE_VAULT_SESSION_BRIDGE",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T11:53:19.917Z"
-  }
-}
+    "layer": "META_GRID_REPLAY_LIBRARY_GA

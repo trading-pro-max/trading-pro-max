@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "bridges": [
+    {
+      "slug": "runtime-assurance",
+      "title": "Runtime Assurance",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-assurance",
+      "title": "Risk Assurance",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "platform-assurance",
+      "title": "Platform Assurance",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-assurance",
+      "title": "Trust Assurance",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeBridges": 14,
+    "protectedPaths": 22,
+    "auditStrength": 100,
+    "assuranceConfidence": 100
+  },
+  "time": "2026-04-08T11:54:49.945Z"
+}

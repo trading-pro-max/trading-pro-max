@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "nodes": [
+    {
+      "slug": "execution-quantum",
+      "title": "Execution Quantum",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-quantum",
+      "title": "Policy Quantum",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-quantum",
+      "title": "Trust Quantum",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity-quantum",
+      "title": "Continuity Quantum",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeNodes": 22,
+    "linkedDecisions": 30,
+    "governedSignals": 24,
+    "quantumConfidence": 100
+  },
+  "time": "2026-04-08T11:54:49.943Z"
+}
