@@ -36,7 +36,10 @@
     "/control-memory",
     "/pulse-grid",
     "/chronicle-center",
-    "/launch-console"
+    "/launch-console",
+    "/learning-loop",
+    "/route-arbitrator",
+    "/policy-studio"
   ],
   "commands": [
     "npm run tpm:fabric:once",
@@ -59,7 +62,9 @@
     "npm run tpm:vertex:once",
     "npm run tpm:vertex",
     "npm run tpm:pulse:once",
-    "npm run tpm:pulse"
+    "npm run tpm:pulse",
+    "npm run tpm:learning:once",
+    "npm run tpm:learning"
   ],
   "nextWave": [
     {
@@ -271,6 +276,27 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "learning-loop",
+      "title": "learning loop",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "route-arbitrator",
+      "title": "route arbitrator",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "policy-studio",
+      "title": "policy studio",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "postCertificationFabric": {
@@ -346,5 +372,12 @@
     "progress": 100,
     "status": "ACTIVE",
     "time": "2026-04-08T14:34:43.897Z"
+  },
+  "learningLayer": {
+    "active": true,
+    "layer": "LEARNING_LOOP_ROUTE_ARBITRATOR_POLICY_STUDIO",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T14:34:59.804Z"
   }
 }
