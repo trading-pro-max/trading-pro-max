@@ -15,10 +15,10 @@
 
 ## Language Coverage
 - TypeScript: 212
-- JavaScript: 158
-- JSON: 82
+- JavaScript: 164
+- JSON: 87
 - PowerShell: 61
-- Markdown: 26
+- Markdown: 28
 - Batch: 11
 - YAML: 9
 - Shell: 4
@@ -28,6 +28,7 @@
 - SQL: 2
 
 <!-- TPM:MASTER:END -->
+
 
 
 
