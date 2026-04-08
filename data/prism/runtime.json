@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "facets": [
+  "beams": [
     {
-      "slug": "runtime-facet",
-      "title": "Runtime Facet",
+      "slug": "runtime-prism",
+      "title": "Runtime Prism",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "strategy-facet",
-      "title": "Strategy Facet",
+      "slug": "memory-prism",
+      "title": "Memory Prism",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "signal-facet",
-      "title": "Signal Facet",
+      "slug": "execution-prism",
+      "title": "Execution Prism",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "trust-facet",
-      "title": "Trust Facet",
+      "slug": "trust-prism",
+      "title": "Trust Prism",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeFacets": 16,
-    "routedViews": 20,
-    "protectedMatrices": 18,
+    "activeBeams": 16,
+    "linkedLayers": 22,
+    "protectedChains": 20,
     "prismConfidence": 100
   },
-  "time": "2026-04-08T22:30:08.523Z"
+  "time": "2026-04-08T22:31:45.357Z"
 }

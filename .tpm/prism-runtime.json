@@ -6,8 +6,8 @@
   "remaining": 0,
   "domains": {
     "prism": 100,
-    "theater": 100,
-    "integrity": 100,
+    "memory": 100,
+    "forum": 100,
     "proof": 100,
     "continuity": 100
   },
@@ -19,17 +19,16 @@
       "status": "active"
     },
     {
-      "slug": "theater-depth",
-      "title": "theater depth",
+      "slug": "memory-clarity",
+      "title": "memory clarity",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "integrity-discipline",
-      "title": "integrity discipline",
+      "slug": "forum-discipline",
+      "title": "forum discipline",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T22:30:08.524Z"
-}
+  "time": "2026-04-08T22:31:45.3
