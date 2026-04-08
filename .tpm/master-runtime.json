@@ -99,7 +99,9 @@
     "npm run tpm:governance:once",
     "npm run tpm:broker:once",
     "npm run tpm:command:once",
-    "npm run tpm:market:once"
+    "npm run tpm:market:once",
+    "npm run tpm:horizon:once",
+    "npm run tpm:horizon"
   ],
   "pages": [
     "/master-control",
@@ -111,7 +113,10 @@
     "/config-center",
     "/broker-bridge",
     "/live-ops",
-    "/decision-engine"
+    "/decision-engine",
+    "/horizon-hub",
+    "/workspace-router",
+    "/evidence-vault"
   ],
   "nextWave": [
     {
@@ -134,7 +139,35 @@
       "progress": 70,
       "stage": "WAITING_PLAN",
       "status": "blocked"
+    },
+    {
+      "slug": "horizon-hub",
+      "title": "horizon hub",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "workspace-router",
+      "title": "workspace router",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "evidence-vault",
+      "title": "evidence vault",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
-  "time": "2026-04-08T10:45:32.101Z"
+  "time": "2026-04-08T10:45:32.101Z",
+  "horizonLayer": {
+    "active": true,
+    "layer": "HORIZON_HUB_WORKSPACE_ROUTER_EVIDENCE_VAULT",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T10:45:32.382Z"
+  }
 }
