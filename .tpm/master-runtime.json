@@ -1,10 +1,10 @@
 {
   "ok": true,
   "mode": "TPM_MASTER_ACTIVE",
-  "overallProgress": 99,
-  "completed": 99,
-  "remaining": 1,
-  "finalReadiness": "pre-final",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "finalReadiness": "ready-local-100",
   "activeModule": {
     "slug": "surface",
     "title": "Operator Surface",
@@ -126,7 +126,9 @@
     "npm run tpm:master",
     "npm run tpm:analytics:once",
     "npm run tpm:simulation:once",
-    "npm run tpm:intelligence:once"
+    "npm run tpm:intelligence:once",
+    "npm run tpm:executive:once",
+    "npm run tpm:executive"
   ],
   "pages": [
     "/master-control",
@@ -136,7 +138,10 @@
     "/signal-hub",
     "/backtest-lab",
     "/research-studio",
-    "/intelligence-center"
+    "/intelligence-center",
+    "/control-tower",
+    "/capital-os",
+    "/execution-intelligence"
   ],
   "nextWave": [
     {
@@ -159,7 +164,37 @@
       "progress": 70,
       "stage": "WAITING_PLAN",
       "status": "blocked"
+    },
+    {
+      "slug": "control-tower",
+      "title": "control tower",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "capital-os",
+      "title": "capital os",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "execution-intelligence",
+      "title": "execution intelligence",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
-  "time": "2026-04-08T10:37:22.585Z"
+  "time": "2026-04-08T10:38:52.612Z",
+  "localCertified": true,
+  "releaseGate": "OPEN_LOCAL",
+  "executiveLayer": {
+    "active": true,
+    "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
+    "progress": 96,
+    "status": "ACTIVE",
+    "time": "2026-04-08T10:39:07.296Z"
+  }
 }
