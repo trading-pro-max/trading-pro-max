@@ -42,5 +42,12 @@
     "Shell": 4,
     "SQL": 2
   },
-  "updatedAt": "2026-04-08T07:24:34.340Z"
+  "updatedAt": "2026-04-08T07:25:57.864Z",
+  "remotePromotion": {
+    "progress": 100,
+    "codeReady": true,
+    "liveSecretsPresent": false,
+    "liveDeployPossible": false,
+    "verdict": "CODE_READY_PENDING_REAL_SECRETS"
+  }
 }
