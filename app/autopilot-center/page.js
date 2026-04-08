@@ -1,0 +1,73 @@
+﻿import fs from "fs";
+import path from "path";
+
+export const dynamic = "force-dynamic";
+
+function readJson(file, fallback){
+  try{
+    if(fs.existsSync(file)) return JSON.parse(fs.readFileSync(file,"utf8"));
+  }catch{}
+  return fallback;
+}
+
+const card={background:"#111827",border:"1px solid #1f2937",borderRadius:22,padding:20};
+const box={background:"#020617",borderRadius:14,padding:14};
+
+export default function Page(){
+  const data = readJson(path.join(process.cwd(), ".tpm", "autopilot-runtime.json"), {
+    cycle: 0,
+    status: "BOOTING",
+    discoveredScripts: [],
+    successCount: 0,
+    failedCount: 0,
+    lastRunAt: null,
+    git: {},
+    results: []
+  });
+
+  return (
+    <main style={{minHeight:"100vh",background:"linear-gradient(180deg,#020617 0%,#0b1120 100%)",color:"white",padding:24,fontFamily:"Arial,sans-serif"}}>
+      <div style={{maxWidth:1700,margin:"0 auto",display:"grid",gap:20}}>
+        <div style={card}>
+          <div style={{color:"#60a5fa",letterSpacing:4,fontSize:12}}>TRADING PRO MAX</div>
+          <h1 style={{fontSize:42,margin:"10px 0 0"}}>Autopilot Center</h1>
+          <div style={{marginTop:10,color:"#94a3b8"}}>
+            Cycle: {data.cycle} · Status: {data.status} · Last run: {data.lastRunAt || "-"}
+          </div>
+        </div>
+
+        <div style={{display:"grid",gridTemplateColumns:"repeat(5,minmax(0,1fr))",gap:16}}>
+          <div style={card}><div style={{color:"#94a3b8",fontSize:12}}>Discovered</div><div style={{fontSize:28,fontWeight:900,marginTop:6}}>{data.discoveredCount || (data.discoveredScripts||[]).length}</div></div>
+          <div style={card}><div style={{color:"#94a3b8",fontSize:12}}>Success</div><div style={{fontSize:28,fontWeight:900,marginTop:6}}>{data.successCount}</div></div>
+          <div style={card}><div style={{color:"#94a3b8",fontSize:12}}>Failed</div><div style={{fontSize:28,fontWeight:900,marginTop:6}}>{data.failedCount}</div></div>
+          <div style={card}><div style={{color:"#94a3b8",fontSize:12}}>Git Changed</div><div style={{fontSize:28,fontWeight:900,marginTop:6}}>{String(data.git?.changed ?? false)}</div></div>
+          <div style={card}><div style={{color:"#94a3b8",fontSize:12}}>Push</div><div style={{fontSize:28,fontWeight:900,marginTop:6}}>{String(data.git?.pushOk ?? false)}</div></div>
+        </div>
+
+        <div style={card}>
+          <div style={{fontSize:22,fontWeight:900,marginBottom:12}}>Discovered One-Shot Scripts</div>
+          <div style={{display:"grid",gridTemplateColumns:"repeat(3,minmax(0,1fr))",gap:12}}>
+            {(data.discoveredScripts || []).map((x)=>(
+              <div key={x} style={box}>{x}</div>
+            ))}
+          </div>
+        </div>
+
+        <div style={card}>
+          <div style={{fontSize:22,fontWeight:900,marginBottom:12}}>Last Results</div>
+          <div style={{display:"grid",gap:10}}>
+            {(data.results || []).slice(0,12).map((x)=>(
+              <div key={x.script} style={box}>
+                <div style={{display:"flex",justifyContent:"space-between",gap:10,flexWrap:"wrap"}}>
+                  <div style={{fontWeight:900}}>{x.script}</div>
+                  <div style={{color:x.ok ? "#22c55e" : "#ef4444",fontWeight:900}}>{x.ok ? "OK" : "FAIL"}</div>
+                </div>
+                <div style={{marginTop:6,color:"#94a3b8",fontSize:12}}>Exit: {String(x.exitCode)} · {x.finishedAt}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </main>
+  );
+}
