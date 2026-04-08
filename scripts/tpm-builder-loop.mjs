@@ -2,6 +2,7 @@
 import path from "path";
 import { getManifest, getBuilderConfig, getState, saveState, createSnapshot } from "../lib/tpm-runtime.mjs";
 import { getAutopilotState, runAutopilotOnce } from "../lib/tpm-mission.mjs";
+import { getFinalizerState, runFinalizerOnce } from "../lib/tpm-finalizer.mjs";
 
 const ROOT = process.cwd();
 const TPM_DIR = path.join(ROOT, ".tpm");
@@ -122,11 +123,16 @@ async function main() {
         runAutopilotOnce();
       }
     } catch (e) {
-      appendLog({
-        time: nowIso(),
-        cycle,
-        autopilotError: String(e?.message || e)
-      }, Number(config.maxLogEntries || 120));
+      appendLog({ time: nowIso(), cycle, autopilotError: String(e?.message || e) }, Number(config.maxLogEntries || 120));
+    }
+
+    try {
+      const finalizer = getFinalizerState();
+      if (finalizer.enabled && cycle % 2 === 1) {
+        runFinalizerOnce();
+      }
+    } catch (e) {
+      appendLog({ time: nowIso(), cycle, finalizerError: String(e?.message || e) }, Number(config.maxLogEntries || 120));
     }
 
     const fresh = getState();
@@ -152,7 +158,8 @@ async function main() {
       } : null,
       buildOk: true,
       validateOk: true,
-      autopilotIntegrated: true
+      autopilotIntegrated: true,
+      finalizerIntegrated: true
     };
 
     writeJson(STATUS_FILE, status);
@@ -165,7 +172,8 @@ async function main() {
       avgReadiness,
       closedModules,
       totalModules: manifest.modules.length,
-      autopilotIntegrated: true
+      autopilotIntegrated: true,
+      finalizerIntegrated: true
     }, Number(config.maxLogEntries || 120));
 
     if (cycle % 3 === 0) {
@@ -184,9 +192,6 @@ main().catch((err) => {
     lastRunAt: nowIso(),
     error: String(err?.message || err)
   });
-  appendLog({
-    time: nowIso(),
-    error: String(err?.message || err)
-  }, 120);
+  appendLog({ time: nowIso(), error: String(err?.message || err) }, 120);
   process.exit(1);
 });

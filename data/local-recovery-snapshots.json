@@ -1,5 +1,53 @@
 [
   {
+    "id": "SNAP-9O5H5047",
+    "label": "builder-cycle-6",
+    "createdAt": "2026-04-08T02:46:41.022Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
+    "id": "SNAP-VBYS20F0",
+    "label": "builder-cycle-3",
+    "createdAt": "2026-04-08T02:46:04.879Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
+    "id": "SNAP-5E82BE73",
+    "label": "builder-cycle-30",
+    "createdAt": "2026-04-08T02:45:39.023Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
+    "id": "SNAP-4W8ORCBD",
+    "label": "builder-cycle-27",
+    "createdAt": "2026-04-08T02:45:02.918Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
     "id": "SNAP-2YNM6Y00",
     "label": "builder-cycle-24",
     "createdAt": "2026-04-08T02:44:26.840Z",
@@ -243,54 +291,6 @@
     "id": "SNAP-ROPID5U7",
     "label": "builder-cycle-9",
     "createdAt": "2026-04-08T01:51:19.980Z",
-    "meta": {
-      "cash": 100,
-      "positions": 0,
-      "orders": 0,
-      "ledger": 0,
-      "alerts": 0
-    }
-  },
-  {
-    "id": "SNAP-BTRL3UDU",
-    "label": "builder-cycle-6",
-    "createdAt": "2026-04-08T01:50:43.940Z",
-    "meta": {
-      "cash": 100,
-      "positions": 0,
-      "orders": 0,
-      "ledger": 0,
-      "alerts": 0
-    }
-  },
-  {
-    "id": "SNAP-OCKIK3PQ",
-    "label": "builder-cycle-3",
-    "createdAt": "2026-04-08T01:50:07.884Z",
-    "meta": {
-      "cash": 100,
-      "positions": 0,
-      "orders": 0,
-      "ledger": 0,
-      "alerts": 0
-    }
-  },
-  {
-    "id": "SNAP-K01CPR40",
-    "label": "self-heal",
-    "createdAt": "2026-04-08T01:45:20.005Z",
-    "meta": {
-      "cash": 100,
-      "positions": 0,
-      "orders": 0,
-      "ledger": 0,
-      "alerts": 0
-    }
-  },
-  {
-    "id": "SNAP-45OKLDVY",
-    "label": "self-heal",
-    "createdAt": "2026-04-08T01:42:05.083Z",
     "meta": {
       "cash": 100,
       "positions": 0,
