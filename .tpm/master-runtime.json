@@ -1,10 +1,10 @@
 {
   "ok": true,
   "mode": "TPM_MASTER_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
-  "finalReadiness": "ready-local-100",
+  "overallProgress": 99,
+  "completed": 99,
+  "remaining": 1,
+  "finalReadiness": "pre-final",
   "activeModule": {
     "slug": "surface",
     "title": "Operator Surface",
@@ -118,18 +118,15 @@
     }
   ],
   "blockers": [
-    "External GoDaddy deploy remains blocked by current hosting plan."
+    "GoDaddy SFTP credentials are not filled yet.",
+    "External deploy remains constrained by current hosting plan."
   ],
   "commands": [
     "npm run tpm:master:once",
     "npm run tpm:master",
     "npm run tpm:analytics:once",
     "npm run tpm:simulation:once",
-    "npm run tpm:intelligence:once",
-    "npm run tpm:sentinel:once",
-    "npm run tpm:sentinel",
-    "npm run tpm:omega:once",
-    "npm run tpm:omega"
+    "npm run tpm:intelligence:once"
   ],
   "pages": [
     "/master-control",
@@ -139,13 +136,7 @@
     "/signal-hub",
     "/backtest-lab",
     "/research-studio",
-    "/intelligence-center",
-    "/sentinel-core",
-    "/experiment-studio",
-    "/customer-success-hub",
-    "/omega-core",
-    "/recovery-matrix",
-    "/trust-center"
+    "/intelligence-center"
   ],
   "nextWave": [
     {
@@ -168,71 +159,7 @@
       "progress": 70,
       "stage": "WAITING_PLAN",
       "status": "blocked"
-    },
-    {
-      "slug": "sentinel-core",
-      "title": "sentinel core",
-      "progress": 93,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "experiment-studio",
-      "title": "experiment studio",
-      "progress": 93,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "customer-success-hub",
-      "title": "customer success hub",
-      "progress": 93,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "omega-core",
-      "title": "omega core",
-      "progress": 87,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "recovery-matrix",
-      "title": "recovery matrix",
-      "progress": 87,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "trust-center",
-      "title": "trust center",
-      "progress": 87,
-      "stage": "ACTIVE",
-      "status": "strong"
     }
   ],
-  "time": "2026-04-08T10:58:22.917Z",
-  "localCertified": true,
-  "releaseGate": "OPEN_LOCAL",
-  "sentinelLayer": {
-    "active": true,
-    "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
-    "progress": 93,
-    "status": "ACTIVE",
-    "time": "2026-04-08T10:58:25.923Z"
-  },
-  "omegaLayer": {
-    "active": true,
-    "layer": "OMEGA_CORE_RECOVERY_MATRIX_TRUST_CENTER",
-    "progress": 87,
-    "status": "ACTIVE",
-    "time": "2026-04-08T10:58:34.535Z"
-  },
-  "externalDeployBlocked": true,
-  "runtimeDepth": {
-    "active": 15,
-    "expected": 16,
-    "status": "CLOSED_100"
-  }
+  "time": "2026-04-08T10:59:52.940Z"
 }
