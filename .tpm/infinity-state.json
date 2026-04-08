@@ -4,7 +4,7 @@
     "local":  100,
     "remaining":  0,
     "infiniteContinuation":  "ACTIVE",
-    "status":  "BOOTING",
-    "cycleAt":  "2026-04-08T23:49:45",
+    "status":  "RUNNING",
+    "cycleAt":  "2026-04-08T23:50:04",
     "nextRunInSeconds":  90
 }

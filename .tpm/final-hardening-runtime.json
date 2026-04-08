@@ -14,10 +14,10 @@
     "localCertified": true,
     "releaseGate": "OPEN_LOCAL",
     "readiness": "LOCAL_CERTIFIED_100",
-    "time": "2026-04-08T09:25:31.437Z"
+    "time": "2026-04-08T21:49:53.317Z"
   },
   "blockers": [
     "External GoDaddy deploy still blocked by current plan / missing SFTP credentials."
   ],
-  "time": "2026-04-08T09:25:31.438Z"
+  "time": "2026-04-08T21:49:53.319Z"
 }
