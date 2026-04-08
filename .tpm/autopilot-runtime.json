@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "cycle": 13,
+  "cycle": 14,
   "status": "ACTIVE_WITH_ERRORS",
   "discoveredScripts": [
     "tpm:agentmesh:once",
@@ -44,310 +44,310 @@
   "discoveredCount": 37,
   "successCount": 0,
   "failedCount": 37,
-  "lastRunAt": "2026-04-08T13:12:48.178Z",
+  "lastRunAt": "2026-04-08T13:14:50.800Z",
   "git": {
     "addOk": true,
     "commitOk": true,
     "pushOk": true,
     "changed": true,
-    "commitMessage": "tpm: autopilot cycle 13",
-    "pushOutput": "\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\nTo https://github.com/trading-pro-max/trading-pro-max.git\n   772208f6..afc567cd  main -> main\n"
+    "commitMessage": "tpm: autopilot cycle 14",
+    "pushOutput": "\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\nTo https://github.com/trading-pro-max/trading-pro-max.git\n   99e9c0f4..395970d3  main -> main\n"
   },
   "results": [
     {
       "script": "tpm:agentmesh:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:40.876Z",
-      "finishedAt": "2026-04-08T13:12:41.030Z",
+      "startedAt": "2026-04-08T13:14:48.233Z",
+      "finishedAt": "2026-04-08T13:14:48.244Z",
       "output": "\n"
     },
     {
       "script": "tpm:ai:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.030Z",
-      "finishedAt": "2026-04-08T13:12:41.032Z",
+      "startedAt": "2026-04-08T13:14:48.244Z",
+      "finishedAt": "2026-04-08T13:14:48.245Z",
       "output": "\n"
     },
     {
       "script": "tpm:analytics:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.032Z",
-      "finishedAt": "2026-04-08T13:12:41.033Z",
+      "startedAt": "2026-04-08T13:14:48.245Z",
+      "finishedAt": "2026-04-08T13:14:48.245Z",
       "output": "\n"
     },
     {
       "script": "tpm:apex:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.033Z",
-      "finishedAt": "2026-04-08T13:12:41.034Z",
+      "startedAt": "2026-04-08T13:14:48.245Z",
+      "finishedAt": "2026-04-08T13:14:48.245Z",
       "output": "\n"
     },
     {
       "script": "tpm:atlas:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.034Z",
-      "finishedAt": "2026-04-08T13:12:41.036Z",
+      "startedAt": "2026-04-08T13:14:48.245Z",
+      "finishedAt": "2026-04-08T13:14:48.246Z",
       "output": "\n"
     },
     {
       "script": "tpm:broker:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.036Z",
-      "finishedAt": "2026-04-08T13:12:41.043Z",
+      "startedAt": "2026-04-08T13:14:48.246Z",
+      "finishedAt": "2026-04-08T13:14:48.247Z",
       "output": "\n"
     },
     {
       "script": "tpm:command:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.043Z",
-      "finishedAt": "2026-04-08T13:12:41.045Z",
+      "startedAt": "2026-04-08T13:14:48.247Z",
+      "finishedAt": "2026-04-08T13:14:48.248Z",
       "output": "\n"
     },
     {
       "script": "tpm:council:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.045Z",
-      "finishedAt": "2026-04-08T13:12:41.046Z",
+      "startedAt": "2026-04-08T13:14:48.248Z",
+      "finishedAt": "2026-04-08T13:14:48.248Z",
       "output": "\n"
     },
     {
       "script": "tpm:enterprise:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.046Z",
-      "finishedAt": "2026-04-08T13:12:41.048Z",
+      "startedAt": "2026-04-08T13:14:48.248Z",
+      "finishedAt": "2026-04-08T13:14:48.248Z",
       "output": "\n"
     },
     {
       "script": "tpm:executive:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.048Z",
-      "finishedAt": "2026-04-08T13:12:41.049Z",
+      "startedAt": "2026-04-08T13:14:48.248Z",
+      "finishedAt": "2026-04-08T13:14:48.248Z",
       "output": "\n"
     },
     {
       "script": "tpm:expansion:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.049Z",
-      "finishedAt": "2026-04-08T13:12:41.056Z",
+      "startedAt": "2026-04-08T13:14:48.248Z",
+      "finishedAt": "2026-04-08T13:14:48.249Z",
       "output": "\n"
     },
     {
       "script": "tpm:fabric:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.056Z",
-      "finishedAt": "2026-04-08T13:12:41.058Z",
+      "startedAt": "2026-04-08T13:14:48.249Z",
+      "finishedAt": "2026-04-08T13:14:48.249Z",
       "output": "\n"
     },
     {
       "script": "tpm:federation:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.058Z",
-      "finishedAt": "2026-04-08T13:12:41.059Z",
+      "startedAt": "2026-04-08T13:14:48.249Z",
+      "finishedAt": "2026-04-08T13:14:48.249Z",
       "output": "\n"
     },
     {
       "script": "tpm:final:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.059Z",
-      "finishedAt": "2026-04-08T13:12:41.087Z",
+      "startedAt": "2026-04-08T13:14:48.249Z",
+      "finishedAt": "2026-04-08T13:14:48.257Z",
       "output": "\n"
     },
     {
       "script": "tpm:governance:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.087Z",
-      "finishedAt": "2026-04-08T13:12:41.091Z",
+      "startedAt": "2026-04-08T13:14:48.257Z",
+      "finishedAt": "2026-04-08T13:14:48.257Z",
       "output": "\n"
     },
     {
       "script": "tpm:helix:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.091Z",
-      "finishedAt": "2026-04-08T13:12:41.092Z",
+      "startedAt": "2026-04-08T13:14:48.257Z",
+      "finishedAt": "2026-04-08T13:14:48.257Z",
       "output": "\n"
     },
     {
       "script": "tpm:horizon:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.092Z",
-      "finishedAt": "2026-04-08T13:12:41.094Z",
+      "startedAt": "2026-04-08T13:14:48.257Z",
+      "finishedAt": "2026-04-08T13:14:48.257Z",
       "output": "\n"
     },
     {
       "script": "tpm:intelligence:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.094Z",
-      "finishedAt": "2026-04-08T13:12:41.096Z",
+      "startedAt": "2026-04-08T13:14:48.257Z",
+      "finishedAt": "2026-04-08T13:14:48.258Z",
       "output": "\n"
     },
     {
       "script": "tpm:learning:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.096Z",
-      "finishedAt": "2026-04-08T13:12:41.098Z",
+      "startedAt": "2026-04-08T13:14:48.258Z",
+      "finishedAt": "2026-04-08T13:14:48.258Z",
       "output": "\n"
     },
     {
       "script": "tpm:market:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.098Z",
-      "finishedAt": "2026-04-08T13:12:41.099Z",
+      "startedAt": "2026-04-08T13:14:48.258Z",
+      "finishedAt": "2026-04-08T13:14:48.258Z",
       "output": "\n"
     },
     {
       "script": "tpm:meta:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.099Z",
-      "finishedAt": "2026-04-08T13:12:41.100Z",
+      "startedAt": "2026-04-08T13:14:48.258Z",
+      "finishedAt": "2026-04-08T13:14:48.258Z",
       "output": "\n"
     },
     {
       "script": "tpm:navigator:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.100Z",
-      "finishedAt": "2026-04-08T13:12:41.106Z",
+      "startedAt": "2026-04-08T13:14:48.258Z",
+      "finishedAt": "2026-04-08T13:14:48.259Z",
       "output": "\n"
     },
     {
       "script": "tpm:nexus:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.106Z",
-      "finishedAt": "2026-04-08T13:12:41.109Z",
+      "startedAt": "2026-04-08T13:14:48.259Z",
+      "finishedAt": "2026-04-08T13:14:48.259Z",
       "output": "\n"
     },
     {
       "script": "tpm:observability:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.109Z",
-      "finishedAt": "2026-04-08T13:12:41.110Z",
+      "startedAt": "2026-04-08T13:14:48.259Z",
+      "finishedAt": "2026-04-08T13:14:48.260Z",
       "output": "\n"
     },
     {
       "script": "tpm:omega:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.110Z",
-      "finishedAt": "2026-04-08T13:12:41.113Z",
+      "startedAt": "2026-04-08T13:14:48.260Z",
+      "finishedAt": "2026-04-08T13:14:48.261Z",
       "output": "\n"
     },
     {
       "script": "tpm:orchestrator:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.113Z",
-      "finishedAt": "2026-04-08T13:12:41.116Z",
+      "startedAt": "2026-04-08T13:14:48.261Z",
+      "finishedAt": "2026-04-08T13:14:48.261Z",
       "output": "\n"
     },
     {
       "script": "tpm:platform:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.116Z",
-      "finishedAt": "2026-04-08T13:12:41.119Z",
+      "startedAt": "2026-04-08T13:14:48.261Z",
+      "finishedAt": "2026-04-08T13:14:48.261Z",
       "output": "\n"
     },
     {
       "script": "tpm:prism:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.119Z",
-      "finishedAt": "2026-04-08T13:12:41.121Z",
+      "startedAt": "2026-04-08T13:14:48.261Z",
+      "finishedAt": "2026-04-08T13:14:48.262Z",
       "output": "\n"
     },
     {
       "script": "tpm:pulse:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.121Z",
-      "finishedAt": "2026-04-08T13:12:41.125Z",
+      "startedAt": "2026-04-08T13:14:48.262Z",
+      "finishedAt": "2026-04-08T13:14:48.263Z",
       "output": "\n"
     },
     {
       "script": "tpm:quantum:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.125Z",
-      "finishedAt": "2026-04-08T13:12:41.167Z",
+      "startedAt": "2026-04-08T13:14:48.263Z",
+      "finishedAt": "2026-04-08T13:14:48.264Z",
       "output": "\n"
     },
     {
       "script": "tpm:sentinel:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.167Z",
-      "finishedAt": "2026-04-08T13:12:41.169Z",
+      "startedAt": "2026-04-08T13:14:48.264Z",
+      "finishedAt": "2026-04-08T13:14:48.264Z",
       "output": "\n"
     },
     {
       "script": "tpm:simulation:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.169Z",
-      "finishedAt": "2026-04-08T13:12:41.171Z",
+      "startedAt": "2026-04-08T13:14:48.264Z",
+      "finishedAt": "2026-04-08T13:14:48.265Z",
       "output": "\n"
     },
     {
       "script": "tpm:sovereign:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.171Z",
-      "finishedAt": "2026-04-08T13:12:41.172Z",
+      "startedAt": "2026-04-08T13:14:48.265Z",
+      "finishedAt": "2026-04-08T13:14:48.265Z",
       "output": "\n"
     },
     {
       "script": "tpm:strategy:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.172Z",
-      "finishedAt": "2026-04-08T13:12:41.174Z",
+      "startedAt": "2026-04-08T13:14:48.265Z",
+      "finishedAt": "2026-04-08T13:14:48.265Z",
       "output": "\n"
     },
     {
       "script": "tpm:vector:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.174Z",
-      "finishedAt": "2026-04-08T13:12:41.177Z",
+      "startedAt": "2026-04-08T13:14:48.265Z",
+      "finishedAt": "2026-04-08T13:14:48.266Z",
       "output": "\n"
     },
     {
       "script": "tpm:vertex:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.177Z",
-      "finishedAt": "2026-04-08T13:12:41.178Z",
+      "startedAt": "2026-04-08T13:14:48.266Z",
+      "finishedAt": "2026-04-08T13:14:48.266Z",
       "output": "\n"
     },
     {
       "script": "tpm:master:once",
       "ok": false,
       "exitCode": null,
-      "startedAt": "2026-04-08T13:12:41.178Z",
-      "finishedAt": "2026-04-08T13:12:41.182Z",
+      "startedAt": "2026-04-08T13:14:48.266Z",
+      "finishedAt": "2026-04-08T13:14:48.267Z",
       "output": "\n"
     }
   ]
