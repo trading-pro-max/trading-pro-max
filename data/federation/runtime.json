@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "planes": [
+    {
+      "slug": "runtime-federation",
+      "title": "Runtime Federation",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-federation",
+      "title": "Policy Federation",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-federation",
+      "title": "Trust Federation",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "launch-federation",
+      "title": "Launch Federation",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "linkedPlanes": 24,
+    "protectedNodes": 22,
+    "activeStores": 30,
+    "federationConfidence": 100
+  },
+  "time": "2026-04-08T11:48:49.583Z"
+}

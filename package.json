@@ -98,7 +98,9 @@
     "tpm:helix:once": "node ./lib/tpm-helix-core.mjs",
     "tpm:helix": "node ./scripts/tpm-helix-loop.mjs",
     "tpm:vector:once": "node ./lib/tpm-vector-core.mjs",
-    "tpm:vector": "node ./scripts/tpm-vector-loop.mjs"
+    "tpm:vector": "node ./scripts/tpm-vector-loop.mjs",
+    "tpm:federation:once": "node ./lib/tpm-federation-core.mjs",
+    "tpm:federation": "node ./scripts/tpm-federation-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",
