@@ -126,7 +126,9 @@
     "tpm:infinity7:once": "node ./lib/tpm-infinity-seven-core.mjs",
     "tpm:infinity7": "node ./scripts/tpm-infinity-seven-loop.mjs",
     "tpm:continuum:once": "node ./lib/tpm-continuum-core.mjs",
-    "tpm:continuum": "node ./scripts/tpm-continuum-loop.mjs"
+    "tpm:continuum": "node ./scripts/tpm-continuum-loop.mjs",
+    "tpm:kernel:once": "node ./lib/tpm-kernel-core.mjs",
+    "tpm:kernel": "node ./scripts/tpm-kernel-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

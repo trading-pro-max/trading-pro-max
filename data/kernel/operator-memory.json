@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "banks": [
+    {
+      "slug": "operator-bank",
+      "title": "Operator Bank",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "runtime-bank",
+      "title": "Runtime Bank",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "governance-bank",
+      "title": "Governance Bank",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-bank",
+      "title": "Evidence Bank",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "storedArtifacts": 34,
+    "replayableMemories": 24,
+    "governedSnapshots": 20,
+    "memoryConfidence": 100
+  },
+  "time": "2026-04-08T22:20:32.193Z"
+}

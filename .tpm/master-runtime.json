@@ -155,7 +155,11 @@
     "npm run tpm:enterprise:once",
     "npm run tpm:enterprise",
     "npm run tpm:runtimeops:once",
-    "npm run tpm:runtimeops"
+    "npm run tpm:runtimeops",
+    "npm run tpm:kernel:once",
+    "npm run tpm:kernel",
+    "npm run tpm:omega:once",
+    "npm run tpm:omega"
   ],
   "pages": [
     "/master-control",
@@ -208,7 +212,13 @@
     "/ops-replay",
     "/connector-inspector",
     "/env-doctor",
-    "/runtime-health"
+    "/runtime-health",
+    "/kernel-os",
+    "/scenario-genome",
+    "/operator-memory",
+    "/omega-core",
+    "/recovery-matrix",
+    "/trust-center"
   ],
   "nextWave": [
     {
@@ -525,6 +535,27 @@
       "progress": 80,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "kernel-os",
+      "title": "kernel os",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-genome",
+      "title": "scenario genome",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-memory",
+      "title": "operator memory",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T22:19:37.568Z",
@@ -684,5 +715,17 @@
     "progress": 80,
     "status": "ACTIVE",
     "time": "2026-04-08T22:19:37.986Z"
+  },
+  "kernelLayer": {
+    "active": true,
+    "layer": "KERNEL_OS_SCENARIO_GENOME_OPERATOR_MEMORY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "infinityContinuation": "ACTIVE",
+    "time": "2026-04-08T22:20:32.202Z"
+  },
+  "runtimeDepth": {
+    "active": 15,
+    "expected": 16,
+    "status": "CLOSED_100"
   }
-}
