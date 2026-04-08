@@ -1,8 +1,12 @@
 {
   "ok": true,
-  "cycle": 1,
-  "status": "ACTIVE_WITH_ERRORS",
-  "discoveredScripts": [
+  "mode": "TPM_FINAL_AUTOPILOT",
+  "startedAt": "2026-04-08T19:48:53.499Z",
+  "finishedAt": "2026-04-08T19:48:53.660Z",
+  "scriptsTotal": 42,
+  "scriptsPassed": 0,
+  "scriptsFailed": 42,
+  "scripts": [
     "tpm:agentmesh:once",
     "tpm:ai:once",
     "tpm:analytics:once",
@@ -21,9 +25,10 @@
     "tpm:governance:once",
     "tpm:helix:once",
     "tpm:horizon:once",
-    "tpm:infinity3:once",
     "tpm:infinity:once",
+    "tpm:infinity3:once",
     "tpm:intelligence:once",
+    "tpm:jump4:once",
     "tpm:learning:once",
     "tpm:market:once",
     "tpm:meta:once",
@@ -45,346 +50,309 @@
     "tpm:vertex:once",
     "tpm:master:once"
   ],
-  "discoveredCount": 41,
-  "successCount": 0,
-  "failedCount": 41,
-  "lastRunAt": "2026-04-08T19:47:43.585Z",
-  "git": {
-    "addOk": true,
-    "commitOk": true,
-    "pushOk": true,
-    "changed": true,
-    "commitMessage": "tpm: autopilot cycle 1",
-    "pushOutput": "\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\nTo https://github.com/trading-pro-max/trading-pro-max.git\n   7ec3a2cf..69e39676  main -> main\n"
-  },
   "results": [
     {
-      "script": "tpm:agentmesh:once",
+      "name": "tpm:agentmesh:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.436Z",
-      "finishedAt": "2026-04-08T19:47:36.450Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:ai:once",
+      "name": "tpm:ai:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.450Z",
-      "finishedAt": "2026-04-08T19:47:36.451Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:analytics:once",
+      "name": "tpm:analytics:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.451Z",
-      "finishedAt": "2026-04-08T19:47:36.451Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:apex:once",
+      "name": "tpm:apex:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.451Z",
-      "finishedAt": "2026-04-08T19:47:36.452Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:atlas:once",
+      "name": "tpm:atlas:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.452Z",
-      "finishedAt": "2026-04-08T19:47:36.452Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:broker:once",
+      "name": "tpm:broker:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.452Z",
-      "finishedAt": "2026-04-08T19:47:36.453Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:command:once",
+      "name": "tpm:command:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.453Z",
-      "finishedAt": "2026-04-08T19:47:36.454Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:constellation:once",
+      "name": "tpm:constellation:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.454Z",
-      "finishedAt": "2026-04-08T19:47:36.457Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:council:once",
+      "name": "tpm:council:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.457Z",
-      "finishedAt": "2026-04-08T19:47:36.458Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:enterprise:once",
+      "name": "tpm:enterprise:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.458Z",
-      "finishedAt": "2026-04-08T19:47:36.459Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:executive:once",
+      "name": "tpm:executive:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.459Z",
-      "finishedAt": "2026-04-08T19:47:36.460Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:expansion:once",
+      "name": "tpm:expansion:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.460Z",
-      "finishedAt": "2026-04-08T19:47:36.461Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:fabric:once",
+      "name": "tpm:fabric:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.461Z",
-      "finishedAt": "2026-04-08T19:47:36.462Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:federation:once",
+      "name": "tpm:federation:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.462Z",
-      "finishedAt": "2026-04-08T19:47:36.464Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:final:once",
+      "name": "tpm:final:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.464Z",
-      "finishedAt": "2026-04-08T19:47:36.465Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:governance:once",
+      "name": "tpm:governance:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.465Z",
-      "finishedAt": "2026-04-08T19:47:36.466Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:helix:once",
+      "name": "tpm:helix:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.466Z",
-      "finishedAt": "2026-04-08T19:47:36.467Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:horizon:once",
+      "name": "tpm:horizon:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.467Z",
-      "finishedAt": "2026-04-08T19:47:36.468Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:infinity3:once",
+      "name": "tpm:infinity:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.468Z",
-      "finishedAt": "2026-04-08T19:47:36.469Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:infinity:once",
+      "name": "tpm:infinity3:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.469Z",
-      "finishedAt": "2026-04-08T19:47:36.469Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:intelligence:once",
+      "name": "tpm:intelligence:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.469Z",
-      "finishedAt": "2026-04-08T19:47:36.470Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:learning:once",
+      "name": "tpm:jump4:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.470Z",
-      "finishedAt": "2026-04-08T19:47:36.471Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:market:once",
+      "name": "tpm:learning:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.471Z",
-      "finishedAt": "2026-04-08T19:47:36.471Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:meta:once",
+      "name": "tpm:market:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.471Z",
-      "finishedAt": "2026-04-08T19:47:36.472Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:navigator:once",
+      "name": "tpm:meta:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.472Z",
-      "finishedAt": "2026-04-08T19:47:36.473Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:nexus:once",
+      "name": "tpm:navigator:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.473Z",
-      "finishedAt": "2026-04-08T19:47:36.474Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:observability:once",
+      "name": "tpm:nexus:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.474Z",
-      "finishedAt": "2026-04-08T19:47:36.475Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:omega:once",
+      "name": "tpm:observability:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.475Z",
-      "finishedAt": "2026-04-08T19:47:36.476Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:orchestrator:once",
+      "name": "tpm:omega:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.476Z",
-      "finishedAt": "2026-04-08T19:47:36.477Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:platform:once",
+      "name": "tpm:orchestrator:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.477Z",
-      "finishedAt": "2026-04-08T19:47:36.477Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:prism:once",
+      "name": "tpm:platform:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.477Z",
-      "finishedAt": "2026-04-08T19:47:36.478Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:pulse:once",
+      "name": "tpm:prism:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.478Z",
-      "finishedAt": "2026-04-08T19:47:36.480Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:quantum:once",
+      "name": "tpm:pulse:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.480Z",
-      "finishedAt": "2026-04-08T19:47:36.481Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:runtimeops:once",
+      "name": "tpm:quantum:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.481Z",
-      "finishedAt": "2026-04-08T19:47:36.481Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:sentinel:once",
+      "name": "tpm:runtimeops:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.481Z",
-      "finishedAt": "2026-04-08T19:47:36.482Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:simulation:once",
+      "name": "tpm:sentinel:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.482Z",
-      "finishedAt": "2026-04-08T19:47:36.494Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:sovereign:once",
+      "name": "tpm:simulation:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.494Z",
-      "finishedAt": "2026-04-08T19:47:36.495Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:strategy:once",
+      "name": "tpm:sovereign:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.495Z",
-      "finishedAt": "2026-04-08T19:47:36.497Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:vector:once",
+      "name": "tpm:strategy:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.497Z",
-      "finishedAt": "2026-04-08T19:47:36.497Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:vertex:once",
+      "name": "tpm:vector:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.497Z",
-      "finishedAt": "2026-04-08T19:47:36.498Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     },
     {
-      "script": "tpm:master:once",
+      "name": "tpm:vertex:once",
       "ok": false,
-      "exitCode": null,
-      "startedAt": "2026-04-08T19:47:36.498Z",
-      "finishedAt": "2026-04-08T19:47:36.499Z",
-      "output": "\n"
+      "code": null,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "tpm:master:once",
+      "ok": false,
+      "code": null,
+      "stdout": "",
+      "stderr": ""
     }
-  ]
+  ],
+  "master": {
+    "overallProgress": 100,
+    "completed": 100,
+    "remaining": 0,
+    "localCertified": true,
+    "releaseGate": "OPEN_LOCAL",
+    "finalReadiness": "ready-local-100",
+    "externalDeployBlocked": true
+  }
 }
