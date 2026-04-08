@@ -99,7 +99,11 @@
     "npm run tpm:governance:once",
     "npm run tpm:broker:once",
     "npm run tpm:command:once",
-    "npm run tpm:market:once"
+    "npm run tpm:market:once",
+    "npm run tpm:executive:once",
+    "npm run tpm:executive",
+    "npm run tpm:agentmesh:once",
+    "npm run tpm:agentmesh"
   ],
   "pages": [
     "/master-control",
@@ -111,7 +115,13 @@
     "/config-center",
     "/broker-bridge",
     "/live-ops",
-    "/decision-engine"
+    "/decision-engine",
+    "/control-tower",
+    "/capital-os",
+    "/execution-intelligence",
+    "/agent-mesh",
+    "/memory-os",
+    "/growth-engine"
   ],
   "nextWave": [
     {
@@ -134,7 +144,63 @@
       "progress": 70,
       "stage": "WAITING_PLAN",
       "status": "blocked"
+    },
+    {
+      "slug": "control-tower",
+      "title": "control tower",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "capital-os",
+      "title": "capital os",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "execution-intelligence",
+      "title": "execution intelligence",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "agent-mesh-depth",
+      "title": "agent mesh depth",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-os",
+      "title": "memory os",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "growth-engine",
+      "title": "growth engine",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
-  "time": "2026-04-08T10:30:06.806Z"
+  "time": "2026-04-08T10:30:06.806Z",
+  "executiveLayer": {
+    "active": true,
+    "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
+    "progress": 96,
+    "status": "ACTIVE",
+    "time": "2026-04-08T10:30:07.106Z"
+  },
+  "postCertification": {
+    "active": true,
+    "layer": "AGENT_MESH_EXPANSION",
+    "progress": 96,
+    "status": "ACTIVE",
+    "time": "2026-04-08T10:31:18.595Z"
+  }
 }
