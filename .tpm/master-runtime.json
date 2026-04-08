@@ -28,7 +28,15 @@
     "/execution-forum",
     "/constellation-hub",
     "/scenario-exchange",
-    "/assurance-console"
+    "/assurance-console",
+    "/autopilot-center",
+    "/kernel-os",
+    "/scenario-genome",
+    "/operator-memory",
+    "/infinity-grid",
+    "/treasury-router",
+    "/memory-dna",
+    "/autonomy-theater"
   ],
   "commands": [
     "npm run tpm:atlas:once",
@@ -43,7 +51,13 @@
     "npm run tpm:prism:once",
     "npm run tpm:prism",
     "npm run tpm:constellation:once",
-    "npm run tpm:constellation"
+    "npm run tpm:constellation",
+    "npm run tpm:autopilot:once",
+    "npm run tpm:autopilot",
+    "npm run tpm:kernel:once",
+    "npm run tpm:kernel",
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity"
   ],
   "nextWave": [
     {
@@ -171,6 +185,55 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "kernel-os",
+      "title": "kernel os",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-genome",
+      "title": "scenario genome",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-memory",
+      "title": "operator memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "infinity-grid",
+      "title": "infinity grid",
+      "progress": 98,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "treasury-router",
+      "title": "treasury router",
+      "progress": 98,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-dna",
+      "title": "memory dna",
+      "progress": 98,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomy-theater",
+      "title": "autonomy theater",
+      "progress": 98,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "atlasLayer": {
@@ -215,5 +278,78 @@
     "progress": 100,
     "status": "ACTIVE",
     "time": "2026-04-08T22:44:05.289Z"
+  },
+  "autopilot": {
+    "active": true,
+    "mode": "FULL_AUTO_LOCAL",
+    "cycle": 1,
+    "discoveredScripts": [
+      "tpm:agentmesh:once",
+      "tpm:ai:once",
+      "tpm:analytics:once",
+      "tpm:apex:once",
+      "tpm:atlas:once",
+      "tpm:broker:once",
+      "tpm:command:once",
+      "tpm:constellation:once",
+      "tpm:continuum:once",
+      "tpm:council:once",
+      "tpm:enterprise:once",
+      "tpm:executive:once",
+      "tpm:expansion:once",
+      "tpm:fabric:once",
+      "tpm:federation:once",
+      "tpm:final:once",
+      "tpm:governance:once",
+      "tpm:helix:once",
+      "tpm:horizon:once",
+      "tpm:infinity3:once",
+      "tpm:infinity7:once",
+      "tpm:infinity:once",
+      "tpm:intelligence:once",
+      "tpm:jump4:once",
+      "tpm:kernel:once",
+      "tpm:learning:once",
+      "tpm:market:once",
+      "tpm:meta:once",
+      "tpm:navigator:once",
+      "tpm:nexus:once",
+      "tpm:observability:once",
+      "tpm:omega:once",
+      "tpm:orchestrator:once",
+      "tpm:platform:once",
+      "tpm:prism:once",
+      "tpm:pulse:once",
+      "tpm:quantum:once",
+      "tpm:runtimeops:once",
+      "tpm:sentinel:once",
+      "tpm:simulation:once",
+      "tpm:sovereign:once",
+      "tpm:strategy:once",
+      "tpm:vector:once",
+      "tpm:vertex:once",
+      "tpm:zenith:once",
+      "tpm:master:once"
+    ],
+    "successCount": 0,
+    "failedCount": 46,
+    "lastRunAt": "2026-04-08T22:44:32.259Z",
+    "status": "ACTIVE_WITH_ERRORS"
+  },
+  "kernelLayer": {
+    "active": true,
+    "layer": "KERNEL_OS_SCENARIO_GENOME_OPERATOR_MEMORY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "infinityContinuation": "ACTIVE",
+    "time": "2026-04-08T22:44:33.395Z"
+  },
+  "infinityLayer": {
+    "active": true,
+    "layer": "INFINITY_GRID_TREASURY_ROUTER_MEMORY_DNA_AUTONOMY_THEATER",
+    "progress": 98,
+    "status": "ACTIVE",
+    "infiniteContinuation": "ACTIVE",
+    "time": "2026-04-08T22:44:44.237Z"
   }
 }
