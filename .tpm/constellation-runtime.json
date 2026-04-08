@@ -1,13 +1,13 @@
 {
   "ok": true,
   "mode": "TPM_CONSTELLATION_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
+  "overallProgress": 93,
+  "completed": 93,
+  "remaining": 7,
   "domains": {
     "constellation": 100,
-    "profit": 100,
-    "treaty": 100,
+    "exchange": 83,
+    "assurance": 83,
     "proof": 100,
     "continuity": 100
   },
@@ -19,17 +19,17 @@
       "status": "active"
     },
     {
-      "slug": "profit-discipline",
-      "title": "profit discipline",
-      "progress": 100,
+      "slug": "exchange-depth",
+      "title": "exchange depth",
+      "progress": 83,
       "status": "active"
     },
     {
-      "slug": "treaty-discipline",
-      "title": "treaty discipline",
-      "progress": 100,
+      "slug": "assurance-discipline",
+      "title": "assurance discipline",
+      "progress": 83,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T22:34:19.839Z"
+  "time": "2026-04-08T22:35:04.004Z"
 }

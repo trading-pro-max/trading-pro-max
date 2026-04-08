@@ -171,7 +171,13 @@
     "npm run tpm:enterprise:once",
     "npm run tpm:enterprise",
     "npm run tpm:runtimeops:once",
-    "npm run tpm:runtimeops"
+    "npm run tpm:runtimeops",
+    "npm run tpm:prism:once",
+    "npm run tpm:prism",
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity",
+    "npm run tpm:constellation:once",
+    "npm run tpm:constellation"
   ],
   "pages": [
     "/master-control",
@@ -253,7 +259,16 @@
     "/ops-replay",
     "/connector-inspector",
     "/env-doctor",
-    "/runtime-health"
+    "/runtime-health",
+    "/prism-core",
+    "/memory-map",
+    "/execution-forum",
+    "/infinity-core",
+    "/strategy-memory",
+    "/operator-radar",
+    "/constellation-hub",
+    "/scenario-exchange",
+    "/assurance-console"
   ],
   "nextWave": [
     {
@@ -773,6 +788,69 @@
       "progress": 80,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "prism-core",
+      "title": "prism core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-map",
+      "title": "memory map",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "execution-forum",
+      "title": "execution forum",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "infinity-core",
+      "title": "infinity core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "strategy-memory",
+      "title": "strategy memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-radar",
+      "title": "operator radar",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "constellation-hub",
+      "title": "constellation hub",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-exchange",
+      "title": "scenario exchange",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "assurance-console",
+      "title": "assurance console",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T22:34:38.074Z",
@@ -942,5 +1020,31 @@
     "progress": 80,
     "status": "ACTIVE",
     "time": "2026-04-08T22:34:38.828Z"
+  },
+  "infinityContinuation": {
+    "active": true,
+    "layer": "INFINITY_CORE_STRATEGY_MEMORY_OPERATOR_RADAR",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T22:35:03.789Z"
+  },
+  "prismLayer": {
+    "active": true,
+    "layer": "PRISM_CORE_MEMORY_MAP_EXECUTION_FORUM",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T22:34:45.451Z"
+  },
+  "constellationLayer": {
+    "active": true,
+    "layer": "CONSTELLATION_HUB_SCENARIO_EXCHANGE_ASSURANCE_CONSOLE",
+    "progress": 93,
+    "status": "ACTIVE",
+    "time": "2026-04-08T22:35:04.008Z"
+  },
+  "runtimeDepth": {
+    "active": 15,
+    "expected": 16,
+    "status": "CLOSED_100"
   }
 }
