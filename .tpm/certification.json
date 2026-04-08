@@ -1,8 +1,15 @@
-﻿{
+{
   "enabled": true,
   "targetProgress": 100,
   "targetReadiness": 98,
-  "lastRunAt": null,
-  "lastRun": null,
-  "verdict": "PENDING"
+  "lastRunAt": "2026-04-08T03:14:21.325Z",
+  "lastRun": [
+    {
+      "round": 1,
+      "progress": 100,
+      "readiness": 100,
+      "remainingModules": 0
+    }
+  ],
+  "verdict": "CERTIFIED_100"
 }

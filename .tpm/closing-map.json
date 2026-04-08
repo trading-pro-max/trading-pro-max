@@ -1,6 +1,12 @@
-﻿{
+{
   "enabled": true,
   "rounds": 4,
-  "lastRunAt": null,
-  "lastRun": null
+  "lastRunAt": "2026-04-08T03:14:21.324Z",
+  "lastRun": [
+    {
+      "round": 1,
+      "closed": 0,
+      "verdict": "CERTIFIED_100"
+    }
+  ]
 }

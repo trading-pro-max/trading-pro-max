@@ -1,5 +1,65 @@
 [
   {
+    "id": "SNAP-ZFR79NQO",
+    "label": "builder-cycle-24",
+    "createdAt": "2026-04-08T03:14:45.642Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
+    "id": "SNAP-F6UTTVU1",
+    "label": "final-100-local-certification",
+    "createdAt": "2026-04-08T03:14:21.327Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
+    "id": "SNAP-UT7Y1DQI",
+    "label": "builder-cycle-21",
+    "createdAt": "2026-04-08T03:14:09.522Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
+    "id": "SNAP-ZUIAO1SK",
+    "label": "final-100-local-certification",
+    "createdAt": "2026-04-08T03:13:40.119Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
+    "id": "SNAP-F6EHTEEZ",
+    "label": "builder-cycle-18",
+    "createdAt": "2026-04-08T03:13:33.412Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
     "id": "SNAP-ZDIRXYV3",
     "label": "builder-cycle-15",
     "createdAt": "2026-04-08T03:12:57.304Z",
@@ -231,66 +291,6 @@
     "id": "SNAP-AMLRPRKH",
     "label": "builder-cycle-21",
     "createdAt": "2026-04-08T02:49:41.629Z",
-    "meta": {
-      "cash": 100,
-      "positions": 0,
-      "orders": 0,
-      "ledger": 0,
-      "alerts": 0
-    }
-  },
-  {
-    "id": "SNAP-E8L6SJPG",
-    "label": "builder-cycle-18",
-    "createdAt": "2026-04-08T02:49:05.504Z",
-    "meta": {
-      "cash": 100,
-      "positions": 0,
-      "orders": 0,
-      "ledger": 0,
-      "alerts": 0
-    }
-  },
-  {
-    "id": "SNAP-FMOSRC3V",
-    "label": "builder-cycle-15",
-    "createdAt": "2026-04-08T02:48:29.371Z",
-    "meta": {
-      "cash": 100,
-      "positions": 0,
-      "orders": 0,
-      "ledger": 0,
-      "alerts": 0
-    }
-  },
-  {
-    "id": "SNAP-NRXJF369",
-    "label": "builder-cycle-12",
-    "createdAt": "2026-04-08T02:47:53.261Z",
-    "meta": {
-      "cash": 100,
-      "positions": 0,
-      "orders": 0,
-      "ledger": 0,
-      "alerts": 0
-    }
-  },
-  {
-    "id": "SNAP-J54OXOFX",
-    "label": "builder-cycle-9",
-    "createdAt": "2026-04-08T02:47:17.127Z",
-    "meta": {
-      "cash": 100,
-      "positions": 0,
-      "orders": 0,
-      "ledger": 0,
-      "alerts": 0
-    }
-  },
-  {
-    "id": "SNAP-9O5H5047",
-    "label": "builder-cycle-6",
-    "createdAt": "2026-04-08T02:46:41.022Z",
     "meta": {
       "cash": 100,
       "positions": 0,
