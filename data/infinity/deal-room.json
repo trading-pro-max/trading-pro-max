@@ -2,35 +2,35 @@
   "ok": true,
   "rooms": [
     {
-      "slug": "enterprise-room",
-      "title": "Enterprise Room",
-      "progress": 100,
-      "status": "closed"
-    },
-    {
       "slug": "revenue-room",
       "title": "Revenue Room",
-      "progress": 100,
+      "score": 100,
       "status": "closed"
     },
     {
-      "slug": "client-room",
-      "title": "Client Room",
-      "progress": 100,
+      "slug": "partner-room",
+      "title": "Partner Room",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "enterprise-room",
+      "title": "Enterprise Room",
+      "score": 100,
       "status": "closed"
     },
     {
-      "slug": "launch-room",
-      "title": "Launch Room",
-      "progress": 100,
+      "slug": "growth-room",
+      "title": "Growth Room",
+      "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
     "activeRooms": 8,
-    "governedPaths": 18,
-    "decisionReadiness": 100,
-    "dealConfidence": 100
+    "governedOffers": 14,
+    "enterpriseConfidence": 100,
+    "monetizationConfidence": 100
   },
-  "time": "2026-04-08T23:39:40.127Z"
+  "time": "2026-04-08T23:49:13.045Z"
 }

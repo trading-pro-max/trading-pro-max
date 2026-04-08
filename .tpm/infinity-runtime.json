@@ -1,14 +1,16 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 97,
-  "completed": 97,
-  "remaining": 3,
+  "overallProgress": 98,
+  "completed": 98,
+  "remaining": 2,
   "domains": {
-    "infinity": 100,
-    "empire": 86,
-    "world": 100,
-    "fabric": 100,
+    "core": 100,
+    "studio": 86,
+    "deal": 100,
+    "exchange": 100,
+    "memory": 100,
+    "pipeline": 100,
     "continuity": 100
   },
   "nextWave": [
@@ -19,23 +21,34 @@
       "status": "active"
     },
     {
-      "slug": "empire-depth",
-      "title": "empire depth",
+      "slug": "studio-autonomy",
+      "title": "studio autonomy",
       "progress": 86,
       "status": "active"
     },
     {
-      "slug": "world-dominance",
-      "title": "world dominance",
+      "slug": "deal-expansion",
+      "title": "deal expansion",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "fabric-unification",
-      "title": "fabric unification",
+      "slug": "research-exchange",
+      "title": "research exchange",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "memory-depth",
+      "title": "memory depth",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "launch-pipeline",
+      "title": "launch pipeline",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T23:47:38.499Z"
-}
+  "time": "2026-04-08T23:49:13.04

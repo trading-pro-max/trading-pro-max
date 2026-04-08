@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "chambers": [
+    {
+      "slug": "runtime-memory",
+      "title": "Runtime Memory",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-memory",
+      "title": "Market Memory",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-memory",
+      "title": "Audit Memory",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-memory",
+      "title": "Growth Memory",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "recordedStates": 38,
+    "replayableStates": 28,
+    "memoryDepth": 100,
+    "chamberConfidence": 100
+  },
+  "time": "2026-04-08T23:49:13.045Z"
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "lanes": [
+    {
+      "slug": "product-lane",
+      "title": "Product Lane",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ops-lane",
+      "title": "Ops Lane",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "broker-lane",
+      "title": "Broker Lane",
+      "progress": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "platform-lane",
+      "title": "Platform Lane",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeLanes": 12,
+    "governedLaunches": 16,
+    "pipelineReadiness": 100,
+    "shippingConfidence": 100
+  },
+  "time": "2026-04-08T23:49:13.045Z"
+}

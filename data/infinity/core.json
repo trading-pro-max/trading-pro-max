@@ -2,35 +2,41 @@
   "ok": true,
   "towers": [
     {
-      "slug": "autonomy",
-      "title": "Autonomy Tower",
+      "slug": "global-runtime",
+      "title": "Global Runtime Tower",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "governance",
-      "title": "Governance Tower",
+      "slug": "autonomy-runtime",
+      "title": "Autonomy Runtime Tower",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "execution",
-      "title": "Execution Tower",
+      "slug": "evidence-runtime",
+      "title": "Evidence Runtime Tower",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "expansion",
-      "title": "Expansion Tower",
+      "slug": "expansion-runtime",
+      "title": "Expansion Runtime Tower",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeTowers": 4,
-    "linkedLayers": 24,
-    "governedStores": 30,
+    "runtimeLayers": 26,
+    "governedStores": 34,
+    "activeLoops": 22,
     "infinityConfidence": 100
   },
-  "time": "2026-04-08T23:07:37.365Z"
+  "providers": {
+    "openaiReady": false,
+    "telegramReady": false,
+    "ibkrReady": false,
+    "smtpReady": false
+  },
+  "time": "2026-04-08T23:49:13.044Z"
 }

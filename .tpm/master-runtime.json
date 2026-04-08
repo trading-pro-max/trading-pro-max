@@ -85,7 +85,18 @@
     "/helix-core",
     "/signal-parliament",
     "/resilience-deck",
-    "/autopilot-center"
+    "/autopilot-center",
+    "/kernel-os",
+    "/scenario-genome",
+    "/operator-memory",
+    "/infinity-core",
+    "/world-engine",
+    "/universal-fabric",
+    "/autonomous-studio",
+    "/deal-room",
+    "/research-exchange",
+    "/memory-chamber",
+    "/launch-pipeline"
   ],
   "commands": [
     "npm run tpm:runtimeops:once",
@@ -136,7 +147,11 @@
     "npm run tpm:helix:once",
     "npm run tpm:helix",
     "npm run tpm:autopilot:once",
-    "npm run tpm:autopilot"
+    "npm run tpm:autopilot",
+    "npm run tpm:kernel:once",
+    "npm run tpm:kernel",
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity"
   ],
   "nextWave": [
     {
@@ -621,6 +636,118 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "kernel-os",
+      "title": "kernel os",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-genome",
+      "title": "scenario genome",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-memory",
+      "title": "operator memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "infinity-core",
+      "title": "infinity core",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "world-engine",
+      "title": "world engine",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "universal-fabric",
+      "title": "universal fabric",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "supremacy-core",
+      "title": "supremacy core",
+      "progress": 87,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "genome-grid",
+      "title": "genome grid",
+      "progress": 87,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomy-fabric",
+      "title": "autonomy fabric",
+      "progress": 87,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "expansion-vault",
+      "title": "expansion vault",
+      "progress": 87,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "zero-touch-ops",
+      "title": "zero touch ops",
+      "progress": 87,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomous-studio",
+      "title": "autonomous studio",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "deal-room",
+      "title": "deal room",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "research-exchange",
+      "title": "research exchange",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-chamber",
+      "title": "memory chamber",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "launch-pipeline",
+      "title": "launch pipeline",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "runtimeOpsLayer": {
@@ -630,8 +757,14 @@
     "status": "ACTIVE",
     "time": "2026-04-08T23:48:11.321Z"
   },
-  "time": "2026-04-08T23:48:26.601Z",
-  "infinityContinuation": "ACTIVE",
+  "time": "2026-04-08T23:49:12.423Z",
+  "infinityContinuation": {
+    "active": true,
+    "localState": "CLOSED_100",
+    "extensionState": "RUNNING",
+    "mode": "POST_100_EXPANSION",
+    "time": "2026-04-08T23:49:13.060Z"
+  },
   "prismLayer": {
     "active": true,
     "layer": "PRISM_CORE_MEMORY_MAP_EXECUTION_FORUM",
@@ -839,5 +972,27 @@
     "failedCount": 49,
     "lastRunAt": "2026-04-08T23:48:59.077Z",
     "status": "ACTIVE_WITH_ERRORS"
+  },
+  "kernelLayer": {
+    "active": true,
+    "layer": "KERNEL_OS_SCENARIO_GENOME_OPERATOR_MEMORY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "infinityContinuation": "ACTIVE",
+    "time": "2026-04-08T23:49:05.103Z"
+  },
+  "infinityLayer": {
+    "active": true,
+    "layer": "INFINITY_CORE_AUTONOMOUS_STUDIO_DEAL_ROOM_RESEARCH_EXCHANGE_MEMORY_CHAMBER_LAUNCH_PIPELINE",
+    "progress": 98,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:49:13.059Z"
+  },
+  "supremacyLayer": {
+    "active": true,
+    "layer": "SUPREMACY_CORE_GENOME_GRID_AUTONOMY_FABRIC_EXPANSION_VAULT_ZERO_TOUCH_OPS",
+    "progress": 87,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:49:10.015Z"
   }
 }

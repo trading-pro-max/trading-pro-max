@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "labs": [
+    {
+      "slug": "builder-lab",
+      "title": "Builder Lab",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "routing-lab",
+      "title": "Routing Lab",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-lab",
+      "title": "Policy Lab",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "autonomy-lab",
+      "title": "Autonomy Lab",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "automatedWorkflows": 20,
+    "protectedPipelines": 18,
+    "designConfidence": 100,
+    "executionConfidence": 100
+  },
+  "time": "2026-04-08T23:49:13.045Z"
+}

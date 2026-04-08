@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "networks": [
+    {
+      "slug": "research-net",
+      "title": "Research Network",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-net",
+      "title": "Policy Network",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-net",
+      "title": "Market Network",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-net",
+      "title": "Trust Network",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "exchangeNodes": 24,
+    "replayableInsights": 20,
+    "governedFindings": 18,
+    "researchConfidence": 100
+  },
+  "time": "2026-04-08T23:49:13.045Z"
+}
