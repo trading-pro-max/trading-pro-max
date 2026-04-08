@@ -1,69 +1,29 @@
-﻿export const metadata = {
-  title: "Trading Pro Max",
-  description: "Global Trading Operating System"
-};
+﻿import { getManifest } from "../lib/tpm-runtime.mjs";
 
-const links = [
-  { href: "/local-final", label: "Local Final" },
-  { href: "/local-os", label: "Local OS" },
-  { href: "/local-qa", label: "Local QA" },
-  { href: "/local-factory", label: "Local Factory" },
-  { href: "/local-scenarios", label: "Local Scenarios" },
-  { href: "/local-recovery", label: "Local Recovery" },
-  { href: "/local-closure", label: "Local Closure" },
-  { href: "/release-center", label: "Release" },
-  { href: "/intelligence", label: "Intelligence" },
-  { href: "/desktop-hq", label: "Desktop HQ" },
-  { href: "/mobile-hq", label: "Mobile HQ" },
-  { href: "/operator-os", label: "Operator OS" },
-  { href: "/growth", label: "Growth" },
-  { href: "/client-portal", label: "Client Portal" },
-  { href: "/cloud", label: "Cloud" },
-  { href: "/backbone", label: "Backbone" },
-  { href: "/war-room", label: "War Room" },
-  { href: "/control", label: "Control" },
-  { href: "/workspace", label: "Workspace" },
-  { href: "/strategy-lab", label: "Strategy Lab" },
-  { href: "/execution", label: "Execution" },
-  { href: "/brokers", label: "Brokers" },
-  { href: "/research", label: "Research" },
-  { href: "/risk", label: "Risk" },
-  { href: "/portfolio-lab", label: "Portfolio" },
-  { href: "/analytics", label: "Analytics" },
-  { href: "/notifications", label: "Notifications" },
-  { href: "/autonomy", label: "Autonomy" },
-  { href: "/identity", label: "Identity" },
-  { href: "/platform", label: "Platform" },
-  { href: "/ops", label: "Ops" }
-];
+export const dynamic = "force-dynamic";
 
 export default function RootLayout({ children }) {
+  const manifest = getManifest();
+
   return (
     <html lang="en">
       <body style={{ margin: 0, background: "#020617", color: "white", fontFamily: "Arial, sans-serif" }}>
         <header style={{ position: "sticky", top: 0, zIndex: 50, borderBottom: "1px solid #1f2937", background: "rgba(2,6,23,.92)", backdropFilter: "blur(12px)" }}>
-          <div style={{ maxWidth: 1500, margin: "0 auto", padding: "14px 24px", display: "flex", justifyContent: "space-between", alignItems: "center", gap: 20, flexWrap: "wrap" }}>
+          <div style={{ maxWidth: 1600, margin: "0 auto", padding: "14px 20px", display: "grid", gap: 12 }}>
             <div>
-              <div style={{ color: "#60a5fa", letterSpacing: 4, fontSize: 11 }}>TRADING PRO MAX</div>
-              <div style={{ fontSize: 22, fontWeight: 900, marginTop: 4 }}>Global Operating System</div>
+              <div style={{ color: "#60a5fa", letterSpacing: 4, fontSize: 11 }}>{manifest.productName.toUpperCase()}</div>
+              <div style={{ fontSize: 24, fontWeight: 900, marginTop: 4 }}>{manifest.systemTitle}</div>
             </div>
-            <nav style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
-              {links.map((x) => (
+            <nav style={{ display: "flex", flexWrap: "wrap", gap: 10 }}>
+              <a href="/" style={{ color: "white", textDecoration: "none", border: "1px solid #334155", background: "#0b1220", padding: "10px 12px", borderRadius: 12, fontWeight: 800, fontSize: 14 }}>Home</a>
+              <a href="/builder" style={{ color: "white", textDecoration: "none", border: "1px solid #334155", background: "#0b1220", padding: "10px 12px", borderRadius: 12, fontWeight: 800, fontSize: 14 }}>Builder</a>
+              {manifest.modules.map((m) => (
                 <a
-                  key={x.href}
-                  href={x.href}
-                  style={{
-                    color: "white",
-                    textDecoration: "none",
-                    border: "1px solid #334155",
-                    background: "#0b1220",
-                    padding: "10px 12px",
-                    borderRadius: 12,
-                    fontWeight: 800,
-                    fontSize: 14
-                  }}
+                  key={m.slug}
+                  href={`/${m.slug}`}
+                  style={{ color: "white", textDecoration: "none", border: "1px solid #334155", background: "#0b1220", padding: "10px 12px", borderRadius: 12, fontWeight: 800, fontSize: 14 }}
                 >
-                  {x.label}
+                  {m.title}
                 </a>
               ))}
             </nav>

@@ -1,7 +1,18 @@
 {
-  "running": false,
-  "cycle": 0,
-  "startedAt": null,
-  "lastRunAt": "2026-04-08T01:30:13.932Z",
-  "error": "Missing valid .tpm/manifest.json"
+  "running": true,
+  "cycle": 1,
+  "startedAt": "2026-04-08T01:37:30.274Z",
+  "lastRunAt": "2026-04-08T01:37:30.278Z",
+  "avgProgress": 96,
+  "avgReadiness": 99,
+  "closedModules": 1,
+  "totalModules": 2,
+  "activeModule": {
+    "slug": "launchpad",
+    "title": "Launchpad",
+    "progress": 92,
+    "readiness": 98
+  },
+  "buildOk": true,
+  "validateOk": true
 }

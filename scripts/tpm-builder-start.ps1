@@ -15,6 +15,6 @@ if (Test-Path $pidFile) {
   }
 }
 
-$p = Start-Process node -ArgumentList ".\scripts\tpm-autobuild.mjs" -WindowStyle Hidden -PassThru
+$p = Start-Process node -ArgumentList ".\scripts\tpm-builder-loop.mjs" -WindowStyle Hidden -PassThru
 Set-Content $pidFile $p.Id -Encoding UTF8
 Write-Host "TPM_BUILDER_RUNNING PID=$($p.Id)"
