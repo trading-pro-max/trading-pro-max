@@ -11,102 +11,76 @@
     "External GoDaddy deploy remains blocked by current hosting plan."
   ],
   "pages": [
-    "/connector-inspector",
-    "/env-doctor",
-    "/runtime-health",
-    "/autopilot-center"
+    "/infinity-core",
+    "/autonomy-fabric",
+    "/execution-memory",
+    "/learning-loop",
+    "/route-arbitrator",
+    "/policy-studio"
   ],
   "commands": [
-    "npm run tpm:runtimeops:once",
-    "npm run tpm:runtimeops",
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity",
     "npm run tpm:master:once",
-    "npm run tpm:autopilot:once",
-    "npm run tpm:autopilot"
+    "npm run tpm:learning:once",
+    "npm run tpm:learning"
   ],
   "nextWave": [
     {
-      "slug": "connector-inspector",
-      "title": "connector inspector",
-      "progress": 80,
+      "slug": "infinity-core",
+      "title": "infinity core",
+      "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "env-doctor",
-      "title": "env doctor",
-      "progress": 80,
+      "slug": "autonomy-fabric",
+      "title": "autonomy fabric",
+      "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "runtime-health",
-      "title": "runtime health",
-      "progress": 80,
+      "slug": "execution-memory",
+      "title": "execution memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "learning-loop",
+      "title": "learning loop",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "route-arbitrator",
+      "title": "route arbitrator",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "policy-studio",
+      "title": "policy studio",
+      "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     }
   ],
-  "runtimeOpsLayer": {
+  "infinityLayer": {
     "active": true,
-    "layer": "CONNECTOR_INSPECTOR_ENV_DOCTOR_RUNTIME_HEALTH",
-    "progress": 80,
+    "layer": "INFINITY_CORE_AUTONOMY_FABRIC_EXECUTION_MEMORY",
+    "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T22:09:07.818Z"
+    "time": "2026-04-08T22:10:37.812Z"
   },
-  "autopilot": {
+  "learningLayer": {
     "active": true,
-    "mode": "FULL_AUTO_LOCAL",
-    "cycle": 1,
-    "discoveredScripts": [
-      "tpm:agentmesh:once",
-      "tpm:ai:once",
-      "tpm:analytics:once",
-      "tpm:apex:once",
-      "tpm:atlas:once",
-      "tpm:broker:once",
-      "tpm:command:once",
-      "tpm:constellation:once",
-      "tpm:continuum:once",
-      "tpm:council:once",
-      "tpm:enterprise:once",
-      "tpm:executive:once",
-      "tpm:expansion:once",
-      "tpm:fabric:once",
-      "tpm:federation:once",
-      "tpm:final:once",
-      "tpm:governance:once",
-      "tpm:helix:once",
-      "tpm:horizon:once",
-      "tpm:infinity3:once",
-      "tpm:infinity7:once",
-      "tpm:infinity:once",
-      "tpm:intelligence:once",
-      "tpm:jump4:once",
-      "tpm:learning:once",
-      "tpm:market:once",
-      "tpm:meta:once",
-      "tpm:navigator:once",
-      "tpm:nexus:once",
-      "tpm:observability:once",
-      "tpm:omega:once",
-      "tpm:orchestrator:once",
-      "tpm:platform:once",
-      "tpm:prism:once",
-      "tpm:pulse:once",
-      "tpm:quantum:once",
-      "tpm:runtimeops:once",
-      "tpm:sentinel:once",
-      "tpm:simulation:once",
-      "tpm:sovereign:once",
-      "tpm:strategy:once",
-      "tpm:vector:once",
-      "tpm:vertex:once",
-      "tpm:zenith:once",
-      "tpm:master:once"
-    ],
-    "successCount": 0,
-    "failedCount": 45,
-    "lastRunAt": "2026-04-08T22:09:11.933Z",
-    "status": "ACTIVE_WITH_ERRORS"
+    "layer": "LEARNING_LOOP_ROUTE_ARBITRATOR_POLICY_STUDIO",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T22:10:37.829Z"
   }
 }
