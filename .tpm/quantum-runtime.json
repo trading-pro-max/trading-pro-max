@@ -5,9 +5,9 @@
   "completed": 100,
   "remaining": 0,
   "domains": {
-    "quantum": 100,
+    "board": 100,
+    "pulse": 100,
     "memory": 100,
-    "assurance": 100,
     "proof": 100,
     "continuity": 100
   },
@@ -19,17 +19,16 @@
       "status": "active"
     },
     {
-      "slug": "memory-depth",
-      "title": "memory depth",
+      "slug": "pulse-discipline",
+      "title": "pulse discipline",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "assurance-strength",
-      "title": "assurance strength",
+      "slug": "memory-depth",
+      "title": "memory depth",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T13:27:50.625Z"
-}
+  "time": "2026-04-08T13:30:02.
