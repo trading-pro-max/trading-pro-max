@@ -1,13 +1,13 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 93,
-  "completed": 93,
-  "remaining": 7,
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
   "domains": {
     "infinity": 100,
-    "genome": 83,
-    "embassy": 83,
+    "genome": 100,
+    "embassy": 100,
     "proof": 100,
     "continuity": 100
   },
@@ -21,15 +21,15 @@
     {
       "slug": "genome-depth",
       "title": "genome depth",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "embassy-clarity",
       "title": "embassy clarity",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T19:37:31.801Z"
+  "time": "2026-04-08T19:39:03.468Z"
 }

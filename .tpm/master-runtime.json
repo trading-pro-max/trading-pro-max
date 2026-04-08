@@ -11,29 +11,47 @@
     "External GoDaddy deploy remains blocked by current hosting plan."
   ],
   "pages": [
+    "/vector-core",
+    "/policy-memory",
+    "/continuity-radar",
     "/federation-core",
     "/scenario-memory",
     "/operator-journal",
-    "/autopilot-center",
     "/infinity-core",
     "/strategy-genome",
-    "/ops-embassy",
-    "/omega-core",
-    "/recovery-matrix",
-    "/trust-center"
+    "/ops-embassy"
   ],
   "commands": [
+    "npm run tpm:vector:once",
+    "npm run tpm:vector",
+    "npm run tpm:master:once",
     "npm run tpm:federation:once",
     "npm run tpm:federation",
-    "npm run tpm:master:once",
-    "npm run tpm:autopilot:once",
-    "npm run tpm:autopilot",
     "npm run tpm:infinity:once",
-    "npm run tpm:infinity",
-    "npm run tpm:omega:once",
-    "npm run tpm:omega"
+    "npm run tpm:infinity"
   ],
   "nextWave": [
+    {
+      "slug": "vector-core",
+      "title": "vector core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "policy-memory",
+      "title": "policy memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "continuity-radar",
+      "title": "continuity radar",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
     {
       "slug": "federation-core",
       "title": "federation core",
@@ -58,93 +76,44 @@
     {
       "slug": "infinity-core",
       "title": "infinity core",
-      "progress": 93,
+      "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
       "slug": "strategy-genome",
       "title": "strategy genome",
-      "progress": 93,
+      "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
       "slug": "ops-embassy",
       "title": "ops embassy",
-      "progress": 93,
+      "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     }
   ],
+  "vectorLayer": {
+    "active": true,
+    "layer": "VECTOR_CORE_POLICY_MEMORY_CONTINUITY_RADAR",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:38:21.594Z"
+  },
   "federationLayer": {
     "active": true,
     "layer": "FEDERATION_CORE_SCENARIO_MEMORY_OPERATOR_JOURNAL",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T19:36:51.502Z"
-  },
-  "autopilot": {
-    "active": true,
-    "mode": "FULL_AUTO_LOCAL",
-    "cycle": 1,
-    "discoveredScripts": [
-      "tpm:agentmesh:once",
-      "tpm:ai:once",
-      "tpm:analytics:once",
-      "tpm:apex:once",
-      "tpm:atlas:once",
-      "tpm:broker:once",
-      "tpm:command:once",
-      "tpm:constellation:once",
-      "tpm:council:once",
-      "tpm:enterprise:once",
-      "tpm:executive:once",
-      "tpm:expansion:once",
-      "tpm:fabric:once",
-      "tpm:federation:once",
-      "tpm:final:once",
-      "tpm:governance:once",
-      "tpm:helix:once",
-      "tpm:horizon:once",
-      "tpm:infinity:once",
-      "tpm:intelligence:once",
-      "tpm:learning:once",
-      "tpm:market:once",
-      "tpm:meta:once",
-      "tpm:navigator:once",
-      "tpm:nexus:once",
-      "tpm:observability:once",
-      "tpm:omega:once",
-      "tpm:orchestrator:once",
-      "tpm:platform:once",
-      "tpm:prism:once",
-      "tpm:pulse:once",
-      "tpm:quantum:once",
-      "tpm:runtimeops:once",
-      "tpm:sentinel:once",
-      "tpm:simulation:once",
-      "tpm:sovereign:once",
-      "tpm:strategy:once",
-      "tpm:vector:once",
-      "tpm:vertex:once",
-      "tpm:master:once"
-    ],
-    "successCount": 0,
-    "failedCount": 40,
-    "lastRunAt": "2026-04-08T19:37:05.962Z",
-    "status": "ACTIVE_WITH_ERRORS"
+    "time": "2026-04-08T19:38:21.611Z"
   },
   "infinityLayer": {
     "active": true,
     "layer": "INFINITY_CORE_STRATEGY_GENOME_OPS_EMBASSY",
-    "progress": 93,
+    "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T19:37:31.809Z"
-  },
-  "runtimeDepth": {
-    "active": 15,
-    "expected": 16,
-    "status": "CLOSED_100"
+    "time": "2026-04-08T19:39:03.490Z"
   }
 }
