@@ -1,35 +1,41 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
+  "overallProgress": 98,
+  "completed": 98,
+  "remaining": 2,
   "domains": {
     "infinity": 100,
-    "memory": 100,
-    "radar": 100,
+    "treasury": 100,
+    "memory": 86,
+    "autonomy": 100,
     "proof": 100,
     "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "infinity-depth",
-      "title": "infinity depth",
+      "slug": "infinity-density",
+      "title": "infinity density",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "memory-density",
-      "title": "memory density",
+      "slug": "treasury-discipline",
+      "title": "treasury discipline",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "radar-clarity",
-      "title": "radar clarity",
+      "slug": "memory-depth",
+      "title": "memory depth",
+      "progress": 86,
+      "status": "active"
+    },
+    {
+      "slug": "autonomy-scale",
+      "title": "autonomy scale",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T22:38:04.003Z"
-}
+  "time": "2026-04-08T22:40:13.764Z"

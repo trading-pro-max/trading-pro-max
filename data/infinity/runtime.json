@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "loops": [
+  "constellations": [
     {
-      "slug": "runtime-infinity",
-      "title": "Runtime Infinity",
+      "slug": "runtime",
+      "title": "Runtime Constellation",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "strategy-infinity",
-      "title": "Strategy Infinity",
+      "slug": "governance",
+      "title": "Governance Constellation",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "operator-infinity",
-      "title": "Operator Infinity",
+      "slug": "platform",
+      "title": "Platform Constellation",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "continuity-infinity",
-      "title": "Continuity Infinity",
+      "slug": "continuity",
+      "title": "Continuity Constellation",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "infiniteLoops": 18,
-    "governedLayers": 24,
-    "protectedStores": 30,
+    "activeLayers": 24,
+    "connectedRuntimes": 29,
+    "governedStores": 31,
     "infinityConfidence": 100
   },
-  "time": "2026-04-08T22:38:04.002Z"
+  "time": "2026-04-08T22:40:13.762Z"
 }

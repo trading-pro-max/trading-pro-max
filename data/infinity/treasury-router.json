@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "routes": [
+    {
+      "slug": "capital-core",
+      "title": "Capital Core Route",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "revenue-flow",
+      "title": "Revenue Flow Route",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "defense-buffer",
+      "title": "Defense Buffer Route",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-allocation",
+      "title": "Growth Allocation Route",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "routedPools": 14,
+    "protectedAllocations": 12,
+    "allocationConfidence": 100,
+    "treasuryStrength": 100
+  },
+  "time": "2026-04-08T22:40:13.764Z"
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "strands": [
+    {
+      "slug": "runtime-strand",
+      "title": "Runtime Strand",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-strand",
+      "title": "Market Strand",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-strand",
+      "title": "Policy Strand",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-strand",
+      "title": "Evidence Strand",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedStrands": 18,
+    "replayableMemories": 24,
+    "proofBindings": 20,
+    "memoryConfidence": 100
+  },
+  "time": "2026-04-08T22:40:13.764Z"
+}

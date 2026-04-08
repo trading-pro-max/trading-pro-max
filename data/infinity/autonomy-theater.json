@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "scenes": [
+  "stages": [
     {
-      "slug": "builder-scene",
-      "title": "Builder Scene",
+      "slug": "builder-stage",
+      "title": "Builder Stage",
       "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "operator-scene",
-      "title": "Operator Scene",
+      "slug": "operator-stage",
+      "title": "Operator Stage",
       "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "governor-scene",
-      "title": "Governor Scene",
+      "slug": "governor-stage",
+      "title": "Governor Stage",
       "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "recovery-scene",
-      "title": "Recovery Scene",
+      "slug": "growth-stage",
+      "title": "Growth Stage",
       "progress": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeScenes": 12,
-    "replayableScenes": 16,
-    "autonomyClarity": 100,
-    "theaterConfidence": 100
+    "activeLoops": 18,
+    "governedActions": 26,
+    "recoveryDiscipline": 100,
+    "autonomyConfidence": 100
   },
-  "time": "2026-04-08T21:40:16.373Z"
+  "time": "2026-04-08T22:40:13.764Z"
 }
