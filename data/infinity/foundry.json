@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "lines": [
+  "cells": [
     {
-      "slug": "builder-line",
-      "title": "Builder Line",
+      "slug": "builder-cell",
+      "title": "Builder Cell",
       "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "strategy-line",
-      "title": "Strategy Line",
+      "slug": "operator-cell",
+      "title": "Operator Cell",
       "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "policy-line",
-      "title": "Policy Line",
+      "slug": "governor-cell",
+      "title": "Governor Cell",
       "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "growth-line",
-      "title": "Growth Line",
+      "slug": "growth-cell",
+      "title": "Growth Cell",
       "progress": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeLines": 12,
-    "autonomousBuilds": 20,
-    "governedOutputs": 18,
+    "activeCells": 8,
+    "autonomousLoops": 20,
+    "protectedAssemblies": 18,
     "foundryConfidence": 100
   },
-  "time": "2026-04-08T22:54:48.991Z"
+  "time": "2026-04-08T23:07:39.464Z"
 }

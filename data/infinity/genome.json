@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "strands": [
+    {
+      "slug": "risk-strand",
+      "title": "Risk Strand",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-strand",
+      "title": "Capital Strand",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution-strand",
+      "title": "Execution Strand",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-strand",
+      "title": "Trust Strand",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "mappedStrands": 16,
+    "governedPolicies": 20,
+    "strategicMemory": 100,
+    "genomeConfidence": 100
+  },
+  "time": "2026-04-08T23:07:39.464Z"
+}

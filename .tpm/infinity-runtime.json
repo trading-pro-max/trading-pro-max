@@ -1,35 +1,41 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
+  "overallProgress": 92,
+  "completed": 92,
+  "remaining": 8,
   "domains": {
     "infinity": 100,
-    "fabric": 100,
-    "expansion": 100,
-    "proof": 100,
+    "foundry": 86,
+    "genome": 86,
+    "globalOps": 86,
     "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "infinity-autonomy",
-      "title": "infinity autonomy",
+      "slug": "infinite-routing",
+      "title": "infinite routing",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "fabric-unification",
-      "title": "fabric unification",
-      "progress": 100,
+      "slug": "foundry-depth",
+      "title": "foundry depth",
+      "progress": 86,
       "status": "active"
     },
     {
-      "slug": "expansion-autonomy",
-      "title": "expansion autonomy",
-      "progress": 100,
+      "slug": "genome-depth",
+      "title": "genome depth",
+      "progress": 86,
+      "status": "active"
+    },
+    {
+      "slug": "global-ops-depth",
+      "title": "global ops depth",
+      "progress": 86,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T23:06:07.352Z"
+  "time": "2026-04-08T23:07:39.464Z"
 }

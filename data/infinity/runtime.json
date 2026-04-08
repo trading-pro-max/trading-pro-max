@@ -8,29 +8,29 @@
       "status": "closed"
     },
     {
-      "slug": "infinite-growth",
-      "title": "Infinite Growth",
+      "slug": "autonomous-expansion",
+      "title": "Autonomous Expansion",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "infinite-memory",
-      "title": "Infinite Memory",
+      "slug": "strategic-evolution",
+      "title": "Strategic Evolution",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "infinite-command",
-      "title": "Infinite Command",
+      "slug": "global-command",
+      "title": "Global Command",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "layerDepth": 25,
-    "activePages": 42,
-    "activeLoops": 22,
-    "protectedStores": 29
+    "activeLayers": 24,
+    "linkedRuntimes": 34,
+    "governedStores": 30,
+    "infinityConfidence": 100
   },
-  "time": "2026-04-08T22:54:48.990Z"
+  "time": "2026-04-08T23:07:39.463Z"
 }
