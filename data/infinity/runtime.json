@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "cores": [
+  "engines": [
     {
-      "slug": "autonomy",
-      "title": "Autonomy Core",
+      "slug": "infinity-runtime",
+      "title": "Infinity Runtime",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "growth",
-      "title": "Growth Core",
+      "slug": "infinity-policy",
+      "title": "Infinity Policy",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "continuity",
-      "title": "Continuity Core",
+      "slug": "infinity-growth",
+      "title": "Infinity Growth",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "post-closure",
-      "title": "Post-Closure Core",
+      "slug": "infinity-trust",
+      "title": "Infinity Trust",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "infiniteLoops": 16,
-    "governedPlanes": 24,
-    "protectedStores": 30,
+    "activeInfinityEngines": 4,
+    "protectedInfinityFlows": 22,
+    "governedInfinityStores": 20,
     "infinityConfidence": 100
   },
-  "time": "2026-04-08T21:41:11.929Z"
+  "time": "2026-04-08T21:42:45.034Z"
 }
