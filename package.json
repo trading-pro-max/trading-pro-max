@@ -108,7 +108,7 @@
     "tpm:apex:once": "node ./lib/tpm-apex-core.mjs",
     "tpm:apex": "node ./scripts/tpm-apex-loop.mjs",
     "tpm:autopilot:once": "node ./scripts/tpm-final-autopilot.mjs",
-    "tpm:autopilot": "node ./scripts/tpm-final-autopilot.mjs --loop",
+    "tpm:autopilot": "powershell -ExecutionPolicy Bypass -File .\\\\scripts\\\\tpm-autopilot.ps1",
     "tpm:vertex:once": "node ./lib/tpm-vertex-core.mjs",
     "tpm:vertex": "node ./scripts/tpm-vertex-loop.mjs",
     "tpm:constellation:once": "node ./lib/tpm-constellation-core.mjs",
