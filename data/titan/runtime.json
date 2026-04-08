@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "towers": [
+    {
+      "slug": "alpha",
+      "title": "Alpha Tower",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ops",
+      "title": "Ops Tower",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust",
+      "title": "Trust Tower",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "memory",
+      "title": "Memory Tower",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "linkedLayers": 24,
+    "protectedSurfaces": 40,
+    "guardedPipelines": 28,
+    "titanConfidence": 100
+  },
+  "time": "2026-04-08T22:49:47.264Z"
+}

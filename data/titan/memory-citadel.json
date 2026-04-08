@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "vaults": [
+    {
+      "slug": "runtime-memory",
+      "title": "Runtime Memory",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "strategy-memory",
+      "title": "Strategy Memory",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-memory",
+      "title": "Evidence Memory",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity-memory",
+      "title": "Continuity Memory",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "protectedArtifacts": 36,
+    "replayableMemories": 24,
+    "governedStores": 22,
+    "citadelConfidence": 100
+  },
+  "time": "2026-04-08T22:49:47.281Z"
+}

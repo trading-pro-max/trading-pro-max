@@ -128,7 +128,9 @@
     "tpm:continuum:once": "node ./lib/tpm-continuum-core.mjs",
     "tpm:continuum": "node ./scripts/tpm-continuum-loop.mjs",
     "tpm:kernel:once": "node ./lib/tpm-kernel-core.mjs",
-    "tpm:kernel": "node ./scripts/tpm-kernel-loop.mjs"
+    "tpm:kernel": "node ./scripts/tpm-kernel-loop.mjs",
+    "tpm:titan:once": "node ./lib/tpm-titan-core.mjs",
+    "tpm:titan": "node ./scripts/tpm-titan-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

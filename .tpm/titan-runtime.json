@@ -1,0 +1,40 @@
+{
+  "ok": true,
+  "mode": "TPM_TITAN_ACTIVE",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "domains": {
+    "titan": 100,
+    "war": 100,
+    "matrix": 100,
+    "citadel": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "titan-density",
+      "title": "titan density",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "war-control",
+      "title": "war control",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "infinity-depth",
+      "title": "infinity depth",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "citadel-depth",
+      "title": "citadel depth",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-08T22:49:4
