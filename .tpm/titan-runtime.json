@@ -1,14 +1,15 @@
 {
   "ok": true,
   "mode": "TPM_TITAN_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
+  "overallProgress": 98,
+  "completed": 98,
+  "remaining": 2,
   "domains": {
     "titan": 100,
-    "war": 100,
-    "matrix": 100,
-    "citadel": 100,
+    "universe": 86,
+    "foundry": 100,
+    "freeze": 100,
+    "proof": 100,
     "continuity": 100
   },
   "nextWave": [
@@ -19,23 +20,22 @@
       "status": "active"
     },
     {
-      "slug": "war-control",
-      "title": "war control",
+      "slug": "universe-fusion",
+      "title": "universe fusion",
+      "progress": 86,
+      "status": "active"
+    },
+    {
+      "slug": "foundry-depth",
+      "title": "foundry depth",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "infinity-depth",
-      "title": "infinity depth",
-      "progress": 100,
-      "status": "active"
-    },
-    {
-      "slug": "citadel-depth",
-      "title": "citadel depth",
+      "slug": "freeze-clarity",
+      "title": "freeze clarity",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T23:03:17.911Z"
-}
+  "time": "2026-04-08T23:04:52.538

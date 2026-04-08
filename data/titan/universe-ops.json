@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "constellations": [
+    {
+      "slug": "ops-constellation",
+      "title": "Ops Constellation",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-constellation",
+      "title": "Market Constellation",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "platform-constellation",
+      "title": "Platform Constellation",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-constellation",
+      "title": "Evidence Constellation",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeConstellations": 12,
+    "governedRoutes": 20,
+    "observablePlanes": 18,
+    "universeConfidence": 100
+  },
+  "time": "2026-04-08T23:04:52.538Z"
+}

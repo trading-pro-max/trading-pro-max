@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "gates": [
+    {
+      "slug": "local-gate",
+      "title": "Local Gate",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "expansion-gate",
+      "title": "Expansion Gate",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "external-freeze",
+      "title": "External Freeze",
+      "progress": 70,
+      "status": "blocked-by-plan"
+    },
+    {
+      "slug": "trust-gate",
+      "title": "Trust Gate",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "localReadiness": 100,
+    "expansionReadiness": 100,
+    "externalSwitchReadiness": 70,
+    "freezeConfidence": 100
+  },
+  "blocker": "External GoDaddy deploy remains blocked by current hosting plan.",
+  "time": "2026-04-08T23:04:52.538Z"
+}

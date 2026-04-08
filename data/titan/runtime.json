@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "towers": [
+  "clusters": [
     {
-      "slug": "alpha",
-      "title": "Alpha Tower",
+      "slug": "runtime-cluster",
+      "title": "Runtime Cluster",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "ops",
-      "title": "Ops Tower",
+      "slug": "command-cluster",
+      "title": "Command Cluster",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "trust",
-      "title": "Trust Tower",
+      "slug": "trust-cluster",
+      "title": "Trust Cluster",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "memory",
-      "title": "Memory Tower",
+      "slug": "expansion-cluster",
+      "title": "Expansion Cluster",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "linkedLayers": 24,
-    "protectedSurfaces": 40,
-    "guardedPipelines": 28,
+    "titanClusters": 4,
+    "linkedRuntimes": 26,
+    "governedStores": 30,
     "titanConfidence": 100
   },
-  "time": "2026-04-08T23:03:17.911Z"
+  "time": "2026-04-08T23:04:52.537Z"
 }
