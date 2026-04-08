@@ -149,7 +149,11 @@
     "npm run tpm:federation:once",
     "npm run tpm:federation",
     "npm run tpm:learning:once",
-    "npm run tpm:learning"
+    "npm run tpm:learning",
+    "npm run tpm:horizon:once",
+    "npm run tpm:horizon",
+    "npm run tpm:nexus:once",
+    "npm run tpm:nexus"
   ],
   "pages": [
     "/master-control",
@@ -194,7 +198,13 @@
     "/operator-journal",
     "/learning-loop",
     "/route-arbitrator",
-    "/policy-studio"
+    "/policy-studio",
+    "/horizon-hub",
+    "/workspace-router",
+    "/evidence-vault",
+    "/nexus-core",
+    "/mission-ledger",
+    "/growth-radar"
   ],
   "nextWave": [
     {
@@ -462,6 +472,48 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "horizon-hub",
+      "title": "horizon hub",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "workspace-router",
+      "title": "workspace router",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "evidence-vault",
+      "title": "evidence vault",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "nexus-core",
+      "title": "nexus core",
+      "progress": 97,
+      "stage": "CLOSED",
+      "status": "closed"
+    },
+    {
+      "slug": "mission-ledger",
+      "title": "mission ledger",
+      "progress": 97,
+      "stage": "CLOSED",
+      "status": "closed"
+    },
+    {
+      "slug": "growth-radar",
+      "title": "growth radar",
+      "progress": 97,
+      "stage": "CLOSED",
+      "status": "closed"
     }
   ],
   "time": "2026-04-08T14:23:56.263Z",
@@ -551,5 +603,19 @@
     "progress": 100,
     "status": "ACTIVE",
     "time": "2026-04-08T14:24:29.480Z"
+  },
+  "horizonLayer": {
+    "active": true,
+    "layer": "HORIZON_HUB_WORKSPACE_ROUTER_EVIDENCE_VAULT",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T14:24:37.154Z"
+  },
+  "globalExpansion": {
+    "active": true,
+    "layer": "NEXUS_CORE_MISSION_LEDGER_GROWTH_RADAR",
+    "progress": 97,
+    "status": "CLOSED_100",
+    "time": "2026-04-08T14:24:39.456Z"
   }
 }
