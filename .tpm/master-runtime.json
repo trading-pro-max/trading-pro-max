@@ -1,151 +1,12 @@
 {
   "ok": true,
-  "mode": "TPM_MASTER_ACTIVE",
   "overallProgress": 100,
   "completed": 100,
   "remaining": 0,
+  "localCertified": true,
+  "releaseGate": "OPEN_LOCAL",
   "finalReadiness": "ready-local-100",
-  "activeModule": {
-    "slug": "surface",
-    "title": "Operator Surface",
-    "progress": 97,
-    "stage": "ACTIVE",
-    "description": "Mission control, launchpad, AI control, desktop HQ and mobile HQ.",
-    "remaining": 3,
-    "readiness": "high",
-    "status": "active"
-  },
-  "modules": [
-    {
-      "slug": "brain",
-      "title": "AI Brain",
-      "progress": 98,
-      "stage": "ACTIVE",
-      "description": "Autonomous intelligence and AI decision systems.",
-      "remaining": 2,
-      "readiness": "high",
-      "status": "active"
-    },
-    {
-      "slug": "strategy",
-      "title": "Strategy Engine",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "description": "Strategy lab, execution ranking, research and signal routing.",
-      "remaining": 0,
-      "readiness": "high",
-      "status": "closed"
-    },
-    {
-      "slug": "autonomy",
-      "title": "Autonomy Core",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "description": "Self-running loops, autobind, orchestration and local continuity.",
-      "remaining": 0,
-      "readiness": "high",
-      "status": "closed"
-    },
-    {
-      "slug": "surface",
-      "title": "Operator Surface",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "description": "Mission control, launchpad, AI control, desktop HQ and mobile HQ.",
-      "remaining": 3,
-      "readiness": "high",
-      "status": "active"
-    },
-    {
-      "slug": "research",
-      "title": "Research Vault",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "description": "Tracked system knowledge, memory runtime and research intelligence.",
-      "remaining": 0,
-      "readiness": "high",
-      "status": "closed"
-    },
-    {
-      "slug": "operations",
-      "title": "Operations",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "description": "GitHub sync, runtime health and ops continuity.",
-      "remaining": 0,
-      "readiness": "high",
-      "status": "closed"
-    },
-    {
-      "slug": "deployment",
-      "title": "Deployment",
-      "progress": 84,
-      "stage": "BLOCKED_BY_PLAN",
-      "description": "External deployment path prepared; final hosting automation blocked by current plan.",
-      "remaining": 16,
-      "readiness": "building",
-      "status": "waiting"
-    },
-    {
-      "slug": "expansion",
-      "title": "Desktop + Mobile Expansion",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "description": "Desktop shell, mobile shell, workspace sync and notification bridge.",
-      "remaining": 0,
-      "readiness": "high",
-      "status": "closed"
-    },
-    {
-      "slug": "analytics",
-      "title": "Analytics + Client Intelligence",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "description": "Analytics center, client portal and operator intelligence.",
-      "remaining": 0,
-      "readiness": "high",
-      "status": "closed"
-    },
-    {
-      "slug": "simulation",
-      "title": "Backtest + Validation",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "description": "Signal hub, backtest lab, research studio and validation layer.",
-      "remaining": 0,
-      "readiness": "high",
-      "status": "closed"
-    }
-  ],
-  "blockers": [
-    "External GoDaddy deploy remains blocked by current hosting plan."
-  ],
-  "commands": [
-    "npm run tpm:master:once",
-    "npm run tpm:master",
-    "npm run tpm:analytics:once",
-    "npm run tpm:simulation:once",
-    "npm run tpm:intelligence:once",
-    "npm run tpm:fabric:once",
-    "npm run tpm:fabric",
-    "npm run tpm:prism:once",
-    "npm run tpm:prism",
-    "npm run tpm:sovereign:once",
-    "npm run tpm:sovereign",
-    "npm run tpm:sentinel:once",
-    "npm run tpm:sentinel",
-    "npm run tpm:helix:once",
-    "npm run tpm:helix"
-  ],
   "pages": [
-    "/master-control",
-    "/analytics-center",
-    "/client-portal",
-    "/operator-os",
-    "/signal-hub",
-    "/backtest-lab",
-    "/research-studio",
-    "/intelligence-center",
     "/fabric-core",
     "/autonomy-grid",
     "/release-memory",
@@ -160,30 +21,57 @@
     "/customer-success-hub",
     "/helix-core",
     "/signal-parliament",
-    "/resilience-deck"
+    "/resilience-deck",
+    "/omega-core",
+    "/recovery-matrix",
+    "/trust-center",
+    "/control-tower",
+    "/capital-os",
+    "/execution-intelligence",
+    "/pulse-grid",
+    "/chronicle-center",
+    "/launch-console",
+    "/federation-core",
+    "/scenario-memory",
+    "/operator-journal",
+    "/learning-loop",
+    "/route-arbitrator",
+    "/policy-studio",
+    "/horizon-hub",
+    "/workspace-router",
+    "/evidence-vault",
+    "/nexus-core",
+    "/mission-ledger",
+    "/growth-radar"
+  ],
+  "commands": [
+    "npm run tpm:fabric:once",
+    "npm run tpm:fabric",
+    "npm run tpm:prism:once",
+    "npm run tpm:prism",
+    "npm run tpm:master:once",
+    "npm run tpm:sovereign:once",
+    "npm run tpm:sovereign",
+    "npm run tpm:sentinel:once",
+    "npm run tpm:sentinel",
+    "npm run tpm:helix:once",
+    "npm run tpm:helix",
+    "npm run tpm:omega:once",
+    "npm run tpm:omega",
+    "npm run tpm:executive:once",
+    "npm run tpm:executive",
+    "npm run tpm:pulse:once",
+    "npm run tpm:pulse",
+    "npm run tpm:federation:once",
+    "npm run tpm:federation",
+    "npm run tpm:learning:once",
+    "npm run tpm:learning",
+    "npm run tpm:horizon:once",
+    "npm run tpm:horizon",
+    "npm run tpm:nexus:once",
+    "npm run tpm:nexus"
   ],
   "nextWave": [
-    {
-      "slug": "final-hardening",
-      "title": "final hardening",
-      "progress": 94,
-      "stage": "ACTIVE",
-      "status": "building"
-    },
-    {
-      "slug": "launch-readiness",
-      "title": "launch readiness",
-      "progress": 95,
-      "stage": "ACTIVE",
-      "status": "building"
-    },
-    {
-      "slug": "deploy-switch",
-      "title": "deploy switch",
-      "progress": 70,
-      "stage": "WAITING_PLAN",
-      "status": "blocked"
-    },
     {
       "slug": "fabric-depth",
       "title": "fabric depth",
@@ -288,45 +176,241 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "omega-core",
+      "title": "omega core",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "recovery-matrix",
+      "title": "recovery matrix",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "trust-center",
+      "title": "trust center",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "control-tower",
+      "title": "control tower",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "capital-os",
+      "title": "capital os",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "execution-intelligence",
+      "title": "execution intelligence",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "pulse-grid",
+      "title": "pulse grid",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "chronicle-center",
+      "title": "chronicle center",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "launch-console",
+      "title": "launch console",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "federation-core",
+      "title": "federation core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-memory",
+      "title": "scenario memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-journal",
+      "title": "operator journal",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "learning-loop",
+      "title": "learning loop",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "route-arbitrator",
+      "title": "route arbitrator",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "policy-studio",
+      "title": "policy studio",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "horizon-hub",
+      "title": "horizon hub",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "workspace-router",
+      "title": "workspace router",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "evidence-vault",
+      "title": "evidence vault",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "nexus-core",
+      "title": "nexus core",
+      "progress": 97,
+      "stage": "CLOSED",
+      "status": "closed"
+    },
+    {
+      "slug": "mission-ledger",
+      "title": "mission ledger",
+      "progress": 97,
+      "stage": "CLOSED",
+      "status": "closed"
+    },
+    {
+      "slug": "growth-radar",
+      "title": "growth radar",
+      "progress": 97,
+      "stage": "CLOSED",
+      "status": "closed"
     }
   ],
-  "time": "2026-04-08T12:11:54.618Z",
-  "localCertified": true,
-  "releaseGate": "OPEN_LOCAL",
   "postCertificationFabric": {
     "active": true,
     "layer": "FABRIC_CORE",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T12:11:54.635Z"
+    "time": "2026-04-08T12:13:25.259Z"
   },
   "externalDeployBlocked": true,
+  "blockers": [
+    "External GoDaddy deploy remains blocked by current hosting plan."
+  ],
   "prismLayer": {
     "active": true,
     "layer": "PRISM_CORE_STRATEGY_THEATER_INTEGRITY_HUB",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T12:11:56.189Z"
+    "time": "2026-04-08T12:13:26.245Z"
   },
   "sovereignLayer": {
     "active": true,
     "layer": "SOVEREIGN_GRID_CONTINUITY_VAULT_COMMAND_NEXUS",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T12:11:57.119Z"
+    "time": "2026-04-08T12:13:27.162Z"
   },
   "sentinelLayer": {
     "active": true,
     "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
     "progress": 93,
     "status": "ACTIVE",
-    "time": "2026-04-08T12:11:57.957Z"
+    "time": "2026-04-08T12:13:28.012Z"
   },
   "helixLayer": {
     "active": true,
     "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T12:12:05.276Z"
+    "time": "2026-04-08T12:13:35.327Z"
+  },
+  "omegaLayer": {
+    "active": true,
+    "layer": "OMEGA_CORE_RECOVERY_MATRIX_TRUST_CENTER",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T12:13:37.406Z"
+  },
+  "executiveLayer": {
+    "active": true,
+    "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
+    "progress": 96,
+    "status": "ACTIVE",
+    "time": "2026-04-08T12:13:39.608Z"
+  },
+  "pulseLayer": {
+    "active": true,
+    "layer": "PULSE_GRID_CHRONICLE_CENTER_LAUNCH_CONSOLE",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T12:13:42.068Z"
+  },
+  "federationLayer": {
+    "active": true,
+    "layer": "FEDERATION_CORE_SCENARIO_MEMORY_OPERATOR_JOURNAL",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T12:13:42.733Z"
+  },
+  "learningLayer": {
+    "active": true,
+    "layer": "LEARNING_LOOP_ROUTE_ARBITRATOR_POLICY_STUDIO",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T12:13:57.514Z"
+  },
+  "horizonLayer": {
+    "active": true,
+    "layer": "HORIZON_HUB_WORKSPACE_ROUTER_EVIDENCE_VAULT",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T12:14:05.058Z"
+  },
+  "globalExpansion": {
+    "active": true,
+    "layer": "NEXUS_CORE_MISSION_LEDGER_GROWTH_RADAR",
+    "progress": 97,
+    "status": "CLOSED_100",
+    "time": "2026-04-08T12:14:07.681Z"
   }
 }
