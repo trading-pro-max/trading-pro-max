@@ -13,7 +13,7 @@ const box={background:"#020617",borderRadius:14,padding:14};
 
 export default function Page(){
   const runtime=readJson(path.join(process.cwd(),".tpm","infinity-runtime.json"),{overallProgress:0,domains:{}});
-  const data=readJson(path.join(process.cwd(),"data","infinity","runtime.json"),{planes:[],metrics:{}});
+  const data=readJson(path.join(process.cwd(),"data","infinity","runtime.json"),{cores:[],metrics:{}});
 
   return (
     <main style={{minHeight:"100vh",background:"linear-gradient(180deg,#020617 0%,#0b1120 100%)",color:"white",padding:24,fontFamily:"Arial,sans-serif"}}>
@@ -34,12 +34,12 @@ export default function Page(){
         </div>
 
         <div style={card}>
-          <div style={{fontSize:22,fontWeight:900,marginBottom:12}}>Planes</div>
+          <div style={{fontSize:22,fontWeight:900,marginBottom:12}}>Cores</div>
           <div style={{display:"grid",gridTemplateColumns:"repeat(4,minmax(0,1fr))",gap:12}}>
-            {(data.planes || []).map((x)=>(
+            {(data.cores || []).map((x)=>(
               <div key={x.slug} style={box}>
                 <div style={{fontWeight:900}}>{x.title}</div>
-                <div style={{marginTop:8,color:"#22c55e",fontWeight:900,fontSize:24}}>{x.score || x.progress}%</div>
+                <div style={{marginTop:8,color:"#22c55e",fontWeight:900,fontSize:24}}>{x.score}%</div>
                 <div style={{marginTop:6,color:"#94a3b8",fontSize:12}}>{x.status}</div>
               </div>
             ))}
@@ -52,7 +52,7 @@ export default function Page(){
             {Object.entries(data.metrics || {}).map(([k,v])=>(
               <div key={k} style={box}>
                 <div style={{color:"#94a3b8",fontSize:12}}>{k}</div>
-                <div style={{fontSize:28,fontWeight:900,marginTop:6}}>{String(v)}</div>
+                <div style={{fontSize:28,fontWeight:900,marginTop:6}}>{v}</div>
               </div>
             ))}
           </div>

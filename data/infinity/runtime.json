@@ -1,42 +1,36 @@
 {
   "ok": true,
-  "reactors": [
+  "cores": [
     {
-      "slug": "core-loop",
-      "title": "Core Loop",
+      "slug": "local-closed",
+      "title": "Local Closed 100",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "learning-loop",
-      "title": "Learning Loop",
+      "slug": "infinite-expansion",
+      "title": "Infinite Expansion",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "governance-loop",
-      "title": "Governance Loop",
+      "slug": "runtime-dominance",
+      "title": "Runtime Dominance",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "expansion-loop",
-      "title": "Expansion Loop",
-      "score": 100,
-      "status": "closed"
-    },
-    {
-      "slug": "infinity-loop",
-      "title": "Infinity Loop",
+      "slug": "global-readiness",
+      "title": "Global Readiness",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeReactors": 5,
-    "linkedRuntimes": 24,
-    "governedStores": 30,
-    "infiniteConfidence": 100
+    "localState": 100,
+    "expansionState": 100,
+    "activeInfiniteLoops": 20,
+    "protectedSystems": 28
   },
-  "time": "2026-04-08T23:42:47.338Z"
+  "time": "2026-04-08T23:46:08.350Z"
 }

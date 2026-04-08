@@ -1,46 +1,40 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 86,
-  "completed": 86,
-  "remaining": 14,
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
   "domains": {
-    "director": 100,
-    "revenue": 71,
-    "research": 100,
-    "deploy": 71,
-    "ops": 86
+    "infinity": 100,
+    "empire": 86,
+    "world": 100,
+    "fabric": 100,
+    "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "director-density",
-      "title": "director density",
+      "slug": "infinity-density",
+      "title": "infinity density",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "revenue-acceleration",
-      "title": "revenue acceleration",
-      "progress": 71,
-      "status": "active"
-    },
-    {
-      "slug": "research-depth",
-      "title": "research depth",
-      "progress": 100,
-      "status": "active"
-    },
-    {
-      "slug": "deploy-prep",
-      "title": "deploy prep",
-      "progress": 71,
-      "status": "active"
-    },
-    {
-      "slug": "ops-supergrid",
-      "title": "ops supergrid",
+      "slug": "empire-depth",
+      "title": "empire depth",
       "progress": 86,
+      "status": "active"
+    },
+    {
+      "slug": "world-dominance",
+      "title": "world dominance",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "fabric-unification",
+      "title": "fabric unification",
+      "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T23:43:47.871
+  "time": "2026-04-08T23:46:08.379Z
