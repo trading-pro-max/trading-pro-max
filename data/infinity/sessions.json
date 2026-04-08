@@ -52,7 +52,7 @@
     {
       "slug": "constellation-loop",
       "file": ".tpm/constellation-loop.pid",
-      "pid": "23520",
+      "pid": "2796",
       "status": "tracked"
     },
     {
@@ -287,5 +287,5 @@
     "trackedLoops": 46,
     "runtimeFiles": 49
   },
-  "time": "2026-04-08T22:25:36.434Z"
+  "time": "2026-04-08T22:27:06.762Z"
 }

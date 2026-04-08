@@ -13,9 +13,9 @@
   },
   "totals": {
     "runtimes": 49,
-    "pages": 193,
+    "pages": 195,
     "apiRoutes": 125,
-    "dataStores": 168
+    "dataStores": 170
   },
   "nextWave": [
     {
@@ -37,5 +37,5 @@
       "status": "closed"
     }
   ],
-  "time": "2026-04-08T22:25:36.434Z"
+  "time": "2026-04-08T22:27:06.762Z"
 }
