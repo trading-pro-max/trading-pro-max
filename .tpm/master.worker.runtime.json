@@ -1,6 +1,6 @@
 {
   "ok": false,
-  "cycle": 86,
-  "error": "Command failed: git push origin main\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\nTo https://github.com/trading-pro-max/trading-pro-max.git\n ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 1e4c56d8e062954f9b2b52efa131ccaf113af9bf but expected a89fde57e9c0fe4d07c3c7c470db385d91867c51)\nerror: failed to push some refs to 'https://github.com/trading-pro-max/trading-pro-max.git'\n",
-  "lastRunAt": "2026-04-08T08:02:56.662Z"
+  "cycle": 87,
+  "error": "Command failed: git push origin main\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\nTo https://github.com/trading-pro-max/trading-pro-max.git\n ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 44b5ece9c4c2aa1d50d19b01eec63d2f63dd0e1c but expected 1e4c56d8e062954f9b2b52efa131ccaf113af9bf)\nerror: failed to push some refs to 'https://github.com/trading-pro-max/trading-pro-max.git'\n",
+  "lastRunAt": "2026-04-08T08:04:28.590Z"
 }
