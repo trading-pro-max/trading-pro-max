@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "title": "Execution Arbitration Deck",
+  "cards": [
+    {
+      "slug": "execution-arbitration-deck-core",
+      "title": "Execution Arbitration Deck Core",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution-arbitration-deck-ops",
+      "title": "Ops Layer",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "execution-arbitration-deck-trust",
+      "title": "Trust Layer",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution-arbitration-deck-continuity",
+      "title": "Continuity Layer",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeBoards": 7,
+    "linkedRuntimes": 21,
+    "protectedPaths": 19,
+    "confidence": 100
+  },
+  "time": "2026-04-08T21:01:12.714Z"
+}

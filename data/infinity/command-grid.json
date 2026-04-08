@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "title": "Infinity Command Grid",
+  "cards": [
+    {
+      "slug": "infinity-command-grid-core",
+      "title": "Infinity Command Grid Core",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "infinity-command-grid-ops",
+      "title": "Ops Layer",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "infinity-command-grid-trust",
+      "title": "Trust Layer",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "infinity-command-grid-continuity",
+      "title": "Continuity Layer",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeBoards": 4,
+    "linkedRuntimes": 18,
+    "protectedPaths": 16,
+    "confidence": 100
+  },
+  "time": "2026-04-08T21:01:12.704Z"
+}

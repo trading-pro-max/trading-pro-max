@@ -122,7 +122,9 @@
     "tpm:jump4:once": "node ./lib/tpm-jump4-core.mjs",
     "tpm:jump4": "node ./scripts/tpm-jump4-loop.mjs",
     "tpm:zenith:once": "node ./lib/tpm-zenith-core.mjs",
-    "tpm:zenith": "node ./scripts/tpm-zenith-loop.mjs"
+    "tpm:zenith": "node ./scripts/tpm-zenith-loop.mjs",
+    "tpm:infinity7:once": "node ./lib/tpm-infinity-seven-core.mjs",
+    "tpm:infinity7": "node ./scripts/tpm-infinity-seven-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",
