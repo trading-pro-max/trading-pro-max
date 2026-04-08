@@ -1,5 +1,17 @@
 [
   {
+    "id": "SNAP-IGEMPSGM",
+    "label": "builder-cycle-171",
+    "createdAt": "2026-04-08T03:44:15.347Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
     "id": "SNAP-V6W4DPD7",
     "label": "builder-cycle-168",
     "createdAt": "2026-04-08T03:43:39.236Z",
@@ -279,18 +291,6 @@
     "id": "SNAP-OLYJAKKB",
     "label": "builder-cycle-99",
     "createdAt": "2026-04-08T03:29:48.448Z",
-    "meta": {
-      "cash": 100,
-      "positions": 0,
-      "orders": 0,
-      "ledger": 0,
-      "alerts": 0
-    }
-  },
-  {
-    "id": "SNAP-GON2PXKJ",
-    "label": "builder-cycle-96",
-    "createdAt": "2026-04-08T03:29:12.334Z",
     "meta": {
       "cash": 100,
       "positions": 0,
