@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "channels": [
+    {
+      "slug": "macro-ai",
+      "title": "Macro AI",
+      "confidence": 93,
+      "status": "strong"
+    },
+    {
+      "slug": "strategy-ranking",
+      "title": "Strategy Ranking",
+      "confidence": 95,
+      "status": "strong"
+    },
+    {
+      "slug": "execution-watch",
+      "title": "Execution Watch",
+      "confidence": 94,
+      "status": "strong"
+    },
+    {
+      "slug": "research-loop",
+      "title": "Research Loop",
+      "confidence": 92,
+      "status": "strong"
+    }
+  ],
+  "time": "2026-04-08T09:10:29.488Z"
+}

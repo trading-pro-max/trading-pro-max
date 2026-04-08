@@ -47,7 +47,9 @@
     "tpm:expansion:once": "node ./lib/tpm-expansion-core.mjs",
     "tpm:expansion": "node ./scripts/tpm-expansion-loop.mjs",
     "tpm:analytics:once": "node ./lib/tpm-analytics-core.mjs",
-    "tpm:analytics": "node ./scripts/tpm-analytics-loop.mjs"
+    "tpm:analytics": "node ./scripts/tpm-analytics-loop.mjs",
+    "tpm:simulation:once": "node ./lib/tpm-simulation-core.mjs",
+    "tpm:simulation": "node ./scripts/tpm-simulation-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

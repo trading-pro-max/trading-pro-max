@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "suites": [
+    {
+      "slug": "alpha-grid",
+      "title": "Alpha Grid",
+      "score": 94,
+      "status": "strong"
+    },
+    {
+      "slug": "otc-balance",
+      "title": "OTC Balance",
+      "score": 91,
+      "status": "strong"
+    },
+    {
+      "slug": "trend-stack",
+      "title": "Trend Stack",
+      "score": 93,
+      "status": "strong"
+    },
+    {
+      "slug": "risk-guard",
+      "title": "Risk Guard",
+      "score": 96,
+      "status": "strong"
+    }
+  ],
+  "time": "2026-04-08T09:10:29.489Z"
+}
