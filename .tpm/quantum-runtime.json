@@ -5,9 +5,9 @@
   "completed": 100,
   "remaining": 0,
   "domains": {
-    "board": 100,
-    "pulse": 100,
-    "memory": 100,
+    "quantum": 100,
+    "genome": 100,
+    "covenant": 100,
     "proof": 100,
     "continuity": 100
   },
@@ -19,17 +19,17 @@
       "status": "active"
     },
     {
-      "slug": "pulse-discipline",
-      "title": "pulse discipline",
+      "slug": "genome-depth",
+      "title": "genome depth",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "memory-depth",
-      "title": "memory depth",
+      "slug": "covenant-strength",
+      "title": "covenant strength",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T19:48:52.360Z"
+  "time": "2026-04-08T19:51:06.845Z"
 }

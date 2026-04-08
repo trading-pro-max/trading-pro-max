@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "covenants": [
+    {
+      "slug": "runtime-covenant",
+      "title": "Runtime Covenant",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-covenant",
+      "title": "Recovery Covenant",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-covenant",
+      "title": "Audit Covenant",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity-covenant",
+      "title": "Continuity Covenant",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "governedCovenants": 12,
+    "protectedRestarts": 18,
+    "replayClarity": 100,
+    "covenantConfidence": 100
+  },
+  "time": "2026-04-08T19:51:06.845Z"
+}

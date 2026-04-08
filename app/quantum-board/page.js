@@ -13,7 +13,7 @@ const box={background:"#020617",borderRadius:14,padding:14};
 
 export default function Page(){
   const runtime=readJson(path.join(process.cwd(),".tpm","quantum-runtime.json"),{overallProgress:0,domains:{}});
-  const data=readJson(path.join(process.cwd(),"data","quantum","board.json"),{panels:[],metrics:{}});
+  const data=readJson(path.join(process.cwd(),"data","quantum","runtime.json"),{panels:[],metrics:{}});
 
   return (
     <main style={{minHeight:"100vh",background:"linear-gradient(180deg,#020617 0%,#0b1120 100%)",color:"white",padding:24,fontFamily:"Arial,sans-serif"}}>
