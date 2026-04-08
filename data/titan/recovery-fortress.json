@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "cards": [
+    {
+      "slug": "restart-fortress",
+      "title": "Restart Fortress",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "replay-fortress",
+      "title": "Replay Fortress",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "rollback-fortress",
+      "title": "Rollback Fortress",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-fortress",
+      "title": "Trust Fortress",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "protectedRecoveries": 20,
+    "replayCoverage": 100,
+    "rollbackConfidence": 100,
+    "fortressStrength": 100
+  },
+  "time": "2026-04-08T23:41:06.298Z"
+}

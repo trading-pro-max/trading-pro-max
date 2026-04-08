@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "cards": [
+    {
+      "slug": "capital-core",
+      "title": "Capital Core",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "allocation-grid",
+      "title": "Allocation Grid",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "reserve-wall",
+      "title": "Reserve Wall",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "efficiency-wall",
+      "title": "Efficiency Wall",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "capitalRoutes": 18,
+    "reserveCoverage": 100,
+    "efficiencyConfidence": 100,
+    "treasuryStrength": 100
+  },
+  "time": "2026-04-08T23:41:06.298Z"
+}

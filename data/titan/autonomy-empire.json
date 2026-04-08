@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "cards": [
+    {
+      "slug": "builder-empire",
+      "title": "Builder Empire",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "strategy-empire",
+      "title": "Strategy Empire",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "governance-empire",
+      "title": "Governance Empire",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ops-empire",
+      "title": "Ops Empire",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "autonomousAgents": 12,
+    "governedFlows": 24,
+    "decisionChains": 20,
+    "empireConfidence": 100
+  },
+  "time": "2026-04-08T23:41:06.298Z"
+}

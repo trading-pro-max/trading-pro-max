@@ -163,7 +163,9 @@
     "npm run tpm:supremacy:once",
     "npm run tpm:supremacy",
     "npm run tpm:infinity:once",
-    "npm run tpm:infinity"
+    "npm run tpm:infinity",
+    "npm run tpm:titan:once",
+    "npm run tpm:titan"
   ],
   "pages": [
     "/master-control",
@@ -237,7 +239,13 @@
     "/autonomous-factory",
     "/federation-hub",
     "/revenue-bridge",
-    "/deploy-readiness"
+    "/deploy-readiness",
+    "/infinity-kernel",
+    "/global-matrix",
+    "/autonomy-empire",
+    "/treasury-citadel",
+    "/client-cosmos",
+    "/recovery-fortress"
   ],
   "nextWave": [
     {
@@ -666,9 +674,51 @@
       "progress": 86,
       "stage": "WAITING_EXTERNAL",
       "status": "blocked-by-plan"
+    },
+    {
+      "slug": "infinity-kernel",
+      "title": "infinity kernel",
+      "progress": 86,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "global-matrix",
+      "title": "global matrix",
+      "progress": 86,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomy-empire",
+      "title": "autonomy empire",
+      "progress": 86,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "treasury-citadel",
+      "title": "treasury citadel",
+      "progress": 86,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "client-cosmos",
+      "title": "client cosmos",
+      "progress": 86,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "recovery-fortress",
+      "title": "recovery fortress",
+      "progress": 86,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
-  "time": "2026-04-08T23:40:47.496Z",
+  "time": "2026-04-08T23:41:05.841Z",
   "localCertified": true,
   "releaseGate": "OPEN_LOCAL",
   "externalDeployBlocked": true,
@@ -803,5 +853,13 @@
     "expansion": 100,
     "deployExternalBlocked": true,
     "time": "2026-04-08T23:40:56.179Z"
+  },
+  "infiniteContinuation": "ACTIVE",
+  "titanLayer": {
+    "active": true,
+    "layer": "TITAN_INFINITY_LAYER",
+    "progress": 98,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:41:06.307Z"
   }
 }

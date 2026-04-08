@@ -1,41 +1,54 @@
 {
   "ok": true,
   "mode": "TPM_TITAN_ACTIVE",
-  "overallProgress": 93,
-  "completed": 93,
-  "remaining": 7,
+  "overallProgress": 98,
+  "completed": 98,
+  "remaining": 2,
   "domains": {
-    "titan": 100,
-    "empire": 83,
-    "foundry": 100,
-    "memory": 83,
+    "kernel": 100,
+    "matrix": 100,
+    "empire": 86,
+    "treasury": 100,
+    "clients": 100,
+    "recovery": 100,
     "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "titan-density",
-      "title": "titan density",
+      "slug": "kernel-depth",
+      "title": "kernel depth",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "empire-depth",
-      "title": "empire depth",
-      "progress": 83,
-      "status": "active"
-    },
-    {
-      "slug": "foundry-power",
-      "title": "foundry power",
+      "slug": "matrix-fusion",
+      "title": "matrix fusion",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "memory-density",
-      "title": "memory density",
-      "progress": 83,
+      "slug": "empire-autonomy",
+      "title": "empire autonomy",
+      "progress": 86,
+      "status": "active"
+    },
+    {
+      "slug": "treasury-discipline",
+      "title": "treasury discipline",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "client-universe",
+      "title": "client universe",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "recovery-fortress",
+      "title": "recovery fortress",
+      "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T23:40:18.158Z"
-}
+  "time": "2026-04-08T23:41:0

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "cards": [
+    {
+      "slug": "global-runtime",
+      "title": "Global Runtime",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-matrix",
+      "title": "Evidence Matrix",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "platform-matrix",
+      "title": "Platform Matrix",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-matrix",
+      "title": "Growth Matrix",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "linkedGrids": 22,
+    "connectedRuntimes": 24,
+    "governedSurfaces": 28,
+    "matrixConfidence": 100
+  },
+  "time": "2026-04-08T23:41:06.298Z"
+}
