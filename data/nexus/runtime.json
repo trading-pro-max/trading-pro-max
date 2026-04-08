@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "towers": [
+    {
+      "slug": "core",
+      "title": "Core Nexus",
+      "strength": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "runtime",
+      "title": "Runtime Nexus",
+      "strength": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence",
+      "title": "Evidence Nexus",
+      "strength": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth",
+      "title": "Growth Nexus",
+      "strength": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeLayers": 17,
+    "linkedRuntimes": 21,
+    "certifiedTracks": 15,
+    "protectedStores": 20
+  },
+  "time": "2026-04-08T10:51:35.499Z"
+}
