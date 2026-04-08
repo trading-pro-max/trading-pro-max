@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "lanes": [
+    {
+      "slug": "execution-nexus",
+      "title": "Execution Nexus",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-nexus",
+      "title": "Policy Nexus",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "routing-nexus",
+      "title": "Routing Nexus",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "command-nexus",
+      "title": "Command Nexus",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "nexusRoutes": 18,
+    "guardedCommands": 16,
+    "arbitrationStrength": 100,
+    "switchConfidence": 100
+  },
+  "time": "2026-04-08T11:25:25.679Z"
+}

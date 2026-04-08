@@ -88,7 +88,9 @@
     "tpm:council:once": "node ./lib/tpm-council-core.mjs",
     "tpm:council": "node ./scripts/tpm-council-loop.mjs",
     "tpm:atlas:once": "node ./lib/tpm-atlas-core.mjs",
-    "tpm:atlas": "node ./scripts/tpm-atlas-loop.mjs"
+    "tpm:atlas": "node ./scripts/tpm-atlas-loop.mjs",
+    "tpm:sovereign:once": "node ./lib/tpm-sovereign-core.mjs",
+    "tpm:sovereign": "node ./scripts/tpm-sovereign-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

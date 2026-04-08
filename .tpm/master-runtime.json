@@ -118,8 +118,7 @@
     }
   ],
   "blockers": [
-    "GoDaddy SFTP credentials are not filled yet.",
-    "External deploy remains constrained by current hosting plan."
+    "External GoDaddy deploy remains blocked by current hosting plan."
   ],
   "commands": [
     "npm run tpm:master:once",
@@ -127,14 +126,10 @@
     "npm run tpm:analytics:once",
     "npm run tpm:simulation:once",
     "npm run tpm:intelligence:once",
-    "npm run tpm:sentinel:once",
-    "npm run tpm:sentinel",
+    "npm run tpm:sovereign:once",
+    "npm run tpm:sovereign",
     "npm run tpm:omega:once",
-    "npm run tpm:omega",
-    "npm run tpm:executive:once",
-    "npm run tpm:executive",
-    "npm run tpm:learning:once",
-    "npm run tpm:learning"
+    "npm run tpm:omega"
   ],
   "pages": [
     "/master-control",
@@ -145,18 +140,12 @@
     "/backtest-lab",
     "/research-studio",
     "/intelligence-center",
-    "/sentinel-core",
-    "/experiment-studio",
-    "/customer-success-hub",
+    "/sovereign-grid",
+    "/continuity-vault",
+    "/command-nexus",
     "/omega-core",
     "/recovery-matrix",
-    "/trust-center",
-    "/control-tower",
-    "/capital-os",
-    "/execution-intelligence",
-    "/learning-loop",
-    "/route-arbitrator",
-    "/policy-studio"
+    "/trust-center"
   ],
   "nextWave": [
     {
@@ -181,119 +170,41 @@
       "status": "blocked"
     },
     {
-      "slug": "sentinel-core",
-      "title": "sentinel core",
-      "progress": 93,
+      "slug": "sovereign-grid",
+      "title": "sovereign grid",
+      "progress": 91,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "experiment-studio",
-      "title": "experiment studio",
-      "progress": 93,
+      "slug": "continuity-vault",
+      "title": "continuity vault",
+      "progress": 91,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "customer-success-hub",
-      "title": "customer success hub",
-      "progress": 93,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "omega-core",
-      "title": "omega core",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "recovery-matrix",
-      "title": "recovery matrix",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "trust-center",
-      "title": "trust center",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "control-tower",
-      "title": "control tower",
-      "progress": 96,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "capital-os",
-      "title": "capital os",
-      "progress": 96,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "execution-intelligence",
-      "title": "execution intelligence",
-      "progress": 96,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "learning-loop",
-      "title": "learning loop",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "route-arbitrator",
-      "title": "route arbitrator",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "policy-studio",
-      "title": "policy studio",
-      "progress": 100,
+      "slug": "command-nexus",
+      "title": "command nexus",
+      "progress": 91,
       "stage": "ACTIVE",
       "status": "strong"
     }
   ],
-  "time": "2026-04-08T11:23:53.370Z",
+  "time": "2026-04-08T11:25:23.387Z",
   "localCertified": true,
   "releaseGate": "OPEN_LOCAL",
-  "sentinelLayer": {
+  "externalDeployBlocked": true,
+  "sovereignLayer": {
     "active": true,
-    "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
-    "progress": 93,
+    "layer": "SOVEREIGN_GRID_CONTINUITY_VAULT_COMMAND_NEXUS",
+    "progress": 91,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:23:56.502Z"
+    "time": "2026-04-08T11:25:24.918Z"
   },
-  "omegaLayer": {
-    "active": true,
-    "layer": "OMEGA_CORE_RECOVERY_MATRIX_TRUST_CENTER",
-    "progress": 97,
-    "status": "ACTIVE",
-    "time": "2026-04-08T11:24:06.102Z"
-  },
-  "executiveLayer": {
-    "active": true,
-    "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
-    "progress": 96,
-    "status": "ACTIVE",
-    "time": "2026-04-08T11:24:08.322Z"
-  },
-  "learningLayer": {
-    "active": true,
-    "layer": "LEARNING_LOOP_ROUTE_ARBITRATOR_POLICY_STUDIO",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T11:24:25.998Z"
+  "runtimeDepth": {
+    "active": 15,
+    "expected": 16,
+    "status": "CLOSED_100"
   }
 }

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "vaults": [
+    {
+      "slug": "recovery-vault",
+      "title": "Recovery Vault",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "proof-vault",
+      "title": "Proof Vault",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "runtime-vault",
+      "title": "Runtime Vault",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity-vault",
+      "title": "Continuity Vault",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "securedArtifacts": 30,
+    "replayableStates": 22,
+    "recoveryStrength": 100,
+    "continuityStrength": 100
+  },
+  "time": "2026-04-08T11:25:25.679Z"
+}
