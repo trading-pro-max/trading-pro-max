@@ -13,12 +13,15 @@
   "pages": [
     "/federation-core",
     "/scenario-memory",
-    "/operator-journal"
+    "/operator-journal",
+    "/autopilot-center"
   ],
   "commands": [
     "npm run tpm:federation:once",
     "npm run tpm:federation",
-    "npm run tpm:master:once"
+    "npm run tpm:master:once",
+    "npm run tpm:autopilot:once",
+    "npm run tpm:autopilot"
   ],
   "nextWave": [
     {
@@ -49,5 +52,56 @@
     "progress": 100,
     "status": "ACTIVE",
     "time": "2026-04-08T19:36:51.502Z"
+  },
+  "autopilot": {
+    "active": true,
+    "mode": "FULL_AUTO_LOCAL",
+    "cycle": 1,
+    "discoveredScripts": [
+      "tpm:agentmesh:once",
+      "tpm:ai:once",
+      "tpm:analytics:once",
+      "tpm:apex:once",
+      "tpm:atlas:once",
+      "tpm:broker:once",
+      "tpm:command:once",
+      "tpm:constellation:once",
+      "tpm:council:once",
+      "tpm:enterprise:once",
+      "tpm:executive:once",
+      "tpm:expansion:once",
+      "tpm:fabric:once",
+      "tpm:federation:once",
+      "tpm:final:once",
+      "tpm:governance:once",
+      "tpm:helix:once",
+      "tpm:horizon:once",
+      "tpm:infinity:once",
+      "tpm:intelligence:once",
+      "tpm:learning:once",
+      "tpm:market:once",
+      "tpm:meta:once",
+      "tpm:navigator:once",
+      "tpm:nexus:once",
+      "tpm:observability:once",
+      "tpm:omega:once",
+      "tpm:orchestrator:once",
+      "tpm:platform:once",
+      "tpm:prism:once",
+      "tpm:pulse:once",
+      "tpm:quantum:once",
+      "tpm:runtimeops:once",
+      "tpm:sentinel:once",
+      "tpm:simulation:once",
+      "tpm:sovereign:once",
+      "tpm:strategy:once",
+      "tpm:vector:once",
+      "tpm:vertex:once",
+      "tpm:master:once"
+    ],
+    "successCount": 0,
+    "failedCount": 40,
+    "lastRunAt": "2026-04-08T19:37:05.962Z",
+    "status": "ACTIVE_WITH_ERRORS"
   }
 }
