@@ -137,7 +137,9 @@
     "npm run tpm:nexus:once",
     "npm run tpm:nexus",
     "npm run tpm:observability:once",
-    "npm run tpm:observability"
+    "npm run tpm:observability",
+    "npm run tpm:enterprise:once",
+    "npm run tpm:enterprise"
   ],
   "pages": [
     "/master-control",
@@ -165,7 +167,10 @@
     "/growth-radar",
     "/observability-core",
     "/incident-center",
-    "/playbook-os"
+    "/playbook-os",
+    "/revenue-os",
+    "/compliance-ledger",
+    "/ops-replay"
   ],
   "nextWave": [
     {
@@ -314,6 +319,48 @@
       "progress": 87,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "observability-core",
+      "title": "observability core",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "incident-center",
+      "title": "incident center",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "playbook-os",
+      "title": "playbook os",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "revenue-os",
+      "title": "revenue os",
+      "progress": 89,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "compliance-ledger",
+      "title": "compliance ledger",
+      "progress": 89,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "ops-replay",
+      "title": "ops replay",
+      "progress": 89,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T11:02:52.976Z",
@@ -357,14 +404,21 @@
   "observabilityLayer": {
     "active": true,
     "layer": "OBSERVABILITY_CORE_INCIDENT_CENTER_PLAYBOOK_OS",
-    "progress": 87,
+    "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:03:57.598Z"
+    "time": "2026-04-08T11:03:58.380Z"
   },
   "externalDeployBlocked": true,
   "runtimeDepth": {
     "active": 15,
     "expected": 16,
     "status": "CLOSED_100"
+  },
+  "enterpriseLayer": {
+    "active": true,
+    "layer": "REVENUE_OS_COMPLIANCE_LEDGER_OPS_REPLAY",
+    "progress": 89,
+    "status": "ACTIVE",
+    "time": "2026-04-08T11:03:59.817Z"
   }
 }
