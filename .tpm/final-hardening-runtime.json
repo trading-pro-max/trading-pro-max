@@ -1,0 +1,23 @@
+{
+  "ok": true,
+  "mode": "TPM_FINAL_HARDENING_ACTIVE",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "domains": {
+    "hardening": 100,
+    "qa": 100,
+    "launch": 100
+  },
+  "certification": {
+    "ok": true,
+    "localCertified": true,
+    "releaseGate": "OPEN_LOCAL",
+    "readiness": "LOCAL_CERTIFIED_100",
+    "time": "2026-04-08T09:25:31.437Z"
+  },
+  "blockers": [
+    "External GoDaddy deploy still blocked by current plan / missing SFTP credentials."
+  ],
+  "time": "2026-04-08T09:25:31.438Z"
+}
