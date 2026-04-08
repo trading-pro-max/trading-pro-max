@@ -20,7 +20,10 @@
     "/infinity-core",
     "/strategy-genome",
     "/ops-embassy",
-    "/autopilot-center"
+    "/autopilot-center",
+    "/infinity-mesh",
+    "/client-brain",
+    "/ops-archive"
   ],
   "commands": [
     "npm run tpm:observability:once",
@@ -33,7 +36,9 @@
     "npm run tpm:infinity:once",
     "npm run tpm:infinity",
     "npm run tpm:autopilot:once",
-    "npm run tpm:autopilot"
+    "npm run tpm:autopilot",
+    "npm run tpm:infinity3:once",
+    "npm run tpm:infinity3"
   ],
   "nextWave": [
     {
@@ -126,6 +131,27 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "infinity-mesh",
+      "title": "infinity mesh",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "client-brain",
+      "title": "client brain",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "ops-archive",
+      "title": "ops archive",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "observabilityLayer": {
@@ -210,5 +236,12 @@
     "failedCount": 40,
     "lastRunAt": "2026-04-08T19:45:36.342Z",
     "status": "ACTIVE_WITH_ERRORS"
+  },
+  "infinityLayer3": {
+    "active": true,
+    "layer": "INFINITY_MESH_CLIENT_BRAIN_OPS_ARCHIVE",
+    "progress": 90,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:45:44.837Z"
   }
 }

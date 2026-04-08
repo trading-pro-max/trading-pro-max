@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "brains": [
+    {
+      "slug": "retention",
+      "title": "Retention Brain",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "experience",
+      "title": "Experience Brain",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "alerts",
+      "title": "Alert Brain",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth",
+      "title": "Growth Brain",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "protectedJourneys": 18,
+    "guidedFlows": 16,
+    "expansionSignals": 20,
+    "clientConfidence": 100
+  },
+  "time": "2026-04-08T19:45:44.827Z"
+}

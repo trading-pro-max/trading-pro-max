@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "nodes": [
+    {
+      "slug": "runtime",
+      "title": "Runtime Infinity",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "client",
+      "title": "Client Infinity",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ops",
+      "title": "Ops Infinity",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust",
+      "title": "Trust Infinity",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "connectedLayers": 24,
+    "connectedStores": 30,
+    "governedNodes": 24,
+    "meshConfidence": 100
+  },
+  "time": "2026-04-08T19:45:44.826Z"
+}
