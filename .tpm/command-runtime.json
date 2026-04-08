@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "TPM_COMMAND_ACTIVE",
+  "overallProgress": 88,
+  "completed": 88,
+  "remaining": 12,
+  "domains": {
+    "commandMesh": 100,
+    "portfolio": 80,
+    "risk": 80,
+    "health": 80,
+    "automation": 100
+  },
+  "nextWave": [
+    {
+      "slug": "command-routing",
+      "title": "command routing",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "portfolio-orchestration",
+      "title": "portfolio orchestration",
+      "progress": 80,
+      "status": "active"
+    },
+    {
+      "slug": "risk-governance",
+      "title": "risk governance",
+      "progress": 80,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-08T09:45:38.729Z"
+}

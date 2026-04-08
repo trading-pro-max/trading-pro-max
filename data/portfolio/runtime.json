@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "allocations": [
+    {
+      "slug": "core",
+      "title": "Core Strategies",
+      "weight": 42,
+      "status": "strong"
+    },
+    {
+      "slug": "growth",
+      "title": "Growth Systems",
+      "weight": 24,
+      "status": "strong"
+    },
+    {
+      "slug": "defense",
+      "title": "Defense Layer",
+      "weight": 18,
+      "status": "strong"
+    },
+    {
+      "slug": "reserve",
+      "title": "Reserve Buffer",
+      "weight": 16,
+      "status": "strong"
+    }
+  ],
+  "totals": {
+    "activeStrategies": 12,
+    "protectedStrategies": 9,
+    "researchCandidates": 7,
+    "executionLanes": 4
+  },
+  "time": "2026-04-08T09:45:38.728Z"
+}

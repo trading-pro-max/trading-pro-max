@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "lanes": [
+    {
+      "slug": "drawdown",
+      "title": "Drawdown Guard",
+      "progress": 97,
+      "status": "strong"
+    },
+    {
+      "slug": "exposure",
+      "title": "Exposure Guard",
+      "progress": 96,
+      "status": "strong"
+    },
+    {
+      "slug": "validation",
+      "title": "Validation Guard",
+      "progress": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "telemetry",
+      "title": "Telemetry Guard",
+      "progress": 95,
+      "status": "strong"
+    }
+  ],
+  "time": "2026-04-08T09:45:38.729Z"
+}

@@ -52,7 +52,9 @@
     "tpm:simulation": "node ./scripts/tpm-simulation-loop.mjs",
     "tpm:final:once": "node ./lib/tpm-final-hardening-core.mjs",
     "tpm:market:once": "node ./lib/tpm-market-core.mjs",
-    "tpm:market": "node ./scripts/tpm-market-loop.mjs"
+    "tpm:market": "node ./scripts/tpm-market-loop.mjs",
+    "tpm:command:once": "node ./lib/tpm-command-core.mjs",
+    "tpm:command": "node ./scripts/tpm-command-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

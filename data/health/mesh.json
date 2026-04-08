@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "nodes": [
+    {
+      "slug": "ai",
+      "title": "AI Node",
+      "health": 99,
+      "status": "up"
+    },
+    {
+      "slug": "strategy",
+      "title": "Strategy Node",
+      "health": 99,
+      "status": "up"
+    },
+    {
+      "slug": "execution",
+      "title": "Execution Node",
+      "health": 98,
+      "status": "up"
+    },
+    {
+      "slug": "analytics",
+      "title": "Analytics Node",
+      "health": 99,
+      "status": "up"
+    }
+  ],
+  "time": "2026-04-08T09:45:38.729Z"
+}
