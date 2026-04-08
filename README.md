@@ -19,7 +19,7 @@
 ## Language Coverage
 - TypeScript: 205
 - JavaScript: 76
-- JSON: 54
+- JSON: 55
 - PowerShell: 51
 - Markdown: 19
 - Batch: 11
