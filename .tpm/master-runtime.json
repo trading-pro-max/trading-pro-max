@@ -180,7 +180,9 @@
     "npm run tpm:quantum:once",
     "npm run tpm:quantum",
     "npm run tpm:hyper:once",
-    "npm run tpm:hyper"
+    "npm run tpm:hyper",
+    "npm run tpm:agentmesh:once",
+    "npm run tpm:agentmesh"
   ],
   "pages": [
     "/master-control",
@@ -286,7 +288,10 @@
     "/operator-galaxy",
     "/revenue-fortress",
     "/resilience-os",
-    "/launch-war-room"
+    "/launch-war-room",
+    "/agent-mesh",
+    "/memory-os",
+    "/growth-engine"
   ],
   "nextWave": [
     {
@@ -974,6 +979,27 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "agent-mesh-depth",
+      "title": "agent mesh depth",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-os",
+      "title": "memory os",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "growth-engine",
+      "title": "growth engine",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T23:50:49.755Z",
@@ -1072,7 +1098,7 @@
     "layer": "FABRIC_CORE",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T23:49:40.940Z"
+    "time": "2026-04-08T23:51:07.108Z"
   },
   "executiveLayer": {
     "active": true,
@@ -1179,5 +1205,12 @@
     "modules": 5,
     "status": "ACTIVE",
     "time": "2026-04-08T23:50:48.708Z"
+  },
+  "postCertification": {
+    "active": true,
+    "layer": "AGENT_MESH_EXPANSION",
+    "progress": 96,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:51:05.737Z"
   }
 }
