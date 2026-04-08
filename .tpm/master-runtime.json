@@ -16,14 +16,17 @@
     "/execution-memory",
     "/learning-loop",
     "/route-arbitrator",
-    "/policy-studio"
+    "/policy-studio",
+    "/autopilot-center"
   ],
   "commands": [
     "npm run tpm:infinity:once",
     "npm run tpm:infinity",
     "npm run tpm:master:once",
     "npm run tpm:learning:once",
-    "npm run tpm:learning"
+    "npm run tpm:learning",
+    "npm run tpm:autopilot:once",
+    "npm run tpm:autopilot"
   ],
   "nextWave": [
     {
@@ -82,5 +85,61 @@
     "progress": 100,
     "status": "ACTIVE",
     "time": "2026-04-08T22:10:37.829Z"
+  },
+  "autopilot": {
+    "active": true,
+    "mode": "FULL_AUTO_LOCAL",
+    "cycle": 1,
+    "discoveredScripts": [
+      "tpm:agentmesh:once",
+      "tpm:ai:once",
+      "tpm:analytics:once",
+      "tpm:apex:once",
+      "tpm:atlas:once",
+      "tpm:broker:once",
+      "tpm:command:once",
+      "tpm:constellation:once",
+      "tpm:continuum:once",
+      "tpm:council:once",
+      "tpm:enterprise:once",
+      "tpm:executive:once",
+      "tpm:expansion:once",
+      "tpm:fabric:once",
+      "tpm:federation:once",
+      "tpm:final:once",
+      "tpm:governance:once",
+      "tpm:helix:once",
+      "tpm:horizon:once",
+      "tpm:infinity3:once",
+      "tpm:infinity7:once",
+      "tpm:infinity:once",
+      "tpm:intelligence:once",
+      "tpm:jump4:once",
+      "tpm:learning:once",
+      "tpm:market:once",
+      "tpm:meta:once",
+      "tpm:navigator:once",
+      "tpm:nexus:once",
+      "tpm:observability:once",
+      "tpm:omega:once",
+      "tpm:orchestrator:once",
+      "tpm:platform:once",
+      "tpm:prism:once",
+      "tpm:pulse:once",
+      "tpm:quantum:once",
+      "tpm:runtimeops:once",
+      "tpm:sentinel:once",
+      "tpm:simulation:once",
+      "tpm:sovereign:once",
+      "tpm:strategy:once",
+      "tpm:vector:once",
+      "tpm:vertex:once",
+      "tpm:zenith:once",
+      "tpm:master:once"
+    ],
+    "successCount": 0,
+    "failedCount": 45,
+    "lastRunAt": "2026-04-08T22:11:15.098Z",
+    "status": "ACTIVE_WITH_ERRORS"
   }
 }
