@@ -1,5 +1,53 @@
 [
   {
+    "id": "SNAP-ZFHCE8MO",
+    "label": "builder-cycle-87",
+    "createdAt": "2026-04-08T03:27:23.953Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
+    "id": "SNAP-E367NSBH",
+    "label": "builder-cycle-84",
+    "createdAt": "2026-04-08T03:26:47.865Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
+    "id": "SNAP-FQY7LDIZ",
+    "label": "builder-cycle-81",
+    "createdAt": "2026-04-08T03:26:11.762Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
+    "id": "SNAP-ILLR4KSU",
+    "label": "builder-cycle-78",
+    "createdAt": "2026-04-08T03:25:35.661Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
     "id": "SNAP-QTKYZMEV",
     "label": "builder-cycle-75",
     "createdAt": "2026-04-08T03:24:59.542Z",
@@ -243,54 +291,6 @@
     "id": "SNAP-F6UTTVU1",
     "label": "final-100-local-certification",
     "createdAt": "2026-04-08T03:14:21.327Z",
-    "meta": {
-      "cash": 100,
-      "positions": 0,
-      "orders": 0,
-      "ledger": 0,
-      "alerts": 0
-    }
-  },
-  {
-    "id": "SNAP-UT7Y1DQI",
-    "label": "builder-cycle-21",
-    "createdAt": "2026-04-08T03:14:09.522Z",
-    "meta": {
-      "cash": 100,
-      "positions": 0,
-      "orders": 0,
-      "ledger": 0,
-      "alerts": 0
-    }
-  },
-  {
-    "id": "SNAP-ZUIAO1SK",
-    "label": "final-100-local-certification",
-    "createdAt": "2026-04-08T03:13:40.119Z",
-    "meta": {
-      "cash": 100,
-      "positions": 0,
-      "orders": 0,
-      "ledger": 0,
-      "alerts": 0
-    }
-  },
-  {
-    "id": "SNAP-F6EHTEEZ",
-    "label": "builder-cycle-18",
-    "createdAt": "2026-04-08T03:13:33.412Z",
-    "meta": {
-      "cash": 100,
-      "positions": 0,
-      "orders": 0,
-      "ledger": 0,
-      "alerts": 0
-    }
-  },
-  {
-    "id": "SNAP-ZDIRXYV3",
-    "label": "builder-cycle-15",
-    "createdAt": "2026-04-08T03:12:57.304Z",
     "meta": {
       "cash": 100,
       "positions": 0,
