@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "councils": [
+    {
+      "slug": "runtime",
+      "title": "Runtime Council",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk",
+      "title": "Risk Council",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital",
+      "title": "Capital Council",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "trust",
+      "title": "Trust Council",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeCouncils": 4,
+    "protectedDecisions": 22,
+    "certifiedPaths": 18,
+    "globalConfidence": 100
+  },
+  "time": "2026-04-08T11:17:49.429Z"
+}

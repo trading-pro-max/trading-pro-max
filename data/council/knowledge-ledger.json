@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "items": [
+    {
+      "slug": "runtime-knowledge",
+      "title": "Runtime Knowledge",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-knowledge",
+      "title": "Market Knowledge",
+      "progress": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "policy-knowledge",
+      "title": "Policy Knowledge",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-knowledge",
+      "title": "Growth Knowledge",
+      "progress": 99,
+      "status": "strong"
+    }
+  ],
+  "maps": {
+    "trackedArtifacts": 26,
+    "replayableProofs": 18,
+    "governedPolicies": 16,
+    "knowledgeConfidence": 100
+  },
+  "time": "2026-04-08T11:17:49.429Z"
+}
