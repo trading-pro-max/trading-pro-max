@@ -1,0 +1,51 @@
+{
+  "ok": true,
+  "mode": "TPM_ANALYTICS_ACTIVE",
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
+  "domains": {
+    "analytics": 83,
+    "operator": 100,
+    "client": 100,
+    "notifications": 100,
+    "memory": 100
+  },
+  "metrics": {
+    "ok": true,
+    "funnels": {
+      "activation": 91,
+      "retention": 88,
+      "operatorEfficiency": 93,
+      "commandCoverage": 95
+    },
+    "wall": {
+      "activeCards": 12,
+      "operatorQueues": 4,
+      "priorityFeeds": 7,
+      "researchStreams": 5
+    },
+    "time": "2026-04-08T09:04:53.483Z"
+  },
+  "nextWave": [
+    {
+      "slug": "operator-analytics",
+      "title": "operator analytics",
+      "progress": 100,
+      "status": "strong"
+    },
+    {
+      "slug": "client-intelligence",
+      "title": "client intelligence",
+      "progress": 100,
+      "status": "strong"
+    },
+    {
+      "slug": "notification-bridge",
+      "title": "notification bridge",
+      "progress": 100,
+      "status": "strong"
+    }
+  ],
+  "time": "2026-04-08T09:04:53.484Z"
+}
