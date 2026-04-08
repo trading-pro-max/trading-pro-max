@@ -1,6 +1,7 @@
 ﻿import fs from "fs";
 import path from "path";
 import { getManifest, getBuilderConfig, getState, saveState, createSnapshot } from "../lib/tpm-runtime.mjs";
+import { getAutopilotState, runAutopilotOnce } from "../lib/tpm-mission.mjs";
 
 const ROOT = process.cwd();
 const TPM_DIR = path.join(ROOT, ".tpm");
@@ -115,6 +116,19 @@ async function main() {
 
     cycle += 1;
 
+    try {
+      const autopilot = getAutopilotState();
+      if (autopilot.enabled && cycle % 2 === 0) {
+        runAutopilotOnce();
+      }
+    } catch (e) {
+      appendLog({
+        time: nowIso(),
+        cycle,
+        autopilotError: String(e?.message || e)
+      }, Number(config.maxLogEntries || 120));
+    }
+
     const fresh = getState();
     const list = manifest.modules.map((m) => fresh.modules[m.slug]);
     const closedModules = list.filter((m) => clamp100(m.progress) >= 100).length;
@@ -137,7 +151,8 @@ async function main() {
         readiness: fresh.modules[active.slug].readiness
       } : null,
       buildOk: true,
-      validateOk: true
+      validateOk: true,
+      autopilotIntegrated: true
     };
 
     writeJson(STATUS_FILE, status);
@@ -149,7 +164,8 @@ async function main() {
       avgProgress,
       avgReadiness,
       closedModules,
-      totalModules: manifest.modules.length
+      totalModules: manifest.modules.length,
+      autopilotIntegrated: true
     }, Number(config.maxLogEntries || 120));
 
     if (cycle % 3 === 0) {
@@ -168,6 +184,9 @@ main().catch((err) => {
     lastRunAt: nowIso(),
     error: String(err?.message || err)
   });
-  appendLog({ time: nowIso(), error: String(err?.message || err) }, 120);
+  appendLog({
+    time: nowIso(),
+    error: String(err?.message || err)
+  }, 120);
   process.exit(1);
 });
