@@ -1,0 +1,50 @@
+﻿name: tpm-production-promotion
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build-and-package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install
+        run: npm ci || npm install
+
+      - name: Build
+        run: npm run build
+
+      - name: Package production bundle
+        run: |
+          tar -czf trading-pro-max-production.tgz \
+            Dockerfile \
+            docker-compose.production.yml \
+            ops/nginx/default.conf \
+            .env.production.example \
+            package.json \
+            package-lock.json \
+            .next \
+            public \
+            app \
+            lib \
+            scripts \
+            .tpm || true
+
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: trading-pro-max-production
+          path: trading-pro-max-production.tgz
+
+  optional-remote-deploy:
+    needs: build-and-package
+    if: ${{ secrets.PROD_HOST != '' && secrets.PROD_USER != '' && secrets.PROD_SSH_KEY != '' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Remote deploy placeholder
+        run: echo "Remote deploy is enabled when production secrets are configured."

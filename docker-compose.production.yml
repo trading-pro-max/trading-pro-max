@@ -1,0 +1,22 @@
+﻿services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: trading-pro-max-app
+    restart: unless-stopped
+    env_file:
+      - .env.production
+    ports:
+      - "3000:3000"
+
+  edge:
+    image: nginx:alpine
+    container_name: trading-pro-max-edge
+    restart: unless-stopped
+    depends_on:
+      - app
+    ports:
+      - "80:80"
+    volumes:
+      - ./ops/nginx/default.conf:/etc/nginx/conf.d/default.conf:ro
