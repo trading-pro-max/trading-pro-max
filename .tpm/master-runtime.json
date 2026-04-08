@@ -1,10 +1,10 @@
 {
   "ok": true,
   "mode": "TPM_MASTER_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
-  "finalReadiness": "ready-local-100",
+  "overallProgress": 99,
+  "completed": 99,
+  "remaining": 1,
+  "finalReadiness": "pre-final",
   "activeModule": {
     "slug": "surface",
     "title": "Operator Surface",
@@ -126,11 +126,7 @@
     "npm run tpm:master",
     "npm run tpm:analytics:once",
     "npm run tpm:simulation:once",
-    "npm run tpm:intelligence:once",
-    "npm run tpm:executive:once",
-    "npm run tpm:executive",
-    "npm run tpm:enterprise:once",
-    "npm run tpm:enterprise"
+    "npm run tpm:intelligence:once"
   ],
   "pages": [
     "/master-control",
@@ -140,13 +136,7 @@
     "/signal-hub",
     "/backtest-lab",
     "/research-studio",
-    "/intelligence-center",
-    "/control-tower",
-    "/capital-os",
-    "/execution-intelligence",
-    "/revenue-os",
-    "/compliance-ledger",
-    "/ops-replay"
+    "/intelligence-center"
   ],
   "nextWave": [
     {
@@ -169,65 +159,7 @@
       "progress": 70,
       "stage": "WAITING_PLAN",
       "status": "blocked"
-    },
-    {
-      "slug": "control-tower",
-      "title": "control tower",
-      "progress": 96,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "capital-os",
-      "title": "capital os",
-      "progress": 96,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "execution-intelligence",
-      "title": "execution intelligence",
-      "progress": 96,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "revenue-os",
-      "title": "revenue os",
-      "progress": 89,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "compliance-ledger",
-      "title": "compliance ledger",
-      "progress": 89,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "ops-replay",
-      "title": "ops replay",
-      "progress": 89,
-      "stage": "ACTIVE",
-      "status": "strong"
     }
   ],
-  "time": "2026-04-08T10:40:22.633Z",
-  "localCertified": true,
-  "releaseGate": "OPEN_LOCAL",
-  "executiveLayer": {
-    "active": true,
-    "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
-    "progress": 96,
-    "status": "ACTIVE",
-    "time": "2026-04-08T10:40:37.368Z"
-  },
-  "enterpriseLayer": {
-    "active": true,
-    "layer": "REVENUE_OS_COMPLIANCE_LEDGER_OPS_REPLAY",
-    "progress": 89,
-    "status": "ACTIVE",
-    "time": "2026-04-08T10:41:29.392Z"
-  }
+  "time": "2026-04-08T10:43:22.669Z"
 }
