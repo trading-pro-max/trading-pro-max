@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "engines": [
+  "grids": [
     {
-      "slug": "infinite-runtime",
-      "title": "Infinite Runtime",
+      "slug": "runtime-infinity",
+      "title": "Runtime Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "autonomous-expansion",
-      "title": "Autonomous Expansion",
+      "slug": "command-infinity",
+      "title": "Command Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "strategic-evolution",
-      "title": "Strategic Evolution",
+      "slug": "evidence-infinity",
+      "title": "Evidence Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "global-command",
-      "title": "Global Command",
+      "slug": "growth-infinity",
+      "title": "Growth Infinity",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeLayers": 24,
-    "linkedRuntimes": 34,
-    "governedStores": 30,
+    "activeGrids": 20,
+    "linkedRuntimes": 32,
+    "protectedStores": 26,
     "infinityConfidence": 100
   },
-  "time": "2026-04-08T23:09:10.907Z"
+  "time": "2026-04-08T23:10:00.398Z"
 }

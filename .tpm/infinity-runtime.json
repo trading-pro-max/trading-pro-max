@@ -6,36 +6,30 @@
   "remaining": 3,
   "domains": {
     "infinity": 100,
-    "foundry": 86,
-    "genome": 100,
-    "globalOps": 100,
+    "forge": 86,
+    "director": 100,
+    "proof": 100,
     "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "infinite-routing",
-      "title": "infinite routing",
+      "slug": "infinity-density",
+      "title": "infinity density",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "foundry-depth",
-      "title": "foundry depth",
+      "slug": "forge-strength",
+      "title": "forge strength",
       "progress": 86,
       "status": "active"
     },
     {
-      "slug": "genome-depth",
-      "title": "genome depth",
-      "progress": 100,
-      "status": "active"
-    },
-    {
-      "slug": "global-ops-depth",
-      "title": "global ops depth",
+      "slug": "director-discipline",
+      "title": "director discipline",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T23:09:10.907Z"
-}
+  "infiniteContinuation": true,
+  "time": "2026-04-08T23:10:00.399Z"

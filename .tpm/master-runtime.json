@@ -253,7 +253,9 @@
     "/autopilot-center",
     "/constellation-hub",
     "/scenario-exchange",
-    "/assurance-console"
+    "/assurance-console",
+    "/autopilot-forge",
+    "/system-director"
   ],
   "nextWave": [
     {
@@ -759,6 +761,20 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "autopilot-forge",
+      "title": "autopilot forge",
+      "progress": 91,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "system-director",
+      "title": "system director",
+      "progress": 91,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T23:09:08.966Z",
@@ -900,16 +916,15 @@
   },
   "infinityLayer": {
     "active": true,
-    "layer": "INFINITY_CORE_AUTONOMOUS_FOUNDRY_STRATEGIC_GENOME_GLOBAL_OPS_GRID",
+    "layer": "INFINITY_CORE_AUTOPILOT_FORGE_SYSTEM_DIRECTOR",
     "progress": 97,
     "status": "ACTIVE",
-    "infiniteContinuation": "ACTIVE",
-    "autonomousMode": "MAX",
-    "time": "2026-04-08T23:09:10.912Z"
+    "infiniteContinuation": true,
+    "time": "2026-04-08T23:10:00.404Z"
   },
   "runtimeDepth": {
-    "active": 25,
-    "expected": 26,
+    "active": 15,
+    "expected": 16,
     "status": "CLOSED_100"
   },
   "infinityContinuation": "ACTIVE",

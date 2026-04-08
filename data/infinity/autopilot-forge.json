@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "forges": [
+    {
+      "slug": "auto-builder",
+      "title": "Auto Builder",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "auto-router",
+      "title": "Auto Router",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "auto-policy",
+      "title": "Auto Policy",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "auto-optimizer",
+      "title": "Auto Optimizer",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeForges": 12,
+    "generatedTracks": 24,
+    "adaptivePolicies": 18,
+    "forgeConfidence": 100
+  },
+  "time": "2026-04-08T23:10:00.399Z"
+}
