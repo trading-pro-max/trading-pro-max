@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "galaxies": [
+    {
+      "slug": "core-galaxy",
+      "title": "Core Galaxy",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ops-galaxy",
+      "title": "Ops Galaxy",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-galaxy",
+      "title": "Market Galaxy",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-galaxy",
+      "title": "Trust Galaxy",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeUniverses": 24,
+    "linkedRuntimes": 32,
+    "protectedStores": 28,
+    "infinityConfidence": 100
+  },
+  "time": "2026-04-08T23:55:26.632Z"
+}

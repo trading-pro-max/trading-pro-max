@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "meshes": [
+    {
+      "slug": "proof-mesh",
+      "title": "Proof Mesh",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-mesh",
+      "title": "Audit Mesh",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "replay-mesh",
+      "title": "Replay Mesh",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "launch-mesh",
+      "title": "Launch Mesh",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "auditedArtifacts": 34,
+    "replayWindows": 24,
+    "governedProofs": 22,
+    "evidenceConfidence": 100
+  },
+  "time": "2026-04-08T23:55:26.634Z"
+}

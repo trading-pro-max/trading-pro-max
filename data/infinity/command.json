@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "channels": [
+    {
+      "slug": "client-ops",
+      "title": "Client Ops",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "client-routing",
+      "title": "Client Routing",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "client-alerts",
+      "title": "Client Alerts",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "client-trust",
+      "title": "Client Trust",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "clientRoutes": 14,
+    "guardedCommands": 18,
+    "serviceClarity": 100,
+    "commandConfidence": 100
+  },
+  "time": "2026-04-08T23:55:26.634Z"
+}
