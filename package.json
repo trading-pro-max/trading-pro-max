@@ -107,8 +107,8 @@
     "tpm:prism": "node ./scripts/tpm-prism-loop.mjs",
     "tpm:apex:once": "node ./lib/tpm-apex-core.mjs",
     "tpm:apex": "node ./scripts/tpm-apex-loop.mjs",
-    "tpm:autopilot:once": "node ./lib/tpm-autopilot-core.mjs",
-    "tpm:autopilot": "node ./scripts/tpm-autopilot-loop.mjs",
+    "tpm:autopilot:once": "node ./scripts/tpm-final-autopilot.mjs",
+    "tpm:autopilot": "node ./scripts/tpm-final-autopilot.mjs --loop",
     "tpm:vertex:once": "node ./lib/tpm-vertex-core.mjs",
     "tpm:vertex": "node ./scripts/tpm-vertex-loop.mjs"
   },
