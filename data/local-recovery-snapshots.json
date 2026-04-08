@@ -1,0 +1,14 @@
+[
+  {
+    "id": "SNAP-8DTWM2AS",
+    "label": "initial-launchpad",
+    "createdAt": "2026-04-08T00:49:18.713Z",
+    "meta": {
+      "cash": 100000,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  }
+]
