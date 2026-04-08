@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "mode": "TPM_EXPANSION_ACTIVE",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "domains": {
+    "desktop": 100,
+    "mobile": 100,
+    "notifications": 100,
+    "packaging": 100,
+    "docs": 100
+  },
+  "workspaceSync": {
+    "ok": true,
+    "cycle": 1,
+    "workspaces": 3,
+    "lastSyncAt": "2026-04-08T09:00:13.540Z",
+    "syncedZones": [
+      "ai",
+      "strategy",
+      "intelligence",
+      "master"
+    ],
+    "status": "ACTIVE"
+  },
+  "nextWave": [
+    {
+      "slug": "desktop-runtime",
+      "title": "desktop runtime",
+      "progress": 100,
+      "status": "strong"
+    },
+    {
+      "slug": "mobile-runtime",
+      "title": "mobile runtime",
+      "progress": 100,
+      "status": "strong"
+    },
+    {
+      "slug": "notification-bridge",
+      "title": "notification bridge",
+      "progress": 100,
+      "status": "strong"
+    }
+  ],
+  "time": "2026-04-08T09:00:13.544Z"
+}

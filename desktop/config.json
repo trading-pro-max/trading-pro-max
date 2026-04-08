@@ -1,0 +1,6 @@
+﻿{
+  "name": "desktop-hq",
+  "mode": "operator-shell",
+  "status": "ACTIVE",
+  "surfaces": ["workspace-panels","market-wall","strategy-wall","ai-assist","operator-tray"]
+}

@@ -1,0 +1,6 @@
+﻿{
+  "name": "mobile-hq",
+  "mode": "control-shell",
+  "status": "ACTIVE",
+  "surfaces": ["signal-cards","alerts","account-pulse","execution-actions","assistant-bridge"]
+}

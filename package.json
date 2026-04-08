@@ -43,7 +43,9 @@
     "tpm:strategy": "node ./scripts/tpm-strategy-loop.mjs",
     "tpm:intelligence:once": "node ./lib/tpm-intelligence-core.mjs",
     "tpm:intelligence": "node ./scripts/tpm-intelligence-loop.mjs",
-    "tpm:master:once": "node ./lib/tpm-master-core.mjs"
+    "tpm:master:once": "node ./lib/tpm-master-core.mjs",
+    "tpm:expansion:once": "node ./lib/tpm-expansion-core.mjs",
+    "tpm:expansion": "node ./scripts/tpm-expansion-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",
