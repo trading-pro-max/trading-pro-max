@@ -6,71 +6,31 @@
   "localCertified": true,
   "releaseGate": "OPEN_LOCAL",
   "finalReadiness": "ready-local-100",
+  "externalDeployBlocked": true,
+  "blockers": [
+    "External GoDaddy deploy remains blocked by current hosting plan."
+  ],
   "pages": [
-    "/agent-mesh",
-    "/memory-os",
-    "/growth-engine",
     "/connector-inspector",
     "/env-doctor",
     "/runtime-health",
     "/vector-core",
     "/scenario-router",
     "/assurance-wall",
-    "/autopilot-center",
     "/zenith-core",
     "/memory-cartography",
-    "/runtime-charter",
-    "/infinity-seven",
-    "/infinity-command-grid",
-    "/strategic-memory-vault",
-    "/global-expansion-radar",
-    "/execution-arbitration-deck",
-    "/client-orbit-hub",
-    "/research-cinema",
-    "/autonomous-revenue-rail",
-    "/omega-core",
-    "/recovery-matrix",
-    "/trust-center"
+    "/runtime-charter"
   ],
   "commands": [
-    "npm run tpm:agentmesh:once",
-    "npm run tpm:agentmesh",
     "npm run tpm:runtimeops:once",
     "npm run tpm:runtimeops",
     "npm run tpm:master:once",
     "npm run tpm:vector:once",
     "npm run tpm:vector",
-    "npm run tpm:autopilot:once",
-    "npm run tpm:autopilot",
     "npm run tpm:zenith:once",
-    "npm run tpm:zenith",
-    "npm run tpm:infinity7:once",
-    "npm run tpm:infinity7",
-    "npm run tpm:omega:once",
-    "npm run tpm:omega"
+    "npm run tpm:zenith"
   ],
   "nextWave": [
-    {
-      "slug": "agent-mesh-depth",
-      "title": "agent mesh depth",
-      "progress": 96,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "memory-os",
-      "title": "memory os",
-      "progress": 96,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "growth-engine",
-      "title": "growth engine",
-      "progress": 96,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
     {
       "slug": "connector-inspector",
       "title": "connector inspector",
@@ -133,135 +93,21 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
-    },
-    {
-      "slug": "infinity-command-grid",
-      "title": "Infinity Command Grid",
-      "progress": 80,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "strategic-memory-vault",
-      "title": "Strategic Memory Vault",
-      "progress": 80,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "global-expansion-radar",
-      "title": "Global Expansion Radar",
-      "progress": 80,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "execution-arbitration-deck",
-      "title": "Execution Arbitration Deck",
-      "progress": 80,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "client-orbit-hub",
-      "title": "Client Orbit Hub",
-      "progress": 80,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "research-cinema",
-      "title": "Research Cinema",
-      "progress": 80,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "autonomous-revenue-rail",
-      "title": "Autonomous Revenue Rail",
-      "progress": 80,
-      "stage": "ACTIVE",
-      "status": "strong"
     }
-  ],
-  "postCertification": {
-    "active": true,
-    "layer": "AGENT_MESH_EXPANSION",
-    "progress": 96,
-    "status": "ACTIVE",
-    "time": "2026-04-08T20:59:48.822Z"
-  },
-  "externalDeployBlocked": true,
-  "blockers": [
-    "External GoDaddy deploy remains blocked by current hosting plan."
   ],
   "runtimeOpsLayer": {
     "active": true,
     "layer": "CONNECTOR_INSPECTOR_ENV_DOCTOR_RUNTIME_HEALTH",
     "progress": 80,
     "status": "ACTIVE",
-    "time": "2026-04-08T20:59:48.843Z"
+    "time": "2026-04-08T21:01:18.926Z"
   },
   "infinityVectorLayer": {
     "active": true,
     "layer": "VECTOR_CORE_SCENARIO_ROUTER_ASSURANCE_WALL",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:00:27.853Z"
-  },
-  "autopilot": {
-    "active": true,
-    "mode": "FULL_AUTO_LOCAL",
-    "cycle": 1,
-    "discoveredScripts": [
-      "tpm:agentmesh:once",
-      "tpm:ai:once",
-      "tpm:analytics:once",
-      "tpm:apex:once",
-      "tpm:atlas:once",
-      "tpm:broker:once",
-      "tpm:command:once",
-      "tpm:constellation:once",
-      "tpm:council:once",
-      "tpm:enterprise:once",
-      "tpm:executive:once",
-      "tpm:expansion:once",
-      "tpm:fabric:once",
-      "tpm:federation:once",
-      "tpm:final:once",
-      "tpm:governance:once",
-      "tpm:helix:once",
-      "tpm:horizon:once",
-      "tpm:infinity3:once",
-      "tpm:infinity:once",
-      "tpm:intelligence:once",
-      "tpm:jump4:once",
-      "tpm:learning:once",
-      "tpm:market:once",
-      "tpm:meta:once",
-      "tpm:navigator:once",
-      "tpm:nexus:once",
-      "tpm:observability:once",
-      "tpm:omega:once",
-      "tpm:orchestrator:once",
-      "tpm:platform:once",
-      "tpm:prism:once",
-      "tpm:pulse:once",
-      "tpm:quantum:once",
-      "tpm:runtimeops:once",
-      "tpm:sentinel:once",
-      "tpm:simulation:once",
-      "tpm:sovereign:once",
-      "tpm:strategy:once",
-      "tpm:vector:once",
-      "tpm:vertex:once",
-      "tpm:zenith:once",
-      "tpm:master:once"
-    ],
-    "successCount": 0,
-    "failedCount": 43,
-    "lastRunAt": "2026-04-08T21:00:41.515Z",
-    "status": "ACTIVE_WITH_ERRORS"
+    "time": "2026-04-08T21:01:57.895Z"
   },
   "infinitySystem": {
     "active": true,
@@ -270,19 +116,6 @@
     "progress": 100,
     "status": "ACTIVE",
     "mode": "POST_CLOSURE_INFINITY",
-    "time": "2026-04-08T21:00:59.946Z"
-  },
-  "infinitySevenLayer": {
-    "active": true,
-    "layer": "SEVEN_BIG_JUMPS",
-    "jumps": 7,
-    "progress": 83,
-    "status": "ACTIVE",
-    "time": "2026-04-08T21:01:11.517Z"
-  },
-  "runtimeDepth": {
-    "active": 15,
-    "expected": 16,
-    "status": "CLOSED_100"
+    "time": "2026-04-08T21:02:29.974Z"
   }
 }
