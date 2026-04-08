@@ -1,0 +1,42 @@
+﻿name: tpm-godaddy-sftp-deploy
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ main ]
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Verify SFTP secrets
+        run: |
+          test -n "${{ secrets.GODADDY_SFTP_HOST }}"
+          test -n "${{ secrets.GODADDY_SFTP_USER }}"
+          test -n "${{ secrets.GODADDY_SFTP_PASSWORD }}"
+          test -n "${{ secrets.GODADDY_SFTP_REMOTE_PATH }}"
+
+      - name: Build deployment package
+        run: |
+          mkdir -p deploy_package
+          rsync -av --delete \
+            --exclude ".git" \
+            --exclude ".github" \
+            --exclude "node_modules" \
+            --exclude ".next" \
+            --exclude ".tpm" \
+            --exclude ".env.production" \
+            --exclude ".env.connectors" \
+            ./ deploy_package/
+
+      - name: Upload to GoDaddy via SFTP
+        uses: Dylan700/sftp-upload-action@latest
+        with:
+          server: ${{ secrets.GODADDY_SFTP_HOST }}
+          port: ${{ secrets.GODADDY_SFTP_PORT || '22' }}
+          username: ${{ secrets.GODADDY_SFTP_USER }}
+          password: ${{ secrets.GODADDY_SFTP_PASSWORD }}
+          uploads: |
+            deploy_package/ => ${{ secrets.GODADDY_SFTP_REMOTE_PATH }}/
