@@ -99,7 +99,9 @@
     "/release-memory",
     "/sovereign-grid",
     "/continuity-vault",
-    "/command-nexus"
+    "/command-nexus",
+    "/autonomy-theater",
+    "/strategy-vault"
   ],
   "commands": [
     "npm run tpm:omega:once",
@@ -803,6 +805,20 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "autonomy-theater",
+      "title": "autonomy theater",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "strategy-vault",
+      "title": "strategy vault",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "omegaLayer": {
@@ -810,7 +826,7 @@
     "layer": "OMEGA_CORE_RECOVERY_MATRIX_TRUST_CENTER",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:28:19.405Z"
+    "time": "2026-04-08T21:29:49.425Z"
   },
   "externalDeployBlocked": true,
   "blockers": [
@@ -821,28 +837,28 @@
     "layer": "PULSE_GRID_CHRONICLE_CENTER_LAUNCH_CONSOLE",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:28:19.451Z"
+    "time": "2026-04-08T21:29:49.476Z"
   },
   "navigatorLayer": {
     "active": true,
     "layer": "NAVIGATOR_CORE_PORTFOLIO_SIMULATOR_AUDIT_STREAM",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:28:19.471Z"
+    "time": "2026-04-08T21:29:49.491Z"
   },
   "runtimeOpsLayer": {
     "active": true,
     "layer": "CONNECTOR_INSPECTOR_ENV_DOCTOR_RUNTIME_HEALTH",
     "progress": 80,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:28:19.492Z"
+    "time": "2026-04-08T21:29:49.509Z"
   },
   "postCertification": {
     "active": true,
     "layer": "AGENT_MESH_EXPANSION",
     "progress": 96,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:28:19.502Z"
+    "time": "2026-04-08T21:29:49.520Z"
   },
   "infinityVectorLayer": {
     "active": true,
@@ -866,42 +882,42 @@
     "jumps": 7,
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:28:13.449Z"
+    "time": "2026-04-08T21:29:43.477Z"
   },
   "jump4": {
     "active": true,
     "layer": "INFINITY_JUMP_4",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:28:19.021Z"
+    "time": "2026-04-08T21:29:49.049Z"
   },
   "councilLayer": {
     "active": true,
     "layer": "COUNCIL_CORE_KNOWLEDGE_LEDGER_SWITCHBOARD",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:28:19.079Z"
+    "time": "2026-04-08T21:29:49.102Z"
   },
   "executiveLayer": {
     "active": true,
     "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
     "progress": 96,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:25:19.061Z"
+    "time": "2026-04-08T21:29:49.146Z"
   },
   "platformLayer": {
     "active": true,
     "layer": "API_GATEWAY_INTEGRATION_HUB_LIFECYCLE_OS",
     "progress": 83,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:28:19.144Z"
+    "time": "2026-04-08T21:29:49.161Z"
   },
   "globalExpansion": {
     "active": true,
     "layer": "NEXUS_CORE_MISSION_LEDGER_GROWTH_RADAR",
     "progress": 97,
     "status": "CLOSED_100",
-    "time": "2026-04-08T21:28:19.240Z"
+    "time": "2026-04-08T21:29:49.278Z"
   },
   "apexLayer": {
     "active": true,
@@ -922,14 +938,14 @@
     "layer": "VERTEX_CORE_SCENARIO_RADAR_CONTROL_MEMORY",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:28:19.303Z"
+    "time": "2026-04-08T21:29:49.319Z"
   },
   "horizonLayer": {
     "active": true,
     "layer": "HORIZON_HUB_WORKSPACE_ROUTER_EVIDENCE_VAULT",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:28:19.339Z"
+    "time": "2026-04-08T21:29:49.350Z"
   },
   "learningLayer": {
     "active": true,
@@ -943,14 +959,14 @@
     "layer": "CONSTELLATION_CORE_PROOF_ENGINE_RUNTIME_REGISTRY",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:28:19.365Z"
+    "time": "2026-04-08T21:29:49.381Z"
   },
   "prismLayer": {
     "active": true,
     "layer": "PRISM_CORE_STRATEGY_THEATER_INTEGRITY_HUB",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:28:19.377Z"
+    "time": "2026-04-08T21:29:49.398Z"
   },
   "observabilityLayer": {
     "active": true,
@@ -1011,15 +1027,16 @@
     ],
     "successCount": 0,
     "failedCount": 44,
-    "lastRunAt": "2026-04-08T21:27:32.798Z",
+    "lastRunAt": "2026-04-08T21:29:34.884Z",
     "status": "ACTIVE_WITH_ERRORS"
   },
   "infinityLayer": {
     "active": true,
-    "layer": "INFINITY_CORE_STRATEGY_GENOME_RUNTIME_CONDUCTOR",
-    "progress": 100,
+    "layer": "INFINITY_CORE_AUTONOMY_THEATER_STRATEGY_VAULT",
+    "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:29:20.320Z"
+    "mode": "POST_CLOSURE_UNLIMITED",
+    "time": "2026-04-08T21:30:27.267Z"
   },
   "runtimeDepth": {
     "active": 15,
@@ -1031,7 +1048,7 @@
     "layer": "QUANTUM_BOARD_STRATEGY_GENOME_RUNTIME_COVENANT",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:28:19.038Z"
+    "time": "2026-04-08T21:29:49.063Z"
   },
   "metaLayer": {
     "active": true,
@@ -1045,7 +1062,7 @@
     "layer": "INFINITY_MESH_CLIENT_BRAIN_OPS_ARCHIVE",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:28:19.210Z"
+    "time": "2026-04-08T21:29:49.243Z"
   },
   "helixLayer": {
     "active": true,
@@ -1059,27 +1076,27 @@
     "layer": "FEDERATION_CORE_SCENARIO_MEMORY_OPERATOR_JOURNAL",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:28:19.324Z"
+    "time": "2026-04-08T21:29:49.338Z"
   },
   "sentinelLayer": {
     "active": true,
     "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
     "progress": 93,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:28:19.390Z"
+    "time": "2026-04-08T21:29:49.411Z"
   },
   "postCertificationFabric": {
     "active": true,
     "layer": "FABRIC_CORE",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:28:19.261Z"
+    "time": "2026-04-08T21:29:49.286Z"
   },
   "sovereignLayer": {
     "active": true,
     "layer": "SOVEREIGN_GRID_CONTINUITY_VAULT_COMMAND_NEXUS",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:28:19.328Z"
+    "time": "2026-04-08T21:29:49.354Z"
   }
 }

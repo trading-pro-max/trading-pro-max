@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "stages": [
+  "scenes": [
     {
-      "slug": "runtime-stage",
-      "title": "Runtime Stage",
-      "score": 100,
+      "slug": "builder-scene",
+      "title": "Builder Scene",
+      "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "ops-stage",
-      "title": "Ops Stage",
-      "score": 100,
+      "slug": "operator-scene",
+      "title": "Operator Scene",
+      "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "audit-stage",
-      "title": "Audit Stage",
-      "score": 100,
+      "slug": "governor-scene",
+      "title": "Governor Scene",
+      "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "continuity-stage",
-      "title": "Continuity Stage",
-      "score": 100,
+      "slug": "recovery-scene",
+      "title": "Recovery Scene",
+      "progress": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "visibleStages": 16,
-    "protectedScenes": 18,
-    "replayStrength": 100,
+    "activeScenes": 12,
+    "replayableScenes": 16,
+    "autonomyClarity": 100,
     "theaterConfidence": 100
   },
-  "time": "2026-04-08T21:18:45.728Z"
+  "time": "2026-04-08T21:30:27.261Z"
 }

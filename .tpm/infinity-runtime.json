@@ -1,13 +1,13 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
   "domains": {
     "infinity": 100,
-    "genome": 100,
-    "conductor": 100,
+    "theater": 83,
+    "vault": 100,
     "proof": 100,
     "continuity": 100
   },
@@ -19,17 +19,16 @@
       "status": "active"
     },
     {
-      "slug": "genome-depth",
-      "title": "genome depth",
-      "progress": 100,
+      "slug": "autonomy-scenes",
+      "title": "autonomy scenes",
+      "progress": 83,
       "status": "active"
     },
     {
-      "slug": "conductor-unification",
-      "title": "conductor unification",
+      "slug": "vault-depth",
+      "title": "vault depth",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T21:29:20.316Z"
-}
+  "time": "2026-04-08T21:30:27.261Z"
