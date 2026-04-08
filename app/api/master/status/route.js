@@ -1,6 +1,16 @@
 ﻿import { NextResponse } from "next/server";
-import { getMasterStatus } from "../../../../lib/tpm-master.mjs";
+import fs from "fs";
+import path from "path";
+import { runMasterCycle } from "../../../../../lib/tpm-master-core.mjs";
 
-export async function GET() {
-  return NextResponse.json(getMasterStatus());
+export const dynamic = "force-dynamic";
+
+export async function GET(){
+  const file = path.join(process.cwd(), ".tpm", "master-runtime.json");
+  if (!fs.existsSync(file)) return NextResponse.json(runMasterCycle());
+  try {
+    return NextResponse.json(JSON.parse(fs.readFileSync(file, "utf8")));
+  } catch {
+    return NextResponse.json(runMasterCycle());
+  }
 }

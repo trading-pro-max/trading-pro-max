@@ -1,6 +1,8 @@
 ﻿import { NextResponse } from "next/server";
-import { runMasterCycle } from "../../../../lib/tpm-master.mjs";
+import { runMasterCycle } from "../../../../../lib/tpm-master-core.mjs";
 
-export async function POST() {
+export const dynamic = "force-dynamic";
+
+export async function POST(){
   return NextResponse.json(runMasterCycle());
 }

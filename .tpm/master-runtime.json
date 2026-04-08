@@ -1,0 +1,155 @@
+{
+  "ok": true,
+  "mode": "TPM_MASTER_ACTIVE",
+  "project": "Trading Pro Max",
+  "target": "Global #1 AI autonomous trading platform",
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
+  "activeModule": {
+    "slug": "surface",
+    "title": "Operator Surface",
+    "progress": 93,
+    "stage": "ACTIVE",
+    "description": "Mission control, launchpad, AI control, intelligence center and operator views.",
+    "remaining": 7,
+    "readiness": "high",
+    "status": "active"
+  },
+  "finalReadiness": "near-final",
+  "modules": [
+    {
+      "slug": "brain",
+      "title": "AI Brain",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "description": "Autonomous intelligence, runtime reasoning, AI control surfaces.",
+      "remaining": 0,
+      "readiness": "high",
+      "status": "closed"
+    },
+    {
+      "slug": "strategy",
+      "title": "Strategy Engine",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "description": "Strategy lab, execution queue, ranking and research direction.",
+      "remaining": 0,
+      "readiness": "high",
+      "status": "closed"
+    },
+    {
+      "slug": "autonomy",
+      "title": "Autonomy Core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "description": "Self-running loops, autobind, master orchestration and local continuity.",
+      "remaining": 0,
+      "readiness": "high",
+      "status": "closed"
+    },
+    {
+      "slug": "surface",
+      "title": "Operator Surface",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "description": "Mission control, launchpad, AI control, intelligence center and operator views.",
+      "remaining": 7,
+      "readiness": "high",
+      "status": "active"
+    },
+    {
+      "slug": "research",
+      "title": "Research Vault",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "description": "Tracked system knowledge, memory runtime, research and file intelligence.",
+      "remaining": 0,
+      "readiness": "high",
+      "status": "closed"
+    },
+    {
+      "slug": "operations",
+      "title": "Operations",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "description": "GitHub sync, runtime health, local automation and ops readiness.",
+      "remaining": 0,
+      "readiness": "high",
+      "status": "closed"
+    },
+    {
+      "slug": "deployment",
+      "title": "Deployment",
+      "progress": 82,
+      "stage": "BLOCKED_BY_PLAN",
+      "description": "External deployment path prepared; final GoDaddy automation blocked by current plan.",
+      "remaining": 18,
+      "readiness": "strong",
+      "status": "waiting"
+    },
+    {
+      "slug": "expansion",
+      "title": "Desktop + Mobile Expansion",
+      "progress": 100,
+      "stage": "NEXT",
+      "description": "Desktop and mobile shells, future client surfaces and packaged growth.",
+      "remaining": 0,
+      "readiness": "high",
+      "status": "closed"
+    }
+  ],
+  "commands": [
+    "npm run tpm:master:once",
+    "npm run tpm:master",
+    "npm run tpm:ai:once",
+    "npm run tpm:strategy:once",
+    "npm run tpm:intelligence:once"
+  ],
+  "pages": [
+    "/master-control",
+    "/ai-control",
+    "/strategy-lab",
+    "/intelligence-center",
+    "/research-vault",
+    "/mission-control",
+    "/launchpad",
+    "/local-command"
+  ],
+  "blockers": [
+    "GoDaddy SFTP credentials not filled yet.",
+    "External deploy finalization blocked by current hosting plan.",
+    "GitHub CLI auth is not continuously guaranteed in every local session."
+  ],
+  "nextWave": [
+    {
+      "slug": "desktop-shell",
+      "title": "desktop shell",
+      "progress": 100,
+      "stage": "NEXT",
+      "status": "building"
+    },
+    {
+      "slug": "mobile-shell",
+      "title": "mobile shell",
+      "progress": 100,
+      "stage": "NEXT",
+      "status": "building"
+    },
+    {
+      "slug": "operator-depth",
+      "title": "operator depth",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "building"
+    },
+    {
+      "slug": "research-memory",
+      "title": "research memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    }
+  ],
+  "time": "2026-04-08T08:52:22.633Z"
+}

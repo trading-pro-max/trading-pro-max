@@ -28,7 +28,7 @@
     "tpm:productdemo": "node ./scripts/tpm-product-demo.mjs",
     "tpm:launchdemo": "node ./scripts/tpm-launch-demo.mjs",
     "tpm:finaljump": "node ./scripts/tpm-final-run.mjs",
-    "tpm:master": "node ./scripts/tpm-master-run.mjs",
+    "tpm:master": "node ./scripts/tpm-master-loop.mjs",
     "tpm:master:start": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-master-start.ps1",
     "tpm:master:stop": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-master-stop.ps1",
     "tpm:master:status": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-master-status.ps1",
@@ -42,7 +42,8 @@
     "tpm:strategy:once": "node ./lib/tpm-strategy-core.mjs",
     "tpm:strategy": "node ./scripts/tpm-strategy-loop.mjs",
     "tpm:intelligence:once": "node ./lib/tpm-intelligence-core.mjs",
-    "tpm:intelligence": "node ./scripts/tpm-intelligence-loop.mjs"
+    "tpm:intelligence": "node ./scripts/tpm-intelligence-loop.mjs",
+    "tpm:master:once": "node ./lib/tpm-master-core.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",
