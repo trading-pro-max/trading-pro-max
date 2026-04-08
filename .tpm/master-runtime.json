@@ -22,7 +22,18 @@
     "/ops-replay",
     "/connector-inspector",
     "/env-doctor",
-    "/runtime-health"
+    "/runtime-health",
+    "/autopilot-center",
+    "/prism-core",
+    "/memory-map",
+    "/execution-forum",
+    "/titan-core",
+    "/war-room",
+    "/infinity-matrix",
+    "/memory-citadel",
+    "/omega-core",
+    "/recovery-matrix",
+    "/trust-center"
   ],
   "commands": [
     "npm run tpm:helix:once",
@@ -33,7 +44,15 @@
     "npm run tpm:enterprise:once",
     "npm run tpm:enterprise",
     "npm run tpm:runtimeops:once",
-    "npm run tpm:runtimeops"
+    "npm run tpm:runtimeops",
+    "npm run tpm:autopilot:once",
+    "npm run tpm:autopilot",
+    "npm run tpm:prism:once",
+    "npm run tpm:prism",
+    "npm run tpm:titan:once",
+    "npm run tpm:titan",
+    "npm run tpm:omega:once",
+    "npm run tpm:omega"
   ],
   "nextWave": [
     {
@@ -119,6 +138,55 @@
       "progress": 80,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "prism-core",
+      "title": "prism core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-map",
+      "title": "memory map",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "execution-forum",
+      "title": "execution forum",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "titan-core",
+      "title": "titan core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "war-room",
+      "title": "war room",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "infinity-matrix",
+      "title": "infinity matrix",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-citadel",
+      "title": "memory citadel",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "helixLayer": {
@@ -148,5 +216,92 @@
     "progress": 80,
     "status": "ACTIVE",
     "time": "2026-04-08T23:03:09.989Z"
+  },
+  "autopilot": {
+    "active": true,
+    "mode": "FULL_AUTO_LOCAL",
+    "cycle": 1,
+    "discoveredScripts": [
+      "tpm:agentmesh:once",
+      "tpm:ai:once",
+      "tpm:analytics:once",
+      "tpm:apex:once",
+      "tpm:atlas:once",
+      "tpm:broker:once",
+      "tpm:command:once",
+      "tpm:constellation:once",
+      "tpm:continuum:once",
+      "tpm:council:once",
+      "tpm:enterprise:once",
+      "tpm:executive:once",
+      "tpm:expansion:once",
+      "tpm:fabric:once",
+      "tpm:federation:once",
+      "tpm:final:once",
+      "tpm:governance:once",
+      "tpm:helix:once",
+      "tpm:horizon:once",
+      "tpm:hyper:once",
+      "tpm:infinity3:once",
+      "tpm:infinity7:once",
+      "tpm:infinity:once",
+      "tpm:intelligence:once",
+      "tpm:jump4:once",
+      "tpm:kernel:once",
+      "tpm:learning:once",
+      "tpm:market:once",
+      "tpm:meta:once",
+      "tpm:navigator:once",
+      "tpm:nexus:once",
+      "tpm:observability:once",
+      "tpm:omega:once",
+      "tpm:orchestrator:once",
+      "tpm:platform:once",
+      "tpm:prism:once",
+      "tpm:pulse:once",
+      "tpm:quantum:once",
+      "tpm:runtimeops:once",
+      "tpm:sentinel:once",
+      "tpm:simulation:once",
+      "tpm:sovereign:once",
+      "tpm:strategy:once",
+      "tpm:titan:once",
+      "tpm:vector:once",
+      "tpm:vertex:once",
+      "tpm:zenith:once",
+      "tpm:master:once"
+    ],
+    "successCount": 0,
+    "failedCount": 48,
+    "lastRunAt": "2026-04-08T23:03:13.354Z",
+    "status": "ACTIVE_WITH_ERRORS"
+  },
+  "infinityContinuation": "ACTIVE",
+  "prismLayer": {
+    "active": true,
+    "layer": "PRISM_CORE_MEMORY_MAP_EXECUTION_FORUM",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:03:16.575Z"
+  },
+  "titanLayer": {
+    "active": true,
+    "layer": "TITAN_CORE_WAR_ROOM_INFINITY_MATRIX_MEMORY_CITADEL",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:03:17.917Z"
+  },
+  "infinityPostClosure": {
+    "active": true,
+    "mode": "LOCAL_100_CONTINUATION",
+    "status": "ACTIVE",
+    "continuity": 100,
+    "precision": 100,
+    "time": "2026-04-08T23:03:17.917Z"
+  },
+  "runtimeDepth": {
+    "active": 15,
+    "expected": 16,
+    "status": "CLOSED_100"
   }
 }
