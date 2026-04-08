@@ -1,13 +1,13 @@
 {
   "ok": true,
   "mode": "TPM_FEDERATION_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
+  "overallProgress": 93,
+  "completed": 93,
+  "remaining": 7,
   "domains": {
     "federation": 100,
-    "vault": 100,
-    "bridge": 100,
+    "memory": 83,
+    "journal": 83,
     "proof": 100,
     "continuity": 100
   },
@@ -19,17 +19,17 @@
       "status": "active"
     },
     {
-      "slug": "vault-depth",
-      "title": "vault depth",
-      "progress": 100,
+      "slug": "scenario-depth",
+      "title": "scenario depth",
+      "progress": 83,
       "status": "active"
     },
     {
-      "slug": "bridge-clarity",
-      "title": "bridge clarity",
-      "progress": 100,
+      "slug": "journal-depth",
+      "title": "journal depth",
+      "progress": 83,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T11:59:20.064Z"
+  "time": "2026-04-08T12:00:46.169Z"
 }

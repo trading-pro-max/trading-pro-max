@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "planes": [
+  "clusters": [
     {
-      "slug": "runtime-federation",
-      "title": "Runtime Federation",
+      "slug": "runtime-cluster",
+      "title": "Runtime Cluster",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "policy-federation",
-      "title": "Policy Federation",
+      "slug": "command-cluster",
+      "title": "Command Cluster",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "trust-federation",
-      "title": "Trust Federation",
+      "slug": "trust-cluster",
+      "title": "Trust Cluster",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "launch-federation",
-      "title": "Launch Federation",
+      "slug": "growth-cluster",
+      "title": "Growth Cluster",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "linkedPlanes": 24,
-    "protectedNodes": 22,
-    "activeStores": 30,
+    "activeClusters": 12,
+    "linkedDomains": 24,
+    "protectedChains": 20,
     "federationConfidence": 100
   },
-  "time": "2026-04-08T11:59:20.064Z"
+  "time": "2026-04-08T12:00:47.130Z"
 }
