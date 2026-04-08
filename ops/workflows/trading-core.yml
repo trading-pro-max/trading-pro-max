@@ -1,0 +1,9 @@
+﻿name: tpm-trading-core
+on:
+  workflow_dispatch:
+jobs:
+  trading-core:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Trading core scaffold
+        run: echo "TPM trading core workflow scaffold ready"

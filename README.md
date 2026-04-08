@@ -2,31 +2,32 @@
 # Trading Pro Max
 
 ## Live Build Status
-- Global completion: 72%
-- Remaining: 28%
+- Global completion: 84%
+- Remaining: 16%
 - Local autonomous core: IN PROGRESS
 - Production Core jump: 14/14
+- Trading Core jump: 13/13
 - Modules closed locally: 2/2
 
-## Active Production Jump
-- Production Promotion Layer
+## Active Major Jumps
+- Autonomous Production Core
+- Real Trading Core
 - Automatic GitHub worker
 - README auto-sync
-- Multi-language ops scaffolding
 
 ## Language Coverage
-- TypeScript: 205
-- JavaScript: 81
-- JSON: 56
+- TypeScript: 212
+- JavaScript: 86
+- JSON: 57
 - PowerShell: 51
-- Markdown: 19
+- Markdown: 21
 - Batch: 11
 - Shell: 4
 - CSS: 3
+- YAML: 3
 - HTML: 2
-- YAML: 2
-- Python: 1
-- SQL: 1
+- Python: 2
+- SQL: 2
 
 <!-- TPM:PROGRESS:END -->
 
