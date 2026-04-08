@@ -1,0 +1,12 @@
+﻿{
+  "name": "prod",
+  "mode": "production",
+  "runtime": "cloud",
+  "checks": {
+    "builder": true,
+    "autopilot": true,
+    "finalizer": true,
+    "release": true,
+    "certification": true
+  }
+}

@@ -1,0 +1,10 @@
+﻿{
+  "name": "dev",
+  "mode": "development",
+  "runtime": "local",
+  "checks": {
+    "builder": true,
+    "autopilot": true,
+    "finalizer": true
+  }
+}

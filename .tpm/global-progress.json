@@ -1,0 +1,61 @@
+{
+  "ok": true,
+  "baseGlobalProgress": 58,
+  "jumpTargetProgress": 72,
+  "globalProgress": 72,
+  "remaining": 28,
+  "jumpEarned": 14,
+  "jumpTotal": 14,
+  "jumpClosed": true,
+  "localCertified": false,
+  "checks": [
+    {
+      "key": "env_profiles",
+      "label": "Environment profiles",
+      "weight": 2,
+      "pass": true
+    },
+    {
+      "key": "secrets_policy",
+      "label": "Secrets policy",
+      "weight": 2,
+      "pass": true
+    },
+    {
+      "key": "health_suite",
+      "label": "Health suite",
+      "weight": 2,
+      "pass": true
+    },
+    {
+      "key": "sql_bootstrap",
+      "label": "SQL bootstrap",
+      "weight": 1,
+      "pass": true
+    },
+    {
+      "key": "release_workflow",
+      "label": "Release workflow scaffold",
+      "weight": 2,
+      "pass": true
+    },
+    {
+      "key": "github_worker",
+      "label": "GitHub worker",
+      "weight": 2,
+      "pass": true
+    },
+    {
+      "key": "docs",
+      "label": "Production docs",
+      "weight": 1,
+      "pass": true
+    },
+    {
+      "key": "multilang_core",
+      "label": "Multi-language core",
+      "weight": 2,
+      "pass": true
+    }
+  ]
+}

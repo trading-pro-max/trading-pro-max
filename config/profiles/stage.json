@@ -1,0 +1,11 @@
+﻿{
+  "name": "stage",
+  "mode": "staging",
+  "runtime": "hybrid",
+  "checks": {
+    "builder": true,
+    "autopilot": true,
+    "finalizer": true,
+    "release": true
+  }
+}

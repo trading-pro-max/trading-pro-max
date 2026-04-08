@@ -1,3 +1,37 @@
+<!-- TPM:PROGRESS:START -->
+# Trading Pro Max
+
+## Live Build Status
+- Global completion: 72%
+- Remaining: 28%
+- Local autonomous core: IN PROGRESS
+- Production Core jump: 14/14
+- Modules closed locally: 2/2
+- Release state: LOCAL_ONLY
+- Certification: PENDING
+
+## Active Production Jump
+- Production Promotion Layer
+- Automatic GitHub worker
+- README auto-sync
+- Multi-language ops scaffolding
+
+## Language Coverage
+- TypeScript: 205
+- JavaScript: 76
+- JSON: 54
+- PowerShell: 51
+- Markdown: 19
+- Batch: 11
+- Shell: 4
+- CSS: 3
+- HTML: 2
+- YAML: 2
+- Python: 1
+- SQL: 1
+
+<!-- TPM:PROGRESS:END -->
+
 <<<<<<< HEAD
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 

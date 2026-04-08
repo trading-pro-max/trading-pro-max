@@ -8,3 +8,5 @@
 node_modules
 .next
 logs
+.tpm/github-worker.runtime.json
+.tpm/github-worker.pid
