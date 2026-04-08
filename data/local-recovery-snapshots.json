@@ -1,5 +1,41 @@
 [
   {
+    "id": "SNAP-2YNM6Y00",
+    "label": "builder-cycle-24",
+    "createdAt": "2026-04-08T02:44:26.840Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
+    "id": "SNAP-I8O5WKK8",
+    "label": "builder-cycle-21",
+    "createdAt": "2026-04-08T02:43:50.729Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
+    "id": "SNAP-VKYCBL3A",
+    "label": "builder-cycle-18",
+    "createdAt": "2026-04-08T02:43:14.640Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
     "id": "SNAP-A0NMX235",
     "label": "builder-cycle-15",
     "createdAt": "2026-04-08T02:42:38.515Z",
@@ -257,30 +293,6 @@
     "createdAt": "2026-04-08T01:42:05.083Z",
     "meta": {
       "cash": 100,
-      "positions": 0,
-      "orders": 0,
-      "ledger": 0,
-      "alerts": 0
-    }
-  },
-  {
-    "id": "SNAP-NH3LUI2N",
-    "label": "self-heal",
-    "createdAt": "2026-04-08T01:37:29.328Z",
-    "meta": {
-      "cash": 100,
-      "positions": 0,
-      "orders": 0,
-      "ledger": 0,
-      "alerts": 0
-    }
-  },
-  {
-    "id": "SNAP-8DTWM2AS",
-    "label": "initial-launchpad",
-    "createdAt": "2026-04-08T00:49:18.713Z",
-    "meta": {
-      "cash": 100000,
       "positions": 0,
       "orders": 0,
       "ledger": 0,
