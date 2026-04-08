@@ -1,9 +1,9 @@
 ﻿{
     "enabled":  true,
     "mode":  "FULL_AUTOMATIC",
-    "startedAt":  "2026-04-08T07:52:36.3572089+02:00",
-    "lastRunAt":  "2026-04-08T08:52:27.0572950+02:00",
-    "cycles":  40,
+    "startedAt":  "2026-04-08T07:52:16.0427880+02:00",
+    "lastRunAt":  "2026-04-08T08:53:42.7949871+02:00",
+    "cycles":  41,
     "buildProgress":  0,
     "remaining":  0,
     "remoteProgress":  100,
