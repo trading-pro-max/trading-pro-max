@@ -1,35 +1,35 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
+  "overallProgress": 93,
+  "completed": 93,
+  "remaining": 7,
   "domains": {
-    "fabric": 100,
-    "memory": 100,
-    "throne": 100,
+    "core": 100,
+    "memory": 83,
+    "spine": 83,
     "proof": 100,
     "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "fabric-density",
-      "title": "fabric density",
+      "slug": "infinity-density",
+      "title": "infinity density",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "chronicle-depth",
-      "title": "chronicle depth",
-      "progress": 100,
+      "slug": "scenario-depth",
+      "title": "scenario depth",
+      "progress": 83,
       "status": "active"
     },
     {
-      "slug": "throne-stability",
-      "title": "throne stability",
-      "progress": 100,
+      "slug": "spine-strength",
+      "title": "spine strength",
+      "progress": 83,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T19:23:13.861Z"
+  "time": "2026-04-08T19:24:32.001Z"
 }

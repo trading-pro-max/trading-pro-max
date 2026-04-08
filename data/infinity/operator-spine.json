@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "lanes": [
+    {
+      "slug": "ops-spine",
+      "title": "Ops Spine",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-spine",
+      "title": "Market Spine",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "broker-spine",
+      "title": "Broker Spine",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "control-spine",
+      "title": "Control Spine",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeLanes": 16,
+    "protectedCommands": 22,
+    "routedActions": 24,
+    "spineConfidence": 100
+  },
+  "time": "2026-04-08T19:24:32.001Z"
+}

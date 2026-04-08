@@ -2,35 +2,35 @@
   "ok": true,
   "engines": [
     {
-      "slug": "infinity-runtime",
-      "title": "Infinity Runtime",
+      "slug": "autonomy",
+      "title": "Autonomy Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "autonomy-runtime",
-      "title": "Autonomy Runtime",
+      "slug": "memory",
+      "title": "Memory Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "evidence-runtime",
-      "title": "Evidence Runtime",
+      "slug": "routing",
+      "title": "Routing Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "expansion-runtime",
-      "title": "Expansion Runtime",
+      "slug": "trust",
+      "title": "Trust Infinity",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeLayers": 24,
-    "activePages": 42,
-    "protectedStores": 31,
+    "activeEngines": 20,
+    "linkedRuntimes": 26,
+    "governedRoutes": 24,
     "infinityConfidence": 100
   },
-  "time": "2026-04-08T19:19:38.146Z"
+  "time": "2026-04-08T19:24:31.999Z"
 }
