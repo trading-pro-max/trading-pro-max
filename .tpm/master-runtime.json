@@ -173,7 +173,9 @@
     "npm run tpm:prism:once",
     "npm run tpm:prism",
     "npm run tpm:titan:once",
-    "npm run tpm:titan"
+    "npm run tpm:titan",
+    "npm run tpm:constellation:once",
+    "npm run tpm:constellation"
   ],
   "pages": [
     "/master-control",
@@ -263,7 +265,10 @@
     "/titan-grid",
     "/universe-ops",
     "/foundry-lab",
-    "/deploy-freeze-wall"
+    "/deploy-freeze-wall",
+    "/constellation-hub",
+    "/scenario-exchange",
+    "/assurance-console"
   ],
   "nextWave": [
     {
@@ -839,6 +844,27 @@
       "progress": 91,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "constellation-hub",
+      "title": "constellation hub",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-exchange",
+      "title": "scenario exchange",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "assurance-console",
+      "title": "assurance console",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T23:04:38.857Z",
@@ -1029,5 +1055,12 @@
     "active": 25,
     "expected": 26,
     "status": "CLOSED_100"
+  },
+  "constellationLayer": {
+    "active": true,
+    "layer": "CONSTELLATION_HUB_SCENARIO_EXCHANGE_ASSURANCE_CONSOLE",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:05:05.907Z"
   }
 }
