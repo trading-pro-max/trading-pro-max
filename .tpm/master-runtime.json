@@ -989,14 +989,14 @@
     "layer": "META_GRID_REPLAY_LIBRARY_GATEKEEPER_PANEL",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T14:45:48.580Z"
+    "time": "2026-04-08T14:47:18.605Z"
   },
   "constellationLayer": {
     "active": true,
     "layer": "CONSTELLATION_CORE_PROOF_ENGINE_RUNTIME_REGISTRY",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T14:45:49.351Z"
+    "time": "2026-04-08T14:47:19.381Z"
   },
   "navigatorLayer": {
     "active": true,
