@@ -167,7 +167,11 @@
     "npm run tpm:observability:once",
     "npm run tpm:observability",
     "npm run tpm:enterprise:once",
-    "npm run tpm:enterprise"
+    "npm run tpm:enterprise",
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity",
+    "npm run tpm:apex:once",
+    "npm run tpm:apex"
   ],
   "pages": [
     "/master-control",
@@ -239,7 +243,13 @@
     "/playbook-os",
     "/revenue-os",
     "/compliance-ledger",
-    "/ops-replay"
+    "/ops-replay",
+    "/infinity-core",
+    "/builder-grid",
+    "/evolution-console",
+    "/apex-command",
+    "/memory-fabric",
+    "/deploy-readiness"
   ],
   "nextWave": [
     {
@@ -696,6 +706,48 @@
       "progress": 89,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "infinity-core",
+      "title": "infinity core",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "builder-grid",
+      "title": "builder grid",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "evolution-console",
+      "title": "evolution console",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "apex-command",
+      "title": "apex command",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-fabric",
+      "title": "memory fabric",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "deploy-readiness",
+      "title": "deploy readiness",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T18:06:00.919Z",
@@ -848,5 +900,20 @@
     "progress": 89,
     "status": "ACTIVE",
     "time": "2026-04-08T18:07:09.251Z"
+  },
+  "infinityLayer": {
+    "active": true,
+    "layer": "INFINITY_CORE_BUILDER_GRID_EVOLUTION_CONSOLE",
+    "progress": 97,
+    "status": "ACTIVE",
+    "mode": "POST_CLOSURE_UNLIMITED",
+    "time": "2026-04-08T18:07:13.223Z"
+  },
+  "apexLayer": {
+    "active": true,
+    "layer": "APEX_COMMAND_MEMORY_FABRIC_DEPLOY_READINESS",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T18:07:25.198Z"
   }
 }
