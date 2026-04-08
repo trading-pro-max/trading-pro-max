@@ -24,7 +24,16 @@
     "/growth-engine",
     "/continuum-core",
     "/strategy-commons",
-    "/assurance-hub"
+    "/assurance-hub",
+    "/vector-core",
+    "/scenario-router",
+    "/assurance-wall",
+    "/infinity-core",
+    "/autonomy-fabric",
+    "/execution-memory",
+    "/zenith-core",
+    "/memory-cartography",
+    "/runtime-charter"
   ],
   "commands": [
     "npm run tpm:sentinel:once",
@@ -39,7 +48,13 @@
     "npm run tpm:agentmesh:once",
     "npm run tpm:agentmesh",
     "npm run tpm:continuum:once",
-    "npm run tpm:continuum"
+    "npm run tpm:continuum",
+    "npm run tpm:vector:once",
+    "npm run tpm:vector",
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity",
+    "npm run tpm:zenith:once",
+    "npm run tpm:zenith"
   ],
   "nextWave": [
     {
@@ -167,6 +182,69 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "vector-core",
+      "title": "vector core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-router",
+      "title": "scenario router",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "assurance-wall",
+      "title": "assurance wall",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "infinity-core",
+      "title": "infinity core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomy-fabric",
+      "title": "autonomy fabric",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "execution-memory",
+      "title": "execution memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "zenith-core",
+      "title": "zenith core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-cartography",
+      "title": "memory cartography",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "runtime-charter",
+      "title": "runtime charter",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "sentinelLayer": {
@@ -185,4 +263,57 @@
     "layer": "PULSE_GRID_CHRONICLE_CENTER_LAUNCH_CONSOLE",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2
+    "time": "2026-04-08T21:46:19.824Z"
+  },
+  "navigatorLayer": {
+    "active": true,
+    "layer": "NAVIGATOR_CORE_PORTFOLIO_SIMULATOR_AUDIT_STREAM",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T21:46:19.850Z"
+  },
+  "runtimeOpsLayer": {
+    "active": true,
+    "layer": "CONNECTOR_INSPECTOR_ENV_DOCTOR_RUNTIME_HEALTH",
+    "progress": 80,
+    "status": "ACTIVE",
+    "time": "2026-04-08T21:46:19.857Z"
+  },
+  "postCertification": {
+    "active": true,
+    "layer": "AGENT_MESH_EXPANSION",
+    "progress": 96,
+    "status": "ACTIVE",
+    "time": "2026-04-08T21:46:19.862Z"
+  },
+  "infinityContinuum": {
+    "active": true,
+    "layer": "CONTINUUM_CORE_STRATEGY_COMMONS_ASSURANCE_HUB",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T21:46:20.101Z"
+  },
+  "infinityVectorLayer": {
+    "active": true,
+    "layer": "VECTOR_CORE_SCENARIO_ROUTER_ASSURANCE_WALL",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T21:46:58.793Z"
+  },
+  "infinityLayer": {
+    "active": true,
+    "layer": "INFINITY_CORE_AUTONOMY_FABRIC_EXECUTION_MEMORY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T21:47:15.111Z"
+  },
+  "infinitySystem": {
+    "active": true,
+    "jump": 7,
+    "layer": "ZENITH_CORE_MEMORY_CARTOGRAPHY_RUNTIME_CHARTER",
+    "progress": 100,
+    "status": "ACTIVE",
+    "mode": "POST_CLOSURE_INFINITY",
+    "time": "2026-04-08T21:47:30.915Z"
+  }
+}
