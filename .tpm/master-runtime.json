@@ -147,7 +147,11 @@
     "npm run tpm:learning:once",
     "npm run tpm:learning",
     "npm run tpm:apex:once",
-    "npm run tpm:apex"
+    "npm run tpm:apex",
+    "npm run tpm:horizon:once",
+    "npm run tpm:horizon",
+    "npm run tpm:autopilot:once",
+    "npm run tpm:autopilot"
   ],
   "pages": [
     "/master-control",
@@ -190,7 +194,11 @@
     "/policy-studio",
     "/apex-matrix",
     "/strategy-reactor",
-    "/governance-mirror"
+    "/governance-mirror",
+    "/horizon-hub",
+    "/workspace-router",
+    "/evidence-vault",
+    "/autopilot-center"
   ],
   "nextWave": [
     {
@@ -444,6 +452,27 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "horizon-hub",
+      "title": "horizon hub",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "workspace-router",
+      "title": "workspace router",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "evidence-vault",
+      "title": "evidence vault",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T12:49:23.718Z",
@@ -526,5 +555,59 @@
     "progress": 100,
     "status": "ACTIVE",
     "time": "2026-04-08T12:49:58.406Z"
+  },
+  "horizonLayer": {
+    "active": true,
+    "layer": "HORIZON_HUB_WORKSPACE_ROUTER_EVIDENCE_VAULT",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T12:50:03.943Z"
+  },
+  "autopilot": {
+    "active": true,
+    "mode": "FULL_AUTO_LOCAL",
+    "cycle": 1,
+    "discoveredScripts": [
+      "tpm:agentmesh:once",
+      "tpm:ai:once",
+      "tpm:analytics:once",
+      "tpm:apex:once",
+      "tpm:atlas:once",
+      "tpm:broker:once",
+      "tpm:command:once",
+      "tpm:council:once",
+      "tpm:enterprise:once",
+      "tpm:executive:once",
+      "tpm:expansion:once",
+      "tpm:fabric:once",
+      "tpm:federation:once",
+      "tpm:final:once",
+      "tpm:governance:once",
+      "tpm:helix:once",
+      "tpm:horizon:once",
+      "tpm:intelligence:once",
+      "tpm:learning:once",
+      "tpm:market:once",
+      "tpm:meta:once",
+      "tpm:navigator:once",
+      "tpm:nexus:once",
+      "tpm:observability:once",
+      "tpm:omega:once",
+      "tpm:orchestrator:once",
+      "tpm:platform:once",
+      "tpm:prism:once",
+      "tpm:pulse:once",
+      "tpm:quantum:once",
+      "tpm:sentinel:once",
+      "tpm:simulation:once",
+      "tpm:sovereign:once",
+      "tpm:strategy:once",
+      "tpm:vector:once",
+      "tpm:master:once"
+    ],
+    "successCount": 0,
+    "failedCount": 36,
+    "lastRunAt": "2026-04-08T12:50:04.509Z",
+    "status": "ACTIVE_WITH_ERRORS"
   }
 }
