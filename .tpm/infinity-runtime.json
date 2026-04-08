@@ -3,27 +3,27 @@
   "mode": "TPM_INFINITY_ACTIVE",
   "overallProgress": 97,
   "completed": 97,
-  "remaining": 0,
-  "baselineLockedAt": 100,
-  "baselineRemaining": 0,
+  "remaining": 3,
+  "localState": 100,
+  "externalDeployBlocked": true,
   "domains": {
-    "infinity": 100,
-    "autonomy": 86,
-    "vault": 100,
+    "core": 100,
+    "builder": 83,
+    "evolution": 100,
     "proof": 100,
     "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "infinity-depth",
-      "title": "infinity depth",
+      "slug": "infinity-density",
+      "title": "infinity density",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "autonomy-depth",
-      "title": "autonomy depth",
-      "progress": 86,
+      "slug": "builder-autonomy",
+      "title": "builder autonomy",
+      "progress": 83,
       "status": "active"
     },
     {
@@ -33,5 +33,4 @@
       "status": "active"
     }
   ],
-  "time": "2026-04-08T13:57:27.505Z"
-}
+  "time": "2026-04-08T13:58:06.816Z"

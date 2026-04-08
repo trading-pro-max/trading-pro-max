@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "towers": [
+  "clusters": [
     {
-      "slug": "infinite-build",
-      "title": "Infinite Build",
+      "slug": "post-close",
+      "title": "Post-Close Cluster",
       "score": 100,
-      "status": "closed-baseline"
+      "status": "closed"
     },
     {
-      "slug": "infinite-autonomy",
-      "title": "Infinite Autonomy",
+      "slug": "autonomy",
+      "title": "Autonomy Cluster",
       "score": 100,
-      "status": "closed-baseline"
+      "status": "closed"
     },
     {
-      "slug": "infinite-memory",
-      "title": "Infinite Memory",
+      "slug": "builder",
+      "title": "Builder Cluster",
       "score": 100,
-      "status": "closed-baseline"
+      "status": "closed"
     },
     {
-      "slug": "infinite-evolution",
-      "title": "Infinite Evolution",
+      "slug": "evolution",
+      "title": "Evolution Cluster",
       "score": 100,
-      "status": "active"
+      "status": "closed"
     }
   ],
   "metrics": {
-    "baselineClosed": 100,
-    "postClosureActive": 100,
-    "infinityDepth": 100,
-    "autonomyDepth": 100
+    "infiniteLoops": 18,
+    "activeRuntimes": 24,
+    "governedLayers": 22,
+    "infinityConfidence": 100
   },
-  "time": "2026-04-08T13:57:27.505Z"
+  "time": "2026-04-08T13:58:06.815Z"
 }

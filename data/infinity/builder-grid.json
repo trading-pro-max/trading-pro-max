@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "builders": [
+    {
+      "slug": "surface-builder",
+      "title": "Surface Builder",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "logic-builder",
+      "title": "Logic Builder",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-builder",
+      "title": "Policy Builder",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "runtime-builder",
+      "title": "Runtime Builder",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeBuilders": 12,
+    "protectedPlans": 18,
+    "builderCoverage": 100,
+    "builderConfidence": 100
+  },
+  "time": "2026-04-08T13:58:06.816Z"
+}
