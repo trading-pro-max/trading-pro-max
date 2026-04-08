@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "filesTracked": 896,
+  "filesTracked": 900,
   "routes": 1,
-  "pages": 232,
+  "pages": 234,
   "libs": 93,
   "scripts": 110,
   "watchedZones": [
@@ -18,5 +18,5 @@
     "strategy-runtime.json",
     "intelligence-runtime.json"
   ],
-  "time": "2026-04-08T23:07:04.570Z"
+  "time": "2026-04-08T23:08:49.726Z"
 }

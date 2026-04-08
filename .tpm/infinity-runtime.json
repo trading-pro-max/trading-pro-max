@@ -1,14 +1,14 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 92,
-  "completed": 92,
-  "remaining": 8,
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
   "domains": {
     "infinity": 100,
     "foundry": 86,
-    "genome": 86,
-    "globalOps": 86,
+    "genome": 100,
+    "globalOps": 100,
     "continuity": 100
   },
   "nextWave": [
@@ -27,15 +27,15 @@
     {
       "slug": "genome-depth",
       "title": "genome depth",
-      "progress": 86,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "global-ops-depth",
       "title": "global ops depth",
-      "progress": 86,
+      "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T23:07:39.464Z"
+  "time": "2026-04-08T23:09:10.907Z"
 }
