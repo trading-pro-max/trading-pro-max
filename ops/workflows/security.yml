@@ -1,0 +1,9 @@
+﻿name: tpm-security
+on:
+  workflow_dispatch:
+jobs:
+  security:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Security scaffold
+        run: echo "TPM security workflow scaffold ready"

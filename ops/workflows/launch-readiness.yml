@@ -1,0 +1,9 @@
+﻿name: tpm-launch-readiness
+on:
+  workflow_dispatch:
+jobs:
+  launch-readiness:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Launch readiness scaffold
+        run: echo "TPM launch readiness workflow scaffold ready"

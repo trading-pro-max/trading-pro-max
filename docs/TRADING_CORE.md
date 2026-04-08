@@ -10,4 +10,3 @@ This jump closes:
 - paper and live modes
 - SQL trading bootstrap
 - trading workflow scaffold
-- trading core production page and APIs

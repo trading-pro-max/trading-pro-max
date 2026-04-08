@@ -5,7 +5,7 @@ import { execSync } from "child_process";
 const ROOT = process.cwd();
 const TPM_DIR = path.join(ROOT, ".tpm");
 const PID_FILE = path.join(TPM_DIR, "github-worker.pid");
-const CONFIG_FILE = path.join(TPM_DIR, "master-progress.config.json");
+const CONFIG_FILE = path.join(TPM_DIR, "mega-jump.config.json");
 const RUNTIME_FILE = path.join(TPM_DIR, "github-worker.runtime.json");
 
 function readJson(file, fallback) {
@@ -44,7 +44,7 @@ async function main() {
     cycle += 1;
 
     try {
-      const output = run("node ./scripts/tpm-trading-core-run.mjs");
+      const output = run("node ./scripts/tpm-super-run.mjs");
       run("git add -A");
 
       let changed = false;
@@ -57,7 +57,7 @@ async function main() {
       const status = JSON.parse(output);
 
       if (changed) {
-        run(`git commit -m "tpm: real trading core ${status.globalProgress}%"`);
+        run(`git commit -m "tpm: mega jump ${status.globalProgress}%"`);
         run(`git push ${config.remote} ${config.branch}`);
       }
 
@@ -67,9 +67,7 @@ async function main() {
         changed,
         pushed: changed,
         globalProgress: status.globalProgress,
-        remaining: status.remaining,
-        tradingEarned: status.trading?.earned || 0,
-        tradingMax: status.trading?.max || 0
+        remaining: status.remaining
       });
     } catch (e) {
       writeJson(RUNTIME_FILE, {

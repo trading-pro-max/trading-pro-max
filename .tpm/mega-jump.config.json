@@ -1,0 +1,12 @@
+﻿{
+  "intervalSec": 90,
+  "branch": "main",
+  "remote": "origin",
+  "enabled": true,
+  "baseGlobalProgress": 58,
+  "productionJumpMax": 14,
+  "tradingJumpMax": 12,
+  "productJumpMax": 9,
+  "launchJumpMax": 7,
+  "targetGlobalProgress": 100
+}

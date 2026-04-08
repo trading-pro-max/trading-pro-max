@@ -1,10 +1,10 @@
 {
   "ok": true,
-  "globalProgress": 84,
-  "remaining": 16,
+  "globalProgress": 100,
+  "remaining": 0,
   "localCertified": false,
   "baseGlobalProgress": 58,
-  "targetGlobalProgress": 84,
+  "targetGlobalProgress": 100,
   "production": {
     "earned": 14,
     "max": 14,
@@ -103,7 +103,7 @@
       },
       {
         "key": "paper_live",
-        "label": "Paper and live modes",
+        "label": "Paper/live modes",
         "weight": 1,
         "pass": true
       },
@@ -127,7 +127,117 @@
       },
       {
         "key": "trading_workflow",
-        "label": "Trading workflow scaffold",
+        "label": "Trading workflow",
+        "weight": 1,
+        "pass": true
+      }
+    ]
+  },
+  "product": {
+    "earned": 9,
+    "max": 9,
+    "closed": true,
+    "checks": [
+      {
+        "key": "identity",
+        "label": "Identity surface",
+        "weight": 1,
+        "pass": true
+      },
+      {
+        "key": "workspace",
+        "label": "Workspace surface",
+        "weight": 1,
+        "pass": true
+      },
+      {
+        "key": "client_portal",
+        "label": "Client portal",
+        "weight": 1,
+        "pass": true
+      },
+      {
+        "key": "operator_os",
+        "label": "Operator OS",
+        "weight": 1,
+        "pass": true
+      },
+      {
+        "key": "desktop_hq",
+        "label": "Desktop HQ",
+        "weight": 1,
+        "pass": true
+      },
+      {
+        "key": "mobile_hq",
+        "label": "Mobile HQ",
+        "weight": 1,
+        "pass": true
+      },
+      {
+        "key": "billing",
+        "label": "Billing surface",
+        "weight": 1,
+        "pass": true
+      },
+      {
+        "key": "surface_component",
+        "label": "Surface component",
+        "weight": 1,
+        "pass": true
+      },
+      {
+        "key": "product_docs",
+        "label": "Product surface docs",
+        "weight": 1,
+        "pass": true
+      }
+    ]
+  },
+  "launch": {
+    "earned": 7,
+    "max": 7,
+    "closed": true,
+    "checks": [
+      {
+        "key": "security_center",
+        "label": "Security center",
+        "weight": 1,
+        "pass": true
+      },
+      {
+        "key": "launch_readiness",
+        "label": "Launch readiness",
+        "weight": 1,
+        "pass": true
+      },
+      {
+        "key": "load_test",
+        "label": "Load test scaffold",
+        "weight": 1,
+        "pass": true
+      },
+      {
+        "key": "smoke_test",
+        "label": "Smoke test scaffold",
+        "weight": 1,
+        "pass": true
+      },
+      {
+        "key": "launch_checklist",
+        "label": "Launch checklist",
+        "weight": 1,
+        "pass": true
+      },
+      {
+        "key": "security_workflow",
+        "label": "Security workflow",
+        "weight": 1,
+        "pass": true
+      },
+      {
+        "key": "super_layer",
+        "label": "Super control layer",
         "weight": 1,
         "pass": true
       }
@@ -136,10 +246,10 @@
   "modulesClosed": 2,
   "modulesTotal": 2,
   "languages": {
-    "JSON": 57,
-    "Markdown": 21,
-    "PowerShell": 51,
-    "JavaScript": 86,
+    "JSON": 58,
+    "Markdown": 24,
+    "PowerShell": 52,
+    "JavaScript": 102,
     "TypeScript": 212,
     "HTML": 2,
     "CSS": 3,
@@ -147,7 +257,7 @@
     "Python": 2,
     "Shell": 4,
     "SQL": 2,
-    "YAML": 3
+    "YAML": 5
   },
-  "updatedAt": "2026-04-08T04:02:53.956Z"
+  "updatedAt": "2026-04-08T04:03:28.141Z"
 }

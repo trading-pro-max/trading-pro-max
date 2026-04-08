@@ -8,6 +8,5 @@ Included:
 - multi-language health suite
 - SQL bootstrap
 - release workflow scaffold
-- autonomous core scoring
 - README auto-sync
 - GitHub auto-push worker
