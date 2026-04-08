@@ -72,7 +72,11 @@
     "/integrity-hub",
     "/observability-core",
     "/incident-center",
-    "/playbook-os"
+    "/playbook-os",
+    "/autopilot-center",
+    "/infinity-core",
+    "/strategy-genome",
+    "/runtime-conductor"
   ],
   "commands": [
     "npm run tpm:omega:once",
@@ -117,7 +121,11 @@
     "npm run tpm:prism:once",
     "npm run tpm:prism",
     "npm run tpm:observability:once",
-    "npm run tpm:observability"
+    "npm run tpm:observability",
+    "npm run tpm:autopilot:once",
+    "npm run tpm:autopilot",
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity"
   ],
   "nextWave": [
     {
@@ -574,6 +582,27 @@
       "progress": 97,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "infinity-core",
+      "title": "infinity core",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "strategy-genome",
+      "title": "strategy genome",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "runtime-conductor",
+      "title": "runtime conductor",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "omegaLayer": {
@@ -620,7 +649,7 @@
     "layer": "VECTOR_CORE_SCENARIO_ROUTER_ASSURANCE_WALL",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T21:24:28.305Z"
+    "time": "2026-04-08T21:25:58.321Z"
   },
   "infinitySystem": {
     "active": true,
@@ -729,5 +758,72 @@
     "progress": 97,
     "status": "ACTIVE",
     "time": "2026-04-08T21:25:19.335Z"
+  },
+  "autopilot": {
+    "active": true,
+    "mode": "FULL_AUTO_LOCAL",
+    "cycle": 1,
+    "discoveredScripts": [
+      "tpm:agentmesh:once",
+      "tpm:ai:once",
+      "tpm:analytics:once",
+      "tpm:apex:once",
+      "tpm:atlas:once",
+      "tpm:broker:once",
+      "tpm:command:once",
+      "tpm:constellation:once",
+      "tpm:council:once",
+      "tpm:enterprise:once",
+      "tpm:executive:once",
+      "tpm:expansion:once",
+      "tpm:fabric:once",
+      "tpm:federation:once",
+      "tpm:final:once",
+      "tpm:governance:once",
+      "tpm:helix:once",
+      "tpm:horizon:once",
+      "tpm:infinity3:once",
+      "tpm:infinity7:once",
+      "tpm:infinity:once",
+      "tpm:intelligence:once",
+      "tpm:jump4:once",
+      "tpm:learning:once",
+      "tpm:market:once",
+      "tpm:meta:once",
+      "tpm:navigator:once",
+      "tpm:nexus:once",
+      "tpm:observability:once",
+      "tpm:omega:once",
+      "tpm:orchestrator:once",
+      "tpm:platform:once",
+      "tpm:prism:once",
+      "tpm:pulse:once",
+      "tpm:quantum:once",
+      "tpm:runtimeops:once",
+      "tpm:sentinel:once",
+      "tpm:simulation:once",
+      "tpm:sovereign:once",
+      "tpm:strategy:once",
+      "tpm:vector:once",
+      "tpm:vertex:once",
+      "tpm:zenith:once",
+      "tpm:master:once"
+    ],
+    "successCount": 0,
+    "failedCount": 44,
+    "lastRunAt": "2026-04-08T21:25:21.950Z",
+    "status": "ACTIVE_WITH_ERRORS"
+  },
+  "infinityLayer": {
+    "active": true,
+    "layer": "INFINITY_CORE_STRATEGY_GENOME_RUNTIME_CONDUCTOR",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T21:26:19.360Z"
+  },
+  "runtimeDepth": {
+    "active": 15,
+    "expected": 16,
+    "status": "CLOSED_100"
   }
 }

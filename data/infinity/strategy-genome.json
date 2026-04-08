@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "strands": [
+  "genes": [
     {
-      "slug": "trend-strand",
-      "title": "Trend Strand",
+      "slug": "pattern-gene",
+      "title": "Pattern Gene",
       "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "risk-strand",
-      "title": "Risk Strand",
+      "slug": "risk-gene",
+      "title": "Risk Gene",
       "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "capital-strand",
-      "title": "Capital Strand",
+      "slug": "capital-gene",
+      "title": "Capital Gene",
       "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "adaptive-strand",
-      "title": "Adaptive Strand",
+      "slug": "route-gene",
+      "title": "Route Gene",
       "progress": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "mappedStrands": 20,
-    "protectedPatterns": 18,
-    "routeGenome": 100,
+    "mappedGenes": 20,
+    "governedStrategies": 18,
+    "replayableVariants": 16,
     "genomeConfidence": 100
   },
-  "time": "2026-04-08T21:21:07.711Z"
+  "time": "2026-04-08T21:26:20.245Z"
 }
