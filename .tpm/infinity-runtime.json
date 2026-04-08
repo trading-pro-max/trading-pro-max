@@ -1,47 +1,47 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 83,
-  "completed": 83,
-  "remaining": 17,
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
   "domains": {
-    "infinity": 83,
-    "forge": 83,
-    "reactor": 83,
-    "command": 83,
-    "evidence": 83
+    "infinity": 100,
+    "forge": 100,
+    "reactor": 100,
+    "command": 100,
+    "evidence": 100
   },
   "nextWave": [
     {
       "slug": "infinity-fusion",
       "title": "infinity fusion",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "autonomy-heat",
       "title": "autonomy heat",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "reactor-thrust",
       "title": "reactor thrust",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "client-discipline",
       "title": "client discipline",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "evidence-density",
       "title": "evidence density",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T23:55:25.623Z"
+  "time": "2026-04-08T23:56:56.660Z"
 }
