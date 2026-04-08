@@ -1,10 +1,10 @@
 {
   "ok": true,
   "mode": "TPM_MASTER_ACTIVE",
-  "overallProgress": 99,
-  "completed": 99,
-  "remaining": 1,
-  "finalReadiness": "pre-final",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "finalReadiness": "ready-local-100",
   "activeModule": {
     "slug": "surface",
     "title": "Operator Surface",
@@ -126,7 +126,13 @@
     "npm run tpm:master",
     "npm run tpm:analytics:once",
     "npm run tpm:simulation:once",
-    "npm run tpm:intelligence:once"
+    "npm run tpm:intelligence:once",
+    "npm run tpm:sentinel:once",
+    "npm run tpm:sentinel",
+    "npm run tpm:omega:once",
+    "npm run tpm:omega",
+    "npm run tpm:executive:once",
+    "npm run tpm:executive"
   ],
   "pages": [
     "/master-control",
@@ -136,7 +142,16 @@
     "/signal-hub",
     "/backtest-lab",
     "/research-studio",
-    "/intelligence-center"
+    "/intelligence-center",
+    "/sentinel-core",
+    "/experiment-studio",
+    "/customer-success-hub",
+    "/omega-core",
+    "/recovery-matrix",
+    "/trust-center",
+    "/control-tower",
+    "/capital-os",
+    "/execution-intelligence"
   ],
   "nextWave": [
     {
@@ -159,7 +174,93 @@
       "progress": 70,
       "stage": "WAITING_PLAN",
       "status": "blocked"
+    },
+    {
+      "slug": "sentinel-core",
+      "title": "sentinel core",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "experiment-studio",
+      "title": "experiment studio",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "customer-success-hub",
+      "title": "customer success hub",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "omega-core",
+      "title": "omega core",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "recovery-matrix",
+      "title": "recovery matrix",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "trust-center",
+      "title": "trust center",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "control-tower",
+      "title": "control tower",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "capital-os",
+      "title": "capital os",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "execution-intelligence",
+      "title": "execution intelligence",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
-  "time": "2026-04-08T10:59:52.940Z"
+  "time": "2026-04-08T11:01:22.957Z",
+  "localCertified": true,
+  "releaseGate": "OPEN_LOCAL",
+  "sentinelLayer": {
+    "active": true,
+    "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
+    "progress": 93,
+    "status": "ACTIVE",
+    "time": "2026-04-08T11:01:25.972Z"
+  },
+  "omegaLayer": {
+    "active": true,
+    "layer": "OMEGA_CORE_RECOVERY_MATRIX_TRUST_CENTER",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T11:01:35.551Z"
+  },
+  "executiveLayer": {
+    "active": true,
+    "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
+    "progress": 96,
+    "status": "ACTIVE",
+    "time": "2026-04-08T11:01:37.865Z"
+  }
 }
