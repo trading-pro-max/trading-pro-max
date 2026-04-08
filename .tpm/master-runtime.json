@@ -167,7 +167,9 @@
     "npm run tpm:infinity:once",
     "npm run tpm:infinity",
     "npm run tpm:zenith:once",
-    "npm run tpm:zenith"
+    "npm run tpm:zenith",
+    "npm run tpm:infinity7:once",
+    "npm run tpm:infinity7"
   ],
   "pages": [
     "/master-control",
@@ -238,7 +240,15 @@
     "/autonomy-theater",
     "/zenith-core",
     "/memory-cartography",
-    "/runtime-charter"
+    "/runtime-charter",
+    "/infinity-seven",
+    "/infinity-command-grid",
+    "/strategic-memory-vault",
+    "/global-expansion-radar",
+    "/execution-arbitration-deck",
+    "/client-orbit-hub",
+    "/research-cinema",
+    "/autonomous-revenue-rail"
   ],
   "nextWave": [
     {
@@ -688,6 +698,55 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "infinity-command-grid",
+      "title": "Infinity Command Grid",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "strategic-memory-vault",
+      "title": "Strategic Memory Vault",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "global-expansion-radar",
+      "title": "Global Expansion Radar",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "execution-arbitration-deck",
+      "title": "Execution Arbitration Deck",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "client-orbit-hub",
+      "title": "Client Orbit Hub",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "research-cinema",
+      "title": "Research Cinema",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomous-revenue-rail",
+      "title": "Autonomous Revenue Rail",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T21:17:48.853Z",
@@ -842,5 +901,13 @@
     "status": "ACTIVE",
     "mode": "POST_CLOSURE_INFINITY",
     "time": "2026-04-08T21:19:00.282Z"
+  },
+  "infinitySevenLayer": {
+    "active": true,
+    "layer": "SEVEN_BIG_JUMPS",
+    "jumps": 7,
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T21:19:13.207Z"
   }
 }
