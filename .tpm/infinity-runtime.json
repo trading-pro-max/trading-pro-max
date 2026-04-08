@@ -1,13 +1,13 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 93,
-  "completed": 93,
-  "remaining": 7,
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
   "domains": {
     "core": 100,
-    "memory": 83,
-    "spine": 83,
+    "memory": 100,
+    "spine": 100,
     "proof": 100,
     "continuity": 100
   },
@@ -21,15 +21,15 @@
     {
       "slug": "scenario-depth",
       "title": "scenario depth",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "spine-strength",
       "title": "spine strength",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T19:24:32.001Z"
+  "time": "2026-04-08T19:24:33.529Z"
 }
