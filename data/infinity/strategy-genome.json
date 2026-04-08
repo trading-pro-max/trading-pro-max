@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "strands": [
+    {
+      "slug": "signal-strand",
+      "title": "Signal Strand",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-strand",
+      "title": "Risk Strand",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-strand",
+      "title": "Capital Strand",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-strand",
+      "title": "Policy Strand",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "mappedStrands": 20,
+    "adaptivePatterns": 18,
+    "governedVariants": 16,
+    "genomeConfidence": 100
+  },
+  "time": "2026-04-08T19:37:33.373Z"
+}

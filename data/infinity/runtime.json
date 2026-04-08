@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "engines": [
+  "layers": [
     {
-      "slug": "autonomy",
-      "title": "Autonomy Infinity",
+      "slug": "runtime-infinity",
+      "title": "Runtime Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "memory",
-      "title": "Memory Infinity",
+      "slug": "strategy-infinity",
+      "title": "Strategy Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "routing",
-      "title": "Routing Infinity",
+      "slug": "ops-infinity",
+      "title": "Ops Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "trust",
+      "slug": "trust-infinity",
       "title": "Trust Infinity",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeEngines": 20,
-    "linkedRuntimes": 26,
-    "governedRoutes": 24,
+    "activeLayers": 24,
+    "linkedSystems": 32,
+    "protectedPaths": 24,
     "infinityConfidence": 100
   },
-  "time": "2026-04-08T19:36:50.677Z"
+  "time": "2026-04-08T19:37:31.800Z"
 }

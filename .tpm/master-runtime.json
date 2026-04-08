@@ -14,14 +14,24 @@
     "/federation-core",
     "/scenario-memory",
     "/operator-journal",
-    "/autopilot-center"
+    "/autopilot-center",
+    "/infinity-core",
+    "/strategy-genome",
+    "/ops-embassy",
+    "/omega-core",
+    "/recovery-matrix",
+    "/trust-center"
   ],
   "commands": [
     "npm run tpm:federation:once",
     "npm run tpm:federation",
     "npm run tpm:master:once",
     "npm run tpm:autopilot:once",
-    "npm run tpm:autopilot"
+    "npm run tpm:autopilot",
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity",
+    "npm run tpm:omega:once",
+    "npm run tpm:omega"
   ],
   "nextWave": [
     {
@@ -42,6 +52,27 @@
       "slug": "operator-journal",
       "title": "operator journal",
       "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "infinity-core",
+      "title": "infinity core",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "strategy-genome",
+      "title": "strategy genome",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "ops-embassy",
+      "title": "ops embassy",
+      "progress": 93,
       "stage": "ACTIVE",
       "status": "strong"
     }
@@ -103,5 +134,17 @@
     "failedCount": 40,
     "lastRunAt": "2026-04-08T19:37:05.962Z",
     "status": "ACTIVE_WITH_ERRORS"
+  },
+  "infinityLayer": {
+    "active": true,
+    "layer": "INFINITY_CORE_STRATEGY_GENOME_OPS_EMBASSY",
+    "progress": 93,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:37:31.809Z"
+  },
+  "runtimeDepth": {
+    "active": 15,
+    "expected": 16,
+    "status": "CLOSED_100"
   }
 }

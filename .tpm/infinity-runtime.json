@@ -1,13 +1,13 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
+  "overallProgress": 93,
+  "completed": 93,
+  "remaining": 7,
   "domains": {
-    "core": 100,
-    "memory": 100,
-    "spine": 100,
+    "infinity": 100,
+    "genome": 83,
+    "embassy": 83,
     "proof": 100,
     "continuity": 100
   },
@@ -19,17 +19,17 @@
       "status": "active"
     },
     {
-      "slug": "scenario-depth",
-      "title": "scenario depth",
-      "progress": 100,
+      "slug": "genome-depth",
+      "title": "genome depth",
+      "progress": 83,
       "status": "active"
     },
     {
-      "slug": "spine-strength",
-      "title": "spine strength",
-      "progress": 100,
+      "slug": "embassy-clarity",
+      "title": "embassy clarity",
+      "progress": 83,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T19:36:50.678Z"
+  "time": "2026-04-08T19:37:31.801Z"
 }
