@@ -1,11 +1,11 @@
 {
   "ok": true,
   "mode": "TPM_FINAL_AUTOPILOT",
-  "startedAt": "2026-04-08T13:45:41.841Z",
-  "finishedAt": "2026-04-08T13:45:41.855Z",
-  "scriptsTotal": 38,
+  "startedAt": "2026-04-08T13:47:11.879Z",
+  "finishedAt": "2026-04-08T13:47:11.922Z",
+  "scriptsTotal": 39,
   "scriptsPassed": 0,
-  "scriptsFailed": 38,
+  "scriptsFailed": 39,
   "scripts": [
     "tpm:agentmesh:once",
     "tpm:ai:once",
@@ -25,6 +25,7 @@
     "tpm:governance:once",
     "tpm:helix:once",
     "tpm:horizon:once",
+    "tpm:infinity:once",
     "tpm:intelligence:once",
     "tpm:learning:once",
     "tpm:market:once",
@@ -168,6 +169,13 @@
     },
     {
       "name": "tpm:horizon:once",
+      "ok": false,
+      "code": null,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "tpm:infinity:once",
       "ok": false,
       "code": null,
       "stdout": "",
