@@ -14,7 +14,8 @@
     "tpm:builder:start": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-builder-start.ps1",
     "tpm:builder:stop": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-builder-stop.ps1",
     "tpm:builder:status": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-builder-status.ps1",
-    "tpm:closeall": "node ./scripts/tpm-close-all.mjs"
+    "tpm:closeall": "node ./scripts/tpm-close-all.mjs",
+    "tpm:certify": "node ./scripts/tpm-certify.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

@@ -1,0 +1,8 @@
+﻿{
+  "enabled": true,
+  "targetProgress": 100,
+  "targetReadiness": 98,
+  "lastRunAt": null,
+  "lastRun": null,
+  "verdict": "PENDING"
+}
