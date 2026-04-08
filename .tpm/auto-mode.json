@@ -1,13 +1,13 @@
 ﻿{
     "enabled":  true,
     "mode":  "FULL_AUTOMATIC",
-    "startedAt":  "2026-04-08T07:52:36.3572089+02:00",
-    "lastRunAt":  null,
-    "cycles":  0,
-    "buildProgress":  100,
+    "startedAt":  "2026-04-08T07:52:16.0427880+02:00",
+    "lastRunAt":  "2026-04-08T07:53:49.4453976+02:00",
+    "cycles":  2,
+    "buildProgress":  0,
     "remaining":  0,
     "remoteProgress":  100,
-    "remoteVerdict":  "PENDING",
+    "remoteVerdict":  "CODE_READY_PENDING_REAL_SECRETS",
     "certificationVerdict":  "GLOBAL_CERTIFIED_100",
     "releaseVerdict":  "READY_FOR_GLOBAL_PROMOTION",
     "pushed":  false
