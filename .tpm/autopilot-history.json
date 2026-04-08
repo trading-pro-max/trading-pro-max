@@ -1,6 +1,21 @@
 [
   {
     "cycle": 1,
+    "lastRunAt": "2026-04-08T21:43:41.010Z",
+    "successCount": 0,
+    "failedCount": 45,
+    "discoveredCount": 45,
+    "git": {
+      "addOk": true,
+      "commitOk": false,
+      "pushOk": true,
+      "changed": true,
+      "commitMessage": "tpm: autopilot cycle 1",
+      "pushOutput": "\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\nEverything up-to-date\n"
+    }
+  },
+  {
+    "cycle": 1,
     "lastRunAt": "2026-04-08T21:41:38.768Z",
     "successCount": 0,
     "failedCount": 44,
@@ -1766,21 +1781,6 @@
       "changed": true,
       "commitMessage": "tpm: autopilot cycle 1",
       "pushOutput": "\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\nTo https://github.com/trading-pro-max/trading-pro-max.git\n ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 726154f0849bcfa4cd72f3c1cd4f3fe3c9f2cf0b but expected 2a024c531ac1011c6f622c2adf75bf5c003b559b)\nerror: failed to push some refs to 'https://github.com/trading-pro-max/trading-pro-max.git'\n"
-    }
-  },
-  {
-    "cycle": 1,
-    "lastRunAt": "2026-04-08T16:05:44.481Z",
-    "successCount": 0,
-    "failedCount": 40,
-    "discoveredCount": 40,
-    "git": {
-      "addOk": true,
-      "commitOk": true,
-      "pushOk": false,
-      "changed": true,
-      "commitMessage": "tpm: autopilot cycle 1",
-      "pushOutput": "\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\nTo https://github.com/trading-pro-max/trading-pro-max.git\n ! [remote rejected]   main -> main (cannot lock ref 'refs/heads/main': is at 2a024c531ac1011c6f622c2adf75bf5c003b559b but expected 2c395e3240055a189d21652006ce9398a9e71ca9)\nerror: failed to push some refs to 'https://github.com/trading-pro-max/trading-pro-max.git'\n"
     }
   }
 ]
