@@ -165,7 +165,9 @@
     "npm run tpm:observability:once",
     "npm run tpm:observability",
     "npm run tpm:enterprise:once",
-    "npm run tpm:enterprise"
+    "npm run tpm:enterprise",
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity"
   ],
   "pages": [
     "/master-control",
@@ -234,7 +236,10 @@
     "/playbook-os",
     "/revenue-os",
     "/compliance-ledger",
-    "/ops-replay"
+    "/ops-replay",
+    "/infinity-core",
+    "/builder-grid",
+    "/evolution-console"
   ],
   "nextWave": [
     {
@@ -670,6 +675,27 @@
       "progress": 89,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "infinity-core",
+      "title": "infinity core",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "builder-grid",
+      "title": "builder grid",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "evolution-console",
+      "title": "evolution console",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T16:43:29.224Z",
@@ -815,5 +841,13 @@
     "progress": 89,
     "status": "ACTIVE",
     "time": "2026-04-08T16:44:37.076Z"
+  },
+  "infinityLayer": {
+    "active": true,
+    "layer": "INFINITY_CORE_BUILDER_GRID_EVOLUTION_CONSOLE",
+    "progress": 97,
+    "status": "ACTIVE",
+    "mode": "POST_CLOSURE_UNLIMITED",
+    "time": "2026-04-08T16:44:41.130Z"
   }
 }
