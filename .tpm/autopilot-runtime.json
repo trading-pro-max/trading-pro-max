@@ -1,8 +1,8 @@
 {
   "ok": true,
   "mode": "TPM_FINAL_AUTOPILOT",
-  "startedAt": "2026-04-08T13:20:10.839Z",
-  "finishedAt": "2026-04-08T13:20:10.886Z",
+  "startedAt": "2026-04-08T13:21:40.918Z",
+  "finishedAt": "2026-04-08T13:21:40.962Z",
   "scriptsTotal": 37,
   "scriptsPassed": 0,
   "scriptsFailed": 37,
