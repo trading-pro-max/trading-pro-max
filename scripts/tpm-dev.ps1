@@ -1,10 +1,10 @@
-﻿param([string]$ProjectPath="C:\Users\ahmad\Desktop\trading-pro-max-full")
-Set-StrictMode -Version Latest
-$ErrorActionPreference = "SilentlyContinue"
+﻿param([string]$ProjectPath = "C:\Users\ahmad\Desktop\trading-pro-max-full")
+
 Set-Location $ProjectPath
-Get-Process node | Stop-Process -Force-Process -Force-Process -Force
+
+node .\scripts\tpm-self-heal.mjs
+
+Get-Process node -ErrorAction SilentlyContinue | Stop-Process -Force
 if (Test-Path ".next") { Remove-Item ".next" -Recurse -Force }
-$env:NODE_OPTIONS="--no-deprecation"
+
 npm run dev
-
-
