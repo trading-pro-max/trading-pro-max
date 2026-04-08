@@ -1,13 +1,13 @@
 {
   "ok": true,
   "mode": "TPM_BROKER_ACTIVE",
-  "overallProgress": 89,
-  "completed": 89,
-  "remaining": 11,
+  "overallProgress": 96,
+  "completed": 96,
+  "remaining": 4,
   "domains": {
     "bridge": 100,
-    "live": 83,
-    "decision": 83,
+    "live": 100,
+    "decision": 100,
     "governance": 100,
     "integration": 80
   },
@@ -21,15 +21,15 @@
     {
       "slug": "live-governance",
       "title": "live governance",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "decision-automation",
       "title": "decision automation",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T09:52:21.972Z"
+  "time": "2026-04-08T09:52:22.310Z"
 }
