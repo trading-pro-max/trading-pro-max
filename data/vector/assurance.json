@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "walls": [
+    {
+      "slug": "runtime-wall",
+      "title": "Runtime Wall",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-wall",
+      "title": "Risk Wall",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-wall",
+      "title": "Audit Wall",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "release-wall",
+      "title": "Release Wall",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "protectedWalls": 12,
+    "auditedFlows": 20,
+    "governedChecks": 18,
+    "assuranceConfidence": 100
+  },
+  "time": "2026-04-08T20:58:57.780Z"
+}

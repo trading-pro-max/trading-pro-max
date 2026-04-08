@@ -1,21 +1,21 @@
 {
   "ok": true,
-  "vectors": [
+  "engines": [
     {
-      "slug": "runtime-vector",
-      "title": "Runtime Vector",
+      "slug": "market-vector",
+      "title": "Market Vector",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution-vector",
+      "title": "Execution Vector",
       "score": 100,
       "status": "closed"
     },
     {
       "slug": "policy-vector",
       "title": "Policy Vector",
-      "score": 100,
-      "status": "closed"
-    },
-    {
-      "slug": "signal-vector",
-      "title": "Signal Vector",
       "score": 100,
       "status": "closed"
     },
@@ -28,9 +28,9 @@
   ],
   "metrics": {
     "activeVectors": 20,
-    "linkedLayers": 24,
-    "protectedPlanes": 18,
+    "governedVectors": 18,
+    "replayVectors": 16,
     "vectorConfidence": 100
   },
-  "time": "2026-04-08T20:58:18.437Z"
+  "time": "2026-04-08T20:58:56.307Z"
 }

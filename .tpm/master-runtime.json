@@ -61,7 +61,9 @@
     "/connector-inspector",
     "/env-doctor",
     "/runtime-health",
-    "/autopilot-center"
+    "/autopilot-center",
+    "/scenario-router",
+    "/assurance-wall"
   ],
   "commands": [
     "npm run tpm:jump4:once",
@@ -452,6 +454,20 @@
       "progress": 80,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "scenario-router",
+      "title": "scenario router",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "assurance-wall",
+      "title": "assurance wall",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "jump4": {
@@ -625,5 +641,17 @@
     "failedCount": 42,
     "lastRunAt": "2026-04-08T20:58:35.960Z",
     "status": "ACTIVE_WITH_ERRORS"
+  },
+  "infinityVectorLayer": {
+    "active": true,
+    "layer": "VECTOR_CORE_SCENARIO_ROUTER_ASSURANCE_WALL",
+    "progress": 93,
+    "status": "ACTIVE",
+    "time": "2026-04-08T20:58:56.321Z"
+  },
+  "runtimeDepth": {
+    "active": 15,
+    "expected": 16,
+    "status": "CLOSED_100"
   }
 }
