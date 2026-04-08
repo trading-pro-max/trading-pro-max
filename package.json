@@ -34,7 +34,8 @@
     "tpm:master:status": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-master-status.ps1",
     "tpm:prodprep": "node ./scripts/tpm-prod-prep.mjs",
     "tpm:remote": "node ./scripts/tpm-remote-run.mjs",
-    "tpm:auto": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-auto-mode.ps1"
+    "tpm:auto": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-auto-mode.ps1",
+    "tpm:autobind": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-universal-autobind.ps1"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

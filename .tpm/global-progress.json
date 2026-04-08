@@ -247,7 +247,7 @@
     "YAML": 8,
     "JSON": 71,
     "Markdown": 26,
-    "PowerShell": 59,
+    "PowerShell": 60,
     "JavaScript": 140,
     "TypeScript": 212,
     "HTML": 2,
@@ -257,5 +257,5 @@
     "Shell": 4,
     "SQL": 2
   },
-  "updatedAt": "2026-04-08T08:00:02.209Z"
+  "updatedAt": "2026-04-08T08:01:21.289Z"
 }
