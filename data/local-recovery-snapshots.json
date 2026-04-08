@@ -1,5 +1,41 @@
 [
   {
+    "id": "SNAP-APK4OLN7",
+    "label": "builder-cycle-45",
+    "createdAt": "2026-04-08T03:18:58.458Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
+    "id": "SNAP-WGS5V05Q",
+    "label": "builder-cycle-42",
+    "createdAt": "2026-04-08T03:18:22.346Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
+    "id": "SNAP-5Y2F76VR",
+    "label": "builder-cycle-39",
+    "createdAt": "2026-04-08T03:17:46.202Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
     "id": "SNAP-TXEUQ557",
     "label": "builder-cycle-36",
     "createdAt": "2026-04-08T03:17:10.069Z",
@@ -255,42 +291,6 @@
     "id": "SNAP-RUFP5LMJ",
     "label": "builder-cycle-45",
     "createdAt": "2026-04-08T02:54:30.671Z",
-    "meta": {
-      "cash": 100,
-      "positions": 0,
-      "orders": 0,
-      "ledger": 0,
-      "alerts": 0
-    }
-  },
-  {
-    "id": "SNAP-N723OW3M",
-    "label": "builder-cycle-42",
-    "createdAt": "2026-04-08T02:53:54.539Z",
-    "meta": {
-      "cash": 100,
-      "positions": 0,
-      "orders": 0,
-      "ledger": 0,
-      "alerts": 0
-    }
-  },
-  {
-    "id": "SNAP-7M9GLCH6",
-    "label": "builder-cycle-39",
-    "createdAt": "2026-04-08T02:53:18.403Z",
-    "meta": {
-      "cash": 100,
-      "positions": 0,
-      "orders": 0,
-      "ledger": 0,
-      "alerts": 0
-    }
-  },
-  {
-    "id": "SNAP-RDIVS1QD",
-    "label": "builder-cycle-36",
-    "createdAt": "2026-04-08T02:52:42.274Z",
     "meta": {
       "cash": 100,
       "positions": 0,
