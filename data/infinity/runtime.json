@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "clusters": [
-    {
-      "slug": "post-close",
-      "title": "Post-Close Cluster",
-      "score": 100,
-      "status": "closed"
-    },
-    {
-      "slug": "autonomy",
-      "title": "Autonomy Cluster",
-      "score": 100,
-      "status": "closed"
-    },
+  "engines": [
     {
       "slug": "builder",
-      "title": "Builder Cluster",
+      "title": "Builder Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "evolution",
-      "title": "Evolution Cluster",
+      "slug": "strategy",
+      "title": "Strategy Infinity",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution",
+      "title": "Execution Infinity",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth",
+      "title": "Growth Infinity",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "infiniteLoops": 18,
-    "activeRuntimes": 24,
-    "governedLayers": 22,
+    "activeInfinityEngines": 4,
+    "protectedExpansionRoutes": 24,
+    "governedLoops": 18,
     "infinityConfidence": 100
   },
-  "time": "2026-04-08T18:47:12.157Z"
+  "time": "2026-04-08T19:10:51.979Z"
 }

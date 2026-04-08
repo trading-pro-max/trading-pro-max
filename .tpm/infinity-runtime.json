@@ -4,34 +4,31 @@
   "overallProgress": 97,
   "completed": 97,
   "remaining": 3,
-  "localState": 100,
-  "externalDeployBlocked": true,
   "domains": {
-    "core": 100,
-    "builder": 83,
-    "evolution": 100,
+    "infinity": 100,
+    "workforce": 83,
+    "opportunities": 100,
     "proof": 100,
     "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "infinity-density",
-      "title": "infinity density",
+      "slug": "infinity-expansion",
+      "title": "infinity expansion",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "builder-autonomy",
-      "title": "builder autonomy",
+      "slug": "workforce-autonomy",
+      "title": "workforce autonomy",
       "progress": 83,
       "status": "active"
     },
     {
-      "slug": "evolution-depth",
-      "title": "evolution depth",
+      "slug": "opportunity-ranking",
+      "title": "opportunity ranking",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T18:47:12.157Z"
-}
+  "time": "2026-04-08T19:10:51.981Z"

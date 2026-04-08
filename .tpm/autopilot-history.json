@@ -1,5 +1,20 @@
 [
   {
+    "cycle": 2,
+    "lastRunAt": "2026-04-08T19:09:47.401Z",
+    "successCount": 0,
+    "failedCount": 40,
+    "discoveredCount": 40,
+    "git": {
+      "addOk": true,
+      "commitOk": true,
+      "pushOk": false,
+      "changed": true,
+      "commitMessage": "tpm: autopilot cycle 2",
+      "pushOutput": "\nfatal: unable to access 'https://github.com/trading-pro-max/trading-pro-max.git/': Could not resolve host: github.com\n"
+    }
+  },
+  {
     "cycle": 1,
     "lastRunAt": "2026-04-08T18:44:29.060Z",
     "successCount": 0,
@@ -1766,21 +1781,6 @@
       "pushOk": false,
       "changed": false,
       "commitMessage": "tpm: autopilot cycle 1"
-    }
-  },
-  {
-    "cycle": 1,
-    "lastRunAt": "2026-04-08T14:39:12.399Z",
-    "successCount": 0,
-    "failedCount": 40,
-    "discoveredCount": 40,
-    "git": {
-      "addOk": true,
-      "commitOk": true,
-      "pushOk": true,
-      "changed": true,
-      "commitMessage": "tpm: autopilot cycle 1",
-      "pushOutput": "\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\nTo https://github.com/trading-pro-max/trading-pro-max.git\n   60d19268..1a0f31da  main -> main\n"
     }
   }
 ]
