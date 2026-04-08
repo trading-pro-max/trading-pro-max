@@ -1,11 +1,11 @@
 {
   "ok": true,
   "mode": "TPM_FINAL_AUTOPILOT",
-  "startedAt": "2026-04-08T13:24:41.017Z",
-  "finishedAt": "2026-04-08T13:24:41.039Z",
-  "scriptsTotal": 37,
+  "startedAt": "2026-04-08T13:26:11.072Z",
+  "finishedAt": "2026-04-08T13:26:11.122Z",
+  "scriptsTotal": 38,
   "scriptsPassed": 0,
-  "scriptsFailed": 37,
+  "scriptsFailed": 38,
   "scripts": [
     "tpm:agentmesh:once",
     "tpm:ai:once",
@@ -14,6 +14,7 @@
     "tpm:atlas:once",
     "tpm:broker:once",
     "tpm:command:once",
+    "tpm:constellation:once",
     "tpm:council:once",
     "tpm:enterprise:once",
     "tpm:executive:once",
@@ -90,6 +91,13 @@
     },
     {
       "name": "tpm:command:once",
+      "ok": false,
+      "code": null,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "tpm:constellation:once",
       "ok": false,
       "code": null,
       "stdout": "",

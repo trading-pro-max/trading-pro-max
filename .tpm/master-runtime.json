@@ -159,15 +159,7 @@
     "npm run tpm:navigator:once",
     "npm run tpm:navigator",
     "npm run tpm:quantum:once",
-    "npm run tpm:quantum",
-    "npm run tpm:vector:once",
-    "npm run tpm:vector",
-    "npm run tpm:atlas:once",
-    "npm run tpm:atlas",
-    "npm run tpm:observability:once",
-    "npm run tpm:observability",
-    "npm run tpm:enterprise:once",
-    "npm run tpm:enterprise"
+    "npm run tpm:quantum"
   ],
   "pages": [
     "/master-control",
@@ -228,19 +220,7 @@
     "/audit-stream",
     "/quantum-mesh",
     "/operator-memory",
-    "/assurance-bridge",
-    "/vector-core",
-    "/policy-memory",
-    "/continuity-radar",
-    "/atlas-mesh",
-    "/decision-archive",
-    "/runtime-theater",
-    "/observability-core",
-    "/incident-center",
-    "/playbook-os",
-    "/revenue-os",
-    "/compliance-ledger",
-    "/ops-replay"
+    "/assurance-bridge"
   ],
   "nextWave": [
     {
@@ -561,21 +541,21 @@
     {
       "slug": "constellation-core",
       "title": "constellation core",
-      "progress": 90,
+      "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
       "slug": "proof-engine",
       "title": "proof engine",
-      "progress": 90,
+      "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
       "slug": "runtime-registry",
       "title": "runtime registry",
-      "progress": 90,
+      "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
@@ -620,93 +600,9 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
-    },
-    {
-      "slug": "vector-core",
-      "title": "vector core",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "policy-memory",
-      "title": "policy memory",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "continuity-radar",
-      "title": "continuity radar",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "atlas-mesh",
-      "title": "atlas mesh",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "decision-archive",
-      "title": "decision archive",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "runtime-theater",
-      "title": "runtime theater",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "observability-core",
-      "title": "observability core",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "incident-center",
-      "title": "incident center",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "playbook-os",
-      "title": "playbook os",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "revenue-os",
-      "title": "revenue os",
-      "progress": 89,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "compliance-ledger",
-      "title": "compliance ledger",
-      "progress": 89,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "ops-replay",
-      "title": "ops replay",
-      "progress": 89,
-      "stage": "ACTIVE",
-      "status": "strong"
     }
   ],
-  "time": "2026-04-08T13:23:54.592Z",
+  "time": "2026-04-08T13:25:24.641Z",
   "localCertified": true,
   "releaseGate": "OPEN_LOCAL",
   "postCertificationFabric": {
@@ -714,7 +610,7 @@
     "layer": "FABRIC_CORE",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:23:54.597Z"
+    "time": "2026-04-08T13:25:24.663Z"
   },
   "externalDeployBlocked": true,
   "prismLayer": {
@@ -722,144 +618,111 @@
     "layer": "PRISM_CORE_STRATEGY_THEATER_INTEGRITY_HUB",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:23:55.421Z"
+    "time": "2026-04-08T13:25:25.466Z"
   },
   "sovereignLayer": {
     "active": true,
     "layer": "SOVEREIGN_GRID_CONTINUITY_VAULT_COMMAND_NEXUS",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:23:56.606Z"
+    "time": "2026-04-08T13:25:26.671Z"
   },
   "sentinelLayer": {
     "active": true,
     "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
     "progress": 93,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:23:57.462Z"
+    "time": "2026-04-08T13:25:27.520Z"
   },
   "helixLayer": {
     "active": true,
     "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:24:04.911Z"
+    "time": "2026-04-08T13:25:34.957Z"
   },
   "omegaLayer": {
     "active": true,
     "layer": "OMEGA_CORE_RECOVERY_MATRIX_TRUST_CENTER",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:24:06.934Z"
+    "time": "2026-04-08T13:25:37.023Z"
   },
   "executiveLayer": {
     "active": true,
     "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
     "progress": 96,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:24:09.212Z"
+    "time": "2026-04-08T13:25:39.258Z"
   },
   "vertexLayer": {
     "active": true,
     "layer": "VERTEX_CORE_SCENARIO_RADAR_CONTROL_MEMORY",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:24:09.686Z"
+    "time": "2026-04-08T13:25:39.749Z"
   },
   "pulseLayer": {
     "active": true,
     "layer": "PULSE_GRID_CHRONICLE_CENTER_LAUNCH_CONSOLE",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:24:11.498Z"
+    "time": "2026-04-08T13:25:41.589Z"
   },
   "federationLayer": {
     "active": true,
     "layer": "FEDERATION_CORE_SCENARIO_MEMORY_OPERATOR_JOURNAL",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:24:11.948Z"
+    "time": "2026-04-08T13:25:42.031Z"
   },
   "learningLayer": {
     "active": true,
     "layer": "LEARNING_LOOP_ROUTE_ARBITRATOR_POLICY_STUDIO",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:24:27.219Z"
+    "time": "2026-04-08T13:25:57.266Z"
   },
   "horizonLayer": {
     "active": true,
     "layer": "HORIZON_HUB_WORKSPACE_ROUTER_EVIDENCE_VAULT",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:24:35.160Z"
+    "time": "2026-04-08T13:26:05.223Z"
   },
   "globalExpansion": {
     "active": true,
     "layer": "NEXUS_CORE_MISSION_LEDGER_GROWTH_RADAR",
     "progress": 97,
     "status": "CLOSED_100",
-    "time": "2026-04-08T13:24:37.511Z"
+    "time": "2026-04-08T13:26:07.567Z"
   },
   "metaLayer": {
     "active": true,
     "layer": "META_GRID_REPLAY_LIBRARY_GATEKEEPER_PANEL",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:24:45.843Z"
+    "time": "2026-04-08T13:26:15.891Z"
   },
   "constellationLayer": {
     "active": true,
     "layer": "CONSTELLATION_CORE_PROOF_ENGINE_RUNTIME_REGISTRY",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:24:47.245Z"
-  },
-  "runtimeDepth": {
-    "active": 15,
-    "expected": 16,
-    "status": "CLOSED_100"
+    "time": "2026-04-08T13:26:17.328Z"
   },
   "navigatorLayer": {
     "active": true,
     "layer": "NAVIGATOR_CORE_PORTFOLIO_SIMULATOR_AUDIT_STREAM",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:24:49.917Z"
+    "time": "2026-04-08T13:26:19.997Z"
   },
   "quantumLayer": {
     "active": true,
     "layer": "QUANTUM_MESH_OPERATOR_MEMORY_ASSURANCE_BRIDGE",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:24:50.522Z"
-  },
-  "vectorLayer": {
-    "active": true,
-    "layer": "VECTOR_CORE_POLICY_MEMORY_CONTINUITY_RADAR",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T13:24:58.914Z"
-  },
-  "atlasLayer": {
-    "active": true,
-    "layer": "ATLAS_MESH_DECISION_ARCHIVE_RUNTIME_THEATER",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T13:24:58.980Z"
-  },
-  "observabilityLayer": {
-    "active": true,
-    "layer": "OBSERVABILITY_CORE_INCIDENT_CENTER_PLAYBOOK_OS",
-    "progress": 97,
-    "status": "ACTIVE",
-    "time": "2026-04-08T13:25:00.117Z"
-  },
-  "enterpriseLayer": {
-    "active": true,
-    "layer": "REVENUE_OS_COMPLIANCE_LEDGER_OPS_REPLAY",
-    "progress": 89,
-    "status": "ACTIVE",
-    "time": "2026-04-08T13:25:01.516Z"
+    "time": "2026-04-08T13:26:20.590Z"
   }
 }
