@@ -1,11 +1,16 @@
-﻿import { SurfacePage } from "../_components/SurfacePage";
+﻿import { getProductRuntimeStatus } from "../../lib/tpm-product-runtime.mjs";
+import { ProductRuntimePage } from "../_components/ProductRuntimePage";
+
+export const dynamic = "force-dynamic";
 
 export default function BillingPage() {
+  const data = getProductRuntimeStatus();
   return (
-    <SurfacePage
+    <ProductRuntimePage
       tag="TRADING PRO MAX"
       title="Billing"
-      subtitle="Plans, subscriptions, and commercial surface."
+      subtitle={`Cycle: ${data.runtime.cycle} · Subscriptions: ${data.metrics.subscriptions}`}
+      metrics={data.metrics}
       items={["Plans", "Subscription state", "Invoices", "Payment methods", "Upgrades", "Entitlements"]}
     />
   );

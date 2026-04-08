@@ -24,7 +24,9 @@
     "tpm:github:status": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-github-worker-status.ps1",
     "tpm:autonomouscore": "node ./scripts/tpm-autonomous-core-run.mjs",
     "tpm:tradingcore": "node ./scripts/tpm-trading-core-run.mjs",
-    "tpm:super": "node ./scripts/tpm-super-run.mjs"
+    "tpm:super": "node ./scripts/tpm-super-run.mjs",
+    "tpm:productdemo": "node ./scripts/tpm-product-demo.mjs",
+    "tpm:launchdemo": "node ./scripts/tpm-launch-demo.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

@@ -1,0 +1,13 @@
+{
+  "running": true,
+  "cycle": 1,
+  "users": 12,
+  "activeSessions": 5,
+  "workspaces": 3,
+  "subscriptions": 3,
+  "operatorQueue": 6,
+  "desktopCards": 6,
+  "mobileCards": 5,
+  "alerts": 3,
+  "updatedAt": "2026-04-08T04:33:35.448Z"
+}

@@ -14,7 +14,6 @@ export default function SuperControlPage() {
   const data = getSuperStatus();
   const c = card();
   const b = box();
-
   const phases = [
     { key: "production", label: "Production", value: data.production },
     { key: "trading", label: "Trading", value: data.trading },
@@ -47,7 +46,7 @@ export default function SuperControlPage() {
           <div style={{ display:"grid", gridTemplateColumns:"repeat(4,minmax(0,1fr))", gap:12 }}>
             {phases.map((x) => (
               <div key={x.key} style={b}>
-                <div style={{ display:"flex", justifyContent:"space-between", gap:10, flexWrap:"wrap" }}>
+                <div style={{ display:"flex", justifyContent:"space-between", gap:10 }}>
                   <div style={{ fontWeight:900 }}>{x.label}</div>
                   <div style={{ color:x.value.closed ? "#22c55e" : "#f59e0b", fontWeight:900 }}>
                     {x.value.closed ? "CLOSED" : "OPEN"}
@@ -61,17 +60,16 @@ export default function SuperControlPage() {
 
         <div style={{ display:"grid", gridTemplateColumns:"1fr 1fr", gap:16 }}>
           <div style={c}>
-            <div style={{ fontSize:22, fontWeight:900, marginBottom:12 }}>Surface Links</div>
+            <div style={{ fontSize:22, fontWeight:900, marginBottom:12 }}>Runtime Links</div>
             <div style={{ display:"grid", gap:10 }}>
-              <a href="/production-core" style={{ ...b, textDecoration:"none", color:"white", fontWeight:900 }}>Production Core</a>
-              <a href="/trading-core" style={{ ...b, textDecoration:"none", color:"white", fontWeight:900 }}>Trading Core</a>
+              <a href="/paper-trading" style={{ ...b, textDecoration:"none", color:"white", fontWeight:900 }}>Paper Trading</a>
               <a href="/identity" style={{ ...b, textDecoration:"none", color:"white", fontWeight:900 }}>Identity</a>
               <a href="/workspace" style={{ ...b, textDecoration:"none", color:"white", fontWeight:900 }}>Workspace</a>
               <a href="/client-portal" style={{ ...b, textDecoration:"none", color:"white", fontWeight:900 }}>Client Portal</a>
               <a href="/operator-os" style={{ ...b, textDecoration:"none", color:"white", fontWeight:900 }}>Operator OS</a>
+              <a href="/billing" style={{ ...b, textDecoration:"none", color:"white", fontWeight:900 }}>Billing</a>
               <a href="/desktop-hq" style={{ ...b, textDecoration:"none", color:"white", fontWeight:900 }}>Desktop HQ</a>
               <a href="/mobile-hq" style={{ ...b, textDecoration:"none", color:"white", fontWeight:900 }}>Mobile HQ</a>
-              <a href="/billing" style={{ ...b, textDecoration:"none", color:"white", fontWeight:900 }}>Billing</a>
               <a href="/security-center" style={{ ...b, textDecoration:"none", color:"white", fontWeight:900 }}>Security Center</a>
               <a href="/launch-readiness" style={{ ...b, textDecoration:"none", color:"white", fontWeight:900 }}>Launch Readiness</a>
             </div>

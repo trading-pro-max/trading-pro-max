@@ -1,11 +1,16 @@
-﻿import { SurfacePage } from "../_components/SurfacePage";
+﻿import { getProductRuntimeStatus } from "../../lib/tpm-product-runtime.mjs";
+import { ProductRuntimePage } from "../_components/ProductRuntimePage";
+
+export const dynamic = "force-dynamic";
 
 export default function OperatorOsPage() {
+  const data = getProductRuntimeStatus();
   return (
-    <SurfacePage
+    <ProductRuntimePage
       tag="TRADING PRO MAX"
       title="Operator OS"
-      subtitle="Internal operator and admin control surface."
+      subtitle={`Cycle: ${data.runtime.cycle} · Queue: ${data.metrics.operatorQueue}`}
+      metrics={data.metrics}
       items={["Operations", "Queue", "Interventions", "Health", "Logs", "Escalations"]}
     />
   );

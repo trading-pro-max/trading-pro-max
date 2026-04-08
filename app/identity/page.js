@@ -1,11 +1,16 @@
-﻿import { SurfacePage } from "../_components/SurfacePage";
+﻿import { getProductRuntimeStatus } from "../../lib/tpm-product-runtime.mjs";
+import { ProductRuntimePage } from "../_components/ProductRuntimePage";
+
+export const dynamic = "force-dynamic";
 
 export default function IdentityPage() {
+  const data = getProductRuntimeStatus();
   return (
-    <SurfacePage
+    <ProductRuntimePage
       tag="TRADING PRO MAX"
       title="Identity"
-      subtitle="Identity, permissions, and account access surface."
+      subtitle={`Cycle: ${data.runtime.cycle} · Sessions: ${data.metrics.activeSessions}`}
+      metrics={data.metrics}
       items={["Access model", "Roles", "Sessions", "Permissions", "Recovery", "Audit trail"]}
     />
   );

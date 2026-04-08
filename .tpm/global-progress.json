@@ -3,8 +3,6 @@
   "globalProgress": 100,
   "remaining": 0,
   "localCertified": false,
-  "baseGlobalProgress": 58,
-  "targetGlobalProgress": 100,
   "production": {
     "earned": 14,
     "max": 14,
@@ -61,9 +59,9 @@
     ]
   },
   "trading": {
-    "earned": 13,
+    "earned": 12,
     "max": 13,
-    "closed": true,
+    "closed": false,
     "checks": [
       {
         "key": "market_data",
@@ -114,6 +112,12 @@
         "pass": true
       },
       {
+        "key": "paper_runtime",
+        "label": "Paper trading runtime",
+        "weight": 1,
+        "pass": false
+      },
+      {
         "key": "trading_sql",
         "label": "Trading SQL bootstrap",
         "weight": 1,
@@ -124,12 +128,6 @@
         "label": "Trading docs",
         "weight": 1,
         "pass": true
-      },
-      {
-        "key": "trading_workflow",
-        "label": "Trading workflow",
-        "weight": 1,
-        "pass": true
       }
     ]
   },
@@ -138,6 +136,18 @@
     "max": 9,
     "closed": true,
     "checks": [
+      {
+        "key": "product_runtime",
+        "label": "Product runtime core",
+        "weight": 1,
+        "pass": true
+      },
+      {
+        "key": "product_api",
+        "label": "Product runtime APIs",
+        "weight": 1,
+        "pass": true
+      },
       {
         "key": "identity",
         "label": "Identity surface",
@@ -179,18 +189,6 @@
         "label": "Billing surface",
         "weight": 1,
         "pass": true
-      },
-      {
-        "key": "surface_component",
-        "label": "Surface component",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "product_docs",
-        "label": "Product surface docs",
-        "weight": 1,
-        "pass": true
       }
     ]
   },
@@ -199,6 +197,18 @@
     "max": 7,
     "closed": true,
     "checks": [
+      {
+        "key": "launch_runtime",
+        "label": "Launch runtime core",
+        "weight": 1,
+        "pass": true
+      },
+      {
+        "key": "launch_api",
+        "label": "Launch runtime APIs",
+        "weight": 1,
+        "pass": true
+      },
       {
         "key": "security_center",
         "label": "Security center",
@@ -228,28 +238,16 @@
         "label": "Launch checklist",
         "weight": 1,
         "pass": true
-      },
-      {
-        "key": "security_workflow",
-        "label": "Security workflow",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "super_layer",
-        "label": "Super control layer",
-        "weight": 1,
-        "pass": true
       }
     ]
   },
   "modulesClosed": 2,
   "modulesTotal": 2,
   "languages": {
-    "JSON": 58,
+    "JSON": 60,
     "Markdown": 24,
     "PowerShell": 52,
-    "JavaScript": 102,
+    "JavaScript": 114,
     "TypeScript": 212,
     "HTML": 2,
     "CSS": 3,
@@ -259,5 +257,5 @@
     "SQL": 2,
     "YAML": 5
   },
-  "updatedAt": "2026-04-08T04:32:50.637Z"
+  "updatedAt": "2026-04-08T04:33:36.476Z"
 }
