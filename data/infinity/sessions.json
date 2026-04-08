@@ -1,0 +1,291 @@
+{
+  "ok": true,
+  "loops": [
+    {
+      "slug": "agentmesh-loop",
+      "file": ".tpm/agentmesh-loop.pid",
+      "pid": "4984",
+      "status": "tracked"
+    },
+    {
+      "slug": "ai-loop",
+      "file": ".tpm/ai-loop.pid",
+      "pid": "11300",
+      "status": "tracked"
+    },
+    {
+      "slug": "analytics-loop",
+      "file": ".tpm/analytics-loop.pid",
+      "pid": "15792",
+      "status": "tracked"
+    },
+    {
+      "slug": "apex-loop",
+      "file": ".tpm/apex-loop.pid",
+      "pid": "7776",
+      "status": "tracked"
+    },
+    {
+      "slug": "atlas-loop",
+      "file": ".tpm/atlas-loop.pid",
+      "pid": "24440",
+      "status": "tracked"
+    },
+    {
+      "slug": "autopilot-loop",
+      "file": ".tpm/autopilot-loop.pid",
+      "pid": "10584",
+      "status": "tracked"
+    },
+    {
+      "slug": "broker-loop",
+      "file": ".tpm/broker-loop.pid",
+      "pid": "22608",
+      "status": "tracked"
+    },
+    {
+      "slug": "command-loop",
+      "file": ".tpm/command-loop.pid",
+      "pid": "17864",
+      "status": "tracked"
+    },
+    {
+      "slug": "constellation-loop",
+      "file": ".tpm/constellation-loop.pid",
+      "pid": "23520",
+      "status": "tracked"
+    },
+    {
+      "slug": "continuum-loop",
+      "file": ".tpm/continuum-loop.pid",
+      "pid": "24752",
+      "status": "tracked"
+    },
+    {
+      "slug": "council-loop",
+      "file": ".tpm/council-loop.pid",
+      "pid": "21284",
+      "status": "tracked"
+    },
+    {
+      "slug": "enterprise-loop",
+      "file": ".tpm/enterprise-loop.pid",
+      "pid": "15748",
+      "status": "tracked"
+    },
+    {
+      "slug": "executive-loop",
+      "file": ".tpm/executive-loop.pid",
+      "pid": "17800",
+      "status": "tracked"
+    },
+    {
+      "slug": "expansion-loop",
+      "file": ".tpm/expansion-loop.pid",
+      "pid": "13588",
+      "status": "tracked"
+    },
+    {
+      "slug": "fabric-loop",
+      "file": ".tpm/fabric-loop.pid",
+      "pid": "14468",
+      "status": "tracked"
+    },
+    {
+      "slug": "federation-loop",
+      "file": ".tpm/federation-loop.pid",
+      "pid": "23600",
+      "status": "tracked"
+    },
+    {
+      "slug": "governance-loop",
+      "file": ".tpm/governance-loop.pid",
+      "pid": "23108",
+      "status": "tracked"
+    },
+    {
+      "slug": "helix-loop",
+      "file": ".tpm/helix-loop.pid",
+      "pid": "376",
+      "status": "tracked"
+    },
+    {
+      "slug": "horizon-loop",
+      "file": ".tpm/horizon-loop.pid",
+      "pid": "12708",
+      "status": "tracked"
+    },
+    {
+      "slug": "infinity-loop",
+      "file": ".tpm/infinity-loop.pid",
+      "pid": "11456",
+      "status": "tracked"
+    },
+    {
+      "slug": "infinity-seven-loop",
+      "file": ".tpm/infinity-seven-loop.pid",
+      "pid": "28016",
+      "status": "tracked"
+    },
+    {
+      "slug": "infinity3-loop",
+      "file": ".tpm/infinity3-loop.pid",
+      "pid": "27828",
+      "status": "tracked"
+    },
+    {
+      "slug": "intelligence-loop",
+      "file": ".tpm/intelligence-loop.pid",
+      "pid": "10964",
+      "status": "tracked"
+    },
+    {
+      "slug": "jump4-loop",
+      "file": ".tpm/jump4-loop.pid",
+      "pid": "28516",
+      "status": "tracked"
+    },
+    {
+      "slug": "kernel-loop",
+      "file": ".tpm/kernel-loop.pid",
+      "pid": "828",
+      "status": "tracked"
+    },
+    {
+      "slug": "learning-loop",
+      "file": ".tpm/learning-loop.pid",
+      "pid": "16068",
+      "status": "tracked"
+    },
+    {
+      "slug": "market-loop",
+      "file": ".tpm/market-loop.pid",
+      "pid": "4236",
+      "status": "tracked"
+    },
+    {
+      "slug": "master-loop",
+      "file": ".tpm/master-loop.pid",
+      "pid": "22772",
+      "status": "tracked"
+    },
+    {
+      "slug": "meta-loop",
+      "file": ".tpm/meta-loop.pid",
+      "pid": "17828",
+      "status": "tracked"
+    },
+    {
+      "slug": "navigator-loop",
+      "file": ".tpm/navigator-loop.pid",
+      "pid": "5108",
+      "status": "tracked"
+    },
+    {
+      "slug": "nexus-loop",
+      "file": ".tpm/nexus-loop.pid",
+      "pid": "5912",
+      "status": "tracked"
+    },
+    {
+      "slug": "observability-loop",
+      "file": ".tpm/observability-loop.pid",
+      "pid": "1600",
+      "status": "tracked"
+    },
+    {
+      "slug": "omega-loop",
+      "file": ".tpm/omega-loop.pid",
+      "pid": "13676",
+      "status": "tracked"
+    },
+    {
+      "slug": "orchestrator-loop",
+      "file": ".tpm/orchestrator-loop.pid",
+      "pid": "16904",
+      "status": "tracked"
+    },
+    {
+      "slug": "platform-loop",
+      "file": ".tpm/platform-loop.pid",
+      "pid": "13764",
+      "status": "tracked"
+    },
+    {
+      "slug": "prism-loop",
+      "file": ".tpm/prism-loop.pid",
+      "pid": "11116",
+      "status": "tracked"
+    },
+    {
+      "slug": "pulse-loop",
+      "file": ".tpm/pulse-loop.pid",
+      "pid": "21352",
+      "status": "tracked"
+    },
+    {
+      "slug": "quantum-loop",
+      "file": ".tpm/quantum-loop.pid",
+      "pid": "7940",
+      "status": "tracked"
+    },
+    {
+      "slug": "runtimeops-loop",
+      "file": ".tpm/runtimeops-loop.pid",
+      "pid": "17064",
+      "status": "tracked"
+    },
+    {
+      "slug": "sentinel-loop",
+      "file": ".tpm/sentinel-loop.pid",
+      "pid": "11476",
+      "status": "tracked"
+    },
+    {
+      "slug": "simulation-loop",
+      "file": ".tpm/simulation-loop.pid",
+      "pid": "21364",
+      "status": "tracked"
+    },
+    {
+      "slug": "sovereign-loop",
+      "file": ".tpm/sovereign-loop.pid",
+      "pid": "9684",
+      "status": "tracked"
+    },
+    {
+      "slug": "strategy-loop",
+      "file": ".tpm/strategy-loop.pid",
+      "pid": "24408",
+      "status": "tracked"
+    },
+    {
+      "slug": "vector-loop",
+      "file": ".tpm/vector-loop.pid",
+      "pid": "26576",
+      "status": "tracked"
+    },
+    {
+      "slug": "vertex-loop",
+      "file": ".tpm/vertex-loop.pid",
+      "pid": "22788",
+      "status": "tracked"
+    },
+    {
+      "slug": "zenith-loop",
+      "file": ".tpm/zenith-loop.pid",
+      "pid": "27228",
+      "status": "tracked"
+    }
+  ],
+  "commands": [
+    "npm run tpm:infinity:once",
+    "npm run tpm:master:once",
+    "npm run dev"
+  ],
+  "totals": {
+    "trackedLoops": 46,
+    "runtimeFiles": 49
+  },
+  "time": "2026-04-08T22:24:05.022Z"
+}

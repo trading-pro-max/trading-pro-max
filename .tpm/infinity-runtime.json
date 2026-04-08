@@ -5,31 +5,37 @@
   "completed": 100,
   "remaining": 0,
   "domains": {
-    "infinity": 100,
-    "fabric": 100,
+    "registry": 100,
+    "sessions": 100,
     "memory": 100,
-    "proof": 100,
-    "continuity": 100
+    "continuity": 100,
+    "expansion": 100
+  },
+  "totals": {
+    "runtimes": 49,
+    "pages": 193,
+    "apiRoutes": 125,
+    "dataStores": 165
   },
   "nextWave": [
     {
-      "slug": "infinity-density",
-      "title": "infinity density",
+      "slug": "registry-density",
+      "title": "registry density",
       "progress": 100,
-      "status": "active"
+      "status": "closed"
     },
     {
-      "slug": "fabric-unification",
-      "title": "fabric unification",
+      "slug": "session-visibility",
+      "title": "session visibility",
       "progress": 100,
-      "status": "active"
+      "status": "closed"
     },
     {
-      "slug": "memory-depth",
-      "title": "memory depth",
+      "slug": "ops-memory",
+      "title": "ops memory",
       "progress": 100,
-      "status": "active"
+      "status": "closed"
     }
   ],
-  "time": "2026-04-08T22:22:38.125Z"
+  "time": "2026-04-08T22:24:05.022Z"
 }

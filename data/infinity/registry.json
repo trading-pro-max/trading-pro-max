@@ -1,0 +1,306 @@
+{
+  "ok": true,
+  "runtimes": [
+    {
+      "slug": "agentmesh-runtime",
+      "file": ".tpm/agentmesh-runtime.json",
+      "progress": 96,
+      "status": "strong"
+    },
+    {
+      "slug": "ai-runtime",
+      "file": ".tpm/ai-runtime.json",
+      "progress": 93,
+      "status": "strong"
+    },
+    {
+      "slug": "analytics-runtime",
+      "file": ".tpm/analytics-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "apex-runtime",
+      "file": ".tpm/apex-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "atlas-runtime",
+      "file": ".tpm/atlas-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "autopilot-runtime",
+      "file": ".tpm/autopilot-runtime.json",
+      "progress": 0,
+      "status": "early"
+    },
+    {
+      "slug": "broker-runtime",
+      "file": ".tpm/broker-runtime.json",
+      "progress": 96,
+      "status": "strong"
+    },
+    {
+      "slug": "client-runtime",
+      "file": ".tpm/client-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "command-runtime",
+      "file": ".tpm/command-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "constellation-runtime",
+      "file": ".tpm/constellation-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuum-runtime",
+      "file": ".tpm/continuum-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "council-runtime",
+      "file": ".tpm/council-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "enterprise-runtime",
+      "file": ".tpm/enterprise-runtime.json",
+      "progress": 89,
+      "status": "building"
+    },
+    {
+      "slug": "executive-runtime",
+      "file": ".tpm/executive-runtime.json",
+      "progress": 96,
+      "status": "strong"
+    },
+    {
+      "slug": "expansion-runtime",
+      "file": ".tpm/expansion-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "fabric-runtime",
+      "file": ".tpm/fabric-runtime.json",
+      "progress": 97,
+      "status": "strong"
+    },
+    {
+      "slug": "federation-runtime",
+      "file": ".tpm/federation-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "final-hardening-runtime",
+      "file": ".tpm/final-hardening-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "governance-runtime",
+      "file": ".tpm/governance-runtime.json",
+      "progress": 93,
+      "status": "strong"
+    },
+    {
+      "slug": "helix-runtime",
+      "file": ".tpm/helix-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "horizon-runtime",
+      "file": ".tpm/horizon-runtime.json",
+      "progress": 97,
+      "status": "strong"
+    },
+    {
+      "slug": "infinity-runtime",
+      "file": ".tpm/infinity-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "infinity-seven-runtime",
+      "file": ".tpm/infinity-seven-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "infinity3-runtime",
+      "file": ".tpm/infinity3-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "intelligence-runtime",
+      "file": ".tpm/intelligence-runtime.json",
+      "progress": 97,
+      "status": "strong"
+    },
+    {
+      "slug": "jump4-runtime",
+      "file": ".tpm/jump4-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "kernel-runtime",
+      "file": ".tpm/kernel-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "launch-runtime",
+      "file": ".tpm/launch-runtime.json",
+      "progress": 0,
+      "status": "early"
+    },
+    {
+      "slug": "learning-runtime",
+      "file": ".tpm/learning-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-runtime",
+      "file": ".tpm/market-runtime.json",
+      "progress": 96,
+      "status": "strong"
+    },
+    {
+      "slug": "master-runtime",
+      "file": ".tpm/master-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "meta-runtime",
+      "file": ".tpm/meta-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "navigator-runtime",
+      "file": ".tpm/navigator-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "nexus-runtime",
+      "file": ".tpm/nexus-runtime.json",
+      "progress": 97,
+      "status": "strong"
+    },
+    {
+      "slug": "observability-runtime",
+      "file": ".tpm/observability-runtime.json",
+      "progress": 97,
+      "status": "strong"
+    },
+    {
+      "slug": "omega-runtime",
+      "file": ".tpm/omega-runtime.json",
+      "progress": 97,
+      "status": "strong"
+    },
+    {
+      "slug": "platform-runtime",
+      "file": ".tpm/platform-runtime.json",
+      "progress": 83,
+      "status": "building"
+    },
+    {
+      "slug": "prism-runtime",
+      "file": ".tpm/prism-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "product-runtime",
+      "file": ".tpm/product-runtime.json",
+      "progress": 0,
+      "status": "early"
+    },
+    {
+      "slug": "pulse-runtime",
+      "file": ".tpm/pulse-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "quantum-runtime",
+      "file": ".tpm/quantum-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "runtimeops-runtime",
+      "file": ".tpm/runtimeops-runtime.json",
+      "progress": 80,
+      "status": "building"
+    },
+    {
+      "slug": "sentinel-runtime",
+      "file": ".tpm/sentinel-runtime.json",
+      "progress": 93,
+      "status": "strong"
+    },
+    {
+      "slug": "simulation-runtime",
+      "file": ".tpm/simulation-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "sovereign-runtime",
+      "file": ".tpm/sovereign-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "strategy-runtime",
+      "file": ".tpm/strategy-runtime.json",
+      "progress": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "vector-runtime",
+      "file": ".tpm/vector-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "vertex-runtime",
+      "file": ".tpm/vertex-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "zenith-runtime",
+      "file": ".tpm/zenith-runtime.json",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "totals": {
+    "runtimes": 49,
+    "pages": 193,
+    "apiRoutes": 125,
+    "dataStores": 165
+  },
+  "time": "2026-04-08T22:24:04.990Z"
+}

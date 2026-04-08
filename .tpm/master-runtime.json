@@ -73,7 +73,11 @@
     "/gatekeeper-panel",
     "/kernel-os",
     "/scenario-genome",
-    "/operator-memory"
+    "/operator-memory",
+    "/autopilot-center",
+    "/infinity-core",
+    "/session-lab",
+    "/ops-memory"
   ],
   "commands": [
     "npm run tpm:infinity3:once",
@@ -118,7 +122,11 @@
     "npm run tpm:meta:once",
     "npm run tpm:meta",
     "npm run tpm:kernel:once",
-    "npm run tpm:kernel"
+    "npm run tpm:kernel",
+    "npm run tpm:autopilot:once",
+    "npm run tpm:autopilot",
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity"
   ],
   "nextWave": [
     {
@@ -561,6 +569,34 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "infinity-core",
+      "title": "infinity core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "runtime-registry",
+      "title": "runtime registry",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "session-lab",
+      "title": "session lab",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "ops-memory",
+      "title": "ops memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "infinityLayer3": {
@@ -718,5 +754,75 @@
     "status": "ACTIVE",
     "infinityContinuation": "ACTIVE",
     "time": "2026-04-08T22:23:32.349Z"
+  },
+  "autopilot": {
+    "active": true,
+    "mode": "FULL_AUTO_LOCAL",
+    "cycle": 1,
+    "discoveredScripts": [
+      "tpm:agentmesh:once",
+      "tpm:ai:once",
+      "tpm:analytics:once",
+      "tpm:apex:once",
+      "tpm:atlas:once",
+      "tpm:broker:once",
+      "tpm:command:once",
+      "tpm:constellation:once",
+      "tpm:continuum:once",
+      "tpm:council:once",
+      "tpm:enterprise:once",
+      "tpm:executive:once",
+      "tpm:expansion:once",
+      "tpm:fabric:once",
+      "tpm:federation:once",
+      "tpm:final:once",
+      "tpm:governance:once",
+      "tpm:helix:once",
+      "tpm:horizon:once",
+      "tpm:infinity3:once",
+      "tpm:infinity7:once",
+      "tpm:infinity:once",
+      "tpm:intelligence:once",
+      "tpm:jump4:once",
+      "tpm:kernel:once",
+      "tpm:learning:once",
+      "tpm:market:once",
+      "tpm:meta:once",
+      "tpm:navigator:once",
+      "tpm:nexus:once",
+      "tpm:observability:once",
+      "tpm:omega:once",
+      "tpm:orchestrator:once",
+      "tpm:platform:once",
+      "tpm:prism:once",
+      "tpm:pulse:once",
+      "tpm:quantum:once",
+      "tpm:runtimeops:once",
+      "tpm:sentinel:once",
+      "tpm:simulation:once",
+      "tpm:sovereign:once",
+      "tpm:strategy:once",
+      "tpm:vector:once",
+      "tpm:vertex:once",
+      "tpm:zenith:once",
+      "tpm:master:once"
+    ],
+    "successCount": 0,
+    "failedCount": 46,
+    "lastRunAt": "2026-04-08T22:23:47.110Z",
+    "status": "ACTIVE_WITH_ERRORS"
+  },
+  "infinityLayer": {
+    "active": true,
+    "layer": "INFINITY_CORE_RUNTIME_REGISTRY_SESSION_LAB_OPS_MEMORY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "totals": {
+      "runtimes": 49,
+      "pages": 193,
+      "apiRoutes": 125,
+      "dataStores": 165
+    },
+    "time": "2026-04-08T22:24:05.029Z"
   }
 }
