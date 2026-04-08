@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "TPM_ENTERPRISE_ACTIVE",
+  "overallProgress": 79,
+  "completed": 79,
+  "remaining": 21,
+  "domains": {
+    "revenue": 83,
+    "compliance": 83,
+    "replay": 67,
+    "providers": 60,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "revenue-discipline",
+      "title": "revenue discipline",
+      "progress": 83,
+      "status": "active"
+    },
+    {
+      "slug": "compliance-depth",
+      "title": "compliance depth",
+      "progress": 83,
+      "status": "active"
+    },
+    {
+      "slug": "replay-memory",
+      "title": "replay memory",
+      "progress": 67,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-08T10:35:28.039Z"
+}

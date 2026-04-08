@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "ledgers": [
+    {
+      "slug": "runtime",
+      "title": "Runtime Ledger",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "risk",
+      "title": "Risk Ledger",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "execution",
+      "title": "Execution Ledger",
+      "score": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "release",
+      "title": "Release Ledger",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "controls": {
+    "localCertified": true,
+    "releaseGate": "OPEN_LOCAL",
+    "externalBlocked": true,
+    "auditDensity": 99
+  },
+  "time": "2026-04-08T10:35:28.039Z"
+}
