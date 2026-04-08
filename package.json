@@ -90,7 +90,9 @@
     "tpm:atlas:once": "node ./lib/tpm-atlas-core.mjs",
     "tpm:atlas": "node ./scripts/tpm-atlas-loop.mjs",
     "tpm:sovereign:once": "node ./lib/tpm-sovereign-core.mjs",
-    "tpm:sovereign": "node ./scripts/tpm-sovereign-loop.mjs"
+    "tpm:sovereign": "node ./scripts/tpm-sovereign-loop.mjs",
+    "tpm:pulse:once": "node ./lib/tpm-pulse-core.mjs",
+    "tpm:pulse": "node ./scripts/tpm-pulse-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",
