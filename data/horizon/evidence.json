@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "items": [
+    {
+      "slug": "certification",
+      "title": "Certification Evidence",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "runtime-proof",
+      "title": "Runtime Proof",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "governance-proof",
+      "title": "Governance Proof",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "platform-proof",
+      "title": "Platform Proof",
+      "score": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "enterprise-proof",
+      "title": "Enterprise Proof",
+      "score": 98,
+      "status": "strong"
+    }
+  ],
+  "maps": {
+    "evidenceSets": 16,
+    "replayableArtifacts": 21,
+    "trackedMilestones": 24,
+    "protectedProofs": 18
+  },
+  "time": "2026-04-08T10:45:32.377Z"
+}

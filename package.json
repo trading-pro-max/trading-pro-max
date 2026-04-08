@@ -70,7 +70,9 @@
     "tpm:enterprise:once": "node ./lib/tpm-enterprise-core.mjs",
     "tpm:enterprise": "node ./scripts/tpm-enterprise-loop.mjs",
     "tpm:platform:once": "node ./lib/tpm-platform-core.mjs",
-    "tpm:platform": "node ./scripts/tpm-platform-loop.mjs"
+    "tpm:platform": "node ./scripts/tpm-platform-loop.mjs",
+    "tpm:horizon:once": "node ./lib/tpm-horizon-core.mjs",
+    "tpm:horizon": "node ./scripts/tpm-horizon-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",
