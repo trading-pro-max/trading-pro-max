@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "fabrics": [
+    {
+      "slug": "loop-fabric",
+      "title": "Loop Fabric",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "agent-fabric",
+      "title": "Agent Fabric",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-fabric",
+      "title": "Policy Fabric",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-fabric",
+      "title": "Recovery Fabric",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeLoops": 18,
+    "autonomousChains": 16,
+    "restartConfidence": 100,
+    "autonomyConfidence": 100
+  },
+  "time": "2026-04-08T23:40:09.007Z"
+}
