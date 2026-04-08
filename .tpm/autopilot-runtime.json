@@ -1,11 +1,11 @@
 {
   "ok": true,
   "mode": "TPM_FINAL_AUTOPILOT",
-  "startedAt": "2026-04-08T13:53:12.160Z",
-  "finishedAt": "2026-04-08T13:53:12.210Z",
-  "scriptsTotal": 39,
+  "startedAt": "2026-04-08T13:54:42.267Z",
+  "finishedAt": "2026-04-08T13:54:42.303Z",
+  "scriptsTotal": 40,
   "scriptsPassed": 0,
-  "scriptsFailed": 39,
+  "scriptsFailed": 40,
   "scripts": [
     "tpm:agentmesh:once",
     "tpm:ai:once",
@@ -39,6 +39,7 @@
     "tpm:prism:once",
     "tpm:pulse:once",
     "tpm:quantum:once",
+    "tpm:runtimeops:once",
     "tpm:sentinel:once",
     "tpm:simulation:once",
     "tpm:sovereign:once",
@@ -267,6 +268,13 @@
     },
     {
       "name": "tpm:quantum:once",
+      "ok": false,
+      "code": null,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "name": "tpm:runtimeops:once",
       "ok": false,
       "code": null,
       "stdout": "",
