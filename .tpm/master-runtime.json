@@ -128,11 +128,7 @@
     "npm run tpm:simulation:once",
     "npm run tpm:intelligence:once",
     "npm run tpm:executive:once",
-    "npm run tpm:executive",
-    "npm run tpm:horizon:once",
-    "npm run tpm:horizon",
-    "npm run tpm:enterprise:once",
-    "npm run tpm:enterprise"
+    "npm run tpm:executive"
   ],
   "pages": [
     "/master-control",
@@ -145,13 +141,7 @@
     "/intelligence-center",
     "/control-tower",
     "/capital-os",
-    "/execution-intelligence",
-    "/horizon-hub",
-    "/workspace-router",
-    "/evidence-vault",
-    "/revenue-os",
-    "/compliance-ledger",
-    "/ops-replay"
+    "/execution-intelligence"
   ],
   "nextWave": [
     {
@@ -195,51 +185,9 @@
       "progress": 96,
       "stage": "ACTIVE",
       "status": "strong"
-    },
-    {
-      "slug": "horizon-hub",
-      "title": "horizon hub",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "workspace-router",
-      "title": "workspace router",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "evidence-vault",
-      "title": "evidence vault",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "revenue-os",
-      "title": "revenue os",
-      "progress": 89,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "compliance-ledger",
-      "title": "compliance ledger",
-      "progress": 89,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "ops-replay",
-      "title": "ops replay",
-      "progress": 89,
-      "stage": "ACTIVE",
-      "status": "strong"
     }
   ],
-  "time": "2026-04-08T10:46:22.714Z",
+  "time": "2026-04-08T10:49:22.747Z",
   "localCertified": true,
   "releaseGate": "OPEN_LOCAL",
   "executiveLayer": {
@@ -247,20 +195,6 @@
     "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
     "progress": 96,
     "status": "ACTIVE",
-    "time": "2026-04-08T10:46:37.498Z"
-  },
-  "horizonLayer": {
-    "active": true,
-    "layer": "HORIZON_HUB_WORKSPACE_ROUTER_EVIDENCE_VAULT",
-    "progress": 97,
-    "status": "ACTIVE",
-    "time": "2026-04-08T10:47:02.435Z"
-  },
-  "enterpriseLayer": {
-    "active": true,
-    "layer": "REVENUE_OS_COMPLIANCE_LEDGER_OPS_REPLAY",
-    "progress": 89,
-    "status": "ACTIVE",
-    "time": "2026-04-08T10:47:29.512Z"
+    "time": "2026-04-08T10:49:37.545Z"
   }
 }
