@@ -134,20 +134,26 @@
     "npm run tpm:apex",
     "npm run tpm:platform:once",
     "npm run tpm:platform",
-    "npm run tpm:federation:once",
-    "npm run tpm:federation",
+    "npm run tpm:prism:once",
+    "npm run tpm:prism",
     "npm run tpm:constellation:once",
     "npm run tpm:constellation",
+    "npm run tpm:enterprise:once",
+    "npm run tpm:enterprise",
     "npm run tpm:horizon:once",
     "npm run tpm:horizon",
     "npm run tpm:sentinel:once",
     "npm run tpm:sentinel",
     "npm run tpm:council:once",
     "npm run tpm:council",
+    "npm run tpm:quantum:once",
+    "npm run tpm:quantum",
     "npm run tpm:agentmesh:once",
     "npm run tpm:agentmesh",
     "npm run tpm:runtimeops:once",
     "npm run tpm:runtimeops",
+    "npm run tpm:learning:once",
+    "npm run tpm:learning",
     "npm run tpm:nexus:once",
     "npm run tpm:nexus"
   ],
@@ -172,12 +178,15 @@
     "/api-gateway",
     "/integration-hub",
     "/lifecycle-os",
-    "/federation-core",
-    "/scenario-memory",
-    "/operator-journal",
+    "/prism-core",
+    "/strategy-theater",
+    "/integrity-hub",
     "/constellation-core",
     "/proof-engine",
     "/runtime-registry",
+    "/revenue-os",
+    "/compliance-ledger",
+    "/ops-replay",
     "/horizon-hub",
     "/workspace-router",
     "/evidence-vault",
@@ -187,12 +196,18 @@
     "/council-core",
     "/knowledge-ledger",
     "/switchboard",
+    "/quantum-board",
+    "/governance-pulse",
+    "/scenario-memory",
     "/agent-mesh",
     "/memory-os",
     "/growth-engine",
     "/connector-inspector",
     "/env-doctor",
     "/runtime-health",
+    "/learning-loop",
+    "/route-arbitrator",
+    "/policy-studio",
     "/nexus-core",
     "/mission-ledger",
     "/growth-radar"
@@ -304,22 +319,22 @@
       "status": "strong"
     },
     {
-      "slug": "federation-core",
-      "title": "federation core",
+      "slug": "prism-core",
+      "title": "prism core",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "scenario-memory",
-      "title": "scenario memory",
+      "slug": "strategy-theater",
+      "title": "strategy theater",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "operator-journal",
-      "title": "operator journal",
+      "slug": "integrity-hub",
+      "title": "integrity hub",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
@@ -342,6 +357,27 @@
       "slug": "runtime-registry",
       "title": "runtime registry",
       "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "revenue-os",
+      "title": "revenue os",
+      "progress": 89,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "compliance-ledger",
+      "title": "compliance ledger",
+      "progress": 89,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "ops-replay",
+      "title": "ops replay",
+      "progress": 89,
       "stage": "ACTIVE",
       "status": "strong"
     },
@@ -409,6 +445,27 @@
       "status": "strong"
     },
     {
+      "slug": "quantum-board",
+      "title": "quantum board",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "governance-pulse",
+      "title": "governance pulse",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-memory",
+      "title": "scenario memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
       "slug": "agent-mesh-depth",
       "title": "agent mesh depth",
       "progress": 96,
@@ -451,6 +508,27 @@
       "status": "strong"
     },
     {
+      "slug": "learning-loop",
+      "title": "learning loop",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "route-arbitrator",
+      "title": "route arbitrator",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "policy-studio",
+      "title": "policy studio",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
       "slug": "nexus-core",
       "title": "nexus core",
       "progress": 97,
@@ -472,7 +550,7 @@
       "status": "closed"
     }
   ],
-  "time": "2026-04-08T19:24:44.688Z",
+  "time": "2026-04-08T19:26:14.748Z",
   "localCertified": true,
   "releaseGate": "OPEN_LOCAL",
   "externalDeployBlocked": true,
@@ -481,83 +559,104 @@
     "layer": "VERTEX_CORE_SCENARIO_RADAR_CONTROL_MEMORY",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T19:24:44.756Z"
+    "time": "2026-04-08T19:26:14.838Z"
   },
   "postCertificationFabric": {
     "active": true,
     "layer": "FABRIC_CORE",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T19:24:44.782Z"
+    "time": "2026-04-08T19:26:14.850Z"
   },
   "apexLayer": {
     "active": true,
     "layer": "APEX_COMMAND_MEMORY_FABRIC_DEPLOY_READINESS",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T19:24:44.798Z"
+    "time": "2026-04-08T19:26:14.865Z"
   },
   "platformLayer": {
     "active": true,
     "layer": "API_GATEWAY_INTEGRATION_HUB_LIFECYCLE_OS",
     "progress": 83,
     "status": "ACTIVE",
-    "time": "2026-04-08T19:24:44.829Z"
+    "time": "2026-04-08T19:26:14.901Z"
   },
-  "federationLayer": {
+  "prismLayer": {
     "active": true,
-    "layer": "FEDERATION_CORE_SCENARIO_MEMORY_OPERATOR_JOURNAL",
+    "layer": "PRISM_CORE_STRATEGY_THEATER_INTEGRITY_HUB",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T19:24:44.943Z"
+    "time": "2026-04-08T19:26:15.020Z"
   },
   "constellationLayer": {
     "active": true,
     "layer": "CONSTELLATION_CORE_PROOF_ENGINE_RUNTIME_REGISTRY",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T19:24:45.070Z"
+    "time": "2026-04-08T19:26:15.123Z"
+  },
+  "enterpriseLayer": {
+    "active": true,
+    "layer": "REVENUE_OS_COMPLIANCE_LEDGER_OPS_REPLAY",
+    "progress": 89,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:26:15.198Z"
   },
   "horizonLayer": {
     "active": true,
     "layer": "HORIZON_HUB_WORKSPACE_ROUTER_EVIDENCE_VAULT",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T19:24:45.131Z"
+    "time": "2026-04-08T19:26:15.222Z"
   },
   "sentinelLayer": {
     "active": true,
     "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
     "progress": 93,
     "status": "ACTIVE",
-    "time": "2026-04-08T19:24:45.156Z"
+    "time": "2026-04-08T19:26:15.249Z"
   },
   "councilLayer": {
     "active": true,
     "layer": "COUNCIL_CORE_KNOWLEDGE_LEDGER_SWITCHBOARD",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T19:24:45.232Z"
+    "time": "2026-04-08T19:26:15.314Z"
+  },
+  "quantumLayer": {
+    "active": true,
+    "layer": "QUANTUM_BOARD_GOVERNANCE_PULSE_SCENARIO_MEMORY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:26:15.335Z"
   },
   "postCertification": {
     "active": true,
     "layer": "AGENT_MESH_EXPANSION",
     "progress": 96,
     "status": "ACTIVE",
-    "time": "2026-04-08T19:24:45.287Z"
+    "time": "2026-04-08T19:26:15.358Z"
   },
   "runtimeOpsLayer": {
     "active": true,
     "layer": "CONNECTOR_INSPECTOR_ENV_DOCTOR_RUNTIME_HEALTH",
     "progress": 80,
     "status": "ACTIVE",
-    "time": "2026-04-08T19:24:45.322Z"
+    "time": "2026-04-08T19:26:15.383Z"
+  },
+  "learningLayer": {
+    "active": true,
+    "layer": "LEARNING_LOOP_ROUTE_ARBITRATOR_POLICY_STUDIO",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:26:15.406Z"
   },
   "globalExpansion": {
     "active": true,
     "layer": "NEXUS_CORE_MISSION_LEDGER_GROWTH_RADAR",
     "progress": 97,
     "status": "CLOSED_100",
-    "time": "2026-04-08T19:24:45.356Z"
+    "time": "2026-04-08T19:26:15.439Z"
   }
 }
