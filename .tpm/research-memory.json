@@ -1,10 +1,10 @@
 {
   "ok": true,
-  "filesTracked": 271,
+  "filesTracked": 273,
   "routes": 1,
   "pages": 32,
-  "libs": 46,
-  "scripts": 63,
+  "libs": 47,
+  "scripts": 64,
   "watchedZones": [
     "app",
     "app/api",
@@ -18,5 +18,5 @@
     "strategy-runtime.json",
     "intelligence-runtime.json"
   ],
-  "time": "2026-04-08T08:52:04.763Z"
+  "time": "2026-04-08T08:53:34.789Z"
 }
