@@ -161,7 +161,9 @@
     "npm run tpm:vector:once",
     "npm run tpm:vector",
     "npm run tpm:infinity:once",
-    "npm run tpm:infinity"
+    "npm run tpm:infinity",
+    "npm run tpm:zenith:once",
+    "npm run tpm:zenith"
   ],
   "pages": [
     "/master-control",
@@ -223,7 +225,10 @@
     "/assurance-wall",
     "/infinity-core",
     "/autonomy-forge",
-    "/growth-lab"
+    "/growth-lab",
+    "/zenith-core",
+    "/memory-cartography",
+    "/runtime-charter"
   ],
   "nextWave": [
     {
@@ -610,6 +615,27 @@
       "progress": 90,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "zenith-core",
+      "title": "zenith core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-cartography",
+      "title": "memory cartography",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "runtime-charter",
+      "title": "runtime charter",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T21:40:19.194Z",
@@ -742,5 +768,14 @@
     "status": "ACTIVE",
     "postClosure": true,
     "time": "2026-04-08T21:41:11.937Z"
+  },
+  "infinitySystem": {
+    "active": true,
+    "jump": 7,
+    "layer": "ZENITH_CORE_MEMORY_CARTOGRAPHY_RUNTIME_CHARTER",
+    "progress": 100,
+    "status": "ACTIVE",
+    "mode": "POST_CLOSURE_INFINITY",
+    "time": "2026-04-08T21:41:30.760Z"
   }
 }
