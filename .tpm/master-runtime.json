@@ -171,7 +171,11 @@
     "npm run tpm:prism:once",
     "npm run tpm:prism",
     "npm run tpm:titan:once",
-    "npm run tpm:titan"
+    "npm run tpm:titan",
+    "npm run tpm:constellation:once",
+    "npm run tpm:constellation",
+    "npm run tpm:autopilot:once",
+    "npm run tpm:autopilot"
   ],
   "pages": [
     "/master-control",
@@ -254,7 +258,11 @@
     "/titan-core",
     "/war-room",
     "/infinity-matrix",
-    "/memory-citadel"
+    "/memory-citadel",
+    "/constellation-hub",
+    "/scenario-exchange",
+    "/assurance-console",
+    "/autopilot-center"
   ],
   "nextWave": [
     {
@@ -781,6 +789,27 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "constellation-hub",
+      "title": "constellation hub",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-exchange",
+      "title": "scenario exchange",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "assurance-console",
+      "title": "assurance console",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T22:58:38.819Z",
@@ -966,5 +995,71 @@
     "protectedCommands": 51,
     "confidence": 100,
     "time": "2026-04-08T22:58:47.865Z"
+  },
+  "constellationLayer": {
+    "active": true,
+    "layer": "CONSTELLATION_HUB_SCENARIO_EXCHANGE_ASSURANCE_CONSOLE",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T22:59:05.801Z"
+  },
+  "autopilot": {
+    "active": true,
+    "mode": "FULL_AUTO_LOCAL",
+    "cycle": 1,
+    "discoveredScripts": [
+      "tpm:agentmesh:once",
+      "tpm:ai:once",
+      "tpm:analytics:once",
+      "tpm:apex:once",
+      "tpm:atlas:once",
+      "tpm:broker:once",
+      "tpm:command:once",
+      "tpm:constellation:once",
+      "tpm:continuum:once",
+      "tpm:council:once",
+      "tpm:enterprise:once",
+      "tpm:executive:once",
+      "tpm:expansion:once",
+      "tpm:fabric:once",
+      "tpm:federation:once",
+      "tpm:final:once",
+      "tpm:governance:once",
+      "tpm:helix:once",
+      "tpm:horizon:once",
+      "tpm:hyper:once",
+      "tpm:infinity3:once",
+      "tpm:infinity7:once",
+      "tpm:infinity:once",
+      "tpm:intelligence:once",
+      "tpm:jump4:once",
+      "tpm:kernel:once",
+      "tpm:learning:once",
+      "tpm:market:once",
+      "tpm:meta:once",
+      "tpm:navigator:once",
+      "tpm:nexus:once",
+      "tpm:observability:once",
+      "tpm:omega:once",
+      "tpm:orchestrator:once",
+      "tpm:platform:once",
+      "tpm:prism:once",
+      "tpm:pulse:once",
+      "tpm:quantum:once",
+      "tpm:runtimeops:once",
+      "tpm:sentinel:once",
+      "tpm:simulation:once",
+      "tpm:sovereign:once",
+      "tpm:strategy:once",
+      "tpm:titan:once",
+      "tpm:vector:once",
+      "tpm:vertex:once",
+      "tpm:zenith:once",
+      "tpm:master:once"
+    ],
+    "successCount": 0,
+    "failedCount": 48,
+    "lastRunAt": "2026-04-08T22:59:07.042Z",
+    "status": "ACTIVE_WITH_ERRORS"
   }
 }
