@@ -1072,21 +1072,21 @@
     "progress": 97,
     "status": "ACTIVE",
     "mode": "POST_CLOSURE_UNLIMITED",
-    "time": "2026-04-08T16:59:41.445Z"
+    "time": "2026-04-08T17:01:11.467Z"
   },
   "apexLayer": {
     "active": true,
     "layer": "APEX_COMMAND_MEMORY_FABRIC_DEPLOY_READINESS",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T16:59:53.057Z"
+    "time": "2026-04-08T17:01:23.111Z"
   },
   "platformLayer": {
     "active": true,
     "layer": "API_GATEWAY_INTEGRATION_HUB_LIFECYCLE_OS",
     "progress": 83,
     "status": "ACTIVE",
-    "time": "2026-04-08T16:59:56.286Z"
+    "time": "2026-04-08T17:01:26.307Z"
   },
   "councilLayer": {
     "active": true,
