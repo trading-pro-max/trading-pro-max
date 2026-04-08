@@ -137,7 +137,15 @@
     "npm run tpm:helix:once",
     "npm run tpm:helix",
     "npm run tpm:omega:once",
-    "npm run tpm:omega"
+    "npm run tpm:omega",
+    "npm run tpm:executive:once",
+    "npm run tpm:executive",
+    "npm run tpm:vertex:once",
+    "npm run tpm:vertex",
+    "npm run tpm:pulse:once",
+    "npm run tpm:pulse",
+    "npm run tpm:federation:once",
+    "npm run tpm:federation"
   ],
   "pages": [
     "/master-control",
@@ -165,7 +173,18 @@
     "/resilience-deck",
     "/omega-core",
     "/recovery-matrix",
-    "/trust-center"
+    "/trust-center",
+    "/control-tower",
+    "/capital-os",
+    "/execution-intelligence",
+    "/vertex-core",
+    "/scenario-radar",
+    "/control-memory",
+    "/pulse-grid",
+    "/chronicle-center",
+    "/launch-console",
+    "/federation-core",
+    "/operator-journal"
   ],
   "nextWave": [
     {
@@ -314,6 +333,83 @@
       "progress": 97,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "control-tower",
+      "title": "control tower",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "capital-os",
+      "title": "capital os",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "execution-intelligence",
+      "title": "execution intelligence",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "vertex-core",
+      "title": "vertex core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-radar",
+      "title": "scenario radar",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "control-memory",
+      "title": "control memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "pulse-grid",
+      "title": "pulse grid",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "chronicle-center",
+      "title": "chronicle center",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "launch-console",
+      "title": "launch console",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "federation-core",
+      "title": "federation core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-journal",
+      "title": "operator journal",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T18:09:01.016Z",
@@ -361,5 +457,33 @@
     "progress": 97,
     "status": "ACTIVE",
     "time": "2026-04-08T18:09:14.564Z"
+  },
+  "executiveLayer": {
+    "active": true,
+    "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
+    "progress": 96,
+    "status": "ACTIVE",
+    "time": "2026-04-08T18:09:17.008Z"
+  },
+  "vertexLayer": {
+    "active": true,
+    "layer": "VERTEX_CORE_SCENARIO_RADAR_CONTROL_MEMORY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T18:09:17.198Z"
+  },
+  "pulseLayer": {
+    "active": true,
+    "layer": "PULSE_GRID_CHRONICLE_CENTER_LAUNCH_CONSOLE",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T18:09:19.226Z"
+  },
+  "federationLayer": {
+    "active": true,
+    "layer": "FEDERATION_CORE_SCENARIO_MEMORY_OPERATOR_JOURNAL",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T18:09:19.343Z"
   }
 }
