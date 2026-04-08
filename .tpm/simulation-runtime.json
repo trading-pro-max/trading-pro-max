@@ -1,12 +1,12 @@
 {
   "ok": true,
   "mode": "TPM_SIMULATION_ACTIVE",
-  "overallProgress": 93,
-  "completed": 93,
-  "remaining": 7,
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
   "domains": {
-    "backtest": 83,
-    "signals": 80,
+    "backtest": 100,
+    "signals": 100,
     "research": 100,
     "validation": 100,
     "execution": 100
@@ -41,5 +41,5 @@
       "status": "active"
     }
   ],
-  "time": "2026-04-08T09:10:28.227Z"
+  "time": "2026-04-08T09:10:29.489Z"
 }
