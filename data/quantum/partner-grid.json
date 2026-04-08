@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "nodes": [
+    {
+      "slug": "broker",
+      "title": "Broker Partner",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ai",
+      "title": "AI Partner",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "mail",
+      "title": "Mail Partner",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "alert",
+      "title": "Alert Partner",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "integratedPartners": 12,
+    "governedBridges": 10,
+    "partnerConfidence": 100,
+    "switchReadiness": 100
+  },
+  "time": "2026-04-08T22:58:14.839Z"
+}

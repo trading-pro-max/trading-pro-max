@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "panels": [
+  "towers": [
     {
-      "slug": "signal-field",
-      "title": "Signal Field",
+      "slug": "runtime-quantum",
+      "title": "Runtime Quantum",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "capital-field",
-      "title": "Capital Field",
+      "slug": "capital-quantum",
+      "title": "Capital Quantum",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "policy-field",
-      "title": "Policy Field",
+      "slug": "ops-quantum",
+      "title": "Ops Quantum",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "trust-field",
-      "title": "Trust Field",
+      "slug": "growth-quantum",
+      "title": "Growth Quantum",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activePanels": 16,
-    "linkedSystems": 30,
-    "protectedVectors": 24,
+    "activeLayers": 25,
+    "governedRoutes": 22,
+    "protectedStores": 29,
     "quantumConfidence": 100
   },
-  "time": "2026-04-08T22:57:09.020Z"
+  "time": "2026-04-08T22:58:14.837Z"
 }

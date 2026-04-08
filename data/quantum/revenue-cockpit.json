@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "streams": [
+    {
+      "slug": "subscriptions",
+      "title": "Subscriptions",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "expansion",
+      "title": "Expansion Revenue",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "billing",
+      "title": "Billing Discipline",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "retention",
+      "title": "Retention Revenue",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "recurringStrength": 100,
+    "billingClarity": 100,
+    "revenueDiscipline": 100,
+    "expansionReadiness": 100
+  },
+  "time": "2026-04-08T22:58:14.839Z"
+}

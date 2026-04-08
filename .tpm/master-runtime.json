@@ -28,7 +28,25 @@
     "/titan-core",
     "/war-room",
     "/infinity-matrix",
-    "/memory-citadel"
+    "/memory-citadel",
+    "/constellation-hub",
+    "/scenario-exchange",
+    "/assurance-console",
+    "/kernel-os",
+    "/scenario-genome",
+    "/operator-memory",
+    "/infinity-core",
+    "/autonomy-director",
+    "/vault-matrix",
+    "/growth-command",
+    "/quantum-hq",
+    "/revenue-cockpit",
+    "/partner-grid",
+    "/autonomy-factory",
+    "/client-command",
+    "/omega-core",
+    "/recovery-matrix",
+    "/trust-center"
   ],
   "commands": [
     "npm run tpm:horizon:once",
@@ -45,7 +63,17 @@
     "npm run tpm:prism:once",
     "npm run tpm:prism",
     "npm run tpm:titan:once",
-    "npm run tpm:titan"
+    "npm run tpm:titan",
+    "npm run tpm:constellation:once",
+    "npm run tpm:constellation",
+    "npm run tpm:kernel:once",
+    "npm run tpm:kernel",
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity",
+    "npm run tpm:quantum:once",
+    "npm run tpm:quantum",
+    "npm run tpm:omega:once",
+    "npm run tpm:omega"
   ],
   "nextWave": [
     {
@@ -201,6 +229,111 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "constellation-hub",
+      "title": "constellation hub",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-exchange",
+      "title": "scenario exchange",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "assurance-console",
+      "title": "assurance console",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "kernel-os",
+      "title": "kernel os",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-genome",
+      "title": "scenario genome",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-memory",
+      "title": "operator memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "infinity-core",
+      "title": "infinity core",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomy-director",
+      "title": "autonomy director",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "vault-matrix",
+      "title": "vault matrix",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "growth-command",
+      "title": "growth command",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "quantum-hq",
+      "title": "quantum hq",
+      "progress": 83,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "revenue-cockpit",
+      "title": "revenue cockpit",
+      "progress": 83,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "partner-grid",
+      "title": "partner grid",
+      "progress": 83,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomy-factory",
+      "title": "autonomy factory",
+      "progress": 83,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "client-command",
+      "title": "client command",
+      "progress": 83,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "horizonLayer": {
@@ -242,7 +375,13 @@
     "status": "ACTIVE",
     "time": "2026-04-08T22:57:09.902Z"
   },
-  "infinityContinuation": "ACTIVE",
+  "infinityContinuation": {
+    "active": true,
+    "status": "ACTIVE",
+    "layer": "QUANTUM_HQ",
+    "progress": 83,
+    "time": "2026-04-08T22:58:14.375Z"
+  },
   "prismLayer": {
     "active": true,
     "layer": "PRISM_CORE_MEMORY_MAP_EXECUTION_FORUM",
@@ -266,10 +405,31 @@
     "time": "2026-04-08T22:57:17.772Z"
   },
   "runtimeDepth": {
-    "status": "MAX_INTERNAL",
-    "protectedPages": 22,
-    "protectedCommands": 15,
-    "confidence": 100,
-    "time": "2026-04-08T22:57:17.773Z"
+    "active": 15,
+    "expected": 16,
+    "status": "CLOSED_100"
+  },
+  "constellationLayer": {
+    "active": true,
+    "layer": "CONSTELLATION_HUB_SCENARIO_EXCHANGE_ASSURANCE_CONSOLE",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T22:57:35.773Z"
+  },
+  "kernelLayer": {
+    "active": true,
+    "layer": "KERNEL_OS_SCENARIO_GENOME_OPERATOR_MEMORY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "infinityContinuation": "ACTIVE",
+    "time": "2026-04-08T22:58:03.934Z"
+  },
+  "infinity": {
+    "active": true,
+    "mode": "ACTIVE",
+    "progress": 97,
+    "localState": "CLOSED_100",
+    "expansionState": "INFINITE_CONTINUATION_ACTIVE",
+    "time": "2026-04-08T22:58:11.639Z"
   }
 }

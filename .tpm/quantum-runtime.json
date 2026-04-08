@@ -1,15 +1,15 @@
 {
   "ok": true,
   "mode": "TPM_QUANTUM_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
+  "overallProgress": 83,
+  "completed": 83,
+  "remaining": 17,
   "domains": {
     "quantum": 100,
-    "genome": 100,
-    "covenant": 100,
-    "proof": 100,
-    "continuity": 100
+    "revenue": 83,
+    "partners": 83,
+    "autonomy": 67,
+    "client": 83
   },
   "nextWave": [
     {
@@ -19,17 +19,29 @@
       "status": "active"
     },
     {
-      "slug": "genome-depth",
-      "title": "genome depth",
-      "progress": 100,
+      "slug": "revenue-discipline",
+      "title": "revenue discipline",
+      "progress": 83,
       "status": "active"
     },
     {
-      "slug": "covenant-strength",
-      "title": "covenant strength",
-      "progress": 100,
+      "slug": "partner-unification",
+      "title": "partner unification",
+      "progress": 83,
+      "status": "active"
+    },
+    {
+      "slug": "autonomy-expansion",
+      "title": "autonomy expansion",
+      "progress": 67,
+      "status": "active"
+    },
+    {
+      "slug": "client-command",
+      "title": "client command",
+      "progress": 83,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T22:57:09.020Z"
+  "time": "2026-04-08T22:58:14.364Z"
 }
