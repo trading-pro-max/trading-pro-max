@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "mode": "TPM_RUNTIMEOPS_ACTIVE",
+  "overallProgress": 80,
+  "completed": 80,
+  "remaining": 20,
+  "domains": {
+    "runtimeops": 100,
+    "runtimeData": 100,
+    "proof": 100,
+    "continuity": 100,
+    "providers": 0
+  },
+  "nextWave": [
+    {
+      "slug": "connector-coverage",
+      "title": "connector coverage",
+      "progress": 0,
+      "status": "active"
+    },
+    {
+      "slug": "env-health",
+      "title": "env health",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "runtime-health",
+      "title": "runtime health",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-08T13:53:29.088Z"

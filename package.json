@@ -114,7 +114,9 @@
     "tpm:constellation:once": "node ./lib/tpm-constellation-core.mjs",
     "tpm:constellation": "node ./scripts/tpm-constellation-loop.mjs",
     "tpm:infinity:once": "node ./lib/tpm-infinity-core.mjs",
-    "tpm:infinity": "node ./scripts/tpm-infinity-loop.mjs"
+    "tpm:infinity": "node ./scripts/tpm-infinity-loop.mjs",
+    "tpm:runtimeops:once": "node ./lib/tpm-runtimeops-core.mjs",
+    "tpm:runtimeops": "node ./scripts/tpm-runtimeops-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

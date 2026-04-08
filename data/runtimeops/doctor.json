@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "slug": "repo",
+      "title": "Repository",
+      "status": "pass",
+      "score": 100
+    },
+    {
+      "slug": "workflows",
+      "title": "GitHub Workflows",
+      "status": "pass",
+      "score": 100
+    },
+    {
+      "slug": "env",
+      "title": "Connector ENV",
+      "status": "pass",
+      "score": 100
+    },
+    {
+      "slug": "master",
+      "title": "Master Runtime",
+      "status": "pass",
+      "score": 100
+    },
+    {
+      "slug": "certification",
+      "title": "Local Certification",
+      "status": "pass",
+      "score": 100
+    }
+  ],
+  "metrics": {
+    "healthScore": 100,
+    "warnings": 0,
+    "failures": 0,
+    "externalDeployBlocked": true
+  },
+  "time": "2026-04-08T13:53:29.087Z"
+}
