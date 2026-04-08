@@ -5,37 +5,30 @@
   "completed": 100,
   "remaining": 0,
   "domains": {
-    "registry": 100,
-    "sessions": 100,
+    "infinity": 100,
     "memory": 100,
-    "continuity": 100,
-    "expansion": 100
-  },
-  "totals": {
-    "runtimes": 49,
-    "pages": 195,
-    "apiRoutes": 125,
-    "dataStores": 170
+    "radar": 100,
+    "proof": 100,
+    "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "registry-density",
-      "title": "registry density",
+      "slug": "infinity-depth",
+      "title": "infinity depth",
       "progress": 100,
-      "status": "closed"
+      "status": "active"
     },
     {
-      "slug": "session-visibility",
-      "title": "session visibility",
+      "slug": "memory-density",
+      "title": "memory density",
       "progress": 100,
-      "status": "closed"
+      "status": "active"
     },
     {
-      "slug": "ops-memory",
-      "title": "ops memory",
+      "slug": "radar-clarity",
+      "title": "radar clarity",
       "progress": 100,
-      "status": "closed"
+      "status": "active"
     }
   ],
-  "time": "2026-04-08T22:27:06.762Z"
-}
+  "time": "2026-04-08T22:29:03.5

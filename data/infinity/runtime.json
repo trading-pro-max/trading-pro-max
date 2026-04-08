@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "engines": [
+  "loops": [
     {
-      "slug": "infinity-runtime",
-      "title": "Infinity Runtime",
+      "slug": "runtime-infinity",
+      "title": "Runtime Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "infinity-policy",
-      "title": "Infinity Policy",
+      "slug": "strategy-infinity",
+      "title": "Strategy Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "infinity-growth",
-      "title": "Infinity Growth",
+      "slug": "operator-infinity",
+      "title": "Operator Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "infinity-trust",
-      "title": "Infinity Trust",
+      "slug": "continuity-infinity",
+      "title": "Continuity Infinity",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeInfinityEngines": 4,
-    "protectedInfinityFlows": 22,
-    "governedInfinityStores": 20,
+    "infiniteLoops": 18,
+    "governedLayers": 24,
+    "protectedStores": 30,
     "infinityConfidence": 100
   },
-  "time": "2026-04-08T22:22:38.125Z"
+  "time": "2026-04-08T22:29:03.585Z"
 }
