@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "engines": [
+    {
+      "slug": "runtime-proof",
+      "title": "Runtime Proof",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "governance-proof",
+      "title": "Governance Proof",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "platform-proof",
+      "title": "Platform Proof",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-proof",
+      "title": "Trust Proof",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "proofSets": 26,
+    "auditedProofs": 22,
+    "replayableProofs": 20,
+    "proofConfidence": 100
+  },
+  "time": "2026-04-08T13:24:47.239Z"
+}

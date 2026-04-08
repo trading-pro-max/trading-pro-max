@@ -145,7 +145,17 @@
     "npm run tpm:pulse:once",
     "npm run tpm:pulse",
     "npm run tpm:federation:once",
-    "npm run tpm:federation"
+    "npm run tpm:federation",
+    "npm run tpm:learning:once",
+    "npm run tpm:learning",
+    "npm run tpm:horizon:once",
+    "npm run tpm:horizon",
+    "npm run tpm:nexus:once",
+    "npm run tpm:nexus",
+    "npm run tpm:meta:once",
+    "npm run tpm:meta",
+    "npm run tpm:constellation:once",
+    "npm run tpm:constellation"
   ],
   "pages": [
     "/master-control",
@@ -185,7 +195,22 @@
     "/launch-console",
     "/federation-core",
     "/scenario-memory",
-    "/operator-journal"
+    "/operator-journal",
+    "/learning-loop",
+    "/route-arbitrator",
+    "/policy-studio",
+    "/horizon-hub",
+    "/workspace-router",
+    "/evidence-vault",
+    "/nexus-core",
+    "/mission-ledger",
+    "/growth-radar",
+    "/meta-grid",
+    "/replay-library",
+    "/gatekeeper-panel",
+    "/constellation-core",
+    "/proof-engine",
+    "/runtime-registry"
   ],
   "nextWave": [
     {
@@ -418,6 +443,111 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "learning-loop",
+      "title": "learning loop",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "route-arbitrator",
+      "title": "route arbitrator",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "policy-studio",
+      "title": "policy studio",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "horizon-hub",
+      "title": "horizon hub",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "workspace-router",
+      "title": "workspace router",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "evidence-vault",
+      "title": "evidence vault",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "nexus-core",
+      "title": "nexus core",
+      "progress": 97,
+      "stage": "CLOSED",
+      "status": "closed"
+    },
+    {
+      "slug": "mission-ledger",
+      "title": "mission ledger",
+      "progress": 97,
+      "stage": "CLOSED",
+      "status": "closed"
+    },
+    {
+      "slug": "growth-radar",
+      "title": "growth radar",
+      "progress": 97,
+      "stage": "CLOSED",
+      "status": "closed"
+    },
+    {
+      "slug": "meta-grid",
+      "title": "meta grid",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "replay-library",
+      "title": "replay library",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "gatekeeper-panel",
+      "title": "gatekeeper panel",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "constellation-core",
+      "title": "constellation core",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "proof-engine",
+      "title": "proof engine",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "runtime-registry",
+      "title": "runtime registry",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T13:23:54.592Z",
@@ -493,5 +623,45 @@
     "progress": 100,
     "status": "ACTIVE",
     "time": "2026-04-08T13:24:11.948Z"
+  },
+  "learningLayer": {
+    "active": true,
+    "layer": "LEARNING_LOOP_ROUTE_ARBITRATOR_POLICY_STUDIO",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T13:24:27.219Z"
+  },
+  "horizonLayer": {
+    "active": true,
+    "layer": "HORIZON_HUB_WORKSPACE_ROUTER_EVIDENCE_VAULT",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T13:24:35.160Z"
+  },
+  "globalExpansion": {
+    "active": true,
+    "layer": "NEXUS_CORE_MISSION_LEDGER_GROWTH_RADAR",
+    "progress": 97,
+    "status": "CLOSED_100",
+    "time": "2026-04-08T13:24:37.511Z"
+  },
+  "metaLayer": {
+    "active": true,
+    "layer": "META_GRID_REPLAY_LIBRARY_GATEKEEPER_PANEL",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T13:24:45.843Z"
+  },
+  "constellationLayer": {
+    "active": true,
+    "layer": "CONSTELLATION_CORE_PROOF_ENGINE_RUNTIME_REGISTRY",
+    "progress": 90,
+    "status": "ACTIVE",
+    "time": "2026-04-08T13:24:46.283Z"
+  },
+  "runtimeDepth": {
+    "active": 15,
+    "expected": 16,
+    "status": "CLOSED_100"
   }
 }

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "ledgers": [
+    {
+      "slug": "runtime-ledger",
+      "title": "Runtime Ledger",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ops-ledger",
+      "title": "Ops Ledger",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-ledger",
+      "title": "Audit Ledger",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "command-ledger",
+      "title": "Command Ledger",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "registeredLayers": 24,
+    "registeredPages": 42,
+    "registeredLoops": 22,
+    "registryConfidence": 100
+  },
+  "time": "2026-04-08T13:24:47.239Z"
+}

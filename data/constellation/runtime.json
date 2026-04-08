@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "clusters": [
+    {
+      "slug": "runtime-cluster",
+      "title": "Runtime Cluster",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-cluster",
+      "title": "Policy Cluster",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-cluster",
+      "title": "Evidence Cluster",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "launch-cluster",
+      "title": "Launch Cluster",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "linkedClusters": 22,
+    "protectedArtifacts": 30,
+    "registryCoverage": 100,
+    "constellationConfidence": 100
+  },
+  "time": "2026-04-08T13:24:47.238Z"
+}
