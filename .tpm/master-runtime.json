@@ -118,7 +118,8 @@
     }
   ],
   "blockers": [
-    "External GoDaddy deploy remains blocked by current hosting plan."
+    "GoDaddy SFTP credentials are not filled yet.",
+    "External deploy remains constrained by current hosting plan."
   ],
   "commands": [
     "npm run tpm:master:once",
@@ -137,7 +138,11 @@
     "npm run tpm:nexus:once",
     "npm run tpm:nexus",
     "npm run tpm:navigator:once",
-    "npm run tpm:navigator"
+    "npm run tpm:navigator",
+    "npm run tpm:observability:once",
+    "npm run tpm:observability",
+    "npm run tpm:enterprise:once",
+    "npm run tpm:enterprise"
   ],
   "pages": [
     "/master-control",
@@ -165,7 +170,13 @@
     "/growth-radar",
     "/navigator-core",
     "/portfolio-simulator",
-    "/audit-stream"
+    "/audit-stream",
+    "/observability-core",
+    "/incident-center",
+    "/playbook-os",
+    "/revenue-os",
+    "/compliance-ledger",
+    "/ops-replay"
   ],
   "nextWave": [
     {
@@ -297,26 +308,68 @@
     {
       "slug": "navigator-core",
       "title": "navigator core",
-      "progress": 90,
+      "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
       "slug": "portfolio-simulator",
       "title": "portfolio simulator",
-      "progress": 90,
+      "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
       "slug": "audit-stream",
       "title": "audit stream",
-      "progress": 90,
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "observability-core",
+      "title": "observability core",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "incident-center",
+      "title": "incident center",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "playbook-os",
+      "title": "playbook os",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "revenue-os",
+      "title": "revenue os",
+      "progress": 89,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "compliance-ledger",
+      "title": "compliance ledger",
+      "progress": 89,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "ops-replay",
+      "title": "ops replay",
+      "progress": 89,
       "stage": "ACTIVE",
       "status": "strong"
     }
   ],
-  "time": "2026-04-08T11:07:23.056Z",
+  "time": "2026-04-08T11:08:53.081Z",
   "localCertified": true,
   "releaseGate": "OPEN_LOCAL",
   "sentinelLayer": {
@@ -324,47 +377,55 @@
     "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
     "progress": 93,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:07:26.108Z"
+    "time": "2026-04-08T11:08:56.149Z"
   },
   "omegaLayer": {
     "active": true,
     "layer": "OMEGA_CORE_RECOVERY_MATRIX_TRUST_CENTER",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:07:35.693Z"
+    "time": "2026-04-08T11:09:05.750Z"
   },
   "executiveLayer": {
     "active": true,
     "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
     "progress": 96,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:07:37.974Z"
+    "time": "2026-04-08T11:09:08.009Z"
   },
   "horizonLayer": {
     "active": true,
     "layer": "HORIZON_HUB_WORKSPACE_ROUTER_EVIDENCE_VAULT",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:08:02.945Z"
+    "time": "2026-04-08T11:09:32.983Z"
   },
   "globalExpansion": {
     "active": true,
     "layer": "NEXUS_CORE_MISSION_LEDGER_GROWTH_RADAR",
     "progress": 97,
     "status": "CLOSED_100",
-    "time": "2026-04-08T11:08:05.825Z"
+    "time": "2026-04-08T11:09:35.857Z"
   },
   "navigatorLayer": {
     "active": true,
     "layer": "NAVIGATOR_CORE_PORTFOLIO_SIMULATOR_AUDIT_STREAM",
-    "progress": 90,
+    "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:08:16.946Z"
+    "time": "2026-04-08T11:09:47.901Z"
   },
-  "externalDeployBlocked": true,
-  "runtimeDepth": {
-    "active": 15,
-    "expected": 16,
-    "status": "CLOSED_100"
+  "observabilityLayer": {
+    "active": true,
+    "layer": "OBSERVABILITY_CORE_INCIDENT_CENTER_PLAYBOOK_OS",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T11:09:58.537Z"
+  },
+  "enterpriseLayer": {
+    "active": true,
+    "layer": "REVENUE_OS_COMPLIANCE_LEDGER_OPS_REPLAY",
+    "progress": 89,
+    "status": "ACTIVE",
+    "time": "2026-04-08T11:09:59.945Z"
   }
 }

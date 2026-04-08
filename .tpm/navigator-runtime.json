@@ -1,13 +1,13 @@
 {
   "ok": true,
   "mode": "TPM_NAVIGATOR_ACTIVE",
-  "overallProgress": 90,
-  "completed": 90,
-  "remaining": 10,
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
   "domains": {
-    "navigator": 83,
-    "portfolio": 83,
-    "audit": 83,
+    "navigator": 100,
+    "portfolio": 100,
+    "audit": 100,
     "proof": 100,
     "continuity": 100
   },
@@ -15,21 +15,21 @@
     {
       "slug": "navigator-discipline",
       "title": "navigator discipline",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "portfolio-scenarios",
       "title": "portfolio scenarios",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "audit-depth",
       "title": "audit depth",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T11:08:16.939Z"
+  "time": "2026-04-08T11:09:47.891Z"
 }
