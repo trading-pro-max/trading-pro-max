@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "lanes": [
+    {
+      "slug": "execution-auto",
+      "title": "Execution Autopilot",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-auto",
+      "title": "Risk Autopilot",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-auto",
+      "title": "Capital Autopilot",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-auto",
+      "title": "Trust Autopilot",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "autopilotLanes": 12,
+    "guardedActions": 24,
+    "arbitrationStrength": 100,
+    "autopilotConfidence": 100
+  },
+  "time": "2026-04-08T21:13:43.700Z"
+}

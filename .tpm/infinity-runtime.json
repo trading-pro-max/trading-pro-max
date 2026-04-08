@@ -6,30 +6,29 @@
   "remaining": 0,
   "domains": {
     "infinity": 100,
-    "genome": 100,
-    "embassy": 100,
+    "forge": 100,
+    "autopilot": 100,
     "proof": 100,
     "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "infinity-density",
-      "title": "infinity density",
+      "slug": "infinity-depth",
+      "title": "infinity depth",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "genome-depth",
-      "title": "genome depth",
+      "slug": "forge-density",
+      "title": "forge density",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "embassy-clarity",
-      "title": "embassy clarity",
+      "slug": "autopilot-strength",
+      "title": "autopilot strength",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T21:11:48.994Z"
-}
+  "time": "2026-04-08T21:13:43.7
