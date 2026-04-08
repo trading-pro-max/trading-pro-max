@@ -177,7 +177,9 @@
     "npm run tpm:council:once",
     "npm run tpm:council",
     "npm run tpm:agentmesh:once",
-    "npm run tpm:agentmesh"
+    "npm run tpm:agentmesh",
+    "npm run tpm:autopilot:once",
+    "npm run tpm:autopilot"
   ],
   "pages": [
     "/master-control",
@@ -264,7 +266,8 @@
     "/switchboard",
     "/agent-mesh",
     "/memory-os",
-    "/growth-engine"
+    "/growth-engine",
+    "/autopilot-center"
   ],
   "nextWave": [
     {
@@ -914,7 +917,7 @@
     "layer": "LEARNING_LOOP_ROUTE_ARBITRATOR_POLICY_STUDIO",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T15:39:31.924Z"
+    "time": "2026-04-08T15:41:01.991Z"
   },
   "horizonLayer": {
     "active": true,
@@ -1014,5 +1017,56 @@
     "progress": 96,
     "status": "ACTIVE",
     "time": "2026-04-08T15:40:25.373Z"
+  },
+  "autopilot": {
+    "active": true,
+    "mode": "FULL_AUTO_LOCAL",
+    "cycle": 1,
+    "discoveredScripts": [
+      "tpm:agentmesh:once",
+      "tpm:ai:once",
+      "tpm:analytics:once",
+      "tpm:apex:once",
+      "tpm:atlas:once",
+      "tpm:broker:once",
+      "tpm:command:once",
+      "tpm:constellation:once",
+      "tpm:council:once",
+      "tpm:enterprise:once",
+      "tpm:executive:once",
+      "tpm:expansion:once",
+      "tpm:fabric:once",
+      "tpm:federation:once",
+      "tpm:final:once",
+      "tpm:governance:once",
+      "tpm:helix:once",
+      "tpm:horizon:once",
+      "tpm:infinity:once",
+      "tpm:intelligence:once",
+      "tpm:learning:once",
+      "tpm:market:once",
+      "tpm:meta:once",
+      "tpm:navigator:once",
+      "tpm:nexus:once",
+      "tpm:observability:once",
+      "tpm:omega:once",
+      "tpm:orchestrator:once",
+      "tpm:platform:once",
+      "tpm:prism:once",
+      "tpm:pulse:once",
+      "tpm:quantum:once",
+      "tpm:runtimeops:once",
+      "tpm:sentinel:once",
+      "tpm:simulation:once",
+      "tpm:sovereign:once",
+      "tpm:strategy:once",
+      "tpm:vector:once",
+      "tpm:vertex:once",
+      "tpm:master:once"
+    ],
+    "successCount": 0,
+    "failedCount": 40,
+    "lastRunAt": "2026-04-08T15:40:55.859Z",
+    "status": "ACTIVE_WITH_ERRORS"
   }
 }
