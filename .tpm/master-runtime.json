@@ -148,8 +148,12 @@
     "npm run tpm:pulse",
     "npm run tpm:federation:once",
     "npm run tpm:federation",
-    "npm run tpm:autopilot:once",
-    "npm run tpm:autopilot"
+    "npm run tpm:learning:once",
+    "npm run tpm:learning",
+    "npm run tpm:horizon:once",
+    "npm run tpm:horizon",
+    "npm run tpm:nexus:once",
+    "npm run tpm:nexus"
   ],
   "pages": [
     "/master-control",
@@ -192,7 +196,15 @@
     "/launch-console",
     "/federation-core",
     "/operator-journal",
-    "/autopilot-center"
+    "/learning-loop",
+    "/route-arbitrator",
+    "/policy-studio",
+    "/horizon-hub",
+    "/workspace-router",
+    "/evidence-vault",
+    "/nexus-core",
+    "/mission-ledger",
+    "/growth-radar"
   ],
   "nextWave": [
     {
@@ -439,9 +451,72 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "learning-loop",
+      "title": "learning loop",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "route-arbitrator",
+      "title": "route arbitrator",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "policy-studio",
+      "title": "policy studio",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "horizon-hub",
+      "title": "horizon hub",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "workspace-router",
+      "title": "workspace router",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "evidence-vault",
+      "title": "evidence vault",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "nexus-core",
+      "title": "nexus core",
+      "progress": 97,
+      "stage": "CLOSED",
+      "status": "closed"
+    },
+    {
+      "slug": "mission-ledger",
+      "title": "mission ledger",
+      "progress": 97,
+      "stage": "CLOSED",
+      "status": "closed"
+    },
+    {
+      "slug": "growth-radar",
+      "title": "growth radar",
+      "progress": 97,
+      "stage": "CLOSED",
+      "status": "closed"
     }
   ],
-  "time": "2026-04-08T15:50:58.252Z",
+  "time": "2026-04-08T15:52:28.263Z",
   "localCertified": true,
   "releaseGate": "OPEN_LOCAL",
   "postCertificationFabric": {
@@ -449,7 +524,7 @@
     "layer": "FABRIC_CORE",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T15:50:58.254Z"
+    "time": "2026-04-08T15:52:28.267Z"
   },
   "externalDeployBlocked": true,
   "prismLayer": {
@@ -457,120 +532,90 @@
     "layer": "PRISM_CORE_STRATEGY_THEATER_INTEGRITY_HUB",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T15:50:59.538Z"
+    "time": "2026-04-08T15:52:29.558Z"
   },
   "sovereignLayer": {
     "active": true,
     "layer": "SOVEREIGN_GRID_CONTINUITY_VAULT_COMMAND_NEXUS",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T15:51:01.033Z"
+    "time": "2026-04-08T15:52:31.054Z"
   },
   "sentinelLayer": {
     "active": true,
     "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
     "progress": 93,
     "status": "ACTIVE",
-    "time": "2026-04-08T15:51:02.051Z"
+    "time": "2026-04-08T15:52:32.115Z"
   },
   "quantumLayer": {
     "active": true,
     "layer": "QUANTUM_BOARD_GOVERNANCE_PULSE_SCENARIO_MEMORY",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T15:51:06.800Z"
+    "time": "2026-04-08T15:52:36.819Z"
   },
   "helixLayer": {
     "active": true,
     "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T15:51:09.541Z"
+    "time": "2026-04-08T15:52:39.604Z"
   },
   "omegaLayer": {
     "active": true,
     "layer": "OMEGA_CORE_RECOVERY_MATRIX_TRUST_CENTER",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T15:51:11.382Z"
+    "time": "2026-04-08T15:52:41.401Z"
   },
   "executiveLayer": {
     "active": true,
     "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
     "progress": 96,
     "status": "ACTIVE",
-    "time": "2026-04-08T15:51:13.481Z"
+    "time": "2026-04-08T15:52:43.537Z"
   },
   "vertexLayer": {
     "active": true,
     "layer": "VERTEX_CORE_SCENARIO_RADAR_CONTROL_MEMORY",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T15:51:13.818Z"
+    "time": "2026-04-08T15:52:43.831Z"
   },
   "pulseLayer": {
     "active": true,
     "layer": "PULSE_GRID_CHRONICLE_CENTER_LAUNCH_CONSOLE",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T15:51:15.784Z"
+    "time": "2026-04-08T15:52:45.799Z"
   },
   "federationLayer": {
     "active": true,
     "layer": "FEDERATION_CORE_SCENARIO_MEMORY_OPERATOR_JOURNAL",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T15:51:15.828Z"
+    "time": "2026-04-08T15:52:45.849Z"
   },
-  "autopilot": {
+  "learningLayer": {
     "active": true,
-    "mode": "FULL_AUTO_LOCAL",
-    "cycle": 1,
-    "discoveredScripts": [
-      "tpm:agentmesh:once",
-      "tpm:ai:once",
-      "tpm:analytics:once",
-      "tpm:apex:once",
-      "tpm:atlas:once",
-      "tpm:broker:once",
-      "tpm:command:once",
-      "tpm:constellation:once",
-      "tpm:council:once",
-      "tpm:enterprise:once",
-      "tpm:executive:once",
-      "tpm:expansion:once",
-      "tpm:fabric:once",
-      "tpm:federation:once",
-      "tpm:final:once",
-      "tpm:governance:once",
-      "tpm:helix:once",
-      "tpm:horizon:once",
-      "tpm:infinity:once",
-      "tpm:intelligence:once",
-      "tpm:learning:once",
-      "tpm:market:once",
-      "tpm:meta:once",
-      "tpm:navigator:once",
-      "tpm:nexus:once",
-      "tpm:observability:once",
-      "tpm:omega:once",
-      "tpm:orchestrator:once",
-      "tpm:platform:once",
-      "tpm:prism:once",
-      "tpm:pulse:once",
-      "tpm:quantum:once",
-      "tpm:runtimeops:once",
-      "tpm:sentinel:once",
-      "tpm:simulation:once",
-      "tpm:sovereign:once",
-      "tpm:strategy:once",
-      "tpm:vector:once",
-      "tpm:vertex:once",
-      "tpm:master:once"
-    ],
-    "successCount": 0,
-    "failedCount": 40,
-    "lastRunAt": "2026-04-08T15:51:18.850Z",
-    "status": "ACTIVE_WITH_ERRORS"
+    "layer": "LEARNING_LOOP_ROUTE_ARBITRATOR_POLICY_STUDIO",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T15:53:02.255Z"
+  },
+  "horizonLayer": {
+    "active": true,
+    "layer": "HORIZON_HUB_WORKSPACE_ROUTER_EVIDENCE_VAULT",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T15:53:09.551Z"
+  },
+  "globalExpansion": {
+    "active": true,
+    "layer": "NEXUS_CORE_MISSION_LEDGER_GROWTH_RADAR",
+    "progress": 97,
+    "status": "CLOSED_100",
+    "time": "2026-04-08T15:53:12.010Z"
   }
 }
