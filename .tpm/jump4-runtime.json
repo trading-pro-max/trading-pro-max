@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "mode": "TPM_JUMP4_ACTIVE",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "domains": {
+    "stack": 100,
+    "flow": 100,
+    "continuity": 100
+  },
+  "time": "2026-04-08T19:48:19.435Z

@@ -118,7 +118,9 @@
     "tpm:runtimeops:once": "node ./lib/tpm-runtimeops-core.mjs",
     "tpm:runtimeops": "node ./scripts/tpm-runtimeops-loop.mjs",
     "tpm:infinity3:once": "node ./lib/tpm-infinity3-core.mjs",
-    "tpm:infinity3": "node ./scripts/tpm-infinity3-loop.mjs"
+    "tpm:infinity3": "node ./scripts/tpm-infinity3-loop.mjs",
+    "tpm:jump4:once": "node ./lib/tpm-jump4-core.mjs",
+    "tpm:jump4": "node ./scripts/tpm-jump4-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

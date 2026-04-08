@@ -14,14 +14,33 @@
     "/apex-command",
     "/memory-fabric",
     "/deploy-readiness",
-    "/autopilot-center"
+    "/autopilot-center",
+    "/vector-core",
+    "/relay-dome",
+    "/memory-theater",
+    "/ops-lattice",
+    "/infinity-core",
+    "/strategy-genome",
+    "/ops-embassy",
+    "/infinity-jump-4",
+    "/omega-core",
+    "/recovery-matrix",
+    "/trust-center"
   ],
   "commands": [
     "npm run tpm:apex:once",
     "npm run tpm:apex",
     "npm run tpm:master:once",
     "npm run tpm:autopilot:once",
-    "npm run tpm:autopilot"
+    "npm run tpm:autopilot",
+    "npm run tpm:vector:once",
+    "npm run tpm:vector",
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity",
+    "npm run tpm:jump4:once",
+    "npm run tpm:jump4",
+    "npm run tpm:omega:once",
+    "npm run tpm:omega"
   ],
   "nextWave": [
     {
@@ -42,6 +61,62 @@
       "slug": "deploy-readiness",
       "title": "deploy readiness",
       "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "vector-core",
+      "title": "vector core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "relay-dome",
+      "title": "relay dome",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-theater",
+      "title": "memory theater",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "ops-lattice",
+      "title": "ops lattice",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "infinity-core",
+      "title": "infinity core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "strategy-genome",
+      "title": "strategy genome",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "ops-embassy",
+      "title": "ops embassy",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "jump-4",
+      "title": "infinity jump 4",
+      "progress": 94,
       "stage": "ACTIVE",
       "status": "strong"
     }
@@ -104,5 +179,31 @@
     "failedCount": 41,
     "lastRunAt": "2026-04-08T19:47:43.585Z",
     "status": "ACTIVE_WITH_ERRORS"
+  },
+  "vectorLayer": {
+    "active": true,
+    "layer": "VECTOR_CORE_RELAY_DOME_MEMORY_THEATER_OPS_LATTICE",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:47:49.082Z"
+  },
+  "infinityLayer": {
+    "active": true,
+    "layer": "INFINITY_CORE_STRATEGY_GENOME_OPS_EMBASSY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:48:04.211Z"
+  },
+  "jump4": {
+    "active": true,
+    "layer": "INFINITY_JUMP_4",
+    "progress": 94,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:48:17.681Z"
+  },
+  "runtimeDepth": {
+    "active": 15,
+    "expected": 16,
+    "status": "CLOSED_100"
   }
 }
