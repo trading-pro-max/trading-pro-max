@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "engines": [
+  "systems": [
     {
-      "slug": "post-closure",
-      "title": "Post Closure Engine",
+      "slug": "runtime-infinity",
+      "title": "Runtime Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "autonomy-depth",
-      "title": "Autonomy Depth",
+      "slug": "strategy-infinity",
+      "title": "Strategy Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "strategy-depth",
-      "title": "Strategy Depth",
+      "slug": "governance-infinity",
+      "title": "Governance Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "growth-depth",
-      "title": "Growth Depth",
+      "slug": "trust-infinity",
+      "title": "Trust Infinity",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "infiniteLoops": 18,
-    "certifiedLayers": 22,
-    "protectedStores": 26,
+    "activeInfinitySystems": 4,
+    "controlledLayers": 24,
+    "protectedFlows": 22,
     "infinityConfidence": 100
   },
-  "time": "2026-04-08T21:39:27.410Z"
+  "time": "2026-04-08T21:39:58.644Z"
 }
