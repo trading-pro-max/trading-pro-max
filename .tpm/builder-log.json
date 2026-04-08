@@ -1,5 +1,9 @@
 [
   {
+    "time": "2026-04-08T01:28:01.494Z",
+    "error": "Missing valid .tpm/manifest.json"
+  },
+  {
     "time": "2026-04-08T01:25:54.268Z",
     "error": "Missing valid .tpm/manifest.json"
   }
