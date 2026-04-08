@@ -1,13 +1,13 @@
 {
   "ok": true,
   "mode": "TPM_GOVERNANCE_ACTIVE",
-  "overallProgress": 87,
-  "completed": 87,
-  "remaining": 13,
+  "overallProgress": 93,
+  "completed": 93,
+  "remaining": 7,
   "domains": {
     "governance": 100,
-    "alerts": 83,
-    "config": 50,
+    "alerts": 100,
+    "config": 67,
     "policies": 100,
     "continuity": 100
   },
@@ -24,15 +24,15 @@
     {
       "slug": "alert-routing",
       "title": "alert routing",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "config-governance",
       "title": "config governance",
-      "progress": 50,
+      "progress": 67,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T09:59:38.078Z"
+  "time": "2026-04-08T09:59:38.503Z"
 }
