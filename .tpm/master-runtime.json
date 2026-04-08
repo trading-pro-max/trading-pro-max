@@ -73,7 +73,10 @@
     "/audit-stream",
     "/agent-mesh",
     "/memory-os",
-    "/growth-engine"
+    "/growth-engine",
+    "/vector-core",
+    "/scenario-router",
+    "/assurance-wall"
   ],
   "commands": [
     "npm run tpm:quantum:once",
@@ -118,7 +121,9 @@
     "npm run tpm:navigator:once",
     "npm run tpm:navigator",
     "npm run tpm:agentmesh:once",
-    "npm run tpm:agentmesh"
+    "npm run tpm:agentmesh",
+    "npm run tpm:vector:once",
+    "npm run tpm:vector"
   ],
   "nextWave": [
     {
@@ -561,6 +566,27 @@
       "progress": 96,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "vector-core",
+      "title": "vector core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-router",
+      "title": "scenario router",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "assurance-wall",
+      "title": "assurance wall",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "infinityJump5": {
@@ -714,5 +740,12 @@
     "active": 15,
     "expected": 16,
     "status": "CLOSED_100"
+  },
+  "infinityVectorLayer": {
+    "active": true,
+    "layer": "VECTOR_CORE_SCENARIO_ROUTER_ASSURANCE_WALL",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T21:22:58.257Z"
   }
 }
