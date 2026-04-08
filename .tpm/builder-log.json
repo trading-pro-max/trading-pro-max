@@ -1,5 +1,16 @@
 [
   {
+    "time": "2026-04-08T03:59:54.438Z",
+    "cycle": 249,
+    "activeModule": null,
+    "avgProgress": 100,
+    "avgReadiness": 100,
+    "closedModules": 2,
+    "totalModules": 2,
+    "autopilotIntegrated": true,
+    "finalizerIntegrated": true
+  },
+  {
     "time": "2026-04-08T03:59:42.394Z",
     "cycle": 248,
     "activeModule": null,
@@ -1300,17 +1311,6 @@
   {
     "time": "2026-04-08T03:36:01.671Z",
     "cycle": 130,
-    "activeModule": null,
-    "avgProgress": 100,
-    "avgReadiness": 100,
-    "closedModules": 2,
-    "totalModules": 2,
-    "autopilotIntegrated": true,
-    "finalizerIntegrated": true
-  },
-  {
-    "time": "2026-04-08T03:35:49.629Z",
-    "cycle": 129,
     "activeModule": null,
     "avgProgress": 100,
     "avgReadiness": 100,
