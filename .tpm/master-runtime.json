@@ -130,12 +130,16 @@
     "npm run tpm:sentinel",
     "npm run tpm:continuum:once",
     "npm run tpm:continuum",
+    "npm run tpm:quantum:once",
+    "npm run tpm:quantum",
     "npm run tpm:platform:once",
     "npm run tpm:platform",
     "npm run tpm:vector:once",
     "npm run tpm:vector",
     "npm run tpm:jump4:once",
     "npm run tpm:jump4",
+    "npm run tpm:meta:once",
+    "npm run tpm:meta",
     "npm run tpm:constellation:once",
     "npm run tpm:constellation",
     "npm run tpm:nexus:once",
@@ -144,14 +148,16 @@
     "npm run tpm:agentmesh",
     "npm run tpm:sovereign:once",
     "npm run tpm:sovereign",
-    "npm run tpm:zenith:once",
-    "npm run tpm:zenith",
-    "npm run tpm:navigator:once",
-    "npm run tpm:navigator",
+    "npm run tpm:executive:once",
+    "npm run tpm:executive",
+    "npm run tpm:council:once",
+    "npm run tpm:council",
     "npm run tpm:horizon:once",
     "npm run tpm:horizon",
     "npm run tpm:pulse:once",
     "npm run tpm:pulse",
+    "npm run tpm:runtimeops:once",
+    "npm run tpm:runtimeops",
     "npm run tpm:helix:once",
     "npm run tpm:helix"
   ],
@@ -170,6 +176,9 @@
     "/continuum-core",
     "/strategy-commons",
     "/assurance-hub",
+    "/quantum-board",
+    "/strategy-genome",
+    "/runtime-covenant",
     "/api-gateway",
     "/integration-hub",
     "/lifecycle-os",
@@ -177,6 +186,9 @@
     "/scenario-router",
     "/assurance-wall",
     "/infinity-jump-4",
+    "/meta-grid",
+    "/replay-library",
+    "/gatekeeper-panel",
     "/constellation-core",
     "/proof-engine",
     "/runtime-registry",
@@ -189,18 +201,21 @@
     "/sovereign-grid",
     "/continuity-vault",
     "/command-nexus",
-    "/zenith-core",
-    "/memory-cartography",
-    "/runtime-charter",
-    "/navigator-core",
-    "/portfolio-simulator",
-    "/audit-stream",
+    "/control-tower",
+    "/capital-os",
+    "/execution-intelligence",
+    "/council-core",
+    "/knowledge-ledger",
+    "/switchboard",
     "/horizon-hub",
     "/workspace-router",
     "/evidence-vault",
     "/pulse-grid",
     "/chronicle-center",
     "/launch-console",
+    "/connector-inspector",
+    "/env-doctor",
+    "/runtime-health",
     "/helix-core",
     "/signal-parliament",
     "/resilience-deck"
@@ -270,6 +285,27 @@
       "status": "strong"
     },
     {
+      "slug": "quantum-board",
+      "title": "quantum board",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "strategy-genome",
+      "title": "strategy genome",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "runtime-covenant",
+      "title": "runtime covenant",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
       "slug": "api-gateway",
       "title": "api gateway",
       "progress": 83,
@@ -314,6 +350,27 @@
     {
       "slug": "jump-4",
       "title": "infinity jump 4",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "meta-grid",
+      "title": "meta grid",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "replay-library",
+      "title": "replay library",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "gatekeeper-panel",
+      "title": "gatekeeper panel",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
@@ -403,43 +460,43 @@
       "status": "strong"
     },
     {
-      "slug": "zenith-core",
-      "title": "zenith core",
+      "slug": "control-tower",
+      "title": "control tower",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "capital-os",
+      "title": "capital os",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "execution-intelligence",
+      "title": "execution intelligence",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "council-core",
+      "title": "council core",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "memory-cartography",
-      "title": "memory cartography",
+      "slug": "knowledge-ledger",
+      "title": "knowledge ledger",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "runtime-charter",
-      "title": "runtime charter",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "navigator-core",
-      "title": "navigator core",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "portfolio-simulator",
-      "title": "portfolio simulator",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "audit-stream",
-      "title": "audit stream",
+      "slug": "switchboard",
+      "title": "switchboard",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
@@ -487,6 +544,27 @@
       "status": "strong"
     },
     {
+      "slug": "connector-inspector",
+      "title": "connector inspector",
+      "progress": 80,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "env-doctor",
+      "title": "env doctor",
+      "progress": 80,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "runtime-health",
+      "title": "runtime health",
+      "progress": 80,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
       "slug": "helix-core",
       "title": "helix core",
       "progress": 100,
@@ -508,7 +586,7 @@
       "status": "strong"
     }
   ],
-  "time": "2026-04-08T22:24:07.749Z",
+  "time": "2026-04-08T22:25:37.790Z",
   "localCertified": true,
   "releaseGate": "OPEN_LOCAL",
   "sentinelLayer": {
@@ -516,7 +594,7 @@
     "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
     "progress": 93,
     "status": "ACTIVE",
-    "time": "2026-04-08T22:24:07.800Z"
+    "time": "2026-04-08T22:25:37.847Z"
   },
   "externalDeployBlocked": true,
   "infinityContinuum": {
@@ -524,92 +602,111 @@
     "layer": "CONTINUUM_CORE_STRATEGY_COMMONS_ASSURANCE_HUB",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T22:24:07.835Z"
+    "time": "2026-04-08T22:25:37.863Z"
+  },
+  "infinityJump5": {
+    "active": true,
+    "layer": "QUANTUM_BOARD_STRATEGY_GENOME_RUNTIME_COVENANT",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T22:25:37.963Z"
   },
   "platformLayer": {
     "active": true,
     "layer": "API_GATEWAY_INTEGRATION_HUB_LIFECYCLE_OS",
     "progress": 83,
     "status": "ACTIVE",
-    "time": "2026-04-08T22:24:07.932Z"
+    "time": "2026-04-08T22:25:37.985Z"
   },
   "infinityVectorLayer": {
     "active": true,
     "layer": "VECTOR_CORE_SCENARIO_ROUTER_ASSURANCE_WALL",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T22:24:07.992Z"
+    "time": "2026-04-08T22:25:38.022Z"
   },
   "jump4": {
     "active": true,
     "layer": "INFINITY_JUMP_4",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T22:24:08.021Z"
+    "time": "2026-04-08T22:25:38.036Z"
+  },
+  "metaLayer": {
+    "active": true,
+    "layer": "META_GRID_REPLAY_LIBRARY_GATEKEEPER_PANEL",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T22:25:38.085Z"
   },
   "constellationLayer": {
     "active": true,
     "layer": "CONSTELLATION_CORE_PROOF_ENGINE_RUNTIME_REGISTRY",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T22:24:08.051Z"
+    "time": "2026-04-08T22:25:38.104Z"
   },
   "globalExpansion": {
     "active": true,
     "layer": "NEXUS_CORE_MISSION_LEDGER_GROWTH_RADAR",
     "progress": 97,
     "status": "CLOSED_100",
-    "time": "2026-04-08T22:24:08.083Z"
+    "time": "2026-04-08T22:25:38.141Z"
   },
   "postCertification": {
     "active": true,
     "layer": "AGENT_MESH_EXPANSION",
     "progress": 96,
     "status": "ACTIVE",
-    "time": "2026-04-08T22:24:08.101Z"
+    "time": "2026-04-08T22:25:38.157Z"
   },
   "sovereignLayer": {
     "active": true,
     "layer": "SOVEREIGN_GRID_CONTINUITY_VAULT_COMMAND_NEXUS",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T22:24:08.120Z"
+    "time": "2026-04-08T22:25:38.174Z"
   },
-  "infinitySystem": {
+  "executiveLayer": {
     "active": true,
-    "jump": 7,
-    "layer": "ZENITH_CORE_MEMORY_CARTOGRAPHY_RUNTIME_CHARTER",
+    "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
+    "progress": 96,
+    "status": "ACTIVE",
+    "time": "2026-04-08T22:25:38.184Z"
+  },
+  "councilLayer": {
+    "active": true,
+    "layer": "COUNCIL_CORE_KNOWLEDGE_LEDGER_SWITCHBOARD",
     "progress": 100,
     "status": "ACTIVE",
-    "mode": "POST_CLOSURE_INFINITY",
-    "time": "2026-04-08T22:24:08.139Z"
-  },
-  "navigatorLayer": {
-    "active": true,
-    "layer": "NAVIGATOR_CORE_PORTFOLIO_SIMULATOR_AUDIT_STREAM",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T22:24:08.183Z"
+    "time": "2026-04-08T22:25:38.234Z"
   },
   "horizonLayer": {
     "active": true,
     "layer": "HORIZON_HUB_WORKSPACE_ROUTER_EVIDENCE_VAULT",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T22:24:08.202Z"
+    "time": "2026-04-08T22:25:38.248Z"
   },
   "pulseLayer": {
     "active": true,
     "layer": "PULSE_GRID_CHRONICLE_CENTER_LAUNCH_CONSOLE",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T22:24:08.234Z"
+    "time": "2026-04-08T22:25:38.287Z"
+  },
+  "runtimeOpsLayer": {
+    "active": true,
+    "layer": "CONNECTOR_INSPECTOR_ENV_DOCTOR_RUNTIME_HEALTH",
+    "progress": 80,
+    "status": "ACTIVE",
+    "time": "2026-04-08T22:25:38.303Z"
   },
   "helixLayer": {
     "active": true,
     "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T22:24:08.256Z"
+    "time": "2026-04-08T22:25:38.317Z"
   }
 }
