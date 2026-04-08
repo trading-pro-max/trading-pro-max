@@ -18,6 +18,7 @@ export default function RootLayout({ children }) {
               <a href="/" style={{ color: "white", textDecoration: "none", border: "1px solid #334155", background: "#0b1220", padding: "10px 12px", borderRadius: 12, fontWeight: 800, fontSize: 14 }}>Home</a>
               <a href="/builder" style={{ color: "white", textDecoration: "none", border: "1px solid #334155", background: "#0b1220", padding: "10px 12px", borderRadius: 12, fontWeight: 800, fontSize: 14 }}>Builder</a>
               <a href="/builder-studio" style={{ color: "white", textDecoration: "none", border: "1px solid #334155", background: "#0b1220", padding: "10px 12px", borderRadius: 12, fontWeight: 800, fontSize: 14 }}>Builder Studio</a>
+              <a href="/mission-control" style={{ color: "white", textDecoration: "none", border: "1px solid #334155", background: "#0b1220", padding: "10px 12px", borderRadius: 12, fontWeight: 800, fontSize: 14 }}>Mission Control</a>
               {manifest.modules.map((m) => (
                 <a
                   key={m.slug}
