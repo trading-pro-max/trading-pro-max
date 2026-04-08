@@ -1,5 +1,41 @@
 [
   {
+    "id": "SNAP-WUSTCSV5",
+    "label": "builder-cycle-18",
+    "createdAt": "2026-04-08T01:57:53.634Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
+    "id": "SNAP-URNU4972",
+    "label": "builder-cycle-15",
+    "createdAt": "2026-04-08T01:57:17.604Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
+    "id": "SNAP-6OXJ6SB2",
+    "label": "builder-cycle-12",
+    "createdAt": "2026-04-08T01:56:41.558Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
     "id": "SNAP-VKWDJ5XD",
     "label": "builder-cycle-9",
     "createdAt": "2026-04-08T01:56:05.520Z",
