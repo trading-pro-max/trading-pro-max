@@ -94,7 +94,9 @@
     "tpm:pulse:once": "node ./lib/tpm-pulse-core.mjs",
     "tpm:pulse": "node ./scripts/tpm-pulse-loop.mjs",
     "tpm:meta:once": "node ./lib/tpm-meta-core.mjs",
-    "tpm:meta": "node ./scripts/tpm-meta-loop.mjs"
+    "tpm:meta": "node ./scripts/tpm-meta-loop.mjs",
+    "tpm:helix:once": "node ./lib/tpm-helix-core.mjs",
+    "tpm:helix": "node ./scripts/tpm-helix-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",
