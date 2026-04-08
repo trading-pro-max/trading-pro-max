@@ -11,16 +11,250 @@
     "External GoDaddy deploy remains blocked by current hosting plan."
   ],
   "pages": [
+    "/helix-core",
+    "/signal-parliament",
+    "/resilience-deck",
+    "/pulse-grid",
+    "/chronicle-center",
+    "/launch-console",
+    "/sovereign-grid",
+    "/continuity-vault",
+    "/command-nexus",
+    "/revenue-os",
+    "/compliance-ledger",
+    "/ops-replay",
+    "/constellation-core",
+    "/proof-engine",
+    "/runtime-registry",
+    "/sentinel-core",
+    "/experiment-studio",
+    "/customer-success-hub",
+    "/agent-mesh",
+    "/memory-os",
+    "/growth-engine",
+    "/omega-core",
+    "/recovery-matrix",
+    "/trust-center",
+    "/quantum-board",
+    "/governance-pulse",
+    "/scenario-memory",
     "/connector-inspector",
     "/env-doctor",
     "/runtime-health"
   ],
   "commands": [
+    "npm run tpm:helix:once",
+    "npm run tpm:helix",
+    "npm run tpm:master:once",
+    "npm run tpm:pulse:once",
+    "npm run tpm:pulse",
+    "npm run tpm:sovereign:once",
+    "npm run tpm:sovereign",
+    "npm run tpm:enterprise:once",
+    "npm run tpm:enterprise",
+    "npm run tpm:constellation:once",
+    "npm run tpm:constellation",
+    "npm run tpm:sentinel:once",
+    "npm run tpm:sentinel",
+    "npm run tpm:agentmesh:once",
+    "npm run tpm:agentmesh",
+    "npm run tpm:omega:once",
+    "npm run tpm:omega",
+    "npm run tpm:quantum:once",
+    "npm run tpm:quantum",
     "npm run tpm:runtimeops:once",
-    "npm run tpm:runtimeops",
-    "npm run tpm:master:once"
+    "npm run tpm:runtimeops"
   ],
   "nextWave": [
+    {
+      "slug": "helix-core",
+      "title": "helix core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "signal-parliament",
+      "title": "signal parliament",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "resilience-deck",
+      "title": "resilience deck",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "pulse-grid",
+      "title": "pulse grid",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "chronicle-center",
+      "title": "chronicle center",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "launch-console",
+      "title": "launch console",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "sovereign-grid",
+      "title": "sovereign grid",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "continuity-vault",
+      "title": "continuity vault",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "command-nexus",
+      "title": "command nexus",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "revenue-os",
+      "title": "revenue os",
+      "progress": 89,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "compliance-ledger",
+      "title": "compliance ledger",
+      "progress": 89,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "ops-replay",
+      "title": "ops replay",
+      "progress": 89,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "constellation-core",
+      "title": "constellation core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "proof-engine",
+      "title": "proof engine",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "runtime-registry",
+      "title": "runtime registry",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "sentinel-core",
+      "title": "sentinel core",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "experiment-studio",
+      "title": "experiment studio",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "customer-success-hub",
+      "title": "customer success hub",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "agent-mesh-depth",
+      "title": "agent mesh depth",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-os",
+      "title": "memory os",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "growth-engine",
+      "title": "growth engine",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "omega-core",
+      "title": "omega core",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "recovery-matrix",
+      "title": "recovery matrix",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "trust-center",
+      "title": "trust center",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "quantum-board",
+      "title": "quantum board",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "governance-pulse",
+      "title": "governance pulse",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-memory",
+      "title": "scenario memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
     {
       "slug": "connector-inspector",
       "title": "connector inspector",
@@ -43,11 +277,74 @@
       "status": "strong"
     }
   ],
+  "helixLayer": {
+    "active": true,
+    "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:17:14.510Z"
+  },
+  "pulseLayer": {
+    "active": true,
+    "layer": "PULSE_GRID_CHRONICLE_CENTER_LAUNCH_CONSOLE",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:17:14.533Z"
+  },
+  "sovereignLayer": {
+    "active": true,
+    "layer": "SOVEREIGN_GRID_CONTINUITY_VAULT_COMMAND_NEXUS",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:17:14.559Z"
+  },
+  "enterpriseLayer": {
+    "active": true,
+    "layer": "REVENUE_OS_COMPLIANCE_LEDGER_OPS_REPLAY",
+    "progress": 89,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:17:14.718Z"
+  },
+  "constellationLayer": {
+    "active": true,
+    "layer": "CONSTELLATION_CORE_PROOF_ENGINE_RUNTIME_REGISTRY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:17:14.752Z"
+  },
+  "sentinelLayer": {
+    "active": true,
+    "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
+    "progress": 93,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:17:14.790Z"
+  },
+  "postCertification": {
+    "active": true,
+    "layer": "AGENT_MESH_EXPANSION",
+    "progress": 96,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:17:14.860Z"
+  },
+  "omegaLayer": {
+    "active": true,
+    "layer": "OMEGA_CORE_RECOVERY_MATRIX_TRUST_CENTER",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:17:14.901Z"
+  },
+  "quantumLayer": {
+    "active": true,
+    "layer": "QUANTUM_BOARD_GOVERNANCE_PULSE_SCENARIO_MEMORY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:17:14.919Z"
+  },
   "runtimeOpsLayer": {
     "active": true,
     "layer": "CONNECTOR_INSPECTOR_ENV_DOCTOR_RUNTIME_HEALTH",
     "progress": 80,
     "status": "ACTIVE",
-    "time": "2026-04-08T19:15:44.839Z"
+    "time": "2026-04-08T19:17:14.975Z"
   }
 }
