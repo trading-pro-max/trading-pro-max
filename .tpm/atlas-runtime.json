@@ -1,13 +1,13 @@
 {
   "ok": true,
   "mode": "TPM_ATLAS_ACTIVE",
-  "overallProgress": 90,
-  "completed": 90,
-  "remaining": 10,
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
   "domains": {
-    "atlas": 83,
-    "archive": 83,
-    "theater": 83,
+    "atlas": 100,
+    "archive": 100,
+    "theater": 100,
     "proof": 100,
     "continuity": 100
   },
@@ -15,21 +15,21 @@
     {
       "slug": "atlas-density",
       "title": "atlas density",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "archive-depth",
       "title": "archive depth",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "theater-clarity",
       "title": "theater clarity",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T11:20:26.510Z"
+  "time": "2026-04-08T11:21:57.509Z"
 }
