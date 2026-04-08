@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "mode": "TPM_INFINITY_ACTIVE",
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 0,
+  "baselineLockedAt": 100,
+  "baselineRemaining": 0,
+  "domains": {
+    "infinity": 100,
+    "autonomy": 86,
+    "vault": 100,
+    "proof": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "infinity-depth",
+      "title": "infinity depth",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "autonomy-depth",
+      "title": "autonomy depth",
+      "progress": 86,
+      "status": "active"
+    },
+    {
+      "slug": "evolution-depth",
+      "title": "evolution depth",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-08T13:46:57.138

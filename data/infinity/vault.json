@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "items": [
+    {
+      "slug": "growth-paths",
+      "title": "Growth Paths",
+      "score": 100,
+      "status": "active"
+    },
+    {
+      "slug": "future-surfaces",
+      "title": "Future Surfaces",
+      "score": 100,
+      "status": "active"
+    },
+    {
+      "slug": "strategy-branches",
+      "title": "Strategy Branches",
+      "score": 100,
+      "status": "active"
+    },
+    {
+      "slug": "platform-branches",
+      "title": "Platform Branches",
+      "score": 100,
+      "status": "active"
+    }
+  ],
+  "maps": {
+    "storedBranches": 32,
+    "replayablePaths": 26,
+    "governedExpansions": 22,
+    "evolutionConfidence": 100
+  },
+  "time": "2026-04-08T13:46:57.138Z"
+}

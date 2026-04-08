@@ -148,8 +148,8 @@
     "npm run tpm:pulse",
     "npm run tpm:federation:once",
     "npm run tpm:federation",
-    "npm run tpm:learning:once",
-    "npm run tpm:learning"
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity"
   ],
   "pages": [
     "/master-control",
@@ -192,9 +192,9 @@
     "/launch-console",
     "/federation-core",
     "/operator-journal",
-    "/learning-loop",
-    "/route-arbitrator",
-    "/policy-studio"
+    "/infinity-core",
+    "/autonomy-infinity",
+    "/evolution-vault"
   ],
   "nextWave": [
     {
@@ -443,28 +443,28 @@
       "status": "strong"
     },
     {
-      "slug": "learning-loop",
-      "title": "learning loop",
-      "progress": 100,
+      "slug": "infinity-core",
+      "title": "infinity core",
+      "progress": 88,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "route-arbitrator",
-      "title": "route arbitrator",
-      "progress": 100,
+      "slug": "autonomy-infinity",
+      "title": "autonomy infinity",
+      "progress": 88,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "policy-studio",
-      "title": "policy studio",
-      "progress": 100,
+      "slug": "evolution-vault",
+      "title": "evolution vault",
+      "progress": 88,
       "stage": "ACTIVE",
       "status": "strong"
     }
   ],
-  "time": "2026-04-08T13:44:55.056Z",
+  "time": "2026-04-08T13:46:25.084Z",
   "localCertified": true,
   "releaseGate": "OPEN_LOCAL",
   "postCertificationFabric": {
@@ -472,7 +472,7 @@
     "layer": "FABRIC_CORE",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:44:55.150Z"
+    "time": "2026-04-08T13:46:25.162Z"
   },
   "externalDeployBlocked": true,
   "prismLayer": {
@@ -480,76 +480,83 @@
     "layer": "PRISM_CORE_STRATEGY_THEATER_INTEGRITY_HUB",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:44:55.972Z"
+    "time": "2026-04-08T13:46:25.989Z"
   },
   "sovereignLayer": {
     "active": true,
     "layer": "SOVEREIGN_GRID_CONTINUITY_VAULT_COMMAND_NEXUS",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:44:57.200Z"
+    "time": "2026-04-08T13:46:27.223Z"
   },
   "sentinelLayer": {
     "active": true,
     "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
     "progress": 93,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:44:58.139Z"
+    "time": "2026-04-08T13:46:28.160Z"
   },
   "quantumLayer": {
     "active": true,
     "layer": "QUANTUM_BOARD_GOVERNANCE_PULSE_SCENARIO_MEMORY",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:45:03.242Z"
+    "time": "2026-04-08T13:46:33.283Z"
   },
   "helixLayer": {
     "active": true,
     "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:45:05.564Z"
+    "time": "2026-04-08T13:46:35.580Z"
   },
   "omegaLayer": {
     "active": true,
     "layer": "OMEGA_CORE_RECOVERY_MATRIX_TRUST_CENTER",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:45:07.894Z"
+    "time": "2026-04-08T13:46:37.912Z"
   },
   "executiveLayer": {
     "active": true,
     "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
     "progress": 96,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:45:09.694Z"
+    "time": "2026-04-08T13:46:39.744Z"
   },
   "vertexLayer": {
     "active": true,
     "layer": "VERTEX_CORE_SCENARIO_RADAR_CONTROL_MEMORY",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:45:10.261Z"
+    "time": "2026-04-08T13:46:40.295Z"
   },
   "pulseLayer": {
     "active": true,
     "layer": "PULSE_GRID_CHRONICLE_CENTER_LAUNCH_CONSOLE",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:45:12.033Z"
+    "time": "2026-04-08T13:46:42.070Z"
   },
   "federationLayer": {
     "active": true,
     "layer": "FEDERATION_CORE_SCENARIO_MEMORY_OPERATOR_JOURNAL",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:45:12.441Z"
+    "time": "2026-04-08T13:46:42.470Z"
   },
-  "learningLayer": {
+  "infinity": {
     "active": true,
-    "layer": "LEARNING_LOOP_ROUTE_ARBITRATOR_POLICY_STUDIO",
-    "progress": 100,
+    "mode": "POST_CLOSURE_INFINITY",
+    "progress": 97,
+    "baselineLockedAt": 100,
+    "remainingBaseline": 0,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:45:27.931Z"
+    "time": "2026-04-08T13:46:57.145Z"
+  },
+  "runtimeDepth": {
+    "active": 15,
+    "expected": 16,
+    "status": "CLOSED_100"
   }
 }

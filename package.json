@@ -112,7 +112,9 @@
     "tpm:vertex:once": "node ./lib/tpm-vertex-core.mjs",
     "tpm:vertex": "node ./scripts/tpm-vertex-loop.mjs",
     "tpm:constellation:once": "node ./lib/tpm-constellation-core.mjs",
-    "tpm:constellation": "node ./scripts/tpm-constellation-loop.mjs"
+    "tpm:constellation": "node ./scripts/tpm-constellation-loop.mjs",
+    "tpm:infinity:once": "node ./lib/tpm-infinity-core.mjs",
+    "tpm:infinity": "node ./scripts/tpm-infinity-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

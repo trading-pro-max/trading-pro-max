@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "towers": [
+    {
+      "slug": "infinite-build",
+      "title": "Infinite Build",
+      "score": 100,
+      "status": "closed-baseline"
+    },
+    {
+      "slug": "infinite-autonomy",
+      "title": "Infinite Autonomy",
+      "score": 100,
+      "status": "closed-baseline"
+    },
+    {
+      "slug": "infinite-memory",
+      "title": "Infinite Memory",
+      "score": 100,
+      "status": "closed-baseline"
+    },
+    {
+      "slug": "infinite-evolution",
+      "title": "Infinite Evolution",
+      "score": 100,
+      "status": "active"
+    }
+  ],
+  "metrics": {
+    "baselineClosed": 100,
+    "postClosureActive": 100,
+    "infinityDepth": 100,
+    "autonomyDepth": 100
+  },
+  "time": "2026-04-08T13:46:57.137Z"
+}
