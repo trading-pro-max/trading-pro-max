@@ -1,17 +1,17 @@
-{
-  "enabled": true,
-  "minProgress": 88,
-  "minReadiness": 90,
-  "maxRemainingModules": 12,
-  "requireBuilderRunning": true,
-  "requireAutopilot": true,
-  "requireFinalizer": true,
-  "lastRunAt": "2026-04-08T03:15:38.019Z",
-  "lastRun": [
-    {
-      "round": 1,
-      "score": 100,
-      "verdict": "READY_FOR_PROMOTION"
-    }
-  ]
+﻿{
+    "enabled":  true,
+    "minProgress":  88,
+    "minReadiness":  90,
+    "maxRemainingModules":  12,
+    "requireBuilderRunning":  true,
+    "requireAutopilot":  true,
+    "requireFinalizer":  true,
+    "lastRunAt":  "2026-04-08T05:19:46.0369490+02:00",
+    "lastRun":  [
+                    {
+                        "round":  1,
+                        "score":  100,
+                        "verdict":  "READY_FOR_PROMOTION"
+                    }
+                ]
 }

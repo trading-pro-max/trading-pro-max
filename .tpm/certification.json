@@ -1,15 +1,15 @@
-{
-  "enabled": true,
-  "targetProgress": 100,
-  "targetReadiness": 98,
-  "lastRunAt": "2026-04-08T03:15:38.020Z",
-  "lastRun": [
-    {
-      "round": 1,
-      "progress": 100,
-      "readiness": 100,
-      "remainingModules": 0
-    }
-  ],
-  "verdict": "CERTIFIED_100"
+﻿{
+    "enabled":  true,
+    "targetProgress":  100,
+    "targetReadiness":  98,
+    "lastRunAt":  "2026-04-08T05:19:46.0369490+02:00",
+    "lastRun":  [
+                    {
+                        "round":  1,
+                        "progress":  100,
+                        "readiness":  100,
+                        "remainingModules":  0
+                    }
+                ],
+    "verdict":  "CERTIFIED_100"
 }
