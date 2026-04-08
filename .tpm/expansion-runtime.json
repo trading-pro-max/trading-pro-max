@@ -13,9 +13,9 @@
   },
   "workspaceSync": {
     "ok": true,
-    "cycle": 50,
+    "cycle": 51,
     "workspaces": 3,
-    "lastSyncAt": "2026-04-08T22:39:41.920Z",
+    "lastSyncAt": "2026-04-08T22:41:29.154Z",
     "syncedZones": [
       "ai",
       "strategy",
@@ -44,5 +44,5 @@
       "status": "strong"
     }
   ],
-  "time": "2026-04-08T22:39:41.926Z"
+  "time": "2026-04-08T22:41:29.163Z"
 }
