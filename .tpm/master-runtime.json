@@ -163,7 +163,9 @@
     "npm run tpm:vector:once",
     "npm run tpm:vector",
     "npm run tpm:observability:once",
-    "npm run tpm:observability"
+    "npm run tpm:observability",
+    "npm run tpm:enterprise:once",
+    "npm run tpm:enterprise"
   ],
   "pages": [
     "/master-control",
@@ -230,7 +232,10 @@
     "/continuity-radar",
     "/observability-core",
     "/incident-center",
-    "/playbook-os"
+    "/playbook-os",
+    "/revenue-os",
+    "/compliance-ledger",
+    "/ops-replay"
   ],
   "nextWave": [
     {
@@ -652,6 +657,27 @@
       "progress": 97,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "revenue-os",
+      "title": "revenue os",
+      "progress": 89,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "compliance-ledger",
+      "title": "compliance ledger",
+      "progress": 89,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "ops-replay",
+      "title": "ops replay",
+      "progress": 89,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T16:20:58.859Z",
@@ -790,5 +816,12 @@
     "progress": 97,
     "status": "ACTIVE",
     "time": "2026-04-08T16:22:05.264Z"
+  },
+  "enterpriseLayer": {
+    "active": true,
+    "layer": "REVENUE_OS_COMPLIANCE_LEDGER_OPS_REPLAY",
+    "progress": 89,
+    "status": "ACTIVE",
+    "time": "2026-04-08T16:22:06.645Z"
   }
 }
