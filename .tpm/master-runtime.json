@@ -171,7 +171,9 @@
     "npm run tpm:enterprise:once",
     "npm run tpm:enterprise",
     "npm run tpm:infinity:once",
-    "npm run tpm:infinity"
+    "npm run tpm:infinity",
+    "npm run tpm:apex:once",
+    "npm run tpm:apex"
   ],
   "pages": [
     "/master-control",
@@ -249,7 +251,10 @@
     "/ops-replay",
     "/infinity-core",
     "/builder-grid",
-    "/evolution-console"
+    "/evolution-console",
+    "/apex-command",
+    "/memory-fabric",
+    "/deploy-readiness"
   ],
   "nextWave": [
     {
@@ -748,6 +753,27 @@
       "progress": 97,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "apex-command",
+      "title": "apex command",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-fabric",
+      "title": "memory fabric",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "deploy-readiness",
+      "title": "deploy readiness",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T16:49:29.353Z",
@@ -915,5 +941,12 @@
     "status": "ACTIVE",
     "mode": "POST_CLOSURE_UNLIMITED",
     "time": "2026-04-08T16:50:41.213Z"
+  },
+  "apexLayer": {
+    "active": true,
+    "layer": "APEX_COMMAND_MEMORY_FABRIC_DEPLOY_READINESS",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T16:50:52.863Z"
   }
 }
