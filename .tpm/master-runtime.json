@@ -137,7 +137,9 @@
     "npm run tpm:quantum:once",
     "npm run tpm:quantum",
     "npm run tpm:helix:once",
-    "npm run tpm:helix"
+    "npm run tpm:helix",
+    "npm run tpm:omega:once",
+    "npm run tpm:omega"
   ],
   "pages": [
     "/master-control",
@@ -165,7 +167,10 @@
     "/scenario-memory",
     "/helix-core",
     "/signal-parliament",
-    "/resilience-deck"
+    "/resilience-deck",
+    "/omega-core",
+    "/recovery-matrix",
+    "/trust-center"
   ],
   "nextWave": [
     {
@@ -314,6 +319,27 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "omega-core",
+      "title": "omega core",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "recovery-matrix",
+      "title": "recovery matrix",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "trust-center",
+      "title": "trust center",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T15:01:27.176Z",
@@ -361,5 +387,12 @@
     "progress": 100,
     "status": "ACTIVE",
     "time": "2026-04-08T15:01:38.233Z"
+  },
+  "omegaLayer": {
+    "active": true,
+    "layer": "OMEGA_CORE_RECOVERY_MATRIX_TRUST_CENTER",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T15:01:40.036Z"
   }
 }
