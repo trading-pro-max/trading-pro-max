@@ -9,9 +9,13 @@ export default function LocalCommandPage() {
   const safeJson = async (url, options) => {
     const res = await fetch(url, options || { cache: "no-store" });
     const text = await res.text();
-    const data = JSON.parse(text);
-    if (!res.ok) throw new Error(data?.error || text);
-    return data;
+    try {
+      const data = JSON.parse(text);
+      if (!res.ok) throw new Error(data?.error || text);
+      return data;
+    } catch {
+      throw new Error(text);
+    }
   };
 
   const load = async () => {
