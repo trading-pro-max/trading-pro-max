@@ -135,7 +135,9 @@
     "npm run tpm:sentinel:once",
     "npm run tpm:sentinel",
     "npm run tpm:quantum:once",
-    "npm run tpm:quantum"
+    "npm run tpm:quantum",
+    "npm run tpm:helix:once",
+    "npm run tpm:helix"
   ],
   "pages": [
     "/master-control",
@@ -160,7 +162,10 @@
     "/customer-success-hub",
     "/quantum-board",
     "/governance-pulse",
-    "/scenario-memory"
+    "/scenario-memory",
+    "/helix-core",
+    "/signal-parliament",
+    "/resilience-deck"
   ],
   "nextWave": [
     {
@@ -288,6 +293,27 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "helix-core",
+      "title": "helix core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "signal-parliament",
+      "title": "signal parliament",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "resilience-deck",
+      "title": "resilience deck",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T15:34:27.898Z",
@@ -328,5 +354,12 @@
     "progress": 100,
     "status": "ACTIVE",
     "time": "2026-04-08T15:34:36.384Z"
+  },
+  "helixLayer": {
+    "active": true,
+    "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T15:34:39.103Z"
   }
 }
