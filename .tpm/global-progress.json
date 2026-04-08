@@ -1,13 +1,27 @@
 {
   "ok": true,
-  "baseGlobalProgress": 58,
-  "jumpTargetProgress": 72,
   "globalProgress": 72,
   "remaining": 28,
   "jumpEarned": 14,
   "jumpTotal": 14,
   "jumpClosed": true,
   "localCertified": false,
+  "modulesClosed": 2,
+  "modulesTotal": 2,
+  "languages": {
+    "JSON": 56,
+    "Markdown": 19,
+    "PowerShell": 51,
+    "JavaScript": 81,
+    "TypeScript": 205,
+    "HTML": 2,
+    "CSS": 3,
+    "Batch": 11,
+    "Python": 1,
+    "Shell": 4,
+    "SQL": 1,
+    "YAML": 2
+  },
   "checks": [
     {
       "key": "env_profiles",
@@ -57,5 +71,6 @@
       "weight": 2,
       "pass": true
     }
-  ]
+  ],
+  "updatedAt": "2026-04-08T03:42:59.531Z"
 }

@@ -1,0 +1,8 @@
+﻿{
+  "intervalSec": 90,
+  "branch": "main",
+  "remote": "origin",
+  "baseGlobalProgress": 58,
+  "jumpTargetProgress": 72,
+  "enabled": true
+}

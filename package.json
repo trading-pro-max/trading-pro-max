@@ -21,7 +21,8 @@
     "tpm:readmesync": "node ./scripts/tpm-readme-sync.mjs",
     "tpm:github:start": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-github-worker-start.ps1",
     "tpm:github:stop": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-github-worker-stop.ps1",
-    "tpm:github:status": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-github-worker-status.ps1"
+    "tpm:github:status": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-github-worker-status.ps1",
+    "tpm:autonomouscore": "node ./scripts/tpm-autonomous-core-run.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

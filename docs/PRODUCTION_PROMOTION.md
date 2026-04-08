@@ -1,6 +1,6 @@
 ﻿# Production Promotion Layer
 
-This layer closes the first major production jump.
+This layer closes the first huge production jump.
 
 Included:
 - environment profiles
@@ -8,6 +8,6 @@ Included:
 - multi-language health suite
 - SQL bootstrap
 - release workflow scaffold
-- GitHub worker
-- README progress sync
-- automatic GitHub push worker
+- autonomous core scoring
+- README auto-sync
+- GitHub auto-push worker

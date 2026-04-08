@@ -1,9 +1,9 @@
-﻿name: tpm-release
+﻿name: tpm-production-promotion
 on:
   workflow_dispatch:
 jobs:
-  release:
+  promotion:
     runs-on: ubuntu-latest
     steps:
-      - name: checkout
-        run: echo "Trading Pro Max release workflow scaffold ready"
+      - name: Trading Pro Max production promotion scaffold
+        run: echo "TPM production promotion workflow scaffold ready"

@@ -7,8 +7,6 @@
 - Local autonomous core: IN PROGRESS
 - Production Core jump: 14/14
 - Modules closed locally: 2/2
-- Release state: LOCAL_ONLY
-- Certification: PENDING
 
 ## Active Production Jump
 - Production Promotion Layer
@@ -18,8 +16,8 @@
 
 ## Language Coverage
 - TypeScript: 205
-- JavaScript: 76
-- JSON: 55
+- JavaScript: 81
+- JSON: 56
 - PowerShell: 51
 - Markdown: 19
 - Batch: 11
