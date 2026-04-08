@@ -147,7 +147,11 @@
     "npm run tpm:navigator:once",
     "npm run tpm:navigator",
     "npm run tpm:runtimeops:once",
-    "npm run tpm:runtimeops"
+    "npm run tpm:runtimeops",
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity",
+    "npm run tpm:omega:once",
+    "npm run tpm:omega"
   ],
   "pages": [
     "/master-control",
@@ -190,7 +194,15 @@
     "/audit-stream",
     "/connector-inspector",
     "/env-doctor",
-    "/runtime-health"
+    "/runtime-health",
+    "/infinity-core",
+    "/ops-observatory",
+    "/infinity-fabric",
+    "/memory-chronicle",
+    "/autonomy-throne",
+    "/omega-core",
+    "/recovery-matrix",
+    "/trust-center"
   ],
   "nextWave": [
     {
@@ -444,6 +456,41 @@
       "progress": 80,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "infinity-core",
+      "title": "infinity core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "ops-observatory",
+      "title": "ops observatory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "infinity-fabric",
+      "title": "infinity fabric",
+      "progress": 91,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-chronicle",
+      "title": "memory chronicle",
+      "progress": 91,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomy-throne",
+      "title": "autonomy throne",
+      "progress": 91,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T19:18:44.445Z",
@@ -526,5 +573,17 @@
     "progress": 80,
     "status": "ACTIVE",
     "time": "2026-04-08T19:18:45.039Z"
+  },
+  "infinityLayer": {
+    "active": true,
+    "layer": "INFINITY_FABRIC_MEMORY_CHRONICLE_AUTONOMY_THRONE",
+    "progress": 91,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:20:12.174Z"
+  },
+  "runtimeDepth": {
+    "active": 15,
+    "expected": 16,
+    "status": "CLOSED_100"
   }
 }
