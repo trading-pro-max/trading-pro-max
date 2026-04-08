@@ -2,35 +2,35 @@
   "ok": true,
   "towers": [
     {
-      "slug": "runtime-infinity",
-      "title": "Runtime Infinity",
+      "slug": "autonomy",
+      "title": "Autonomy Tower",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "evidence-infinity",
-      "title": "Evidence Infinity",
+      "slug": "governance",
+      "title": "Governance Tower",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "autonomy-infinity",
-      "title": "Autonomy Infinity",
+      "slug": "execution",
+      "title": "Execution Tower",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "growth-infinity",
-      "title": "Growth Infinity",
+      "slug": "expansion",
+      "title": "Expansion Tower",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "runtimeLayers": 24,
-    "protectedStores": 30,
-    "governedRoutes": 22,
+    "activeTowers": 4,
+    "linkedLayers": 24,
+    "governedStores": 30,
     "infinityConfidence": 100
   },
-  "time": "2026-04-08T23:01:11.654Z"
+  "time": "2026-04-08T23:03:07.313Z"
 }

@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "pillars": [
+  "lanes": [
     {
-      "slug": "runtime-fabric",
-      "title": "Runtime Fabric",
-      "score": 100,
+      "slug": "ops-fabric",
+      "title": "Ops Fabric",
+      "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "policy-fabric",
-      "title": "Policy Fabric",
-      "score": 100,
+      "slug": "market-fabric",
+      "title": "Market Fabric",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "broker-fabric",
+      "title": "Broker Fabric",
+      "progress": 100,
       "status": "closed"
     },
     {
       "slug": "trust-fabric",
       "title": "Trust Fabric",
-      "score": 100,
-      "status": "closed"
-    },
-    {
-      "slug": "infinity-fabric",
-      "title": "Infinity Fabric",
-      "score": 100,
+      "progress": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activePillars": 4,
-    "linkedLayers": 24,
-    "protectedStores": 30,
+    "routedCommands": 26,
+    "governedFlows": 22,
+    "protectedSwitches": 18,
     "fabricConfidence": 100
   },
-  "time": "2026-04-08T19:23:13.860Z"
+  "time": "2026-04-08T23:03:07.314Z"
 }

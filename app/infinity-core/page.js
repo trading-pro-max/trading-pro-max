@@ -12,7 +12,7 @@ const card={background:"#111827",border:"1px solid #1f2937",borderRadius:22,padd
 const box={background:"#020617",borderRadius:14,padding:14};
 
 export default function Page(){
-  const runtime=readJson(path.join(process.cwd(),".tpm","infinity-runtime.json"),{overallProgress:0,domains:{},infiniteContinuation:"ACTIVE"});
+  const runtime=readJson(path.join(process.cwd(),".tpm","infinity-runtime.json"),{overallProgress:0,domains:{}});
   const data=readJson(path.join(process.cwd(),"data","infinity","core.json"),{towers:[],metrics:{}});
 
   return (
@@ -21,7 +21,7 @@ export default function Page(){
         <div style={card}>
           <div style={{color:"#60a5fa",letterSpacing:4,fontSize:12}}>TRADING PRO MAX</div>
           <h1 style={{fontSize:42,margin:"10px 0 0"}}>Infinity Core</h1>
-          <div style={{marginTop:10,color:"#94a3b8"}}>Overall: {runtime.overallProgress}% · Mode: {runtime.infiniteContinuation}</div>
+          <div style={{marginTop:10,color:"#94a3b8"}}>Overall: {runtime.overallProgress}%</div>
         </div>
 
         <div style={{display:"grid",gridTemplateColumns:"repeat(5,minmax(0,1fr))",gap:16}}>

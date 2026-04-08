@@ -144,52 +144,50 @@
     "npm run tpm:sentinel",
     "npm run tpm:apex:once",
     "npm run tpm:apex",
-    "npm run tpm:agentmesh:once",
-    "npm run tpm:agentmesh",
-    "npm run tpm:platform:once",
-    "npm run tpm:platform",
+    "npm run tpm:meta:once",
+    "npm run tpm:meta",
     "npm run tpm:nexus:once",
     "npm run tpm:nexus",
+    "npm run tpm:agentmesh:once",
+    "npm run tpm:agentmesh",
     "npm run tpm:vertex:once",
     "npm run tpm:vertex",
     "npm run tpm:executive:once",
     "npm run tpm:executive",
     "npm run tpm:fabric:once",
     "npm run tpm:fabric",
+    "npm run tpm:council:once",
+    "npm run tpm:council",
     "npm run tpm:sovereign:once",
     "npm run tpm:sovereign",
     "npm run tpm:horizon:once",
     "npm run tpm:horizon",
-    "npm run tpm:navigator:once",
-    "npm run tpm:navigator",
     "npm run tpm:helix:once",
     "npm run tpm:helix",
-    "npm run tpm:observability:once",
-    "npm run tpm:observability",
-    "npm run tpm:atlas:once",
-    "npm run tpm:atlas",
+    "npm run tpm:learning:once",
+    "npm run tpm:learning",
     "npm run tpm:enterprise:once",
     "npm run tpm:enterprise",
     "npm run tpm:runtimeops:once",
     "npm run tpm:runtimeops",
-    "npm run tpm:learning:once",
-    "npm run tpm:learning",
-    "npm run tpm:council:once",
-    "npm run tpm:council",
     "npm run tpm:prism:once",
     "npm run tpm:prism",
-    "npm run tpm:pulse:once",
-    "npm run tpm:pulse",
-    "npm run tpm:meta:once",
-    "npm run tpm:meta",
     "npm run tpm:titan:once",
     "npm run tpm:titan",
+    "npm run tpm:platform:once",
+    "npm run tpm:platform",
+    "npm run tpm:observability:once",
+    "npm run tpm:observability",
+    "npm run tpm:navigator:once",
+    "npm run tpm:navigator",
+    "npm run tpm:atlas:once",
+    "npm run tpm:atlas",
+    "npm run tpm:pulse:once",
+    "npm run tpm:pulse",
     "npm run tpm:constellation:once",
     "npm run tpm:constellation",
     "npm run tpm:kernel:once",
     "npm run tpm:kernel",
-    "npm run tpm:autopilot:once",
-    "npm run tpm:autopilot",
     "npm run tpm:infinity:once",
     "npm run tpm:infinity",
     "npm run tpm:quantum:once",
@@ -236,15 +234,15 @@
     "/apex-command",
     "/memory-fabric",
     "/deploy-readiness",
-    "/agent-mesh",
-    "/memory-os",
-    "/growth-engine",
-    "/api-gateway",
-    "/integration-hub",
-    "/lifecycle-os",
+    "/meta-grid",
+    "/replay-library",
+    "/gatekeeper-panel",
     "/nexus-core",
     "/mission-ledger",
     "/growth-radar",
+    "/agent-mesh",
+    "/memory-os",
+    "/growth-engine",
     "/vertex-core",
     "/scenario-radar",
     "/control-memory",
@@ -254,56 +252,55 @@
     "/fabric-core",
     "/autonomy-grid",
     "/release-memory",
+    "/council-core",
+    "/knowledge-ledger",
+    "/switchboard",
     "/sovereign-grid",
     "/continuity-vault",
     "/command-nexus",
     "/horizon-hub",
     "/workspace-router",
     "/evidence-vault",
-    "/navigator-core",
-    "/portfolio-simulator",
-    "/audit-stream",
     "/helix-core",
     "/signal-parliament",
     "/resilience-deck",
-    "/observability-core",
-    "/incident-center",
-    "/playbook-os",
-    "/atlas-mesh",
-    "/decision-archive",
-    "/runtime-theater",
+    "/learning-loop",
+    "/route-arbitrator",
+    "/policy-studio",
     "/revenue-os",
     "/compliance-ledger",
     "/ops-replay",
     "/connector-inspector",
     "/env-doctor",
     "/runtime-health",
-    "/learning-loop",
-    "/route-arbitrator",
-    "/policy-studio",
-    "/council-core",
-    "/knowledge-ledger",
-    "/switchboard",
     "/prism-core",
     "/memory-map",
     "/execution-forum",
-    "/pulse-grid",
-    "/chronicle-center",
-    "/launch-console",
-    "/meta-grid",
-    "/replay-library",
-    "/gatekeeper-panel",
     "/titan-core",
     "/war-room",
     "/infinity-matrix",
     "/memory-citadel",
+    "/api-gateway",
+    "/integration-hub",
+    "/lifecycle-os",
+    "/observability-core",
+    "/incident-center",
+    "/playbook-os",
+    "/navigator-core",
+    "/portfolio-simulator",
+    "/audit-stream",
+    "/atlas-mesh",
+    "/decision-archive",
+    "/runtime-theater",
+    "/pulse-grid",
+    "/chronicle-center",
+    "/launch-console",
     "/constellation-hub",
     "/scenario-exchange",
     "/assurance-console",
     "/kernel-os",
     "/scenario-genome",
     "/operator-memory",
-    "/autopilot-center",
     "/infinity-core",
     "/autonomy-director",
     "/vault-matrix",
@@ -317,7 +314,9 @@
     "/operator-galaxy",
     "/revenue-fortress",
     "/resilience-os",
-    "/launch-war-room"
+    "/launch-war-room",
+    "/global-command-fabric",
+    "/autonomous-expansion-os"
   ],
   "nextWave": [
     {
@@ -545,44 +544,23 @@
       "status": "strong"
     },
     {
-      "slug": "agent-mesh-depth",
-      "title": "agent mesh depth",
-      "progress": 96,
+      "slug": "meta-grid",
+      "title": "meta grid",
+      "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "memory-os",
-      "title": "memory os",
-      "progress": 96,
+      "slug": "replay-library",
+      "title": "replay library",
+      "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "growth-engine",
-      "title": "growth engine",
-      "progress": 96,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "api-gateway",
-      "title": "api gateway",
-      "progress": 83,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "integration-hub",
-      "title": "integration hub",
-      "progress": 83,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "lifecycle-os",
-      "title": "lifecycle os",
-      "progress": 83,
+      "slug": "gatekeeper-panel",
+      "title": "gatekeeper panel",
+      "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
@@ -606,6 +584,27 @@
       "progress": 97,
       "stage": "CLOSED",
       "status": "closed"
+    },
+    {
+      "slug": "agent-mesh-depth",
+      "title": "agent mesh depth",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-os",
+      "title": "memory os",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "growth-engine",
+      "title": "growth engine",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
     },
     {
       "slug": "vertex-core",
@@ -671,6 +670,27 @@
       "status": "strong"
     },
     {
+      "slug": "council-core",
+      "title": "council core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "knowledge-ledger",
+      "title": "knowledge ledger",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "switchboard",
+      "title": "switchboard",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
       "slug": "sovereign-grid",
       "title": "sovereign grid",
       "progress": 100,
@@ -713,27 +733,6 @@
       "status": "strong"
     },
     {
-      "slug": "navigator-core",
-      "title": "navigator core",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "portfolio-simulator",
-      "title": "portfolio simulator",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "audit-stream",
-      "title": "audit stream",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
       "slug": "helix-core",
       "title": "helix core",
       "progress": 100,
@@ -755,43 +754,22 @@
       "status": "strong"
     },
     {
-      "slug": "observability-core",
-      "title": "observability core",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "incident-center",
-      "title": "incident center",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "playbook-os",
-      "title": "playbook os",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "atlas-mesh",
-      "title": "atlas mesh",
+      "slug": "learning-loop",
+      "title": "learning loop",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "decision-archive",
-      "title": "decision archive",
+      "slug": "route-arbitrator",
+      "title": "route arbitrator",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "runtime-theater",
-      "title": "runtime theater",
+      "slug": "policy-studio",
+      "title": "policy studio",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
@@ -839,48 +817,6 @@
       "status": "strong"
     },
     {
-      "slug": "learning-loop",
-      "title": "learning loop",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "route-arbitrator",
-      "title": "route arbitrator",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "policy-studio",
-      "title": "policy studio",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "council-core",
-      "title": "council core",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "knowledge-ledger",
-      "title": "knowledge ledger",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "switchboard",
-      "title": "switchboard",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
       "slug": "prism-core",
       "title": "prism core",
       "progress": 100,
@@ -897,48 +833,6 @@
     {
       "slug": "execution-forum",
       "title": "execution forum",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "pulse-grid",
-      "title": "pulse grid",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "chronicle-center",
-      "title": "chronicle center",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "launch-console",
-      "title": "launch console",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "meta-grid",
-      "title": "meta grid",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "replay-library",
-      "title": "replay library",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "gatekeeper-panel",
-      "title": "gatekeeper panel",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
@@ -967,6 +861,111 @@
     {
       "slug": "memory-citadel",
       "title": "memory citadel",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "api-gateway",
+      "title": "api gateway",
+      "progress": 83,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "integration-hub",
+      "title": "integration hub",
+      "progress": 83,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "lifecycle-os",
+      "title": "lifecycle os",
+      "progress": 83,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "observability-core",
+      "title": "observability core",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "incident-center",
+      "title": "incident center",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "playbook-os",
+      "title": "playbook os",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "navigator-core",
+      "title": "navigator core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "portfolio-simulator",
+      "title": "portfolio simulator",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "audit-stream",
+      "title": "audit stream",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "atlas-mesh",
+      "title": "atlas mesh",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "decision-archive",
+      "title": "decision archive",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "runtime-theater",
+      "title": "runtime theater",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "pulse-grid",
+      "title": "pulse grid",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "chronicle-center",
+      "title": "chronicle center",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "launch-console",
+      "title": "launch console",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
@@ -1110,9 +1109,23 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "global-command-fabric",
+      "title": "global command fabric",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomous-expansion-os",
+      "title": "autonomous expansion os",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
-  "time": "2026-04-08T23:00:08.831Z",
+  "time": "2026-04-08T23:01:51.487Z",
   "localCertified": true,
   "releaseGate": "OPEN_LOCAL",
   "externalDeployBlocked": true,
@@ -1121,7 +1134,7 @@
     "layer": "CONTINUUM_CORE_STRATEGY_COMMONS_ASSURANCE_HUB",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T23:00:08.836Z"
+    "time": "2026-04-08T23:01:38.856Z"
   },
   "infinitySevenLayer": {
     "active": true,
@@ -1129,35 +1142,35 @@
     "jumps": 7,
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T23:00:09.001Z"
+    "time": "2026-04-08T23:01:39.016Z"
   },
   "jump4": {
     "active": true,
     "layer": "INFINITY_JUMP_4",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T23:00:09.025Z"
+    "time": "2026-04-08T23:01:39.029Z"
   },
   "omegaLayer": {
     "active": true,
     "layer": "OMEGA_CORE_RECOVERY_MATRIX_TRUST_CENTER",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T23:00:13.290Z"
+    "time": "2026-04-08T23:01:58.002Z"
   },
   "infinityVectorLayer": {
     "active": true,
     "layer": "VECTOR_CORE_SCENARIO_ROUTER_ASSURANCE_WALL",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T23:00:09.089Z"
+    "time": "2026-04-08T23:01:39.106Z"
   },
   "infinityLayer3": {
     "active": true,
     "layer": "INFINITY_MESH_CLIENT_BRAIN_OPS_ARCHIVE",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T23:00:09.295Z"
+    "time": "2026-04-08T23:01:39.304Z"
   },
   "infinitySystem": {
     "active": true,
@@ -1166,168 +1179,134 @@
     "progress": 100,
     "status": "ACTIVE",
     "mode": "POST_CLOSURE_INFINITY",
-    "time": "2026-04-08T23:00:09.310Z"
+    "time": "2026-04-08T23:01:39.324Z"
   },
   "sentinelLayer": {
     "active": true,
     "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
     "progress": 93,
     "status": "ACTIVE",
-    "time": "2026-04-08T23:00:12.822Z"
+    "time": "2026-04-08T23:01:57.531Z"
   },
   "apexLayer": {
     "active": true,
     "layer": "APEX_COMMAND_MEMORY_FABRIC_DEPLOY_READINESS",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T23:00:09.505Z"
-  },
-  "postCertification": {
-    "active": true,
-    "layer": "AGENT_MESH_EXPANSION",
-    "progress": 96,
-    "status": "ACTIVE",
-    "time": "2026-04-08T23:00:09.609Z"
-  },
-  "platformLayer": {
-    "active": true,
-    "layer": "API_GATEWAY_INTEGRATION_HUB_LIFECYCLE_OS",
-    "progress": 83,
-    "status": "ACTIVE",
-    "time": "2026-04-08T23:00:11.408Z"
-  },
-  "globalExpansion": {
-    "active": true,
-    "layer": "NEXUS_CORE_MISSION_LEDGER_GROWTH_RADAR",
-    "progress": 97,
-    "status": "CLOSED_100",
-    "time": "2026-04-08T23:00:12.337Z"
-  },
-  "vertexLayer": {
-    "active": true,
-    "layer": "VERTEX_CORE_SCENARIO_RADAR_CONTROL_MEMORY",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T23:00:09.689Z"
-  },
-  "executiveLayer": {
-    "active": true,
-    "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
-    "progress": 96,
-    "status": "ACTIVE",
-    "time": "2026-04-08T23:00:10.484Z"
-  },
-  "postCertificationFabric": {
-    "active": true,
-    "layer": "FABRIC_CORE",
-    "progress": 97,
-    "status": "ACTIVE",
-    "time": "2026-04-08T23:00:10.032Z"
-  },
-  "sovereignLayer": {
-    "active": true,
-    "layer": "SOVEREIGN_GRID_CONTINUITY_VAULT_COMMAND_NEXUS",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T23:00:16.309Z"
-  },
-  "horizonLayer": {
-    "active": true,
-    "layer": "HORIZON_HUB_WORKSPACE_ROUTER_EVIDENCE_VAULT",
-    "progress": 97,
-    "status": "ACTIVE",
-    "time": "2026-04-08T23:00:11.874Z"
-  },
-  "navigatorLayer": {
-    "active": true,
-    "layer": "NAVIGATOR_CORE_PORTFOLIO_SIMULATOR_AUDIT_STREAM",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T23:00:14.220Z"
-  },
-  "helixLayer": {
-    "active": true,
-    "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T23:00:17.689Z"
-  },
-  "observabilityLayer": {
-    "active": true,
-    "layer": "OBSERVABILITY_CORE_INCIDENT_CENTER_PLAYBOOK_OS",
-    "progress": 97,
-    "status": "ACTIVE",
-    "time": "2026-04-08T23:00:13.749Z"
-  },
-  "atlasLayer": {
-    "active": true,
-    "layer": "ATLAS_MESH_DECISION_ARCHIVE_RUNTIME_THEATER",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T23:00:15.832Z"
-  },
-  "enterpriseLayer": {
-    "active": true,
-    "layer": "REVENUE_OS_COMPLIANCE_LEDGER_OPS_REPLAY",
-    "progress": 89,
-    "status": "ACTIVE",
-    "time": "2026-04-08T23:00:10.943Z"
-  },
-  "runtimeOpsLayer": {
-    "active": true,
-    "layer": "CONNECTOR_INSPECTOR_ENV_DOCTOR_RUNTIME_HEALTH",
-    "progress": 80,
-    "status": "ACTIVE",
-    "time": "2026-04-08T23:00:09.948Z"
-  },
-  "learningLayer": {
-    "active": true,
-    "layer": "LEARNING_LOOP_ROUTE_ARBITRATOR_POLICY_STUDIO",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T23:00:14.801Z"
-  },
-  "councilLayer": {
-    "active": true,
-    "layer": "COUNCIL_CORE_KNOWLEDGE_LEDGER_SWITCHBOARD",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T23:00:15.344Z"
-  },
-  "infinityContinuation": {
-    "active": true,
-    "status": "ACTIVE",
-    "layer": "QUANTUM_HQ",
-    "progress": 97,
-    "time": "2026-04-08T23:01:14.876Z"
-  },
-  "prismLayer": {
-    "active": true,
-    "layer": "PRISM_CORE_MEMORY_MAP_EXECUTION_FORUM",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T23:00:16.540Z"
-  },
-  "pulseLayer": {
-    "active": true,
-    "layer": "PULSE_GRID_CHRONICLE_CENTER_LAUNCH_CONSOLE",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T23:00:16.769Z"
+    "time": "2026-04-08T23:01:39.523Z"
   },
   "metaLayer": {
     "active": true,
     "layer": "META_GRID_REPLAY_LIBRARY_GATEKEEPER_PANEL",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T23:00:17.233Z"
+    "time": "2026-04-08T23:02:01.776Z"
+  },
+  "globalExpansion": {
+    "active": true,
+    "layer": "NEXUS_CORE_MISSION_LEDGER_GROWTH_RADAR",
+    "progress": 97,
+    "status": "CLOSED_100",
+    "time": "2026-04-08T23:01:57.052Z"
+  },
+  "postCertification": {
+    "active": true,
+    "layer": "AGENT_MESH_EXPANSION",
+    "progress": 96,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:01:54.283Z"
+  },
+  "vertexLayer": {
+    "active": true,
+    "layer": "VERTEX_CORE_SCENARIO_RADAR_CONTROL_MEMORY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:01:39.713Z"
+  },
+  "executiveLayer": {
+    "active": true,
+    "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
+    "progress": 96,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:01:55.193Z"
+  },
+  "postCertificationFabric": {
+    "active": true,
+    "layer": "FABRIC_CORE",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:01:54.740Z"
+  },
+  "councilLayer": {
+    "active": true,
+    "layer": "COUNCIL_CORE_KNOWLEDGE_LEDGER_SWITCHBOARD",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:01:59.873Z"
+  },
+  "sovereignLayer": {
+    "active": true,
+    "layer": "SOVEREIGN_GRID_CONTINUITY_VAULT_COMMAND_NEXUS",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:02:00.862Z"
+  },
+  "horizonLayer": {
+    "active": true,
+    "layer": "HORIZON_HUB_WORKSPACE_ROUTER_EVIDENCE_VAULT",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:01:56.582Z"
+  },
+  "helixLayer": {
+    "active": true,
+    "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:02:02.223Z"
+  },
+  "learningLayer": {
+    "active": true,
+    "layer": "LEARNING_LOOP_ROUTE_ARBITRATOR_POLICY_STUDIO",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:01:59.407Z"
+  },
+  "enterpriseLayer": {
+    "active": true,
+    "layer": "REVENUE_OS_COMPLIANCE_LEDGER_OPS_REPLAY",
+    "progress": 89,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:01:55.665Z"
+  },
+  "runtimeOpsLayer": {
+    "active": true,
+    "layer": "CONNECTOR_INSPECTOR_ENV_DOCTOR_RUNTIME_HEALTH",
+    "progress": 80,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:01:39.976Z"
+  },
+  "infinityContinuation": {
+    "active": true,
+    "layer": "INFINITY_CORE_GLOBAL_COMMAND_FABRIC_AUTONOMOUS_EXPANSION_OS",
+    "progress": 100,
+    "status": "ACTIVE",
+    "mode": "POST_CLOSURE_100",
+    "time": "2026-04-08T23:03:07.317Z"
+  },
+  "prismLayer": {
+    "active": true,
+    "layer": "PRISM_CORE_MEMORY_MAP_EXECUTION_FORUM",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:01:46.553Z"
   },
   "titanLayer": {
     "active": true,
     "layer": "TITAN_CORE_WAR_ROOM_INFINITY_MATRIX_MEMORY_CITADEL",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T23:00:17.877Z"
+    "time": "2026-04-08T23:01:47.896Z"
   },
   "infinityPostClosure": {
     "active": true,
@@ -1335,21 +1314,54 @@
     "status": "ACTIVE",
     "continuity": 100,
     "precision": 100,
-    "time": "2026-04-08T23:00:17.877Z"
+    "time": "2026-04-08T23:01:47.896Z"
   },
   "runtimeDepth": {
-    "status": "MAX_INTERNAL",
-    "protectedPages": 99,
-    "protectedCommands": 63,
-    "confidence": 100,
-    "time": "2026-04-08T23:00:17.877Z"
+    "active": 15,
+    "expected": 16,
+    "status": "CLOSED_100"
+  },
+  "platformLayer": {
+    "active": true,
+    "layer": "API_GATEWAY_INTEGRATION_HUB_LIFECYCLE_OS",
+    "progress": 83,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:01:56.117Z"
+  },
+  "observabilityLayer": {
+    "active": true,
+    "layer": "OBSERVABILITY_CORE_INCIDENT_CENTER_PLAYBOOK_OS",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:01:58.462Z"
+  },
+  "navigatorLayer": {
+    "active": true,
+    "layer": "NAVIGATOR_CORE_PORTFOLIO_SIMULATOR_AUDIT_STREAM",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:01:58.922Z"
+  },
+  "atlasLayer": {
+    "active": true,
+    "layer": "ATLAS_MESH_DECISION_ARCHIVE_RUNTIME_THEATER",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:02:00.387Z"
+  },
+  "pulseLayer": {
+    "active": true,
+    "layer": "PULSE_GRID_CHRONICLE_CENTER_LAUNCH_CONSOLE",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:02:01.313Z"
   },
   "constellationLayer": {
     "active": true,
     "layer": "CONSTELLATION_HUB_SCENARIO_EXCHANGE_ASSURANCE_CONSOLE",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T23:00:35.835Z"
+    "time": "2026-04-08T23:02:05.865Z"
   },
   "kernelLayer": {
     "active": true,
@@ -1357,66 +1369,7 @@
     "progress": 100,
     "status": "ACTIVE",
     "infinityContinuation": "ACTIVE",
-    "time": "2026-04-08T23:01:03.976Z"
-  },
-  "autopilot": {
-    "active": true,
-    "mode": "FULL_AUTO_LOCAL",
-    "cycle": 1,
-    "discoveredScripts": [
-      "tpm:agentmesh:once",
-      "tpm:ai:once",
-      "tpm:analytics:once",
-      "tpm:apex:once",
-      "tpm:atlas:once",
-      "tpm:broker:once",
-      "tpm:command:once",
-      "tpm:constellation:once",
-      "tpm:continuum:once",
-      "tpm:council:once",
-      "tpm:enterprise:once",
-      "tpm:executive:once",
-      "tpm:expansion:once",
-      "tpm:fabric:once",
-      "tpm:federation:once",
-      "tpm:final:once",
-      "tpm:governance:once",
-      "tpm:helix:once",
-      "tpm:horizon:once",
-      "tpm:hyper:once",
-      "tpm:infinity3:once",
-      "tpm:infinity7:once",
-      "tpm:infinity:once",
-      "tpm:intelligence:once",
-      "tpm:jump4:once",
-      "tpm:kernel:once",
-      "tpm:learning:once",
-      "tpm:market:once",
-      "tpm:meta:once",
-      "tpm:navigator:once",
-      "tpm:nexus:once",
-      "tpm:observability:once",
-      "tpm:omega:once",
-      "tpm:orchestrator:once",
-      "tpm:platform:once",
-      "tpm:prism:once",
-      "tpm:pulse:once",
-      "tpm:quantum:once",
-      "tpm:runtimeops:once",
-      "tpm:sentinel:once",
-      "tpm:simulation:once",
-      "tpm:sovereign:once",
-      "tpm:strategy:once",
-      "tpm:titan:once",
-      "tpm:vector:once",
-      "tpm:vertex:once",
-      "tpm:zenith:once",
-      "tpm:master:once"
-    ],
-    "successCount": 0,
-    "failedCount": 48,
-    "lastRunAt": "2026-04-08T23:01:10.305Z",
-    "status": "ACTIVE_WITH_ERRORS"
+    "time": "2026-04-08T23:02:33.998Z"
   },
   "infinity": {
     "active": true,
@@ -1424,19 +1377,18 @@
     "progress": 97,
     "localState": "CLOSED_100",
     "expansionState": "INFINITE_CONTINUATION_ACTIVE",
-    "time": "2026-04-08T23:01:11.658Z"
+    "time": "2026-04-08T23:02:41.677Z"
   },
   "hyperLayer": {
     "active": true,
     "layer": "HYPER_CORE_OPERATOR_GALAXY_REVENUE_FORTRESS_RESILIENCE_OS_LAUNCH_WAR_ROOM",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T23:01:17.225Z"
+    "time": "2026-04-08T23:02:47.245Z"
   },
   "runtimeExpansion": {
     "active": true,
     "modules": 5,
     "status": "ACTIVE",
-    "time": "2026-04-08T23:01:17.225Z"
+    "time": "2026-04-08T23:02:47.245Z"
   }
-}
