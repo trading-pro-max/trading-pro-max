@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "scenarios": [
+    {
+      "slug": "balanced-path",
+      "title": "Balanced Path",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "adaptive-path",
+      "title": "Adaptive Path",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "defense-path",
+      "title": "Defense Path",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "expansion-path",
+      "title": "Expansion Path",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedScenarios": 20,
+    "replayableScenarios": 18,
+    "governedScenarios": 16,
+    "radarConfidence": 100
+  },
+  "time": "2026-04-08T13:09:09.060Z"
+}

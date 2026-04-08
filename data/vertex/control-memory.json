@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "blocks": [
+    {
+      "slug": "runtime-memory",
+      "title": "Runtime Memory",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-memory",
+      "title": "Policy Memory",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "control-memory",
+      "title": "Control Memory",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-memory",
+      "title": "Evidence Memory",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "memoryBlocks": 18,
+    "protectedMemories": 20,
+    "replayMemories": 18,
+    "memoryConfidence": 100
+  },
+  "time": "2026-04-08T13:09:09.060Z"
+}

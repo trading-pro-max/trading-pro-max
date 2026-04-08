@@ -108,7 +108,9 @@
     "tpm:apex:once": "node ./lib/tpm-apex-core.mjs",
     "tpm:apex": "node ./scripts/tpm-apex-loop.mjs",
     "tpm:autopilot:once": "node ./lib/tpm-autopilot-core.mjs",
-    "tpm:autopilot": "node ./scripts/tpm-autopilot-loop.mjs"
+    "tpm:autopilot": "node ./scripts/tpm-autopilot-loop.mjs",
+    "tpm:vertex:once": "node ./lib/tpm-vertex-core.mjs",
+    "tpm:vertex": "node ./scripts/tpm-vertex-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",
