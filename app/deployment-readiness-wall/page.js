@@ -12,17 +12,17 @@ const card={background:"#111827",border:"1px solid #1f2937",borderRadius:22,padd
 const box={background:"#020617",borderRadius:14,padding:14};
 
 export default function Page(){
-  const data=readJson(path.join(process.cwd(),"data","infinity","foundry.json"),{cells:[],metrics:{}});
+  const data=readJson(path.join(process.cwd(),"data","infinity","deployment-readiness.json"),{layers:[],metrics:{}});
   return (
     <main style={{minHeight:"100vh",background:"linear-gradient(180deg,#020617 0%,#0b1120 100%)",color:"white",padding:24,fontFamily:"Arial,sans-serif"}}>
       <div style={{maxWidth:1500,margin:"0 auto",display:"grid",gap:20}}>
         <div style={card}>
           <div style={{color:"#60a5fa",letterSpacing:4,fontSize:12}}>TRADING PRO MAX</div>
-          <h1 style={{fontSize:42,margin:"10px 0 0"}}>Autonomous Foundry</h1>
+          <h1 style={{fontSize:42,margin:"10px 0 0"}}>Deployment Readiness Wall</h1>
         </div>
 
         <div style={{display:"grid",gridTemplateColumns:"repeat(4,minmax(0,1fr))",gap:16}}>
-          {(data.cells || []).map((x)=>(
+          {(data.layers || []).map((x)=>(
             <div key={x.slug} style={box}>
               <div style={{fontWeight:900}}>{x.title}</div>
               <div style={{marginTop:8,color:"#22c55e",fontWeight:900,fontSize:24}}>{x.progress}%</div>
@@ -37,7 +37,7 @@ export default function Page(){
             {Object.entries(data.metrics || {}).map(([k,v])=>(
               <div key={k} style={box}>
                 <div style={{color:"#94a3b8",fontSize:12}}>{k}</div>
-                <div style={{fontSize:28,fontWeight:900,marginTop:6}}>{v}</div>
+                <div style={{fontSize:28,fontWeight:900,marginTop:6}}>{v}%</div>
               </div>
             ))}
           </div>
