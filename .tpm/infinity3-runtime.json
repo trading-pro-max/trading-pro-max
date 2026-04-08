@@ -1,13 +1,13 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY3_ACTIVE",
-  "overallProgress": 90,
-  "completed": 90,
-  "remaining": 10,
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
   "domains": {
-    "mesh": 83,
-    "client": 83,
-    "archive": 83,
+    "mesh": 100,
+    "client": 100,
+    "archive": 100,
     "proof": 100,
     "continuity": 100
   },
@@ -15,21 +15,21 @@
     {
       "slug": "mesh-depth",
       "title": "mesh depth",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "client-depth",
       "title": "client depth",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "archive-depth",
       "title": "archive depth",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T19:45:44.827Z"
+  "time": "2026-04-08T19:47:15.678Z"
 }

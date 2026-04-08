@@ -6,62 +6,21 @@
   "localCertified": true,
   "releaseGate": "OPEN_LOCAL",
   "finalReadiness": "ready-local-100",
+  "externalDeployBlocked": true,
+  "blockers": [
+    "External GoDaddy deploy remains blocked by current hosting plan."
+  ],
   "pages": [
-    "/observability-core",
-    "/incident-center",
-    "/playbook-os",
     "/apex-command",
     "/memory-fabric",
-    "/deploy-readiness",
-    "/vector-core",
-    "/relay-dome",
-    "/memory-theater",
-    "/ops-lattice",
-    "/infinity-core",
-    "/strategy-genome",
-    "/ops-embassy",
-    "/autopilot-center",
-    "/infinity-mesh",
-    "/client-brain",
-    "/ops-archive"
+    "/deploy-readiness"
   ],
   "commands": [
-    "npm run tpm:observability:once",
-    "npm run tpm:observability",
-    "npm run tpm:master:once",
     "npm run tpm:apex:once",
     "npm run tpm:apex",
-    "npm run tpm:vector:once",
-    "npm run tpm:vector",
-    "npm run tpm:infinity:once",
-    "npm run tpm:infinity",
-    "npm run tpm:autopilot:once",
-    "npm run tpm:autopilot",
-    "npm run tpm:infinity3:once",
-    "npm run tpm:infinity3"
+    "npm run tpm:master:once"
   ],
   "nextWave": [
-    {
-      "slug": "observability-core",
-      "title": "observability core",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "incident-center",
-      "title": "incident center",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "playbook-os",
-      "title": "playbook os",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
     {
       "slug": "apex-command",
       "title": "apex command",
@@ -82,166 +41,13 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
-    },
-    {
-      "slug": "vector-core",
-      "title": "vector core",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "relay-dome",
-      "title": "relay dome",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "memory-theater",
-      "title": "memory theater",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "ops-lattice",
-      "title": "ops lattice",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "infinity-core",
-      "title": "infinity core",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "strategy-genome",
-      "title": "strategy genome",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "ops-embassy",
-      "title": "ops embassy",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "infinity-mesh",
-      "title": "infinity mesh",
-      "progress": 90,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "client-brain",
-      "title": "client brain",
-      "progress": 90,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "ops-archive",
-      "title": "ops archive",
-      "progress": 90,
-      "stage": "ACTIVE",
-      "status": "strong"
     }
-  ],
-  "observabilityLayer": {
-    "active": true,
-    "layer": "OBSERVABILITY_CORE_INCIDENT_CENTER_PLAYBOOK_OS",
-    "progress": 97,
-    "status": "ACTIVE",
-    "time": "2026-04-08T19:44:22.208Z"
-  },
-  "externalDeployBlocked": true,
-  "blockers": [
-    "External GoDaddy deploy remains blocked by current hosting plan."
   ],
   "apexLayer": {
     "active": true,
     "layer": "APEX_COMMAND_MEMORY_FABRIC_DEPLOY_READINESS",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T19:44:22.219Z"
-  },
-  "vectorLayer": {
-    "active": true,
-    "layer": "VECTOR_CORE_RELAY_DOME_MEMORY_THEATER_OPS_LATTICE",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T19:44:48.941Z"
-  },
-  "infinityLayer": {
-    "active": true,
-    "layer": "INFINITY_CORE_STRATEGY_GENOME_OPS_EMBASSY",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T19:45:04.017Z"
-  },
-  "autopilot": {
-    "active": true,
-    "mode": "FULL_AUTO_LOCAL",
-    "cycle": 1,
-    "discoveredScripts": [
-      "tpm:agentmesh:once",
-      "tpm:ai:once",
-      "tpm:analytics:once",
-      "tpm:apex:once",
-      "tpm:atlas:once",
-      "tpm:broker:once",
-      "tpm:command:once",
-      "tpm:constellation:once",
-      "tpm:council:once",
-      "tpm:enterprise:once",
-      "tpm:executive:once",
-      "tpm:expansion:once",
-      "tpm:fabric:once",
-      "tpm:federation:once",
-      "tpm:final:once",
-      "tpm:governance:once",
-      "tpm:helix:once",
-      "tpm:horizon:once",
-      "tpm:infinity:once",
-      "tpm:intelligence:once",
-      "tpm:learning:once",
-      "tpm:market:once",
-      "tpm:meta:once",
-      "tpm:navigator:once",
-      "tpm:nexus:once",
-      "tpm:observability:once",
-      "tpm:omega:once",
-      "tpm:orchestrator:once",
-      "tpm:platform:once",
-      "tpm:prism:once",
-      "tpm:pulse:once",
-      "tpm:quantum:once",
-      "tpm:runtimeops:once",
-      "tpm:sentinel:once",
-      "tpm:simulation:once",
-      "tpm:sovereign:once",
-      "tpm:strategy:once",
-      "tpm:vector:once",
-      "tpm:vertex:once",
-      "tpm:master:once"
-    ],
-    "successCount": 0,
-    "failedCount": 40,
-    "lastRunAt": "2026-04-08T19:45:36.342Z",
-    "status": "ACTIVE_WITH_ERRORS"
-  },
-  "infinityLayer3": {
-    "active": true,
-    "layer": "INFINITY_MESH_CLIENT_BRAIN_OPS_ARCHIVE",
-    "progress": 90,
-    "status": "ACTIVE",
-    "time": "2026-04-08T19:45:44.837Z"
+    "time": "2026-04-08T19:47:22.432Z"
   }
 }
