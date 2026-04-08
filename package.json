@@ -56,7 +56,9 @@
     "tpm:command:once": "node ./lib/tpm-command-core.mjs",
     "tpm:command": "node ./scripts/tpm-command-loop.mjs",
     "tpm:broker:once": "node ./lib/tpm-broker-core.mjs",
-    "tpm:broker": "node ./scripts/tpm-broker-loop.mjs"
+    "tpm:broker": "node ./scripts/tpm-broker-loop.mjs",
+    "tpm:governance:once": "node ./lib/tpm-governance-core.mjs",
+    "tpm:governance": "node ./scripts/tpm-governance-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

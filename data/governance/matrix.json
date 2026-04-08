@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "cells": [
+    {
+      "slug": "runtime",
+      "title": "Runtime Governance",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "risk",
+      "title": "Risk Governance",
+      "score": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "data",
+      "title": "Data Governance",
+      "score": 96,
+      "status": "strong"
+    },
+    {
+      "slug": "alerts",
+      "title": "Alert Governance",
+      "score": 90,
+      "status": "partial"
+    },
+    {
+      "slug": "continuity",
+      "title": "Continuity Governance",
+      "score": 99,
+      "status": "strong"
+    }
+  ],
+  "time": "2026-04-08T09:59:38.503Z"
+}
