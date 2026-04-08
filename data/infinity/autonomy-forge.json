@@ -2,35 +2,35 @@
   "ok": true,
   "forges": [
     {
-      "slug": "builder",
+      "slug": "builder-forge",
       "title": "Builder Forge",
       "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "policy",
-      "title": "Policy Forge",
+      "slug": "strategy-forge",
+      "title": "Strategy Forge",
       "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "route",
-      "title": "Route Forge",
+      "slug": "execution-forge",
+      "title": "Execution Forge",
       "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "evolution",
-      "title": "Evolution Forge",
+      "slug": "memory-forge",
+      "title": "Memory Forge",
       "progress": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "forgedRuntimes": 18,
-    "forgedPolicies": 16,
-    "forgedRoutes": 14,
+    "autonomousChains": 24,
+    "selfImprovementLoops": 18,
+    "governedAgents": 16,
     "forgeConfidence": 100
   },
-  "time": "2026-04-08T21:42:41.998Z"
+  "time": "2026-04-08T23:40:33.661Z"
 }

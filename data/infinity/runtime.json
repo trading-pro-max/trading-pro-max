@@ -1,36 +1,37 @@
 {
   "ok": true,
-  "engines": [
+  "towers": [
     {
-      "slug": "builder-infinity",
-      "title": "Builder Infinity",
+      "slug": "post100",
+      "title": "Post-100 Continuation",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "routing-infinity",
-      "title": "Routing Infinity",
+      "slug": "autonomy",
+      "title": "Autonomy Continuation",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "memory-infinity",
-      "title": "Memory Infinity",
+      "slug": "enterprise",
+      "title": "Enterprise Continuation",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "execution-infinity",
-      "title": "Execution Infinity",
+      "slug": "infinity",
+      "title": "Infinity Continuation",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "governedLayers": 24,
-    "linkedRuntimes": 26,
+    "activeLayers": 27,
     "activePages": 45,
+    "activeLoops": 22,
+    "protectedStores": 31,
     "infinityConfidence": 100
   },
-  "time": "2026-04-08T23:39:40.127Z"
+  "time": "2026-04-08T23:40:33.660Z"
 }

@@ -1,41 +1,41 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 97,
-  "completed": 97,
-  "remaining": 3,
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
   "domains": {
     "infinity": 100,
-    "foundry": 86,
-    "memory": 100,
-    "deals": 100,
-    "continuity": 100
+    "forge": 100,
+    "partners": 100,
+    "investors": 100,
+    "deploy": 100,
+    "proof": 100
   },
   "nextWave": [
     {
-      "slug": "infinity-density",
-      "title": "infinity density",
+      "slug": "autonomy-forge",
+      "title": "autonomy forge",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "foundry-depth",
-      "title": "foundry depth",
-      "progress": 86,
-      "status": "active"
-    },
-    {
-      "slug": "memory-depth",
-      "title": "memory depth",
+      "slug": "partner-hub",
+      "title": "partner hub",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "deal-ops",
-      "title": "deal ops",
+      "slug": "investor-room",
+      "title": "investor room",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "deployment-vault",
+      "title": "deployment vault",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T23:39:40.127Z"
-}
+  "time": "2026-04-08T23:40:33
