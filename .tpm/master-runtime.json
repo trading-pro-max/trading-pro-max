@@ -131,7 +131,9 @@
     "npm run tpm:prism:once",
     "npm run tpm:prism",
     "npm run tpm:sovereign:once",
-    "npm run tpm:sovereign"
+    "npm run tpm:sovereign",
+    "npm run tpm:sentinel:once",
+    "npm run tpm:sentinel"
   ],
   "pages": [
     "/master-control",
@@ -150,7 +152,10 @@
     "/integrity-hub",
     "/sovereign-grid",
     "/continuity-vault",
-    "/command-nexus"
+    "/command-nexus",
+    "/sentinel-core",
+    "/experiment-studio",
+    "/customer-success-hub"
   ],
   "nextWave": [
     {
@@ -236,6 +241,27 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "sentinel-core",
+      "title": "sentinel core",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "experiment-studio",
+      "title": "experiment studio",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "customer-success-hub",
+      "title": "customer success hub",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T16:56:59.472Z",
@@ -262,5 +288,12 @@
     "progress": 100,
     "status": "ACTIVE",
     "time": "2026-04-08T16:57:02.414Z"
+  },
+  "sentinelLayer": {
+    "active": true,
+    "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
+    "progress": 93,
+    "status": "ACTIVE",
+    "time": "2026-04-08T16:57:03.436Z"
   }
 }
