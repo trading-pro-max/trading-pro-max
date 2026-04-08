@@ -4,6 +4,7 @@ import { getManifest, getState, saveState, createSnapshot } from "../lib/tpm-run
 
 const ROOT = process.cwd();
 const TPM_DIR = path.join(ROOT, ".tpm");
+
 const RESULT_FILE = path.join(TPM_DIR, "final-100-result.json");
 const CERT_FILE = path.join(TPM_DIR, "certification.json");
 const RELEASE_FILE = path.join(TPM_DIR, "release.json");
@@ -32,6 +33,7 @@ state.modules = state.modules || {};
 
 for (const m of manifest.modules) {
   const current = state.modules[m.slug] || {};
+
   if (
     Number(current.progress || 0) < 100 ||
     Number(current.readiness || 0) < 100 ||
