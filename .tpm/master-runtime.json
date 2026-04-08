@@ -118,7 +118,8 @@
     }
   ],
   "blockers": [
-    "External GoDaddy deploy remains blocked by current hosting plan."
+    "GoDaddy SFTP credentials are not filled yet.",
+    "External deploy remains constrained by current hosting plan."
   ],
   "commands": [
     "npm run tpm:master:once",
@@ -1045,7 +1046,7 @@
       "status": "strong"
     }
   ],
-  "time": "2026-04-08T23:40:17.714Z",
+  "time": "2026-04-08T23:40:23.625Z",
   "localCertified": true,
   "releaseGate": "OPEN_LOCAL",
   "externalDeployBlocked": true,
