@@ -7,222 +7,75 @@
   "releaseGate": "OPEN_LOCAL",
   "finalReadiness": "ready-local-100",
   "pages": [
-    "/observability-core",
-    "/incident-center",
-    "/playbook-os",
-    "/learning-loop",
-    "/route-arbitrator",
-    "/policy-studio",
-    "/apex-command",
-    "/memory-fabric",
-    "/deploy-readiness",
-    "/vector-core",
-    "/relay-dome",
-    "/memory-theater",
-    "/ops-lattice",
-    "/infinity-core",
-    "/strategy-genome",
-    "/ops-embassy",
-    "/quantum-board",
-    "/runtime-covenant",
-    "/omega-core",
-    "/recovery-matrix",
-    "/trust-center"
+    "/agent-mesh",
+    "/memory-os",
+    "/growth-engine",
+    "/sentinel-core",
+    "/experiment-studio",
+    "/customer-success-hub"
   ],
   "commands": [
-    "npm run tpm:observability:once",
-    "npm run tpm:observability",
-    "npm run tpm:master:once",
-    "npm run tpm:learning:once",
-    "npm run tpm:learning",
-    "npm run tpm:apex:once",
-    "npm run tpm:apex",
-    "npm run tpm:vector:once",
-    "npm run tpm:vector",
-    "npm run tpm:infinity:once",
-    "npm run tpm:infinity",
-    "npm run tpm:quantum:once",
-    "npm run tpm:quantum",
-    "npm run tpm:omega:once",
-    "npm run tpm:omega"
+    "npm run tpm:agentmesh:once",
+    "npm run tpm:agentmesh",
+    "npm run tpm:sentinel:once",
+    "npm run tpm:sentinel"
   ],
   "nextWave": [
     {
-      "slug": "observability-core",
-      "title": "observability core",
-      "progress": 97,
+      "slug": "agent-mesh-depth",
+      "title": "agent mesh depth",
+      "progress": 96,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "incident-center",
-      "title": "incident center",
-      "progress": 97,
+      "slug": "memory-os",
+      "title": "memory os",
+      "progress": 96,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "playbook-os",
-      "title": "playbook os",
-      "progress": 97,
+      "slug": "growth-engine",
+      "title": "growth engine",
+      "progress": 96,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "learning-loop",
-      "title": "learning loop",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "route-arbitrator",
-      "title": "route arbitrator",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "policy-studio",
-      "title": "policy studio",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "apex-command",
-      "title": "apex command",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "memory-fabric",
-      "title": "memory fabric",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "deploy-readiness",
-      "title": "deploy readiness",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "vector-core",
-      "title": "vector core",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "relay-dome",
-      "title": "relay dome",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "memory-theater",
-      "title": "memory theater",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "ops-lattice",
-      "title": "ops lattice",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "infinity-core",
-      "title": "infinity core",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "strategy-genome",
-      "title": "strategy genome",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "ops-embassy",
-      "title": "ops embassy",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "quantum-board",
-      "title": "quantum board",
+      "slug": "sentinel-core",
+      "title": "sentinel core",
       "progress": 93,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "runtime-covenant",
-      "title": "runtime covenant",
+      "slug": "experiment-studio",
+      "title": "experiment studio",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "customer-success-hub",
+      "title": "customer success hub",
       "progress": 93,
       "stage": "ACTIVE",
       "status": "strong"
     }
   ],
-  "observabilityLayer": {
+  "postCertification": {
     "active": true,
-    "layer": "OBSERVABILITY_CORE_INCIDENT_CENTER_PLAYBOOK_OS",
-    "progress": 97,
+    "layer": "AGENT_MESH_EXPANSION",
+    "progress": 96,
     "status": "ACTIVE",
-    "time": "2026-04-08T19:50:22.630Z"
+    "time": "2026-04-08T20:52:18.516Z"
   },
-  "learningLayer": {
+  "sentinelLayer": {
     "active": true,
-    "layer": "LEARNING_LOOP_ROUTE_ARBITRATOR_POLICY_STUDIO",
-    "progress": 100,
+    "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
+    "progress": 93,
     "status": "ACTIVE",
-    "time": "2026-04-08T19:50:22.644Z"
-  },
-  "externalDeployBlocked": true,
-  "blockers": [
-    "External GoDaddy deploy remains blocked by current hosting plan."
-  ],
-  "apexLayer": {
-    "active": true,
-    "layer": "APEX_COMMAND_MEMORY_FABRIC_DEPLOY_READINESS",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T19:50:22.659Z"
-  },
-  "vectorLayer": {
-    "active": true,
-    "layer": "VECTOR_CORE_RELAY_DOME_MEMORY_THEATER_OPS_LATTICE",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T19:50:49.356Z"
-  },
-  "infinityLayer": {
-    "active": true,
-    "layer": "INFINITY_CORE_STRATEGY_GENOME_OPS_EMBASSY",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T19:51:04.361Z"
-  },
-  "infinityJump5": {
-    "active": true,
-    "layer": "QUANTUM_BOARD_STRATEGY_GENOME_RUNTIME_COVENANT",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T19:51:06.850Z"
-  },
-  "runtimeDepth": {
-    "active": 15,
-    "expected": 16,
-    "status": "CLOSED_100"
+    "time": "2026-04-08T20:52:18.539Z"
   }
 }
