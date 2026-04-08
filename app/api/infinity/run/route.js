@@ -1,5 +1,5 @@
 ﻿import { NextResponse } from "next/server";
-import { runInfinityCycle } from "../../../../../lib/tpm-infinity-core.mjs";
+import { runInfinityCycle } from "../../../../lib/tpm-infinity-core.mjs";
 
 export const dynamic = "force-dynamic";
 

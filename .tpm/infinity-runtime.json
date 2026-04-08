@@ -6,8 +6,8 @@
   "remaining": 3,
   "domains": {
     "infinity": 100,
-    "theater": 83,
-    "vault": 100,
+    "forge": 83,
+    "growth": 100,
     "proof": 100,
     "continuity": 100
   },
@@ -19,17 +19,16 @@
       "status": "active"
     },
     {
-      "slug": "autonomy-scenes",
-      "title": "autonomy scenes",
+      "slug": "forge-depth",
+      "title": "forge depth",
       "progress": 83,
       "status": "active"
     },
     {
-      "slug": "vault-depth",
-      "title": "vault depth",
+      "slug": "growth-depth",
+      "title": "growth depth",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T21:40:15.733Z"
-}
+  "time": "2026-04-08T21:41:11.930Z"
