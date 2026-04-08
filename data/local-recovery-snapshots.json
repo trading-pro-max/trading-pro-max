@@ -1,5 +1,17 @@
 [
   {
+    "id": "SNAP-45OKLDVY",
+    "label": "self-heal",
+    "createdAt": "2026-04-08T01:42:05.083Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
     "id": "SNAP-NH3LUI2N",
     "label": "self-heal",
     "createdAt": "2026-04-08T01:37:29.328Z",
