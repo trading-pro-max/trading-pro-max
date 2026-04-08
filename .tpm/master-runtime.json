@@ -181,7 +181,11 @@
     "npm run tpm:kernel:once",
     "npm run tpm:kernel",
     "npm run tpm:supremacy:once",
-    "npm run tpm:supremacy"
+    "npm run tpm:supremacy",
+    "npm run tpm:quantum:once",
+    "npm run tpm:quantum",
+    "npm run tpm:hyper:once",
+    "npm run tpm:hyper"
   ],
   "pages": [
     "/master-control",
@@ -282,7 +286,20 @@
     "/genome-grid",
     "/autonomy-fabric",
     "/expansion-vault",
-    "/zero-touch-ops"
+    "/zero-touch-ops",
+    "/quantum-hq",
+    "/revenue-cockpit",
+    "/partner-grid",
+    "/autonomy-factory",
+    "/client-command",
+    "/titan-core",
+    "/empire-grid",
+    "/memory-mesh",
+    "/hyper-core",
+    "/operator-galaxy",
+    "/revenue-fortress",
+    "/resilience-os",
+    "/launch-war-room"
   ],
   "nextWave": [
     {
@@ -935,9 +952,100 @@
       "progress": 73,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "quantum-hq",
+      "title": "quantum hq",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "revenue-cockpit",
+      "title": "revenue cockpit",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "partner-grid",
+      "title": "partner grid",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomy-factory",
+      "title": "autonomy factory",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "client-command",
+      "title": "client command",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "titan-core",
+      "title": "titan core",
+      "progress": 83,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "empire-grid",
+      "title": "empire grid",
+      "progress": 83,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-mesh",
+      "title": "memory mesh",
+      "progress": 83,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "hyper-core",
+      "title": "hyper core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-galaxy",
+      "title": "operator galaxy",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "revenue-fortress",
+      "title": "revenue fortress",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "resilience-os",
+      "title": "resilience os",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "launch-war-room",
+      "title": "launch war room",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
-  "time": "2026-04-08T23:40:08.750Z",
+  "time": "2026-04-08T23:40:17.714Z",
   "localCertified": true,
   "releaseGate": "OPEN_LOCAL",
   "externalDeployBlocked": true,
@@ -1100,11 +1208,10 @@
   },
   "infinityContinuation": {
     "active": true,
-    "layer": "INFINITY_CORE_AUTONOMOUS_FOUNDRY_MARKET_MEMORY_DEAL_ROOM",
-    "progress": 97,
     "status": "ACTIVE",
-    "mode": "LOCAL_100_CONTINUED",
-    "time": "2026-04-08T23:39:40.132Z"
+    "layer": "QUANTUM_HQ",
+    "progress": 97,
+    "time": "2026-04-08T23:40:15.498Z"
   },
   "prismLayer": {
     "active": true,
@@ -1120,10 +1227,10 @@
   },
   "titanLayer": {
     "active": true,
-    "layer": "TITAN_GRID_UNIVERSE_OPS_FOUNDRY_LAB_DEPLOY_FREEZE_WALL",
-    "progress": 98,
+    "layer": "TITAN_CORE_EMPIRE_GRID_AUTONOMOUS_FOUNDRY_MEMORY_MESH",
+    "progress": 93,
     "status": "ACTIVE",
-    "time": "2026-04-08T23:39:23.085Z"
+    "time": "2026-04-08T23:40:18.161Z"
   },
   "constellationLayer": {
     "active": true,
@@ -1146,5 +1253,18 @@
     "progress": 87,
     "status": "ACTIVE",
     "time": "2026-04-08T23:40:09.012Z"
+  },
+  "hyperLayer": {
+    "active": true,
+    "layer": "HYPER_CORE_OPERATOR_GALAXY_REVENUE_FORTRESS_RESILIENCE_OS_LAUNCH_WAR_ROOM",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:40:17.943Z"
+  },
+  "runtimeExpansion": {
+    "active": true,
+    "modules": 5,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:40:17.943Z"
   }
 }

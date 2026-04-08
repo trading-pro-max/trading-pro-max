@@ -1,15 +1,14 @@
 {
   "ok": true,
   "mode": "TPM_TITAN_ACTIVE",
-  "overallProgress": 98,
-  "completed": 98,
-  "remaining": 2,
+  "overallProgress": 93,
+  "completed": 93,
+  "remaining": 7,
   "domains": {
     "titan": 100,
-    "universe": 86,
+    "empire": 83,
     "foundry": 100,
-    "freeze": 100,
-    "proof": 100,
+    "memory": 83,
     "continuity": 100
   },
   "nextWave": [
@@ -20,23 +19,22 @@
       "status": "active"
     },
     {
-      "slug": "universe-fusion",
-      "title": "universe fusion",
-      "progress": 86,
+      "slug": "empire-depth",
+      "title": "empire depth",
+      "progress": 83,
       "status": "active"
     },
     {
-      "slug": "foundry-depth",
-      "title": "foundry depth",
+      "slug": "foundry-power",
+      "title": "foundry power",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "freeze-clarity",
-      "title": "freeze clarity",
-      "progress": 100,
+      "slug": "memory-density",
+      "title": "memory density",
+      "progress": 83,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T23:39:23.080Z"
-}
+  "time": "2026-04-08T23:40:18.158Z"

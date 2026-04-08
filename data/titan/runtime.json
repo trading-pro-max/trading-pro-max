@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "clusters": [
+  "towers": [
     {
-      "slug": "runtime-cluster",
-      "title": "Runtime Cluster",
+      "slug": "runtime-titan",
+      "title": "Runtime Titan",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "command-cluster",
-      "title": "Command Cluster",
+      "slug": "empire-titan",
+      "title": "Empire Titan",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "trust-cluster",
-      "title": "Trust Cluster",
+      "slug": "foundry-titan",
+      "title": "Foundry Titan",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "expansion-cluster",
-      "title": "Expansion Cluster",
+      "slug": "memory-titan",
+      "title": "Memory Titan",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "titanClusters": 4,
-    "linkedRuntimes": 26,
-    "governedStores": 30,
+    "activePlanes": 24,
+    "linkedRuntimes": 30,
+    "governedChains": 26,
     "titanConfidence": 100
   },
-  "time": "2026-04-08T23:39:23.080Z"
+  "time": "2026-04-08T23:40:18.149Z"
 }
