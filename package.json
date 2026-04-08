@@ -76,7 +76,9 @@
     "tpm:nexus:once": "node ./lib/tpm-nexus-core.mjs",
     "tpm:nexus": "node ./scripts/tpm-nexus-loop.mjs",
     "tpm:sentinel:once": "node ./lib/tpm-sentinel-core.mjs",
-    "tpm:sentinel": "node ./scripts/tpm-sentinel-loop.mjs"
+    "tpm:sentinel": "node ./scripts/tpm-sentinel-loop.mjs",
+    "tpm:omega:once": "node ./lib/tpm-omega-core.mjs",
+    "tpm:omega": "node ./scripts/tpm-omega-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

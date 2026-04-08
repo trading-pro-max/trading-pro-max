@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "pillars": [
+    {
+      "slug": "certification",
+      "title": "Certification Trust",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "runtime",
+      "title": "Runtime Trust",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "governance",
+      "title": "Governance Trust",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "enterprise",
+      "title": "Enterprise Trust",
+      "score": 99,
+      "status": "strong"
+    }
+  ],
+  "maps": {
+    "auditStrength": 100,
+    "releaseStrength": 100,
+    "evidenceStrength": 100,
+    "continuityStrength": 100
+  },
+  "time": "2026-04-08T10:58:35.423Z"
+}
