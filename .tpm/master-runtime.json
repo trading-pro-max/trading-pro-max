@@ -163,7 +163,15 @@
     "npm run tpm:navigator:once",
     "npm run tpm:navigator",
     "npm run tpm:runtimeops:once",
-    "npm run tpm:runtimeops"
+    "npm run tpm:runtimeops",
+    "npm run tpm:atlas:once",
+    "npm run tpm:atlas",
+    "npm run tpm:observability:once",
+    "npm run tpm:observability",
+    "npm run tpm:enterprise:once",
+    "npm run tpm:enterprise",
+    "npm run tpm:apex:once",
+    "npm run tpm:apex"
   ],
   "pages": [
     "/master-control",
@@ -229,7 +237,19 @@
     "/audit-stream",
     "/connector-inspector",
     "/env-doctor",
-    "/runtime-health"
+    "/runtime-health",
+    "/atlas-mesh",
+    "/decision-archive",
+    "/runtime-theater",
+    "/observability-core",
+    "/incident-center",
+    "/playbook-os",
+    "/revenue-os",
+    "/compliance-ledger",
+    "/ops-replay",
+    "/apex-command",
+    "/memory-fabric",
+    "/deploy-readiness"
   ],
   "nextWave": [
     {
@@ -644,6 +664,90 @@
       "progress": 68,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "atlas-mesh",
+      "title": "atlas mesh",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "decision-archive",
+      "title": "decision archive",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "runtime-theater",
+      "title": "runtime theater",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "observability-core",
+      "title": "observability core",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "incident-center",
+      "title": "incident center",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "playbook-os",
+      "title": "playbook os",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "revenue-os",
+      "title": "revenue os",
+      "progress": 89,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "compliance-ledger",
+      "title": "compliance ledger",
+      "progress": 89,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "ops-replay",
+      "title": "ops replay",
+      "progress": 89,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "apex-command",
+      "title": "apex command",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-fabric",
+      "title": "memory fabric",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "deploy-readiness",
+      "title": "deploy readiness",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T13:52:25.293Z",
@@ -781,13 +885,41 @@
   "runtimeOpsLayer": {
     "active": true,
     "layer": "CONNECTOR_INSPECTOR_ENV_DOCTOR_RUNTIME_HEALTH",
-    "progress": 68,
+    "progress": 80,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:53:27.925Z"
+    "time": "2026-04-08T13:53:29.095Z"
   },
   "runtimeDepth": {
     "active": 15,
     "expected": 16,
     "status": "CLOSED_100"
+  },
+  "atlasLayer": {
+    "active": true,
+    "layer": "ATLAS_MESH_DECISION_ARCHIVE_RUNTIME_THEATER",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T13:53:29.825Z"
+  },
+  "observabilityLayer": {
+    "active": true,
+    "layer": "OBSERVABILITY_CORE_INCIDENT_CENTER_PLAYBOOK_OS",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T13:53:31.095Z"
+  },
+  "enterpriseLayer": {
+    "active": true,
+    "layer": "REVENUE_OS_COMPLIANCE_LEDGER_OPS_REPLAY",
+    "progress": 89,
+    "status": "ACTIVE",
+    "time": "2026-04-08T13:53:32.509Z"
+  },
+  "apexLayer": {
+    "active": true,
+    "layer": "APEX_COMMAND_MEMORY_FABRIC_DEPLOY_READINESS",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T13:53:48.103Z"
   }
 }
