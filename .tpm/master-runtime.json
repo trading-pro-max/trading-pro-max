@@ -118,8 +118,7 @@
     }
   ],
   "blockers": [
-    "GoDaddy SFTP credentials are not filled yet.",
-    "External deploy remains constrained by current hosting plan."
+    "External GoDaddy deploy remains blocked by current hosting plan."
   ],
   "commands": [
     "npm run tpm:master:once",
@@ -128,7 +127,13 @@
     "npm run tpm:simulation:once",
     "npm run tpm:intelligence:once",
     "npm run tpm:fabric:once",
-    "npm run tpm:fabric"
+    "npm run tpm:fabric",
+    "npm run tpm:prism:once",
+    "npm run tpm:prism",
+    "npm run tpm:sovereign:once",
+    "npm run tpm:sovereign",
+    "npm run tpm:sentinel:once",
+    "npm run tpm:sentinel"
   ],
   "pages": [
     "/master-control",
@@ -141,7 +146,16 @@
     "/intelligence-center",
     "/fabric-core",
     "/autonomy-grid",
-    "/release-memory"
+    "/release-memory",
+    "/prism-core",
+    "/strategy-theater",
+    "/integrity-hub",
+    "/sovereign-grid",
+    "/continuity-vault",
+    "/command-nexus",
+    "/sentinel-core",
+    "/experiment-studio",
+    "/customer-success-hub"
   ],
   "nextWave": [
     {
@@ -185,16 +199,71 @@
       "progress": 97,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "prism-core",
+      "title": "prism core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "strategy-theater",
+      "title": "strategy theater",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "integrity-hub",
+      "title": "integrity hub",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "sovereign-grid",
+      "title": "sovereign grid",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "continuity-vault",
+      "title": "continuity vault",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "command-nexus",
+      "title": "command nexus",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "sentinel-core",
+      "title": "sentinel core",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "experiment-studio",
+      "title": "experiment studio",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "customer-success-hub",
+      "title": "customer success hub",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T15:11:57.405Z",
   "localCertified": true,
-  "releaseGate": "OPEN_LOCAL",
-  "postCertificationFabric": {
-    "active": true,
-    "layer": "FABRIC_CORE",
-    "progress": 97,
-    "status": "ACTIVE",
-    "time": "2026-04-08T15:11:57.439Z"
-  }
-}
+  "re
