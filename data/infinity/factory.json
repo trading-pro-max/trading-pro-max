@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "pipelines": [
+  "lines": [
     {
-      "slug": "builder-pipeline",
-      "title": "Builder Pipeline",
-      "progress": 100,
+      "slug": "alpha-line",
+      "title": "Alpha Line",
+      "score": 100,
       "status": "closed"
     },
     {
-      "slug": "strategy-pipeline",
-      "title": "Strategy Pipeline",
-      "progress": 100,
+      "slug": "risk-line",
+      "title": "Risk Line",
+      "score": 100,
       "status": "closed"
     },
     {
-      "slug": "ops-pipeline",
-      "title": "Ops Pipeline",
-      "progress": 100,
+      "slug": "execution-line",
+      "title": "Execution Line",
+      "score": 100,
       "status": "closed"
     },
     {
-      "slug": "evidence-pipeline",
-      "title": "Evidence Pipeline",
-      "progress": 100,
+      "slug": "policy-line",
+      "title": "Policy Line",
+      "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activePipelines": 12,
-    "autonomousRoutes": 24,
-    "protectedBuilds": 18,
+    "activeLines": 16,
+    "verifiedPatterns": 20,
+    "governedStrategies": 18,
     "factoryConfidence": 100
   },
-  "time": "2026-04-08T23:40:56.172Z"
+  "time": "2026-04-08T23:58:20.055Z"
 }

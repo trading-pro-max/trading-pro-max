@@ -1,47 +1,47 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
   "domains": {
-    "infinity": 100,
-    "forge": 100,
     "reactor": 100,
-    "command": 100,
-    "evidence": 100
+    "builder": 83,
+    "factory": 100,
+    "ventures": 100,
+    "lab": 100,
+    "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "infinity-fusion",
-      "title": "infinity fusion",
+      "slug": "reactor-depth",
+      "title": "reactor depth",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "autonomy-heat",
-      "title": "autonomy heat",
+      "slug": "builder-depth",
+      "title": "builder depth",
+      "progress": 83,
+      "status": "active"
+    },
+    {
+      "slug": "factory-depth",
+      "title": "factory depth",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "reactor-thrust",
-      "title": "reactor thrust",
+      "slug": "venture-depth",
+      "title": "venture depth",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "client-discipline",
-      "title": "client discipline",
-      "progress": 100,
-      "status": "active"
-    },
-    {
-      "slug": "evidence-density",
-      "title": "evidence density",
+      "slug": "lab-depth",
+      "title": "lab depth",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T23:56:56.660Z"
-}
+  "time": "2026-04-08T23:58:20.055Z

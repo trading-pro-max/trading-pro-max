@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "vectors": [
+    {
+      "slug": "product-vector",
+      "title": "Product Vector",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-vector",
+      "title": "Market Vector",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "enterprise-vector",
+      "title": "Enterprise Vector",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "platform-vector",
+      "title": "Platform Vector",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedVectors": 16,
+    "governedPaths": 14,
+    "expansionVisibility": 100,
+    "ventureConfidence": 100
+  },
+  "time": "2026-04-08T23:58:20.055Z"
+}

@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "loops": [
+  "cores": [
     {
-      "slug": "product-reactor",
-      "title": "Product Reactor",
-      "progress": 100,
+      "slug": "runtime-reactor",
+      "title": "Runtime Reactor",
+      "score": 100,
       "status": "closed"
     },
     {
       "slug": "growth-reactor",
       "title": "Growth Reactor",
-      "progress": 100,
+      "score": 100,
       "status": "closed"
     },
     {
-      "slug": "execution-reactor",
-      "title": "Execution Reactor",
-      "progress": 100,
+      "slug": "capital-reactor",
+      "title": "Capital Reactor",
+      "score": 100,
       "status": "closed"
     },
     {
-      "slug": "retention-reactor",
-      "title": "Retention Reactor",
-      "progress": 100,
+      "slug": "trust-reactor",
+      "title": "Trust Reactor",
+      "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeLoops": 18,
-    "growthVectors": 16,
-    "continuityPower": 100,
+    "activeCores": 4,
+    "linkedLayers": 24,
+    "certifiedChains": 20,
     "reactorConfidence": 100
   },
-  "time": "2026-04-08T23:56:56.660Z"
+  "time": "2026-04-08T23:58:20.054Z"
 }

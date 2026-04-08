@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "grids": [
+    {
+      "slug": "surface-grid",
+      "title": "Surface Grid",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ops-grid",
+      "title": "Ops Grid",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ai-grid",
+      "title": "AI Grid",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity-grid",
+      "title": "Continuity Grid",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "builderFlows": 22,
+    "governedBuilds": 18,
+    "autoRoutes": 16,
+    "builderConfidence": 100
+  },
+  "time": "2026-04-08T23:58:20.055Z"
+}
