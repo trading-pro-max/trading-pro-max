@@ -27,7 +27,13 @@
     "/operator-radar",
     "/omega-core",
     "/recovery-matrix",
-    "/trust-center"
+    "/trust-center",
+    "/kernel-os",
+    "/scenario-genome",
+    "/operator-memory",
+    "/constellation-core",
+    "/profit-radar",
+    "/treaty-board"
   ],
   "commands": [
     "npm run tpm:executive:once",
@@ -44,7 +50,11 @@
     "npm run tpm:infinity:once",
     "npm run tpm:infinity",
     "npm run tpm:omega:once",
-    "npm run tpm:omega"
+    "npm run tpm:omega",
+    "npm run tpm:kernel:once",
+    "npm run tpm:kernel",
+    "npm run tpm:constellation:once",
+    "npm run tpm:constellation"
   ],
   "nextWave": [
     {
@@ -172,6 +182,48 @@
       "progress": 93,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "kernel-os",
+      "title": "kernel os",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-genome",
+      "title": "scenario genome",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-memory",
+      "title": "operator memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "constellation-core",
+      "title": "constellation core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "profit-radar",
+      "title": "profit radar",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "treaty-board",
+      "title": "treaty board",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "executiveLayer": {
@@ -224,4 +276,20 @@
     "active": 15,
     "expected": 16,
     "status": "CLOSED_100"
+  },
+  "kernelLayer": {
+    "active": true,
+    "layer": "KERNEL_OS_SCENARIO_GENOME_OPERATOR_MEMORY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "infinityContinuation": "ACTIVE",
+    "time": "2026-04-08T22:29:32.585Z"
+  },
+  "infinityLayer": {
+    "active": true,
+    "layer": "CONSTELLATION_CORE_PROFIT_RADAR_TREATY_BOARD",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T22:29:49.665Z"
   }
+}
