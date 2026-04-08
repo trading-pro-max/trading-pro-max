@@ -1,23 +1,23 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 91,
-  "completed": 91,
-  "remaining": 9,
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
   "infiniteContinuation": "ACTIVE",
   "localState": "CLOSED_100",
   "domains": {
-    "infinity": 83,
+    "infinity": 100,
     "autonomy": 86,
     "vault": 100,
-    "growth": 86,
+    "growth": 100,
     "continuity": 100
   },
   "nextWave": [
     {
       "slug": "infinity-density",
       "title": "infinity density",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
@@ -35,9 +35,9 @@
     {
       "slug": "growth-command",
       "title": "growth command",
-      "progress": 86,
+      "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T22:55:10.577Z"
+  "time": "2026-04-08T22:55:11.552Z"
 }

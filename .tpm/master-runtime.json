@@ -189,7 +189,9 @@
     "npm run tpm:autopilot:once",
     "npm run tpm:autopilot",
     "npm run tpm:kernel:once",
-    "npm run tpm:kernel"
+    "npm run tpm:kernel",
+    "npm run tpm:hyper:once",
+    "npm run tpm:hyper"
   ],
   "pages": [
     "/master-control",
@@ -300,7 +302,12 @@
     "/operator-memory",
     "/autonomy-director",
     "/vault-matrix",
-    "/growth-command"
+    "/growth-command",
+    "/hyper-core",
+    "/operator-galaxy",
+    "/revenue-fortress",
+    "/resilience-os",
+    "/launch-war-room"
   ],
   "nextWave": [
     {
@@ -936,7 +943,7 @@
     {
       "slug": "infinity-core",
       "title": "infinity core",
-      "progress": 91,
+      "progress": 97,
       "stage": "ACTIVE",
       "status": "strong"
     },
@@ -999,21 +1006,56 @@
     {
       "slug": "autonomy-director",
       "title": "autonomy director",
-      "progress": 91,
+      "progress": 97,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
       "slug": "vault-matrix",
       "title": "vault matrix",
-      "progress": 91,
+      "progress": 97,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
       "slug": "growth-command",
       "title": "growth command",
-      "progress": 91,
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "hyper-core",
+      "title": "hyper core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-galaxy",
+      "title": "operator galaxy",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "revenue-fortress",
+      "title": "revenue fortress",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "resilience-os",
+      "title": "resilience os",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "launch-war-room",
+      "title": "launch war room",
+      "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     }
@@ -1318,9 +1360,22 @@
   "infinity": {
     "active": true,
     "mode": "ACTIVE",
-    "progress": 91,
+    "progress": 97,
     "localState": "CLOSED_100",
     "expansionState": "INFINITE_CONTINUATION_ACTIVE",
-    "time": "2026-04-08T22:55:10.584Z"
+    "time": "2026-04-08T22:55:11.559Z"
+  },
+  "hyperLayer": {
+    "active": true,
+    "layer": "HYPER_CORE_OPERATOR_GALAXY_REVENUE_FORTRESS_RESILIENCE_OS_LAUNCH_WAR_ROOM",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T22:55:17.129Z"
+  },
+  "runtimeExpansion": {
+    "active": true,
+    "modules": 5,
+    "status": "ACTIVE",
+    "time": "2026-04-08T22:55:17.129Z"
   }
 }
