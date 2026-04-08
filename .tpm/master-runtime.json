@@ -40,7 +40,10 @@
     "/scenario-memory",
     "/connector-inspector",
     "/env-doctor",
-    "/runtime-health"
+    "/runtime-health",
+    "/infinity-core",
+    "/memory-fabric",
+    "/ops-observatory"
   ],
   "commands": [
     "npm run tpm:helix:once",
@@ -63,7 +66,9 @@
     "npm run tpm:quantum:once",
     "npm run tpm:quantum",
     "npm run tpm:runtimeops:once",
-    "npm run tpm:runtimeops"
+    "npm run tpm:runtimeops",
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity"
   ],
   "nextWave": [
     {
@@ -275,6 +280,27 @@
       "progress": 80,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "infinity-core",
+      "title": "infinity core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-fabric",
+      "title": "memory fabric",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "ops-observatory",
+      "title": "ops observatory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "helixLayer": {
@@ -346,5 +372,12 @@
     "progress": 80,
     "status": "ACTIVE",
     "time": "2026-04-08T19:17:14.975Z"
+  },
+  "infinityLayer": {
+    "active": true,
+    "layer": "INFINITY_CORE_MEMORY_FABRIC_OPS_OBSERVATORY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:18:08.121Z"
   }
 }
