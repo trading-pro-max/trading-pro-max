@@ -2,14 +2,8 @@
   "ok": true,
   "engines": [
     {
-      "slug": "infinite-runtime",
-      "title": "Infinite Runtime",
-      "score": 100,
-      "status": "closed"
-    },
-    {
-      "slug": "infinite-policy",
-      "title": "Infinite Policy",
+      "slug": "infinite-ops",
+      "title": "Infinite Ops",
       "score": 100,
       "status": "closed"
     },
@@ -20,17 +14,23 @@
       "status": "closed"
     },
     {
-      "slug": "infinite-trust",
-      "title": "Infinite Trust",
+      "slug": "infinite-governance",
+      "title": "Infinite Governance",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "infinite-execution",
+      "title": "Infinite Execution",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeEngines": 20,
-    "governedFlows": 24,
-    "protectedStores": 30,
+    "activeEngines": 4,
+    "governedLayers": 24,
+    "connectedStores": 30,
     "infinityConfidence": 100
   },
-  "time": "2026-04-08T21:18:45.727Z"
+  "time": "2026-04-08T21:19:37.687Z"
 }

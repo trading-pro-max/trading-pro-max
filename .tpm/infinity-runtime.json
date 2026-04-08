@@ -6,8 +6,8 @@
   "remaining": 0,
   "domains": {
     "infinity": 100,
-    "memory": 100,
-    "theater": 100,
+    "genome": 100,
+    "capsule": 100,
     "proof": 100,
     "continuity": 100
   },
@@ -19,17 +19,16 @@
       "status": "active"
     },
     {
-      "slug": "memory-depth",
-      "title": "memory depth",
+      "slug": "genome-depth",
+      "title": "genome depth",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "theater-clarity",
-      "title": "theater clarity",
+      "slug": "capsule-clarity",
+      "title": "capsule clarity",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T21:18:45.728Z"
-}
+  "time": "2026-04-08T21:19:37.688

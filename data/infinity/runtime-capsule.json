@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "capsules": [
+    {
+      "slug": "runtime-capsule",
+      "title": "Runtime Capsule",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-capsule",
+      "title": "Audit Capsule",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-capsule",
+      "title": "Recovery Capsule",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-capsule",
+      "title": "Trust Capsule",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeCapsules": 12,
+    "replayWindows": 22,
+    "auditCoverage": 100,
+    "capsuleConfidence": 100
+  },
+  "time": "2026-04-08T21:19:37.688Z"
+}

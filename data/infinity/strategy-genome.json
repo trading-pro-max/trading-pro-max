@@ -2,8 +2,8 @@
   "ok": true,
   "strands": [
     {
-      "slug": "signal-strand",
-      "title": "Signal Strand",
+      "slug": "trend-strand",
+      "title": "Trend Strand",
       "progress": 100,
       "status": "closed"
     },
@@ -20,17 +20,17 @@
       "status": "closed"
     },
     {
-      "slug": "policy-strand",
-      "title": "Policy Strand",
+      "slug": "adaptive-strand",
+      "title": "Adaptive Strand",
       "progress": 100,
       "status": "closed"
     }
   ],
   "metrics": {
     "mappedStrands": 20,
-    "adaptivePatterns": 18,
-    "governedVariants": 16,
+    "protectedPatterns": 18,
+    "routeGenome": 100,
     "genomeConfidence": 100
   },
-  "time": "2026-04-08T21:13:19.005Z"
+  "time": "2026-04-08T21:19:37.688Z"
 }
