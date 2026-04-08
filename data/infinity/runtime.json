@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "grids": [
+  "engines": [
     {
-      "slug": "runtime-infinity",
-      "title": "Runtime Infinity",
+      "slug": "builder-infinity",
+      "title": "Builder Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "command-infinity",
-      "title": "Command Infinity",
+      "slug": "routing-infinity",
+      "title": "Routing Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "evidence-infinity",
-      "title": "Evidence Infinity",
+      "slug": "memory-infinity",
+      "title": "Memory Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "growth-infinity",
-      "title": "Growth Infinity",
+      "slug": "execution-infinity",
+      "title": "Execution Infinity",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeGrids": 20,
-    "linkedRuntimes": 32,
-    "protectedStores": 26,
+    "governedLayers": 24,
+    "linkedRuntimes": 26,
+    "activePages": 45,
     "infinityConfidence": 100
   },
-  "time": "2026-04-08T23:11:30.426Z"
+  "time": "2026-04-08T23:12:39.749Z"
 }

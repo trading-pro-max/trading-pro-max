@@ -6,9 +6,9 @@
   "remaining": 3,
   "domains": {
     "infinity": 100,
-    "forge": 86,
-    "director": 100,
-    "proof": 100,
+    "foundry": 86,
+    "memory": 100,
+    "deals": 100,
     "continuity": 100
   },
   "nextWave": [
@@ -19,18 +19,22 @@
       "status": "active"
     },
     {
-      "slug": "forge-strength",
-      "title": "forge strength",
+      "slug": "foundry-depth",
+      "title": "foundry depth",
       "progress": 86,
       "status": "active"
     },
     {
-      "slug": "director-discipline",
-      "title": "director discipline",
+      "slug": "memory-depth",
+      "title": "memory depth",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "deal-ops",
+      "title": "deal ops",
       "progress": 100,
       "status": "active"
     }
   ],
-  "infiniteContinuation": true,
-  "time": "2026-04-08T23:11:30.426Z"
-}
+  "time": "2026-04-08T23:12:39.751

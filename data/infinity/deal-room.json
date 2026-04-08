@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "rooms": [
+    {
+      "slug": "enterprise-room",
+      "title": "Enterprise Room",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "revenue-room",
+      "title": "Revenue Room",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "client-room",
+      "title": "Client Room",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "launch-room",
+      "title": "Launch Room",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeRooms": 8,
+    "governedPaths": 18,
+    "decisionReadiness": 100,
+    "dealConfidence": 100
+  },
+  "time": "2026-04-08T23:12:39.751Z"
+}
