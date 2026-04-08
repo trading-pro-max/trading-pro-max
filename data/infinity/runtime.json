@@ -1,37 +1,36 @@
 {
   "ok": true,
-  "towers": [
-    {
-      "slug": "post100",
-      "title": "Post-100 Continuation",
-      "score": 100,
-      "status": "closed"
-    },
+  "planes": [
     {
       "slug": "autonomy",
-      "title": "Autonomy Continuation",
+      "title": "Autonomy Plane",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "enterprise",
-      "title": "Enterprise Continuation",
+      "slug": "federation",
+      "title": "Federation Plane",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "infinity",
-      "title": "Infinity Continuation",
+      "slug": "revenue",
+      "title": "Revenue Plane",
       "score": 100,
       "status": "closed"
+    },
+    {
+      "slug": "deploy",
+      "title": "Deploy Plane",
+      "score": 70,
+      "status": "blocked-by-plan"
     }
   ],
   "metrics": {
-    "activeLayers": 27,
-    "activePages": 45,
-    "activeLoops": 22,
-    "protectedStores": 31,
-    "infinityConfidence": 100
+    "activePlanes": 4,
+    "localReadiness": 100,
+    "expansionReadiness": 100,
+    "externalSwitchReadiness": 70
   },
-  "time": "2026-04-08T23:40:33.660Z"
+  "time": "2026-04-08T23:40:56.170Z"
 }

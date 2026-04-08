@@ -2,5 +2,5 @@
 function sleep(ms){ return new Promise(r=>setTimeout(r,ms)); }
 while(true){
   runInfinityCycle();
-  await sleep(90000);
+  await sleep(60000);
 }

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "channels": [
+    {
+      "slug": "subscription-bridge",
+      "title": "Subscription Bridge",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-bridge",
+      "title": "Capital Bridge",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "insight-bridge",
+      "title": "Insight Bridge",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-bridge",
+      "title": "Growth Bridge",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "monetizedChannels": 10,
+    "governedRevenuePaths": 12,
+    "protectedBillingLogic": 8,
+    "revenueConfidence": 100
+  },
+  "time": "2026-04-08T23:40:56.172Z"
+}

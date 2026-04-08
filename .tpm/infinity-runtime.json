@@ -1,42 +1,34 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
   "domains": {
     "infinity": 100,
-    "forge": 100,
-    "partners": 100,
-    "investors": 100,
-    "deploy": 100,
-    "proof": 100
+    "factory": 86,
+    "federation": 100,
+    "revenue": 100,
+    "deploy": 100
   },
   "nextWave": [
     {
-      "slug": "autonomy-forge",
-      "title": "autonomy forge",
+      "slug": "autonomous-factory",
+      "title": "autonomous factory",
+      "progress": 86,
+      "status": "active"
+    },
+    {
+      "slug": "federation-hub",
+      "title": "federation hub",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "partner-hub",
-      "title": "partner hub",
-      "progress": 100,
-      "status": "active"
-    },
-    {
-      "slug": "investor-room",
-      "title": "investor room",
-      "progress": 100,
-      "status": "active"
-    },
-    {
-      "slug": "deployment-vault",
-      "title": "deployment vault",
+      "slug": "revenue-bridge",
+      "title": "revenue bridge",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T23:40:33.662Z"
-}
+  "time": "2026-04-08T23:40:56.172

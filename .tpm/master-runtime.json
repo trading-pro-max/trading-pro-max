@@ -161,7 +161,9 @@
     "npm run tpm:prism:once",
     "npm run tpm:prism",
     "npm run tpm:supremacy:once",
-    "npm run tpm:supremacy"
+    "npm run tpm:supremacy",
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity"
   ],
   "pages": [
     "/master-control",
@@ -230,7 +232,12 @@
     "/genome-grid",
     "/autonomy-fabric",
     "/expansion-vault",
-    "/zero-touch-ops"
+    "/zero-touch-ops",
+    "/infinity-core",
+    "/autonomous-factory",
+    "/federation-hub",
+    "/revenue-bridge",
+    "/deploy-readiness"
   ],
   "nextWave": [
     {
@@ -624,6 +631,41 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "infinity-core",
+      "title": "infinity core",
+      "progress": 86,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomous-factory",
+      "title": "autonomous factory",
+      "progress": 86,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "federation-hub",
+      "title": "federation hub",
+      "progress": 86,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "revenue-bridge",
+      "title": "revenue bridge",
+      "progress": 86,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "deploy-readiness",
+      "title": "deploy readiness",
+      "progress": 86,
+      "stage": "WAITING_EXTERNAL",
+      "status": "blocked-by-plan"
     }
   ],
   "time": "2026-04-08T23:40:47.496Z",
@@ -750,5 +792,16 @@
     "progress": 100,
     "status": "ACTIVE",
     "time": "2026-04-08T23:40:47.280Z"
+  },
+  "infinityLayer": {
+    "active": true,
+    "mode": "MAXIMUM_AUTONOMY",
+    "scale": "MEGA",
+    "progress": 97,
+    "status": "ACTIVE",
+    "local": 100,
+    "expansion": 100,
+    "deployExternalBlocked": true,
+    "time": "2026-04-08T23:40:56.179Z"
   }
 }

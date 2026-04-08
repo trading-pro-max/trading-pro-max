@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "stages": [
+    {
+      "slug": "local-stack",
+      "title": "Local Stack",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-stack",
+      "title": "Evidence Stack",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "handoff-stack",
+      "title": "Handoff Stack",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "external-switch",
+      "title": "External Switch",
+      "progress": 70,
+      "status": "blocked-by-plan"
+    }
+  ],
+  "blockers": [
+    "External GoDaddy deploy remains blocked by current hosting plan."
+  ],
+  "metrics": {
+    "localReady": 100,
+    "expansionReady": 100,
+    "deploymentPathPrepared": 100,
+    "externalSwitchReady": 70
+  },
+  "time": "2026-04-08T23:40:56.172Z"
+}
