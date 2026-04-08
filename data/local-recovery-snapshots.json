@@ -1,5 +1,41 @@
 [
   {
+    "id": "SNAP-GON2PXKJ",
+    "label": "builder-cycle-96",
+    "createdAt": "2026-04-08T03:29:12.334Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
+    "id": "SNAP-L6JTOMOR",
+    "label": "builder-cycle-93",
+    "createdAt": "2026-04-08T03:28:36.208Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
+    "id": "SNAP-CUBL54RE",
+    "label": "builder-cycle-90",
+    "createdAt": "2026-04-08T03:28:00.078Z",
+    "meta": {
+      "cash": 100,
+      "positions": 0,
+      "orders": 0,
+      "ledger": 0,
+      "alerts": 0
+    }
+  },
+  {
     "id": "SNAP-ZFHCE8MO",
     "label": "builder-cycle-87",
     "createdAt": "2026-04-08T03:27:23.953Z",
@@ -255,42 +291,6 @@
     "id": "SNAP-BRTJZCU8",
     "label": "final-100-local-certification",
     "createdAt": "2026-04-08T03:15:38.021Z",
-    "meta": {
-      "cash": 100,
-      "positions": 0,
-      "orders": 0,
-      "ledger": 0,
-      "alerts": 0
-    }
-  },
-  {
-    "id": "SNAP-NK9X1RAQ",
-    "label": "builder-cycle-27",
-    "createdAt": "2026-04-08T03:15:21.751Z",
-    "meta": {
-      "cash": 100,
-      "positions": 0,
-      "orders": 0,
-      "ledger": 0,
-      "alerts": 0
-    }
-  },
-  {
-    "id": "SNAP-ZFR79NQO",
-    "label": "builder-cycle-24",
-    "createdAt": "2026-04-08T03:14:45.642Z",
-    "meta": {
-      "cash": 100,
-      "positions": 0,
-      "orders": 0,
-      "ledger": 0,
-      "alerts": 0
-    }
-  },
-  {
-    "id": "SNAP-F6UTTVU1",
-    "label": "final-100-local-certification",
-    "createdAt": "2026-04-08T03:14:21.327Z",
     "meta": {
       "cash": 100,
       "positions": 0,
