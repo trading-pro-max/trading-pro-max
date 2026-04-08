@@ -1,35 +1,37 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 97,
-  "completed": 97,
-  "remaining": 3,
+  "overallProgress": 98,
+  "completed": 98,
+  "remaining": 2,
+  "infiniteContinuation": "ACTIVE",
+  "localState": "CLOSED_100",
   "domains": {
-    "infinity": 100,
-    "factory": 86,
-    "federation": 100,
-    "revenue": 100,
-    "deploy": 100
+    "reactor": 100,
+    "autonomy": 88,
+    "external": 100,
+    "proof": 100,
+    "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "autonomous-factory",
-      "title": "autonomous factory",
-      "progress": 86,
-      "status": "active"
-    },
-    {
-      "slug": "federation-hub",
-      "title": "federation hub",
+      "slug": "infinity-reactor",
+      "title": "infinity reactor",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "revenue-bridge",
-      "title": "revenue bridge",
-      "progress": 100,
+      "slug": "autonomy-theater",
+      "title": "autonomy theater",
+      "progress": 88,
       "status": "active"
+    },
+    {
+      "slug": "external-readiness",
+      "title": "external readiness",
+      "progress": 70,
+      "status": "blocked"
     }
   ],
-  "time": "2026-04-08T23:40:56.172Z"
+  "time": "2026-04-08T23:41:17.278Z"
 }

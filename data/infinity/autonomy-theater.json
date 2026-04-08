@@ -2,35 +2,41 @@
   "ok": true,
   "stages": [
     {
-      "slug": "builder-stage",
-      "title": "Builder Stage",
+      "slug": "agent-stage",
+      "title": "Agent Stage",
       "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "operator-stage",
-      "title": "Operator Stage",
+      "slug": "market-stage",
+      "title": "Market Stage",
       "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "governor-stage",
-      "title": "Governor Stage",
+      "slug": "command-stage",
+      "title": "Command Stage",
       "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "growth-stage",
-      "title": "Growth Stage",
+      "slug": "trust-stage",
+      "title": "Trust Stage",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "autonomy-stage",
+      "title": "Autonomy Stage",
       "progress": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeLoops": 18,
-    "governedActions": 26,
-    "recoveryDiscipline": 100,
-    "autonomyConfidence": 100
+    "visibleStages": 18,
+    "replayableStages": 16,
+    "autonomyDepth": 100,
+    "orchestrationDepth": 100
   },
-  "time": "2026-04-08T22:44:44.229Z"
+  "time": "2026-04-08T23:41:17.278Z"
 }

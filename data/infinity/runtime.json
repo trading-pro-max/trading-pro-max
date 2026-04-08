@@ -1,36 +1,42 @@
 {
   "ok": true,
-  "planes": [
+  "reactors": [
     {
-      "slug": "autonomy",
-      "title": "Autonomy Plane",
+      "slug": "core-loop",
+      "title": "Core Loop",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "federation",
-      "title": "Federation Plane",
+      "slug": "learning-loop",
+      "title": "Learning Loop",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "revenue",
-      "title": "Revenue Plane",
+      "slug": "governance-loop",
+      "title": "Governance Loop",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "deploy",
-      "title": "Deploy Plane",
-      "score": 70,
-      "status": "blocked-by-plan"
+      "slug": "expansion-loop",
+      "title": "Expansion Loop",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "infinity-loop",
+      "title": "Infinity Loop",
+      "score": 100,
+      "status": "closed"
     }
   ],
   "metrics": {
-    "activePlanes": 4,
-    "localReadiness": 100,
-    "expansionReadiness": 100,
-    "externalSwitchReadiness": 70
+    "activeReactors": 5,
+    "linkedRuntimes": 24,
+    "governedStores": 30,
+    "infiniteConfidence": 100
   },
-  "time": "2026-04-08T23:40:56.170Z"
+  "time": "2026-04-08T23:41:17.276Z"
 }
