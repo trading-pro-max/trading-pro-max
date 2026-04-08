@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "TPM_BROKER_ACTIVE",
+  "overallProgress": 89,
+  "completed": 89,
+  "remaining": 11,
+  "domains": {
+    "bridge": 100,
+    "live": 83,
+    "decision": 83,
+    "governance": 100,
+    "integration": 80
+  },
+  "nextWave": [
+    {
+      "slug": "broker-routing",
+      "title": "broker routing",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "live-governance",
+      "title": "live governance",
+      "progress": 83,
+      "status": "active"
+    },
+    {
+      "slug": "decision-automation",
+      "title": "decision automation",
+      "progress": 83,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-08T09:52:21.972Z"
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "policies": [
+    {
+      "slug": "rank",
+      "title": "Rank Engine",
+      "progress": 97,
+      "status": "strong"
+    },
+    {
+      "slug": "route",
+      "title": "Route Engine",
+      "progress": 96,
+      "status": "strong"
+    },
+    {
+      "slug": "risk",
+      "title": "Risk Decision",
+      "progress": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "notify",
+      "title": "Notify Decision",
+      "progress": 85,
+      "status": "awaiting-telegram"
+    }
+  ],
+  "scores": {
+    "clarity": 97,
+    "readiness": 98,
+    "autonomy": 99,
+    "confidence": 96
+  },
+  "time": "2026-04-08T09:52:22.310Z"
+}

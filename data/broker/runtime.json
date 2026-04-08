@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "adapter": "IBKR_READY_PATH",
+  "host": "127.0.0.1",
+  "port": "7497",
+  "connection": {
+    "configured": true,
+    "mode": "LOCAL_BRIDGE",
+    "status": "READY_PATH"
+  },
+  "channels": [
+    {
+      "slug": "orders",
+      "title": "Order Lane",
+      "progress": 97,
+      "status": "strong"
+    },
+    {
+      "slug": "positions",
+      "title": "Position Lane",
+      "progress": 96,
+      "status": "strong"
+    },
+    {
+      "slug": "risk",
+      "title": "Risk Lane",
+      "progress": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "events",
+      "title": "Event Lane",
+      "progress": 95,
+      "status": "strong"
+    }
+  ],
+  "time": "2026-04-08T09:52:22.308Z"
+}

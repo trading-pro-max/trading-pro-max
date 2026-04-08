@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "streams": [
+    {
+      "slug": "market",
+      "title": "Market Stream",
+      "strength": 96,
+      "status": "strong"
+    },
+    {
+      "slug": "execution",
+      "title": "Execution Stream",
+      "strength": 95,
+      "status": "strong"
+    },
+    {
+      "slug": "risk",
+      "title": "Risk Stream",
+      "strength": 97,
+      "status": "strong"
+    },
+    {
+      "slug": "alerts",
+      "title": "Alerts Stream",
+      "strength": 84,
+      "status": "awaiting-telegram"
+    }
+  ],
+  "watches": {
+    "activeWatches": 12,
+    "guardedRoutes": 9,
+    "liveQueues": 4,
+    "protectedLanes": 4
+  },
+  "time": "2026-04-08T09:52:22.310Z"
+}
