@@ -19,7 +19,10 @@
     "/launch-console",
     "/connector-inspector",
     "/env-doctor",
-    "/runtime-health"
+    "/runtime-health",
+    "/prism-core",
+    "/memory-map",
+    "/execution-forum"
   ],
   "commands": [
     "npm run tpm:helix:once",
@@ -28,7 +31,9 @@
     "npm run tpm:pulse:once",
     "npm run tpm:pulse",
     "npm run tpm:runtimeops:once",
-    "npm run tpm:runtimeops"
+    "npm run tpm:runtimeops",
+    "npm run tpm:prism:once",
+    "npm run tpm:prism"
   ],
   "nextWave": [
     {
@@ -93,6 +98,27 @@
       "progress": 80,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "prism-core",
+      "title": "prism core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-map",
+      "title": "memory map",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "execution-forum",
+      "title": "execution forum",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "helixLayer": {
@@ -115,5 +141,13 @@
     "progress": 80,
     "status": "ACTIVE",
     "time": "2026-04-08T23:30:10.474Z"
+  },
+  "infinityContinuation": "ACTIVE",
+  "prismLayer": {
+    "active": true,
+    "layer": "PRISM_CORE_MEMORY_MAP_EXECUTION_FORUM",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:30:17.066Z"
   }
 }
