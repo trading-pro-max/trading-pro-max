@@ -1,0 +1,36 @@
+{
+  "modules": {
+    "launchpad": {
+      "slug": "launchpad",
+      "title": "Launchpad",
+      "description": "Central local operating shell.",
+      "stage": "Core Shell",
+      "status": "CLOSED",
+      "progress": 100,
+      "readiness": 100,
+      "metrics": {
+        "build": 100,
+        "stability": 99,
+        "data": 100,
+        "automation": 99
+      },
+      "updatedAt": "2026-04-08T03:59:42.393Z"
+    },
+    "local-command": {
+      "slug": "local-command",
+      "title": "Local Command",
+      "description": "Central command surface for the local system.",
+      "stage": "Command Bus",
+      "status": "CLOSED",
+      "progress": 100,
+      "readiness": 99,
+      "metrics": {
+        "build": 100,
+        "stability": 98,
+        "data": 99,
+        "automation": 99
+      },
+      "updatedAt": "2026-04-08T03:59:42.393Z"
+    }
+  }
+}
