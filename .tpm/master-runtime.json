@@ -7,44 +7,143 @@
   "releaseGate": "OPEN_LOCAL",
   "finalReadiness": "ready-local-100",
   "pages": [
-    "/observability-core",
-    "/incident-center",
-    "/playbook-os",
+    "/api-gateway",
+    "/integration-hub",
+    "/lifecycle-os",
+    "/constellation-core",
+    "/proof-engine",
+    "/runtime-registry",
+    "/sentinel-core",
+    "/experiment-studio",
+    "/customer-success-hub",
+    "/federation-core",
+    "/scenario-memory",
+    "/operator-journal",
+    "/horizon-hub",
+    "/workspace-router",
+    "/evidence-vault",
     "/vector-core",
     "/relay-dome",
     "/memory-theater",
-    "/ops-lattice",
-    "/omega-core",
-    "/recovery-matrix",
-    "/trust-center"
+    "/ops-lattice"
   ],
   "commands": [
-    "npm run tpm:observability:once",
-    "npm run tpm:observability",
+    "npm run tpm:platform:once",
+    "npm run tpm:platform",
+    "npm run tpm:constellation:once",
+    "npm run tpm:constellation",
     "npm run tpm:master:once",
+    "npm run tpm:sentinel:once",
+    "npm run tpm:sentinel",
+    "npm run tpm:federation:once",
+    "npm run tpm:federation",
+    "npm run tpm:horizon:once",
+    "npm run tpm:horizon",
     "npm run tpm:vector:once",
-    "npm run tpm:vector",
-    "npm run tpm:omega:once",
-    "npm run tpm:omega"
+    "npm run tpm:vector"
   ],
   "nextWave": [
     {
-      "slug": "observability-core",
-      "title": "observability core",
+      "slug": "api-gateway",
+      "title": "api gateway",
+      "progress": 83,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "integration-hub",
+      "title": "integration hub",
+      "progress": 83,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "lifecycle-os",
+      "title": "lifecycle os",
+      "progress": 83,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "constellation-core",
+      "title": "constellation core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "proof-engine",
+      "title": "proof engine",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "runtime-registry",
+      "title": "runtime registry",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "sentinel-core",
+      "title": "sentinel core",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "experiment-studio",
+      "title": "experiment studio",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "customer-success-hub",
+      "title": "customer success hub",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "federation-core",
+      "title": "federation core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-memory",
+      "title": "scenario memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-journal",
+      "title": "operator journal",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "horizon-hub",
+      "title": "horizon hub",
       "progress": 97,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "incident-center",
-      "title": "incident center",
+      "slug": "workspace-router",
+      "title": "workspace router",
       "progress": 97,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "playbook-os",
-      "title": "playbook os",
+      "slug": "evidence-vault",
+      "title": "evidence vault",
       "progress": 97,
       "stage": "ACTIVE",
       "status": "strong"
@@ -52,53 +151,76 @@
     {
       "slug": "vector-core",
       "title": "vector core",
-      "progress": 90,
+      "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
       "slug": "relay-dome",
       "title": "relay dome",
-      "progress": 90,
+      "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
       "slug": "memory-theater",
       "title": "memory theater",
-      "progress": 90,
+      "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
       "slug": "ops-lattice",
       "title": "ops lattice",
-      "progress": 90,
+      "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     }
   ],
-  "observabilityLayer": {
+  "platformLayer": {
     "active": true,
-    "layer": "OBSERVABILITY_CORE_INCIDENT_CENTER_PLAYBOOK_OS",
-    "progress": 97,
+    "layer": "API_GATEWAY_INTEGRATION_HUB_LIFECYCLE_OS",
+    "progress": 83,
     "status": "ACTIVE",
-    "time": "2026-04-08T19:41:21.895Z"
+    "time": "2026-04-08T19:42:51.908Z"
   },
   "externalDeployBlocked": true,
   "blockers": [
     "External GoDaddy deploy remains blocked by current hosting plan."
   ],
+  "constellationLayer": {
+    "active": true,
+    "layer": "CONSTELLATION_CORE_PROOF_ENGINE_RUNTIME_REGISTRY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:42:51.992Z"
+  },
+  "sentinelLayer": {
+    "active": true,
+    "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
+    "progress": 93,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:42:52.045Z"
+  },
+  "federationLayer": {
+    "active": true,
+    "layer": "FEDERATION_CORE_SCENARIO_MEMORY_OPERATOR_JOURNAL",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:42:52.098Z"
+  },
+  "horizonLayer": {
+    "active": true,
+    "layer": "HORIZON_HUB_WORKSPACE_ROUTER_EVIDENCE_VAULT",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:42:52.117Z"
+  },
   "vectorLayer": {
     "active": true,
     "layer": "VECTOR_CORE_RELAY_DOME_MEMORY_THEATER_OPS_LATTICE",
-    "progress": 90,
+    "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T19:41:47.162Z"
-  },
-  "runtimeDepth": {
-    "active": 15,
-    "expected": 16,
-    "status": "CLOSED_100"
+    "time": "2026-04-08T19:43:18.869Z"
   }
 }
