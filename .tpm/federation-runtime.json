@@ -7,7 +7,7 @@
   "domains": {
     "federation": 100,
     "memory": 100,
-    "journal": 100,
+    "assurance": 100,
     "proof": 100,
     "continuity": 100
   },
@@ -19,17 +19,16 @@
       "status": "active"
     },
     {
-      "slug": "scenario-depth",
-      "title": "scenario depth",
+      "slug": "memory-depth",
+      "title": "memory depth",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "journal-depth",
-      "title": "journal depth",
+      "slug": "assurance-strength",
+      "title": "assurance strength",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T22:36:08.638Z"
-}
+  "time": "2026-04-08T22:37:37.8

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "memories": [
+    {
+      "slug": "safe-memory",
+      "title": "Safe Route Memory",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "fast-memory",
+      "title": "Fast Route Memory",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "adaptive-memory",
+      "title": "Adaptive Route Memory",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-memory",
+      "title": "Capital Route Memory",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedRoutes": 20,
+    "replayableRoutes": 18,
+    "guidedRoutes": 16,
+    "memoryConfidence": 100
+  },
+  "time": "2026-04-08T22:37:37.853Z"
+}

@@ -2,35 +2,35 @@
   "ok": true,
   "clusters": [
     {
-      "slug": "runtime-cluster",
-      "title": "Runtime Cluster",
+      "slug": "runtime-federation",
+      "title": "Runtime Federation",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "command-cluster",
-      "title": "Command Cluster",
+      "slug": "policy-federation",
+      "title": "Policy Federation",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "trust-cluster",
-      "title": "Trust Cluster",
+      "slug": "signal-federation",
+      "title": "Signal Federation",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "growth-cluster",
-      "title": "Growth Cluster",
+      "slug": "trust-federation",
+      "title": "Trust Federation",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeClusters": 12,
-    "linkedDomains": 24,
-    "protectedChains": 20,
+    "activeClusters": 16,
+    "linkedDomains": 22,
+    "governedFlows": 20,
     "federationConfidence": 100
   },
-  "time": "2026-04-08T22:36:08.637Z"
+  "time": "2026-04-08T22:37:37.852Z"
 }

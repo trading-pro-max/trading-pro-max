@@ -41,7 +41,16 @@
     "/operator-radar",
     "/constellation-hub",
     "/scenario-exchange",
-    "/assurance-console"
+    "/assurance-console",
+    "/kernel-os",
+    "/scenario-genome",
+    "/operator-memory",
+    "/federation-core",
+    "/route-memory",
+    "/assurance-board",
+    "/omega-core",
+    "/recovery-matrix",
+    "/trust-center"
   ],
   "commands": [
     "npm run tpm:atlas:once",
@@ -66,7 +75,13 @@
     "npm run tpm:infinity:once",
     "npm run tpm:infinity",
     "npm run tpm:constellation:once",
-    "npm run tpm:constellation"
+    "npm run tpm:constellation",
+    "npm run tpm:kernel:once",
+    "npm run tpm:kernel",
+    "npm run tpm:federation:once",
+    "npm run tpm:federation",
+    "npm run tpm:omega:once",
+    "npm run tpm:omega"
   ],
   "nextWave": [
     {
@@ -278,6 +293,48 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "kernel-os",
+      "title": "kernel os",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-genome",
+      "title": "scenario genome",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-memory",
+      "title": "operator memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "federation-core",
+      "title": "federation core",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "route-memory",
+      "title": "route memory",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "assurance-board",
+      "title": "assurance board",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "atlasLayer": {
@@ -406,5 +463,24 @@
     "progress": 100,
     "status": "ACTIVE",
     "time": "2026-04-08T22:36:35.029Z"
+  },
+  "kernelLayer": {
+    "active": true,
+    "layer": "KERNEL_OS_SCENARIO_GENOME_OPERATOR_MEMORY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "infinityContinuation": "ACTIVE",
+    "time": "2026-04-08T22:37:02.887Z"
+  },
+  "federationLayer": {
+    "active": true,
+    "layer": "FEDERATION_CORE_ROUTE_MEMORY_ASSURANCE_BOARD",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T22:37:37.860Z"
+  },
+  "runtimeDepth": {
+    "active": 15,
+    "expected": 16,
+    "status": "CLOSED_100"
   }
-}
