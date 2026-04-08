@@ -149,7 +149,15 @@
     "npm run tpm:federation:once",
     "npm run tpm:federation",
     "npm run tpm:navigator:once",
-    "npm run tpm:navigator"
+    "npm run tpm:navigator",
+    "npm run tpm:vector:once",
+    "npm run tpm:vector",
+    "npm run tpm:atlas:once",
+    "npm run tpm:atlas",
+    "npm run tpm:observability:once",
+    "npm run tpm:observability",
+    "npm run tpm:enterprise:once",
+    "npm run tpm:enterprise"
   ],
   "pages": [
     "/master-control",
@@ -195,7 +203,19 @@
     "/session-bridge",
     "/navigator-core",
     "/portfolio-simulator",
-    "/audit-stream"
+    "/audit-stream",
+    "/vector-core",
+    "/policy-memory",
+    "/continuity-radar",
+    "/atlas-mesh",
+    "/decision-archive",
+    "/runtime-theater",
+    "/observability-core",
+    "/incident-center",
+    "/playbook-os",
+    "/revenue-os",
+    "/compliance-ledger",
+    "/ops-replay"
   ],
   "nextWave": [
     {
@@ -470,6 +490,90 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "vector-core",
+      "title": "vector core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "policy-memory",
+      "title": "policy memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "continuity-radar",
+      "title": "continuity radar",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "atlas-mesh",
+      "title": "atlas mesh",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "decision-archive",
+      "title": "decision archive",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "runtime-theater",
+      "title": "runtime theater",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "observability-core",
+      "title": "observability core",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "incident-center",
+      "title": "incident center",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "playbook-os",
+      "title": "playbook os",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "revenue-os",
+      "title": "revenue os",
+      "progress": 89,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "compliance-ledger",
+      "title": "compliance ledger",
+      "progress": 89,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "ops-replay",
+      "title": "ops replay",
+      "progress": 89,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T11:47:53.767Z",
@@ -549,9 +653,9 @@
   "federationLayer": {
     "active": true,
     "layer": "FEDERATION_CORE_STATE_VAULT_SESSION_BRIDGE",
-    "progress": 90,
+    "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:48:48.714Z"
+    "time": "2026-04-08T11:48:49.590Z"
   },
   "navigatorLayer": {
     "active": true,
@@ -564,5 +668,33 @@
     "active": 15,
     "expected": 16,
     "status": "CLOSED_100"
+  },
+  "vectorLayer": {
+    "active": true,
+    "layer": "VECTOR_CORE_POLICY_MEMORY_CONTINUITY_RADAR",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T11:48:58.145Z"
+  },
+  "atlasLayer": {
+    "active": true,
+    "layer": "ATLAS_MESH_DECISION_ARCHIVE_RUNTIME_THEATER",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T11:48:58.370Z"
+  },
+  "observabilityLayer": {
+    "active": true,
+    "layer": "OBSERVABILITY_CORE_INCIDENT_CENTER_PLAYBOOK_OS",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T11:48:59.591Z"
+  },
+  "enterpriseLayer": {
+    "active": true,
+    "layer": "REVENUE_OS_COMPLIANCE_LEDGER_OPS_REPLAY",
+    "progress": 89,
+    "status": "ACTIVE",
+    "time": "2026-04-08T11:49:00.784Z"
   }
 }
