@@ -165,7 +165,9 @@
     "npm run tpm:enterprise:once",
     "npm run tpm:enterprise",
     "npm run tpm:infinity:once",
-    "npm run tpm:infinity"
+    "npm run tpm:infinity",
+    "npm run tpm:autopilot:once",
+    "npm run tpm:autopilot"
   ],
   "pages": [
     "/master-control",
@@ -234,7 +236,8 @@
     "/ops-replay",
     "/infinity-core",
     "/builder-grid",
-    "/evolution-console"
+    "/evolution-console",
+    "/autopilot-center"
   ],
   "nextWave": [
     {
@@ -786,4 +789,86 @@
     "layer": "CONNECTOR_INSPECTOR_ENV_DOCTOR_RUNTIME_HEALTH",
     "progress": 80,
     "status": "ACTIVE",
-    "time": "2026-04-08T15:49:02.69
+    "time": "2026-04-08T15:49:02.693Z"
+  },
+  "atlasLayer": {
+    "active": true,
+    "layer": "ATLAS_MESH_DECISION_ARCHIVE_RUNTIME_THEATER",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T15:49:03.165Z"
+  },
+  "observabilityLayer": {
+    "active": true,
+    "layer": "OBSERVABILITY_CORE_INCIDENT_CENTER_PLAYBOOK_OS",
+    "progress": 97,
+    "status": "ACTIVE",
+    "time": "2026-04-08T15:49:04.602Z"
+  },
+  "enterpriseLayer": {
+    "active": true,
+    "layer": "REVENUE_OS_COMPLIANCE_LEDGER_OPS_REPLAY",
+    "progress": 89,
+    "status": "ACTIVE",
+    "time": "2026-04-08T15:49:05.922Z"
+  },
+  "infinityLayer": {
+    "active": true,
+    "layer": "INFINITY_CORE_BUILDER_GRID_EVOLUTION_CONSOLE",
+    "progress": 97,
+    "status": "ACTIVE",
+    "mode": "POST_CLOSURE_UNLIMITED",
+    "time": "2026-04-08T15:49:10.002Z"
+  },
+  "autopilot": {
+    "active": true,
+    "mode": "FULL_AUTO_LOCAL",
+    "cycle": 1,
+    "discoveredScripts": [
+      "tpm:agentmesh:once",
+      "tpm:ai:once",
+      "tpm:analytics:once",
+      "tpm:apex:once",
+      "tpm:atlas:once",
+      "tpm:broker:once",
+      "tpm:command:once",
+      "tpm:constellation:once",
+      "tpm:council:once",
+      "tpm:enterprise:once",
+      "tpm:executive:once",
+      "tpm:expansion:once",
+      "tpm:fabric:once",
+      "tpm:federation:once",
+      "tpm:final:once",
+      "tpm:governance:once",
+      "tpm:helix:once",
+      "tpm:horizon:once",
+      "tpm:infinity:once",
+      "tpm:intelligence:once",
+      "tpm:learning:once",
+      "tpm:market:once",
+      "tpm:meta:once",
+      "tpm:navigator:once",
+      "tpm:nexus:once",
+      "tpm:observability:once",
+      "tpm:omega:once",
+      "tpm:orchestrator:once",
+      "tpm:platform:once",
+      "tpm:prism:once",
+      "tpm:pulse:once",
+      "tpm:quantum:once",
+      "tpm:runtimeops:once",
+      "tpm:sentinel:once",
+      "tpm:simulation:once",
+      "tpm:sovereign:once",
+      "tpm:strategy:once",
+      "tpm:vector:once",
+      "tpm:vertex:once",
+      "tpm:master:once"
+    ],
+    "successCount": 0,
+    "failedCount": 40,
+    "lastRunAt": "2026-04-08T15:49:14.317Z",
+    "status": "ACTIVE_WITH_ERRORS"
+  }
+}
