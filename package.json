@@ -9,7 +9,11 @@
     "lint": "next lint",
     "tpm:build": "node ./scripts/tpm-build.mjs",
     "tpm:heal": "node ./scripts/tpm-self-heal.mjs",
-    "tpm:validate": "node ./scripts/tpm-validate.mjs"
+    "tpm:validate": "node ./scripts/tpm-validate.mjs",
+    "tpm:builder": "node ./scripts/tpm-autobuild.mjs",
+    "tpm:builder:start": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-builder-start.ps1",
+    "tpm:builder:stop": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-builder-stop.ps1",
+    "tpm:builder:status": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-builder-status.ps1"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",
