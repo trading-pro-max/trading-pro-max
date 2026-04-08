@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "routes": [
+    {
+      "slug": "ai",
+      "title": "AI Route",
+      "progress": 90,
+      "status": "configured-path"
+    },
+    {
+      "slug": "broker",
+      "title": "Broker Route",
+      "progress": 90,
+      "status": "configured-path"
+    },
+    {
+      "slug": "alerts",
+      "title": "Alerts Route",
+      "progress": 89,
+      "status": "configured-path"
+    },
+    {
+      "slug": "mail",
+      "title": "Mail Route",
+      "progress": 87,
+      "status": "configured-path"
+    }
+  ],
+  "maps": {
+    "activeRoutes": 12,
+    "protectedRoutes": 9,
+    "internalAPIs": 11,
+    "publicBridges": 4
+  },
+  "time": "2026-04-08T10:40:17.887Z"
+}

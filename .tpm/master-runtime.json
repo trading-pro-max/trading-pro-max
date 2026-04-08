@@ -4,197 +4,137 @@
   "overallProgress": 100,
   "completed": 100,
   "remaining": 0,
+  "localCertified": true,
+  "releaseGate": "OPEN_LOCAL",
   "finalReadiness": "ready-local-100",
-  "activeModule": {
-    "slug": "surface",
-    "title": "Operator Surface",
-    "progress": 97,
-    "stage": "ACTIVE",
-    "description": "Mission control, launchpad, AI control, desktop HQ and mobile HQ.",
-    "remaining": 3,
-    "readiness": "high",
-    "status": "active"
-  },
+  "externalDeployBlocked": true,
   "modules": [
     {
-      "slug": "brain",
-      "title": "AI Brain",
-      "progress": 98,
+      "slug": "ai",
+      "title": "AI Core",
+      "progress": 93,
       "stage": "ACTIVE",
-      "description": "Autonomous intelligence and AI decision systems.",
-      "remaining": 2,
-      "readiness": "high",
+      "remaining": 7,
+      "readiness": "strong",
       "status": "active"
     },
     {
       "slug": "strategy",
-      "title": "Strategy Engine",
-      "progress": 100,
+      "title": "Strategy Core",
+      "progress": 99,
       "stage": "ACTIVE",
-      "description": "Strategy lab, execution ranking, research and signal routing.",
-      "remaining": 0,
+      "remaining": 1,
       "readiness": "high",
-      "status": "closed"
+      "status": "active"
     },
     {
-      "slug": "autonomy",
-      "title": "Autonomy Core",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "description": "Self-running loops, autobind, orchestration and local continuity.",
-      "remaining": 0,
-      "readiness": "high",
-      "status": "closed"
-    },
-    {
-      "slug": "surface",
-      "title": "Operator Surface",
+      "slug": "intelligence",
+      "title": "Intelligence Core",
       "progress": 97,
       "stage": "ACTIVE",
-      "description": "Mission control, launchpad, AI control, desktop HQ and mobile HQ.",
       "remaining": 3,
       "readiness": "high",
       "status": "active"
     },
     {
-      "slug": "research",
-      "title": "Research Vault",
+      "slug": "market",
+      "title": "Market Core",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "remaining": 4,
+      "readiness": "strong",
+      "status": "active"
+    },
+    {
+      "slug": "command",
+      "title": "Command Mesh",
       "progress": 100,
       "stage": "ACTIVE",
-      "description": "Tracked system knowledge, memory runtime and research intelligence.",
       "remaining": 0,
       "readiness": "high",
       "status": "closed"
     },
     {
-      "slug": "operations",
-      "title": "Operations",
+      "slug": "broker",
+      "title": "Broker Bridge",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "remaining": 4,
+      "readiness": "strong",
+      "status": "active"
+    },
+    {
+      "slug": "governance",
+      "title": "Governance Matrix",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "remaining": 7,
+      "readiness": "strong",
+      "status": "active"
+    },
+    {
+      "slug": "orchestrator",
+      "title": "Orchestrator HQ",
       "progress": 100,
       "stage": "ACTIVE",
-      "description": "GitHub sync, runtime health and ops continuity.",
       "remaining": 0,
       "readiness": "high",
       "status": "closed"
     },
     {
-      "slug": "deployment",
-      "title": "Deployment",
-      "progress": 84,
-      "stage": "BLOCKED_BY_PLAN",
-      "description": "External deployment path prepared; final hosting automation blocked by current plan.",
-      "remaining": 16,
-      "readiness": "building",
-      "status": "waiting"
-    },
-    {
-      "slug": "expansion",
-      "title": "Desktop + Mobile Expansion",
+      "slug": "final",
+      "title": "Final Hardening",
       "progress": 100,
       "stage": "ACTIVE",
-      "description": "Desktop shell, mobile shell, workspace sync and notification bridge.",
-      "remaining": 0,
-      "readiness": "high",
-      "status": "closed"
-    },
-    {
-      "slug": "analytics",
-      "title": "Analytics + Client Intelligence",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "description": "Analytics center, client portal and operator intelligence.",
-      "remaining": 0,
-      "readiness": "high",
-      "status": "closed"
-    },
-    {
-      "slug": "simulation",
-      "title": "Backtest + Validation",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "description": "Signal hub, backtest lab, research studio and validation layer.",
       "remaining": 0,
       "readiness": "high",
       "status": "closed"
     }
   ],
   "blockers": [
-    "GoDaddy SFTP credentials are not filled yet.",
-    "External deploy remains constrained by current hosting plan."
+    "External GoDaddy deploy remains blocked by current hosting plan."
   ],
   "commands": [
-    "npm run tpm:master:once",
-    "npm run tpm:master",
-    "npm run tpm:analytics:once",
-    "npm run tpm:simulation:once",
-    "npm run tpm:intelligence:once",
-    "npm run tpm:executive:once",
-    "npm run tpm:executive"
+    "npm run tpm:orchestrator:once",
+    "npm run tpm:governance:once",
+    "npm run tpm:broker:once",
+    "npm run tpm:command:once",
+    "npm run tpm:market:once"
   ],
   "pages": [
     "/master-control",
-    "/analytics-center",
-    "/client-portal",
-    "/operator-os",
-    "/signal-hub",
-    "/backtest-lab",
-    "/research-studio",
-    "/intelligence-center",
-    "/control-tower",
-    "/capital-os",
-    "/execution-intelligence"
+    "/orchestrator-hq",
+    "/scenario-lab",
+    "/knowledge-grid",
+    "/governance-matrix",
+    "/alert-center",
+    "/config-center",
+    "/broker-bridge",
+    "/live-ops",
+    "/decision-engine"
   ],
   "nextWave": [
     {
-      "slug": "final-hardening",
-      "title": "final hardening",
-      "progress": 94,
+      "slug": "orchestration-depth",
+      "title": "orchestration depth",
+      "progress": 100,
       "stage": "ACTIVE",
-      "status": "building"
+      "status": "strong"
     },
     {
-      "slug": "launch-readiness",
-      "title": "launch readiness",
-      "progress": 95,
+      "slug": "governance-depth",
+      "title": "governance depth",
+      "progress": 93,
       "stage": "ACTIVE",
-      "status": "building"
+      "status": "strong"
     },
     {
-      "slug": "deploy-switch",
-      "title": "deploy switch",
+      "slug": "hosting-switch",
+      "title": "hosting switch",
       "progress": 70,
       "stage": "WAITING_PLAN",
       "status": "blocked"
-    },
-    {
-      "slug": "control-tower",
-      "title": "control tower",
-      "progress": 96,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "capital-os",
-      "title": "capital os",
-      "progress": 96,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "execution-intelligence",
-      "title": "execution intelligence",
-      "progress": 96,
-      "stage": "ACTIVE",
-      "status": "strong"
     }
   ],
-  "time": "2026-04-08T10:38:52.612Z",
-  "localCertified": true,
-  "releaseGate": "OPEN_LOCAL",
-  "executiveLayer": {
-    "active": true,
-    "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
-    "progress": 96,
-    "status": "ACTIVE",
-    "time": "2026-04-08T10:39:07.296Z"
-  }
+  "time": "2026-04-08T10:40:17.602Z"
 }

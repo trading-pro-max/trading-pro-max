@@ -68,7 +68,9 @@
     "tpm:executive:once": "node ./lib/tpm-executive-core.mjs",
     "tpm:executive": "node ./scripts/tpm-executive-loop.mjs",
     "tpm:enterprise:once": "node ./lib/tpm-enterprise-core.mjs",
-    "tpm:enterprise": "node ./scripts/tpm-enterprise-loop.mjs"
+    "tpm:enterprise": "node ./scripts/tpm-enterprise-loop.mjs",
+    "tpm:platform:once": "node ./lib/tpm-platform-core.mjs",
+    "tpm:platform": "node ./scripts/tpm-platform-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

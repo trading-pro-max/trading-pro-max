@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "mode": "TPM_PLATFORM_ACTIVE",
+  "overallProgress": 83,
+  "completed": 83,
+  "remaining": 17,
+  "domains": {
+    "gateway": 100,
+    "integrations": 33,
+    "lifecycle": 83,
+    "control": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "gateway-discipline",
+      "title": "gateway discipline",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "provider-coverage",
+      "title": "provider coverage",
+      "progress": 33,
+      "status": "active"
+    },
+    {
+      "slug": "lifecycle-depth",
+      "title": "lifecycle depth",
+      "progress": 83,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-08T10:40:17.888Z"
