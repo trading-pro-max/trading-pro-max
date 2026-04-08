@@ -143,11 +143,7 @@
     "npm run tpm:executive:once",
     "npm run tpm:executive",
     "npm run tpm:vertex:once",
-    "npm run tpm:vertex",
-    "npm run tpm:pulse:once",
-    "npm run tpm:pulse",
-    "npm run tpm:federation:once",
-    "npm run tpm:federation"
+    "npm run tpm:vertex"
   ],
   "pages": [
     "/master-control",
@@ -184,12 +180,7 @@
     "/execution-intelligence",
     "/vertex-core",
     "/scenario-radar",
-    "/control-memory",
-    "/pulse-grid",
-    "/chronicle-center",
-    "/launch-console",
-    "/federation-core",
-    "/operator-journal"
+    "/control-memory"
   ],
   "nextWave": [
     {
@@ -401,44 +392,9 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
-    },
-    {
-      "slug": "pulse-grid",
-      "title": "pulse grid",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "chronicle-center",
-      "title": "chronicle center",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "launch-console",
-      "title": "launch console",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "federation-core",
-      "title": "federation core",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "operator-journal",
-      "title": "operator journal",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
     }
   ],
-  "time": "2026-04-08T13:32:54.890Z",
+  "time": "2026-04-08T13:34:24.900Z",
   "localCertified": true,
   "releaseGate": "OPEN_LOCAL",
   "postCertificationFabric": {
@@ -446,7 +402,7 @@
     "layer": "FABRIC_CORE",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:32:54.940Z"
+    "time": "2026-04-08T13:34:24.965Z"
   },
   "externalDeployBlocked": true,
   "prismLayer": {
@@ -454,69 +410,55 @@
     "layer": "PRISM_CORE_STRATEGY_THEATER_INTEGRITY_HUB",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:32:55.796Z"
+    "time": "2026-04-08T13:34:25.807Z"
   },
   "sovereignLayer": {
     "active": true,
     "layer": "SOVEREIGN_GRID_CONTINUITY_VAULT_COMMAND_NEXUS",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:32:57.000Z"
+    "time": "2026-04-08T13:34:27.025Z"
   },
   "sentinelLayer": {
     "active": true,
     "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
     "progress": 93,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:32:57.902Z"
+    "time": "2026-04-08T13:34:27.913Z"
   },
   "quantumLayer": {
     "active": true,
     "layer": "QUANTUM_BOARD_GOVERNANCE_PULSE_SCENARIO_MEMORY",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:33:03.045Z"
+    "time": "2026-04-08T13:34:33.063Z"
   },
   "helixLayer": {
     "active": true,
     "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:33:05.313Z"
+    "time": "2026-04-08T13:34:35.339Z"
   },
   "omegaLayer": {
     "active": true,
     "layer": "OMEGA_CORE_RECOVERY_MATRIX_TRUST_CENTER",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:33:07.697Z"
+    "time": "2026-04-08T13:34:37.722Z"
   },
   "executiveLayer": {
     "active": true,
     "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
     "progress": 96,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:33:09.429Z"
+    "time": "2026-04-08T13:34:39.455Z"
   },
   "vertexLayer": {
     "active": true,
     "layer": "VERTEX_CORE_SCENARIO_RADAR_CONTROL_MEMORY",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T13:33:09.965Z"
-  },
-  "pulseLayer": {
-    "active": true,
-    "layer": "PULSE_GRID_CHRONICLE_CENTER_LAUNCH_CONSOLE",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T13:33:11.799Z"
-  },
-  "federationLayer": {
-    "active": true,
-    "layer": "FEDERATION_CORE_SCENARIO_MEMORY_OPERATOR_JOURNAL",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-08T13:33:12.235Z"
+    "time": "2026-04-08T13:34:39.985Z"
   }
 }
