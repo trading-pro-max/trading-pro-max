@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "nodes": [
+    {
+      "slug": "ops-node",
+      "title": "Ops Node",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-node",
+      "title": "Market Node",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "broker-node",
+      "title": "Broker Node",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-node",
+      "title": "Trust Node",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "linkedNodes": 24,
+    "governedRoutes": 20,
+    "arbitrationStrength": 100,
+    "latticeConfidence": 100
+  },
+  "time": "2026-04-08T22:45:48.594Z"
+}

@@ -1,14 +1,13 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 98,
-  "completed": 98,
-  "remaining": 2,
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
   "domains": {
     "infinity": 100,
-    "treasury": 100,
-    "memory": 86,
-    "autonomy": 100,
+    "foundry": 86,
+    "lattice": 100,
     "proof": 100,
     "continuity": 100
   },
@@ -20,23 +19,16 @@
       "status": "active"
     },
     {
-      "slug": "treasury-discipline",
-      "title": "treasury discipline",
-      "progress": 100,
-      "status": "active"
-    },
-    {
-      "slug": "memory-depth",
-      "title": "memory depth",
+      "slug": "foundry-scale",
+      "title": "foundry scale",
       "progress": 86,
       "status": "active"
     },
     {
-      "slug": "autonomy-scale",
-      "title": "autonomy scale",
+      "slug": "lattice-unification",
+      "title": "lattice unification",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T22:44:44.229Z"
-}
+  "time": "2026-04-08T22:45:48.594Z"

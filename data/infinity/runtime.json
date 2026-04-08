@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "constellations": [
+  "engines": [
     {
-      "slug": "runtime",
-      "title": "Runtime Constellation",
+      "slug": "infinite-runtime",
+      "title": "Infinite Runtime",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "governance",
-      "title": "Governance Constellation",
+      "slug": "infinite-growth",
+      "title": "Infinite Growth",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "platform",
-      "title": "Platform Constellation",
+      "slug": "infinite-memory",
+      "title": "Infinite Memory",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "continuity",
-      "title": "Continuity Constellation",
+      "slug": "infinite-command",
+      "title": "Infinite Command",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeLayers": 24,
-    "connectedRuntimes": 29,
-    "governedStores": 31,
-    "infinityConfidence": 100
+    "layerDepth": 25,
+    "activePages": 42,
+    "activeLoops": 22,
+    "protectedStores": 29
   },
-  "time": "2026-04-08T22:44:44.228Z"
+  "time": "2026-04-08T22:45:48.593Z"
 }

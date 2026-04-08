@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "lines": [
+    {
+      "slug": "builder-line",
+      "title": "Builder Line",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "strategy-line",
+      "title": "Strategy Line",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-line",
+      "title": "Policy Line",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-line",
+      "title": "Growth Line",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeLines": 12,
+    "autonomousBuilds": 20,
+    "governedOutputs": 18,
+    "foundryConfidence": 100
+  },
+  "time": "2026-04-08T22:45:48.594Z"
+}
