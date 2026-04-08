@@ -25,7 +25,11 @@
     "/vector-core",
     "/relay-dome",
     "/memory-theater",
-    "/ops-lattice"
+    "/ops-lattice",
+    "/autopilot-center",
+    "/infinity-core",
+    "/strategy-genome",
+    "/ops-embassy"
   ],
   "commands": [
     "npm run tpm:platform:once",
@@ -40,7 +44,11 @@
     "npm run tpm:horizon:once",
     "npm run tpm:horizon",
     "npm run tpm:vector:once",
-    "npm run tpm:vector"
+    "npm run tpm:vector",
+    "npm run tpm:autopilot:once",
+    "npm run tpm:autopilot",
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity"
   ],
   "nextWave": [
     {
@@ -175,6 +183,27 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "infinity-core",
+      "title": "infinity core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "strategy-genome",
+      "title": "strategy genome",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "ops-embassy",
+      "title": "ops embassy",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "platformLayer": {
@@ -222,5 +251,63 @@
     "progress": 100,
     "status": "ACTIVE",
     "time": "2026-04-08T19:43:18.869Z"
+  },
+  "autopilot": {
+    "active": true,
+    "mode": "FULL_AUTO_LOCAL",
+    "cycle": 1,
+    "discoveredScripts": [
+      "tpm:agentmesh:once",
+      "tpm:ai:once",
+      "tpm:analytics:once",
+      "tpm:apex:once",
+      "tpm:atlas:once",
+      "tpm:broker:once",
+      "tpm:command:once",
+      "tpm:constellation:once",
+      "tpm:council:once",
+      "tpm:enterprise:once",
+      "tpm:executive:once",
+      "tpm:expansion:once",
+      "tpm:fabric:once",
+      "tpm:federation:once",
+      "tpm:final:once",
+      "tpm:governance:once",
+      "tpm:helix:once",
+      "tpm:horizon:once",
+      "tpm:infinity:once",
+      "tpm:intelligence:once",
+      "tpm:learning:once",
+      "tpm:market:once",
+      "tpm:meta:once",
+      "tpm:navigator:once",
+      "tpm:nexus:once",
+      "tpm:observability:once",
+      "tpm:omega:once",
+      "tpm:orchestrator:once",
+      "tpm:platform:once",
+      "tpm:prism:once",
+      "tpm:pulse:once",
+      "tpm:quantum:once",
+      "tpm:runtimeops:once",
+      "tpm:sentinel:once",
+      "tpm:simulation:once",
+      "tpm:sovereign:once",
+      "tpm:strategy:once",
+      "tpm:vector:once",
+      "tpm:vertex:once",
+      "tpm:master:once"
+    ],
+    "successCount": 0,
+    "failedCount": 40,
+    "lastRunAt": "2026-04-08T19:43:30.094Z",
+    "status": "ACTIVE_WITH_ERRORS"
+  },
+  "infinityLayer": {
+    "active": true,
+    "layer": "INFINITY_CORE_STRATEGY_GENOME_OPS_EMBASSY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:43:33.937Z"
   }
 }
