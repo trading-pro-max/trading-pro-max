@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "mode": "TPM_CONTINUUM_ACTIVE",
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
+  "domains": {
+    "continuum": 100,
+    "treasury": 100,
+    "scenarios": 83,
+    "court": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "treasury-discipline",
+      "title": "treasury discipline",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "scenario-depth",
+      "title": "scenario depth",
+      "progress": 83,
+      "status": "active"
+    },
+    {
+      "slug": "court-clarity",
+      "title": "court clarity",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-08T21:41:39.521Z

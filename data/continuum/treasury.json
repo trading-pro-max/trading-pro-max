@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "pools": [
+    {
+      "slug": "core",
+      "title": "Core Treasury",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth",
+      "title": "Growth Treasury",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "defense",
+      "title": "Defense Treasury",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "reserve",
+      "title": "Reserve Treasury",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "controlledPools": 8,
+    "governedAllocations": 16,
+    "treasuryConfidence": 100,
+    "capitalVisibility": 100
+  },
+  "time": "2026-04-08T21:41:39.520Z"
+}

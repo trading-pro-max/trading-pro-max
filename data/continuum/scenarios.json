@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "routes": [
+    {
+      "slug": "stable",
+      "title": "Stable Route",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "volatile",
+      "title": "Volatile Route",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "adaptive",
+      "title": "Adaptive Route",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery",
+      "title": "Recovery Route",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "routedScenarios": 18,
+    "governedScenarios": 16,
+    "routeConfidence": 100,
+    "orchestrationStrength": 100
+  },
+  "time": "2026-04-08T21:41:39.521Z"
+}

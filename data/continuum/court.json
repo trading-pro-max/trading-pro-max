@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "chambers": [
+    {
+      "slug": "signal",
+      "title": "Signal Chamber",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy",
+      "title": "Policy Chamber",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk",
+      "title": "Risk Chamber",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust",
+      "title": "Trust Chamber",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "adjudicatedSignals": 20,
+    "governedVotes": 18,
+    "courtConfidence": 100,
+    "decisionClarity": 100
+  },
+  "time": "2026-04-08T21:41:39.521Z"
+}
