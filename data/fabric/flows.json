@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "flows": [
+    {
+      "slug": "ai-to-strategy",
+      "title": "AI → Strategy",
+      "progress": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "strategy-to-market",
+      "title": "Strategy → Market",
+      "progress": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "market-to-command",
+      "title": "Market → Command",
+      "progress": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "command-to-broker",
+      "title": "Command → Broker",
+      "progress": 97,
+      "status": "strong"
+    },
+    {
+      "slug": "broker-to-governance",
+      "title": "Broker → Governance",
+      "progress": 99,
+      "status": "strong"
+    }
+  ],
+  "time": "2026-04-08T10:25:21.891Z"
+}

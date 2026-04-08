@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "nodes": [
+    {
+      "slug": "ai",
+      "title": "AI Fabric Node",
+      "power": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "strategy",
+      "title": "Strategy Fabric Node",
+      "power": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "market",
+      "title": "Market Fabric Node",
+      "power": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "broker",
+      "title": "Broker Fabric Node",
+      "power": 97,
+      "status": "strong"
+    },
+    {
+      "slug": "governance",
+      "title": "Governance Fabric Node",
+      "power": 99,
+      "status": "strong"
+    }
+  ],
+  "maps": {
+    "activeNodes": 5,
+    "activeBridges": 8,
+    "protectedLanes": 6,
+    "runtimeLoops": 10
+  },
+  "time": "2026-04-08T10:25:21.890Z"
+}

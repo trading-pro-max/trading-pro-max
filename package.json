@@ -62,7 +62,9 @@
     "tpm:orchestrator:once": "node ./lib/tpm-orchestrator-core.mjs",
     "tpm:orchestrator": "node ./scripts/tpm-orchestrator-loop.mjs",
     "tpm:agentmesh:once": "node ./lib/tpm-agentmesh-core.mjs",
-    "tpm:agentmesh": "node ./scripts/tpm-agentmesh-loop.mjs"
+    "tpm:agentmesh": "node ./scripts/tpm-agentmesh-loop.mjs",
+    "tpm:fabric:once": "node ./lib/tpm-fabric-core.mjs",
+    "tpm:fabric": "node ./scripts/tpm-fabric-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",
