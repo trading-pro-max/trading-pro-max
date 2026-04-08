@@ -92,7 +92,9 @@
     "tpm:sovereign:once": "node ./lib/tpm-sovereign-core.mjs",
     "tpm:sovereign": "node ./scripts/tpm-sovereign-loop.mjs",
     "tpm:pulse:once": "node ./lib/tpm-pulse-core.mjs",
-    "tpm:pulse": "node ./scripts/tpm-pulse-loop.mjs"
+    "tpm:pulse": "node ./scripts/tpm-pulse-loop.mjs",
+    "tpm:meta:once": "node ./lib/tpm-meta-core.mjs",
+    "tpm:meta": "node ./scripts/tpm-meta-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

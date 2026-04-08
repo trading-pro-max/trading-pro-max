@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "libraries": [
+    {
+      "slug": "runtime-lib",
+      "title": "Runtime Library",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-lib",
+      "title": "Audit Library",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "route-lib",
+      "title": "Route Library",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-lib",
+      "title": "Recovery Library",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "replaySets": 24,
+    "protectedSnapshots": 20,
+    "auditedTimelines": 18,
+    "replayConfidence": 100
+  },
+  "time": "2026-04-08T11:35:14.841Z"
+}

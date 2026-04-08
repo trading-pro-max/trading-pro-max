@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "grids": [
+    {
+      "slug": "runtime-meta",
+      "title": "Runtime Meta",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-meta",
+      "title": "Policy Meta",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-meta",
+      "title": "Evidence Meta",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "launch-meta",
+      "title": "Launch Meta",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeGrids": 18,
+    "linkedStores": 26,
+    "governedNodes": 22,
+    "metaConfidence": 100
+  },
+  "time": "2026-04-08T11:35:14.840Z"
+}
