@@ -86,7 +86,9 @@
     "tpm:learning:once": "node ./lib/tpm-learning-core.mjs",
     "tpm:learning": "node ./scripts/tpm-learning-loop.mjs",
     "tpm:council:once": "node ./lib/tpm-council-core.mjs",
-    "tpm:council": "node ./scripts/tpm-council-loop.mjs"
+    "tpm:council": "node ./scripts/tpm-council-loop.mjs",
+    "tpm:atlas:once": "node ./lib/tpm-atlas-core.mjs",
+    "tpm:atlas": "node ./scripts/tpm-atlas-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

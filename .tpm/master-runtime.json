@@ -118,8 +118,7 @@
     }
   ],
   "blockers": [
-    "GoDaddy SFTP credentials are not filled yet.",
-    "External deploy remains constrained by current hosting plan."
+    "External GoDaddy deploy remains blocked by current hosting plan."
   ],
   "commands": [
     "npm run tpm:master:once",
@@ -140,7 +139,9 @@
     "npm run tpm:nexus:once",
     "npm run tpm:nexus",
     "npm run tpm:navigator:once",
-    "npm run tpm:navigator"
+    "npm run tpm:navigator",
+    "npm run tpm:atlas:once",
+    "npm run tpm:atlas"
   ],
   "pages": [
     "/master-control",
@@ -171,7 +172,10 @@
     "/growth-radar",
     "/navigator-core",
     "/portfolio-simulator",
-    "/audit-stream"
+    "/audit-stream",
+    "/atlas-mesh",
+    "/decision-archive",
+    "/runtime-theater"
   ],
   "nextWave": [
     {
@@ -341,6 +345,27 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "atlas-mesh",
+      "title": "atlas mesh",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "decision-archive",
+      "title": "decision archive",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "runtime-theater",
+      "title": "runtime theater",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T11:19:23.249Z",
@@ -394,5 +419,18 @@
     "progress": 100,
     "status": "ACTIVE",
     "time": "2026-04-08T11:20:18.143Z"
+  },
+  "externalDeployBlocked": true,
+  "atlasLayer": {
+    "active": true,
+    "layer": "ATLAS_MESH_DECISION_ARCHIVE_RUNTIME_THEATER",
+    "progress": 90,
+    "status": "ACTIVE",
+    "time": "2026-04-08T11:20:26.518Z"
+  },
+  "runtimeDepth": {
+    "active": 15,
+    "expected": 16,
+    "status": "CLOSED_100"
   }
 }

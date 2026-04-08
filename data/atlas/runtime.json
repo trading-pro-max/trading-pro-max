@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "meshes": [
+    {
+      "slug": "control-mesh",
+      "title": "Control Mesh",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-mesh",
+      "title": "Market Mesh",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-mesh",
+      "title": "Trust Mesh",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-mesh",
+      "title": "Growth Mesh",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "linkedLayers": 20,
+    "governedRoutes": 18,
+    "replayableNodes": 16,
+    "atlasConfidence": 100
+  },
+  "time": "2026-04-08T11:20:26.509Z"
+}
