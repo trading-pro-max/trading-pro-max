@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "vectors": [
+    {
+      "slug": "runtime-vector",
+      "title": "Runtime Vector",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-vector",
+      "title": "Policy Vector",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "route-vector",
+      "title": "Route Vector",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-vector",
+      "title": "Trust Vector",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "governedVectors": 24,
+    "connectedLayers": 22,
+    "protectedStores": 30,
+    "vectorConfidence": 100
+  },
+  "time": "2026-04-08T11:44:27.975Z"
+}

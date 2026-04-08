@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "banks": [
+    {
+      "slug": "risk-bank",
+      "title": "Risk Bank",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-bank",
+      "title": "Capital Bank",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution-bank",
+      "title": "Execution Bank",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-bank",
+      "title": "Trust Bank",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedPolicies": 20,
+    "replayablePolicies": 18,
+    "governedPolicies": 18,
+    "memoryConfidence": 100
+  },
+  "time": "2026-04-08T11:44:27.976Z"
+}

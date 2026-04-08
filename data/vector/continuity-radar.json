@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "beams": [
+    {
+      "slug": "runtime-radar",
+      "title": "Runtime Radar",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-radar",
+      "title": "Recovery Radar",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-radar",
+      "title": "Audit Radar",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity-radar",
+      "title": "Continuity Radar",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeBeams": 16,
+    "protectedWindows": 18,
+    "continuityStrength": 100,
+    "radarConfidence": 100
+  },
+  "time": "2026-04-08T11:44:27.976Z"
+}

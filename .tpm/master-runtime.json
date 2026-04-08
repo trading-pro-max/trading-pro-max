@@ -147,7 +147,9 @@
     "npm run tpm:meta:once",
     "npm run tpm:meta",
     "npm run tpm:navigator:once",
-    "npm run tpm:navigator"
+    "npm run tpm:navigator",
+    "npm run tpm:vector:once",
+    "npm run tpm:vector"
   ],
   "pages": [
     "/master-control",
@@ -190,7 +192,10 @@
     "/gatekeeper-panel",
     "/navigator-core",
     "/portfolio-simulator",
-    "/audit-stream"
+    "/audit-stream",
+    "/vector-core",
+    "/policy-memory",
+    "/continuity-radar"
   ],
   "nextWave": [
     {
@@ -444,9 +449,30 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "vector-core",
+      "title": "vector core",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "policy-memory",
+      "title": "policy memory",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "continuity-radar",
+      "title": "continuity radar",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
-  "time": "2026-04-08T11:41:53.643Z",
+  "time": "2026-04-08T11:43:23.662Z",
   "localCertified": true,
   "releaseGate": "OPEN_LOCAL",
   "externalDeployBlocked": true,
@@ -455,76 +481,87 @@
     "layer": "SOVEREIGN_GRID_CONTINUITY_VAULT_COMMAND_NEXUS",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:41:56.189Z"
+    "time": "2026-04-08T11:43:26.216Z"
   },
   "sentinelLayer": {
     "active": true,
     "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
     "progress": 93,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:41:56.855Z"
+    "time": "2026-04-08T11:43:26.889Z"
   },
   "helixLayer": {
     "active": true,
     "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:42:04.143Z"
+    "time": "2026-04-08T11:43:34.161Z"
   },
   "omegaLayer": {
     "active": true,
     "layer": "OMEGA_CORE_RECOVERY_MATRIX_TRUST_CENTER",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:42:06.500Z"
+    "time": "2026-04-08T11:43:36.524Z"
   },
   "executiveLayer": {
     "active": true,
     "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
     "progress": 96,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:42:08.708Z"
+    "time": "2026-04-08T11:43:38.732Z"
   },
   "pulseLayer": {
     "active": true,
     "layer": "PULSE_GRID_CHRONICLE_CENTER_LAUNCH_CONSOLE",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:42:11.037Z"
+    "time": "2026-04-08T11:43:41.063Z"
   },
   "learningLayer": {
     "active": true,
     "layer": "LEARNING_LOOP_ROUTE_ARBITRATOR_POLICY_STUDIO",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:42:26.484Z"
+    "time": "2026-04-08T11:43:56.502Z"
   },
   "horizonLayer": {
     "active": true,
     "layer": "HORIZON_HUB_WORKSPACE_ROUTER_EVIDENCE_VAULT",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:42:33.790Z"
+    "time": "2026-04-08T11:44:03.807Z"
   },
   "globalExpansion": {
     "active": true,
     "layer": "NEXUS_CORE_MISSION_LEDGER_GROWTH_RADAR",
     "progress": 97,
     "status": "CLOSED_100",
-    "time": "2026-04-08T11:42:36.712Z"
+    "time": "2026-04-08T11:44:06.727Z"
   },
   "metaLayer": {
     "active": true,
     "layer": "META_GRID_REPLAY_LIBRARY_GATEKEEPER_PANEL",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:42:45.018Z"
+    "time": "2026-04-08T11:44:15.042Z"
   },
   "navigatorLayer": {
     "active": true,
     "layer": "NAVIGATOR_CORE_PORTFOLIO_SIMULATOR_AUDIT_STREAM",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-08T11:42:48.724Z"
+    "time": "2026-04-08T11:44:18.742Z"
+  },
+  "vectorLayer": {
+    "active": true,
+    "layer": "VECTOR_CORE_POLICY_MEMORY_CONTINUITY_RADAR",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T11:44:27.981Z"
+  },
+  "runtimeDepth": {
+    "active": 15,
+    "expected": 16,
+    "status": "CLOSED_100"
   }
-}
