@@ -76,7 +76,10 @@
     "/assurance-console",
     "/infinity-core",
     "/autonomous-foundry",
-    "/global-command-lattice"
+    "/global-command-lattice",
+    "/kernel-os",
+    "/scenario-genome",
+    "/operator-memory"
   ],
   "commands": [
     "npm run tpm:atlas:once",
@@ -123,7 +126,9 @@
     "npm run tpm:constellation:once",
     "npm run tpm:constellation",
     "npm run tpm:infinity:once",
-    "npm run tpm:infinity"
+    "npm run tpm:infinity",
+    "npm run tpm:kernel:once",
+    "npm run tpm:kernel"
   ],
   "nextWave": [
     {
@@ -587,6 +592,27 @@
       "progress": 91,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "kernel-os",
+      "title": "kernel os",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-genome",
+      "title": "scenario genome",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-memory",
+      "title": "operator memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "atlasLayer": {
@@ -750,5 +776,13 @@
     "progress": 100,
     "status": "ACTIVE",
     "time": "2026-04-08T22:45:35.306Z"
+  },
+  "kernelLayer": {
+    "active": true,
+    "layer": "KERNEL_OS_SCENARIO_GENOME_OPERATOR_MEMORY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "infinityContinuation": "ACTIVE",
+    "time": "2026-04-08T22:46:03.460Z"
   }
 }
