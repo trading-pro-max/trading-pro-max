@@ -30,7 +30,11 @@
     "/runtime-health",
     "/prism-core",
     "/memory-map",
-    "/execution-forum"
+    "/execution-forum",
+    "/titan-grid",
+    "/universe-ops",
+    "/foundry-lab",
+    "/deploy-freeze-wall"
   ],
   "commands": [
     "npm run tpm:executive:once",
@@ -49,7 +53,9 @@
     "npm run tpm:runtimeops:once",
     "npm run tpm:runtimeops",
     "npm run tpm:prism:once",
-    "npm run tpm:prism"
+    "npm run tpm:prism",
+    "npm run tpm:titan:once",
+    "npm run tpm:titan"
   ],
   "nextWave": [
     {
@@ -219,6 +225,34 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "titan-grid",
+      "title": "titan grid",
+      "progress": 98,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "universe-ops",
+      "title": "universe ops",
+      "progress": 98,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "foundry-lab",
+      "title": "foundry lab",
+      "progress": 98,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "deploy-freeze-wall",
+      "title": "deploy freeze wall",
+      "progress": 98,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "executiveLayer": {
@@ -281,5 +315,17 @@
     "progress": 100,
     "status": "ACTIVE",
     "time": "2026-04-08T23:36:17.168Z"
+  },
+  "runtimeDepth": {
+    "active": 25,
+    "expected": 26,
+    "status": "CLOSED_100"
+  },
+  "titanLayer": {
+    "active": true,
+    "layer": "TITAN_GRID_UNIVERSE_OPS_FOUNDRY_LAB_DEPLOY_FREEZE_WALL",
+    "progress": 98,
+    "status": "ACTIVE",
+    "time": "2026-04-08T23:36:23.053Z"
   }
 }
