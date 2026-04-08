@@ -153,7 +153,11 @@
     "npm run tpm:horizon:once",
     "npm run tpm:horizon",
     "npm run tpm:nexus:once",
-    "npm run tpm:nexus"
+    "npm run tpm:nexus",
+    "npm run tpm:meta:once",
+    "npm run tpm:meta",
+    "npm run tpm:constellation:once",
+    "npm run tpm:constellation"
   ],
   "pages": [
     "/master-control",
@@ -204,7 +208,13 @@
     "/evidence-vault",
     "/nexus-core",
     "/mission-ledger",
-    "/growth-radar"
+    "/growth-radar",
+    "/meta-grid",
+    "/replay-library",
+    "/gatekeeper-panel",
+    "/constellation-core",
+    "/proof-engine",
+    "/runtime-registry"
   ],
   "nextWave": [
     {
@@ -514,6 +524,48 @@
       "progress": 97,
       "stage": "CLOSED",
       "status": "closed"
+    },
+    {
+      "slug": "meta-grid",
+      "title": "meta grid",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "replay-library",
+      "title": "replay library",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "gatekeeper-panel",
+      "title": "gatekeeper panel",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "constellation-core",
+      "title": "constellation core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "proof-engine",
+      "title": "proof engine",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "runtime-registry",
+      "title": "runtime registry",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-08T18:43:31.692Z",
@@ -617,5 +669,19 @@
     "progress": 97,
     "status": "CLOSED_100",
     "time": "2026-04-08T18:44:16.425Z"
+  },
+  "metaLayer": {
+    "active": true,
+    "layer": "META_GRID_REPLAY_LIBRARY_GATEKEEPER_PANEL",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T18:44:24.763Z"
+  },
+  "constellationLayer": {
+    "active": true,
+    "layer": "CONSTELLATION_CORE_PROOF_ENGINE_RUNTIME_REGISTRY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-08T18:44:25.373Z"
   }
 }
