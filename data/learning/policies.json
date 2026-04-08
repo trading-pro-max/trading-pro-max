@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "books": [
+    {
+      "slug": "risk-policy",
+      "title": "Risk Policy",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-policy",
+      "title": "Capital Policy",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution-policy",
+      "title": "Execution Policy",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "trust-policy",
+      "title": "Trust Policy",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activePolicies": 16,
+    "auditCoverage": 100,
+    "recoveryCoverage": 100,
+    "policyConfidence": 100
+  },
+  "time": "2026-04-08T11:12:24.349Z"
+}

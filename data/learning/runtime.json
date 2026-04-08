@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "models": [
+    {
+      "slug": "pattern-memory",
+      "title": "Pattern Memory",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "feedback-loop",
+      "title": "Feedback Loop",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "execution-learning",
+      "title": "Execution Learning",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "policy-learning",
+      "title": "Policy Learning",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedSignals": 24,
+    "learnedPatterns": 18,
+    "protectedPolicies": 16,
+    "routeConfidence": 100
+  },
+  "time": "2026-04-08T11:12:24.348Z"
+}

@@ -82,7 +82,9 @@
     "tpm:observability:once": "node ./lib/tpm-observability-core.mjs",
     "tpm:observability": "node ./scripts/tpm-observability-loop.mjs",
     "tpm:navigator:once": "node ./lib/tpm-navigator-core.mjs",
-    "tpm:navigator": "node ./scripts/tpm-navigator-loop.mjs"
+    "tpm:navigator": "node ./scripts/tpm-navigator-loop.mjs",
+    "tpm:learning:once": "node ./lib/tpm-learning-core.mjs",
+    "tpm:learning": "node ./scripts/tpm-learning-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",
