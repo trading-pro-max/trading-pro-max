@@ -1,12 +1,12 @@
 {
   "ok": true,
   "mode": "TPM_MARKET_ACTIVE",
-  "overallProgress": 89,
-  "completed": 89,
-  "remaining": 11,
+  "overallProgress": 96,
+  "completed": 96,
+  "remaining": 4,
   "domains": {
-    "stream": 83,
-    "execution": 83,
+    "stream": 100,
+    "execution": 100,
     "risk": 80,
     "orchestration": 100,
     "telemetry": 100
@@ -15,13 +15,13 @@
     {
       "slug": "market-pulse",
       "title": "market pulse",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "execution-routing",
       "title": "execution routing",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
@@ -31,5 +31,5 @@
       "status": "active"
     }
   ],
-  "time": "2026-04-08T09:39:02.279Z"
+  "time": "2026-04-08T09:39:02.795Z"
 }
