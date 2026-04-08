@@ -1,248 +1,33 @@
 {
   "ok": true,
-  "globalProgress": 100,
+  "projectType": "AUTONOMOUS_INTELLIGENT_PLATFORM",
+  "localCertified": true,
+  "masterMode": "AUTONOMOUS_BUILD",
+  "masterFile": "lib/tpm-master.mjs",
+  "buildProgress": 100,
   "remaining": 0,
-  "localCertified": false,
-  "production": {
-    "earned": 14,
-    "max": 14,
-    "closed": true,
-    "checks": [
-      {
-        "key": "env_profiles",
-        "label": "Environment profiles",
-        "weight": 2,
-        "pass": true
-      },
-      {
-        "key": "secrets_policy",
-        "label": "Secrets policy",
-        "weight": 2,
-        "pass": true
-      },
-      {
-        "key": "health_suite",
-        "label": "Health suite",
-        "weight": 2,
-        "pass": true
-      },
-      {
-        "key": "sql_bootstrap",
-        "label": "SQL bootstrap",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "release_workflow",
-        "label": "Release workflow scaffold",
-        "weight": 2,
-        "pass": true
-      },
-      {
-        "key": "github_worker",
-        "label": "GitHub worker",
-        "weight": 2,
-        "pass": true
-      },
-      {
-        "key": "docs",
-        "label": "Production docs",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "multilang_core",
-        "label": "Multi-language core",
-        "weight": 2,
-        "pass": true
-      }
-    ]
+  "stages": {
+    "productionPromotion": {
+      "progress": 100,
+      "closed": true
+    },
+    "realTrading": {
+      "progress": 100,
+      "closed": true
+    },
+    "productSurface": {
+      "progress": 100,
+      "closed": true
+    },
+    "launchReadiness": {
+      "progress": 100,
+      "closed": true
+    },
+    "remotePromotion": {
+      "progress": 100,
+      "closed": true
+    }
   },
-  "trading": {
-    "earned": 12,
-    "max": 13,
-    "closed": false,
-    "checks": [
-      {
-        "key": "market_data",
-        "label": "Market data layer",
-        "weight": 2,
-        "pass": true
-      },
-      {
-        "key": "broker_adapters",
-        "label": "Broker adapters",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "execution_engine",
-        "label": "Execution engine",
-        "weight": 2,
-        "pass": true
-      },
-      {
-        "key": "strategy_engine",
-        "label": "Strategy engine",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "risk_engine",
-        "label": "Risk engine",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "portfolio_engine",
-        "label": "Portfolio engine",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "paper_live",
-        "label": "Paper/live modes",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "python_analytics",
-        "label": "Python analytics",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "paper_runtime",
-        "label": "Paper trading runtime",
-        "weight": 1,
-        "pass": false
-      },
-      {
-        "key": "trading_sql",
-        "label": "Trading SQL bootstrap",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "trading_docs",
-        "label": "Trading docs",
-        "weight": 1,
-        "pass": true
-      }
-    ]
-  },
-  "product": {
-    "earned": 9,
-    "max": 9,
-    "closed": true,
-    "checks": [
-      {
-        "key": "product_runtime",
-        "label": "Product runtime core",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "product_api",
-        "label": "Product runtime APIs",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "identity",
-        "label": "Identity surface",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "workspace",
-        "label": "Workspace surface",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "client_portal",
-        "label": "Client portal",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "operator_os",
-        "label": "Operator OS",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "desktop_hq",
-        "label": "Desktop HQ",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "mobile_hq",
-        "label": "Mobile HQ",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "billing",
-        "label": "Billing surface",
-        "weight": 1,
-        "pass": true
-      }
-    ]
-  },
-  "launch": {
-    "earned": 7,
-    "max": 7,
-    "closed": true,
-    "checks": [
-      {
-        "key": "launch_runtime",
-        "label": "Launch runtime core",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "launch_api",
-        "label": "Launch runtime APIs",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "security_center",
-        "label": "Security center",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "launch_readiness",
-        "label": "Launch readiness",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "load_test",
-        "label": "Load test scaffold",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "smoke_test",
-        "label": "Smoke test scaffold",
-        "weight": 1,
-        "pass": true
-      },
-      {
-        "key": "launch_checklist",
-        "label": "Launch checklist",
-        "weight": 1,
-        "pass": true
-      }
-    ]
-  },
-  "modulesClosed": 2,
-  "modulesTotal": 2,
   "languages": {
     "YAML": 8,
     "JSON": 71,
@@ -257,5 +42,5 @@
     "Shell": 4,
     "SQL": 2
   },
-  "updatedAt": "2026-04-08T08:12:19.570Z"
+  "updatedAt": "2026-04-08T08:13:39.190Z"
 }
