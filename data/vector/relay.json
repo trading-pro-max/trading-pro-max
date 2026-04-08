@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "domes": [
+    {
+      "slug": "ops-relay",
+      "title": "Ops Relay",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-relay",
+      "title": "Market Relay",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "broker-relay",
+      "title": "Broker Relay",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-relay",
+      "title": "Trust Relay",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeRelays": 16,
+    "governedRoutes": 18,
+    "relayStrength": 100,
+    "relayConfidence": 100
+  },
+  "time": "2026-04-08T19:41:48.681Z"
+}

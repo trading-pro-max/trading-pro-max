@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "lattices": [
+    {
+      "slug": "runtime-lattice",
+      "title": "Runtime Lattice",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "command-lattice",
+      "title": "Command Lattice",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-lattice",
+      "title": "Market Lattice",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "platform-lattice",
+      "title": "Platform Lattice",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeLattices": 12,
+    "governedOperations": 20,
+    "continuityStrength": 100,
+    "latticeConfidence": 100
+  },
+  "time": "2026-04-08T19:41:48.681Z"
+}

@@ -9,12 +9,23 @@
   "pages": [
     "/observability-core",
     "/incident-center",
-    "/playbook-os"
+    "/playbook-os",
+    "/vector-core",
+    "/relay-dome",
+    "/memory-theater",
+    "/ops-lattice",
+    "/omega-core",
+    "/recovery-matrix",
+    "/trust-center"
   ],
   "commands": [
     "npm run tpm:observability:once",
     "npm run tpm:observability",
-    "npm run tpm:master:once"
+    "npm run tpm:master:once",
+    "npm run tpm:vector:once",
+    "npm run tpm:vector",
+    "npm run tpm:omega:once",
+    "npm run tpm:omega"
   ],
   "nextWave": [
     {
@@ -37,6 +48,34 @@
       "progress": 97,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "vector-core",
+      "title": "vector core",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "relay-dome",
+      "title": "relay dome",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-theater",
+      "title": "memory theater",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "ops-lattice",
+      "title": "ops lattice",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "observabilityLayer": {
@@ -45,5 +84,21 @@
     "progress": 97,
     "status": "ACTIVE",
     "time": "2026-04-08T19:41:21.895Z"
+  },
+  "externalDeployBlocked": true,
+  "blockers": [
+    "External GoDaddy deploy remains blocked by current hosting plan."
+  ],
+  "vectorLayer": {
+    "active": true,
+    "layer": "VECTOR_CORE_RELAY_DOME_MEMORY_THEATER_OPS_LATTICE",
+    "progress": 90,
+    "status": "ACTIVE",
+    "time": "2026-04-08T19:41:47.162Z"
+  },
+  "runtimeDepth": {
+    "active": 15,
+    "expected": 16,
+    "status": "CLOSED_100"
   }
 }

@@ -1,14 +1,14 @@
 {
   "ok": true,
   "mode": "TPM_VECTOR_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
+  "overallProgress": 90,
+  "completed": 90,
+  "remaining": 10,
   "domains": {
     "vector": 100,
-    "memory": 100,
-    "radar": 100,
-    "proof": 100,
+    "relay": 83,
+    "memory": 83,
+    "ops": 83,
     "continuity": 100
   },
   "nextWave": [
@@ -19,17 +19,23 @@
       "status": "active"
     },
     {
-      "slug": "policy-memory-depth",
-      "title": "policy memory depth",
-      "progress": 100,
+      "slug": "relay-depth",
+      "title": "relay depth",
+      "progress": 83,
       "status": "active"
     },
     {
-      "slug": "continuity-radar-depth",
-      "title": "continuity radar depth",
-      "progress": 100,
+      "slug": "memory-clarity",
+      "title": "memory clarity",
+      "progress": 83,
+      "status": "active"
+    },
+    {
+      "slug": "ops-unification",
+      "title": "ops unification",
+      "progress": 83,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T19:41:21.818Z"
+  "time": "2026-04-08T19:41:47.150Z"
 }

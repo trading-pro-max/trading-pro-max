@@ -14,8 +14,8 @@
       "status": "closed"
     },
     {
-      "slug": "route-vector",
-      "title": "Route Vector",
+      "slug": "signal-vector",
+      "title": "Signal Vector",
       "score": 100,
       "status": "closed"
     },
@@ -27,10 +27,10 @@
     }
   ],
   "metrics": {
-    "governedVectors": 24,
-    "connectedLayers": 22,
-    "protectedStores": 30,
+    "activeVectors": 20,
+    "linkedLayers": 24,
+    "protectedPlanes": 18,
     "vectorConfidence": 100
   },
-  "time": "2026-04-08T19:41:21.810Z"
+  "time": "2026-04-08T19:41:47.149Z"
 }
