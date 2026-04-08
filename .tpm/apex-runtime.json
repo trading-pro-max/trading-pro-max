@@ -1,35 +1,35 @@
 {
   "ok": true,
   "mode": "TPM_APEX_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
+  "overallProgress": 91,
+  "completed": 91,
+  "remaining": 9,
   "domains": {
-    "apex": 100,
-    "reactor": 100,
-    "mirror": 100,
+    "command": 83,
+    "memory": 86,
+    "deploy": 86,
     "proof": 100,
     "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "apex-density",
-      "title": "apex density",
-      "progress": 100,
+      "slug": "command-unification",
+      "title": "command unification",
+      "progress": 83,
       "status": "active"
     },
     {
-      "slug": "reactor-depth",
-      "title": "reactor depth",
-      "progress": 100,
+      "slug": "memory-density",
+      "title": "memory density",
+      "progress": 86,
       "status": "active"
     },
     {
-      "slug": "mirror-clarity",
-      "title": "mirror clarity",
-      "progress": 100,
+      "slug": "deploy-discipline",
+      "title": "deploy discipline",
+      "progress": 86,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T13:01:58.655Z"
+  "time": "2026-04-08T13:02:45.406Z"
 }
