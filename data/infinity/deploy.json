@@ -1,39 +1,36 @@
 {
   "ok": true,
-  "stages": [
+  "gates": [
     {
-      "slug": "local-stack",
-      "title": "Local Stack",
+      "slug": "runtime",
+      "title": "Runtime Gate",
       "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "evidence-stack",
-      "title": "Evidence Stack",
-      "progress": 100,
-      "status": "closed"
+      "slug": "providers",
+      "title": "Provider Gate",
+      "progress": 92,
+      "status": "configured-path"
     },
     {
-      "slug": "handoff-stack",
-      "title": "Handoff Stack",
-      "progress": 100,
-      "status": "closed"
+      "slug": "hosting",
+      "title": "Hosting Upgrade Gate",
+      "progress": 70,
+      "status": "blocked-by-plan"
     },
     {
-      "slug": "external-switch",
-      "title": "External Switch",
+      "slug": "switch",
+      "title": "External Switch Gate",
       "progress": 70,
       "status": "blocked-by-plan"
     }
   ],
-  "blockers": [
-    "External GoDaddy deploy remains blocked by current hosting plan."
-  ],
   "metrics": {
-    "localReady": 100,
-    "expansionReady": 100,
-    "deploymentPathPrepared": 100,
-    "externalSwitchReady": 70
+    "localReadiness": 100,
+    "externalSwitchReadiness": 70,
+    "releaseDiscipline": 100,
+    "deploymentConfidence": 82
   },
-  "time": "2026-04-08T23:40:56.172Z"
+  "time": "2026-04-08T23:43:47.871Z"
 }

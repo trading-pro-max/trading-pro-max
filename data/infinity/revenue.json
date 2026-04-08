@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "channels": [
+  "engines": [
     {
-      "slug": "subscription-bridge",
-      "title": "Subscription Bridge",
-      "score": 100,
+      "slug": "subscriptions",
+      "title": "Subscriptions Reactor",
+      "progress": 92,
+      "status": "configured-path"
+    },
+    {
+      "slug": "billing",
+      "title": "Billing Reactor",
+      "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "capital-bridge",
-      "title": "Capital Bridge",
-      "score": 100,
+      "slug": "cashflow",
+      "title": "Cashflow Reactor",
+      "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "insight-bridge",
-      "title": "Insight Bridge",
-      "score": 100,
-      "status": "closed"
-    },
-    {
-      "slug": "growth-bridge",
-      "title": "Growth Bridge",
-      "score": 100,
-      "status": "closed"
+      "slug": "success",
+      "title": "Success Reactor",
+      "progress": 91,
+      "status": "configured-path"
     }
   ],
   "metrics": {
-    "monetizedChannels": 10,
-    "governedRevenuePaths": 12,
-    "protectedBillingLogic": 8,
+    "recurringStrength": 93,
+    "billingDiscipline": 100,
+    "expansionYield": 99,
     "revenueConfidence": 100
   },
-  "time": "2026-04-08T23:40:56.172Z"
+  "time": "2026-04-08T23:43:47.871Z"
 }

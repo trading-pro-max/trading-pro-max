@@ -1,37 +1,46 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 98,
-  "completed": 98,
-  "remaining": 2,
-  "infiniteContinuation": "ACTIVE",
-  "localState": "CLOSED_100",
+  "overallProgress": 86,
+  "completed": 86,
+  "remaining": 14,
   "domains": {
-    "reactor": 100,
-    "autonomy": 88,
-    "external": 100,
-    "proof": 100,
-    "continuity": 100
+    "director": 100,
+    "revenue": 71,
+    "research": 100,
+    "deploy": 71,
+    "ops": 86
   },
   "nextWave": [
     {
-      "slug": "infinity-reactor",
-      "title": "infinity reactor",
+      "slug": "director-density",
+      "title": "director density",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "autonomy-theater",
-      "title": "autonomy theater",
-      "progress": 88,
+      "slug": "revenue-acceleration",
+      "title": "revenue acceleration",
+      "progress": 71,
       "status": "active"
     },
     {
-      "slug": "external-readiness",
-      "title": "external readiness",
-      "progress": 70,
-      "status": "blocked"
+      "slug": "research-depth",
+      "title": "research depth",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "deploy-prep",
+      "title": "deploy prep",
+      "progress": 71,
+      "status": "active"
+    },
+    {
+      "slug": "ops-supergrid",
+      "title": "ops supergrid",
+      "progress": 86,
+      "status": "active"
     }
   ],
-  "time": "2026-04-08T23:41:17.278Z"
-}
+  "time": "2026-04-08T23:43:47.871

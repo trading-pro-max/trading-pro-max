@@ -12,7 +12,7 @@ const card={background:"#111827",border:"1px solid #1f2937",borderRadius:22,padd
 const box={background:"#020617",borderRadius:14,padding:14};
 
 export default function Page(){
-  const data=readJson(path.join(process.cwd(),"data","infinity","global-ops.json"),{grids:[],metrics:{}});
+  const data=readJson(path.join(process.cwd(),"data","infinity","ops.json"),{grids:[],metrics:{}});
   return (
     <main style={{minHeight:"100vh",background:"linear-gradient(180deg,#020617 0%,#0b1120 100%)",color:"white",padding:24,fontFamily:"Arial,sans-serif"}}>
       <div style={{maxWidth:1500,margin:"0 auto",display:"grid",gap:20}}>
@@ -25,7 +25,7 @@ export default function Page(){
           {(data.grids || []).map((x)=>(
             <div key={x.slug} style={box}>
               <div style={{fontWeight:900}}>{x.title}</div>
-              <div style={{marginTop:8,color:"#22c55e",fontWeight:900,fontSize:24}}>{x.progress}%</div>
+              <div style={{marginTop:8,color:"#22c55e",fontWeight:900,fontSize:24}}>{x.score}%</div>
               <div style={{marginTop:6,color:"#94a3b8",fontSize:12}}>{x.status}</div>
             </div>
           ))}

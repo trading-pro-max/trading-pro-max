@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "cells": [
+    {
+      "slug": "autonomy",
+      "title": "Autonomy Director",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital",
+      "title": "Capital Director",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence",
+      "title": "Evidence Director",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth",
+      "title": "Growth Director",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ops",
+      "title": "Ops Director",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeLayers": 26,
+    "linkedRuntimes": 31,
+    "governedStores": 29,
+    "commandConfidence": 100
+  },
+  "time": "2026-04-08T23:43:47.869Z"
+}
