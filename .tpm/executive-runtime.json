@@ -1,0 +1,34 @@
+{
+  "ok": true,
+  "mode": "TPM_EXECUTIVE_ACTIVE",
+  "overallProgress": 96,
+  "completed": 96,
+  "remaining": 4,
+  "domains": {
+    "control": 100,
+    "capital": 100,
+    "execution": 100,
+    "governance": 80,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "tower-discipline",
+      "title": "tower discipline",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "capital-governance",
+      "title": "capital governance",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "execution-maps",
+      "title": "execution maps",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-08T10:30:07.102Z

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "models": [
+    {
+      "slug": "routing",
+      "title": "Routing Intelligence",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "ranking",
+      "title": "Ranking Intelligence",
+      "score": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "risk",
+      "title": "Risk Intelligence",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "telemetry",
+      "title": "Telemetry Intelligence",
+      "score": 98,
+      "status": "strong"
+    }
+  ],
+  "maps": {
+    "activeRoutes": 12,
+    "rankedFlows": 9,
+    "protectedExecutions": 8,
+    "monitoredSignals": 14
+  },
+  "time": "2026-04-08T10:30:07.101Z"
+}

@@ -64,7 +64,9 @@
     "tpm:agentmesh:once": "node ./lib/tpm-agentmesh-core.mjs",
     "tpm:agentmesh": "node ./scripts/tpm-agentmesh-loop.mjs",
     "tpm:fabric:once": "node ./lib/tpm-fabric-core.mjs",
-    "tpm:fabric": "node ./scripts/tpm-fabric-loop.mjs"
+    "tpm:fabric": "node ./scripts/tpm-fabric-loop.mjs",
+    "tpm:executive:once": "node ./lib/tpm-executive-core.mjs",
+    "tpm:executive": "node ./scripts/tpm-executive-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

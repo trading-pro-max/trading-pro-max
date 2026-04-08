@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "panels": [
+    {
+      "slug": "runtime",
+      "title": "Runtime Tower",
+      "progress": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "risk",
+      "title": "Risk Tower",
+      "progress": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "capital",
+      "title": "Capital Tower",
+      "progress": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "broker",
+      "title": "Broker Tower",
+      "progress": 98,
+      "status": "strong"
+    }
+  ],
+  "metrics": {
+    "activePanels": 4,
+    "activeGuards": 9,
+    "liveNodes": 6,
+    "protectedPaths": 8
+  },
+  "time": "2026-04-08T10:30:07.100Z"
+}

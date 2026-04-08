@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "pools": [
+    {
+      "slug": "core",
+      "title": "Core Capital",
+      "weight": 40,
+      "status": "strong"
+    },
+    {
+      "slug": "growth",
+      "title": "Growth Capital",
+      "weight": 22,
+      "status": "strong"
+    },
+    {
+      "slug": "defense",
+      "title": "Defense Capital",
+      "weight": 20,
+      "status": "strong"
+    },
+    {
+      "slug": "reserve",
+      "title": "Reserve Capital",
+      "weight": 18,
+      "status": "strong"
+    }
+  ],
+  "governance": {
+    "capitalEfficiency": 98,
+    "routeDiscipline": 99,
+    "allocationConfidence": 97,
+    "continuityConfidence": 99
+  },
+  "time": "2026-04-08T10:30:07.101Z"
+}
