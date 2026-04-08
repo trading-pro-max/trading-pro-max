@@ -27,7 +27,11 @@
     "tpm:super": "node ./scripts/tpm-super-run.mjs",
     "tpm:productdemo": "node ./scripts/tpm-product-demo.mjs",
     "tpm:launchdemo": "node ./scripts/tpm-launch-demo.mjs",
-    "tpm:finaljump": "node ./scripts/tpm-final-run.mjs"
+    "tpm:finaljump": "node ./scripts/tpm-final-run.mjs",
+    "tpm:master": "node ./scripts/tpm-master-run.mjs",
+    "tpm:master:start": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-master-start.ps1",
+    "tpm:master:stop": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-master-stop.ps1",
+    "tpm:master:status": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-master-status.ps1"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

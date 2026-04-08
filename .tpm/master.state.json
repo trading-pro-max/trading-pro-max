@@ -1,0 +1,26 @@
+{
+  "running": true,
+  "cycle": 2,
+  "localCertified": true,
+  "masterFile": "lib/tpm-master.mjs",
+  "masterMode": "AUTONOMOUS_BUILD",
+  "stages": {
+    "productionPromotion": {
+      "progress": 100,
+      "closed": true
+    },
+    "realTrading": {
+      "progress": 86,
+      "closed": false
+    },
+    "productSurface": {
+      "progress": 100,
+      "closed": true
+    },
+    "launchReadiness": {
+      "progress": 100,
+      "closed": true
+    }
+  },
+  "updatedAt": "2026-04-08T05:00:49.866Z"
+}

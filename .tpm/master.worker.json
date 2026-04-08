@@ -1,0 +1,8 @@
+﻿{
+  "enabled": true,
+  "intervalSec": 90,
+  "branch": "main",
+  "remote": "origin",
+  "lastRunAt": null,
+  "lastCommit": null
+}
