@@ -1,15 +1,15 @@
 {
   "ok": true,
   "mode": "TPM_QUANTUM_ACTIVE",
-  "overallProgress": 83,
-  "completed": 83,
-  "remaining": 17,
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
   "domains": {
     "quantum": 100,
-    "revenue": 83,
-    "partners": 83,
-    "autonomy": 67,
-    "client": 83
+    "revenue": 100,
+    "partners": 100,
+    "autonomy": 83,
+    "client": 100
   },
   "nextWave": [
     {
@@ -21,27 +21,27 @@
     {
       "slug": "revenue-discipline",
       "title": "revenue discipline",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "partner-unification",
       "title": "partner unification",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "autonomy-expansion",
       "title": "autonomy expansion",
-      "progress": 67,
+      "progress": 83,
       "status": "active"
     },
     {
       "slug": "client-command",
       "title": "client command",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T22:58:14.364Z"
+  "time": "2026-04-08T22:58:14.839Z"
 }
