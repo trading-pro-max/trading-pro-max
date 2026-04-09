@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "cores": [
+  "engines": [
     {
       "slug": "autonomy",
-      "title": "Autonomy Core",
-      "score": 100,
-      "status": "closed"
-    },
-    {
-      "slug": "continuation",
-      "title": "Continuation Core",
+      "title": "Autonomy Engine",
       "score": 100,
       "status": "closed"
     },
     {
       "slug": "growth",
-      "title": "Growth Core",
+      "title": "Growth Engine",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "research",
-      "title": "Research Core",
+      "slug": "memory",
+      "title": "Memory Engine",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "command",
+      "title": "Command Engine",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "infiniteLoops": 18,
-    "linkedLayers": 24,
-    "governedStores": 30,
+    "activeEngines": 4,
+    "governedLayers": 24,
+    "protectedStores": 28,
     "infinityConfidence": 100
   },
-  "time": "2026-04-09T02:13:36.282Z"
+  "time": "2026-04-09T02:15:43.233Z"
 }

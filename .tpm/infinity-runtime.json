@@ -1,35 +1,35 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
+  "overallProgress": 93,
+  "completed": 93,
+  "remaining": 7,
   "domains": {
     "infinity": 100,
-    "evolution": 100,
-    "research": 100,
+    "lab": 83,
+    "registry": 83,
     "proof": 100,
     "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "infinite-autonomy",
-      "title": "infinite autonomy",
+      "slug": "infinity-depth",
+      "title": "infinity depth",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "evolution-density",
-      "title": "evolution density",
-      "progress": 100,
+      "slug": "evolution-depth",
+      "title": "evolution depth",
+      "progress": 83,
       "status": "active"
     },
     {
-      "slug": "research-expansion",
-      "title": "research expansion",
-      "progress": 100,
+      "slug": "registry-depth",
+      "title": "registry depth",
+      "progress": 83,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T02:13:36.283Z"
+  "time": "2026-04-09T02:15:42.018Z"
 }
