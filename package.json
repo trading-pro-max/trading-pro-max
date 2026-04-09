@@ -149,7 +149,9 @@
     "tpm:live:once": "node ./lib/tpm-live-integrations.mjs",
     "tpm:live": "node ./scripts/tpm-live-loop.mjs",
     "tpm:realtrade:once": "node ./lib/tpm-realtrade-core.mjs",
-    "tpm:realtrade": "node ./scripts/tpm-realtrade-loop.mjs"
+    "tpm:realtrade": "node ./scripts/tpm-realtrade-loop.mjs",
+    "tpm:helix:once": "node ./lib/tpm-helix-core.mjs",
+    "tpm:helix": "node ./scripts/tpm-helix-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

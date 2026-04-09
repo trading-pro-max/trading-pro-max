@@ -86,7 +86,10 @@
     "/ops-cabinet",
     "/vector-core",
     "/consensus-matrix",
-    "/recovery-theater"
+    "/recovery-theater",
+    "/helix-core",
+    "/signal-parliament",
+    "/resilience-deck"
   ],
   "commands": [
     "npm run tpm:prism:once",
@@ -143,7 +146,9 @@
     "npm run tpm:constellation:once",
     "npm run tpm:constellation",
     "npm run tpm:vector:once",
-    "npm run tpm:vector"
+    "npm run tpm:vector",
+    "npm run tpm:helix:once",
+    "npm run tpm:helix"
   ],
   "nextWave": [
     {
@@ -257,9 +262,30 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "helix-core",
+      "title": "helix core",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "signal-parliament",
+      "title": "signal parliament",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "resilience-deck",
+      "title": "resilience deck",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
-  "time": "2026-04-09T06:21:00.556Z",
+  "time": "2026-04-09T06:22:03.185Z",
   "infiniteContinuation": "ACTIVE",
   "prismLayer": {
     "active": true,
@@ -458,5 +484,11 @@
     "progress": 97,
     "status": "ACTIVE",
     "time": "2026-04-09T06:21:00.058Z"
+  },
+  "helixLayer": {
+    "active": true,
+    "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-09T06:22:03.912Z"
   }
-}

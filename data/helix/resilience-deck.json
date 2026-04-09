@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "decks": [
+    {
+      "slug": "runtime-deck",
+      "title": "Runtime Deck",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-deck",
+      "title": "Recovery Deck",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-deck",
+      "title": "Audit Deck",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity-deck",
+      "title": "Continuity Deck",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "protectedDecks": 16,
+    "testedRecoveries": 18,
+    "replayStrength": 100,
+    "resilienceConfidence": 100
+  },
+  "time": "2026-04-09T06:22:03.904Z"
+}
