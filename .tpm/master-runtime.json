@@ -104,7 +104,8 @@
     "/live-bridge",
     "/system-readiness",
     "/signal-constitution",
-    "/recovery-chronicle"
+    "/recovery-chronicle",
+    "/active-center"
   ],
   "commands": [
     "npm run tpm:navigator:once",
@@ -171,7 +172,9 @@
     "npm run tpm:infinity:once",
     "npm run tpm:infinity",
     "npm run tpm:livebridge:once",
-    "npm run tpm:livebridge"
+    "npm run tpm:livebridge",
+    "npm run tpm:active:once",
+    "npm run tpm:active"
   ],
   "nextWave": [
     {
@@ -192,6 +195,48 @@
       "slug": "ibkr-bridge",
       "title": "ibkr bridge",
       "progress": 67,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "federation-core",
+      "title": "federation core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "signal-constitution",
+      "title": "signal constitution",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "recovery-chronicle",
+      "title": "recovery chronicle",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "active-center",
+      "title": "active center",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "infinite-continuation",
+      "title": "infinite continuation",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "mega-integration",
+      "title": "mega integration",
+      "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     }
@@ -269,9 +314,9 @@
     "layer": "FEDERATION_CORE_SIGNAL_CONSTITUTION_RECOVERY_CHRONICLE",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T02:08:42.112Z"
+    "time": "2026-04-09T02:10:12.132Z"
   },
-  "time": "2026-04-09T02:09:39.116Z",
+  "time": "2026-04-09T02:10:13.972Z",
   "helixLayer": {
     "active": true,
     "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
@@ -417,5 +462,21 @@
     "progress": 67,
     "status": "early",
     "time": "2026-04-09T02:09:58.494Z"
+  },
+  "mode": "TPM_MASTER_ACTIVE_OMEGA",
+  "activeMegaLayer": {
+    "active": true,
+    "layer": "ACTIVE_MEGA_INTEGRATION",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-09T02:10:12.566Z"
+  },
+  "runtimeDepth": {
+    "modules": 385,
+    "pages": 337,
+    "apiRoutes": 141,
+    "loops": 55,
+    "stores": 630,
+    "status": "CLOSED_100"
   }
 }

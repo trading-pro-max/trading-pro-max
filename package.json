@@ -143,7 +143,9 @@
     "tpm:mega12:once": "node ./lib/tpm-mega12-core.mjs",
     "tpm:mega12": "node ./scripts/tpm-mega12-loop.mjs",
     "tpm:livebridge:once": "node ./lib/tpm-live-bridge-core.mjs",
-    "tpm:livebridge": "node ./scripts/tpm-live-bridge-loop.mjs"
+    "tpm:livebridge": "node ./scripts/tpm-live-bridge-loop.mjs",
+    "tpm:active:once": "node ./lib/tpm-active-core.mjs",
+    "tpm:active": "node ./scripts/tpm-active-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",
