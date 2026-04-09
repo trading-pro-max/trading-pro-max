@@ -1953,6 +1953,12 @@
       "title": "Autonomy Cabinet",
       "type": "dashboard",
       "managed": false
+    },
+    {
+      "slug": "expansion-radar",
+      "title": "Expansion Radar",
+      "type": "dashboard",
+      "managed": false
     }
   ],
   "goals": [
@@ -1961,5 +1967,5 @@
     "Keep master runtime in autonomous builder mode",
     "Run continuously without manual intervention"
   ],
-  "time": "2026-04-09T01:03:47.740Z"
+  "time": "2026-04-09T01:05:47.942Z"
 }
