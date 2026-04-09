@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "nodes": [
+    {
+      "slug": "product",
+      "title": "Product Value",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ai",
+      "title": "AI Value",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ops",
+      "title": "Ops Value",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust",
+      "title": "Trust Value",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "valueCoverage": 100,
+    "continuity": 100,
+    "autonomy": 100,
+    "expansion": 100
+  },
+  "time": "2026-04-09T03:24:21.811Z"
+}

@@ -1,35 +1,33 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 90,
-  "completed": 90,
-  "remaining": 10,
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
   "domains": {
-    "studio": 100,
-    "composer": 100,
-    "connectors": 50,
-    "proof": 100,
-    "continuity": 100
+    "engine": 100,
+    "vault": 100,
+    "graph": 100
   },
   "nextWave": [
     {
-      "slug": "studio-depth",
-      "title": "studio depth",
+      "slug": "infinity-engine",
+      "title": "infinity engine",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "composer-depth",
-      "title": "composer depth",
+      "slug": "autonomy-vault",
+      "title": "autonomy vault",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "connector-coverage",
-      "title": "connector coverage",
-      "progress": 50,
+      "slug": "value-graph",
+      "title": "value graph",
+      "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T03:22:05.875Z"
+  "time": "2026-04-09T03:24:21.808Z"
 }
