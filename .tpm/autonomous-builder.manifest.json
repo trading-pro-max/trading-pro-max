@@ -1989,6 +1989,18 @@
       "title": "Proof Reactor",
       "type": "dashboard",
       "managed": false
+    },
+    {
+      "slug": "evolution-loop",
+      "title": "Evolution Loop",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "research-grid",
+      "title": "Research Grid",
+      "type": "dashboard",
+      "managed": false
     }
   ],
   "goals": [
@@ -1997,5 +2009,5 @@
     "Keep master runtime in autonomous builder mode",
     "Run continuously without manual intervention"
   ],
-  "time": "2026-04-09T01:45:52.027Z"
+  "time": "2026-04-09T01:46:52.242Z"
 }
