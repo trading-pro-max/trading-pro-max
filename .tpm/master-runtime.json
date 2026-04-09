@@ -75,7 +75,18 @@
     "/launch-console",
     "/constellation-core",
     "/strategy-chamber",
-    "/assurance-vault"
+    "/assurance-vault",
+    "/live-bridge",
+    "/system-readiness",
+    "/infinity-core",
+    "/runtime-genome",
+    "/upgrade-gate",
+    "/bridge-matrix",
+    "/connector-audit",
+    "/external-readiness",
+    "/continuum-hub",
+    "/stability-forge",
+    "/evidence-router"
   ],
   "commands": [
     "npm run tpm:vector:once",
@@ -122,9 +133,101 @@
     "npm run tpm:pulse:once",
     "npm run tpm:pulse",
     "npm run tpm:constellation:once",
-    "npm run tpm:constellation"
+    "npm run tpm:constellation",
+    "npm run tpm:livebridge:once",
+    "npm run tpm:livebridge",
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity",
+    "npm run tpm:bridge:once",
+    "npm run tpm:bridge",
+    "npm run tpm:continuum:once",
+    "npm run tpm:continuum"
   ],
   "nextWave": [
+    {
+      "slug": "openai-bridge",
+      "title": "openai bridge",
+      "progress": 67,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "telegram-bridge",
+      "title": "telegram bridge",
+      "progress": 67,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "ibkr-bridge",
+      "title": "ibkr bridge",
+      "progress": 67,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "infinity-core",
+      "title": "infinity core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "runtime-genome",
+      "title": "runtime genome",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "upgrade-gate",
+      "title": "upgrade gate",
+      "progress": 100,
+      "stage": "WAITING_PLAN",
+      "status": "blocked"
+    },
+    {
+      "slug": "bridge-matrix",
+      "title": "bridge matrix",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "connector-audit",
+      "title": "connector audit",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "external-readiness",
+      "title": "external readiness",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "continuum-hub",
+      "title": "continuum hub",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "stability-forge",
+      "title": "stability forge",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "evidence-router",
+      "title": "evidence router",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
     {
       "slug": "vector-core",
       "title": "vector core",
@@ -191,6 +294,27 @@
     {
       "slug": "mega-integration",
       "title": "mega integration",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "constellation-core",
+      "title": "constellation core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "strategy-chamber",
+      "title": "strategy chamber",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "assurance-vault",
+      "title": "assurance vault",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
@@ -530,27 +654,6 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
-    },
-    {
-      "slug": "constellation-core",
-      "title": "constellation core",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "strategy-chamber",
-      "title": "strategy chamber",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "assurance-vault",
-      "title": "assurance vault",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
     }
   ],
   "vectorLayer": {
@@ -558,7 +661,7 @@
     "layer": "VECTOR_CORE_CONSENSUS_MATRIX_RECOVERY_THEATER",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T16:39:08.625Z"
+    "time": "2026-04-09T16:40:38.662Z"
   },
   "realIntegrationLayer": {
     "active": true,
@@ -571,16 +674,16 @@
       "ibkr": "unreachable",
       "smtp": "not_configured"
     },
-    "time": "2026-04-09T16:39:10.258Z"
+    "time": "2026-04-09T16:40:40.288Z"
   },
   "federationLayer": {
     "active": true,
     "layer": "FEDERATION_CORE_STRATEGY_EXCHANGE_ASSURANCE_WALL",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T16:39:16.264Z"
+    "time": "2026-04-09T16:40:46.287Z"
   },
-  "time": "2026-04-09T16:39:21.334Z",
+  "time": "2026-04-09T16:41:06.100Z",
   "mode": "TPM_MASTER_ACTIVE_OMEGA",
   "infiniteContinuation": "ACTIVE",
   "activeMegaLayer": {
@@ -588,7 +691,7 @@
     "layer": "ACTIVE_MEGA_INTEGRATION",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T16:39:22.106Z"
+    "time": "2026-04-09T16:40:52.282Z"
   },
   "runtimeDepth": {
     "modules": 388,
@@ -603,118 +706,139 @@
     "layer": "AGENT_MESH_EXPANSION",
     "progress": 96,
     "status": "ACTIVE",
-    "time": "2026-04-09T16:39:24.163Z"
+    "time": "2026-04-09T16:41:09.010Z"
   },
   "postCertificationFabric": {
     "active": true,
     "layer": "FABRIC_CORE",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-09T16:39:24.641Z"
+    "time": "2026-04-09T16:41:09.468Z"
   },
   "executiveLayer": {
     "active": true,
     "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
     "progress": 96,
     "status": "ACTIVE",
-    "time": "2026-04-09T16:39:25.105Z"
+    "time": "2026-04-09T16:41:09.940Z"
   },
   "enterpriseLayer": {
     "active": true,
     "layer": "REVENUE_OS_COMPLIANCE_LEDGER_OPS_REPLAY",
     "progress": 89,
     "status": "ACTIVE",
-    "time": "2026-04-09T16:39:25.549Z"
+    "time": "2026-04-09T16:41:10.420Z"
   },
   "platformLayer": {
     "active": true,
     "layer": "API_GATEWAY_INTEGRATION_HUB_LIFECYCLE_OS",
     "progress": 87,
     "status": "ACTIVE",
-    "time": "2026-04-09T16:39:26.023Z"
+    "time": "2026-04-09T16:41:10.910Z"
   },
   "horizonLayer": {
     "active": true,
     "layer": "HORIZON_HUB_WORKSPACE_ROUTER_EVIDENCE_VAULT",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-09T16:39:26.484Z"
+    "time": "2026-04-09T16:41:11.371Z"
   },
   "globalExpansion": {
     "active": true,
     "layer": "NEXUS_CORE_MISSION_LEDGER_GROWTH_RADAR",
     "progress": 97,
     "status": "CLOSED_100",
-    "time": "2026-04-09T16:39:26.946Z"
+    "time": "2026-04-09T16:41:11.851Z"
   },
   "sentinelLayer": {
     "active": true,
     "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
     "progress": 93,
     "status": "ACTIVE",
-    "time": "2026-04-09T16:39:27.420Z"
+    "time": "2026-04-09T16:41:12.314Z"
   },
   "omegaLayer": {
     "active": true,
     "layer": "OMEGA_CORE_RECOVERY_MATRIX_TRUST_CENTER",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-09T16:39:27.899Z"
+    "time": "2026-04-09T16:41:12.816Z"
   },
   "observabilityLayer": {
     "active": true,
     "layer": "OBSERVABILITY_CORE_INCIDENT_CENTER_PLAYBOOK_OS",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-09T16:39:28.346Z"
+    "time": "2026-04-09T16:41:13.312Z"
   },
   "navigatorLayer": {
     "active": true,
     "layer": "NAVIGATOR_CORE_PORTFOLIO_SIMULATOR_AUDIT_STREAM",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T16:39:28.799Z"
+    "time": "2026-04-09T16:41:13.840Z"
   },
   "learningLayer": {
     "active": true,
     "layer": "LEARNING_LOOP_ROUTE_ARBITRATOR_POLICY_STUDIO",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T16:39:29.279Z"
+    "time": "2026-04-09T16:41:14.343Z"
   },
   "councilLayer": {
     "active": true,
     "layer": "COUNCIL_CORE_KNOWLEDGE_LEDGER_SWITCHBOARD",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T16:39:29.744Z"
+    "time": "2026-04-09T16:41:14.834Z"
   },
   "atlasLayer": {
     "active": true,
     "layer": "ATLAS_MESH_DECISION_ARCHIVE_RUNTIME_THEATER",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T16:39:30.275Z"
+    "time": "2026-04-09T16:41:15.337Z"
   },
   "sovereignLayer": {
     "active": true,
     "layer": "SOVEREIGN_GRID_CONTINUITY_VAULT_COMMAND_NEXUS",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T16:39:30.741Z"
+    "time": "2026-04-09T16:41:15.843Z"
   },
   "pulseLayer": {
     "active": true,
     "layer": "PULSE_GRID_CHRONICLE_CENTER_LAUNCH_CONSOLE",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T16:39:31.215Z"
+    "time": "2026-04-09T16:41:16.329Z"
   },
   "constellationLayer": {
     "active": true,
     "layer": "CONSTELLATION_CORE_STRATEGY_CHAMBER_ASSURANCE_VAULT",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T16:39:31.575Z"
+    "time": "2026-04-09T16:41:01.610Z"
+  },
+  "direction": {
+    "active": true,
+    "name": "LIVE_CONNECTORS_PATH",
+    "progress": 67,
+    "status": "early",
+    "time": "2026-04-09T16:40:38.390Z"
+  },
+  "bridgeLayer": {
+    "active": true,
+    "layer": "BRIDGE_MATRIX_CONNECTOR_AUDIT_EXTERNAL_READINESS",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-09T16:40:38.596Z"
+  },
+  "continuumLayer": {
+    "active": true,
+    "layer": "CONTINUUM_HUB_STABILITY_FORGE_EVIDENCE_ROUTER",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-09T16:40:38.630Z"
   }
 }
