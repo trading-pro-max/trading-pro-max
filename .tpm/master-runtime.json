@@ -114,7 +114,9 @@
     "/memory-harbor",
     "/flow-registry",
     "/governance-memory",
-    "/launch-authority"
+    "/launch-authority",
+    "/assurance-graph",
+    "/ops-memory"
   ],
   "commands": [
     "npm run tpm:navigator:once",
@@ -227,6 +229,48 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "active-center",
+      "title": "active center",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "infinite-continuation",
+      "title": "infinite continuation",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "mega-integration",
+      "title": "mega integration",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "constellation-core",
+      "title": "constellation core",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "assurance-graph",
+      "title": "assurance graph",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "ops-memory",
+      "title": "ops memory",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "navigatorLayer": {
@@ -256,10 +300,10 @@
   },
   "constellationLayer": {
     "active": true,
-    "layer": "CONSTELLATION_CORE_MEMORY_THEATER_EXPANSION_RADAR",
+    "layer": "CONSTELLATION_CORE_ASSURANCE_GRAPH_OPS_MEMORY",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T01:48:17.003Z"
+    "time": "2026-04-09T02:33:05.423Z"
   },
   "infinity": {
     "active": true,
@@ -304,7 +348,7 @@
     "status": "ACTIVE",
     "time": "2026-04-09T02:32:42.972Z"
   },
-  "time": "2026-04-09T02:32:09.614Z",
+  "time": "2026-04-09T02:33:03.847Z",
   "helixLayer": {
     "active": true,
     "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
@@ -435,15 +479,7 @@
     "status": "ACTIVE",
     "time": "2026-04-09T02:31:18.006Z"
   },
-  "infinityMode": {
-    "active": true,
-    "localState": "CLOSED_100",
-    "infiniteContinuation": "ACTIVE",
-    "layer": "INFINITY_CORE_EVOLUTION_LOOP_AUTONOMOUS_RESEARCH_GRID",
-    "progress": 100,
-    "status": "ACTIVE",
-    "time": "2026-04-09T02:15:06.323Z"
-  },
+  "infinityMode": "ACTIVE",
   "direction": {
     "active": true,
     "name": "LIVE_CONNECTORS_PATH",
@@ -457,7 +493,7 @@
     "layer": "ACTIVE_MEGA_INTEGRATION",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T02:31:21.565Z"
+    "time": "2026-04-09T02:32:52.559Z"
   },
   "runtimeDepth": {
     "modules": 385,
@@ -474,4 +510,3 @@
     "status": "ACTIVE",
     "time": "2026-04-09T02:31:56.571Z"
   }
-}

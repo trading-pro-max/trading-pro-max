@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "clusters": [
+  "stars": [
     {
-      "slug": "runtime-cluster",
-      "title": "Runtime Cluster",
+      "slug": "runtime-star",
+      "title": "Runtime Star",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "strategy-cluster",
-      "title": "Strategy Cluster",
+      "slug": "policy-star",
+      "title": "Policy Star",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "command-cluster",
-      "title": "Command Cluster",
+      "slug": "trust-star",
+      "title": "Trust Star",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "trust-cluster",
-      "title": "Trust Cluster",
+      "slug": "growth-star",
+      "title": "Growth Star",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeClusters": 12,
-    "linkedRuntimes": 24,
-    "governedVectors": 20,
+    "activeStars": 16,
+    "linkedSystems": 30,
+    "governedOrbits": 24,
     "constellationConfidence": 100
   },
-  "time": "2026-04-09T02:31:56.529Z"
+  "time": "2026-04-09T02:33:05.395Z"
 }

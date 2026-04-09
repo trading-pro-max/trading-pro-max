@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "banks": [
+    {
+      "slug": "runtime-memory",
+      "title": "Runtime Memory",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "decision-memory",
+      "title": "Decision Memory",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-memory",
+      "title": "Policy Memory",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-memory",
+      "title": "Recovery Memory",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedMemories": 32,
+    "replayableDecisions": 24,
+    "protectedArchives": 22,
+    "opsMemoryConfidence": 100
+  },
+  "time": "2026-04-09T02:33:05.396Z"
+}
