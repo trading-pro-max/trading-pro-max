@@ -1,9 +1,35 @@
-﻿{
-  "mode": "INFINITY_LOCAL",
-  "active": true,
-  "autonomy": "ON",
-  "build": "CLOSED_100",
-  "localCertified": true,
-  "externalDeploy": "BLOCKED_BY_GODADDY_PLAN",
-  "time": "auto"
+{
+  "ok": true,
+  "mode": "TPM_INFINITY_ACTIVE",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "domains": {
+    "infinity": 100,
+    "evolution": 100,
+    "research": 100,
+    "proof": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "infinite-autonomy",
+      "title": "infinite autonomy",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "evolution-density",
+      "title": "evolution density",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "research-expansion",
+      "title": "research expansion",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-09T01:51:05.851Z"
 }
