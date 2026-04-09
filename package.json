@@ -134,7 +134,9 @@
     "tpm:hyper:once": "node ./lib/tpm-hyper-core.mjs",
     "tpm:hyper": "node ./scripts/tpm-hyper-loop.mjs",
     "tpm:supremacy:once": "node ./lib/tpm-supremacy-core.mjs",
-    "tpm:supremacy": "node ./scripts/tpm-supremacy-loop.mjs"
+    "tpm:supremacy": "node ./scripts/tpm-supremacy-loop.mjs",
+    "tpm:hyperjump:once": "node ./lib/tpm-hyperjump-core.mjs",
+    "tpm:hyperjump": "node ./scripts/tpm-hyperjump-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",
