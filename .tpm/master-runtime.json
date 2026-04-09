@@ -195,7 +195,9 @@
     "npm run tpm:supremacy:once",
     "npm run tpm:supremacy",
     "npm run tpm:infinity:once",
-    "npm run tpm:infinity"
+    "npm run tpm:infinity",
+    "npm run tpm:hyper:once",
+    "npm run tpm:hyper"
   ],
   "pages": [
     "/master-control",
@@ -1352,6 +1354,27 @@
       "progress": 98,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "autonomy-command",
+      "title": "autonomy command",
+      "progress": 99,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-replay",
+      "title": "operator replay",
+      "progress": 99,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "revenue-intelligence",
+      "title": "revenue intelligence",
+      "progress": 99,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-09T01:10:01.795Z",
@@ -1508,7 +1531,13 @@
     "status": "ACTIVE",
     "time": "2026-04-09T01:09:14.159Z"
   },
-  "infinityContinuation": "ACTIVE",
+  "infinityContinuation": {
+    "active": true,
+    "mode": "HYPERJUMP_ENGINE",
+    "layers": 0,
+    "status": "ACTIVE",
+    "time": "2026-04-09T01:10:24.899Z"
+  },
   "prismLayer": {
     "active": true,
     "layer": "PRISM_CORE_MEMORY_MAP_EXECUTION_FORUM",
@@ -1605,5 +1634,12 @@
     "trackedLayers": 24,
     "status": "INFINITE_ACTIVE",
     "time": "2026-04-09T01:10:15.566Z"
+  },
+  "hyperLayer": {
+    "active": true,
+    "layer": "HYPER_CORE_QUANTUM_STACK_AUTONOMY_COMMAND_OPERATOR_REPLAY_REVENUE_INTELLIGENCE_DEPLOYMENT_READINESS",
+    "progress": 99,
+    "status": "ACTIVE",
+    "time": "2026-04-09T01:10:24.683Z"
   }
 }
