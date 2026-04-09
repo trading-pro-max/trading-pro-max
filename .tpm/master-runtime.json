@@ -10,12 +10,12 @@
     "/horizon-hub",
     "/workspace-router",
     "/evidence-vault",
-    "/pulse-grid",
-    "/chronicle-center",
-    "/launch-console",
-    "/atlas-mesh",
-    "/decision-archive",
-    "/runtime-theater",
+    "/navigator-core",
+    "/portfolio-simulator",
+    "/audit-stream",
+    "/learning-loop",
+    "/route-arbitrator",
+    "/policy-studio",
     "/observability-core",
     "/incident-center",
     "/playbook-os",
@@ -25,39 +25,31 @@
     "/connector-inspector",
     "/env-doctor",
     "/runtime-health",
-    "/prism-core",
-    "/memory-map",
-    "/execution-forum",
-    "/quantum-stack",
-    "/operator-brain",
-    "/revenue-flight-deck",
-    "/deployment-readiness",
-    "/titan-mesh",
-    "/strategy-genome",
-    "/monetization-brain",
-    "/client-orbit",
-    "/infinity-chamber"
+    "/meta-grid",
+    "/replay-library",
+    "/gatekeeper-panel",
+    "/helix-core",
+    "/signal-parliament",
+    "/resilience-deck"
   ],
   "commands": [
     "npm run tpm:horizon:once",
     "npm run tpm:horizon",
-    "npm run tpm:pulse:once",
-    "npm run tpm:pulse",
+    "npm run tpm:navigator:once",
+    "npm run tpm:navigator",
     "npm run tpm:master:once",
-    "npm run tpm:atlas:once",
-    "npm run tpm:atlas",
+    "npm run tpm:learning:once",
+    "npm run tpm:learning",
     "npm run tpm:observability:once",
     "npm run tpm:observability",
     "npm run tpm:enterprise:once",
     "npm run tpm:enterprise",
     "npm run tpm:runtimeops:once",
     "npm run tpm:runtimeops",
-    "npm run tpm:prism:once",
-    "npm run tpm:prism",
-    "npm run tpm:quantum:once",
-    "npm run tpm:quantum",
-    "npm run tpm:titan:once",
-    "npm run tpm:titan"
+    "npm run tpm:meta:once",
+    "npm run tpm:meta",
+    "npm run tpm:helix:once",
+    "npm run tpm:helix"
   ],
   "nextWave": [
     {
@@ -82,43 +74,43 @@
       "status": "strong"
     },
     {
-      "slug": "pulse-grid",
-      "title": "pulse grid",
+      "slug": "navigator-core",
+      "title": "navigator core",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "chronicle-center",
-      "title": "chronicle center",
+      "slug": "portfolio-simulator",
+      "title": "portfolio simulator",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "launch-console",
-      "title": "launch console",
+      "slug": "audit-stream",
+      "title": "audit stream",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "atlas-mesh",
-      "title": "atlas mesh",
+      "slug": "learning-loop",
+      "title": "learning loop",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "decision-archive",
-      "title": "decision archive",
+      "slug": "route-arbitrator",
+      "title": "route arbitrator",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "runtime-theater",
-      "title": "runtime theater",
+      "slug": "policy-studio",
+      "title": "policy studio",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
@@ -187,86 +179,44 @@
       "status": "strong"
     },
     {
-      "slug": "prism-core",
-      "title": "prism core",
+      "slug": "meta-grid",
+      "title": "meta grid",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "memory-map",
-      "title": "memory map",
+      "slug": "replay-library",
+      "title": "replay library",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "execution-forum",
-      "title": "execution forum",
+      "slug": "gatekeeper-panel",
+      "title": "gatekeeper panel",
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "quantum-stack",
-      "title": "quantum stack",
-      "progress": 97,
+      "slug": "helix-core",
+      "title": "helix core",
+      "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "operator-brain",
-      "title": "operator brain",
-      "progress": 97,
+      "slug": "signal-parliament",
+      "title": "signal parliament",
+      "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "revenue-flight-deck",
-      "title": "revenue flight deck",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "deployment-readiness",
-      "title": "deployment readiness",
-      "progress": 97,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "titan-mesh",
-      "title": "titan mesh",
-      "progress": 91,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "strategy-genome",
-      "title": "strategy genome",
-      "progress": 91,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "monetization-brain",
-      "title": "monetization brain",
-      "progress": 91,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "client-orbit",
-      "title": "client orbit",
-      "progress": 91,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "infinity-chamber",
-      "title": "infinity chamber",
-      "progress": 91,
+      "slug": "resilience-deck",
+      "title": "resilience deck",
+      "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
     }
@@ -276,67 +226,59 @@
     "layer": "HORIZON_HUB_WORKSPACE_ROUTER_EVIDENCE_VAULT",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-09T00:43:42.623Z"
+    "time": "2026-04-09T00:45:12.733Z"
   },
-  "externalDeployBlocked": true,
-  "blockers": [
-    "External GoDaddy deploy remains blocked by current hosting plan."
-  ],
-  "pulseLayer": {
+  "navigatorLayer": {
     "active": true,
-    "layer": "PULSE_GRID_CHRONICLE_CENTER_LAUNCH_CONSOLE",
+    "layer": "NAVIGATOR_CORE_PORTFOLIO_SIMULATOR_AUDIT_STREAM",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T00:43:42.873Z"
+    "time": "2026-04-09T00:45:12.957Z"
   },
-  "atlasLayer": {
+  "learningLayer": {
     "active": true,
-    "layer": "ATLAS_MESH_DECISION_ARCHIVE_RUNTIME_THEATER",
+    "layer": "LEARNING_LOOP_ROUTE_ARBITRATOR_POLICY_STUDIO",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T00:43:42.885Z"
+    "time": "2026-04-09T00:45:12.983Z"
   },
   "observabilityLayer": {
     "active": true,
     "layer": "OBSERVABILITY_CORE_INCIDENT_CENTER_PLAYBOOK_OS",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-09T00:43:42.982Z"
+    "time": "2026-04-09T00:45:13.080Z"
   },
   "enterpriseLayer": {
     "active": true,
     "layer": "REVENUE_OS_COMPLIANCE_LEDGER_OPS_REPLAY",
     "progress": 89,
     "status": "ACTIVE",
-    "time": "2026-04-09T00:43:43.157Z"
+    "time": "2026-04-09T00:45:13.250Z"
   },
+  "externalDeployBlocked": true,
+  "blockers": [
+    "External GoDaddy deploy remains blocked by current hosting plan."
+  ],
   "runtimeOpsLayer": {
     "active": true,
     "layer": "CONNECTOR_INSPECTOR_ENV_DOCTOR_RUNTIME_HEALTH",
     "progress": 80,
     "status": "ACTIVE",
-    "time": "2026-04-09T00:43:43.165Z"
+    "time": "2026-04-09T00:45:13.281Z"
   },
-  "infinityContinuation": {
+  "metaLayer": {
     "active": true,
-    "status": "ACTIVE",
-    "layer": "QUANTUM_STACK_OPERATOR_BRAIN_REVENUE_FLIGHT_DEPLOYMENT_WALL",
-    "progress": 97,
-    "time": "2026-04-09T00:43:50.876Z"
-  },
-  "prismLayer": {
-    "active": true,
-    "layer": "PRISM_CORE_MEMORY_MAP_EXECUTION_FORUM",
+    "layer": "META_GRID_REPLAY_LIBRARY_GATEKEEPER_PANEL",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T00:43:48.984Z"
+    "time": "2026-04-09T00:45:14.207Z"
   },
-  "titanLayer": {
+  "helixLayer": {
     "active": true,
-    "layer": "TITAN_MESH_STRATEGY_GENOME_MONETIZATION_BRAIN_CLIENT_ORBIT_INFINITY_CHAMBER",
-    "progress": 91,
+    "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
+    "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T00:43:54.831Z"
-  },
-  "time": "2026-04-09T00:43:55.574Z"
+    "time": "2026-04-09T00:45:15.889Z"
+  }
 }
