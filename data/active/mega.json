@@ -2,10 +2,10 @@
   "ok": true,
   "counts": {
     "modules": 385,
-    "pages": 350,
+    "pages": 353,
     "apiRoutes": 141,
     "loops": 55,
-    "stores": 649
+    "stores": 652
   },
   "controls": {
     "localCertified": true,
@@ -161,5 +161,5 @@
       "scripts/tpm-fabric-loop.mjs"
     ]
   },
-  "time": "2026-04-09T02:43:33.159Z"
+  "time": "2026-04-09T02:45:03.799Z"
 }
