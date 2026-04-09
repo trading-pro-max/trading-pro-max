@@ -171,7 +171,11 @@
     "npm run tpm:prism:once",
     "npm run tpm:prism",
     "npm run tpm:quantum:once",
-    "npm run tpm:quantum"
+    "npm run tpm:quantum",
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity",
+    "npm run tpm:constellation:once",
+    "npm run tpm:constellation"
   ],
   "pages": [
     "/master-control",
@@ -254,7 +258,13 @@
     "/quantum-stack",
     "/operator-brain",
     "/revenue-flight-deck",
-    "/deployment-readiness"
+    "/deployment-readiness",
+    "/infinity-stack",
+    "/global-command-wall",
+    "/deploy-readiness-locker",
+    "/constellation-hub",
+    "/scenario-exchange",
+    "/assurance-console"
   ],
   "nextWave": [
     {
@@ -781,6 +791,48 @@
       "progress": 97,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "infinity-stack",
+      "title": "infinity stack",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "global-command-wall",
+      "title": "global command wall",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "deploy-readiness-locker",
+      "title": "deploy readiness locker",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "constellation-hub",
+      "title": "constellation hub",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-exchange",
+      "title": "scenario exchange",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "assurance-console",
+      "title": "assurance console",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-09T00:15:10.288Z",
@@ -950,5 +1002,19 @@
     "progress": 100,
     "status": "ACTIVE",
     "time": "2026-04-09T00:15:18.248Z"
+  },
+  "infinityLayer": {
+    "active": true,
+    "layer": "INFINITY_STACK_GLOBAL_COMMAND_WALL_DEPLOY_READINESS_LOCKER",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-09T00:15:37.705Z"
+  },
+  "constellationLayer": {
+    "active": true,
+    "layer": "CONSTELLATION_HUB_SCENARIO_EXCHANGE_ASSURANCE_CONSOLE",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-09T00:15:37.916Z"
   }
 }
