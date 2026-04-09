@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "walls": [
+    {
+      "slug": "ops-wall",
+      "title": "Ops Wall",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-wall",
+      "title": "Market Wall",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "broker-wall",
+      "title": "Broker Wall",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-wall",
+      "title": "Trust Wall",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeWalls": 12,
+    "governedCommands": 28,
+    "routedDecisions": 24,
+    "wallConfidence": 100
+  },
+  "time": "2026-04-09T00:00:37.429Z"
+}

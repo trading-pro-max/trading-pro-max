@@ -1,48 +1,34 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 97,
-  "completed": 97,
-  "remaining": 3,
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
   "domains": {
-    "reactor": 100,
-    "builder": 83,
-    "factory": 100,
-    "ventures": 100,
-    "lab": 100,
+    "infinity": 100,
+    "wall": 100,
+    "locker": 100,
+    "proof": 100,
     "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "reactor-depth",
-      "title": "reactor depth",
+      "slug": "infinity-density",
+      "title": "infinity density",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "builder-depth",
-      "title": "builder depth",
-      "progress": 83,
-      "status": "active"
-    },
-    {
-      "slug": "factory-depth",
-      "title": "factory depth",
+      "slug": "wall-unification",
+      "title": "wall unification",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "venture-depth",
-      "title": "venture depth",
-      "progress": 100,
-      "status": "active"
-    },
-    {
-      "slug": "lab-depth",
-      "title": "lab depth",
+      "slug": "locker-discipline",
+      "title": "locker discipline",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-08T23:58:20.055Z"
-}
+  "time": "2026-04-09T00:00:37.4

@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "cores": [
+  "stacks": [
     {
-      "slug": "local-closed",
-      "title": "Local Closed 100",
+      "slug": "runtime-infinity",
+      "title": "Runtime Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "infinite-expansion",
-      "title": "Infinite Expansion",
+      "slug": "governance-infinity",
+      "title": "Governance Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "runtime-dominance",
-      "title": "Runtime Dominance",
+      "slug": "evidence-infinity",
+      "title": "Evidence Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "global-readiness",
-      "title": "Global Readiness",
+      "slug": "expansion-infinity",
+      "title": "Expansion Infinity",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "localState": 100,
-    "expansionState": 100,
-    "activeInfiniteLoops": 20,
-    "protectedSystems": 28
+    "activeLayers": 24,
+    "connectedStores": 32,
+    "protectedRoutes": 26,
+    "infinityConfidence": 100
   },
-  "time": "2026-04-08T23:49:08.608Z"
+  "time": "2026-04-09T00:00:37.428Z"
 }
