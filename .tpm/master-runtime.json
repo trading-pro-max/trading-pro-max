@@ -161,7 +161,13 @@
     "npm run tpm:enterprise:once",
     "npm run tpm:enterprise",
     "npm run tpm:runtimeops:once",
-    "npm run tpm:runtimeops"
+    "npm run tpm:runtimeops",
+    "npm run tpm:autopilot:once",
+    "npm run tpm:autopilot",
+    "npm run tpm:prism:once",
+    "npm run tpm:prism",
+    "npm run tpm:quantum:once",
+    "npm run tpm:quantum"
   ],
   "pages": [
     "/master-control",
@@ -225,7 +231,15 @@
     "/ops-replay",
     "/connector-inspector",
     "/env-doctor",
-    "/runtime-health"
+    "/runtime-health",
+    "/autopilot-center",
+    "/prism-core",
+    "/memory-map",
+    "/execution-forum",
+    "/quantum-stack",
+    "/operator-brain",
+    "/revenue-flight-deck",
+    "/deployment-readiness"
   ],
   "nextWave": [
     {
@@ -626,6 +640,55 @@
       "progress": 80,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "prism-core",
+      "title": "prism core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-map",
+      "title": "memory map",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "execution-forum",
+      "title": "execution forum",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "quantum-stack",
+      "title": "quantum stack",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-brain",
+      "title": "operator brain",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "revenue-flight-deck",
+      "title": "revenue flight deck",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "deployment-readiness",
+      "title": "deployment readiness",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-09T01:06:11.798Z",
@@ -759,5 +822,82 @@
     "progress": 80,
     "status": "ACTIVE",
     "time": "2026-04-09T01:06:14.023Z"
+  },
+  "autopilot": {
+    "active": true,
+    "mode": "FULL_AUTO_LOCAL",
+    "cycle": 1,
+    "discoveredScripts": [
+      "tpm:agentmesh:once",
+      "tpm:ai:once",
+      "tpm:analytics:once",
+      "tpm:apex:once",
+      "tpm:atlas:once",
+      "tpm:broker:once",
+      "tpm:builder:once",
+      "tpm:command:once",
+      "tpm:constellation:once",
+      "tpm:continuum:once",
+      "tpm:council:once",
+      "tpm:enterprise:once",
+      "tpm:executive:once",
+      "tpm:expansion:once",
+      "tpm:fabric:once",
+      "tpm:federation:once",
+      "tpm:final:once",
+      "tpm:governance:once",
+      "tpm:helix:once",
+      "tpm:horizon:once",
+      "tpm:hyper:once",
+      "tpm:hypergrowth:once",
+      "tpm:hyperjump:once",
+      "tpm:infinity3:once",
+      "tpm:infinity7:once",
+      "tpm:infinity:once",
+      "tpm:intelligence:once",
+      "tpm:jump4:once",
+      "tpm:kernel:once",
+      "tpm:learning:once",
+      "tpm:market:once",
+      "tpm:meta:once",
+      "tpm:navigator:once",
+      "tpm:nexus:once",
+      "tpm:observability:once",
+      "tpm:omega:once",
+      "tpm:orchestrator:once",
+      "tpm:platform:once",
+      "tpm:prism:once",
+      "tpm:pulse:once",
+      "tpm:quantum:once",
+      "tpm:runtimeops:once",
+      "tpm:sentinel:once",
+      "tpm:simulation:once",
+      "tpm:sovereign:once",
+      "tpm:strategy:once",
+      "tpm:supremacy:once",
+      "tpm:titan:once",
+      "tpm:vector:once",
+      "tpm:vertex:once",
+      "tpm:zenith:once",
+      "tpm:master:once"
+    ],
+    "successCount": 0,
+    "failedCount": 52,
+    "lastRunAt": "2026-04-09T01:06:19.751Z",
+    "status": "ACTIVE_WITH_ERRORS"
+  },
+  "infinityContinuation": {
+    "active": true,
+    "status": "ACTIVE",
+    "layer": "QUANTUM_STACK_OPERATOR_BRAIN_REVENUE_FLIGHT_DEPLOYMENT_WALL",
+    "progress": 97,
+    "time": "2026-04-09T01:06:21.444Z"
+  },
+  "prismLayer": {
+    "active": true,
+    "layer": "PRISM_CORE_MEMORY_MAP_EXECUTION_FORUM",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-09T01:06:19.793Z"
   }
 }
