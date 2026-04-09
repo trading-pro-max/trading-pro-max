@@ -1,5 +1,4 @@
 {
-  "ok": true,
   "libraries": [
     {
       "slug": "runtime-lib",
@@ -31,6 +30,5 @@
     "protectedSnapshots": 20,
     "auditedTimelines": 18,
     "replayConfidence": 100
-  },
-  "time": "2026-04-09T06:46:11.543Z"
+  }
 }

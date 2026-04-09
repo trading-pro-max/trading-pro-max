@@ -13,23 +13,23 @@
   },
   "nextWave": [
     {
-      "slug": "meta-density",
-      "title": "meta density",
+      "slug": "meta-grid",
+      "title": "meta grid",
       "progress": 100,
-      "status": "active"
+      "status": "closed"
     },
     {
-      "slug": "replay-depth",
-      "title": "replay depth",
+      "slug": "replay-library",
+      "title": "replay library",
       "progress": 100,
-      "status": "active"
+      "status": "closed"
     },
     {
-      "slug": "gatekeeper-discipline",
-      "title": "gatekeeper discipline",
+      "slug": "gatekeeper-panel",
+      "title": "gatekeeper panel",
       "progress": 100,
-      "status": "active"
+      "status": "closed"
     }
   ],
-  "time": "2026-04-09T06:46:11.543Z"
+  "time": "2026-04-09T06:47:55.175Z"
 }

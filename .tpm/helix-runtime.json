@@ -13,23 +13,23 @@
   },
   "nextWave": [
     {
-      "slug": "helix-density",
-      "title": "helix density",
+      "slug": "helix-core",
+      "title": "helix core",
       "progress": 100,
-      "status": "active"
+      "status": "closed"
     },
     {
-      "slug": "parliament-depth",
-      "title": "parliament depth",
+      "slug": "signal-parliament",
+      "title": "signal parliament",
       "progress": 100,
-      "status": "active"
+      "status": "closed"
     },
     {
-      "slug": "resilience-strength",
-      "title": "resilience strength",
+      "slug": "resilience-deck",
+      "title": "resilience deck",
       "progress": 100,
-      "status": "active"
+      "status": "closed"
     }
   ],
-  "time": "2026-04-09T06:46:12.240Z"
+  "time": "2026-04-09T06:47:55.834Z"
 }

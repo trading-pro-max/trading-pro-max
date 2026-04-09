@@ -1,5 +1,4 @@
 {
-  "ok": true,
   "engines": [
     {
       "slug": "runtime-helix",
@@ -31,6 +30,5 @@
     "governedSpirals": 18,
     "connectedStores": 28,
     "helixConfidence": 100
-  },
-  "time": "2026-04-09T06:46:12.239Z"
+  }
 }

@@ -1,5 +1,4 @@
 {
-  "ok": true,
   "chambers": [
     {
       "slug": "market-chamber",
@@ -31,6 +30,5 @@
     "ratifiedSignals": 20,
     "governedVotes": 18,
     "parliamentConfidence": 100
-  },
-  "time": "2026-04-09T06:46:12.240Z"
+  }
 }

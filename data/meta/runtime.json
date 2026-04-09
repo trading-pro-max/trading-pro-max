@@ -1,5 +1,4 @@
 {
-  "ok": true,
   "grids": [
     {
       "slug": "runtime-meta",
@@ -31,6 +30,5 @@
     "linkedStores": 26,
     "governedNodes": 22,
     "metaConfidence": 100
-  },
-  "time": "2026-04-09T06:46:11.542Z"
+  }
 }

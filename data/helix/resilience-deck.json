@@ -1,5 +1,4 @@
 {
-  "ok": true,
   "decks": [
     {
       "slug": "runtime-deck",
@@ -31,6 +30,5 @@
     "testedRecoveries": 18,
     "replayStrength": 100,
     "resilienceConfidence": 100
-  },
-  "time": "2026-04-09T06:46:12.240Z"
+  }
 }
