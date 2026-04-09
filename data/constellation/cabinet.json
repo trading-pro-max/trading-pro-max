@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "councils": [
+    {
+      "slug": "autonomy-runtime",
+      "title": "Autonomy Runtime",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "autonomy-routing",
+      "title": "Autonomy Routing",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "autonomy-governance",
+      "title": "Autonomy Governance",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "autonomy-continuity",
+      "title": "Autonomy Continuity",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "governedDecisions": 26,
+    "activeCabinetRoutes": 18,
+    "autonomyStrength": 100,
+    "cabinetConfidence": 100
+  },
+  "time": "2026-04-09T01:01:19.274Z"
+}

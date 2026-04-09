@@ -1,13 +1,13 @@
 {
   "ok": true,
   "mode": "TPM_CONSTELLATION_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
   "domains": {
     "constellation": 100,
-    "exchange": 100,
     "assurance": 100,
+    "cabinet": 83,
     "proof": 100,
     "continuity": 100
   },
@@ -19,17 +19,16 @@
       "status": "active"
     },
     {
-      "slug": "exchange-depth",
-      "title": "exchange depth",
+      "slug": "assurance-depth",
+      "title": "assurance depth",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "assurance-discipline",
-      "title": "assurance discipline",
-      "progress": 100,
+      "slug": "cabinet-strength",
+      "title": "cabinet strength",
+      "progress": 83,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T00:59:09.204Z"
-}
+  "time": "2026-04-09T01:01:19.274Z"

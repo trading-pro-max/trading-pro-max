@@ -14,23 +14,23 @@
       "status": "closed"
     },
     {
-      "slug": "audit-cluster",
-      "title": "Audit Cluster",
+      "slug": "command-cluster",
+      "title": "Command Cluster",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "growth-cluster",
-      "title": "Growth Cluster",
+      "slug": "trust-cluster",
+      "title": "Trust Cluster",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
     "activeClusters": 16,
-    "connectedLayers": 24,
-    "governedRoutes": 20,
+    "protectedInterlinks": 24,
+    "governedStreams": 22,
     "constellationConfidence": 100
   },
-  "time": "2026-04-09T00:59:09.204Z"
+  "time": "2026-04-09T01:01:19.273Z"
 }

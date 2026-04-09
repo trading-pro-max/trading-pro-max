@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "pillars": [
+    {
+      "slug": "runtime-assurance",
+      "title": "Runtime Assurance",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-assurance",
+      "title": "Risk Assurance",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-assurance",
+      "title": "Evidence Assurance",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-assurance",
+      "title": "Recovery Assurance",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "validatedLayers": 20,
+    "replayedAssurances": 18,
+    "governedProofs": 20,
+    "assuranceConfidence": 100
+  },
+  "time": "2026-04-09T01:01:19.274Z"
+}
