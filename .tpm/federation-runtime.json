@@ -6,8 +6,8 @@
   "remaining": 0,
   "domains": {
     "federation": 100,
-    "memory": 100,
-    "assurance": 100,
+    "constitution": 100,
+    "chronicle": 100,
     "proof": 100,
     "continuity": 100
   },
@@ -19,17 +19,17 @@
       "status": "active"
     },
     {
-      "slug": "memory-depth",
-      "title": "memory depth",
+      "slug": "constitution-discipline",
+      "title": "constitution discipline",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "assurance-strength",
-      "title": "assurance strength",
+      "slug": "chronicle-depth",
+      "title": "chronicle depth",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T01:48:23.248Z"
+  "time": "2026-04-09T02:02:41.898Z"
 }

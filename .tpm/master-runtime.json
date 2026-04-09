@@ -102,7 +102,9 @@
     "/evolution-loop",
     "/research-grid",
     "/live-bridge",
-    "/system-readiness"
+    "/system-readiness",
+    "/signal-constitution",
+    "/recovery-chronicle"
   ],
   "commands": [
     "npm run tpm:navigator:once",
@@ -192,6 +194,27 @@
       "progress": 67,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "federation-core",
+      "title": "federation core",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "signal-constitution",
+      "title": "signal constitution",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "recovery-chronicle",
+      "title": "recovery chronicle",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "navigatorLayer": {
@@ -199,14 +222,14 @@
     "layer": "NAVIGATOR_CORE_PORTFOLIO_SIMULATOR_AUDIT_STREAM",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T01:59:56.880Z"
+    "time": "2026-04-09T02:01:49.511Z"
   },
   "enterpriseLayer": {
     "active": true,
     "layer": "REVENUE_OS_COMPLIANCE_LEDGER_OPS_REPLAY",
     "progress": 89,
     "status": "ACTIVE",
-    "time": "2026-04-09T01:59:52.884Z"
+    "time": "2026-04-09T02:01:44.565Z"
   },
   "externalDeployBlocked": true,
   "blockers": [
@@ -233,26 +256,20 @@
     "status": "ACTIVE",
     "time": "2026-04-09T01:48:17.003Z"
   },
-  "infinityContinuation": {
-    "active": true,
-    "mode": "HYPERJUMP_ENGINE",
-    "layers": 0,
-    "status": "ACTIVE",
-    "time": "2026-04-09T01:48:29.217Z"
-  },
+  "infinityContinuation": "ACTIVE",
   "councilLayer": {
     "active": true,
     "layer": "COUNCIL_CORE_KNOWLEDGE_LEDGER_SWITCHBOARD",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T01:59:58.053Z"
+    "time": "2026-04-09T02:01:50.853Z"
   },
   "executiveLayer": {
     "active": true,
     "layer": "CONTROL_TOWER_CAPITAL_OS_EXECUTION_INTELLIGENCE",
     "progress": 96,
     "status": "ACTIVE",
-    "time": "2026-04-09T01:59:52.315Z"
+    "time": "2026-04-09T02:01:43.816Z"
   },
   "prismLayer": {
     "active": true,
@@ -266,29 +283,29 @@
     "layer": "FABRIC_CORE",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-09T01:59:51.733Z"
+    "time": "2026-04-09T02:01:43.130Z"
   },
   "federationLayer": {
     "active": true,
-    "layer": "FEDERATION_CORE_ROUTE_MEMORY_ASSURANCE_BOARD",
+    "layer": "FEDERATION_CORE_SIGNAL_CONSTITUTION_RECOVERY_CHRONICLE",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T01:48:23.257Z"
+    "time": "2026-04-09T02:02:41.906Z"
   },
-  "time": "2026-04-09T02:01:32.206Z",
+  "time": "2026-04-09T02:02:41.178Z",
   "helixLayer": {
     "active": true,
     "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T02:00:00.860Z"
+    "time": "2026-04-09T02:01:54.398Z"
   },
   "horizonLayer": {
     "active": true,
     "layer": "HORIZON_HUB_WORKSPACE_ROUTER_EVIDENCE_VAULT",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-09T01:59:54.022Z"
+    "time": "2026-04-09T02:01:46.021Z"
   },
   "hyperLayer": {
     "active": true,
@@ -334,77 +351,77 @@
     "layer": "AGENT_MESH_EXPANSION",
     "progress": 96,
     "status": "ACTIVE",
-    "time": "2026-04-09T01:59:51.197Z"
+    "time": "2026-04-09T02:01:42.435Z"
   },
   "platformLayer": {
     "active": true,
     "layer": "API_GATEWAY_INTEGRATION_HUB_LIFECYCLE_OS",
     "progress": 87,
     "status": "ACTIVE",
-    "time": "2026-04-09T01:59:53.490Z"
+    "time": "2026-04-09T02:01:45.259Z"
   },
   "globalExpansion": {
     "active": true,
     "layer": "NEXUS_CORE_MISSION_LEDGER_GROWTH_RADAR",
     "progress": 97,
     "status": "CLOSED_100",
-    "time": "2026-04-09T01:59:54.569Z"
+    "time": "2026-04-09T02:01:46.706Z"
   },
   "sentinelLayer": {
     "active": true,
     "layer": "SENTINEL_CORE_EXPERIMENT_STUDIO_CUSTOMER_SUCCESS_HUB",
     "progress": 93,
     "status": "ACTIVE",
-    "time": "2026-04-09T01:59:55.117Z"
+    "time": "2026-04-09T02:01:47.364Z"
   },
   "omegaLayer": {
     "active": true,
     "layer": "OMEGA_CORE_RECOVERY_MATRIX_TRUST_CENTER",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-09T01:59:55.699Z"
+    "time": "2026-04-09T02:01:48.047Z"
   },
   "observabilityLayer": {
     "active": true,
     "layer": "OBSERVABILITY_CORE_INCIDENT_CENTER_PLAYBOOK_OS",
     "progress": 97,
     "status": "ACTIVE",
-    "time": "2026-04-09T01:59:56.265Z"
+    "time": "2026-04-09T02:01:48.820Z"
   },
   "learningLayer": {
     "active": true,
     "layer": "LEARNING_LOOP_ROUTE_ARBITRATOR_POLICY_STUDIO",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T01:59:57.458Z"
+    "time": "2026-04-09T02:01:50.202Z"
   },
   "atlasLayer": {
     "active": true,
     "layer": "ATLAS_MESH_DECISION_ARCHIVE_RUNTIME_THEATER",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T01:59:58.631Z"
+    "time": "2026-04-09T02:01:51.587Z"
   },
   "sovereignLayer": {
     "active": true,
     "layer": "SOVEREIGN_GRID_CONTINUITY_VAULT_COMMAND_NEXUS",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T01:59:59.196Z"
+    "time": "2026-04-09T02:01:52.238Z"
   },
   "pulseLayer": {
     "active": true,
     "layer": "PULSE_GRID_CHRONICLE_CENTER_LAUNCH_CONSOLE",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T01:59:59.751Z"
+    "time": "2026-04-09T02:01:52.922Z"
   },
   "metaLayer": {
     "active": true,
     "layer": "META_GRID_REPLAY_LIBRARY_GATEKEEPER_PANEL",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T02:00:00.309Z"
+    "time": "2026-04-09T02:01:53.689Z"
   },
   "infinityMode": {
     "active": true,
@@ -413,13 +430,13 @@
     "layer": "INFINITY_CORE_EVOLUTION_LOOP_AUTONOMOUS_RESEARCH_GRID",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T02:00:05.950Z"
+    "time": "2026-04-09T02:01:36.033Z"
   },
   "direction": {
     "active": true,
     "name": "LIVE_CONNECTORS_PATH",
     "progress": 67,
     "status": "early",
-    "time": "2026-04-09T02:00:58.327Z"
+    "time": "2026-04-09T02:02:28.362Z"
   }
 }

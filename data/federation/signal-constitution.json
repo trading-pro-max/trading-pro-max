@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "articles": [
+    {
+      "slug": "signal-order",
+      "title": "Signal Order",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "route-order",
+      "title": "Route Order",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-order",
+      "title": "Capital Order",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-order",
+      "title": "Trust Order",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "governedSignals": 28,
+    "ratifiedPolicies": 20,
+    "protectedVotes": 18,
+    "constitutionConfidence": 100
+  },
+  "time": "2026-04-09T02:02:41.898Z"
+}
