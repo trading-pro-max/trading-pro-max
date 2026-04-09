@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "lanes": [
+    {
+      "slug": "autonomy-runtime",
+      "title": "Autonomy Runtime",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "autonomy-routing",
+      "title": "Autonomy Routing",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "autonomy-guard",
+      "title": "Autonomy Guard",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "autonomy-ops",
+      "title": "Autonomy Ops",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeLoops": 22,
+    "protectedAutomations": 18,
+    "commandConfidence": 100,
+    "continuityConfidence": 100
+  },
+  "time": "2026-04-09T00:34:23.245Z"
+}

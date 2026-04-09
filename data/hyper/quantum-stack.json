@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "towers": [
+    {
+      "slug": "runtime-fusion",
+      "title": "Runtime Fusion",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "signal-fusion",
+      "title": "Signal Fusion",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-fusion",
+      "title": "Capital Fusion",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-fusion",
+      "title": "Trust Fusion",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "linkedRuntimes": 24,
+    "governedChains": 24,
+    "replayableSystems": 22,
+    "quantumConfidence": 100
+  },
+  "time": "2026-04-09T00:34:23.244Z"
+}

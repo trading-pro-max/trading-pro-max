@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "rails": [
+    {
+      "slug": "local-rail",
+      "title": "Local Rail",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "proof-rail",
+      "title": "Proof Rail",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "switch-rail",
+      "title": "Switch Rail",
+      "progress": 70,
+      "status": "blocked-by-plan"
+    },
+    {
+      "slug": "continuity-rail",
+      "title": "Continuity Rail",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "localReadiness": 100,
+    "expansionReadiness": 100,
+    "externalSwitchReadiness": 70,
+    "blockedReason": "GoDaddy hosting plan only"
+  },
+  "time": "2026-04-09T00:34:23.245Z"
+}

@@ -1,47 +1,32 @@
 {
   "ok": true,
   "mode": "TPM_HYPER_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
+  "overallProgress": 99,
+  "completed": 99,
   "remaining": 0,
   "domains": {
     "hyper": 100,
-    "galaxy": 100,
-    "fortress": 100,
-    "resilience": 100,
-    "warroom": 100
+    "runtimeDepth": 96,
+    "proof": 100
   },
   "nextWave": [
     {
-      "slug": "hyper-density",
-      "title": "hyper density",
+      "slug": "quantum-stack",
+      "title": "quantum stack",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "galaxy-unification",
-      "title": "galaxy unification",
+      "slug": "autonomy-command",
+      "title": "autonomy command",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "fortress-lock",
-      "title": "fortress lock",
-      "progress": 100,
-      "status": "active"
-    },
-    {
-      "slug": "resilience-lock",
-      "title": "resilience lock",
-      "progress": 100,
-      "status": "active"
-    },
-    {
-      "slug": "warroom-clarity",
-      "title": "warroom clarity",
+      "slug": "deployment-readiness",
+      "title": "deployment readiness",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T00:32:49.536Z"
-}
+  "time": "2026-04-09T00:34:23.245
