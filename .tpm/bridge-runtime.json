@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "TPM_BRIDGE_ACTIVE",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "domains": {
+    "bridge": 100,
+    "connectors": 100,
+    "readiness": 100,
+    "proof": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "bridge-density",
+      "title": "bridge density",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "connector-audit",
+      "title": "connector audit",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "external-readiness",
+      "title": "external readiness",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-09T02:47:25.371Z"
+}
