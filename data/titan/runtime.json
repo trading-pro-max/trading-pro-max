@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "towers": [
+  "stacks": [
     {
       "slug": "runtime-titan",
       "title": "Runtime Titan",
@@ -8,29 +8,29 @@
       "status": "closed"
     },
     {
-      "slug": "empire-titan",
-      "title": "Empire Titan",
+      "slug": "market-titan",
+      "title": "Market Titan",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "foundry-titan",
-      "title": "Foundry Titan",
+      "slug": "policy-titan",
+      "title": "Policy Titan",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "memory-titan",
-      "title": "Memory Titan",
+      "slug": "growth-titan",
+      "title": "Growth Titan",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activePlanes": 24,
-    "linkedRuntimes": 30,
-    "governedChains": 26,
+    "titanLayers": 24,
+    "titanRoutes": 22,
+    "titanStores": 30,
     "titanConfidence": 100
   },
-  "time": "2026-04-08T23:40:18.149Z"
+  "time": "2026-04-09T00:05:58.371Z"
 }
