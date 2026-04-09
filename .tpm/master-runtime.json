@@ -30,7 +30,29 @@
     "/gatekeeper-panel",
     "/helix-core",
     "/signal-parliament",
-    "/resilience-deck"
+    "/resilience-deck",
+    "/prism-core",
+    "/memory-map",
+    "/execution-forum",
+    "/quantum-stack",
+    "/operator-brain",
+    "/revenue-flight-deck",
+    "/deployment-readiness",
+    "/hyperjump-center",
+    "/autopilot-center",
+    "/titan-mesh",
+    "/strategy-genome",
+    "/monetization-brain",
+    "/client-orbit",
+    "/infinity-chamber",
+    "/constellation-hub",
+    "/scenario-exchange",
+    "/assurance-console",
+    "/hypergrowth-hq",
+    "/titan-grid",
+    "/universe-router",
+    "/intelligence-exchange",
+    "/revenue-radar"
   ],
   "commands": [
     "npm run tpm:horizon:once",
@@ -49,7 +71,21 @@
     "npm run tpm:meta:once",
     "npm run tpm:meta",
     "npm run tpm:helix:once",
-    "npm run tpm:helix"
+    "npm run tpm:helix",
+    "npm run tpm:prism:once",
+    "npm run tpm:prism",
+    "npm run tpm:quantum:once",
+    "npm run tpm:quantum",
+    "npm run tpm:hyperjump:once",
+    "npm run tpm:hyperjump",
+    "npm run tpm:autopilot:once",
+    "npm run tpm:autopilot",
+    "npm run tpm:titan:once",
+    "npm run tpm:titan",
+    "npm run tpm:constellation:once",
+    "npm run tpm:constellation",
+    "npm run tpm:hypergrowth:once",
+    "npm run tpm:hypergrowth"
   ],
   "nextWave": [
     {
@@ -219,6 +255,146 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "prism-core",
+      "title": "prism core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-map",
+      "title": "memory map",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "execution-forum",
+      "title": "execution forum",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "quantum-stack",
+      "title": "quantum stack",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-brain",
+      "title": "operator brain",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "revenue-flight-deck",
+      "title": "revenue flight deck",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "deployment-readiness",
+      "title": "deployment readiness",
+      "progress": 97,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "titan-mesh",
+      "title": "titan mesh",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "strategy-genome",
+      "title": "strategy genome",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "monetization-brain",
+      "title": "monetization brain",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "client-orbit",
+      "title": "client orbit",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "infinity-chamber",
+      "title": "infinity chamber",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "constellation-hub",
+      "title": "constellation hub",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-exchange",
+      "title": "scenario exchange",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "assurance-console",
+      "title": "assurance console",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "hypergrowth-hq",
+      "title": "hypergrowth hq",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "titan-grid",
+      "title": "titan grid",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "universe-router",
+      "title": "universe router",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "intelligence-exchange",
+      "title": "intelligence exchange",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "revenue-radar",
+      "title": "revenue radar",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "horizonLayer": {
@@ -280,5 +456,105 @@
     "progress": 100,
     "status": "ACTIVE",
     "time": "2026-04-09T00:45:15.889Z"
+  },
+  "infinityContinuation": {
+    "active": true,
+    "mode": "HYPERJUMP_ENGINE",
+    "layers": 0,
+    "status": "ACTIVE",
+    "time": "2026-04-09T00:45:23.893Z"
+  },
+  "prismLayer": {
+    "active": true,
+    "layer": "PRISM_CORE_MEMORY_MAP_EXECUTION_FORUM",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-09T00:45:19.065Z"
+  },
+  "autopilot": {
+    "active": true,
+    "mode": "FULL_AUTO_LOCAL",
+    "cycle": 1,
+    "discoveredScripts": [
+      "tpm:agentmesh:once",
+      "tpm:ai:once",
+      "tpm:analytics:once",
+      "tpm:apex:once",
+      "tpm:atlas:once",
+      "tpm:broker:once",
+      "tpm:command:once",
+      "tpm:constellation:once",
+      "tpm:continuum:once",
+      "tpm:council:once",
+      "tpm:enterprise:once",
+      "tpm:executive:once",
+      "tpm:expansion:once",
+      "tpm:fabric:once",
+      "tpm:federation:once",
+      "tpm:final:once",
+      "tpm:governance:once",
+      "tpm:helix:once",
+      "tpm:horizon:once",
+      "tpm:hyper:once",
+      "tpm:hypergrowth:once",
+      "tpm:hyperjump:once",
+      "tpm:infinity3:once",
+      "tpm:infinity7:once",
+      "tpm:infinity:once",
+      "tpm:intelligence:once",
+      "tpm:jump4:once",
+      "tpm:kernel:once",
+      "tpm:learning:once",
+      "tpm:market:once",
+      "tpm:meta:once",
+      "tpm:navigator:once",
+      "tpm:nexus:once",
+      "tpm:observability:once",
+      "tpm:omega:once",
+      "tpm:orchestrator:once",
+      "tpm:platform:once",
+      "tpm:prism:once",
+      "tpm:pulse:once",
+      "tpm:quantum:once",
+      "tpm:runtimeops:once",
+      "tpm:sentinel:once",
+      "tpm:simulation:once",
+      "tpm:sovereign:once",
+      "tpm:strategy:once",
+      "tpm:supremacy:once",
+      "tpm:titan:once",
+      "tpm:vector:once",
+      "tpm:vertex:once",
+      "tpm:zenith:once",
+      "tpm:master:once"
+    ],
+    "successCount": 0,
+    "failedCount": 51,
+    "lastRunAt": "2026-04-09T00:45:24.151Z",
+    "status": "ACTIVE_WITH_ERRORS"
+  },
+  "titanLayer": {
+    "active": true,
+    "layer": "TITAN_MESH_STRATEGY_GENOME_MONETIZATION_BRAIN_CLIENT_ORBIT_INFINITY_CHAMBER",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-09T00:45:26.548Z"
+  },
+  "constellationLayer": {
+    "active": true,
+    "layer": "CONSTELLATION_HUB_SCENARIO_EXCHANGE_ASSURANCE_CONSOLE",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-09T00:45:38.900Z"
+  },
+  "infiniteContinuation": "ACTIVE",
+  "localMode": "100%",
+  "autonomy": "MAXIMUM",
+  "hypergrowthLayer": {
+    "active": true,
+    "layer": "HYPERGROWTH_HQ_TITAN_GRID_UNIVERSE_ROUTER_INTELLIGENCE_EXCHANGE_REVENUE_RADAR",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-09T00:45:44.832Z"
   }
 }
