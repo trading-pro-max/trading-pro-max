@@ -231,6 +231,48 @@
       "progress": 67,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "autonomy-studio",
+      "title": "autonomy studio",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "strategy-composer",
+      "title": "strategy composer",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "connector-hub",
+      "title": "connector hub",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "vector-core",
+      "title": "vector core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "consensus-matrix",
+      "title": "consensus matrix",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "recovery-theater",
+      "title": "recovery theater",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "navigatorLayer": {
@@ -249,7 +291,7 @@
   },
   "externalDeployBlocked": true,
   "blockers": [
-    "External deployment deferred until hosting plan upgrade."
+    "External GoDaddy deploy remains blocked by current hosting plan."
   ],
   "runtimeOpsLayer": {
     "active": true,
@@ -468,7 +510,7 @@
     "layer": "AUTONOMY_STUDIO_STRATEGY_COMPOSER_CONNECTOR_HUB",
     "progress": 90,
     "status": "ACTIVE",
-    "time": "2026-04-09T03:08:35.489Z"
+    "time": "2026-04-09T03:10:05.540Z"
   },
   "continuumLayer": {
     "active": true,
@@ -489,7 +531,7 @@
     "layer": "VECTOR_CORE_CONSENSUS_MATRIX_RECOVERY_THEATER",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T03:09:08.033Z"
+    "time": "2026-04-09T03:10:38.107Z"
   },
   "deploymentDeferred": true,
   "deploymentDeferredReason": "Waiting for hosting upgrade and user signal."
