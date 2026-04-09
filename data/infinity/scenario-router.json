@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "lanes": [
+    {
+      "slug": "safe-scenario",
+      "title": "Safe Scenario",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-scenario",
+      "title": "Growth Scenario",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "adaptive-scenario",
+      "title": "Adaptive Scenario",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "command-scenario",
+      "title": "Command Scenario",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "routedScenarios": 16,
+    "governedScenarios": 14,
+    "routeConfidence": 100,
+    "continuityConfidence": 100
+  },
+  "time": "2026-04-09T02:18:58.505Z"
+}

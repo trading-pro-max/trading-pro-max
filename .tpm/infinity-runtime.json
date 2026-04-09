@@ -6,30 +6,30 @@
   "remaining": 0,
   "domains": {
     "infinity": 100,
-    "lab": 100,
-    "registry": 100,
+    "journal": 100,
+    "router": 100,
     "proof": 100,
     "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "infinity-depth",
-      "title": "infinity depth",
+      "slug": "infinity-density",
+      "title": "infinity density",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "evolution-depth",
-      "title": "evolution depth",
+      "slug": "journal-depth",
+      "title": "journal depth",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "registry-depth",
-      "title": "registry depth",
+      "slug": "router-clarity",
+      "title": "router clarity",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T02:17:13.301Z"
+  "time": "2026-04-09T02:18:58.505Z"
 }

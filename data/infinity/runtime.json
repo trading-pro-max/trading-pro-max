@@ -2,35 +2,35 @@
   "ok": true,
   "engines": [
     {
-      "slug": "autonomy",
-      "title": "Autonomy Engine",
+      "slug": "continuation-engine",
+      "title": "Continuation Engine",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "growth",
+      "slug": "growth-engine",
       "title": "Growth Engine",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "memory",
-      "title": "Memory Engine",
+      "slug": "trust-engine",
+      "title": "Trust Engine",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "command",
-      "title": "Command Engine",
+      "slug": "autonomy-engine",
+      "title": "Autonomy Engine",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeEngines": 4,
-    "governedLayers": 24,
-    "protectedStores": 28,
+    "activeContinuations": 18,
+    "governedExpansions": 22,
+    "protectedStores": 30,
     "infinityConfidence": 100
   },
-  "time": "2026-04-09T02:17:13.300Z"
+  "time": "2026-04-09T02:18:58.504Z"
 }
