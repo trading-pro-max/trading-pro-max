@@ -1,26 +1,26 @@
 {
   "ok": true,
-  "meshes": [
+  "engines": [
     {
-      "slug": "runtime-infinity",
-      "title": "Runtime Infinity",
+      "slug": "autonomy",
+      "title": "Autonomy Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "policy-infinity",
-      "title": "Policy Infinity",
-      "score": 100,
-      "status": "closed"
-    },
-    {
-      "slug": "memory-infinity",
+      "slug": "memory",
       "title": "Memory Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "growth-infinity",
+      "slug": "ops",
+      "title": "Ops Infinity",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth",
       "title": "Growth Infinity",
       "score": 100,
       "status": "closed"
@@ -28,9 +28,9 @@
   ],
   "metrics": {
     "infiniteLoops": 18,
-    "governedMeshes": 22,
-    "linkedStores": 30,
+    "governedLayers": 24,
+    "replayableStores": 26,
     "infinityConfidence": 100
   },
-  "time": "2026-04-09T02:40:35.751Z"
+  "time": "2026-04-09T03:30:16.477Z"
 }

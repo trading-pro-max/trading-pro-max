@@ -6,8 +6,8 @@
   "remaining": 0,
   "domains": {
     "infinity": 100,
-    "router": 100,
-    "ai": 100,
+    "genome": 100,
+    "gate": 100,
     "proof": 100,
     "continuity": 100
   },
@@ -19,17 +19,16 @@
       "status": "active"
     },
     {
-      "slug": "router-discipline",
-      "title": "router discipline",
+      "slug": "genome-clarity",
+      "title": "genome clarity",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "continuity-intelligence",
-      "title": "continuity intelligence",
-      "progress": 100,
-      "status": "active"
+      "slug": "external-switch",
+      "title": "external switch",
+      "progress": 70,
+      "status": "blocked-by-plan"
     }
   ],
-  "time": "2026-04-09T03:29:00.288Z"
-}
+  "time": "2026-04-09T03:30:16.48
