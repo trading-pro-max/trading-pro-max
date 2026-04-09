@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "engines": [
+  "meshes": [
     {
-      "slug": "continuation-engine",
-      "title": "Continuation Engine",
+      "slug": "runtime-infinity",
+      "title": "Runtime Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "growth-engine",
-      "title": "Growth Engine",
+      "slug": "policy-infinity",
+      "title": "Policy Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "trust-engine",
-      "title": "Trust Engine",
+      "slug": "memory-infinity",
+      "title": "Memory Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "autonomy-engine",
-      "title": "Autonomy Engine",
+      "slug": "growth-infinity",
+      "title": "Growth Infinity",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeContinuations": 18,
-    "governedExpansions": 22,
-    "protectedStores": 30,
+    "infiniteLoops": 18,
+    "governedMeshes": 22,
+    "linkedStores": 30,
     "infinityConfidence": 100
   },
-  "time": "2026-04-09T02:33:59.062Z"
+  "time": "2026-04-09T02:36:05.168Z"
 }

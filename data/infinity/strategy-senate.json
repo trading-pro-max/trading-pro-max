@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "chambers": [
+    {
+      "slug": "strategy-law",
+      "title": "Strategy Law",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-law",
+      "title": "Capital Law",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "route-law",
+      "title": "Route Law",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-law",
+      "title": "Trust Law",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeLaws": 18,
+    "ratifiedPolicies": 20,
+    "governedVotes": 22,
+    "senateConfidence": 100
+  },
+  "time": "2026-04-09T02:36:05.170Z"
+}

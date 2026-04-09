@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "memories": [
+  "stages": [
     {
       "slug": "runtime-memory",
       "title": "Runtime Memory",
@@ -8,29 +8,29 @@
       "status": "closed"
     },
     {
-      "slug": "risk-memory",
-      "title": "Risk Memory",
+      "slug": "decision-memory",
+      "title": "Decision Memory",
       "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "policy-memory",
-      "title": "Policy Memory",
+      "slug": "evidence-memory",
+      "title": "Evidence Memory",
       "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "growth-memory",
-      "title": "Growth Memory",
+      "slug": "replay-memory",
+      "title": "Replay Memory",
       "progress": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "trackedMemories": 20,
-    "replayablePolicies": 18,
-    "governedArtifacts": 22,
+    "storedMemories": 34,
+    "replayableMemories": 26,
+    "protectedMemories": 24,
     "memoryConfidence": 100
   },
-  "time": "2026-04-09T02:35:13.295Z"
+  "time": "2026-04-09T02:36:05.170Z"
 }

@@ -6,30 +6,30 @@
   "remaining": 0,
   "domains": {
     "infinity": 100,
-    "journal": 100,
-    "router": 100,
+    "memory": 100,
+    "senate": 100,
     "proof": 100,
     "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "infinity-density",
-      "title": "infinity density",
+      "slug": "infinity-depth",
+      "title": "infinity depth",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "journal-depth",
-      "title": "journal depth",
+      "slug": "memory-density",
+      "title": "memory density",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "router-clarity",
-      "title": "router clarity",
+      "slug": "senate-discipline",
+      "title": "senate discipline",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T02:33:59.063Z"
+  "time": "2026-04-09T02:36:05.170Z"
 }
