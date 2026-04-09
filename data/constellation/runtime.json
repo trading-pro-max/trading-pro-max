@@ -8,14 +8,14 @@
       "status": "closed"
     },
     {
-      "slug": "policy-cluster",
-      "title": "Policy Cluster",
+      "slug": "strategy-cluster",
+      "title": "Strategy Cluster",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "capital-cluster",
-      "title": "Capital Cluster",
+      "slug": "command-cluster",
+      "title": "Command Cluster",
       "score": 100,
       "status": "closed"
     },
@@ -27,10 +27,10 @@
     }
   ],
   "metrics": {
-    "activeClusters": 16,
-    "connectedLayers": 24,
-    "governedMaps": 22,
+    "activeClusters": 12,
+    "linkedRuntimes": 24,
+    "governedVectors": 20,
     "constellationConfidence": 100
   },
-  "time": "2026-04-09T01:48:16.992Z"
+  "time": "2026-04-09T02:22:55.954Z"
 }

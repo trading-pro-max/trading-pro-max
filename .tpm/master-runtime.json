@@ -109,7 +109,9 @@
     "/evolution-lab",
     "/system-registry",
     "/operator-journal",
-    "/scenario-router"
+    "/scenario-router",
+    "/strategy-atlas",
+    "/memory-harbor"
   ],
   "commands": [
     "npm run tpm:navigator:once",
@@ -243,6 +245,27 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "constellation-core",
+      "title": "constellation core",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "strategy-atlas",
+      "title": "strategy atlas",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-harbor",
+      "title": "memory harbor",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "navigatorLayer": {
@@ -320,7 +343,7 @@
     "status": "ACTIVE",
     "time": "2026-04-09T02:22:12.478Z"
   },
-  "time": "2026-04-09T02:21:41.714Z",
+  "time": "2026-04-09T02:22:55.594Z",
   "helixLayer": {
     "active": true,
     "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
@@ -485,9 +508,8 @@
   },
   "infinityLayer": {
     "active": true,
-    "layer": "INFINITY_CORE_EVOLUTION_LAB_SYSTEM_REGISTRY",
+    "layer": "CONSTELLATION_CORE_STRATEGY_ATLAS_MEMORY_HARBOR",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T02:18:43.359Z"
+    "time": "2026-04-09T02:22:55.958Z"
   }
-}

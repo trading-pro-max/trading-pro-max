@@ -6,8 +6,8 @@
   "remaining": 0,
   "domains": {
     "constellation": 100,
-    "memory": 100,
-    "radar": 100,
+    "atlas": 100,
+    "harbor": 100,
     "proof": 100,
     "continuity": 100
   },
@@ -19,17 +19,16 @@
       "status": "active"
     },
     {
-      "slug": "memory-depth",
-      "title": "memory depth",
+      "slug": "atlas-clarity",
+      "title": "atlas clarity",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "radar-clarity",
-      "title": "radar clarity",
+      "slug": "harbor-depth",
+      "title": "harbor depth",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T01:48:16.994Z"
-}
+  "time": "2026-04-09T02:22:55.9
