@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "vaults": [
+    {
+      "slug": "research-vault",
+      "title": "Research Vault",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "runtime-vault",
+      "title": "Runtime Vault",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-vault",
+      "title": "Audit Vault",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "proof-vault",
+      "title": "Proof Vault",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedArtifacts": 34,
+    "replayableStates": 24,
+    "knowledgeStrength": 100,
+    "citadelConfidence": 100
+  },
+  "time": "2026-04-09T00:21:24.627Z"
+}

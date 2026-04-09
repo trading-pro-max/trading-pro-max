@@ -1,35 +1,41 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
+  "overallProgress": 98,
+  "completed": 98,
+  "remaining": 2,
   "domains": {
     "infinity": 100,
-    "wall": 100,
-    "locker": 100,
-    "proof": 100,
+    "factory": 86,
+    "grid": 100,
+    "memory": 100,
+    "supreme": 100,
     "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "infinity-density",
-      "title": "infinity density",
+      "slug": "factory-density",
+      "title": "factory density",
+      "progress": 86,
+      "status": "active"
+    },
+    {
+      "slug": "grid-unification",
+      "title": "grid unification",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "wall-unification",
-      "title": "wall unification",
+      "slug": "memory-fortification",
+      "title": "memory fortification",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "locker-discipline",
-      "title": "locker discipline",
+      "slug": "supreme-control",
+      "title": "supreme control",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T00:20:07.784Z"
-}
+  "time": "2026-04-09T00:21:24.62

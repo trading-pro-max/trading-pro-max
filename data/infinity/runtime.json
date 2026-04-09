@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "stacks": [
+  "engines": [
     {
-      "slug": "runtime-infinity",
-      "title": "Runtime Infinity",
+      "slug": "autonomy",
+      "title": "Autonomy Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "governance-infinity",
-      "title": "Governance Infinity",
+      "slug": "command",
+      "title": "Command Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "evidence-infinity",
-      "title": "Evidence Infinity",
+      "slug": "memory",
+      "title": "Memory Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "expansion-infinity",
-      "title": "Expansion Infinity",
+      "slug": "operator",
+      "title": "Operator Infinity",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeLayers": 24,
-    "connectedStores": 32,
-    "protectedRoutes": 26,
-    "infinityConfidence": 100
+    "infiniteMode": "ACTIVE",
+    "governedLayers": 24,
+    "linkedRuntimes": 30,
+    "protectedStores": 26
   },
-  "time": "2026-04-09T00:20:07.784Z"
+  "time": "2026-04-09T00:21:24.626Z"
 }
