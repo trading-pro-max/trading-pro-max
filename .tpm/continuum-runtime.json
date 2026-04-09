@@ -5,43 +5,30 @@
   "completed": 100,
   "remaining": 0,
   "domains": {
-    "infinity": 100,
-    "autonomy": 100,
-    "revenue": 100,
-    "partners": 100,
-    "aiops": 100
+    "continuum": 100,
+    "forge": 100,
+    "router": 100,
+    "proof": 100,
+    "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "infinity-depth",
-      "title": "infinity depth",
+      "slug": "continuum-density",
+      "title": "continuum density",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "autonomy-scale",
-      "title": "autonomy scale",
+      "slug": "forge-strength",
+      "title": "forge strength",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "revenue-clarity",
-      "title": "revenue clarity",
-      "progress": 100,
-      "status": "active"
-    },
-    {
-      "slug": "partner-scale",
-      "title": "partner scale",
-      "progress": 100,
-      "status": "active"
-    },
-    {
-      "slug": "aiops-density",
-      "title": "ai ops density",
+      "slug": "router-discipline",
+      "title": "router discipline",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T01:48:18.084Z"
-}
+  "time": "2026-04-09T02:44:08.

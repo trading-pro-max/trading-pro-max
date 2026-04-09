@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "routes": [
+    {
+      "slug": "proof-route",
+      "title": "Proof Route",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-route",
+      "title": "Audit Route",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "launch-route",
+      "title": "Launch Route",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "memory-route",
+      "title": "Memory Route",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "routedArtifacts": 30,
+    "protectedEvidence": 24,
+    "routeClarity": 100,
+    "routerConfidence": 100
+  },
+  "time": "2026-04-09T02:44:08.274Z"
+}
