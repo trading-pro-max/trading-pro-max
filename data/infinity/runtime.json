@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "engines": [
+  "rings": [
     {
-      "slug": "builder",
-      "title": "Builder Infinity",
+      "slug": "runtime-ring",
+      "title": "Runtime Ring",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "growth",
-      "title": "Growth Infinity",
+      "slug": "autonomy-ring",
+      "title": "Autonomy Ring",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "governance",
-      "title": "Governance Infinity",
+      "slug": "revenue-ring",
+      "title": "Revenue Ring",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "memory",
-      "title": "Memory Infinity",
+      "slug": "deploy-ring",
+      "title": "Deploy Ring",
       "score": 100,
-      "status": "closed"
+      "status": "closed-local"
     }
   ],
   "metrics": {
-    "localBase": 100,
-    "expansionBase": 100,
-    "continuityBase": 100,
-    "infinityConfidence": 100
+    "infiniteMode": "ACTIVE",
+    "localReadiness": 100,
+    "expansionReadiness": 100,
+    "continuityReadiness": 100
   },
-  "time": "2026-04-09T00:44:31.442Z"
+  "time": "2026-04-09T00:46:56.701Z"
 }

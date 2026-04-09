@@ -1,17 +1,15 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
-  "infinityContinuation": "ACTIVE",
-  "externalDeployment": "FROZEN_UNTIL_HOSTING_UPGRADE",
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
   "domains": {
     "infinity": 100,
-    "factory": 100,
-    "freeze": 100,
-    "continuity": 100,
-    "archive": 100
+    "autonomy": 86,
+    "revenue": 100,
+    "deploy": 100,
+    "continuity": 100
   },
   "nextWave": [
     {
@@ -21,17 +19,16 @@
       "status": "active"
     },
     {
-      "slug": "factory-depth",
-      "title": "factory depth",
-      "progress": 100,
+      "slug": "autonomy-command",
+      "title": "autonomy command",
+      "progress": 86,
       "status": "active"
     },
     {
-      "slug": "freeze-discipline",
-      "title": "freeze discipline",
+      "slug": "deployment-buffer",
+      "title": "deployment buffer",
       "progress": 100,
-      "status": "active"
+      "status": "blocked"
     }
   ],
-  "time": "2026-04-09T00:44:31.443Z"
-}
+  "time": "2026-04-09T00:46:56.703Z"

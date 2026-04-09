@@ -12,7 +12,7 @@ const card={background:"#111827",border:"1px solid #1f2937",borderRadius:22,padd
 const box={background:"#020617",borderRadius:14,padding:14};
 
 export default function Page(){
-  const data=readJson(path.join(process.cwd(),"data","quantum","revenue-flight-deck.json"),{decks:[],metrics:{}});
+  const data=readJson(path.join(process.cwd(),"data","infinity","revenue-flight-deck.json"),{decks:[],metrics:{}});
   return (
     <main style={{minHeight:"100vh",background:"linear-gradient(180deg,#020617 0%,#0b1120 100%)",color:"white",padding:24,fontFamily:"Arial,sans-serif"}}>
       <div style={{maxWidth:1500,margin:"0 auto",display:"grid",gap:20}}>
@@ -37,7 +37,7 @@ export default function Page(){
             {Object.entries(data.metrics || {}).map(([k,v])=>(
               <div key={k} style={box}>
                 <div style={{color:"#94a3b8",fontSize:12}}>{k}</div>
-                <div style={{fontSize:28,fontWeight:900,marginTop:6}}>{v}%</div>
+                <div style={{fontSize:28,fontWeight:900,marginTop:6}}>{v}</div>
               </div>
             ))}
           </div>
