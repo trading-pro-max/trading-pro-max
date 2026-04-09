@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "loops": [
+    {
+      "slug": "product-evolution",
+      "title": "Product Evolution",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ai-evolution",
+      "title": "AI Evolution",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ops-evolution",
+      "title": "Ops Evolution",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "research-evolution",
+      "title": "Research Evolution",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeEvolutionLoops": 16,
+    "adaptivePaths": 18,
+    "governedMutations": 14,
+    "evolutionConfidence": 100
+  },
+  "time": "2026-04-09T01:46:20.327Z"
+}

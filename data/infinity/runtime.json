@@ -1,43 +1,36 @@
 {
   "ok": true,
-  "towers": [
+  "cores": [
     {
-      "slug": "runtime-infinity",
-      "title": "Runtime Infinity",
+      "slug": "autonomy",
+      "title": "Autonomy Core",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "command-infinity",
-      "title": "Command Infinity",
+      "slug": "continuation",
+      "title": "Continuation Core",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "growth-infinity",
-      "title": "Growth Infinity",
+      "slug": "growth",
+      "title": "Growth Core",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "trust-infinity",
-      "title": "Trust Infinity",
-      "score": 100,
-      "status": "closed"
-    },
-    {
-      "slug": "proof-infinity",
-      "title": "Proof Infinity",
+      "slug": "research",
+      "title": "Research Core",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "infiniteMode": "ACTIVE",
-    "governedLayers": 24,
-    "protectedStores": 30,
-    "autonomousLoops": 22,
-    "localReadiness": 100
+    "infiniteLoops": 18,
+    "linkedLayers": 24,
+    "governedStores": 30,
+    "infinityConfidence": 100
   },
-  "time": "2026-04-09T01:44:46.399Z"
+  "time": "2026-04-09T01:46:20.325Z"
 }
