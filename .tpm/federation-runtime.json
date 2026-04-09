@@ -6,30 +6,29 @@
   "remaining": 0,
   "domains": {
     "federation": 100,
-    "router": 100,
-    "infinity": 100,
+    "exchange": 100,
+    "assurance": 100,
     "proof": 100,
     "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "federation-depth",
-      "title": "federation depth",
+      "slug": "federation-density",
+      "title": "federation density",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "proof-routing",
-      "title": "proof routing",
+      "slug": "exchange-depth",
+      "title": "exchange depth",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "infinity-console",
-      "title": "infinity console",
+      "slug": "assurance-strength",
+      "title": "assurance strength",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T06:42:00.952Z"
-}
+  "time": "2026-04-09T06:43:37.2

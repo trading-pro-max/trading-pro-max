@@ -1,21 +1,21 @@
 {
   "ok": true,
-  "nodes": [
+  "planes": [
     {
-      "slug": "ops-federation",
-      "title": "Ops Federation",
-      "score": 100,
-      "status": "closed"
-    },
-    {
-      "slug": "market-federation",
-      "title": "Market Federation",
+      "slug": "runtime-federation",
+      "title": "Runtime Federation",
       "score": 100,
       "status": "closed"
     },
     {
       "slug": "policy-federation",
       "title": "Policy Federation",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-federation",
+      "title": "Market Federation",
       "score": 100,
       "status": "closed"
     },
@@ -27,10 +27,10 @@
     }
   ],
   "metrics": {
-    "federatedNodes": 24,
-    "linkedPlanes": 20,
-    "governedBridges": 18,
+    "federatedPlanes": 20,
+    "protectedContracts": 18,
+    "linkedStores": 30,
     "federationConfidence": 100
   },
-  "time": "2026-04-09T06:42:00.952Z"
+  "time": "2026-04-09T06:43:37.265Z"
 }
