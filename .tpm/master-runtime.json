@@ -119,7 +119,10 @@
     "/ops-memory",
     "/infinity-mesh",
     "/strategy-senate",
-    "/operator-cabinet"
+    "/operator-cabinet",
+    "/autonomy-studio",
+    "/strategy-composer",
+    "/connector-hub"
   ],
   "commands": [
     "npm run tpm:navigator:once",
@@ -213,100 +216,23 @@
       "status": "strong"
     },
     {
-      "slug": "active-center",
-      "title": "active center",
-      "progress": 100,
+      "slug": "autonomy-studio",
+      "title": "autonomy studio",
+      "progress": 83,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "infinite-continuation",
-      "title": "infinite continuation",
-      "progress": 100,
+      "slug": "strategy-composer",
+      "title": "strategy composer",
+      "progress": 83,
       "stage": "ACTIVE",
       "status": "strong"
     },
     {
-      "slug": "mega-integration",
-      "title": "mega integration",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "infinity-mesh",
-      "title": "infinity mesh",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "memory-theater",
-      "title": "memory theater",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "strategy-senate",
-      "title": "strategy senate",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "constellation-core",
-      "title": "constellation core",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "assurance-graph",
-      "title": "assurance graph",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "ops-memory",
-      "title": "ops memory",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "federation-core",
-      "title": "federation core",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "operator-cabinet",
-      "title": "operator cabinet",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "prism-core",
-      "title": "prism core",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "governance-memory",
-      "title": "governance memory",
-      "progress": 100,
-      "stage": "ACTIVE",
-      "status": "strong"
-    },
-    {
-      "slug": "launch-authority",
-      "title": "launch authority",
-      "progress": 100,
+      "slug": "connector-hub",
+      "title": "connector hub",
+      "progress": 83,
       "stage": "ACTIVE",
       "status": "strong"
     }
@@ -386,7 +312,7 @@
     "status": "ACTIVE",
     "time": "2026-04-09T02:40:53.307Z"
   },
-  "time": "2026-04-09T02:41:09.926Z",
+  "time": "2026-04-09T02:41:32.542Z",
   "helixLayer": {
     "active": true,
     "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
@@ -523,7 +449,7 @@
     "name": "LIVE_CONNECTORS_PATH",
     "progress": 67,
     "status": "early",
-    "time": "2026-04-09T02:39:59.560Z"
+    "time": "2026-04-09T02:41:29.594Z"
   },
   "mode": "TPM_MASTER_ACTIVE_OMEGA",
   "activeMegaLayer": {
@@ -543,10 +469,9 @@
   },
   "infinityLayer": {
     "active": true,
-    "layer": "INFINITY_MESH_MEMORY_THEATER_STRATEGY_SENATE",
-    "progress": 100,
+    "layer": "AUTONOMY_STUDIO_STRATEGY_COMPOSER_CONNECTOR_HUB",
+    "progress": 90,
     "status": "ACTIVE",
-    "infiniteContinuation": true,
-    "time": "2026-04-09T02:40:35.806Z"
+    "time": "2026-04-09T02:41:33.128Z"
   }
 }

@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "builders": [
+  "labs": [
     {
-      "slug": "surface-builder",
-      "title": "Surface Builder",
-      "progress": 100,
+      "slug": "autonomy",
+      "title": "Autonomy Lab",
+      "score": 100,
       "status": "closed"
     },
     {
-      "slug": "logic-builder",
-      "title": "Logic Builder",
-      "progress": 100,
+      "slug": "execution",
+      "title": "Execution Lab",
+      "score": 100,
       "status": "closed"
     },
     {
-      "slug": "ops-builder",
-      "title": "Ops Builder",
-      "progress": 100,
+      "slug": "governance",
+      "title": "Governance Lab",
+      "score": 100,
       "status": "closed"
     },
     {
-      "slug": "growth-builder",
-      "title": "Growth Builder",
-      "progress": 100,
+      "slug": "growth",
+      "title": "Growth Lab",
+      "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeBuilders": 12,
-    "autonomousChains": 18,
-    "protectedLoops": 17,
-    "studioConfidence": 100
+    "activeLabs": 4,
+    "governedLoops": 18,
+    "replayableStates": 20,
+    "autonomyConfidence": 100
   },
-  "time": "2026-04-09T00:37:31.900Z"
+  "time": "2026-04-09T02:41:33.117Z"
 }
