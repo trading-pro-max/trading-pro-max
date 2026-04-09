@@ -1,14 +1,14 @@
 {
   "ok": true,
   "mode": "TPM_BRIDGE_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
+  "overallProgress": 96,
+  "completed": 96,
+  "remaining": 4,
   "domains": {
     "bridge": 100,
     "connectors": 100,
     "readiness": 100,
-    "proof": 100,
+    "proof": 80,
     "continuity": 100
   },
   "nextWave": [
@@ -31,5 +31,5 @@
       "status": "active"
     }
   ],
-  "time": "2026-04-09T04:53:48.543Z"
+  "time": "2026-04-09T04:55:18.654Z"
 }

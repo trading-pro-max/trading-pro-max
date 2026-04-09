@@ -1,11 +1,11 @@
 {
   "ok": true,
   "counts": {
-    "modules": 387,
-    "pages": 368,
-    "apiRoutes": 146,
-    "loops": 57,
-    "stores": 670
+    "modules": 386,
+    "pages": 365,
+    "apiRoutes": 144,
+    "loops": 56,
+    "stores": 667
   },
   "controls": {
     "localCertified": true,
@@ -161,5 +161,5 @@
       "scripts/tpm-expansion-loop.mjs"
     ]
   },
-  "time": "2026-04-09T04:53:50.728Z"
+  "time": "2026-04-09T04:55:22.135Z"
 }

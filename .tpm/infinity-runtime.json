@@ -1,12 +1,12 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
   "domains": {
     "infinity": 100,
-    "genome": 100,
+    "genome": 83,
     "gate": 100,
     "proof": 100,
     "continuity": 100
@@ -21,7 +21,7 @@
     {
       "slug": "genome-clarity",
       "title": "genome clarity",
-      "progress": 100,
+      "progress": 83,
       "status": "active"
     },
     {
@@ -31,5 +31,5 @@
       "status": "blocked-by-plan"
     }
   ],
-  "time": "2026-04-09T04:53:48.774Z"
+  "time": "2026-04-09T04:55:18.853Z"
 }
