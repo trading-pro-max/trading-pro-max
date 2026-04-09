@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "consoles": [
+    {
+      "slug": "infinite-runtime",
+      "title": "Infinite Runtime",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "infinite-growth",
+      "title": "Infinite Growth",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "infinite-governance",
+      "title": "Infinite Governance",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "infinite-memory",
+      "title": "Infinite Memory",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeConsoles": 14,
+    "persistenceStrength": 100,
+    "continuityStrength": 100,
+    "infinityConfidence": 100
+  },
+  "time": "2026-04-09T03:20:23.858Z"
+}
