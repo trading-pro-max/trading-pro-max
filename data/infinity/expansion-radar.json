@@ -1,43 +1,37 @@
 {
   "ok": true,
-  "vectors": [
+  "title": "Global Expansion Radar",
+  "cards": [
     {
-      "slug": "product-vector",
-      "title": "Product Vector",
+      "slug": "global-expansion-radar-core",
+      "title": "Global Expansion Radar Core",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "platform-vector",
-      "title": "Platform Vector",
+      "slug": "global-expansion-radar-ops",
+      "title": "Ops Layer",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "global-expansion-radar-trust",
+      "title": "Trust Layer",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "enterprise-vector",
-      "title": "Enterprise Vector",
-      "score": 100,
-      "status": "closed"
-    },
-    {
-      "slug": "customer-vector",
-      "title": "Customer Vector",
-      "score": 100,
-      "status": "closed"
-    },
-    {
-      "slug": "research-vector",
-      "title": "Research Vector",
+      "slug": "global-expansion-radar-continuity",
+      "title": "Continuity Layer",
       "score": 100,
       "status": "closed"
     }
   ],
-  "maps": {
-    "localExpansion": 100,
-    "internalExpansion": 100,
-    "continuityExpansion": 100,
-    "externalHostingSwitch": 70,
-    "radarConfidence": 100
+  "metrics": {
+    "activeBoards": 6,
+    "linkedRuntimes": 20,
+    "protectedPaths": 18,
+    "confidence": 100
   },
-  "time": "2026-04-09T01:34:16.026Z"
+  "time": "2026-04-09T01:34:43.528Z"
 }
