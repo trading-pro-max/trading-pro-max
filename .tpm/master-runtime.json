@@ -140,7 +140,9 @@
     "/infinity-console",
     "/infinity-engine",
     "/autonomy-vault",
-    "/value-graph"
+    "/value-graph",
+    "/infinity-board",
+    "/continuity-ai"
   ],
   "commands": [
     "npm run tpm:navigator:once",
@@ -267,6 +269,27 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "infinity-board",
+      "title": "infinity board",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "evidence-router",
+      "title": "evidence router",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "continuity-ai",
+      "title": "continuity ai",
+      "progress": 90,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "navigatorLayer": {
@@ -308,7 +331,13 @@
     "status": "ACTIVE",
     "time": "2026-04-09T01:48:17.003Z"
   },
-  "infinityContinuation": "ACTIVE",
+  "infinityContinuation": {
+    "active": true,
+    "layer": "INFINITY_BOARD_EVIDENCE_ROUTER_CONTINUITY_AI",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-09T03:27:30.204Z"
+  },
   "councilLayer": {
     "active": true,
     "layer": "COUNCIL_CORE_KNOWLEDGE_LEDGER_SWITCHBOARD",
@@ -345,7 +374,7 @@
     "jump": "2/3",
     "time": "2026-04-09T03:26:24.190Z"
   },
-  "time": "2026-04-09T03:26:11.790Z",
+  "time": "2026-04-09T03:27:29.311Z",
   "helixLayer": {
     "active": true,
     "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
@@ -543,4 +572,3 @@
     },
     "time": "2026-04-09T03:27:01.574Z"
   }
-}

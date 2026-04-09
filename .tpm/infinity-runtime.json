@@ -5,29 +5,30 @@
   "completed": 100,
   "remaining": 0,
   "domains": {
-    "engine": 100,
-    "vault": 100,
-    "graph": 100
+    "infinity": 100,
+    "router": 100,
+    "ai": 100,
+    "proof": 100,
+    "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "infinity-engine",
-      "title": "infinity engine",
+      "slug": "infinity-density",
+      "title": "infinity density",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "autonomy-vault",
-      "title": "autonomy vault",
+      "slug": "router-discipline",
+      "title": "router discipline",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "value-graph",
-      "title": "value graph",
+      "slug": "continuity-intelligence",
+      "title": "continuity intelligence",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T03:27:21.923Z"
-}
+  "time": "2026-04-09T03:27:30.
