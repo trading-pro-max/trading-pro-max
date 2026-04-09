@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "title": "Mission Fabric",
+  "slug": "mission-fabric",
+  "status": "ACTIVE",
+  "metrics": {
+    "readiness": 100,
+    "autonomy": 100,
+    "continuity": 100,
+    "confidence": 100
+  },
+  "cards": [
+    {
+      "slug": "overview",
+      "title": "Overview",
+      "value": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomy",
+      "title": "Autonomy",
+      "value": "100%",
+      "status": "strong"
+    },
+    {
+      "slug": "continuity",
+      "title": "Continuity",
+      "value": "100%",
+      "status": "strong"
+    },
+    {
+      "slug": "confidence",
+      "title": "Confidence",
+      "value": "100%",
+      "status": "strong"
+    }
+  ],
+  "time": "2026-04-09T01:07:48.197Z"
+}

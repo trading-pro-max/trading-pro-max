@@ -1959,6 +1959,24 @@
       "title": "Expansion Radar",
       "type": "dashboard",
       "managed": false
+    },
+    {
+      "slug": "infinity-engine",
+      "title": "Infinity Engine",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "mission-fabric",
+      "title": "Mission Fabric",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "operator-timeline",
+      "title": "Operator Timeline",
+      "type": "dashboard",
+      "managed": false
     }
   ],
   "goals": [
@@ -1967,5 +1985,5 @@
     "Keep master runtime in autonomous builder mode",
     "Run continuously without manual intervention"
   ],
-  "time": "2026-04-09T01:06:48.019Z"
+  "time": "2026-04-09T01:07:48.129Z"
 }
