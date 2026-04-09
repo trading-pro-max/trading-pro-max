@@ -171,7 +171,15 @@
     "npm run tpm:hyperjump:once",
     "npm run tpm:hyperjump",
     "npm run tpm:infinity:once",
-    "npm run tpm:infinity"
+    "npm run tpm:infinity",
+    "npm run tpm:kernel:once",
+    "npm run tpm:kernel",
+    "npm run tpm:supremacy:once",
+    "npm run tpm:supremacy",
+    "npm run tpm:hyper:once",
+    "npm run tpm:hyper",
+    "npm run tpm:titan:once",
+    "npm run tpm:titan"
   ],
   "pages": [
     "/master-control",
@@ -252,7 +260,21 @@
     "/hyperjump-center",
     "/infinity-core",
     "/factory-director",
-    "/deployment-freeze"
+    "/deployment-freeze",
+    "/kernel-os",
+    "/scenario-genome",
+    "/operator-memory",
+    "/supremacy-core",
+    "/genome-grid",
+    "/autonomy-fabric",
+    "/expansion-vault",
+    "/zero-touch-ops",
+    "/autonomy-command",
+    "/operator-replay",
+    "/revenue-intelligence",
+    "/titan-stack",
+    "/quantum-ops",
+    "/global-command-wall"
   ],
   "nextWave": [
     {
@@ -758,6 +780,104 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "closed"
+    },
+    {
+      "slug": "kernel-os",
+      "title": "kernel os",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-genome",
+      "title": "scenario genome",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-memory",
+      "title": "operator memory",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "supremacy-core",
+      "title": "supremacy core",
+      "progress": 87,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "genome-grid",
+      "title": "genome grid",
+      "progress": 87,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomy-fabric",
+      "title": "autonomy fabric",
+      "progress": 87,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "expansion-vault",
+      "title": "expansion vault",
+      "progress": 87,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "zero-touch-ops",
+      "title": "zero touch ops",
+      "progress": 87,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomy-command",
+      "title": "autonomy command",
+      "progress": 99,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-replay",
+      "title": "operator replay",
+      "progress": 99,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "revenue-intelligence",
+      "title": "revenue intelligence",
+      "progress": 99,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "titan-stack",
+      "title": "titan stack",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "quantum-ops",
+      "title": "quantum ops",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "global-command-wall",
+      "title": "global command wall",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-09T00:38:30.475Z",
@@ -921,4 +1041,39 @@
     "localState": "CLOSED_100",
     "externalState": "FROZEN_UNTIL_HOSTING_UPGRADE",
     "time": "2026-04-09T00:38:31.080Z"
+  },
+  "kernelLayer": {
+    "active": true,
+    "layer": "KERNEL_OS_SCENARIO_GENOME_OPERATOR_MEMORY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "infinityContinuation": "ACTIVE",
+    "time": "2026-04-09T00:38:36.692Z"
+  },
+  "supremacyLayer": {
+    "active": true,
+    "layer": "SUPREMACY_CORE_GENOME_GRID_AUTONOMY_FABRIC_EXPANSION_VAULT_ZERO_TOUCH_OPS",
+    "progress": 87,
+    "status": "ACTIVE",
+    "time": "2026-04-09T00:38:42.181Z"
+  },
+  "hyperLayer": {
+    "active": true,
+    "layer": "HYPER_CORE_QUANTUM_STACK_AUTONOMY_COMMAND_OPERATOR_REPLAY_REVENUE_INTELLIGENCE_DEPLOYMENT_READINESS",
+    "progress": 99,
+    "status": "ACTIVE",
+    "time": "2026-04-09T00:38:53.479Z"
+  },
+  "titanLayer": {
+    "active": true,
+    "layer": "TITAN_STACK_QUANTUM_OPS_GLOBAL_COMMAND_WALL",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-09T00:38:59.040Z"
+  },
+  "runtimeDepth": {
+    "active": 999,
+    "expected": 999,
+    "status": "INFINITE_ACTIVE"
   }
+}
