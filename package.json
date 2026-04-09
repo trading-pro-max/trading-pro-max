@@ -139,7 +139,9 @@
     "tpm:hyperjump": "node ./scripts/tpm-hyperjump-loop.mjs",
     "tpm:hypergrowth:once": "node ./lib/tpm-hypergrowth-core.mjs",
     "tpm:hypergrowth": "node ./scripts/tpm-hypergrowth-loop.mjs",
-    "tpm:builder:once": "node ./lib/tpm-autobuilder-core.mjs"
+    "tpm:builder:once": "node ./lib/tpm-autobuilder-core.mjs",
+    "tpm:mega12:once": "node ./lib/tpm-mega12-core.mjs",
+    "tpm:mega12": "node ./scripts/tpm-mega12-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",
