@@ -1,11 +1,11 @@
 {
   "ok": true,
   "counts": {
-    "modules": 385,
-    "pages": 353,
-    "apiRoutes": 141,
-    "loops": 55,
-    "stores": 652
+    "modules": 386,
+    "pages": 355,
+    "apiRoutes": 143,
+    "loops": 56,
+    "stores": 655
   },
   "controls": {
     "localCertified": true,
@@ -137,8 +137,8 @@
       "app/api/autonomous-core/status/route.js",
       "app/api/autopilot/run/route.js",
       "app/api/autopilot/status/route.js",
-      "app/api/broker/run/route.js",
-      "app/api/broker/status/route.js"
+      "app/api/bridge/run/route.js",
+      "app/api/bridge/status/route.js"
     ],
     "loops": [
       "scripts/tpm-active-loop.mjs",
@@ -149,6 +149,7 @@
       "scripts/tpm-atlas-loop.mjs",
       "scripts/tpm-autobuilder-loop.mjs",
       "scripts/tpm-autopilot-loop.mjs",
+      "scripts/tpm-bridge-loop.mjs",
       "scripts/tpm-broker-loop.mjs",
       "scripts/tpm-builder-loop.mjs",
       "scripts/tpm-command-loop.mjs",
@@ -157,9 +158,8 @@
       "scripts/tpm-council-loop.mjs",
       "scripts/tpm-enterprise-loop.mjs",
       "scripts/tpm-executive-loop.mjs",
-      "scripts/tpm-expansion-loop.mjs",
-      "scripts/tpm-fabric-loop.mjs"
+      "scripts/tpm-expansion-loop.mjs"
     ]
   },
-  "time": "2026-04-09T02:46:34.914Z"
+  "time": "2026-04-09T02:49:38.319Z"
 }

@@ -8,11 +8,11 @@
   "localCertified": true,
   "externalDeployBlocked": true,
   "counts": {
-    "modules": 385,
-    "pages": 353,
-    "apiRoutes": 141,
-    "loops": 55,
-    "stores": 652
+    "modules": 386,
+    "pages": 355,
+    "apiRoutes": 143,
+    "loops": 56,
+    "stores": 655
   },
   "modules": [
     {
@@ -333,6 +333,13 @@
     {
       "slug": "billing",
       "title": "Billing",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "bridge",
+      "title": "Bridge",
       "progress": 100,
       "status": "closed",
       "readiness": "closed"
@@ -2817,5 +2824,5 @@
       "status": "active"
     }
   ],
-  "time": "2026-04-09T02:46:34.915Z"
+  "time": "2026-04-09T02:49:38.319Z"
 }
