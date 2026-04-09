@@ -8,11 +8,11 @@
   "localCertified": true,
   "externalDeployBlocked": true,
   "counts": {
-    "modules": 386,
-    "pages": 359,
-    "apiRoutes": 143,
-    "loops": 56,
-    "stores": 659
+    "modules": 387,
+    "pages": 360,
+    "apiRoutes": 146,
+    "loops": 57,
+    "stores": 660
   },
   "modules": [
     {
@@ -1362,6 +1362,13 @@
     {
       "slug": "lifecycle-os",
       "title": "Lifecycle Os",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "live-integrations",
+      "title": "Live Integrations",
       "progress": 100,
       "status": "closed",
       "readiness": "closed"
@@ -2824,5 +2831,5 @@
       "status": "active"
     }
   ],
-  "time": "2026-04-09T03:16:58.626Z"
+  "time": "2026-04-09T03:18:28.858Z"
 }
