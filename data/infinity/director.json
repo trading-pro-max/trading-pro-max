@@ -1,42 +1,36 @@
 {
   "ok": true,
-  "cells": [
+  "councils": [
+    {
+      "slug": "runtime",
+      "title": "Runtime Council",
+      "score": 100,
+      "status": "closed"
+    },
     {
       "slug": "autonomy",
-      "title": "Autonomy Director",
+      "title": "Autonomy Council",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "capital",
-      "title": "Capital Director",
+      "slug": "strategy",
+      "title": "Strategy Council",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "evidence",
-      "title": "Evidence Director",
-      "score": 100,
-      "status": "closed"
-    },
-    {
-      "slug": "growth",
-      "title": "Growth Director",
-      "score": 100,
-      "status": "closed"
-    },
-    {
-      "slug": "ops",
-      "title": "Ops Director",
+      "slug": "genome",
+      "title": "Genome Council",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeLayers": 26,
-    "linkedRuntimes": 31,
-    "governedStores": 29,
-    "commandConfidence": 100
+    "governedLayers": 24,
+    "linkedSystems": 31,
+    "protectedPolicies": 22,
+    "infinityConfidence": 100
   },
-  "time": "2026-04-08T23:45:17.949Z"
+  "time": "2026-04-09T00:34:31.748Z"
 }

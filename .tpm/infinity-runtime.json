@@ -1,42 +1,40 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 98,
-  "completed": 98,
-  "remaining": 2,
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
   "domains": {
-    "infinity": 100,
-    "factory": 86,
-    "grid": 100,
+    "director": 100,
+    "studio": 86,
     "memory": 100,
-    "supreme": 100,
+    "genome": 100,
     "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "factory-density",
-      "title": "factory density",
+      "slug": "director-depth",
+      "title": "director depth",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "studio-depth",
+      "title": "studio depth",
       "progress": 86,
       "status": "active"
     },
     {
-      "slug": "grid-unification",
-      "title": "grid unification",
+      "slug": "memory-depth",
+      "title": "memory depth",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "memory-fortification",
-      "title": "memory fortification",
-      "progress": 100,
-      "status": "active"
-    },
-    {
-      "slug": "supreme-control",
-      "title": "supreme control",
+      "slug": "genome-depth",
+      "title": "genome depth",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T00:33:24.826Z"
-}
+  "time": "2026-04-09T00:34:31.749

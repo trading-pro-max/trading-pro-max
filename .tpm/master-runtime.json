@@ -94,7 +94,14 @@
     "/launch-war-room",
     "/autonomy-command",
     "/operator-replay",
-    "/revenue-intelligence"
+    "/revenue-intelligence",
+    "/titan-stack",
+    "/quantum-ops",
+    "/global-command-wall",
+    "/infinity-director",
+    "/autonomous-studio",
+    "/strategy-memory-hub",
+    "/execution-genome"
   ],
   "commands": [
     "npm run tpm:platform:once",
@@ -149,7 +156,9 @@
     "npm run tpm:kernel:once",
     "npm run tpm:kernel",
     "npm run tpm:hyper:once",
-    "npm run tpm:hyper"
+    "npm run tpm:hyper",
+    "npm run tpm:titan:once",
+    "npm run tpm:titan"
   ],
   "nextWave": [
     {
@@ -767,6 +776,55 @@
       "progress": 87,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "titan-stack",
+      "title": "titan stack",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "quantum-ops",
+      "title": "quantum ops",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "global-command-wall",
+      "title": "global command wall",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "infinity-director",
+      "title": "infinity director",
+      "progress": 92,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomous-studio",
+      "title": "autonomous studio",
+      "progress": 92,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "strategy-memory-hub",
+      "title": "strategy memory hub",
+      "progress": 92,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "execution-genome",
+      "title": "execution genome",
+      "progress": 92,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "platformLayer": {
@@ -866,10 +924,11 @@
   },
   "infinityContinuation": {
     "active": true,
-    "status": "ACTIVE",
-    "layer": "QUANTUM_STACK_OPERATOR_BRAIN_REVENUE_FLIGHT_DEPLOYMENT_WALL",
+    "layer": "INFINITY_DIRECTOR_AUTONOMOUS_STUDIO_STRATEGY_MEMORY_HUB_EXECUTION_GENOME",
     "progress": 97,
-    "time": "2026-04-09T00:33:20.501Z"
+    "status": "ACTIVE",
+    "mode": "POST_100_EXPANSION",
+    "time": "2026-04-09T00:34:31.754Z"
   },
   "prismLayer": {
     "active": true,
@@ -885,7 +944,7 @@
     "status": "ACTIVE",
     "time": "2026-04-09T00:33:24.830Z"
   },
-  "time": "2026-04-09T00:34:22.919Z",
+  "time": "2026-04-09T00:34:31.556Z",
   "constellationLayer": {
     "active": true,
     "layer": "CONSTELLATION_HUB_SCENARIO_EXCHANGE_ASSURANCE_CONSOLE",
@@ -962,5 +1021,17 @@
     "modules": 5,
     "status": "ACTIVE",
     "time": "2026-04-09T00:34:19.561Z"
+  },
+  "titanLayer": {
+    "active": true,
+    "layer": "TITAN_STACK_QUANTUM_OPS_GLOBAL_COMMAND_WALL",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-09T00:34:28.859Z"
+  },
+  "runtimeDepth": {
+    "active": 999,
+    "expected": 999,
+    "status": "INFINITE_ACTIVE"
   }
 }
