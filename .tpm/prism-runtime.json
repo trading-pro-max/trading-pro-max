@@ -6,8 +6,8 @@
   "remaining": 0,
   "domains": {
     "prism": 100,
-    "memory": 100,
-    "forum": 100,
+    "flow": 100,
+    "assurance": 100,
     "proof": 100,
     "continuity": 100
   },
@@ -19,17 +19,16 @@
       "status": "active"
     },
     {
-      "slug": "memory-clarity",
-      "title": "memory clarity",
+      "slug": "flow-governance",
+      "title": "flow governance",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "forum-discipline",
-      "title": "forum discipline",
+      "slug": "assurance-discipline",
+      "title": "assurance discipline",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T01:48:20.740Z"
-}
+  "time": "2026-04-09T02:27:32.2

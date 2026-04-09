@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "beams": [
+  "prisms": [
     {
       "slug": "runtime-prism",
       "title": "Runtime Prism",
@@ -8,14 +8,14 @@
       "status": "closed"
     },
     {
-      "slug": "memory-prism",
-      "title": "Memory Prism",
+      "slug": "market-prism",
+      "title": "Market Prism",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "execution-prism",
-      "title": "Execution Prism",
+      "slug": "governance-prism",
+      "title": "Governance Prism",
       "score": 100,
       "status": "closed"
     },
@@ -27,10 +27,10 @@
     }
   ],
   "metrics": {
-    "activeBeams": 16,
-    "linkedLayers": 22,
-    "protectedChains": 20,
+    "activePrisms": 16,
+    "governedViews": 20,
+    "linkedLayers": 24,
     "prismConfidence": 100
   },
-  "time": "2026-04-09T01:48:20.739Z"
+  "time": "2026-04-09T02:27:32.201Z"
 }

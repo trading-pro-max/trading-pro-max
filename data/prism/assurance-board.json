@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "boards": [
+    {
+      "slug": "runtime-assurance",
+      "title": "Runtime Assurance",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-assurance",
+      "title": "Risk Assurance",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-assurance",
+      "title": "Capital Assurance",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "release-assurance",
+      "title": "Release Assurance",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "assuredRoutes": 18,
+    "certifiedBoards": 16,
+    "proofStrength": 100,
+    "assuranceConfidence": 100
+  },
+  "time": "2026-04-09T02:27:32.203Z"
+}
