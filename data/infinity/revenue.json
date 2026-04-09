@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "engines": [
+  "panels": [
     {
-      "slug": "subscriptions",
-      "title": "Subscriptions Reactor",
-      "progress": 92,
-      "status": "configured-path"
-    },
-    {
-      "slug": "billing",
-      "title": "Billing Reactor",
+      "slug": "revenue-panel",
+      "title": "Revenue Panel",
       "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "cashflow",
-      "title": "Cashflow Reactor",
+      "slug": "capital-panel",
+      "title": "Capital Panel",
       "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "success",
-      "title": "Success Reactor",
-      "progress": 91,
-      "status": "configured-path"
+      "slug": "growth-panel",
+      "title": "Growth Panel",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "enterprise-panel",
+      "title": "Enterprise Panel",
+      "progress": 100,
+      "status": "closed"
     }
   ],
   "metrics": {
-    "recurringStrength": 93,
-    "billingDiscipline": 100,
-    "expansionYield": 99,
+    "monetizedSurfaces": 14,
+    "governedCapitalPaths": 12,
+    "enterpriseStrength": 100,
     "revenueConfidence": 100
   },
-  "time": "2026-04-08T23:45:17.949Z"
+  "time": "2026-04-09T01:07:15.465Z"
 }

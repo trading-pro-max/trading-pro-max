@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "councils": [
+  "directors": [
     {
-      "slug": "runtime",
-      "title": "Runtime Council",
+      "slug": "autonomy-director",
+      "title": "Autonomy Director",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "autonomy",
-      "title": "Autonomy Council",
+      "slug": "learning-director",
+      "title": "Learning Director",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "strategy",
-      "title": "Strategy Council",
+      "slug": "policy-director",
+      "title": "Policy Director",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "genome",
-      "title": "Genome Council",
+      "slug": "continuity-director",
+      "title": "Continuity Director",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "governedLayers": 24,
-    "linkedSystems": 31,
-    "protectedPolicies": 22,
-    "infinityConfidence": 100
+    "governedLoops": 22,
+    "protectedPolicies": 20,
+    "controlledRoutes": 18,
+    "autonomyConfidence": 100
   },
-  "time": "2026-04-09T00:37:31.900Z"
+  "time": "2026-04-09T01:07:15.465Z"
 }

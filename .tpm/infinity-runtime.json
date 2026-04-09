@@ -1,41 +1,48 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 97,
-  "completed": 97,
-  "remaining": 3,
+  "overallProgress": 98,
+  "completed": 98,
+  "remaining": 2,
+  "infiniteContinuation": "ACTIVE",
   "domains": {
-    "infinity": 100,
-    "builder": 83,
-    "waves": 100,
-    "proof": 100,
+    "synthesis": 100,
+    "fabric": 86,
+    "autonomy": 100,
+    "revenue": 100,
+    "operators": 100,
     "continuity": 100
   },
   "nextWave": [
     {
-      "slug": "infinity-density",
-      "title": "infinity density",
+      "slug": "infinity-synthesis",
+      "title": "infinity synthesis",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "builder-autonomy",
-      "title": "builder autonomy",
-      "progress": 83,
+      "slug": "mission-fabric",
+      "title": "mission fabric",
+      "progress": 86,
       "status": "active"
     },
     {
-      "slug": "wave-orchestration",
-      "title": "wave orchestration",
+      "slug": "autonomy-director",
+      "title": "autonomy director",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "proof-certainty",
-      "title": "proof certainty",
+      "slug": "revenue-cockpit",
+      "title": "revenue cockpit",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "operator-timeline",
+      "title": "operator timeline",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T01:06:03.553Z"
-}
+  "time": "2026-04-09T01:07:15.465

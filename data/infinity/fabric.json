@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "lanes": [
+  "missions": [
     {
-      "slug": "ops-fabric",
-      "title": "Ops Fabric",
+      "slug": "runtime-unification",
+      "title": "Runtime Unification",
       "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "market-fabric",
-      "title": "Market Fabric",
+      "slug": "command-unification",
+      "title": "Command Unification",
       "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "broker-fabric",
-      "title": "Broker Fabric",
+      "slug": "trust-unification",
+      "title": "Trust Unification",
       "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "trust-fabric",
-      "title": "Trust Fabric",
+      "slug": "growth-unification",
+      "title": "Growth Unification",
       "progress": 100,
       "status": "closed"
     }
   ],
-  "metrics": {
-    "routedCommands": 26,
-    "governedFlows": 22,
-    "protectedSwitches": 18,
+  "routes": {
+    "governedRoutes": 24,
+    "protectedMissions": 22,
+    "replayableMissions": 18,
     "fabricConfidence": 100
   },
-  "time": "2026-04-08T23:07:37.365Z"
+  "time": "2026-04-09T01:07:15.465Z"
 }

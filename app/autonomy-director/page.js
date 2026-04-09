@@ -4,7 +4,7 @@ import path from "path";
 export const dynamic = "force-dynamic";
 
 function readJson(file, fallback){
-  try{ if(fs.existsSync(file)) return JSON.parse(fs.readFileSync(file, "utf8")); }catch{}
+  try{ if(fs.existsSync(file)) return JSON.parse(fs.readFileSync(file,"utf8")); }catch{}
   return fallback;
 }
 
@@ -12,7 +12,7 @@ const card={background:"#111827",border:"1px solid #1f2937",borderRadius:22,padd
 const box={background:"#020617",borderRadius:14,padding:14};
 
 export default function Page(){
-  const data=readJson(path.join(process.cwd(),"data","continuum","autonomy-director.json"),{directors:[],metrics:{}});
+  const data=readJson(path.join(process.cwd(),"data","infinity","director.json"),{directors:[],metrics:{}});
   return (
     <main style={{minHeight:"100vh",background:"linear-gradient(180deg,#020617 0%,#0b1120 100%)",color:"white",padding:24,fontFamily:"Arial,sans-serif"}}>
       <div style={{maxWidth:1500,margin:"0 auto",display:"grid",gap:20}}>

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "engines": [
+    {
+      "slug": "synthesis-engine",
+      "title": "Synthesis Engine",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "fabric-engine",
+      "title": "Fabric Engine",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "autonomy-engine",
+      "title": "Autonomy Engine",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "operator-engine",
+      "title": "Operator Engine",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedLayers": 24,
+    "activePages": 38,
+    "activeLoops": 22,
+    "protectedStores": 28
+  },
+  "time": "2026-04-09T01:07:15.451Z"
+}
