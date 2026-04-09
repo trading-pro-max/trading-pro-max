@@ -181,7 +181,11 @@
     "npm run tpm:constellation:once",
     "npm run tpm:constellation",
     "npm run tpm:kernel:once",
-    "npm run tpm:kernel"
+    "npm run tpm:kernel",
+    "npm run tpm:supremacy:once",
+    "npm run tpm:supremacy",
+    "npm run tpm:autopilot:once",
+    "npm run tpm:autopilot"
   ],
   "pages": [
     "/master-control",
@@ -1146,6 +1150,41 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "supremacy-core",
+      "title": "supremacy core",
+      "progress": 87,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "genome-grid",
+      "title": "genome grid",
+      "progress": 87,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomy-fabric",
+      "title": "autonomy fabric",
+      "progress": 87,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "expansion-vault",
+      "title": "expansion vault",
+      "progress": 87,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "zero-touch-ops",
+      "title": "zero touch ops",
+      "progress": 87,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-09T01:04:08.276Z",
@@ -1355,5 +1394,75 @@
     "status": "ACTIVE",
     "infinityContinuation": "ACTIVE",
     "time": "2026-04-09T01:04:07.596Z"
+  },
+  "supremacyLayer": {
+    "active": true,
+    "layer": "SUPREMACY_CORE_GENOME_GRID_AUTONOMY_FABRIC_EXPANSION_VAULT_ZERO_TOUCH_OPS",
+    "progress": 87,
+    "status": "ACTIVE",
+    "time": "2026-04-09T01:04:13.614Z"
+  },
+  "autopilot": {
+    "active": true,
+    "mode": "FULL_AUTO_LOCAL",
+    "cycle": 1,
+    "discoveredScripts": [
+      "tpm:agentmesh:once",
+      "tpm:ai:once",
+      "tpm:analytics:once",
+      "tpm:apex:once",
+      "tpm:atlas:once",
+      "tpm:broker:once",
+      "tpm:builder:once",
+      "tpm:command:once",
+      "tpm:constellation:once",
+      "tpm:continuum:once",
+      "tpm:council:once",
+      "tpm:enterprise:once",
+      "tpm:executive:once",
+      "tpm:expansion:once",
+      "tpm:fabric:once",
+      "tpm:federation:once",
+      "tpm:final:once",
+      "tpm:governance:once",
+      "tpm:helix:once",
+      "tpm:horizon:once",
+      "tpm:hyper:once",
+      "tpm:hypergrowth:once",
+      "tpm:hyperjump:once",
+      "tpm:infinity3:once",
+      "tpm:infinity7:once",
+      "tpm:infinity:once",
+      "tpm:intelligence:once",
+      "tpm:jump4:once",
+      "tpm:kernel:once",
+      "tpm:learning:once",
+      "tpm:market:once",
+      "tpm:meta:once",
+      "tpm:navigator:once",
+      "tpm:nexus:once",
+      "tpm:observability:once",
+      "tpm:omega:once",
+      "tpm:orchestrator:once",
+      "tpm:platform:once",
+      "tpm:prism:once",
+      "tpm:pulse:once",
+      "tpm:quantum:once",
+      "tpm:runtimeops:once",
+      "tpm:sentinel:once",
+      "tpm:simulation:once",
+      "tpm:sovereign:once",
+      "tpm:strategy:once",
+      "tpm:supremacy:once",
+      "tpm:titan:once",
+      "tpm:vector:once",
+      "tpm:vertex:once",
+      "tpm:zenith:once",
+      "tpm:master:once"
+    ],
+    "successCount": 0,
+    "failedCount": 52,
+    "lastRunAt": "2026-04-09T01:04:15.634Z",
+    "status": "ACTIVE_WITH_ERRORS"
   }
 }
