@@ -10,7 +10,7 @@
     "tpm:build": "node ./scripts/tpm-build.mjs",
     "tpm:heal": "node ./scripts/tpm-self-heal.mjs",
     "tpm:validate": "node ./scripts/tpm-validate.mjs",
-    "tpm:builder": "node ./scripts/tpm-builder-loop.mjs",
+    "tpm:builder": "node ./scripts/tpm-autobuilder-loop.mjs",
     "tpm:builder:start": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-builder-start.ps1",
     "tpm:builder:stop": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-builder-stop.ps1",
     "tpm:builder:status": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-builder-status.ps1",
@@ -138,7 +138,8 @@
     "tpm:hyperjump:once": "node ./lib/tpm-hyperjump-core.mjs",
     "tpm:hyperjump": "node ./scripts/tpm-hyperjump-loop.mjs",
     "tpm:hypergrowth:once": "node ./lib/tpm-hypergrowth-core.mjs",
-    "tpm:hypergrowth": "node ./scripts/tpm-hypergrowth-loop.mjs"
+    "tpm:hypergrowth": "node ./scripts/tpm-hypergrowth-loop.mjs",
+    "tpm:builder:once": "node ./lib/tpm-autobuilder-core.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",

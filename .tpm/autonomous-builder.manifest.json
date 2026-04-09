@@ -1,0 +1,1953 @@
+{
+  "ok": true,
+  "mode": "AUTONOMOUS_BUILDER_ACTIVE",
+  "system": {
+    "owner": "leader",
+    "executiveDirector": "ChatGPT",
+    "autonomy": "LOCAL_AUTONOMOUS",
+    "primaryControlFile": ".tpm/autonomous-builder.manifest.json"
+  },
+  "policies": {
+    "autoCreatePages": true,
+    "autoCreateDataStores": true,
+    "autoCreateQueue": true,
+    "autoPatchMaster": true,
+    "autoBackgroundLoop": true,
+    "preserveExistingFiles": true
+  },
+  "modules": [
+    {
+      "slug": "builder-control",
+      "title": "Builder Control",
+      "type": "control",
+      "managed": true
+    },
+    {
+      "slug": "ai-director",
+      "title": "AI Director",
+      "type": "dashboard",
+      "managed": true
+    },
+    {
+      "slug": "strategy-kernel",
+      "title": "Strategy Kernel",
+      "type": "dashboard",
+      "managed": true
+    },
+    {
+      "slug": "capital-lab",
+      "title": "Capital Lab",
+      "type": "dashboard",
+      "managed": true
+    },
+    {
+      "slug": "signal-forge",
+      "title": "Signal Forge",
+      "type": "dashboard",
+      "managed": true
+    },
+    {
+      "slug": "governance-wall",
+      "title": "Governance Wall",
+      "type": "dashboard",
+      "managed": true
+    },
+    {
+      "slug": "execution-vault",
+      "title": "Execution Vault",
+      "type": "dashboard",
+      "managed": true
+    },
+    {
+      "slug": "ops-radar",
+      "title": "Ops Radar",
+      "type": "dashboard",
+      "managed": true
+    },
+    {
+      "slug": "broker-mission",
+      "title": "Broker Mission",
+      "type": "dashboard",
+      "managed": true
+    },
+    {
+      "slug": "client-success",
+      "title": "Client Success",
+      "type": "dashboard",
+      "managed": true
+    },
+    {
+      "slug": "research-atlas",
+      "title": "Research Atlas",
+      "type": "dashboard",
+      "managed": true
+    },
+    {
+      "slug": "runtime-vault",
+      "title": "Runtime Vault",
+      "type": "dashboard",
+      "managed": true
+    },
+    {
+      "slug": "agent-mesh",
+      "title": "Agent Mesh",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "ai-control",
+      "title": "Ai Control",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "ai-ops-forge",
+      "title": "Ai Ops Forge",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "alert-center",
+      "title": "Alert Center",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "analytics-center",
+      "title": "Analytics Center",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "apex-command",
+      "title": "Apex Command",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "apex-matrix",
+      "title": "Apex Matrix",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "api-gateway",
+      "title": "Api Gateway",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "assurance-board",
+      "title": "Assurance Board",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "assurance-bridge",
+      "title": "Assurance Bridge",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "assurance-console",
+      "title": "Assurance Console",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "assurance-hub",
+      "title": "Assurance Hub",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "assurance-wall",
+      "title": "Assurance Wall",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "atlas-mesh",
+      "title": "Atlas Mesh",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "audit-stream",
+      "title": "Audit Stream",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "autonomous-expansion-os",
+      "title": "Autonomous Expansion Os",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "autonomous-factory",
+      "title": "Autonomous Factory",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "autonomous-foundry",
+      "title": "Autonomous Foundry",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "autonomous-revenue-rail",
+      "title": "Autonomous Revenue Rail",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "autonomous-studio",
+      "title": "Autonomous Studio",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "autonomous-workforce",
+      "title": "Autonomous Workforce",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "autonomy-command",
+      "title": "Autonomy Command",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "autonomy-director",
+      "title": "Autonomy Director",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "autonomy-empire",
+      "title": "Autonomy Empire",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "autonomy-fabric",
+      "title": "Autonomy Fabric",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "autonomy-factory",
+      "title": "Autonomy Factory",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "autonomy-forge",
+      "title": "Autonomy Forge",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "autonomy-grid",
+      "title": "Autonomy Grid",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "autonomy-infinity",
+      "title": "Autonomy Infinity",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "autonomy-rail",
+      "title": "Autonomy Rail",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "autonomy-theater",
+      "title": "Autonomy Theater",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "autonomy-throne",
+      "title": "Autonomy Throne",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "autopilot",
+      "title": "Autopilot",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "autopilot-center",
+      "title": "Autopilot Center",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "autopilot-forge",
+      "title": "Autopilot Forge",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "autopilot-matrix",
+      "title": "Autopilot Matrix",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "backtest-lab",
+      "title": "Backtest Lab",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "billing",
+      "title": "Billing",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "broker-bridge",
+      "title": "Broker Bridge",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "builder",
+      "title": "Builder",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "builder-grid",
+      "title": "Builder Grid",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "builder-os",
+      "title": "Builder Os",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "builder-studio",
+      "title": "Builder Studio",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "capital-os",
+      "title": "Capital Os",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "chronicle-center",
+      "title": "Chronicle Center",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "client-brain",
+      "title": "Client Brain",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "client-command",
+      "title": "Client Command",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "client-cosmos",
+      "title": "Client Cosmos",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "client-orbit",
+      "title": "Client Orbit",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "client-orbit-hub",
+      "title": "Client Orbit Hub",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "client-portal",
+      "title": "Client Portal",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "command-mesh",
+      "title": "Command Mesh",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "command-nexus",
+      "title": "Command Nexus",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "compliance-ledger",
+      "title": "Compliance Ledger",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "config-center",
+      "title": "Config Center",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "connector-inspector",
+      "title": "Connector Inspector",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "constellation-core",
+      "title": "Constellation Core",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "constellation-hub",
+      "title": "Constellation Hub",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "continuity-radar",
+      "title": "Continuity Radar",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "continuity-vault",
+      "title": "Continuity Vault",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "continuum-core",
+      "title": "Continuum Core",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "control",
+      "title": "Control",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "control-memory",
+      "title": "Control Memory",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "control-tower",
+      "title": "Control Tower",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "council-core",
+      "title": "Council Core",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "customer-success-hub",
+      "title": "Customer Success Hub",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "deal-room",
+      "title": "Deal Room",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "decision-archive",
+      "title": "Decision Archive",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "decision-engine",
+      "title": "Decision Engine",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "deploy-freeze-wall",
+      "title": "Deploy Freeze Wall",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "deploy-readiness",
+      "title": "Deploy Readiness",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "deploy-readiness-locker",
+      "title": "Deploy Readiness Locker",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "deploy-switch-prep",
+      "title": "Deploy Switch Prep",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "deployment-buffer",
+      "title": "Deployment Buffer",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "deployment-freeze",
+      "title": "Deployment Freeze",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "deployment-readiness",
+      "title": "Deployment Readiness",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "deployment-readiness-wall",
+      "title": "Deployment Readiness Wall",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "deployment-vault",
+      "title": "Deployment Vault",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "desktop-hq",
+      "title": "Desktop Hq",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "desktop-private",
+      "title": "Desktop Private",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "env-doctor",
+      "title": "Env Doctor",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "evidence-mesh",
+      "title": "Evidence Mesh",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "evidence-vault",
+      "title": "Evidence Vault",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "evolution-console",
+      "title": "Evolution Console",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "evolution-vault",
+      "title": "Evolution Vault",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "execution",
+      "title": "Execution",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "execution-arbitration-deck",
+      "title": "Execution Arbitration Deck",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "execution-core",
+      "title": "Execution Core",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "execution-forum",
+      "title": "Execution Forum",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "execution-genome",
+      "title": "Execution Genome",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "execution-intelligence",
+      "title": "Execution Intelligence",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "execution-memory",
+      "title": "Execution Memory",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "expansion-center",
+      "title": "Expansion Center",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "expansion-vault",
+      "title": "Expansion Vault",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "experiment-studio",
+      "title": "Experiment Studio",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "external-readiness",
+      "title": "External Readiness",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "fabric-core",
+      "title": "Fabric Core",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "factory-director",
+      "title": "Factory Director",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "federation-core",
+      "title": "Federation Core",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "federation-hub",
+      "title": "Federation Hub",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "final-launch",
+      "title": "Final Launch",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "forge-deck",
+      "title": "Forge Deck",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "foundry-lab",
+      "title": "Foundry Lab",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "gatekeeper-panel",
+      "title": "Gatekeeper Panel",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "genome-grid",
+      "title": "Genome Grid",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "genome-lab",
+      "title": "Genome Lab",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "global-command-fabric",
+      "title": "Global Command Fabric",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "global-command-grid",
+      "title": "Global Command Grid",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "global-command-lattice",
+      "title": "Global Command Lattice",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "global-command-wall",
+      "title": "Global Command Wall",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "global-expansion-radar",
+      "title": "Global Expansion Radar",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "global-lab",
+      "title": "Global Lab",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "global-matrix",
+      "title": "Global Matrix",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "global-ops-grid",
+      "title": "Global Ops Grid",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "global-war-room",
+      "title": "Global War Room",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "governance-matrix",
+      "title": "Governance Matrix",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "governance-mirror",
+      "title": "Governance Mirror",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "governance-pulse",
+      "title": "Governance Pulse",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "growth-command",
+      "title": "Growth Command",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "growth-engine",
+      "title": "Growth Engine",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "growth-lab",
+      "title": "Growth Lab",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "growth-radar",
+      "title": "Growth Radar",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "growth-reactor",
+      "title": "Growth Reactor",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "helix-core",
+      "title": "Helix Core",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "horizon-hub",
+      "title": "Horizon Hub",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "hyper-core",
+      "title": "Hyper Core",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "hypergrowth-hq",
+      "title": "Hypergrowth Hq",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "hyperjump-center",
+      "title": "Hyperjump Center",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "identity",
+      "title": "Identity",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "incident-center",
+      "title": "Incident Center",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "infinity-chamber",
+      "title": "Infinity Chamber",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "infinity-command-grid",
+      "title": "Infinity Command Grid",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "infinity-core",
+      "title": "Infinity Core",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "infinity-director",
+      "title": "Infinity Director",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "infinity-fabric",
+      "title": "Infinity Fabric",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "infinity-grid",
+      "title": "Infinity Grid",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "infinity-jump-4",
+      "title": "Infinity Jump 4",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "infinity-kernel",
+      "title": "Infinity Kernel",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "infinity-matrix",
+      "title": "Infinity Matrix",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "infinity-mesh",
+      "title": "Infinity Mesh",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "infinity-orchestrator",
+      "title": "Infinity Orchestrator",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "infinity-reactor",
+      "title": "Infinity Reactor",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "infinity-seven",
+      "title": "Infinity Seven",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "infinity-stack",
+      "title": "Infinity Stack",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "integration-hub",
+      "title": "Integration Hub",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "integrity-hub",
+      "title": "Integrity Hub",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "intelligence-center",
+      "title": "Intelligence Center",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "intelligence-exchange",
+      "title": "Intelligence Exchange",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "investor-room",
+      "title": "Investor Room",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "kernel-os",
+      "title": "Kernel Os",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "knowledge-grid",
+      "title": "Knowledge Grid",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "knowledge-ledger",
+      "title": "Knowledge Ledger",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "launch-console",
+      "title": "Launch Console",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "launch-pipeline",
+      "title": "Launch Pipeline",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "launch-readiness",
+      "title": "Launch Readiness",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "launch-war-room",
+      "title": "Launch War Room",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "launchpad",
+      "title": "Launchpad",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "learning-loop",
+      "title": "Learning Loop",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "lifecycle-os",
+      "title": "Lifecycle Os",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "live-ops",
+      "title": "Live Ops",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "local-command",
+      "title": "Local Command",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "market-hub",
+      "title": "Market Hub",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "market-memory",
+      "title": "Market Memory",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "master-control",
+      "title": "Master Control",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "memory-cartography",
+      "title": "Memory Cartography",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "memory-chamber",
+      "title": "Memory Chamber",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "memory-chronicle",
+      "title": "Memory Chronicle",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "memory-citadel",
+      "title": "Memory Citadel",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "memory-dna",
+      "title": "Memory Dna",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "memory-fabric",
+      "title": "Memory Fabric",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "memory-map",
+      "title": "Memory Map",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "memory-os",
+      "title": "Memory Os",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "memory-theater",
+      "title": "Memory Theater",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "memory-timeline",
+      "title": "Memory Timeline",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "meta-grid",
+      "title": "Meta Grid",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "mission-control",
+      "title": "Mission Control",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "mission-ledger",
+      "title": "Mission Ledger",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "mobile-hq",
+      "title": "Mobile Hq",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "mobile-private",
+      "title": "Mobile Private",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "monetization-brain",
+      "title": "Monetization Brain",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "navigator-core",
+      "title": "Navigator Core",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "nexus-core",
+      "title": "Nexus Core",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "notifications",
+      "title": "Notifications",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "observability-core",
+      "title": "Observability Core",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "omega-core",
+      "title": "Omega Core",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "operator-brain",
+      "title": "Operator Brain",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "operator-galaxy",
+      "title": "Operator Galaxy",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "operator-journal",
+      "title": "Operator Journal",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "operator-memory",
+      "title": "Operator Memory",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "operator-os",
+      "title": "Operator Os",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "operator-radar",
+      "title": "Operator Radar",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "operator-replay",
+      "title": "Operator Replay",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "operator-spine",
+      "title": "Operator Spine",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "operator-supreme",
+      "title": "Operator Supreme",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "opportunity-radar",
+      "title": "Opportunity Radar",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "ops-archive",
+      "title": "Ops Archive",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "ops-embassy",
+      "title": "Ops Embassy",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "ops-lattice",
+      "title": "Ops Lattice",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "ops-memory",
+      "title": "Ops Memory",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "ops-observatory",
+      "title": "Ops Observatory",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "ops-replay",
+      "title": "Ops Replay",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "orchestrator-hq",
+      "title": "Orchestrator Hq",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "partner-grid",
+      "title": "Partner Grid",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "partner-hub",
+      "title": "Partner Hub",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "playbook-os",
+      "title": "Playbook Os",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "policy-memory",
+      "title": "Policy Memory",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "policy-studio",
+      "title": "Policy Studio",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "portfolio-hq",
+      "title": "Portfolio Hq",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "portfolio-simulator",
+      "title": "Portfolio Simulator",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "prism-core",
+      "title": "Prism Core",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "production-core",
+      "title": "Production Core",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "production-promotion",
+      "title": "Production Promotion",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "profit-radar",
+      "title": "Profit Radar",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "proof-deck",
+      "title": "Proof Deck",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "proof-engine",
+      "title": "Proof Engine",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "pulse-grid",
+      "title": "Pulse Grid",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "quantum-board",
+      "title": "Quantum Board",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "quantum-hq",
+      "title": "Quantum Hq",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "quantum-mesh",
+      "title": "Quantum Mesh",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "quantum-ops",
+      "title": "Quantum Ops",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "quantum-stack",
+      "title": "Quantum Stack",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "recovery-fortress",
+      "title": "Recovery Fortress",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "recovery-matrix",
+      "title": "Recovery Matrix",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "recovery-theater",
+      "title": "Recovery Theater",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "relay-dome",
+      "title": "Relay Dome",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "release-memory",
+      "title": "Release Memory",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "remote-promotion",
+      "title": "Remote Promotion",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "replay-library",
+      "title": "Replay Library",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "research-cinema",
+      "title": "Research Cinema",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "research-constellation",
+      "title": "Research Constellation",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "research-exchange",
+      "title": "Research Exchange",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "research-studio",
+      "title": "Research Studio",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "research-vault",
+      "title": "Research Vault",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "resilience-deck",
+      "title": "Resilience Deck",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "resilience-os",
+      "title": "Resilience Os",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "revenue-bridge",
+      "title": "Revenue Bridge",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "revenue-cockpit",
+      "title": "Revenue Cockpit",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "revenue-flight-deck",
+      "title": "Revenue Flight Deck",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "revenue-fortress",
+      "title": "Revenue Fortress",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "revenue-intelligence",
+      "title": "Revenue Intelligence",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "revenue-os",
+      "title": "Revenue Os",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "revenue-radar",
+      "title": "Revenue Radar",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "revenue-reactor",
+      "title": "Revenue Reactor",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "risk-cockpit",
+      "title": "Risk Cockpit",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "route-arbitrator",
+      "title": "Route Arbitrator",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "route-memory",
+      "title": "Route Memory",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "runtime-capsule",
+      "title": "Runtime Capsule",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "runtime-charter",
+      "title": "Runtime Charter",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "runtime-conductor",
+      "title": "Runtime Conductor",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "runtime-covenant",
+      "title": "Runtime Covenant",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "runtime-galaxy",
+      "title": "Runtime Galaxy",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "runtime-health",
+      "title": "Runtime Health",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "runtime-lab",
+      "title": "Runtime Lab",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "runtime-registry",
+      "title": "Runtime Registry",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "runtime-theater",
+      "title": "Runtime Theater",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "scenario-exchange",
+      "title": "Scenario Exchange",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "scenario-genome",
+      "title": "Scenario Genome",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "scenario-lab",
+      "title": "Scenario Lab",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "scenario-memory",
+      "title": "Scenario Memory",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "scenario-radar",
+      "title": "Scenario Radar",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "scenario-router",
+      "title": "Scenario Router",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "security-center",
+      "title": "Security Center",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "sentinel-core",
+      "title": "Sentinel Core",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "session-bridge",
+      "title": "Session Bridge",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "session-lab",
+      "title": "Session Lab",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "signal-court",
+      "title": "Signal Court",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "signal-hub",
+      "title": "Signal Hub",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "signal-parliament",
+      "title": "Signal Parliament",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "sovereign-grid",
+      "title": "Sovereign Grid",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "state-vault",
+      "title": "State Vault",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "strategic-genome",
+      "title": "Strategic Genome",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "strategic-memory-vault",
+      "title": "Strategic Memory Vault",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "strategy-commons",
+      "title": "Strategy Commons",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "strategy-factory",
+      "title": "Strategy Factory",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "strategy-genome",
+      "title": "Strategy Genome",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "strategy-lab",
+      "title": "Strategy Lab",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "strategy-memory",
+      "title": "Strategy Memory",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "strategy-memory-hub",
+      "title": "Strategy Memory Hub",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "strategy-reactor",
+      "title": "Strategy Reactor",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "strategy-theater",
+      "title": "Strategy Theater",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "strategy-vault",
+      "title": "Strategy Vault",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "super-control",
+      "title": "Super Control",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "supremacy-core",
+      "title": "Supremacy Core",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "switchboard",
+      "title": "Switchboard",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "system-director",
+      "title": "System Director",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "titan-core",
+      "title": "Titan Core",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "titan-grid",
+      "title": "Titan Grid",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "titan-mesh",
+      "title": "Titan Mesh",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "titan-stack",
+      "title": "Titan Stack",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "trading-core",
+      "title": "Trading Core",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "treasury-citadel",
+      "title": "Treasury Citadel",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "treasury-matrix",
+      "title": "Treasury Matrix",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "treasury-router",
+      "title": "Treasury Router",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "treaty-board",
+      "title": "Treaty Board",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "trust-center",
+      "title": "Trust Center",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "universal-fabric",
+      "title": "Universal Fabric",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "universe-ops",
+      "title": "Universe Ops",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "universe-router",
+      "title": "Universe Router",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "vault-matrix",
+      "title": "Vault Matrix",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "vector-core",
+      "title": "Vector Core",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "venture-radar",
+      "title": "Venture Radar",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "vertex-core",
+      "title": "Vertex Core",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "war-room",
+      "title": "War Room",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "wave-engine",
+      "title": "Wave Engine",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "workspace",
+      "title": "Workspace",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "workspace-router",
+      "title": "Workspace Router",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "world-engine",
+      "title": "World Engine",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "zenith-core",
+      "title": "Zenith Core",
+      "type": "dashboard",
+      "managed": false
+    },
+    {
+      "slug": "zero-touch-ops",
+      "title": "Zero Touch Ops",
+      "type": "dashboard",
+      "managed": false
+    }
+  ],
+  "goals": [
+    "Maintain all existing platform surfaces automatically",
+    "Create missing modules from one central manifest",
+    "Keep master runtime in autonomous builder mode",
+    "Run continuously without manual intervention"
+  ],
+  "time": "2026-04-09T00:59:47.291Z"
+}
