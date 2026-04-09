@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "lines": [
+  "directors": [
     {
-      "slug": "alpha-line",
-      "title": "Alpha Line",
-      "score": 100,
+      "slug": "surfaces",
+      "title": "Surface Director",
+      "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "risk-line",
-      "title": "Risk Line",
-      "score": 100,
+      "slug": "signals",
+      "title": "Signal Director",
+      "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "execution-line",
-      "title": "Execution Line",
-      "score": 100,
+      "slug": "runtime",
+      "title": "Runtime Director",
+      "progress": 100,
       "status": "closed"
     },
     {
-      "slug": "policy-line",
-      "title": "Policy Line",
-      "score": 100,
+      "slug": "strategy",
+      "title": "Strategy Director",
+      "progress": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeLines": 16,
-    "verifiedPatterns": 20,
-    "governedStrategies": 18,
+    "activeLoops": 20,
+    "linkedRuntimes": 24,
+    "governedPipelines": 18,
     "factoryConfidence": 100
   },
-  "time": "2026-04-08T23:59:50.088Z"
+  "time": "2026-04-09T00:38:31.068Z"
 }

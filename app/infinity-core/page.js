@@ -4,7 +4,7 @@ import path from "path";
 export const dynamic = "force-dynamic";
 
 function readJson(file, fallback){
-  try{ if(fs.existsSync(file)) return JSON.parse(fs.readFileSync(file, "utf8")); }catch{}
+  try{ if(fs.existsSync(file)) return JSON.parse(fs.readFileSync(file,"utf8")); }catch{}
   return fallback;
 }
 
@@ -21,10 +21,10 @@ export default function Page(){
         <div style={card}>
           <div style={{color:"#60a5fa",letterSpacing:4,fontSize:12}}>TRADING PRO MAX</div>
           <h1 style={{fontSize:42,margin:"10px 0 0"}}>Infinity Core</h1>
-          <div style={{marginTop:10,color:"#94a3b8"}}>Overall: {runtime.overallProgress}%</div>
+          <div style={{marginTop:10,color:"#94a3b8"}}>Overall: {runtime.overallProgress}% · {runtime.infinityContinuation}</div>
         </div>
 
-        <div style={{display:"grid",gridTemplateColumns:"repeat(6,minmax(0,1fr))",gap:16}}>
+        <div style={{display:"grid",gridTemplateColumns:"repeat(5,minmax(0,1fr))",gap:16}}>
           {Object.entries(runtime.domains || {}).map(([k,v])=>(
             <div key={k} style={card}>
               <div style={{color:"#94a3b8",fontSize:12}}>{k}</div>
@@ -52,7 +52,7 @@ export default function Page(){
             {Object.entries(data.metrics || {}).map(([k,v])=>(
               <div key={k} style={box}>
                 <div style={{color:"#94a3b8",fontSize:12}}>{k}</div>
-                <div style={{fontSize:28,fontWeight:900,marginTop:6}}>{String(v)}</div>
+                <div style={{fontSize:28,fontWeight:900,marginTop:6}}>{v}%</div>
               </div>
             ))}
           </div>

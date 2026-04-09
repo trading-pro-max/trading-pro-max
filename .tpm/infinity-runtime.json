@@ -1,41 +1,36 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 97,
-  "completed": 97,
-  "remaining": 3,
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "infinityContinuation": "ACTIVE",
+  "externalDeployment": "FROZEN_UNTIL_HOSTING_UPGRADE",
   "domains": {
-    "director": 100,
-    "studio": 86,
-    "memory": 100,
-    "genome": 100,
-    "continuity": 100
+    "infinity": 100,
+    "factory": 100,
+    "freeze": 100,
+    "continuity": 100,
+    "archive": 100
   },
   "nextWave": [
     {
-      "slug": "director-depth",
-      "title": "director depth",
+      "slug": "infinity-density",
+      "title": "infinity density",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "studio-depth",
-      "title": "studio depth",
-      "progress": 86,
-      "status": "active"
-    },
-    {
-      "slug": "memory-depth",
-      "title": "memory depth",
+      "slug": "factory-depth",
+      "title": "factory depth",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "genome-depth",
-      "title": "genome depth",
+      "slug": "freeze-discipline",
+      "title": "freeze discipline",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T00:36:01.808Z"
-}
+  "time": "2026-04-09T00:38:31.068

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "rules": [
+    {
+      "slug": "hosting-upgrade",
+      "title": "Hosting Upgrade Required",
+      "score": 100,
+      "status": "enforced"
+    },
+    {
+      "slug": "external-switch",
+      "title": "External Switch Frozen",
+      "score": 100,
+      "status": "enforced"
+    },
+    {
+      "slug": "local-certification",
+      "title": "Local 100 Preserved",
+      "score": 100,
+      "status": "enforced"
+    },
+    {
+      "slug": "autonomous-continuation",
+      "title": "Autonomous Continuation",
+      "score": 100,
+      "status": "enforced"
+    }
+  ],
+  "metrics": {
+    "localLocked": 100,
+    "deploymentFrozen": 100,
+    "approvalRequired": 100,
+    "freezeConfidence": 100
+  },
+  "time": "2026-04-09T00:38:31.068Z"
+}

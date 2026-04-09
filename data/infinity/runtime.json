@@ -2,14 +2,20 @@
   "ok": true,
   "engines": [
     {
-      "slug": "autonomy",
-      "title": "Autonomy Infinity",
+      "slug": "builder",
+      "title": "Builder Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "command",
-      "title": "Command Infinity",
+      "slug": "growth",
+      "title": "Growth Infinity",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "governance",
+      "title": "Governance Infinity",
       "score": 100,
       "status": "closed"
     },
@@ -18,19 +24,13 @@
       "title": "Memory Infinity",
       "score": 100,
       "status": "closed"
-    },
-    {
-      "slug": "operator",
-      "title": "Operator Infinity",
-      "score": 100,
-      "status": "closed"
     }
   ],
   "metrics": {
-    "infiniteMode": "ACTIVE",
-    "governedLayers": 24,
-    "linkedRuntimes": 30,
-    "protectedStores": 26
+    "localBase": 100,
+    "expansionBase": 100,
+    "continuityBase": 100,
+    "infinityConfidence": 100
   },
-  "time": "2026-04-09T00:33:24.825Z"
+  "time": "2026-04-09T00:38:31.067Z"
 }
