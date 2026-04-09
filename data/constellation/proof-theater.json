@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "stages": [
+    {
+      "slug": "runtime-proof",
+      "title": "Runtime Proof",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-proof",
+      "title": "Audit Proof",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-proof",
+      "title": "Recovery Proof",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-proof",
+      "title": "Trust Proof",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "proofStages": 12,
+    "replayableProofs": 22,
+    "governedArtifacts": 20,
+    "proofConfidence": 100
+  },
+  "time": "2026-04-09T02:49:59.816Z"
+}

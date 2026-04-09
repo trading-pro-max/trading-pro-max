@@ -128,7 +128,9 @@
     "/evidence-router",
     "/bridge-matrix",
     "/connector-audit",
-    "/external-readiness"
+    "/external-readiness",
+    "/proof-theater",
+    "/ops-cabinet"
   ],
   "commands": [
     "npm run tpm:navigator:once",
@@ -642,6 +644,55 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "helix-core",
+      "title": "helix core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "signal-parliament",
+      "title": "signal parliament",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "resilience-deck",
+      "title": "resilience deck",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "federation-core",
+      "title": "federation core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-cabinet",
+      "title": "operator cabinet",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "proof-theater",
+      "title": "proof theater",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "ops-cabinet",
+      "title": "ops cabinet",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "navigatorLayer": {
@@ -671,10 +722,10 @@
   },
   "constellationLayer": {
     "active": true,
-    "layer": "CONSTELLATION_CORE_ASSURANCE_GRAPH_OPS_MEMORY",
-    "progress": 100,
+    "layer": "CONSTELLATION_CORE_PROOF_THEATER_OPS_CABINET",
+    "progress": 93,
     "status": "ACTIVE",
-    "time": "2026-04-09T02:49:36.936Z"
+    "time": "2026-04-09T02:49:59.826Z"
   },
   "infinity": {
     "active": true,
@@ -717,15 +768,15 @@
     "layer": "FEDERATION_CORE_ASSURANCE_GRAPH_OPERATOR_CABINET",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T02:48:23.696Z"
+    "time": "2026-04-09T02:49:53.903Z"
   },
-  "time": "2026-04-09T02:49:24.336Z",
+  "time": "2026-04-09T02:50:01.071Z",
   "helixLayer": {
     "active": true,
     "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T02:47:44.085Z"
+    "time": "2026-04-09T02:49:44.637Z"
   },
   "horizonLayer": {
     "active": true,

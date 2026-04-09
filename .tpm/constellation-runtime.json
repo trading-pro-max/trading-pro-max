@@ -1,14 +1,14 @@
 {
   "ok": true,
   "mode": "TPM_CONSTELLATION_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
+  "overallProgress": 93,
+  "completed": 93,
+  "remaining": 7,
   "domains": {
     "constellation": 100,
-    "assurance": 100,
-    "memory": 100,
-    "proof": 100,
+    "proof": 83,
+    "cabinet": 83,
+    "proofBase": 100,
     "continuity": 100
   },
   "nextWave": [
@@ -19,17 +19,17 @@
       "status": "active"
     },
     {
-      "slug": "assurance-depth",
-      "title": "assurance depth",
-      "progress": 100,
+      "slug": "proof-theater-depth",
+      "title": "proof theater depth",
+      "progress": 83,
       "status": "active"
     },
     {
-      "slug": "ops-memory-depth",
-      "title": "ops memory depth",
-      "progress": 100,
+      "slug": "cabinet-discipline",
+      "title": "cabinet discipline",
+      "progress": 83,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T02:49:36.909Z"
+  "time": "2026-04-09T02:49:59.816Z"
 }

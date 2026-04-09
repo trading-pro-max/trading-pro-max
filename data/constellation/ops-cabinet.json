@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "desks": [
+  "cabinets": [
     {
       "slug": "ops-cabinet",
       "title": "Ops Cabinet",
@@ -14,23 +14,23 @@
       "status": "closed"
     },
     {
-      "slug": "policy-cabinet",
-      "title": "Policy Cabinet",
+      "slug": "route-cabinet",
+      "title": "Route Cabinet",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "trust-cabinet",
-      "title": "Trust Cabinet",
+      "slug": "launch-cabinet",
+      "title": "Launch Cabinet",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeDesks": 12,
-    "routedDecisions": 26,
-    "protectedCommands": 18,
-    "cabinetConfidence": 100
+    "activeCabinets": 12,
+    "governedActions": 18,
+    "switchConfidence": 100,
+    "continuityConfidence": 100
   },
-  "time": "2026-04-09T02:49:53.820Z"
+  "time": "2026-04-09T02:49:59.816Z"
 }
