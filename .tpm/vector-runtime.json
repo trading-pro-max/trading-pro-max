@@ -6,8 +6,8 @@
   "remaining": 0,
   "domains": {
     "vector": 100,
-    "scenarios": 100,
-    "assurance": 100,
+    "consensus": 100,
+    "theater": 100,
     "proof": 100,
     "continuity": 100
   },
@@ -19,17 +19,16 @@
       "status": "active"
     },
     {
-      "slug": "scenario-routing",
-      "title": "scenario routing",
+      "slug": "consensus-depth",
+      "title": "consensus depth",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "assurance-strength",
-      "title": "assurance strength",
+      "slug": "theater-strength",
+      "title": "theater strength",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T01:48:13.168Z"
-}
+  "time": "2026-04-09T02:52:36.3

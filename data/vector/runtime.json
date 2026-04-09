@@ -2,20 +2,20 @@
   "ok": true,
   "engines": [
     {
-      "slug": "market-vector",
-      "title": "Market Vector",
-      "score": 100,
-      "status": "closed"
-    },
-    {
-      "slug": "execution-vector",
-      "title": "Execution Vector",
+      "slug": "runtime-vector",
+      "title": "Runtime Vector",
       "score": 100,
       "status": "closed"
     },
     {
       "slug": "policy-vector",
       "title": "Policy Vector",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution-vector",
+      "title": "Execution Vector",
       "score": 100,
       "status": "closed"
     },
@@ -28,9 +28,9 @@
   ],
   "metrics": {
     "activeVectors": 20,
-    "governedVectors": 18,
-    "replayVectors": 16,
+    "linkedSignals": 26,
+    "governedDecisions": 22,
     "vectorConfidence": 100
   },
-  "time": "2026-04-09T01:48:13.166Z"
+  "time": "2026-04-09T02:52:36.363Z"
 }
