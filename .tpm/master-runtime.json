@@ -171,7 +171,9 @@
     "npm run tpm:enterprise:once",
     "npm run tpm:enterprise",
     "npm run tpm:runtimeops:once",
-    "npm run tpm:runtimeops"
+    "npm run tpm:runtimeops",
+    "npm run tpm:prism:once",
+    "npm run tpm:prism"
   ],
   "pages": [
     "/master-control",
@@ -253,7 +255,10 @@
     "/ops-replay",
     "/connector-inspector",
     "/env-doctor",
-    "/runtime-health"
+    "/runtime-health",
+    "/prism-core",
+    "/memory-map",
+    "/execution-forum"
   ],
   "nextWave": [
     {
@@ -773,6 +778,27 @@
       "progress": 80,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "prism-core",
+      "title": "prism core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-map",
+      "title": "memory map",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "execution-forum",
+      "title": "execution forum",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-09T00:19:40.324Z",
@@ -942,5 +968,13 @@
     "progress": 80,
     "status": "ACTIVE",
     "time": "2026-04-09T00:19:42.288Z"
+  },
+  "infinityContinuation": "ACTIVE",
+  "prismLayer": {
+    "active": true,
+    "layer": "PRISM_CORE_MEMORY_MAP_EXECUTION_FORUM",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-09T00:19:48.329Z"
   }
 }
