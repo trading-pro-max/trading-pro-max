@@ -36,7 +36,10 @@
     "/operator-brain",
     "/revenue-flight-deck",
     "/deployment-readiness",
-    "/hyperjump-center"
+    "/hyperjump-center",
+    "/constellation-hub",
+    "/scenario-exchange",
+    "/assurance-console"
   ],
   "commands": [
     "npm run tpm:council:once",
@@ -57,7 +60,9 @@
     "npm run tpm:quantum:once",
     "npm run tpm:quantum",
     "npm run tpm:hyperjump:once",
-    "npm run tpm:hyperjump"
+    "npm run tpm:hyperjump",
+    "npm run tpm:constellation:once",
+    "npm run tpm:constellation"
   ],
   "nextWave": [
     {
@@ -234,6 +239,27 @@
       "progress": 97,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "constellation-hub",
+      "title": "constellation hub",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "scenario-exchange",
+      "title": "scenario exchange",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "assurance-console",
+      "title": "assurance console",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "councilLayer": {
@@ -292,5 +318,12 @@
     "status": "ACTIVE",
     "time": "2026-04-09T00:36:18.660Z"
   },
-  "time": "2026-04-09T00:36:22.605Z"
+  "time": "2026-04-09T00:36:22.605Z",
+  "constellationLayer": {
+    "active": true,
+    "layer": "CONSTELLATION_HUB_SCENARIO_EXCHANGE_ASSURANCE_CONSOLE",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-09T00:36:38.335Z"
+  }
 }
