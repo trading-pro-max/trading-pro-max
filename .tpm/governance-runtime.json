@@ -1,13 +1,13 @@
 {
   "ok": true,
   "mode": "TPM_GOVERNANCE_ACTIVE",
-  "overallProgress": 93,
-  "completed": 93,
-  "remaining": 7,
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
   "domains": {
     "governance": 100,
     "alerts": 100,
-    "config": 67,
+    "config": 83,
     "policies": 100,
     "continuity": 100
   },
@@ -30,9 +30,9 @@
     {
       "slug": "config-governance",
       "title": "config governance",
-      "progress": 67,
+      "progress": 83,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T01:24:11.636Z"
+  "time": "2026-04-09T01:25:47.583Z"
 }

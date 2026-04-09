@@ -1,15 +1,15 @@
 {
   "ok": true,
   "mode": "TPM_SUPREMACY_ACTIVE",
-  "overallProgress": 87,
-  "completed": 87,
-  "remaining": 13,
+  "overallProgress": 90,
+  "completed": 90,
+  "remaining": 10,
   "domains": {
     "supremacy": 100,
     "genome": 100,
     "autonomy": 86,
     "expansion": 100,
-    "zeroTouch": 50
+    "zeroTouch": 63
   },
   "nextWave": [
     {
@@ -27,9 +27,9 @@
     {
       "slug": "zero-touch-depth",
       "title": "zero touch depth",
-      "progress": 50,
+      "progress": 63,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T01:23:44.003Z"
+  "time": "2026-04-09T01:25:14.029Z"
 }

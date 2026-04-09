@@ -16,8 +16,8 @@
     {
       "slug": "ibkr",
       "title": "IBKR",
-      "ready": false,
-      "status": "empty"
+      "ready": true,
+      "status": "ready"
     },
     {
       "slug": "smtp",
@@ -27,10 +27,10 @@
     }
   ],
   "bridges": {
-    "providerCoverage": 0,
+    "providerCoverage": 25,
     "runtimeCoverage": 98,
     "fallbackCoverage": 96,
     "continuityCoverage": 99
   },
-  "time": "2026-04-09T01:24:13.315Z"
+  "time": "2026-04-09T01:25:50.462Z"
 }

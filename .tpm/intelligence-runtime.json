@@ -1,15 +1,15 @@
 {
   "ok": true,
   "mode": "TPM_INTELLIGENCE_ACTIVE",
-  "overallProgress": 97,
-  "completed": 97,
-  "remaining": 3,
+  "overallProgress": 95,
+  "completed": 95,
+  "remaining": 5,
   "domains": {
     "brain": 100,
     "research": 100,
     "autonomy": 100,
     "surfaces": 93,
-    "deployment": 89,
+    "deployment": 72,
     "operations": 100,
     "expansion": 100
   },
@@ -17,8 +17,8 @@
     "routes": 1,
     "pages": 328,
     "libs": 97,
-    "scripts": 114,
-    "filesTracked": 1110
+    "scripts": 115,
+    "filesTracked": 1111
   },
   "executionQueue": [],
   "nextWave": [
@@ -46,7 +46,7 @@
     {
       "slug": "external-deploy",
       "title": "External deployment bridge",
-      "progress": 89,
+      "progress": 72,
       "lane": "Deploy",
       "status": "waiting-plan"
     },
@@ -61,5 +61,5 @@
   "blockers": [
     "External GoDaddy automation blocked by current plan"
   ],
-  "time": "2026-04-09T01:23:58.875Z"
+  "time": "2026-04-09T01:25:43.804Z"
 }

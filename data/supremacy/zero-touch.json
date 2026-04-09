@@ -4,7 +4,7 @@
     {
       "slug": "provider-autostate",
       "title": "Provider Autostate",
-      "score": 0,
+      "score": 25,
       "status": "strong"
     },
     {
@@ -27,10 +27,10 @@
     }
   ],
   "metrics": {
-    "providerCoverage": 0,
+    "providerCoverage": 25,
     "workflowCoverage": 100,
     "controlCoverage": 100,
     "zeroTouchConfidence": 100
   },
-  "time": "2026-04-09T01:23:44.003Z"
+  "time": "2026-04-09T01:25:14.029Z"
 }

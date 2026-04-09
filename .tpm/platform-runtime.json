@@ -1,12 +1,12 @@
 {
   "ok": true,
   "mode": "TPM_PLATFORM_ACTIVE",
-  "overallProgress": 83,
-  "completed": 83,
-  "remaining": 17,
+  "overallProgress": 87,
+  "completed": 87,
+  "remaining": 13,
   "domains": {
     "gateway": 100,
-    "integrations": 33,
+    "integrations": 50,
     "lifecycle": 83,
     "control": 100,
     "continuity": 100
@@ -21,7 +21,7 @@
     {
       "slug": "provider-coverage",
       "title": "provider coverage",
-      "progress": 33,
+      "progress": 50,
       "status": "active"
     },
     {
@@ -31,5 +31,5 @@
       "status": "active"
     }
   ],
-  "time": "2026-04-09T01:24:13.315Z"
+  "time": "2026-04-09T01:25:50.462Z"
 }

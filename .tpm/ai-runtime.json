@@ -2,14 +2,14 @@
   "ok": true,
   "mode": "TPM_AI_ACTIVE",
   "vision": "Trading Pro Max global AI autonomous platform",
-  "overallProgress": 93,
-  "completed": 93,
-  "remaining": 7,
+  "overallProgress": 86,
+  "completed": 86,
+  "remaining": 14,
   "domains": {
     "autonomy": 100,
     "ai": 100,
     "surface": 86,
-    "deployment": 78,
+    "deployment": 44,
     "operations": 100
   },
   "blockers": [
@@ -39,7 +39,7 @@
     {
       "slug": "external-deploy",
       "title": "external deploy",
-      "progress": 78,
+      "progress": 44,
       "stage": "BLOCKED_BY_PLAN",
       "status": "waiting"
     },
@@ -57,5 +57,5 @@
     "npm run tpm:autobind",
     "npm run tpm:godaddy-sftp-status"
   ],
-  "time": "2026-04-09T01:23:57.900Z"
+  "time": "2026-04-09T01:25:42.786Z"
 }
