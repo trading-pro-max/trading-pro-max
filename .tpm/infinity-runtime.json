@@ -1,49 +1,46 @@
 {
   "ok": true,
   "mode": "TPM_INFINITY_ACTIVE",
-  "overallProgress": 98,
-  "completed": 98,
-  "remaining": 2,
-  "infiniteContinuation": "ACTIVE",
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
   "domains": {
-    "synthesis": 100,
-    "fabric": 86,
-    "autonomy": 100,
-    "revenue": 100,
-    "operators": 100,
-    "continuity": 100
+    "infinity": 100,
+    "warRoom": 100,
+    "radar": 100,
+    "queue": 86,
+    "proof": 100
   },
   "nextWave": [
     {
-      "slug": "infinity-synthesis",
-      "title": "infinity synthesis",
+      "slug": "infinity-depth",
+      "title": "infinity depth",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "mission-fabric",
-      "title": "mission fabric",
+      "slug": "war-room-scale",
+      "title": "war room scale",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "radar-scale",
+      "title": "radar scale",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "queue-scale",
+      "title": "queue scale",
       "progress": 86,
       "status": "active"
     },
     {
-      "slug": "autonomy-director",
-      "title": "autonomy director",
-      "progress": 100,
-      "status": "active"
-    },
-    {
-      "slug": "revenue-cockpit",
-      "title": "revenue cockpit",
-      "progress": 100,
-      "status": "active"
-    },
-    {
-      "slug": "operator-timeline",
-      "title": "operator timeline",
+      "slug": "proof-scale",
+      "title": "proof scale",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T01:32:45.954Z"
-}
+  "time": "2026-04-09T01:34:16.026Z

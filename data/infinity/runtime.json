@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "hubs": [
+  "towers": [
     {
       "slug": "runtime-infinity",
       "title": "Runtime Infinity",
@@ -8,14 +8,20 @@
       "status": "closed"
     },
     {
-      "slug": "build-infinity",
-      "title": "Build Infinity",
+      "slug": "command-infinity",
+      "title": "Command Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "ops-infinity",
-      "title": "Ops Infinity",
+      "slug": "growth-infinity",
+      "title": "Growth Infinity",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-infinity",
+      "title": "Trust Infinity",
       "score": 100,
       "status": "closed"
     },
@@ -27,10 +33,11 @@
     }
   ],
   "metrics": {
-    "activeLayers": 24,
-    "connectedRuntimes": 30,
-    "protectedStores": 28,
-    "infinityConfidence": 100
+    "infiniteMode": "ACTIVE",
+    "governedLayers": 24,
+    "protectedStores": 30,
+    "autonomousLoops": 22,
+    "localReadiness": 100
   },
-  "time": "2026-04-09T01:06:03.553Z"
+  "time": "2026-04-09T01:34:16.024Z"
 }

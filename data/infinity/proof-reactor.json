@@ -1,0 +1,43 @@
+{
+  "ok": true,
+  "reactors": [
+    {
+      "slug": "runtime-reactor",
+      "title": "Runtime Reactor",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-reactor",
+      "title": "Audit Reactor",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-reactor",
+      "title": "Recovery Reactor",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-reactor",
+      "title": "Policy Reactor",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "release-reactor",
+      "title": "Release Reactor",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "proofCoverage": 100,
+    "replayCoverage": 100,
+    "auditCoverage": 100,
+    "trustCoverage": 100,
+    "reactorConfidence": 100
+  },
+  "time": "2026-04-09T01:34:16.026Z"
+}

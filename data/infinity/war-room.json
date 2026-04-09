@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "fronts": [
+    {
+      "slug": "product-front",
+      "title": "Product Front",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-front",
+      "title": "Market Front",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ops-front",
+      "title": "Ops Front",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-front",
+      "title": "Trust Front",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "expansion-front",
+      "title": "Expansion Front",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeFronts": 5,
+    "protectedPlans": 28,
+    "executionClarity": 100,
+    "warRoomConfidence": 100
+  },
+  "time": "2026-04-09T01:34:16.026Z"
+}

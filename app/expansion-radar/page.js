@@ -12,7 +12,7 @@ const card={background:"#111827",border:"1px solid #1f2937",borderRadius:22,padd
 const box={background:"#020617",borderRadius:14,padding:14};
 
 export default function Page(){
-  const data=readJson(path.join(process.cwd(),"data","constellation","expansion-radar.json"),{vectors:[],metrics:{}});
+  const data=readJson(path.join(process.cwd(),"data","infinity","expansion-radar.json"),{vectors:[],maps:{}});
   return (
     <main style={{minHeight:"100vh",background:"linear-gradient(180deg,#020617 0%,#0b1120 100%)",color:"white",padding:24,fontFamily:"Arial,sans-serif"}}>
       <div style={{maxWidth:1500,margin:"0 auto",display:"grid",gap:20}}>
@@ -21,7 +21,7 @@ export default function Page(){
           <h1 style={{fontSize:42,margin:"10px 0 0"}}>Expansion Radar</h1>
         </div>
 
-        <div style={{display:"grid",gridTemplateColumns:"repeat(4,minmax(0,1fr))",gap:16}}>
+        <div style={{display:"grid",gridTemplateColumns:"repeat(5,minmax(0,1fr))",gap:16}}>
           {(data.vectors || []).map((x)=>(
             <div key={x.slug} style={box}>
               <div style={{fontWeight:900}}>{x.title}</div>
@@ -32,12 +32,12 @@ export default function Page(){
         </div>
 
         <div style={card}>
-          <div style={{fontSize:22,fontWeight:900,marginBottom:12}}>Metrics</div>
-          <div style={{display:"grid",gridTemplateColumns:"repeat(4,minmax(0,1fr))",gap:12}}>
-            {Object.entries(data.metrics || {}).map(([k,v])=>(
+          <div style={{fontSize:22,fontWeight:900,marginBottom:12}}>Maps</div>
+          <div style={{display:"grid",gridTemplateColumns:"repeat(5,minmax(0,1fr))",gap:12}}>
+            {Object.entries(data.maps || {}).map(([k,v])=>(
               <div key={k} style={box}>
                 <div style={{color:"#94a3b8",fontSize:12}}>{k}</div>
-                <div style={{fontSize:28,fontWeight:900,marginTop:6}}>{v}</div>
+                <div style={{fontSize:28,fontWeight:900,marginTop:6}}>{String(v)}</div>
               </div>
             ))}
           </div>
