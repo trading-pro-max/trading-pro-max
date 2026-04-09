@@ -147,7 +147,9 @@
     "tpm:bridge:once": "node ./lib/tpm-bridge-core.mjs",
     "tpm:bridge": "node ./scripts/tpm-bridge-loop.mjs",
     "tpm:live:once": "node ./lib/tpm-live-integrations.mjs",
-    "tpm:live": "node ./scripts/tpm-live-loop.mjs"
+    "tpm:live": "node ./scripts/tpm-live-loop.mjs",
+    "tpm:realtrade:once": "node ./lib/tpm-realtrade-core.mjs",
+    "tpm:realtrade": "node ./scripts/tpm-realtrade-loop.mjs"
   },
   "dependencies": {
     "@prisma/client": "^7.6.0",
