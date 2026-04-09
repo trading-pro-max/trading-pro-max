@@ -171,7 +171,9 @@
     "npm run tpm:prism:once",
     "npm run tpm:prism",
     "npm run tpm:quantum:once",
-    "npm run tpm:quantum"
+    "npm run tpm:quantum",
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity"
   ],
   "pages": [
     "/master-control",
@@ -256,7 +258,12 @@
     "/quantum-stack",
     "/operator-brain",
     "/revenue-flight-deck",
-    "/deployment-readiness"
+    "/deployment-readiness",
+    "/infinity-core",
+    "/autonomy-factory",
+    "/global-command-grid",
+    "/memory-citadel",
+    "/operator-supreme"
   ],
   "nextWave": [
     {
@@ -797,6 +804,41 @@
       "progress": 97,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "infinity-core",
+      "title": "infinity core",
+      "progress": 98,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomy-factory",
+      "title": "autonomy factory",
+      "progress": 98,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "global-command-grid",
+      "title": "global command grid",
+      "progress": 98,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-citadel",
+      "title": "memory citadel",
+      "progress": 98,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "operator-supreme",
+      "title": "operator supreme",
+      "progress": 98,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "time": "2026-04-09T00:25:40.503Z",
@@ -964,5 +1006,12 @@
     "progress": 100,
     "status": "ACTIVE",
     "time": "2026-04-09T00:25:48.487Z"
+  },
+  "infinityLayer": {
+    "active": true,
+    "layer": "INFINITY_CORE_AUTONOMY_FACTORY_GLOBAL_COMMAND_GRID_MEMORY_CITADEL_OPERATOR_SUPREME",
+    "progress": 98,
+    "status": "ACTIVE",
+    "time": "2026-04-09T00:25:54.729Z"
   }
 }
