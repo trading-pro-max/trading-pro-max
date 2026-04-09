@@ -1,0 +1,23 @@
+﻿{
+  "mode": "LEGAL_PROFIT_MAX",
+  "legal_clean_100": true,
+  "unlawful_behavior": false,
+  "no_profit_guarantees": true,
+  "objective": "maximize_expected_return_within_lawful_risk_controlled_limits",
+  "rules": {
+    "compliance_first": true,
+    "risk_adjusted_profit": true,
+    "capital_protection": true,
+    "auditability": true,
+    "traceability": true,
+    "professional_operations_only": true
+  },
+  "forbidden": [
+    "illegal market abuse",
+    "deceptive claims",
+    "guaranteed return promises",
+    "hidden risk escalation",
+    "unlicensed regulated activity"
+  ],
+  "time": "AUTO"
+}
