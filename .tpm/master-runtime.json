@@ -1287,4 +1287,51 @@
   },
   "globalExpansion": {
     "active": true,
-    "layer": "NEXUS_CORE_MISSION_LEDGER_GRO
+    "layer": "NEXUS_CORE_MISSION_LEDGER_GROWTH_RADAR",
+    "progress": 97,
+    "status": "CLOSED_100",
+    "time": "2026-04-09T00:23:12.552Z"
+  },
+  "councilLayer": {
+    "active": true,
+    "layer": "COUNCIL_CORE_KNOWLEDGE_LEDGER_SWITCHBOARD",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-09T00:23:15.635Z"
+  },
+  "atlasLayer": {
+    "active": true,
+    "layer": "ATLAS_MESH_DECISION_ARCHIVE_RUNTIME_THEATER",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-09T00:23:16.141Z"
+  },
+  "kernelLayer": {
+    "active": true,
+    "layer": "KERNEL_OS_SCENARIO_GENOME_OPERATOR_MEMORY",
+    "progress": 100,
+    "status": "ACTIVE",
+    "infinityContinuation": "ACTIVE",
+    "time": "2026-04-09T00:23:36.357Z"
+  },
+  "supremacyLayer": {
+    "active": true,
+    "layer": "SUPREMACY_CORE_GENOME_GRID_AUTONOMY_FABRIC_EXPANSION_VAULT_ZERO_TOUCH_OPS",
+    "progress": 87,
+    "status": "ACTIVE",
+    "time": "2026-04-09T00:23:41.811Z"
+  },
+  "hyperLayer": {
+    "active": true,
+    "layer": "HYPER_CORE_OPERATOR_GALAXY_REVENUE_FORTRESS_RESILIENCE_OS_LAUNCH_WAR_ROOM",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-09T00:23:49.404Z"
+  },
+  "runtimeExpansion": {
+    "active": true,
+    "modules": 5,
+    "status": "ACTIVE",
+    "time": "2026-04-09T00:23:49.404Z"
+  }
+}
