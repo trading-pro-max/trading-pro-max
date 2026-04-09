@@ -1,6 +1,21 @@
 [
   {
     "cycle": 1,
+    "lastRunAt": "2026-04-09T00:13:46.073Z",
+    "successCount": 0,
+    "failedCount": 49,
+    "discoveredCount": 49,
+    "git": {
+      "addOk": true,
+      "commitOk": true,
+      "pushOk": false,
+      "changed": true,
+      "commitMessage": "tpm: autopilot cycle 1",
+      "pushOutput": "\nfatal: unable to access 'https://github.com/trading-pro-max/trading-pro-max.git/': Could not resolve host: github.com\n"
+    }
+  },
+  {
+    "cycle": 1,
     "lastRunAt": "2026-04-09T00:11:44.992Z",
     "successCount": 0,
     "failedCount": 49,
@@ -1770,21 +1785,6 @@
       "changed": true,
       "commitMessage": "tpm: autopilot cycle 1",
       "pushOutput": "\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\nTo https://github.com/trading-pro-max/trading-pro-max.git\n   696419f5..795a7cb5  main -> main\n"
-    }
-  },
-  {
-    "cycle": 1,
-    "lastRunAt": "2026-04-08T18:34:11.148Z",
-    "successCount": 0,
-    "failedCount": 40,
-    "discoveredCount": 40,
-    "git": {
-      "addOk": false,
-      "commitOk": false,
-      "pushOk": true,
-      "changed": true,
-      "commitMessage": "tpm: autopilot cycle 1",
-      "pushOutput": "\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\nEverything up-to-date\n"
     }
   }
 ]
