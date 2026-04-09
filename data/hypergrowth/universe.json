@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "routes": [
+    {
+      "slug": "ops-universe",
+      "title": "Ops Universe",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-universe",
+      "title": "Market Universe",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "broker-universe",
+      "title": "Broker Universe",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "platform-universe",
+      "title": "Platform Universe",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "routedSurfaces": 34,
+    "governedSwitches": 18,
+    "universeCoverage": 100,
+    "routeConfidence": 100
+  },
+  "time": "2026-04-09T00:41:14.528Z"
+}
