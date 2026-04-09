@@ -1,20 +1,137 @@
-﻿{
-    "blockers":  [
-
-                 ],
-    "externalDeployment":  {
-                               "provider":  "GODADDY",
-                               "active":  true,
-                               "domain":  "tradin-gpromax.com",
-                               "time":  "2026-04-09T11:19:42.1974148+02:00",
-                               "status":  "UNLOCKED"
-                           },
-    "localCertified":  true,
-    "releaseGate":  "OPEN_EXTERNAL",
-    "finalReadiness":  "ready-external-deploy",
-    "completed":  100,
-    "ok":  true,
-    "remaining":  0,
-    "externalDeployBlocked":  false,
-    "overallProgress":  100
+{
+  "ok": true,
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "localCertified": true,
+  "releaseGate": "OPEN_LOCAL",
+  "finalReadiness": "ready-local-100",
+  "externalDeployBlocked": true,
+  "blockers": [
+    "GoDaddy SFTP credentials are not filled yet.",
+    "External deploy remains constrained by current hosting plan."
+  ],
+  "pages": [
+    "/constellation-core",
+    "/strategy-chamber",
+    "/assurance-vault",
+    "/active-center",
+    "/meta-grid",
+    "/replay-library",
+    "/gatekeeper-panel",
+    "/helix-core",
+    "/signal-parliament",
+    "/resilience-deck",
+    "/agent-mesh",
+    "/memory-os",
+    "/growth-engine"
+  ],
+  "commands": [
+    "npm run tpm:constellation:once",
+    "npm run tpm:constellation",
+    "npm run tpm:master:once",
+    "npm run tpm:active:once",
+    "npm run tpm:active",
+    "npm run tpm:meta:once",
+    "npm run tpm:helix:once",
+    "npm run tpm:agentmesh:once",
+    "npm run tpm:agentmesh"
+  ],
+  "nextWave": [
+    {
+      "slug": "constellation-core",
+      "title": "constellation core",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "strategy-chamber",
+      "title": "strategy chamber",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "assurance-vault",
+      "title": "assurance vault",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "active-center",
+      "title": "active center",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "infinite-continuation",
+      "title": "infinite continuation",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "mega-integration",
+      "title": "mega integration",
+      "progress": 100,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "agent-mesh-depth",
+      "title": "agent mesh depth",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "memory-os",
+      "title": "memory os",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "growth-engine",
+      "title": "growth engine",
+      "progress": 96,
+      "stage": "ACTIVE",
+      "status": "strong"
+    }
+  ],
+  "constellationLayer": {
+    "active": true,
+    "layer": "CONSTELLATION_CORE_STRATEGY_CHAMBER_ASSURANCE_VAULT",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-09T09:19:54.431Z"
+  },
+  "mode": "TPM_MASTER_ACTIVE_OMEGA",
+  "infiniteContinuation": "ACTIVE",
+  "activeMegaLayer": {
+    "active": true,
+    "layer": "ACTIVE_MEGA_INTEGRATION",
+    "progress": 100,
+    "status": "ACTIVE",
+    "time": "2026-04-09T09:19:57.861Z"
+  },
+  "runtimeDepth": {
+    "modules": 388,
+    "pages": 372,
+    "apiRoutes": 148,
+    "loops": 58,
+    "stores": 674,
+    "status": "CLOSED_100"
+  },
+  "time": "2026-04-09T09:20:31.120Z",
+  "postCertification": {
+    "active": true,
+    "layer": "AGENT_MESH_EXPANSION",
+    "progress": 96,
+    "status": "ACTIVE",
+    "time": "2026-04-09T09:20:33.949Z"
+  }
 }
