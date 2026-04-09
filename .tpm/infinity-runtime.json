@@ -6,9 +6,9 @@
   "remaining": 3,
   "domains": {
     "infinity": 100,
-    "autonomy": 86,
-    "revenue": 100,
-    "deploy": 100,
+    "builder": 83,
+    "waves": 100,
+    "proof": 100,
     "continuity": 100
   },
   "nextWave": [
@@ -19,17 +19,22 @@
       "status": "active"
     },
     {
-      "slug": "autonomy-command",
-      "title": "autonomy command",
-      "progress": 86,
+      "slug": "builder-autonomy",
+      "title": "builder autonomy",
+      "progress": 83,
       "status": "active"
     },
     {
-      "slug": "deployment-buffer",
-      "title": "deployment buffer",
+      "slug": "wave-orchestration",
+      "title": "wave orchestration",
       "progress": 100,
-      "status": "blocked"
+      "status": "active"
+    },
+    {
+      "slug": "proof-certainty",
+      "title": "proof certainty",
+      "progress": 100,
+      "status": "active"
     }
   ],
-  "time": "2026-04-09T00:52:56.892Z"
-}
+  "time": "2026-04-09T00:54:03.311Z

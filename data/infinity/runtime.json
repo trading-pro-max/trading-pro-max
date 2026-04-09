@@ -1,36 +1,36 @@
 {
   "ok": true,
-  "rings": [
+  "hubs": [
     {
-      "slug": "runtime-ring",
-      "title": "Runtime Ring",
+      "slug": "runtime-infinity",
+      "title": "Runtime Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "autonomy-ring",
-      "title": "Autonomy Ring",
+      "slug": "build-infinity",
+      "title": "Build Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "revenue-ring",
-      "title": "Revenue Ring",
+      "slug": "ops-infinity",
+      "title": "Ops Infinity",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "deploy-ring",
-      "title": "Deploy Ring",
+      "slug": "proof-infinity",
+      "title": "Proof Infinity",
       "score": 100,
-      "status": "closed-local"
+      "status": "closed"
     }
   ],
   "metrics": {
-    "infiniteMode": "ACTIVE",
-    "localReadiness": 100,
-    "expansionReadiness": 100,
-    "continuityReadiness": 100
+    "activeLayers": 24,
+    "connectedRuntimes": 30,
+    "protectedStores": 28,
+    "infinityConfidence": 100
   },
-  "time": "2026-04-09T00:52:56.892Z"
+  "time": "2026-04-09T00:54:03.309Z"
 }

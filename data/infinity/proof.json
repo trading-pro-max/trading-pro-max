@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "proofs": [
+    {
+      "slug": "runtime-proof",
+      "title": "Runtime Proof",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-proof",
+      "title": "Policy Proof",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-proof",
+      "title": "Audit Proof",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity-proof",
+      "title": "Continuity Proof",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "proofSets": 20,
+    "certifiedArtifacts": 22,
+    "replayCoverage": 100,
+    "proofConfidence": 100
+  },
+  "time": "2026-04-09T00:54:03.311Z"
+}
