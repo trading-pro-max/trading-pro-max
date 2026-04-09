@@ -1,35 +1,47 @@
 {
   "ok": true,
   "mode": "TPM_CONTINUUM_ACTIVE",
-  "overallProgress": 100,
-  "completed": 100,
-  "remaining": 0,
+  "overallProgress": 83,
+  "completed": 83,
+  "remaining": 17,
   "domains": {
-    "continuum": 100,
-    "commons": 100,
-    "assurance": 100,
-    "proof": 100,
-    "continuity": 100
+    "infinity": 83,
+    "autonomy": 83,
+    "revenue": 83,
+    "partners": 83,
+    "aiops": 83
   },
   "nextWave": [
     {
-      "slug": "continuum-density",
-      "title": "continuum density",
-      "progress": 100,
+      "slug": "infinity-depth",
+      "title": "infinity depth",
+      "progress": 83,
       "status": "active"
     },
     {
-      "slug": "commons-depth",
-      "title": "commons depth",
-      "progress": 100,
+      "slug": "autonomy-scale",
+      "title": "autonomy scale",
+      "progress": 83,
       "status": "active"
     },
     {
-      "slug": "assurance-strength",
-      "title": "assurance strength",
-      "progress": 100,
+      "slug": "revenue-clarity",
+      "title": "revenue clarity",
+      "progress": 83,
+      "status": "active"
+    },
+    {
+      "slug": "partner-scale",
+      "title": "partner scale",
+      "progress": 83,
+      "status": "active"
+    },
+    {
+      "slug": "aiops-density",
+      "title": "ai ops density",
+      "progress": 83,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T00:46:41.217Z"
+  "time": "2026-04-09T00:49:29.980Z"
 }

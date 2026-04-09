@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "directors": [
+    {
+      "slug": "runtime",
+      "title": "Runtime Director",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "routing",
+      "title": "Routing Director",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy",
+      "title": "Policy Director",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery",
+      "title": "Recovery Director",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "governedLoops": 18,
+    "autonomousBridges": 16,
+    "protectedAutomations": 15,
+    "directorConfidence": 100
+  },
+  "time": "2026-04-09T00:49:32.560Z"
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "radars": [
+    {
+      "slug": "subscriptions",
+      "title": "Subscriptions Radar",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth",
+      "title": "Growth Radar",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "retention",
+      "title": "Retention Radar",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "expansion",
+      "title": "Expansion Radar",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedStreams": 16,
+    "governedFunnels": 12,
+    "monetizationConfidence": 100,
+    "revenueClarity": 100
+  },
+  "time": "2026-04-09T00:49:32.560Z"
+}
