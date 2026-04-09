@@ -1,47 +1,47 @@
 {
   "ok": true,
   "mode": "TPM_CONTINUUM_ACTIVE",
-  "overallProgress": 83,
-  "completed": 83,
-  "remaining": 17,
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
   "domains": {
-    "infinity": 83,
-    "autonomy": 83,
-    "revenue": 83,
-    "partners": 83,
-    "aiops": 83
+    "infinity": 100,
+    "autonomy": 100,
+    "revenue": 100,
+    "partners": 100,
+    "aiops": 100
   },
   "nextWave": [
     {
       "slug": "infinity-depth",
       "title": "infinity depth",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "autonomy-scale",
       "title": "autonomy scale",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "revenue-clarity",
       "title": "revenue clarity",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "partner-scale",
       "title": "partner scale",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     },
     {
       "slug": "aiops-density",
       "title": "ai ops density",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T00:49:29.980Z"
+  "time": "2026-04-09T00:49:32.560Z"
 }

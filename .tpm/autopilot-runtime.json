@@ -1,23 +1,480 @@
-﻿{
-    "ok":  true,
-    "mode":  "TPM_AUTOPILOT_ACTIVE",
-    "overallProgress":  100,
-    "completed":  100,
-    "remaining":  0,
-    "localCertified":  true,
-    "releaseGate":  "OPEN_LOCAL",
-    "externalDeployBlocked":  true,
-    "infiniteContinuation":  "ACTIVE",
-    "serviceCount":  1,
-    "activeCount":  1,
-    "services":  [
-                     {
-                         "name":  "next-dev",
-                         "script":  "dev",
-                         "pid":  25724,
-                         "alive":  true,
-                         "status":  "ACTIVE"
-                     }
-                 ],
-    "updatedAt":  "2026-04-09T02:49:18.0785722+02:00"
+{
+  "ok": true,
+  "cycle": 1,
+  "status": "ACTIVE_WITH_ERRORS",
+  "discoveredScripts": [
+    "tpm:agentmesh:once",
+    "tpm:ai:once",
+    "tpm:analytics:once",
+    "tpm:apex:once",
+    "tpm:atlas:once",
+    "tpm:broker:once",
+    "tpm:command:once",
+    "tpm:constellation:once",
+    "tpm:continuum:once",
+    "tpm:council:once",
+    "tpm:enterprise:once",
+    "tpm:executive:once",
+    "tpm:expansion:once",
+    "tpm:fabric:once",
+    "tpm:federation:once",
+    "tpm:final:once",
+    "tpm:governance:once",
+    "tpm:helix:once",
+    "tpm:horizon:once",
+    "tpm:hyper:once",
+    "tpm:hypergrowth:once",
+    "tpm:hyperjump:once",
+    "tpm:infinity3:once",
+    "tpm:infinity7:once",
+    "tpm:infinity:once",
+    "tpm:intelligence:once",
+    "tpm:jump4:once",
+    "tpm:kernel:once",
+    "tpm:learning:once",
+    "tpm:market:once",
+    "tpm:meta:once",
+    "tpm:navigator:once",
+    "tpm:nexus:once",
+    "tpm:observability:once",
+    "tpm:omega:once",
+    "tpm:orchestrator:once",
+    "tpm:platform:once",
+    "tpm:prism:once",
+    "tpm:pulse:once",
+    "tpm:quantum:once",
+    "tpm:runtimeops:once",
+    "tpm:sentinel:once",
+    "tpm:simulation:once",
+    "tpm:sovereign:once",
+    "tpm:strategy:once",
+    "tpm:supremacy:once",
+    "tpm:titan:once",
+    "tpm:vector:once",
+    "tpm:vertex:once",
+    "tpm:zenith:once",
+    "tpm:master:once"
+  ],
+  "discoveredCount": 51,
+  "successCount": 0,
+  "failedCount": 51,
+  "lastRunAt": "2026-04-09T00:49:35.558Z",
+  "git": {
+    "addOk": false,
+    "commitOk": false,
+    "pushOk": true,
+    "changed": true,
+    "commitMessage": "tpm: autopilot cycle 1",
+    "pushOutput": "\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\ngit: 'credential-manager-core' is not a git command. See 'git --help'.\nEverything up-to-date\n"
+  },
+  "results": [
+    {
+      "script": "tpm:agentmesh:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.050Z",
+      "finishedAt": "2026-04-09T00:49:31.067Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:ai:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.067Z",
+      "finishedAt": "2026-04-09T00:49:31.069Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:analytics:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.069Z",
+      "finishedAt": "2026-04-09T00:49:31.071Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:apex:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.072Z",
+      "finishedAt": "2026-04-09T00:49:31.073Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:atlas:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.073Z",
+      "finishedAt": "2026-04-09T00:49:31.073Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:broker:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.073Z",
+      "finishedAt": "2026-04-09T00:49:31.074Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:command:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.074Z",
+      "finishedAt": "2026-04-09T00:49:31.075Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:constellation:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.075Z",
+      "finishedAt": "2026-04-09T00:49:31.075Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:continuum:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.075Z",
+      "finishedAt": "2026-04-09T00:49:31.076Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:council:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.076Z",
+      "finishedAt": "2026-04-09T00:49:31.076Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:enterprise:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.076Z",
+      "finishedAt": "2026-04-09T00:49:31.077Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:executive:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.077Z",
+      "finishedAt": "2026-04-09T00:49:31.078Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:expansion:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.078Z",
+      "finishedAt": "2026-04-09T00:49:31.079Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:fabric:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.079Z",
+      "finishedAt": "2026-04-09T00:49:31.080Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:federation:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.081Z",
+      "finishedAt": "2026-04-09T00:49:31.082Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:final:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.082Z",
+      "finishedAt": "2026-04-09T00:49:31.084Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:governance:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.084Z",
+      "finishedAt": "2026-04-09T00:49:31.086Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:helix:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.086Z",
+      "finishedAt": "2026-04-09T00:49:31.089Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:horizon:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.089Z",
+      "finishedAt": "2026-04-09T00:49:31.090Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:hyper:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.090Z",
+      "finishedAt": "2026-04-09T00:49:31.091Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:hypergrowth:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.091Z",
+      "finishedAt": "2026-04-09T00:49:31.092Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:hyperjump:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.092Z",
+      "finishedAt": "2026-04-09T00:49:31.094Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:infinity3:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.094Z",
+      "finishedAt": "2026-04-09T00:49:31.095Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:infinity7:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.095Z",
+      "finishedAt": "2026-04-09T00:49:31.096Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:infinity:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.096Z",
+      "finishedAt": "2026-04-09T00:49:31.097Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:intelligence:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.097Z",
+      "finishedAt": "2026-04-09T00:49:31.097Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:jump4:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.097Z",
+      "finishedAt": "2026-04-09T00:49:31.098Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:kernel:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.098Z",
+      "finishedAt": "2026-04-09T00:49:31.099Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:learning:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.099Z",
+      "finishedAt": "2026-04-09T00:49:31.099Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:market:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.099Z",
+      "finishedAt": "2026-04-09T00:49:31.100Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:meta:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.100Z",
+      "finishedAt": "2026-04-09T00:49:31.115Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:navigator:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.115Z",
+      "finishedAt": "2026-04-09T00:49:31.116Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:nexus:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.116Z",
+      "finishedAt": "2026-04-09T00:49:31.116Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:observability:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.117Z",
+      "finishedAt": "2026-04-09T00:49:31.118Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:omega:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.118Z",
+      "finishedAt": "2026-04-09T00:49:31.118Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:orchestrator:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.118Z",
+      "finishedAt": "2026-04-09T00:49:31.119Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:platform:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.119Z",
+      "finishedAt": "2026-04-09T00:49:31.121Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:prism:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.121Z",
+      "finishedAt": "2026-04-09T00:49:31.122Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:pulse:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.122Z",
+      "finishedAt": "2026-04-09T00:49:31.123Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:quantum:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.123Z",
+      "finishedAt": "2026-04-09T00:49:31.124Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:runtimeops:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.124Z",
+      "finishedAt": "2026-04-09T00:49:31.125Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:sentinel:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.126Z",
+      "finishedAt": "2026-04-09T00:49:31.127Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:simulation:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.127Z",
+      "finishedAt": "2026-04-09T00:49:31.128Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:sovereign:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.128Z",
+      "finishedAt": "2026-04-09T00:49:31.130Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:strategy:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.130Z",
+      "finishedAt": "2026-04-09T00:49:31.131Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:supremacy:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.131Z",
+      "finishedAt": "2026-04-09T00:49:31.132Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:titan:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.132Z",
+      "finishedAt": "2026-04-09T00:49:31.134Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:vector:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.134Z",
+      "finishedAt": "2026-04-09T00:49:31.135Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:vertex:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.135Z",
+      "finishedAt": "2026-04-09T00:49:31.137Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:zenith:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.137Z",
+      "finishedAt": "2026-04-09T00:49:31.138Z",
+      "output": "\n"
+    },
+    {
+      "script": "tpm:master:once",
+      "ok": false,
+      "exitCode": null,
+      "startedAt": "2026-04-09T00:49:31.138Z",
+      "finishedAt": "2026-04-09T00:49:31.139Z",
+      "output": "\n"
+    }
+  ]
 }
