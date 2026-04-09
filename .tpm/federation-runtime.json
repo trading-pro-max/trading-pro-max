@@ -6,8 +6,8 @@
   "remaining": 0,
   "domains": {
     "federation": 100,
-    "constitution": 100,
-    "chronicle": 100,
+    "assurance": 100,
+    "cabinet": 100,
     "proof": 100,
     "continuity": 100
   },
@@ -19,17 +19,16 @@
       "status": "active"
     },
     {
-      "slug": "constitution-discipline",
-      "title": "constitution discipline",
+      "slug": "assurance-depth",
+      "title": "assurance depth",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "chronicle-depth",
-      "title": "chronicle depth",
+      "slug": "cabinet-discipline",
+      "title": "cabinet discipline",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T02:38:43.388Z"
-}
+  "time": "2026-04-09T02:39:23.1

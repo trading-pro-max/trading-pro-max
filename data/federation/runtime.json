@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "councils": [
+  "pillars": [
     {
       "slug": "runtime-federation",
       "title": "Runtime Federation",
@@ -14,8 +14,8 @@
       "status": "closed"
     },
     {
-      "slug": "route-federation",
-      "title": "Route Federation",
+      "slug": "command-federation",
+      "title": "Command Federation",
       "score": 100,
       "status": "closed"
     },
@@ -27,10 +27,10 @@
     }
   ],
   "metrics": {
-    "federatedNodes": 24,
-    "protectedCouncils": 20,
-    "linkedStores": 30,
+    "linkedPlanes": 24,
+    "governedStores": 28,
+    "certifiedTracks": 20,
     "federationConfidence": 100
   },
-  "time": "2026-04-09T02:38:43.386Z"
+  "time": "2026-04-09T02:39:23.192Z"
 }

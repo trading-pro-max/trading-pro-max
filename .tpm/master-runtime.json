@@ -118,7 +118,8 @@
     "/assurance-graph",
     "/ops-memory",
     "/infinity-mesh",
-    "/strategy-senate"
+    "/strategy-senate",
+    "/operator-cabinet"
   ],
   "commands": [
     "npm run tpm:navigator:once",
@@ -294,6 +295,13 @@
       "progress": 100,
       "stage": "ACTIVE",
       "status": "strong"
+    },
+    {
+      "slug": "operator-cabinet",
+      "title": "operator cabinet",
+      "progress": 93,
+      "stage": "ACTIVE",
+      "status": "strong"
     }
   ],
   "navigatorLayer": {
@@ -366,12 +374,12 @@
   },
   "federationLayer": {
     "active": true,
-    "layer": "FEDERATION_CORE_SIGNAL_CONSTITUTION_RECOVERY_CHRONICLE",
+    "layer": "FEDERATION_CORE_ASSURANCE_GRAPH_OPERATOR_CABINET",
     "progress": 100,
     "status": "ACTIVE",
-    "time": "2026-04-09T02:38:43.420Z"
+    "time": "2026-04-09T02:39:23.201Z"
   },
-  "time": "2026-04-09T02:39:06.616Z",
+  "time": "2026-04-09T02:39:22.318Z",
   "helixLayer": {
     "active": true,
     "layer": "HELIX_CORE_SIGNAL_PARLIAMENT_RESILIENCE_DECK",
@@ -534,4 +542,3 @@
     "infiniteContinuation": true,
     "time": "2026-04-09T02:39:05.539Z"
   }
-}

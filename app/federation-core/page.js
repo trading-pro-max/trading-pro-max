@@ -13,7 +13,7 @@ const box={background:"#020617",borderRadius:14,padding:14};
 
 export default function Page(){
   const runtime=readJson(path.join(process.cwd(),".tpm","federation-runtime.json"),{overallProgress:0,domains:{}});
-  const data=readJson(path.join(process.cwd(),"data","federation","runtime.json"),{councils:[],metrics:{}});
+  const data=readJson(path.join(process.cwd(),"data","federation","runtime.json"),{pillars:[],metrics:{}});
 
   return (
     <main style={{minHeight:"100vh",background:"linear-gradient(180deg,#020617 0%,#0b1120 100%)",color:"white",padding:24,fontFamily:"Arial,sans-serif"}}>
@@ -34,9 +34,9 @@ export default function Page(){
         </div>
 
         <div style={card}>
-          <div style={{fontSize:22,fontWeight:900,marginBottom:12}}>Councils</div>
+          <div style={{fontSize:22,fontWeight:900,marginBottom:12}}>Pillars</div>
           <div style={{display:"grid",gridTemplateColumns:"repeat(4,minmax(0,1fr))",gap:12}}>
-            {(data.councils || []).map((x)=>(
+            {(data.pillars || []).map((x)=>(
               <div key={x.slug} style={box}>
                 <div style={{fontWeight:900}}>{x.title}</div>
                 <div style={{marginTop:8,color:"#22c55e",fontWeight:900,fontSize:24}}>{x.score}%</div>
