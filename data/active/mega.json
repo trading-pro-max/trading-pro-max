@@ -2,10 +2,10 @@
   "ok": true,
   "counts": {
     "modules": 387,
-    "pages": 370,
+    "pages": 372,
     "apiRoutes": 148,
     "loops": 58,
-    "stores": 672
+    "stores": 674
   },
   "controls": {
     "localCertified": true,
@@ -117,8 +117,8 @@
       "app/assurance-graph/page.js",
       "app/assurance-hub/page.js",
       "app/assurance-nexus/page.js",
-      "app/assurance-wall/page.js",
-      "app/atlas-mesh/page.js"
+      "app/assurance-vault/page.js",
+      "app/assurance-wall/page.js"
     ],
     "apis": [
       "app/api/active/run/route.js",
@@ -161,5 +161,5 @@
       "scripts/tpm-expansion-loop.mjs"
     ]
   },
-  "time": "2026-04-09T06:55:40.539Z"
+  "time": "2026-04-09T06:58:41.153Z"
 }
