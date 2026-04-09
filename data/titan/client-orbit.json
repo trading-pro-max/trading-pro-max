@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "rings": [
+    {
+      "slug": "onboarding-ring",
+      "title": "Onboarding Ring",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "usage-ring",
+      "title": "Usage Ring",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "retention-ring",
+      "title": "Retention Ring",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "expansion-ring",
+      "title": "Expansion Ring",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeJourneys": 16,
+    "guardedJourneys": 12,
+    "supportClarity": 100,
+    "orbitConfidence": 100
+  },
+  "time": "2026-04-09T00:43:56.190Z"
+}

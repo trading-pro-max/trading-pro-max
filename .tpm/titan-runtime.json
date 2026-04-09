@@ -6,10 +6,11 @@
   "remaining": 0,
   "domains": {
     "titan": 100,
-    "quantum": 100,
-    "wall": 100,
-    "proof": 100,
-    "continuity": 100
+    "genome": 100,
+    "money": 100,
+    "orbit": 100,
+    "chamber": 100,
+    "proof": 100
   },
   "nextWave": [
     {
@@ -19,17 +20,28 @@
       "status": "active"
     },
     {
-      "slug": "quantum-depth",
-      "title": "quantum depth",
+      "slug": "genome-depth",
+      "title": "genome depth",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "wall-dominance",
-      "title": "wall dominance",
+      "slug": "monetization-depth",
+      "title": "monetization depth",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "orbit-clarity",
+      "title": "orbit clarity",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "chamber-strength",
+      "title": "chamber strength",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T00:43:29.199Z"
-}
+  "time": "2026-04-09T00:43:

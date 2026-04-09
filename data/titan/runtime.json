@@ -1,6 +1,6 @@
 {
   "ok": true,
-  "stacks": [
+  "pillars": [
     {
       "slug": "runtime-titan",
       "title": "Runtime Titan",
@@ -8,14 +8,8 @@
       "status": "closed"
     },
     {
-      "slug": "market-titan",
-      "title": "Market Titan",
-      "score": 100,
-      "status": "closed"
-    },
-    {
-      "slug": "policy-titan",
-      "title": "Policy Titan",
+      "slug": "strategy-titan",
+      "title": "Strategy Titan",
       "score": 100,
       "status": "closed"
     },
@@ -24,13 +18,25 @@
       "title": "Growth Titan",
       "score": 100,
       "status": "closed"
+    },
+    {
+      "slug": "trust-titan",
+      "title": "Trust Titan",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "infinity-titan",
+      "title": "Infinity Titan",
+      "score": 100,
+      "status": "closed"
     }
   ],
   "metrics": {
-    "titanLayers": 24,
-    "titanRoutes": 22,
-    "titanStores": 30,
+    "linkedLayers": 26,
+    "protectedStores": 31,
+    "governedRoutes": 24,
     "titanConfidence": 100
   },
-  "time": "2026-04-09T00:43:29.199Z"
+  "time": "2026-04-09T00:43:56.189Z"
 }
