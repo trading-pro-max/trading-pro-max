@@ -8,29 +8,29 @@
       "status": "closed"
     },
     {
+      "slug": "policy-quantum",
+      "title": "Policy Quantum",
+      "score": 100,
+      "status": "closed"
+    },
+    {
       "slug": "capital-quantum",
       "title": "Capital Quantum",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "ops-quantum",
-      "title": "Ops Quantum",
-      "score": 100,
-      "status": "closed"
-    },
-    {
-      "slug": "growth-quantum",
-      "title": "Growth Quantum",
+      "slug": "trust-quantum",
+      "title": "Trust Quantum",
       "score": 100,
       "status": "closed"
     }
   ],
   "metrics": {
-    "activeLayers": 25,
-    "governedRoutes": 22,
-    "protectedStores": 29,
+    "activeLayers": 24,
+    "connectedRuntimes": 29,
+    "protectedStores": 27,
     "quantumConfidence": 100
   },
-  "time": "2026-04-09T00:01:16.411Z"
+  "time": "2026-04-09T00:03:19.932Z"
 }

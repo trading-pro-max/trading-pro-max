@@ -6,10 +6,10 @@
   "remaining": 3,
   "domains": {
     "quantum": 100,
+    "brain": 86,
     "revenue": 100,
-    "partners": 100,
-    "autonomy": 83,
-    "client": 100
+    "deployment": 100,
+    "continuity": 100
   },
   "nextWave": [
     {
@@ -19,29 +19,22 @@
       "status": "active"
     },
     {
-      "slug": "revenue-discipline",
-      "title": "revenue discipline",
+      "slug": "brain-governance",
+      "title": "brain governance",
+      "progress": 86,
+      "status": "active"
+    },
+    {
+      "slug": "flight-visibility",
+      "title": "flight visibility",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "partner-unification",
-      "title": "partner unification",
-      "progress": 100,
-      "status": "active"
-    },
-    {
-      "slug": "autonomy-expansion",
-      "title": "autonomy expansion",
-      "progress": 83,
-      "status": "active"
-    },
-    {
-      "slug": "client-command",
-      "title": "client command",
+      "slug": "deployment-wall",
+      "title": "deployment wall",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T00:01:16.411Z"
-}
+  "time": "2026-04-09T00:03:19.934Z

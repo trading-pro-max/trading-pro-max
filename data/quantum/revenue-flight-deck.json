@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "decks": [
+    {
+      "slug": "recurring-flight",
+      "title": "Recurring Flight",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-flight",
+      "title": "Growth Flight",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "cash-flight",
+      "title": "Cash Flight",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "expansion-flight",
+      "title": "Expansion Flight",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "revenueVisibility": 100,
+    "allocationVisibility": 100,
+    "enterpriseVisibility": 100,
+    "flightConfidence": 100
+  },
+  "time": "2026-04-09T00:03:19.934Z"
+}
