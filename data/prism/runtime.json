@@ -8,14 +8,14 @@
       "status": "closed"
     },
     {
-      "slug": "market-prism",
-      "title": "Market Prism",
+      "slug": "policy-prism",
+      "title": "Policy Prism",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "governance-prism",
-      "title": "Governance Prism",
+      "slug": "signal-prism",
+      "title": "Signal Prism",
       "score": 100,
       "status": "closed"
     },
@@ -28,9 +28,9 @@
   ],
   "metrics": {
     "activePrisms": 16,
-    "governedViews": 20,
-    "linkedLayers": 24,
+    "connectedDomains": 24,
+    "protectedDecisions": 22,
     "prismConfidence": 100
   },
-  "time": "2026-04-09T02:27:32.201Z"
+  "time": "2026-04-09T02:30:42.804Z"
 }

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "authorities": [
+    {
+      "slug": "ops-authority",
+      "title": "Ops Authority",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-authority",
+      "title": "Market Authority",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "broker-authority",
+      "title": "Broker Authority",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "platform-authority",
+      "title": "Platform Authority",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeAuthorities": 12,
+    "governedLaunches": 14,
+    "routeAuthority": 100,
+    "continuityAuthority": 100
+  },
+  "time": "2026-04-09T02:30:42.808Z"
+}

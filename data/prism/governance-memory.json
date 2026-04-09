@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "memories": [
+    {
+      "slug": "runtime-memory",
+      "title": "Runtime Memory",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-memory",
+      "title": "Risk Memory",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-memory",
+      "title": "Policy Memory",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-memory",
+      "title": "Growth Memory",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedMemories": 20,
+    "replayablePolicies": 18,
+    "governedArtifacts": 22,
+    "memoryConfidence": 100
+  },
+  "time": "2026-04-09T02:30:42.808Z"
+}

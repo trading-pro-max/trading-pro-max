@@ -6,8 +6,8 @@
   "remaining": 0,
   "domains": {
     "prism": 100,
-    "flow": 100,
-    "assurance": 100,
+    "memory": 100,
+    "authority": 100,
     "proof": 100,
     "continuity": 100
   },
@@ -19,17 +19,17 @@
       "status": "active"
     },
     {
-      "slug": "flow-governance",
-      "title": "flow governance",
+      "slug": "memory-depth",
+      "title": "memory depth",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "assurance-discipline",
-      "title": "assurance discipline",
+      "slug": "authority-clarity",
+      "title": "authority clarity",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T02:27:32.203Z"
+  "time": "2026-04-09T02:30:42.808Z"
 }
