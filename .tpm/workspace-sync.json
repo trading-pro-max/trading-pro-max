@@ -1,8 +1,8 @@
 {
   "ok": true,
-  "cycle": 500,
+  "cycle": 501,
   "workspaces": 3,
-  "lastSyncAt": "2026-04-09T14:19:39.619Z",
+  "lastSyncAt": "2026-04-09T14:21:26.586Z",
   "syncedZones": [
     "ai",
     "strategy",
