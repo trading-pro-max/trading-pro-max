@@ -432,10 +432,10 @@
 - Launch Readiness Runtime
 
 ## Language Coverage
+- JSON: 1093
+- JavaScript: 655
 - TypeScript: 212
-- JavaScript: 177
-- JSON: 95
-- PowerShell: 61
+- PowerShell: 63
 - Markdown: 28
 - Batch: 11
 - YAML: 9
@@ -446,6 +446,7 @@
 - SQL: 2
 
 <!-- TPM:PROGRESS:END -->
+
 
 
 

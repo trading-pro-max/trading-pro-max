@@ -245,10 +245,10 @@
   "modulesTotal": 2,
   "languages": {
     "YAML": 9,
-    "JSON": 95,
+    "JSON": 1093,
+    "PowerShell": 63,
     "Markdown": 28,
-    "PowerShell": 61,
-    "JavaScript": 177,
+    "JavaScript": 655,
     "TypeScript": 212,
     "HTML": 2,
     "CSS": 3,
@@ -257,5 +257,5 @@
     "Shell": 4,
     "SQL": 2
   },
-  "updatedAt": "2026-04-08T09:29:50.072Z"
+  "updatedAt": "2026-04-09T01:48:36.421Z"
 }
