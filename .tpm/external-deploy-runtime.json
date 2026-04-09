@@ -1,0 +1,11 @@
+﻿{
+    "ok":  true,
+    "mode":  "TPM_EXTERNAL_DEPLOY_OPEN",
+    "provider":  "GoDaddy",
+    "domain":  "tradin-gpromax.com",
+    "buildReady":  true,
+    "releaseGate":  "OPEN_EXTERNAL",
+    "localProgress":  100,
+    "externalProgress":  100,
+    "time":  "2026-04-09T11:17:21.6508678+02:00"
+}
