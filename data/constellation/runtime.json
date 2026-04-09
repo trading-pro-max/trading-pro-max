@@ -8,14 +8,14 @@
       "status": "closed"
     },
     {
-      "slug": "governance-cluster",
-      "title": "Governance Cluster",
+      "slug": "market-cluster",
+      "title": "Market Cluster",
       "score": 100,
       "status": "closed"
     },
     {
-      "slug": "command-cluster",
-      "title": "Command Cluster",
+      "slug": "policy-cluster",
+      "title": "Policy Cluster",
       "score": 100,
       "status": "closed"
     },
@@ -28,9 +28,9 @@
   ],
   "metrics": {
     "activeClusters": 16,
-    "linkedRuntimes": 24,
-    "protectedChains": 22,
+    "linkedModules": 24,
+    "governedRoutes": 20,
     "constellationConfidence": 100
   },
-  "time": "2026-04-09T06:54:00.429Z"
+  "time": "2026-04-09T06:55:52.517Z"
 }

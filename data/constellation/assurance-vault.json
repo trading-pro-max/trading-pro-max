@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "vaults": [
+    {
+      "slug": "runtime-assurance",
+      "title": "Runtime Assurance",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-assurance",
+      "title": "Risk Assurance",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution-assurance",
+      "title": "Execution Assurance",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity-assurance",
+      "title": "Continuity Assurance",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "assuredVaults": 16,
+    "protectedProofs": 22,
+    "replayCoverage": 100,
+    "assuranceConfidence": 100
+  },
+  "time": "2026-04-09T06:55:52.518Z"
+}

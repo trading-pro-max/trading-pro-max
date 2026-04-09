@@ -6,9 +6,9 @@
   "remaining": 0,
   "domains": {
     "constellation": 100,
+    "chamber": 100,
+    "assurance": 100,
     "proof": 100,
-    "cabinet": 100,
-    "proofBase": 100,
     "continuity": 100
   },
   "nextWave": [
@@ -19,17 +19,16 @@
       "status": "active"
     },
     {
-      "slug": "proof-theater-depth",
-      "title": "proof theater depth",
+      "slug": "strategy-depth",
+      "title": "strategy depth",
       "progress": 100,
       "status": "active"
     },
     {
-      "slug": "cabinet-discipline",
-      "title": "cabinet discipline",
+      "slug": "assurance-depth",
+      "title": "assurance depth",
       "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-09T06:54:00.429Z"
-}
+  "time": "2026-04-09T06:55:52.5

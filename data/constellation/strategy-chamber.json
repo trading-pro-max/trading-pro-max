@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "chambers": [
+    {
+      "slug": "strategy-alpha",
+      "title": "Strategy Alpha",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "strategy-beta",
+      "title": "Strategy Beta",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "strategy-gamma",
+      "title": "Strategy Gamma",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "strategy-delta",
+      "title": "Strategy Delta",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeStrategies": 18,
+    "rankedStrategies": 16,
+    "governedStrategies": 14,
+    "chamberConfidence": 100
+  },
+  "time": "2026-04-09T06:55:52.518Z"
+}
