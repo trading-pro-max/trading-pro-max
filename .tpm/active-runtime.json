@@ -8,7 +8,7 @@
   "localCertified": true,
   "externalDeployBlocked": true,
   "counts": {
-    "modules": 387,
+    "modules": 388,
     "pages": 372,
     "apiRoutes": 148,
     "loops": 58,
@@ -830,6 +830,13 @@
     {
       "slug": "experiment-studio",
       "title": "Experiment Studio",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "external-deploy",
+      "title": "External Deploy",
       "progress": 100,
       "status": "closed",
       "readiness": "closed"
@@ -2831,5 +2838,5 @@
       "status": "active"
     }
   ],
-  "time": "2026-04-09T09:16:57.360Z"
+  "time": "2026-04-09T09:18:27.698Z"
 }

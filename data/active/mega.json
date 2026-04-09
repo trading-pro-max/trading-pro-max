@@ -1,7 +1,7 @@
 {
   "ok": true,
   "counts": {
-    "modules": 387,
+    "modules": 388,
     "pages": 372,
     "apiRoutes": 148,
     "loops": 58,
@@ -161,5 +161,5 @@
       "scripts/tpm-expansion-loop.mjs"
     ]
   },
-  "time": "2026-04-09T09:16:57.360Z"
+  "time": "2026-04-09T09:18:27.698Z"
 }
