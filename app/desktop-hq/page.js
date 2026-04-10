@@ -26,7 +26,7 @@ const shellBg = {
 };
 
 const wrap = {
-  maxWidth: 1700,
+  maxWidth: 1720,
   margin: "0 auto",
   padding: "18px 18px 40px"
 };
@@ -42,6 +42,7 @@ const soft = { color: "#94a3b8" };
 const green = { color: "#22c55e" };
 const blue = { color: "#38bdf8" };
 const amber = { color: "#f59e0b" };
+const red = { color: "#f87171" };
 
 function MetricCard({ label, value, hint }) {
   return (
@@ -54,7 +55,7 @@ function MetricCard({ label, value, hint }) {
 }
 
 function MiniBar({ label, value, tone }) {
-  const color = tone === "green" ? "#22c55e" : tone === "amber" ? "#f59e0b" : "#38bdf8";
+  const color = tone === "green" ? "#22c55e" : tone === "amber" ? "#f59e0b" : tone === "red" ? "#f87171" : "#38bdf8";
   return (
     <div style={{ display: "grid", gap: 8 }}>
       <div style={{ display: "flex", justifyContent: "space-between", gap: 10 }}>
@@ -65,6 +66,24 @@ function MiniBar({ label, value, tone }) {
         <div style={{ width: `${Math.max(0, Math.min(100, value))}%`, height: "100%", borderRadius: 999, background: color }} />
       </div>
     </div>
+  );
+}
+
+function ActionButton({ label, tone }) {
+  const bg = tone === "green" ? "#22c55e" : tone === "amber" ? "#f59e0b" : tone === "red" ? "#ef4444" : "#0f172a";
+  const color = tone === "green" || tone === "amber" ? "#04130a" : "#fff";
+  return (
+    <button style={{
+      background: bg,
+      color,
+      border: "1px solid rgba(148,163,184,0.14)",
+      borderRadius: 14,
+      padding: "12px 14px",
+      fontWeight: 800,
+      cursor: "pointer"
+    }}>
+      {label}
+    </button>
   );
 }
 
@@ -123,6 +142,20 @@ export default function Page() {
     ["Recovery Snapshot", "Available", "amber"]
   ];
 
+  const commandRows = [
+    ["Rebuild signal confidence matrix", "Queued", "blue"],
+    ["Refresh active route priorities", "Running", "green"],
+    ["Replay resilience snapshot", "Ready", "amber"],
+    ["Package desktop release candidate", "Blocked", "red"]
+  ];
+
+  const liveFeed = [
+    ["09:31", "Market wall synchronized with priority instruments."],
+    ["09:34", "Signal chamber promoted 3 qualified routes to active review."],
+    ["09:37", "AI assist generated a new session summary for operator handoff."],
+    ["09:40", "Packaging pipeline requested final desktop shell validation."]
+  ];
+
   return (
     <main style={shellBg}>
       <div style={wrap}>
@@ -156,6 +189,21 @@ export default function Page() {
           {topStats.map((x) => (
             <MetricCard key={x.label} label={x.label} value={x.value} hint={x.hint} />
           ))}
+        </section>
+
+        <section style={{ ...panel, padding: 18, marginBottom: 18 }}>
+          <div style={{ display: "flex", justifyContent: "space-between", gap: 14, alignItems: "center", flexWrap: "wrap" }}>
+            <div>
+              <div style={{ fontSize: 12, letterSpacing: 2, textTransform: "uppercase", ...amber, fontWeight: 800 }}>Operator Command Bar</div>
+              <div style={{ fontSize: 24, fontWeight: 900, marginTop: 6 }}>Execution Controls</div>
+            </div>
+            <div style={{ display: "flex", gap: 10, flexWrap: "wrap" }}>
+              <ActionButton label="Run Desktop Validation" tone="green" />
+              <ActionButton label="Refresh Signals" tone="blue" />
+              <ActionButton label="Freeze Risk Actions" tone="amber" />
+              <ActionButton label="Emergency Stop" tone="red" />
+            </div>
+          </div>
         </section>
 
         <section style={{ display: "grid", gridTemplateColumns: "270px 1fr 360px", gap: 16 }}>
@@ -226,6 +274,34 @@ export default function Page() {
                       <strong>{a}</strong>
                       <span style={blue}>{b}</span>
                       <span style={soft}>{c}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+            </section>
+
+            <section style={{ display: "grid", gridTemplateColumns: "1fr 1fr", gap: 16 }}>
+              <div style={{ ...panel, padding: 20 }}>
+                <div style={{ fontSize: 12, letterSpacing: 2, textTransform: "uppercase", ...green, fontWeight: 800 }}>Command Queue</div>
+                <div style={{ fontSize: 24, fontWeight: 900, marginTop: 6, marginBottom: 14 }}>Live Actions</div>
+                <div style={{ display: "grid", gap: 10 }}>
+                  {commandRows.map(([a,b,t]) => (
+                    <div key={a} style={{ display: "grid", gridTemplateColumns: "1.5fr 110px", gap: 10, padding: "12px 14px", borderRadius: 14, background: "#020617" }}>
+                      <strong>{a}</strong>
+                      <span style={t === "green" ? green : t === "amber" ? amber : t === "red" ? red : blue}>{b}</span>
+                    </div>
+                  ))}
+                </div>
+              </div>
+
+              <div style={{ ...panel, padding: 20 }}>
+                <div style={{ fontSize: 12, letterSpacing: 2, textTransform: "uppercase", ...blue, fontWeight: 800 }}>Live Feed</div>
+                <div style={{ fontSize: 24, fontWeight: 900, marginTop: 6, marginBottom: 14 }}>Recent Platform Events</div>
+                <div style={{ display: "grid", gap: 10 }}>
+                  {liveFeed.map(([a,b]) => (
+                    <div key={a+b} style={{ display: "grid", gridTemplateColumns: "70px 1fr", gap: 10, padding: "12px 14px", borderRadius: 14, background: "#020617" }}>
+                      <strong style={blue}>{a}</strong>
+                      <span style={{ color: "#cbd5e1", lineHeight: 1.6 }}>{b}</span>
                     </div>
                   ))}
                 </div>
