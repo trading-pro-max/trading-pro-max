@@ -24,3 +24,5 @@ out/
 dist/
 build/
 *.log
+.tmp-next-homebase.*
+tmp-*.json
