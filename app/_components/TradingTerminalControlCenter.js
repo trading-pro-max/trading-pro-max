@@ -1,5 +1,5 @@
 import styles from "./TradingTerminal.module.css";
-import { cx } from "./trading-terminal-utils";
+import { cx, toneClassName } from "./trading-terminal-utils";
 
 function displayTime(value) {
   return value ? new Date(value).toLocaleTimeString([], { hour: "2-digit", minute: "2-digit", second: "2-digit" }) : "No operator actions yet.";
@@ -85,6 +85,58 @@ export function TradingTerminalControlCenter({
           <strong>{controlCenter.session.lastAction || "None"}</strong>
           <small>{displayTime(controlCenter.session.lastRecoveredAt || controlCenter.session.lastResetAt)}</small>
         </div>
+      </div>
+
+      <div className={styles.readinessBlock}>
+        <div className={styles.panelHeaderCompact}>
+          <div>
+            <div className={styles.panelEyebrow}>Connector Readiness</div>
+            <h3>Future Integration Control</h3>
+            <p>
+              Last validation {displayTime(controlCenter.connectorReadiness.lastValidationSweepAt)} | Last recheck{" "}
+              {displayTime(controlCenter.connectorReadiness.lastRecheckAt)}
+            </p>
+          </div>
+          <span className={styles.inlineBadge}>{controlCenter.connectorReadiness.overall.status}</span>
+        </div>
+
+        <div className={styles.summaryGrid}>
+          {controlCenter.connectorReadiness.summaryCards.map((item) => (
+            <div key={item.label} className={styles.summaryCell}>
+              <span>{item.label}</span>
+              <strong className={toneClassName(item.tone, styles)}>{item.status}</strong>
+              <small>{item.detail}</small>
+            </div>
+          ))}
+        </div>
+
+        <div className={styles.connectorList}>
+          {controlCenter.connectorReadiness.connectors.map((connector) => (
+            <div key={connector.id} className={styles.connectorCard}>
+              <div className={styles.connectorHeader}>
+                <strong>{connector.name}</strong>
+                <span className={styles.inlineBadge}>{connector.readinessLabel}</span>
+              </div>
+              <small className={styles.connectorCaption}>
+                {connector.category} | {connector.lastValidationLabel}
+              </small>
+              <div className={styles.connectorMeta}>
+                <span>Operator</span>
+                <p>{connector.operatorRecommendation}</p>
+              </div>
+            </div>
+          ))}
+        </div>
+      </div>
+
+      <div className={styles.recommendationBlock}>
+        <h4>Connector Recommendations</h4>
+        {controlCenter.connectorReadiness.operatorRecommendations.map((item) => (
+          <div key={item.id} className={cx(styles.recommendationItem, toneClassName(item.tone, styles))}>
+            <strong>{item.title}</strong>
+            <p>{item.detail}</p>
+          </div>
+        ))}
       </div>
 
       <div className={styles.validationBlock}>

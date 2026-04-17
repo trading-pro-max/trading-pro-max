@@ -12,6 +12,7 @@ function DiagnosticCard({ label, value, tone = "neutral" }) {
 
 export function TradingTerminalDiagnosticsPanel({ diagnostics }) {
   const readiness = diagnostics.platformReadiness;
+  const integrationReadiness = diagnostics.integrationReadiness;
   const readinessItems = readiness
     ? [
         { label: "UI State", value: readiness.uiState.label, detail: readiness.uiState.detail, tone: readiness.uiState.tone },
@@ -44,6 +45,34 @@ export function TradingTerminalDiagnosticsPanel({ diagnostics }) {
           value: readiness.overall.label,
           detail: readiness.overall.detail,
           tone: readiness.overall.tone
+        }
+      ]
+    : [];
+  const integrationItems = integrationReadiness
+    ? [
+        {
+          label: "Paper Ready",
+          value: integrationReadiness.paperReady.status,
+          detail: integrationReadiness.paperReady.detail,
+          tone: integrationReadiness.paperReady.tone
+        },
+        {
+          label: "Live-Data Ready",
+          value: integrationReadiness.liveDataReady.status,
+          detail: integrationReadiness.liveDataReady.detail,
+          tone: integrationReadiness.liveDataReady.tone
+        },
+        {
+          label: "Broker Ready",
+          value: integrationReadiness.brokerReady.status,
+          detail: integrationReadiness.brokerReady.detail,
+          tone: integrationReadiness.brokerReady.tone
+        },
+        {
+          label: "Alert Ready",
+          value: integrationReadiness.alertReady.status,
+          detail: integrationReadiness.alertReady.detail,
+          tone: integrationReadiness.alertReady.tone
         }
       ]
     : [];
@@ -82,6 +111,28 @@ export function TradingTerminalDiagnosticsPanel({ diagnostics }) {
 
           <div className={styles.summaryGrid}>
             {readinessItems.map((item) => (
+              <div key={item.label} className={styles.summaryCell}>
+                <span>{item.label}</span>
+                <strong className={toneClassName(item.tone, styles)}>{item.value}</strong>
+                <small>{item.detail}</small>
+              </div>
+            ))}
+          </div>
+        </div>
+      ) : null}
+
+      {integrationItems.length ? (
+        <div className={styles.readinessBlock}>
+          <div className={styles.panelHeaderCompact}>
+            <div>
+              <div className={styles.panelEyebrow}>Connector Readiness</div>
+              <h3>External Integration Status</h3>
+            </div>
+            <span className={styles.inlineBadge}>{integrationReadiness.overall.status}</span>
+          </div>
+
+          <div className={styles.summaryGrid}>
+            {integrationItems.map((item) => (
               <div key={item.label} className={styles.summaryCell}>
                 <span>{item.label}</span>
                 <strong className={toneClassName(item.tone, styles)}>{item.value}</strong>

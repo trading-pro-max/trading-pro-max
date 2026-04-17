@@ -18,13 +18,6 @@ desktop/build/runtime/
 tmp-*.log
 *.out.log
 *.err.log
-desktop/dist/
-desktop/build/runtime/
-*.exe
-*.asar
-tmp-*.log
-*.out.log
-*.err.log
 node_modules/
 .next/
 out/

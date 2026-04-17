@@ -1,5 +1,20 @@
 import styles from "./TradingTerminal.module.css";
-import { cx } from "./trading-terminal-utils";
+import { cx, toneClassName } from "./trading-terminal-utils";
+
+function badgeToneClass(tone) {
+  if (tone === "positive") return styles.positiveBadge;
+  if (tone === "warning") return styles.warningBadge;
+  if (tone === "danger") return styles.dangerBadge;
+  return "";
+}
+
+function checkStatusLabel(status) {
+  if (status === "pass") return "Pass";
+  if (status === "warn") return "Warn";
+  if (status === "fail") return "Fail";
+  if (status === "pending") return "Pending";
+  return "Info";
+}
 
 export function TradingTerminalConnectorPanel({ connectors }) {
   return (
@@ -16,10 +31,18 @@ export function TradingTerminalConnectorPanel({ connectors }) {
         {connectors.map((connector) => (
           <div key={connector.id} className={styles.connectorCard}>
             <div className={styles.connectorHeader}>
-              <strong>{connector.label}</strong>
-              <span className={styles.inlineBadge}>{connector.validationState}</span>
+              <div>
+                <strong>{connector.name}</strong>
+                <small className={styles.connectorCaption}>
+                  {connector.configured ? "Configured" : "Not configured"} | Last validation {connector.lastValidationLabel}
+                </small>
+              </div>
+              <div className={styles.connectorBadgeRow}>
+                <span className={styles.inlineBadge}>{connector.category}</span>
+                <span className={cx(styles.inlineBadge, badgeToneClass(connector.readinessTone))}>{connector.readinessLabel}</span>
+              </div>
             </div>
-            <small>{connector.configured ? "Configured" : "Not configured"}</small>
+
             <div className={styles.connectorSummary}>
               {connector.capabilitySummary.map((item) => (
                 <div key={item} className={styles.reasonItem}>
@@ -27,6 +50,19 @@ export function TradingTerminalConnectorPanel({ connectors }) {
                 </div>
               ))}
             </div>
+
+            <div className={styles.connectorCheckList}>
+              {connector.validationChecks.map((item) => (
+                <div key={`${connector.id}-${item.label}`} className={styles.connectorCheck}>
+                  <div className={styles.connectorCheckHead}>
+                    <span>{item.label}</span>
+                    <strong className={toneClassName(item.tone, styles)}>{checkStatusLabel(item.status)}</strong>
+                  </div>
+                  <small>{item.detail}</small>
+                </div>
+              ))}
+            </div>
+
             {connector.missingFields.length ? (
               <div className={styles.connectorMeta}>
                 <span>Missing</span>
@@ -45,6 +81,14 @@ export function TradingTerminalConnectorPanel({ connectors }) {
                 <p>{connector.unsupportedReason}</p>
               </div>
             ) : null}
+            <div className={styles.connectorMeta}>
+              <span>Operator</span>
+              <p>{connector.operatorRecommendation}</p>
+            </div>
+            <div className={styles.connectorSafeNotice}>
+              <span>Local-Safe Mode</span>
+              <p>{connector.localSafeNotice}</p>
+            </div>
           </div>
         ))}
       </div>

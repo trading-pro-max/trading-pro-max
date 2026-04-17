@@ -1,5 +1,5 @@
 {
-  "version": 2,
+  "version": 3,
   "selectedSymbol": "EUR/USD",
   "selectedTimeframe": "15m",
   "accountMode": "Paper",
@@ -12755,18 +12755,55 @@
     }
   ],
   "system": {
-    "lastMarketSyncAt": "2026-04-17T02:28:54.002Z",
-    "lastExecutionSyncAt": "2026-04-17T02:28:53.996Z",
-    "lastQuoteSyncAt": "2026-04-17T02:28:53.000Z",
-    "lastCandleSyncAt": "2026-04-17T02:15:00.000Z",
-    "lastOverviewSyncAt": "2026-04-17T02:28:54.002Z",
+    "lastMarketSyncAt": "2026-04-17T03:36:30.087Z",
+    "lastExecutionSyncAt": "2026-04-17T03:36:30.058Z",
+    "lastQuoteSyncAt": "2026-04-17T03:36:30.000Z",
+    "lastCandleSyncAt": "2026-04-17T03:30:00.000Z",
+    "lastOverviewSyncAt": "2026-04-17T03:36:30.087Z",
     "executionHealth": "Ready",
     "sessionIntegrity": "Nominal"
+  },
+  "connectors": {
+    "lastValidationSweepAt": null,
+    "lastRecheckAt": null,
+    "lastAction": null,
+    "records": {
+      "demo-market-feed": {
+        "lastValidatedAt": null,
+        "lastKnownStatus": "ready",
+        "lastKnownSummary": "Keep the demo feed active until an external-ready market-data route passes validation.",
+        "validationCount": 0
+      },
+      "live-market-data-provider": {
+        "lastValidatedAt": null,
+        "lastKnownStatus": "not_configured",
+        "lastKnownSummary": "Add the local bridge payload contract before live-data readiness can be validated.",
+        "validationCount": 0
+      },
+      "broker-execution-placeholder": {
+        "lastValidatedAt": null,
+        "lastKnownStatus": "not_configured",
+        "lastKnownSummary": "Leave broker execution unconfigured until a future live-routing program is formally started.",
+        "validationCount": 0
+      },
+      "notification-transport-placeholder": {
+        "lastValidatedAt": null,
+        "lastKnownStatus": "not_configured",
+        "lastKnownSummary": "Keep notifications local-only until a future outbound transport is intentionally staged.",
+        "validationCount": 0
+      },
+      "telegram-alerts-placeholder": {
+        "lastValidatedAt": null,
+        "lastKnownStatus": "not_configured",
+        "lastKnownSummary": "Configure Telegram placeholders only when a future alert transport phase is formally approved.",
+        "validationCount": 0
+      }
+    }
   },
   "persistence": {
     "status": "Persisted",
     "path": "C:\\Users\\ahmad\\Desktop\\trading-pro-max-full\\data\\trading-terminal-desk.json",
-    "lastSavedAt": "2026-04-17T02:28:54.005Z",
+    "lastSavedAt": "2026-04-17T03:36:30.090Z",
     "lastError": null
   }
 }
