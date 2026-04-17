@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "edges": [
+    {
+      "slug": "runtime-assurance",
+      "title": "Runtime Assurance",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-assurance",
+      "title": "Risk Assurance",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-assurance",
+      "title": "Capital Assurance",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-assurance",
+      "title": "Trust Assurance",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "protectedEdges": 22,
+    "verifiedLinks": 20,
+    "assuranceDensity": 100,
+    "auditStrength": 100
+  },
+  "time": "2026-04-09T02:49:36.909Z"
+}

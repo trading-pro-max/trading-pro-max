@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "vectors": [
+    {
+      "slug": "product-radar",
+      "title": "Product Radar",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ops-radar",
+      "title": "Ops Radar",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "platform-radar",
+      "title": "Platform Radar",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity-radar",
+      "title": "Continuity Radar",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedVectors": 18,
+    "routedOpportunities": 16,
+    "expansionConfidence": 100,
+    "localMode": 100
+  },
+  "time": "2026-04-09T01:48:16.994Z"
+}

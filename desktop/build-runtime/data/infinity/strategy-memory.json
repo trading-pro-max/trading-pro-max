@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "banks": [
+    {
+      "slug": "pattern-bank",
+      "title": "Pattern Bank",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution-bank",
+      "title": "Execution Bank",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-bank",
+      "title": "Policy Bank",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-bank",
+      "title": "Growth Bank",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedPatterns": 32,
+    "replayableStrategies": 24,
+    "governedPolicies": 20,
+    "memoryConfidence": 100
+  },
+  "time": "2026-04-08T22:39:34.069Z"
+}

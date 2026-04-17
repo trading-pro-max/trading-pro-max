@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "stages": [
+    {
+      "slug": "acquire",
+      "title": "Acquire",
+      "progress": 97,
+      "status": "strong"
+    },
+    {
+      "slug": "activate",
+      "title": "Activate",
+      "progress": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "retain",
+      "title": "Retain",
+      "progress": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "expand",
+      "title": "Expand",
+      "progress": 97,
+      "status": "strong"
+    }
+  ],
+  "health": {
+    "productDepth": 99,
+    "operationalDepth": 99,
+    "memoryDepth": 98,
+    "orchestrationDepth": 99
+  },
+  "time": "2026-04-13T18:40:45.213Z"
+}

@@ -1,13 +1,13 @@
 {
   "ok": true,
   "mode": "TPM_ENTERPRISE_ACTIVE",
-  "overallProgress": 89,
-  "completed": 89,
-  "remaining": 11,
+  "overallProgress": 92,
+  "completed": 92,
+  "remaining": 8,
   "domains": {
     "revenue": 100,
     "compliance": 100,
-    "replay": 83,
+    "replay": 100,
     "providers": 60,
     "continuity": 100
   },
@@ -27,9 +27,9 @@
     {
       "slug": "replay-memory",
       "title": "replay memory",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-10T01:43:24.966Z"
+  "time": "2026-04-16T23:38:32.728Z"
 }

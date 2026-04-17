@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "title": "Operator Replay",
+  "slug": "operator-replay",
+  "status": "ACTIVE",
+  "metrics": {
+    "readiness": 100,
+    "autonomy": 100,
+    "continuity": 100,
+    "confidence": 100
+  },
+  "cards": [
+    {
+      "slug": "overview",
+      "title": "Overview",
+      "value": "ACTIVE",
+      "status": "strong"
+    },
+    {
+      "slug": "autonomy",
+      "title": "Autonomy",
+      "value": "100%",
+      "status": "strong"
+    },
+    {
+      "slug": "continuity",
+      "title": "Continuity",
+      "value": "100%",
+      "status": "strong"
+    },
+    {
+      "slug": "confidence",
+      "title": "Confidence",
+      "value": "100%",
+      "status": "strong"
+    }
+  ],
+  "time": "2026-04-09T00:58:46.471Z"
+}

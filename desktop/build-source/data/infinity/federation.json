@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "nodes": [
+    {
+      "slug": "platform-node",
+      "title": "Platform Node",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-node",
+      "title": "Market Node",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "broker-node",
+      "title": "Broker Node",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-node",
+      "title": "Trust Node",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "routes": {
+    "linkedNodes": 22,
+    "governedBridges": 20,
+    "protectedSyncs": 18,
+    "federationConfidence": 100
+  },
+  "time": "2026-04-08T23:40:56.172Z"
+}

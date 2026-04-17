@@ -1,0 +1,2842 @@
+{
+  "ok": true,
+  "mode": "TPM_ACTIVE_OMEGA",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "infiniteContinuation": "ACTIVE",
+  "localCertified": true,
+  "externalDeployBlocked": true,
+  "counts": {
+    "modules": 388,
+    "pages": 372,
+    "apiRoutes": 148,
+    "loops": 58,
+    "stores": 674
+  },
+  "modules": [
+    {
+      "slug": "agent-mesh",
+      "title": "Agent Mesh",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "ai-control",
+      "title": "Ai Control",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "ai-director",
+      "title": "Ai Director",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "ai-ops-forge",
+      "title": "Ai Ops Forge",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "alert-center",
+      "title": "Alert Center",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "analytics",
+      "title": "Analytics",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "analytics-center",
+      "title": "Analytics Center",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "apex",
+      "title": "Apex",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "apex-command",
+      "title": "Apex Command",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "apex-matrix",
+      "title": "Apex Matrix",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "api-gateway",
+      "title": "Api Gateway",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "assurance-board",
+      "title": "Assurance Board",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "assurance-bridge",
+      "title": "Assurance Bridge",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "assurance-console",
+      "title": "Assurance Console",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "assurance-hub",
+      "title": "Assurance Hub",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "assurance-nexus",
+      "title": "Assurance Nexus",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "assurance-wall",
+      "title": "Assurance Wall",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "atlas",
+      "title": "Atlas",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "atlas-mesh",
+      "title": "Atlas Mesh",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "audit-stream",
+      "title": "Audit Stream",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autonomous-builder",
+      "title": "Autonomous Builder",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autonomous-expansion-os",
+      "title": "Autonomous Expansion Os",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autonomous-factory",
+      "title": "Autonomous Factory",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autonomous-foundry",
+      "title": "Autonomous Foundry",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autonomous-queue",
+      "title": "Autonomous Queue",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autonomous-revenue-rail",
+      "title": "Autonomous Revenue Rail",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autonomous-studio",
+      "title": "Autonomous Studio",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autonomous-workforce",
+      "title": "Autonomous Workforce",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autonomy-cabinet",
+      "title": "Autonomy Cabinet",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autonomy-command",
+      "title": "Autonomy Command",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autonomy-director",
+      "title": "Autonomy Director",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autonomy-empire",
+      "title": "Autonomy Empire",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autonomy-fabric",
+      "title": "Autonomy Fabric",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autonomy-factory",
+      "title": "Autonomy Factory",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autonomy-forge",
+      "title": "Autonomy Forge",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autonomy-grid",
+      "title": "Autonomy Grid",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autonomy-infinity",
+      "title": "Autonomy Infinity",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autonomy-rail",
+      "title": "Autonomy Rail",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autonomy-theater",
+      "title": "Autonomy Theater",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autonomy-throne",
+      "title": "Autonomy Throne",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autopilot",
+      "title": "Autopilot",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autopilot-center",
+      "title": "Autopilot Center",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autopilot-forge",
+      "title": "Autopilot Forge",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "autopilot-matrix",
+      "title": "Autopilot Matrix",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "backtest-lab",
+      "title": "Backtest Lab",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "billing",
+      "title": "Billing",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "bridge",
+      "title": "Bridge",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "broker-bridge",
+      "title": "Broker Bridge",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "broker-mission",
+      "title": "Broker Mission",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "builder",
+      "title": "Builder",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "builder-control",
+      "title": "Builder Control",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "builder-grid",
+      "title": "Builder Grid",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "builder-os",
+      "title": "Builder Os",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "builder-studio",
+      "title": "Builder Studio",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "capital-lab",
+      "title": "Capital Lab",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "capital-os",
+      "title": "Capital Os",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "chronicle-center",
+      "title": "Chronicle Center",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "client",
+      "title": "Client",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "client-brain",
+      "title": "Client Brain",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "client-command",
+      "title": "Client Command",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "client-cosmos",
+      "title": "Client Cosmos",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "client-orbit",
+      "title": "Client Orbit",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "client-orbit-hub",
+      "title": "Client Orbit Hub",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "client-portal",
+      "title": "Client Portal",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "client-success",
+      "title": "Client Success",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "command",
+      "title": "Command",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "command-mesh",
+      "title": "Command Mesh",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "command-nexus",
+      "title": "Command Nexus",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "compliance-ledger",
+      "title": "Compliance Ledger",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "config-center",
+      "title": "Config Center",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "connector-inspector",
+      "title": "Connector Inspector",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "constellation",
+      "title": "Constellation",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "constellation-core",
+      "title": "Constellation Core",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "constellation-hub",
+      "title": "Constellation Hub",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "continuity-radar",
+      "title": "Continuity Radar",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "continuity-vault",
+      "title": "Continuity Vault",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "continuum",
+      "title": "Continuum",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "continuum-core",
+      "title": "Continuum Core",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "control",
+      "title": "Control",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "control-memory",
+      "title": "Control Memory",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "control-tower",
+      "title": "Control Tower",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "council",
+      "title": "Council",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "council-core",
+      "title": "Council Core",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "customer-success-hub",
+      "title": "Customer Success Hub",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "deal-room",
+      "title": "Deal Room",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "decision-archive",
+      "title": "Decision Archive",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "decision-engine",
+      "title": "Decision Engine",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "deploy-freeze-wall",
+      "title": "Deploy Freeze Wall",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "deploy-readiness",
+      "title": "Deploy Readiness",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "deploy-readiness-locker",
+      "title": "Deploy Readiness Locker",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "deploy-switch-prep",
+      "title": "Deploy Switch Prep",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "deployment-buffer",
+      "title": "Deployment Buffer",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "deployment-freeze",
+      "title": "Deployment Freeze",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "deployment-readiness",
+      "title": "Deployment Readiness",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "deployment-readiness-wall",
+      "title": "Deployment Readiness Wall",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "deployment-vault",
+      "title": "Deployment Vault",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "desktop-hq",
+      "title": "Desktop Hq",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "desktop-private",
+      "title": "Desktop Private",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "env-doctor",
+      "title": "Env Doctor",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "evidence-mesh",
+      "title": "Evidence Mesh",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "evidence-vault",
+      "title": "Evidence Vault",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "evolution-console",
+      "title": "Evolution Console",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "evolution-loop",
+      "title": "Evolution Loop",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "evolution-vault",
+      "title": "Evolution Vault",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "execution",
+      "title": "Execution",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "execution-arbitration-deck",
+      "title": "Execution Arbitration Deck",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "execution-core",
+      "title": "Execution Core",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "execution-forum",
+      "title": "Execution Forum",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "execution-genome",
+      "title": "Execution Genome",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "execution-intelligence",
+      "title": "Execution Intelligence",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "execution-memory",
+      "title": "Execution Memory",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "execution-vault",
+      "title": "Execution Vault",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "expansion",
+      "title": "Expansion",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "expansion-center",
+      "title": "Expansion Center",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "expansion-radar",
+      "title": "Expansion Radar",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "expansion-vault",
+      "title": "Expansion Vault",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "experiment-studio",
+      "title": "Experiment Studio",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "external-deploy",
+      "title": "External Deploy",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "external-readiness",
+      "title": "External Readiness",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "fabric-core",
+      "title": "Fabric Core",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "factory-director",
+      "title": "Factory Director",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "federation",
+      "title": "Federation",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "federation-core",
+      "title": "Federation Core",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "federation-hub",
+      "title": "Federation Hub",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "final-hardening",
+      "title": "Final Hardening",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "final-launch",
+      "title": "Final Launch",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "forge-deck",
+      "title": "Forge Deck",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "foundry-lab",
+      "title": "Foundry Lab",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "gatekeeper-panel",
+      "title": "Gatekeeper Panel",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "genome-grid",
+      "title": "Genome Grid",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "genome-lab",
+      "title": "Genome Lab",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "global-command-fabric",
+      "title": "Global Command Fabric",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "global-command-grid",
+      "title": "Global Command Grid",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "global-command-lattice",
+      "title": "Global Command Lattice",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "global-command-wall",
+      "title": "Global Command Wall",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "global-expansion-radar",
+      "title": "Global Expansion Radar",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "global-lab",
+      "title": "Global Lab",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "global-matrix",
+      "title": "Global Matrix",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "global-ops-grid",
+      "title": "Global Ops Grid",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "global-war-room",
+      "title": "Global War Room",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "governance-matrix",
+      "title": "Governance Matrix",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "governance-mirror",
+      "title": "Governance Mirror",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "governance-pulse",
+      "title": "Governance Pulse",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "governance-wall",
+      "title": "Governance Wall",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "growth-command",
+      "title": "Growth Command",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "growth-engine",
+      "title": "Growth Engine",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "growth-lab",
+      "title": "Growth Lab",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "growth-radar",
+      "title": "Growth Radar",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "growth-reactor",
+      "title": "Growth Reactor",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "helix",
+      "title": "Helix",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "helix-core",
+      "title": "Helix Core",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "horizon-hub",
+      "title": "Horizon Hub",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "hyper-core",
+      "title": "Hyper Core",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "hypergrowth",
+      "title": "Hypergrowth",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "hypergrowth-hq",
+      "title": "Hypergrowth Hq",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "hyperjump",
+      "title": "Hyperjump",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "hyperjump-center",
+      "title": "Hyperjump Center",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "identity",
+      "title": "Identity",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "incident-center",
+      "title": "Incident Center",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "infinity",
+      "title": "Infinity",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "infinity-chamber",
+      "title": "Infinity Chamber",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "infinity-command-grid",
+      "title": "Infinity Command Grid",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "infinity-core",
+      "title": "Infinity Core",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "infinity-director",
+      "title": "Infinity Director",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "infinity-engine",
+      "title": "Infinity Engine",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "infinity-fabric",
+      "title": "Infinity Fabric",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "infinity-grid",
+      "title": "Infinity Grid",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "infinity-jump-4",
+      "title": "Infinity Jump 4",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "infinity-kernel",
+      "title": "Infinity Kernel",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "infinity-matrix",
+      "title": "Infinity Matrix",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "infinity-mesh",
+      "title": "Infinity Mesh",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "infinity-orchestrator",
+      "title": "Infinity Orchestrator",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "infinity-reactor",
+      "title": "Infinity Reactor",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "infinity-seven",
+      "title": "Infinity Seven",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "infinity-stack",
+      "title": "Infinity Stack",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "infinity3",
+      "title": "Infinity3",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "integration-hub",
+      "title": "Integration Hub",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "integrity-hub",
+      "title": "Integrity Hub",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "intelligence-center",
+      "title": "Intelligence Center",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "intelligence-exchange",
+      "title": "Intelligence Exchange",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "investor-room",
+      "title": "Investor Room",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "jump4",
+      "title": "Jump4",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "kernel",
+      "title": "Kernel",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "kernel-os",
+      "title": "Kernel Os",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "knowledge-grid",
+      "title": "Knowledge Grid",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "knowledge-ledger",
+      "title": "Knowledge Ledger",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "launch",
+      "title": "Launch",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "launch-console",
+      "title": "Launch Console",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "launch-pipeline",
+      "title": "Launch Pipeline",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "launch-readiness",
+      "title": "Launch Readiness",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "launch-war-room",
+      "title": "Launch War Room",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "launchpad",
+      "title": "Launchpad",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "learning",
+      "title": "Learning",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "learning-loop",
+      "title": "Learning Loop",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "lifecycle-os",
+      "title": "Lifecycle Os",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "live-integrations",
+      "title": "Live Integrations",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "live-ops",
+      "title": "Live Ops",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "local-command",
+      "title": "Local Command",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "market-hub",
+      "title": "Market Hub",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "market-memory",
+      "title": "Market Memory",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "master",
+      "title": "Master",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "master-control",
+      "title": "Master Control",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "memory-cartography",
+      "title": "Memory Cartography",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "memory-chamber",
+      "title": "Memory Chamber",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "memory-chronicle",
+      "title": "Memory Chronicle",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "memory-citadel",
+      "title": "Memory Citadel",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "memory-dna",
+      "title": "Memory Dna",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "memory-fabric",
+      "title": "Memory Fabric",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "memory-map",
+      "title": "Memory Map",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "memory-os",
+      "title": "Memory Os",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "memory-theater",
+      "title": "Memory Theater",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "memory-timeline",
+      "title": "Memory Timeline",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "meta",
+      "title": "Meta",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "meta-grid",
+      "title": "Meta Grid",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "mission-control",
+      "title": "Mission Control",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "mission-fabric",
+      "title": "Mission Fabric",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "mission-ledger",
+      "title": "Mission Ledger",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "mobile-hq",
+      "title": "Mobile Hq",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "mobile-private",
+      "title": "Mobile Private",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "monetization-brain",
+      "title": "Monetization Brain",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "navigator",
+      "title": "Navigator",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "navigator-core",
+      "title": "Navigator Core",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "nexus-core",
+      "title": "Nexus Core",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "notifications",
+      "title": "Notifications",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "observability-core",
+      "title": "Observability Core",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "omega-core",
+      "title": "Omega Core",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "operator-brain",
+      "title": "Operator Brain",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "operator-galaxy",
+      "title": "Operator Galaxy",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "operator-journal",
+      "title": "Operator Journal",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "operator-memory",
+      "title": "Operator Memory",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "operator-os",
+      "title": "Operator Os",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "operator-radar",
+      "title": "Operator Radar",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "operator-replay",
+      "title": "Operator Replay",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "operator-spine",
+      "title": "Operator Spine",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "operator-supreme",
+      "title": "Operator Supreme",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "operator-timeline",
+      "title": "Operator Timeline",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "opportunity-radar",
+      "title": "Opportunity Radar",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "ops-archive",
+      "title": "Ops Archive",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "ops-embassy",
+      "title": "Ops Embassy",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "ops-lattice",
+      "title": "Ops Lattice",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "ops-memory",
+      "title": "Ops Memory",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "ops-observatory",
+      "title": "Ops Observatory",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "ops-radar",
+      "title": "Ops Radar",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "ops-replay",
+      "title": "Ops Replay",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "orchestrator-hq",
+      "title": "Orchestrator Hq",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "partner-grid",
+      "title": "Partner Grid",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "partner-hub",
+      "title": "Partner Hub",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "playbook-os",
+      "title": "Playbook Os",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "policy-memory",
+      "title": "Policy Memory",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "policy-studio",
+      "title": "Policy Studio",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "portfolio-hq",
+      "title": "Portfolio Hq",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "portfolio-simulator",
+      "title": "Portfolio Simulator",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "prism",
+      "title": "Prism",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "prism-core",
+      "title": "Prism Core",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "product",
+      "title": "Product",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "production-core",
+      "title": "Production Core",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "production-promotion",
+      "title": "Production Promotion",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "profit-radar",
+      "title": "Profit Radar",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "proof-deck",
+      "title": "Proof Deck",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "proof-engine",
+      "title": "Proof Engine",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "proof-reactor",
+      "title": "Proof Reactor",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "pulse",
+      "title": "Pulse",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "pulse-grid",
+      "title": "Pulse Grid",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "quantum-board",
+      "title": "Quantum Board",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "quantum-hq",
+      "title": "Quantum Hq",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "quantum-mesh",
+      "title": "Quantum Mesh",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "quantum-ops",
+      "title": "Quantum Ops",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "quantum-stack",
+      "title": "Quantum Stack",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "recovery-fortress",
+      "title": "Recovery Fortress",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "recovery-matrix",
+      "title": "Recovery Matrix",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "recovery-theater",
+      "title": "Recovery Theater",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "relay-dome",
+      "title": "Relay Dome",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "release-memory",
+      "title": "Release Memory",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "remote-promotion",
+      "title": "Remote Promotion",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "replay-library",
+      "title": "Replay Library",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "research-atlas",
+      "title": "Research Atlas",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "research-cinema",
+      "title": "Research Cinema",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "research-constellation",
+      "title": "Research Constellation",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "research-exchange",
+      "title": "Research Exchange",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "research-grid",
+      "title": "Research Grid",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "research-studio",
+      "title": "Research Studio",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "research-vault",
+      "title": "Research Vault",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "resilience-deck",
+      "title": "Resilience Deck",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "resilience-os",
+      "title": "Resilience Os",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "revenue-bridge",
+      "title": "Revenue Bridge",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "revenue-cockpit",
+      "title": "Revenue Cockpit",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "revenue-flight-deck",
+      "title": "Revenue Flight Deck",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "revenue-fortress",
+      "title": "Revenue Fortress",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "revenue-intelligence",
+      "title": "Revenue Intelligence",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "revenue-os",
+      "title": "Revenue Os",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "revenue-radar",
+      "title": "Revenue Radar",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "revenue-reactor",
+      "title": "Revenue Reactor",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "risk-cockpit",
+      "title": "Risk Cockpit",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "route-arbitrator",
+      "title": "Route Arbitrator",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "route-memory",
+      "title": "Route Memory",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "runtime-capsule",
+      "title": "Runtime Capsule",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "runtime-charter",
+      "title": "Runtime Charter",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "runtime-conductor",
+      "title": "Runtime Conductor",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "runtime-covenant",
+      "title": "Runtime Covenant",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "runtime-galaxy",
+      "title": "Runtime Galaxy",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "runtime-health",
+      "title": "Runtime Health",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "runtime-lab",
+      "title": "Runtime Lab",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "runtime-registry",
+      "title": "Runtime Registry",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "runtime-theater",
+      "title": "Runtime Theater",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "runtime-vault",
+      "title": "Runtime Vault",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "scenario-exchange",
+      "title": "Scenario Exchange",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "scenario-genome",
+      "title": "Scenario Genome",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "scenario-lab",
+      "title": "Scenario Lab",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "scenario-memory",
+      "title": "Scenario Memory",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "scenario-radar",
+      "title": "Scenario Radar",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "scenario-router",
+      "title": "Scenario Router",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "security-center",
+      "title": "Security Center",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "sentinel-core",
+      "title": "Sentinel Core",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "session-bridge",
+      "title": "Session Bridge",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "session-lab",
+      "title": "Session Lab",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "signal-court",
+      "title": "Signal Court",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "signal-forge",
+      "title": "Signal Forge",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "signal-hub",
+      "title": "Signal Hub",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "signal-parliament",
+      "title": "Signal Parliament",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "simulation",
+      "title": "Simulation",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "sovereign",
+      "title": "Sovereign",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "sovereign-grid",
+      "title": "Sovereign Grid",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "state-vault",
+      "title": "State Vault",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "strategic-genome",
+      "title": "Strategic Genome",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "strategic-memory-vault",
+      "title": "Strategic Memory Vault",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "strategy-commons",
+      "title": "Strategy Commons",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "strategy-factory",
+      "title": "Strategy Factory",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "strategy-genome",
+      "title": "Strategy Genome",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "strategy-kernel",
+      "title": "Strategy Kernel",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "strategy-lab",
+      "title": "Strategy Lab",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "strategy-memory",
+      "title": "Strategy Memory",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "strategy-memory-hub",
+      "title": "Strategy Memory Hub",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "strategy-reactor",
+      "title": "Strategy Reactor",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "strategy-theater",
+      "title": "Strategy Theater",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "strategy-vault",
+      "title": "Strategy Vault",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "super-control",
+      "title": "Super Control",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "supremacy-core",
+      "title": "Supremacy Core",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "switchboard",
+      "title": "Switchboard",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "system-director",
+      "title": "System Director",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "titan",
+      "title": "Titan",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "titan-core",
+      "title": "Titan Core",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "titan-grid",
+      "title": "Titan Grid",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "titan-mesh",
+      "title": "Titan Mesh",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "titan-stack",
+      "title": "Titan Stack",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "trading-core",
+      "title": "Trading Core",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "treasury-citadel",
+      "title": "Treasury Citadel",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "treasury-matrix",
+      "title": "Treasury Matrix",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "treasury-router",
+      "title": "Treasury Router",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "treaty-board",
+      "title": "Treaty Board",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "trust-center",
+      "title": "Trust Center",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "universal-fabric",
+      "title": "Universal Fabric",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "universe-ops",
+      "title": "Universe Ops",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "universe-router",
+      "title": "Universe Router",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "vault-matrix",
+      "title": "Vault Matrix",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "vector",
+      "title": "Vector",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "vector-core",
+      "title": "Vector Core",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "venture-radar",
+      "title": "Venture Radar",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "vertex",
+      "title": "Vertex",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "vertex-core",
+      "title": "Vertex Core",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "war-room",
+      "title": "War Room",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "wave-engine",
+      "title": "Wave Engine",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "workspace",
+      "title": "Workspace",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "workspace-router",
+      "title": "Workspace Router",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "world-engine",
+      "title": "World Engine",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "zenith",
+      "title": "Zenith",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "zenith-core",
+      "title": "Zenith Core",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "zero-touch-ops",
+      "title": "Zero Touch Ops",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "hyper",
+      "title": "Hyper",
+      "progress": 99,
+      "status": "active",
+      "readiness": "strong"
+    },
+    {
+      "slug": "strategy",
+      "title": "Strategy",
+      "progress": 98,
+      "status": "active",
+      "readiness": "strong"
+    },
+    {
+      "slug": "fabric",
+      "title": "Fabric",
+      "progress": 97,
+      "status": "active",
+      "readiness": "strong"
+    },
+    {
+      "slug": "governance",
+      "title": "Governance",
+      "progress": 97,
+      "status": "active",
+      "readiness": "strong"
+    },
+    {
+      "slug": "horizon",
+      "title": "Horizon",
+      "progress": 97,
+      "status": "active",
+      "readiness": "strong"
+    },
+    {
+      "slug": "nexus",
+      "title": "Nexus",
+      "progress": 97,
+      "status": "active",
+      "readiness": "strong"
+    },
+    {
+      "slug": "observability",
+      "title": "Observability",
+      "progress": 97,
+      "status": "active",
+      "readiness": "strong"
+    },
+    {
+      "slug": "omega",
+      "title": "Omega",
+      "progress": 97,
+      "status": "active",
+      "readiness": "strong"
+    },
+    {
+      "slug": "quantum",
+      "title": "Quantum",
+      "progress": 97,
+      "status": "active",
+      "readiness": "strong"
+    },
+    {
+      "slug": "agentmesh",
+      "title": "Agentmesh",
+      "progress": 96,
+      "status": "active",
+      "readiness": "strong"
+    },
+    {
+      "slug": "broker",
+      "title": "Broker",
+      "progress": 96,
+      "status": "active",
+      "readiness": "strong"
+    },
+    {
+      "slug": "executive",
+      "title": "Executive",
+      "progress": 96,
+      "status": "active",
+      "readiness": "strong"
+    },
+    {
+      "slug": "market",
+      "title": "Market",
+      "progress": 96,
+      "status": "active",
+      "readiness": "strong"
+    },
+    {
+      "slug": "intelligence",
+      "title": "Intelligence",
+      "progress": 95,
+      "status": "active",
+      "readiness": "strong"
+    },
+    {
+      "slug": "sentinel",
+      "title": "Sentinel",
+      "progress": 93,
+      "status": "active",
+      "readiness": "strong"
+    },
+    {
+      "slug": "supremacy",
+      "title": "Supremacy",
+      "progress": 90,
+      "status": "active",
+      "readiness": "strong"
+    },
+    {
+      "slug": "enterprise",
+      "title": "Enterprise",
+      "progress": 89,
+      "status": "active",
+      "readiness": "building"
+    },
+    {
+      "slug": "platform",
+      "title": "Platform",
+      "progress": 87,
+      "status": "active",
+      "readiness": "building"
+    },
+    {
+      "slug": "ai",
+      "title": "Ai",
+      "progress": 86,
+      "status": "active",
+      "readiness": "building"
+    },
+    {
+      "slug": "runtimeops",
+      "title": "Runtimeops",
+      "progress": 84,
+      "status": "active",
+      "readiness": "building"
+    },
+    {
+      "slug": "live-bridge",
+      "title": "Live Bridge",
+      "progress": 67,
+      "status": "active",
+      "readiness": "building"
+    }
+  ],
+  "topStack": [
+    {
+      "slug": "agent-mesh",
+      "title": "Agent Mesh",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "ai-control",
+      "title": "Ai Control",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "ai-director",
+      "title": "Ai Director",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "ai-ops-forge",
+      "title": "Ai Ops Forge",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "alert-center",
+      "title": "Alert Center",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "analytics",
+      "title": "Analytics",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "analytics-center",
+      "title": "Analytics Center",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "apex",
+      "title": "Apex",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "apex-command",
+      "title": "Apex Command",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "apex-matrix",
+      "title": "Apex Matrix",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "api-gateway",
+      "title": "Api Gateway",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    },
+    {
+      "slug": "assurance-board",
+      "title": "Assurance Board",
+      "progress": 100,
+      "status": "closed",
+      "readiness": "closed"
+    }
+  ],
+  "nextWave": [
+    {
+      "slug": "active-center",
+      "title": "active center",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "infinite-continuation",
+      "title": "infinite continuation",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "mega-integration",
+      "title": "mega integration",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-09T23:02:59.770Z"
+}

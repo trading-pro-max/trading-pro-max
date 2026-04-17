@@ -27,11 +27,23 @@
     "next-env.d.ts",
     ".next/types/**/*.ts",
     ".next/dev/types/**/*.ts",
-    "**/*.mts",
-    "**/*.ts",
-    "**/*.tsx"
+    "app/**/*.ts",
+    "app/**/*.tsx",
+    "app/**/*.mts",
+    "lib/**/*.ts",
+    "lib/**/*.tsx",
+    "lib/**/*.mts",
+    "desktop/**/*.ts",
+    "desktop/**/*.tsx",
+    "desktop/**/*.mts"
   ],
   "exclude": [
-    "node_modules"
+    "node_modules",
+    "apps_backup_20260407_115342",
+    "src_backup_20260407_113127",
+    "src_backup_20260407_121135",
+    "desktop/build-source",
+    "desktop/build-runtime",
+    "desktop/dist"
   ]
 }

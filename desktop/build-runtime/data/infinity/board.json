@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "lanes": [
+    {
+      "slug": "runtime",
+      "title": "Runtime Infinity",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence",
+      "title": "Evidence Infinity",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "command",
+      "title": "Command Infinity",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth",
+      "title": "Growth Infinity",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeLanes": 20,
+    "certifiedStores": 28,
+    "replayStrength": 100,
+    "infinityConfidence": 100
+  },
+  "time": "2026-04-09T03:29:00.287Z"
+}

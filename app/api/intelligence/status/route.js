@@ -1,7 +1,7 @@
 ﻿import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
-import { runIntelligenceCycle } from "../../../../../lib/tpm-intelligence-core.mjs";
+import { runIntelligenceCycle } from "../../../../lib/tpm-intelligence-core.mjs";
 
 export const dynamic = "force-dynamic";
 

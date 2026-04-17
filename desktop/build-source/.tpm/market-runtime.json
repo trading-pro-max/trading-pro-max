@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "TPM_MARKET_ACTIVE",
+  "overallProgress": 96,
+  "completed": 96,
+  "remaining": 4,
+  "domains": {
+    "stream": 100,
+    "execution": 100,
+    "risk": 80,
+    "orchestration": 100,
+    "telemetry": 100
+  },
+  "nextWave": [
+    {
+      "slug": "market-pulse",
+      "title": "market pulse",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "execution-routing",
+      "title": "execution routing",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "risk-telemetry",
+      "title": "risk telemetry",
+      "progress": 80,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-13T18:40:40.585Z"
+}

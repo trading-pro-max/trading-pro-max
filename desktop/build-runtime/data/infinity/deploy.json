@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "gates": [
+    {
+      "slug": "runtime",
+      "title": "Runtime Gate",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "providers",
+      "title": "Provider Gate",
+      "progress": 92,
+      "status": "configured-path"
+    },
+    {
+      "slug": "hosting",
+      "title": "Hosting Upgrade Gate",
+      "progress": 70,
+      "status": "blocked-by-plan"
+    },
+    {
+      "slug": "switch",
+      "title": "External Switch Gate",
+      "progress": 70,
+      "status": "blocked-by-plan"
+    }
+  ],
+  "metrics": {
+    "localReadiness": 100,
+    "externalSwitchReadiness": 70,
+    "releaseDiscipline": 100,
+    "deploymentConfidence": 82
+  },
+  "time": "2026-04-08T23:45:17.949Z"
+}

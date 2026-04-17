@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "streams": [
+    {
+      "slug": "runtime-pulse",
+      "title": "Runtime Pulse",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-pulse",
+      "title": "Policy Pulse",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-pulse",
+      "title": "Risk Pulse",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-pulse",
+      "title": "Trust Pulse",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeStreams": 18,
+    "guardedPolicies": 20,
+    "governedVotes": 18,
+    "pulseConfidence": 100
+  },
+  "time": "2026-04-08T19:50:22.449Z"
+}

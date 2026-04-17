@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "cells": [
+    {
+      "slug": "builder-cell",
+      "title": "Builder Cell",
+      "power": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "operator-cell",
+      "title": "Operator Cell",
+      "power": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-cell",
+      "title": "Policy Cell",
+      "power": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-cell",
+      "title": "Growth Cell",
+      "power": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeCells": 16,
+    "autonomyChains": 20,
+    "decisionHeat": 100,
+    "forgeConfidence": 100
+  },
+  "time": "2026-04-08T23:56:56.660Z"
+}

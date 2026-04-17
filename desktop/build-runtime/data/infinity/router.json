@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "routes": [
+    {
+      "slug": "proof-route",
+      "title": "Proof Route",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-route",
+      "title": "Audit Route",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-route",
+      "title": "Recovery Route",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "launch-route",
+      "title": "Launch Route",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeRoutes": 18,
+    "governedRoutes": 18,
+    "routeClarity": 100,
+    "routerConfidence": 100
+  },
+  "time": "2026-04-09T03:29:00.287Z"
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "cores": [
+    {
+      "slug": "runtime-kernel",
+      "title": "Runtime Kernel",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "command-kernel",
+      "title": "Command Kernel",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-kernel",
+      "title": "Policy Kernel",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-kernel",
+      "title": "Trust Kernel",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeCores": 4,
+    "governedRoutes": 24,
+    "protectedStores": 30,
+    "kernelConfidence": 100
+  },
+  "time": "2026-04-09T01:48:32.914Z"
+}

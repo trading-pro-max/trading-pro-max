@@ -1,0 +1,207 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Trading Pro Max</title>
+    <style>
+      :root { color-scheme: dark; }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background:
+          radial-gradient(circle at 14% 18%, rgba(14, 165, 233, 0.20) 0%, transparent 20%),
+          radial-gradient(circle at 80% 14%, rgba(37, 99, 235, 0.18) 0%, transparent 24%),
+          linear-gradient(180deg, #08111f 0%, #050b16 42%, #02050c 100%);
+        color: #f8fafc;
+        font-family: "Segoe UI", Arial, sans-serif;
+      }
+      .boot {
+        width: min(760px, calc(100vw - 48px));
+        padding: 34px;
+        border-radius: 32px;
+        border: 1px solid rgba(96, 165, 250, 0.16);
+        background: linear-gradient(180deg, rgba(8, 15, 29, 0.94) 0%, rgba(4, 9, 20, 0.985) 100%);
+        box-shadow: 0 40px 120px rgba(0, 0, 0, 0.48);
+      }
+      .eyebrow {
+        color: #7dd3fc;
+        font-size: 11px;
+        font-weight: 900;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+      }
+      .heading {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        align-items: flex-start;
+        margin-top: 14px;
+      }
+      h1 {
+        margin: 0;
+        font-size: 44px;
+        letter-spacing: -1.2px;
+      }
+      .chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .chip {
+        display: inline-flex;
+        align-items: center;
+        padding: 8px 12px;
+        border-radius: 999px;
+        border: 1px solid rgba(148, 163, 184, 0.14);
+        background: rgba(15, 23, 42, 0.86);
+        color: #dbeafe;
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 0.7px;
+        text-transform: uppercase;
+      }
+      p {
+        margin: 14px 0 0;
+        color: #cbd5e1;
+        line-height: 1.8;
+        max-width: 640px;
+      }
+      .status {
+        margin-top: 24px;
+        padding: 20px;
+        border-radius: 22px;
+        background: linear-gradient(180deg, rgba(15, 23, 42, 0.84) 0%, rgba(8, 15, 29, 0.96) 100%);
+        border: 1px solid rgba(148, 163, 184, 0.12);
+      }
+      .status-label {
+        color: #94a3b8;
+        font-size: 11px;
+        letter-spacing: 1.8px;
+        text-transform: uppercase;
+      }
+      .status-value {
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        font-size: 28px;
+        font-weight: 900;
+      }
+      .pulse {
+        display: inline-flex;
+        width: 12px;
+        height: 12px;
+        border-radius: 999px;
+        background: #22c55e;
+        box-shadow: 0 0 0 rgba(34, 197, 94, 0.55);
+        animation: pulse 1.8s infinite;
+      }
+      .bar {
+        margin-top: 18px;
+        height: 10px;
+        border-radius: 999px;
+        background: rgba(15, 23, 42, 0.96);
+        overflow: hidden;
+        border: 1px solid rgba(148, 163, 184, 0.10);
+      }
+      .bar-fill {
+        width: 76%;
+        height: 100%;
+        background: linear-gradient(90deg, rgba(56, 189, 248, 0.96) 0%, rgba(34, 197, 94, 0.92) 100%);
+        animation: loadbar 2.5s ease-in-out infinite;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+        margin-top: 18px;
+      }
+      .item {
+        padding: 14px 16px;
+        border-radius: 16px;
+        background: rgba(15, 23, 42, 0.68);
+        border: 1px solid rgba(148, 163, 184, 0.08);
+      }
+      .item-label {
+        color: #94a3b8;
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+      }
+      .item-value {
+        margin-top: 8px;
+        color: #e2e8f0;
+        font-size: 15px;
+        font-weight: 700;
+      }
+      .item-note {
+        margin-top: 6px;
+        color: #93c5fd;
+        font-size: 12px;
+      }
+      @keyframes pulse {
+        0% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.55); }
+        70% { box-shadow: 0 0 0 14px rgba(34, 197, 94, 0); }
+        100% { box-shadow: 0 0 0 0 rgba(34, 197, 94, 0); }
+      }
+      @keyframes loadbar {
+        0% { transform: translateX(-12%); opacity: 0.82; }
+        50% { transform: translateX(6%); opacity: 1; }
+        100% { transform: translateX(-12%); opacity: 0.82; }
+      }
+      @media (max-width: 720px) {
+        .heading {
+          flex-direction: column;
+        }
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="boot">
+      <div class="eyebrow">Trading Pro Max</div>
+      <div class="heading">
+        <h1>Opening Trading Workspace</h1>
+        <div class="chips">
+          <div class="chip">Windows Desktop Release</div>
+          <div class="chip">Version 1.0.0</div>
+        </div>
+      </div>
+      <p>Preparing the packaged desktop runtime, restoring the active product session, and handing off into the live Trading Pro Max workspace.</p>
+      <section class="status">
+        <div class="status-label">Startup State</div>
+        <div class="status-value"><span class="pulse"></span>Desktop workspace initializing</div>
+        <div class="bar"><div class="bar-fill"></div></div>
+      </section>
+      <div class="grid">
+        <div class="item">
+          <div class="item-label">Desktop Shell</div>
+          <div class="item-value">Window and menu online</div>
+          <div class="item-note">Release identity and operator chrome are active.</div>
+        </div>
+        <div class="item">
+          <div class="item-label">Packaged Runtime</div>
+          <div class="item-value">Launching local workspace engine</div>
+          <div class="item-note">No external dev server is required.</div>
+        </div>
+        <div class="item">
+          <div class="item-label">Session Restore</div>
+          <div class="item-value">Rehydrating local product state</div>
+          <div class="item-note">Symbol, route, orders, and journal continuity are preserved.</div>
+        </div>
+        <div class="item">
+          <div class="item-label">Workspace Route</div>
+          <div class="item-value">Handing off to the real product</div>
+          <div class="item-note">Execution Center and the full module stack are loading next.</div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>

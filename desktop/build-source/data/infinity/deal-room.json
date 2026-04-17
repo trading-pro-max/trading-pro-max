@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "rooms": [
+    {
+      "slug": "revenue-room",
+      "title": "Revenue Room",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "partner-room",
+      "title": "Partner Room",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "enterprise-room",
+      "title": "Enterprise Room",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-room",
+      "title": "Growth Room",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeRooms": 8,
+    "governedOffers": 14,
+    "enterpriseConfidence": 100,
+    "monetizationConfidence": 100
+  },
+  "time": "2026-04-08T23:55:13.793Z"
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "maps": [
+    {
+      "slug": "runtime-map",
+      "title": "Runtime Map",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-map",
+      "title": "Market Map",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-map",
+      "title": "Policy Map",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-map",
+      "title": "Growth Map",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedMaps": 20,
+    "governedMemories": 18,
+    "replayableMemory": 100,
+    "memoryConfidence": 100
+  },
+  "time": "2026-04-09T01:48:20.739Z"
+}

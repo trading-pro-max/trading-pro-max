@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "fabrics": [
+    {
+      "slug": "runtime-fabric",
+      "title": "Runtime Fabric",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "agent-fabric",
+      "title": "Agent Fabric",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "command-fabric",
+      "title": "Command Fabric",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-fabric",
+      "title": "Trust Fabric",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "linkedFabrics": 16,
+    "protectedBridges": 18,
+    "autonomyStrength": 100,
+    "fabricConfidence": 100
+  },
+  "time": "2026-04-08T22:22:38.125Z"
+}

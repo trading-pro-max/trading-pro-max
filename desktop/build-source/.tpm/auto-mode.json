@@ -1,0 +1,14 @@
+﻿{
+    "enabled":  true,
+    "mode":  "FULL_AUTOMATIC",
+    "startedAt":  "2026-04-08T07:52:16.0427880+02:00",
+    "lastRunAt":  "2026-04-08T11:31:20.6931565+02:00",
+    "cycles":  120,
+    "buildProgress":  0,
+    "remaining":  0,
+    "remoteProgress":  100,
+    "remoteVerdict":  "CODE_READY_PENDING_REAL_SECRETS",
+    "certificationVerdict":  "GLOBAL_CERTIFIED_100",
+    "releaseVerdict":  "READY_FOR_GLOBAL_PROMOTION",
+    "pushed":  false
+}

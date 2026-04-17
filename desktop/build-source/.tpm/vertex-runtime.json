@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "TPM_VERTEX_ACTIVE",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "domains": {
+    "vertex": 100,
+    "radar": 100,
+    "memory": 100,
+    "proof": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "vertex-density",
+      "title": "vertex density",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "scenario-clarity",
+      "title": "scenario clarity",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "memory-depth",
+      "title": "memory depth",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-09T01:48:13.989Z"
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "lanes": [
+    {
+      "slug": "ops-lane",
+      "title": "Ops Lane",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-lane",
+      "title": "Market Lane",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "broker-lane",
+      "title": "Broker Lane",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "platform-lane",
+      "title": "Platform Lane",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "conductedLanes": 16,
+    "unifiedRuntimes": 20,
+    "routeDiscipline": 100,
+    "conductorConfidence": 100
+  },
+  "time": "2026-04-08T21:39:58.645Z"
+}

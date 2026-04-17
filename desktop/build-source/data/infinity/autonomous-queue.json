@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "queues": [
+    {
+      "slug": "autobuild",
+      "title": "Autobuild Queue",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "autolearn",
+      "title": "Autolearn Queue",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "autoguard",
+      "title": "Autoguard Queue",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "autoprove",
+      "title": "Autoprove Queue",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "autogrow",
+      "title": "Autogrow Queue",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeQueues": 5,
+    "autonomousDepth": 100,
+    "orchestrationDepth": 100,
+    "queueConfidence": 100
+  },
+  "time": "2026-04-09T01:46:16.415Z"
+}

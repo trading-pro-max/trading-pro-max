@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "waves": [
+    {
+      "slug": "wave-alpha",
+      "title": "Wave Alpha",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "wave-beta",
+      "title": "Wave Beta",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "wave-gamma",
+      "title": "Wave Gamma",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "wave-delta",
+      "title": "Wave Delta",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeWaves": 16,
+    "governedWaves": 16,
+    "routeCoverage": 100,
+    "waveConfidence": 100
+  },
+  "time": "2026-04-09T01:06:03.553Z"
+}

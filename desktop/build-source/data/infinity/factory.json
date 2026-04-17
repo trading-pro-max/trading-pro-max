@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "directors": [
+    {
+      "slug": "surfaces",
+      "title": "Surface Director",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "signals",
+      "title": "Signal Director",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "runtime",
+      "title": "Runtime Director",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "strategy",
+      "title": "Strategy Director",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeLoops": 20,
+    "linkedRuntimes": 24,
+    "governedPipelines": 18,
+    "factoryConfidence": 100
+  },
+  "time": "2026-04-09T00:46:01.515Z"
+}

@@ -1,0 +1,18 @@
+{
+  "ok": true,
+  "mode": "AUTONOMOUS_BUILDER_ACTIVE",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "managedModules": 331,
+  "createdThisCycle": 0,
+  "primaryControlFile": ".tpm/autonomous-builder.manifest.json",
+  "domains": {
+    "manifest": 100,
+    "builder": 100,
+    "generation": 100,
+    "continuity": 100,
+    "autonomy": 100
+  },
+  "time": "2026-04-09T01:48:14.201Z"
+}

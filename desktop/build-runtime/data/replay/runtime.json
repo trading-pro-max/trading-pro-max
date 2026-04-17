@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "streams": [
+    {
+      "slug": "runtime",
+      "title": "Runtime Replay",
+      "progress": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "market",
+      "title": "Market Replay",
+      "progress": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "broker",
+      "title": "Broker Replay",
+      "progress": 97,
+      "status": "strong"
+    },
+    {
+      "slug": "governance",
+      "title": "Governance Replay",
+      "progress": 99,
+      "status": "strong"
+    }
+  ],
+  "maps": {
+    "replayWindows": 12,
+    "trackedEvents": 28,
+    "protectedSnapshots": 16,
+    "restartConfidence": 99
+  },
+  "time": "2026-04-13T18:40:44.688Z"
+}

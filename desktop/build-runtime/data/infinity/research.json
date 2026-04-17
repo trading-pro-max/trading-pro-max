@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "constellations": [
+    {
+      "slug": "market",
+      "title": "Market Constellation",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "signal",
+      "title": "Signal Constellation",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy",
+      "title": "Policy Constellation",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence",
+      "title": "Evidence Constellation",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "mappedClusters": 24,
+    "learnedPatterns": 22,
+    "replayableFindings": 20,
+    "researchConfidence": 100
+  },
+  "time": "2026-04-08T23:45:17.949Z"
+}

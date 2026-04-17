@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "TPM_CONSTELLATION_ACTIVE",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "domains": {
+    "constellation": 100,
+    "chamber": 100,
+    "assurance": 100,
+    "proof": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "constellation-density",
+      "title": "constellation density",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "strategy-depth",
+      "title": "strategy depth",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "assurance-depth",
+      "title": "assurance depth",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-09T23:02:56.663Z"
+}

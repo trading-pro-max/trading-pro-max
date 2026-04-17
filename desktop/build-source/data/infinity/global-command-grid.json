@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "routes": [
+    {
+      "slug": "market-grid",
+      "title": "Market Grid",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "broker-grid",
+      "title": "Broker Grid",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-grid",
+      "title": "Policy Grid",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-grid",
+      "title": "Trust Grid",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "commandRoutes": 22,
+    "governedSwitches": 18,
+    "arbitrationStrength": 100,
+    "commandConfidence": 100
+  },
+  "time": "2026-04-09T00:33:24.825Z"
+}

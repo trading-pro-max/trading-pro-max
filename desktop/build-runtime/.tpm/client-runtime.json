@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "domains": {
+    "client": 100,
+    "notifications": 100,
+    "operator": 100
+  },
+  "feeds": [
+    {
+      "slug": "accounts",
+      "title": "Accounts",
+      "progress": 94,
+      "status": "strong"
+    },
+    {
+      "slug": "performance",
+      "title": "Performance",
+      "progress": 92,
+      "status": "strong"
+    },
+    {
+      "slug": "activity",
+      "title": "Activity",
+      "progress": 93,
+      "status": "strong"
+    },
+    {
+      "slug": "assistant",
+      "title": "Assistant bridge",
+      "progress": 95,
+      "status": "strong"
+    }
+  ],
+  "time": "2026-04-13T18:40:39.075Z"
+}

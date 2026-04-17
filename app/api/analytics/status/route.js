@@ -1,7 +1,7 @@
 ﻿import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
-import { runAnalyticsCycle } from "../../../../../lib/tpm-analytics-core.mjs";
+import { runAnalyticsCycle } from "../../../../lib/tpm-analytics-core.mjs";
 
 export const dynamic = "force-dynamic";
 

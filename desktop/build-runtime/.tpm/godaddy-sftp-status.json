@@ -1,0 +1,11 @@
+﻿{
+    "ok":  true,
+    "mode":  "GODADDY_SFTP_AUTODEPLOY_READY",
+    "host":  "fge.537.myftpupload.com",
+    "port":  "22",
+    "userReady":  false,
+    "passwordReady":  false,
+    "remotePath":  "/html",
+    "workflow":  ".github/workflows/tpm-godaddy-sftp-deploy.yml",
+    "time":  "2026-04-08T10:26:37.9343195+02:00"
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "prisms": [
+    {
+      "slug": "runtime-prism",
+      "title": "Runtime Prism",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-prism",
+      "title": "Policy Prism",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "signal-prism",
+      "title": "Signal Prism",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-prism",
+      "title": "Trust Prism",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activePrisms": 16,
+    "connectedDomains": 24,
+    "protectedDecisions": 22,
+    "prismConfidence": 100
+  },
+  "time": "2026-04-09T23:02:58.349Z"
+}

@@ -1,0 +1,25 @@
+﻿{
+    "rootStatus":  200,
+    "rootTitle":  "Terminal",
+    "overviewSignatureStable":  true,
+    "selectedSymbol":  "EUR/USD",
+    "providerLabel":  "Demo Feed",
+    "providerConnection":  "Connected",
+    "quoteCount":  8,
+    "readiness":  "Ready",
+    "readinessGuardrails":  "Healthy",
+    "orderOk":  true,
+    "closeOk":  true,
+    "orderNotice":  "EUR/USD Buy filled into the paper engine.",
+    "fillsAfter":  2,
+    "positionsAfter":  0,
+    "persistence":  {
+                        "pending":  "0-\u003e1",
+                        "positions":  "0-\u003e0",
+                        "fills":  "0-\u003e2",
+                        "activity":  "0-\u003e2",
+                        "audit":  "247-\u003e220"
+                    },
+    "recommendationHistory":  122,
+    "decisionJournal":  125
+}

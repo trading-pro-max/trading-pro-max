@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "TPM_OBSERVABILITY_ACTIVE",
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
+  "domains": {
+    "observability": 100,
+    "incidents": 100,
+    "playbooks": 83,
+    "proof": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "observability-depth",
+      "title": "observability depth",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "incident-discipline",
+      "title": "incident discipline",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "playbook-depth",
+      "title": "playbook depth",
+      "progress": 83,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-13T18:40:47.699Z"
+}

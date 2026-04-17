@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "lanes": [
+    {
+      "slug": "routing",
+      "title": "Routing Lane",
+      "progress": 96,
+      "status": "strong"
+    },
+    {
+      "slug": "risk",
+      "title": "Risk Lane",
+      "progress": 97,
+      "status": "strong"
+    },
+    {
+      "slug": "validation",
+      "title": "Validation Lane",
+      "progress": 95,
+      "status": "strong"
+    },
+    {
+      "slug": "telemetry",
+      "title": "Telemetry Lane",
+      "progress": 94,
+      "status": "strong"
+    }
+  ],
+  "time": "2026-04-13T18:40:40.585Z"
+}

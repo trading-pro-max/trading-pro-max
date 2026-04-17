@@ -1,0 +1,39 @@
+{
+  "ok": true,
+  "walls": [
+    {
+      "slug": "local-wall",
+      "title": "Local Wall",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-wall",
+      "title": "Evidence Wall",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-wall",
+      "title": "Recovery Wall",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "external-wall",
+      "title": "External Wall",
+      "progress": 70,
+      "status": "blocked-by-godaddy-plan"
+    }
+  ],
+  "metrics": {
+    "localReadiness": 100,
+    "proofReadiness": 100,
+    "recoveryReadiness": 100,
+    "externalSwitchReadiness": 70
+  },
+  "blockers": [
+    "External GoDaddy deploy remains blocked by current hosting plan."
+  ],
+  "time": "2026-04-09T01:48:22.318Z"
+}

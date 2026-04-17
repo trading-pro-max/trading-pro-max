@@ -1,12 +1,12 @@
 {
   "ok": true,
   "mode": "TPM_NEXUS_ACTIVE",
-  "overallProgress": 97,
-  "completed": 97,
-  "remaining": 3,
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
   "domains": {
     "nexus": 100,
-    "ledger": 83,
+    "ledger": 100,
     "radar": 100,
     "proof": 100,
     "continuity": 100
@@ -21,7 +21,7 @@
     {
       "slug": "ledger-close",
       "title": "ledger close",
-      "progress": 83,
+      "progress": 100,
       "status": "closed"
     },
     {
@@ -31,5 +31,5 @@
       "status": "closed"
     }
   ],
-  "time": "2026-04-10T01:43:27.456Z"
+  "time": "2026-04-16T23:38:34.207Z"
 }

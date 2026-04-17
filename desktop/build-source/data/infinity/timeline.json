@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "phases": [
+    {
+      "slug": "foundation",
+      "title": "Foundation",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "expansion",
+      "title": "Expansion",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "sovereignty",
+      "title": "Sovereignty",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "infinity",
+      "title": "Infinity",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "closedPhases": 4,
+    "openPhases": 0,
+    "blockedExternal": 1,
+    "timelineConfidence": 100
+  },
+  "time": "2026-04-09T01:32:45.954Z"
+}

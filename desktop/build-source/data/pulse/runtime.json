@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "boards": [
+    {
+      "slug": "runtime-pulse",
+      "title": "Runtime Pulse",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-pulse",
+      "title": "Market Pulse",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution-pulse",
+      "title": "Execution Pulse",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-pulse",
+      "title": "Trust Pulse",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeBoards": 16,
+    "connectedSignals": 28,
+    "protectedRoutes": 20,
+    "pulseConfidence": 100
+  },
+  "time": "2026-04-13T18:40:50.756Z"
+}

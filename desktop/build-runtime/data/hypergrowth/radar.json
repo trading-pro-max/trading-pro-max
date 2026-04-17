@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "vectors": [
+    {
+      "slug": "revenue",
+      "title": "Revenue Vector",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "retention",
+      "title": "Retention Vector",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "expansion",
+      "title": "Expansion Vector",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "platform",
+      "title": "Platform Vector",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "monitoredVectors": 16,
+    "governedFunnels": 14,
+    "revenueReadiness": 100,
+    "radarConfidence": 100
+  },
+  "time": "2026-04-09T01:48:28.443Z"
+}

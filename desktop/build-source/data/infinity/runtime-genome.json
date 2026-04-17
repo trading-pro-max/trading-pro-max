@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "genes": [
+    {
+      "slug": "runtime-gene",
+      "title": "Runtime Gene",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-gene",
+      "title": "Policy Gene",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-gene",
+      "title": "Market Gene",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-gene",
+      "title": "Trust Gene",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedGenes": 28,
+    "stableMutations": 18,
+    "governedVariants": 20,
+    "genomeConfidence": 100
+  },
+  "time": "2026-04-09T23:02:58.362Z"
+}

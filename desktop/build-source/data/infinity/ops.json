@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "grids": [
+    {
+      "slug": "runtime-ops",
+      "title": "Runtime Ops",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "incident-ops",
+      "title": "Incident Ops",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "broker-ops",
+      "title": "Broker Ops",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "alert-ops",
+      "title": "Alert Ops",
+      "score": 93,
+      "status": "configured-path"
+    }
+  ],
+  "metrics": {
+    "protectedRoutes": 24,
+    "governedLoops": 19,
+    "incidentReadiness": 100,
+    "opsConfidence": 100
+  },
+  "time": "2026-04-08T23:45:17.949Z"
+}

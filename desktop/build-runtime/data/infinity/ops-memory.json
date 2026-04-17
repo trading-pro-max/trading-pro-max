@@ -1,0 +1,57 @@
+{
+  "ok": true,
+  "layers": [
+    {
+      "slug": "runtime-depth",
+      "title": "Runtime Depth",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "surface-depth",
+      "title": "Surface Depth",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "loop-depth",
+      "title": "Loop Depth",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-depth",
+      "title": "Evidence Depth",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "maps": {
+    "runtimes": 49,
+    "loopPids": 46,
+    "appPages": 195,
+    "apiRoutes": 125,
+    "jsonStores": 170
+  },
+  "memory": [
+    {
+      "slug": "local-closure",
+      "title": "Local Closure",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "expansion-closure",
+      "title": "Expansion Closure",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "infinity-active",
+      "title": "Infinity Active",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "time": "2026-04-08T22:28:36.923Z"
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "boards": [
+    {
+      "slug": "runtime-ops",
+      "title": "Runtime Ops",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-ops",
+      "title": "Market Ops",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "broker-ops",
+      "title": "Broker Ops",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "platform-ops",
+      "title": "Platform Ops",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "observedBoards": 18,
+    "guardedRoutes": 24,
+    "recoveryStrength": 100,
+    "observatoryConfidence": 100
+  },
+  "time": "2026-04-08T19:19:38.146Z"
+}

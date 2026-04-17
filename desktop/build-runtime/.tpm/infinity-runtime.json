@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "TPM_INFINITY_ACTIVE",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "domains": {
+    "infinity": 100,
+    "genome": 100,
+    "gate": 100,
+    "proof": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "infinity-density",
+      "title": "infinity density",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "genome-clarity",
+      "title": "genome clarity",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "external-switch",
+      "title": "external switch",
+      "progress": 70,
+      "status": "blocked-by-plan"
+    }
+  ],
+  "time": "2026-04-09T23:02:58.362Z"
+}

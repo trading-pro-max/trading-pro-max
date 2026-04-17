@@ -1,0 +1,34 @@
+{
+  "grids": [
+    {
+      "slug": "runtime-meta",
+      "title": "Runtime Meta",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-meta",
+      "title": "Policy Meta",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-meta",
+      "title": "Evidence Meta",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "launch-meta",
+      "title": "Launch Meta",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeGrids": 18,
+    "linkedStores": 26,
+    "governedNodes": 22,
+    "metaConfidence": 100
+  }
+}

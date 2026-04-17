@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "consoles": [
+    {
+      "slug": "ops-launch",
+      "title": "Ops Launch",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-launch",
+      "title": "Market Launch",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "broker-launch",
+      "title": "Broker Launch",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "platform-launch",
+      "title": "Platform Launch",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeConsoles": 12,
+    "governedLaunches": 12,
+    "routeReadiness": 100,
+    "launchConfidence": 100
+  },
+  "time": "2026-04-13T18:40:50.757Z"
+}

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-label="Trading Pro Max placeholder icon">
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#08111f" />
+      <stop offset="100%" stop-color="#02050c" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#22c55e" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="116" fill="url(#bg)" />
+  <rect x="28" y="28" width="456" height="456" rx="96" fill="none" stroke="#1f334d" stroke-width="4" />
+  <g fill="none" stroke="url(#accent)" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M116 340 L196 250 L258 286 L388 156" stroke-width="28" />
+    <path d="M132 158 H380" stroke="#94a3b8" stroke-opacity="0.35" stroke-width="10" />
+    <path d="M132 208 H322" stroke="#94a3b8" stroke-opacity="0.2" stroke-width="10" />
+    <path d="M132 388 H388" stroke="#94a3b8" stroke-opacity="0.2" stroke-width="10" />
+  </g>
+  <text x="72" y="112" fill="#f8fafc" font-family="Arial, sans-serif" font-size="52" font-weight="700" letter-spacing="6">TPM</text>
+</svg>

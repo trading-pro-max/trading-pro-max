@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "project": "Trading Pro Max",
+  "target": "Global #1 AI autonomous trading platform",
+  "tracks": [
+    "AI engine",
+    "Execution surfaces",
+    "Research + strategy",
+    "Autonomy + builder",
+    "Deployment + growth"
+  ]
+}

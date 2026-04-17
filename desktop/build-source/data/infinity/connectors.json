@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "providers": [
+    {
+      "slug": "openai",
+      "title": "OpenAI",
+      "ready": false,
+      "status": "empty"
+    },
+    {
+      "slug": "ibkr",
+      "title": "IBKR",
+      "ready": true,
+      "status": "ready"
+    },
+    {
+      "slug": "telegram",
+      "title": "Telegram",
+      "ready": false,
+      "status": "empty"
+    },
+    {
+      "slug": "smtp",
+      "title": "SMTP",
+      "ready": false,
+      "status": "empty"
+    }
+  ],
+  "bridges": {
+    "providerCoverage": 25,
+    "runtimeCoverage": 100,
+    "continuityCoverage": 100,
+    "connectorConfidence": 100
+  },
+  "time": "2026-04-09T03:23:35.936Z"
+}

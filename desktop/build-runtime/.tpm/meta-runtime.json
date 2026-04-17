@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "TPM_META_ACTIVE",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "domains": {
+    "meta": 100,
+    "replay": 100,
+    "gatekeeper": 100,
+    "proof": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "meta-grid",
+      "title": "meta grid",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "replay-library",
+      "title": "replay library",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "gatekeeper-panel",
+      "title": "gatekeeper panel",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "time": "2026-04-13T18:40:51.287Z"
+}

@@ -1,0 +1,19 @@
+{
+  "ok": true,
+  "mode": "TPM_INFINITY_ACTIVE",
+  "infiniteContinuation": true,
+  "localState": "CLOSED_100",
+  "externalState": "BLOCKED_BY_GODADDY_PLAN",
+  "commands": [
+    "npm run tpm:infinity:once",
+    "npm run tpm:infinity",
+    "npm run tpm:master:once"
+  ],
+  "pages": [
+    "/infinity-core",
+    "/builder-os",
+    "/wave-engine",
+    "/proof-deck"
+  ],
+  "time": "2026-04-09T01:06:03.553Z"
+}

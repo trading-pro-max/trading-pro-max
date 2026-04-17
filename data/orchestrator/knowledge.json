@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "nodes": [
+    {
+      "slug": "ai",
+      "title": "AI Core",
+      "density": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "strategy",
+      "title": "Strategy Core",
+      "density": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "market",
+      "title": "Market Core",
+      "density": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "execution",
+      "title": "Execution Core",
+      "density": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "governance",
+      "title": "Governance Core",
+      "density": 99,
+      "status": "strong"
+    }
+  ],
+  "maps": {
+    "runtimes": 10,
+    "bridges": 6,
+    "pages": 24,
+    "loops": 8
+  },
+  "time": "2026-04-16T23:38:30.827Z"
+}

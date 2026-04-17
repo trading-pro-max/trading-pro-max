@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "chambers": [
+    {
+      "slug": "command",
+      "title": "Command Chamber",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market",
+      "title": "Market Chamber",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk",
+      "title": "Risk Chamber",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "expansion",
+      "title": "Expansion Chamber",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeChambers": 8,
+    "activeLanes": 20,
+    "escalationStrength": 100,
+    "commandStrength": 100
+  },
+  "time": "2026-04-08T23:04:47.936Z"
+}

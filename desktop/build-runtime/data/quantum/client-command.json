@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "channels": [
+    {
+      "slug": "client-ops",
+      "title": "Client Ops",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "client-growth",
+      "title": "Client Growth",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "client-trust",
+      "title": "Client Trust",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "client-command",
+      "title": "Client Command",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeChannels": 12,
+    "governedExperiences": 14,
+    "commandClarity": 100,
+    "clientConfidence": 100
+  },
+  "time": "2026-04-09T00:02:46.429Z"
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "missions": [
+    {
+      "slug": "runtime-unification",
+      "title": "Runtime Unification",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "command-unification",
+      "title": "Command Unification",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-unification",
+      "title": "Trust Unification",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-unification",
+      "title": "Growth Unification",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "routes": {
+    "governedRoutes": 24,
+    "protectedMissions": 22,
+    "replayableMissions": 18,
+    "fabricConfidence": 100
+  },
+  "time": "2026-04-09T01:32:45.953Z"
+}

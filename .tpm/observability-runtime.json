@@ -1,13 +1,13 @@
 {
   "ok": true,
   "mode": "TPM_OBSERVABILITY_ACTIVE",
-  "overallProgress": 97,
-  "completed": 97,
-  "remaining": 3,
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
   "domains": {
     "observability": 100,
     "incidents": 100,
-    "playbooks": 83,
+    "playbooks": 100,
     "proof": 100,
     "continuity": 100
   },
@@ -27,9 +27,9 @@
     {
       "slug": "playbook-depth",
       "title": "playbook depth",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-10T01:43:29.921Z"
+  "time": "2026-04-16T23:38:35.644Z"
 }

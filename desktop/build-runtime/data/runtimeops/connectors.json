@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "providers": [
+    {
+      "slug": "openai",
+      "title": "OpenAI",
+      "ready": false,
+      "status": "missing"
+    },
+    {
+      "slug": "telegram",
+      "title": "Telegram",
+      "ready": false,
+      "status": "missing"
+    },
+    {
+      "slug": "ibkr",
+      "title": "IBKR",
+      "ready": true,
+      "status": "ready"
+    },
+    {
+      "slug": "smtp",
+      "title": "SMTP",
+      "ready": false,
+      "status": "missing"
+    },
+    {
+      "slug": "stripe",
+      "title": "Stripe",
+      "ready": false,
+      "status": "missing"
+    }
+  ],
+  "metrics": {
+    "readyProviders": 1,
+    "totalProviders": 5,
+    "readinessScore": 20,
+    "envFilePresent": true
+  },
+  "time": "2026-04-09T01:48:15.171Z"
+}

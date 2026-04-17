@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "lanes": [
+    {
+      "slug": "runtime-continuum",
+      "title": "Runtime Continuum",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "governance-continuum",
+      "title": "Governance Continuum",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "command-continuum",
+      "title": "Command Continuum",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-continuum",
+      "title": "Evidence Continuum",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "connectedLayers": 24,
+    "governedRoutes": 20,
+    "replayWindows": 22,
+    "continuumConfidence": 100
+  },
+  "time": "2026-04-09T23:02:56.006Z"
+}

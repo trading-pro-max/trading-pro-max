@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "towers": [
+    {
+      "slug": "runtime-quantum",
+      "title": "Runtime Quantum",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-quantum",
+      "title": "Policy Quantum",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-quantum",
+      "title": "Capital Quantum",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-quantum",
+      "title": "Trust Quantum",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeLayers": 24,
+    "connectedRuntimes": 29,
+    "protectedStores": 27,
+    "quantumConfidence": 100
+  },
+  "time": "2026-04-09T01:48:22.318Z"
+}

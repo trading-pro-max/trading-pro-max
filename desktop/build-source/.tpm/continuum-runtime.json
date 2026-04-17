@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "TPM_CONTINUUM_ACTIVE",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "domains": {
+    "continuum": 100,
+    "forge": 100,
+    "router": 100,
+    "proof": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "continuum-density",
+      "title": "continuum density",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "forge-strength",
+      "title": "forge strength",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "router-discipline",
+      "title": "router discipline",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-09T23:02:56.007Z"
+}

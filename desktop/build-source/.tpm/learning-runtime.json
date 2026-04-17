@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "TPM_LEARNING_ACTIVE",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "domains": {
+    "learning": 100,
+    "routes": 100,
+    "policies": 100,
+    "proof": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "pattern-density",
+      "title": "pattern density",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "route-discipline",
+      "title": "route discipline",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "policy-depth",
+      "title": "policy depth",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-13T18:40:48.700Z"
+}

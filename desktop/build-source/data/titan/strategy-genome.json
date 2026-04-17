@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "strands": [
+    {
+      "slug": "alpha-strand",
+      "title": "Alpha Strand",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "defense-strand",
+      "title": "Defense Strand",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "adaptive-strand",
+      "title": "Adaptive Strand",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-strand",
+      "title": "Capital Strand",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "maps": {
+    "encodedStrategies": 32,
+    "protectedVariants": 20,
+    "governedMutations": 18,
+    "genomeConfidence": 100
+  },
+  "time": "2026-04-09T01:48:28.091Z"
+}

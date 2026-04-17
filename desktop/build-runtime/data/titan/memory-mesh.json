@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "meshes": [
+    {
+      "slug": "research-mesh",
+      "title": "Research Mesh",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "runtime-mesh",
+      "title": "Runtime Mesh",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-mesh",
+      "title": "Audit Mesh",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity-mesh",
+      "title": "Continuity Mesh",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedArtifacts": 34,
+    "replayableProofs": 24,
+    "memoryDensity": 100,
+    "meshConfidence": 100
+  },
+  "time": "2026-04-08T23:40:18.151Z"
+}

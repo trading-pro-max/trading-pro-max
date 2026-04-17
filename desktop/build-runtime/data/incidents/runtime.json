@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "queues": [
+    {
+      "slug": "critical",
+      "title": "Critical Queue",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "high",
+      "title": "High Queue",
+      "progress": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "medium",
+      "title": "Medium Queue",
+      "progress": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "resolved",
+      "title": "Resolved Queue",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "maps": {
+    "incidentCoverage": 100,
+    "replayCoverage": 100,
+    "recoveryCoverage": 100,
+    "trustCoverage": 100
+  },
+  "time": "2026-04-13T18:40:47.699Z"
+}

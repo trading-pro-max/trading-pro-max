@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "towers": [
+    {
+      "slug": "global-runtime",
+      "title": "Global Runtime Tower",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "autonomy-runtime",
+      "title": "Autonomy Runtime Tower",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-runtime",
+      "title": "Evidence Runtime Tower",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "expansion-runtime",
+      "title": "Expansion Runtime Tower",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "runtimeLayers": 26,
+    "governedStores": 34,
+    "activeLoops": 22,
+    "infinityConfidence": 100
+  },
+  "providers": {
+    "openaiReady": false,
+    "telegramReady": false,
+    "ibkrReady": false,
+    "smtpReady": false
+  },
+  "time": "2026-04-08T23:55:13.793Z"
+}

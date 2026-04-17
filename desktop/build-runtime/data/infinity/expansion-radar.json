@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "title": "Global Expansion Radar",
+  "cards": [
+    {
+      "slug": "global-expansion-radar-core",
+      "title": "Global Expansion Radar Core",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "global-expansion-radar-ops",
+      "title": "Ops Layer",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "global-expansion-radar-trust",
+      "title": "Trust Layer",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "global-expansion-radar-continuity",
+      "title": "Continuity Layer",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeBoards": 6,
+    "linkedRuntimes": 20,
+    "protectedPaths": 18,
+    "confidence": 100
+  },
+  "time": "2026-04-09T01:48:14.010Z"
+}

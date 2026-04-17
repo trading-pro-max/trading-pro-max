@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "vaults": [
+    {
+      "slug": "runtime-state",
+      "title": "Runtime State",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-state",
+      "title": "Policy State",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-state",
+      "title": "Recovery State",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-state",
+      "title": "Trust State",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "securedStates": 26,
+    "replayableStates": 24,
+    "governedSnapshots": 20,
+    "vaultConfidence": 100
+  },
+  "time": "2026-04-08T11:59:20.064Z"
+}

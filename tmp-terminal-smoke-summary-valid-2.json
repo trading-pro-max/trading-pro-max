@@ -1,0 +1,14 @@
+﻿{
+    "rootStatus":  200,
+    "orderOk":  true,
+    "closeOk":  true,
+    "readiness":  "Ready",
+    "guardrails":  "Healthy",
+    "persistence":  {
+                        "pending":  "0-\u003e1",
+                        "positions":  "0-\u003e0",
+                        "fills":  "0-\u003e2",
+                        "activity":  "0-\u003e2",
+                        "audit":  "247-\u003e249"
+                    }
+}

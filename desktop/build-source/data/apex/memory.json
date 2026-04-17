@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "fabrics": [
+    {
+      "slug": "research-fabric",
+      "title": "Research Fabric",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "runtime-fabric",
+      "title": "Runtime Fabric",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-fabric",
+      "title": "Policy Fabric",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-fabric",
+      "title": "Growth Fabric",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedPatterns": 32,
+    "replayableMemories": 24,
+    "governedArtifacts": 22,
+    "memoryConfidence": 100
+  },
+  "time": "2026-04-09T01:48:13.964Z"
+}

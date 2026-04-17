@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "genes": [
+    {
+      "slug": "pattern-gene",
+      "title": "Pattern Gene",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-gene",
+      "title": "Risk Gene",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-gene",
+      "title": "Capital Gene",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "route-gene",
+      "title": "Route Gene",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "mappedGenes": 20,
+    "governedStrategies": 18,
+    "replayableVariants": 16,
+    "genomeConfidence": 100
+  },
+  "time": "2026-04-08T21:39:58.645Z"
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "lines": [
+    {
+      "slug": "builder-line",
+      "title": "Builder Line",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "governor-line",
+      "title": "Governor Line",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-line",
+      "title": "Market Line",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-line",
+      "title": "Recovery Line",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeLoops": 18,
+    "autonomousDecisions": 26,
+    "continuityStrength": 100,
+    "autonomyConfidence": 100
+  },
+  "time": "2026-04-09T00:02:46.429Z"
+}

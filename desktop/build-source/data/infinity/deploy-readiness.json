@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "lockers": [
+    {
+      "slug": "local-ready",
+      "title": "Local Ready",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "runtime-ready",
+      "title": "Runtime Ready",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-ready",
+      "title": "Evidence Ready",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "hosting-switch",
+      "title": "Hosting Switch",
+      "score": 70,
+      "status": "blocked-by-plan"
+    }
+  ],
+  "metrics": {
+    "localReadiness": 100,
+    "expansionReadiness": 100,
+    "continuityReadiness": 100,
+    "externalSwitchReadiness": 70
+  },
+  "blocker": "GoDaddy hosting plan only",
+  "time": "2026-04-09T00:20:07.784Z"
+}

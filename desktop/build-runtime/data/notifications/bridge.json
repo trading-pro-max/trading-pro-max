@@ -1,0 +1,6 @@
+﻿{
+  "enabled": true,
+  "channels": ["desktop", "mobile", "operator"],
+  "status": "ACTIVE",
+  "lastUpdated": "auto"
+}

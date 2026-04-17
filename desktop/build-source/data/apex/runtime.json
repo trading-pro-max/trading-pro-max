@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "matrices": [
+    {
+      "slug": "runtime-apex",
+      "title": "Runtime Apex",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "strategy-apex",
+      "title": "Strategy Apex",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-apex",
+      "title": "Trust Apex",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-apex",
+      "title": "Growth Apex",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeMatrices": 16,
+    "connectedEngines": 22,
+    "protectedRoutes": 20,
+    "apexConfidence": 100
+  },
+  "time": "2026-04-08T13:01:58.654Z"
+}

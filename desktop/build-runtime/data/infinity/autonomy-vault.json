@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "vaults": [
+    {
+      "slug": "runtime",
+      "title": "Runtime Vault",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery",
+      "title": "Recovery Vault",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy",
+      "title": "Policy Vault",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "memory",
+      "title": "Memory Vault",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "securedLoops": 18,
+    "protectedStates": 24,
+    "restartConfidence": 100,
+    "autonomyStrength": 100
+  },
+  "time": "2026-04-09T03:27:21.931Z"
+}

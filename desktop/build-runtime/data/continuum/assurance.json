@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "pillars": [
+    {
+      "slug": "runtime-assurance",
+      "title": "Runtime Assurance",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-assurance",
+      "title": "Recovery Assurance",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-assurance",
+      "title": "Audit Assurance",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-assurance",
+      "title": "Trust Assurance",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "assuredLayers": 20,
+    "replayStrength": 100,
+    "recoveryStrength": 100,
+    "assuranceConfidence": 100
+  },
+  "time": "2026-04-09T00:48:11.366Z"
+}

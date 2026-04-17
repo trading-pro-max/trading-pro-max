@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "seats": [
+    {
+      "slug": "autonomy-seat",
+      "title": "Autonomy Seat",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "command-seat",
+      "title": "Command Seat",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity-seat",
+      "title": "Continuity Seat",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "throne-seat",
+      "title": "Throne Seat",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "governedSeats": 4,
+    "autonomousChains": 18,
+    "stabilityStrength": 100,
+    "throneConfidence": 100
+  },
+  "time": "2026-04-08T19:23:13.860Z"
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "systems": [
+    {
+      "slug": "surface-factory",
+      "title": "Surface Factory",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "logic-factory",
+      "title": "Logic Factory",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ai-factory",
+      "title": "AI Factory",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ops-factory",
+      "title": "Ops Factory",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeFactories": 8,
+    "generatedTracks": 20,
+    "governedBuilds": 18,
+    "foundryConfidence": 100
+  },
+  "time": "2026-04-08T23:39:40.127Z"
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "vectors": [
+    {
+      "slug": "product-command",
+      "title": "Product Command",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "platform-command",
+      "title": "Platform Command",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "enterprise-command",
+      "title": "Enterprise Command",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity-command",
+      "title": "Continuity Command",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeVectors": 18,
+    "governedExpansions": 16,
+    "readiness": 100,
+    "growthConfidence": 100
+  },
+  "time": "2026-04-08T23:02:41.673Z"
+}

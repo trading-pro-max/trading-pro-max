@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "chambers": [
+    {
+      "slug": "risk-consensus",
+      "title": "Risk Consensus",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "route-consensus",
+      "title": "Route Consensus",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-consensus",
+      "title": "Capital Consensus",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-consensus",
+      "title": "Trust Consensus",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "ratifiedRoutes": 18,
+    "protectedVotes": 16,
+    "consensusStrength": 100,
+    "chamberConfidence": 100
+  },
+  "time": "2026-04-09T23:02:55.886Z"
+}

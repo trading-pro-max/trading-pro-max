@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "boards": [
+    {
+      "slug": "ops-replay",
+      "title": "Ops Replay",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "broker-replay",
+      "title": "Broker Replay",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-replay",
+      "title": "Market Replay",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-replay",
+      "title": "Audit Replay",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "replayWindows": 26,
+    "protectedSnapshots": 24,
+    "replayConfidence": 100,
+    "operatorClarity": 100
+  },
+  "time": "2026-04-09T01:48:27.655Z"
+}

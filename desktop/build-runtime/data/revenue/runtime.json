@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "models": [
+    {
+      "slug": "subscriptions",
+      "title": "Subscriptions",
+      "progress": 88,
+      "status": "configured-path"
+    },
+    {
+      "slug": "billing-ops",
+      "title": "Billing Ops",
+      "progress": 97,
+      "status": "strong"
+    },
+    {
+      "slug": "revenue-health",
+      "title": "Revenue Health",
+      "progress": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "cash-discipline",
+      "title": "Cash Discipline",
+      "progress": 99,
+      "status": "strong"
+    }
+  ],
+  "metrics": {
+    "recurringStrength": 97,
+    "expansionReadiness": 96,
+    "billingControl": 98,
+    "notificationReadiness": 86
+  },
+  "time": "2026-04-13T18:40:44.687Z"
+}

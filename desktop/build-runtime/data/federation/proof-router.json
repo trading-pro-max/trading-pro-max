@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "routes": [
+    {
+      "slug": "evidence-route",
+      "title": "Evidence Route",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-route",
+      "title": "Audit Route",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-route",
+      "title": "Recovery Route",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "launch-route",
+      "title": "Launch Route",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "routedProofs": 26,
+    "replayableRoutes": 22,
+    "protectedArchives": 20,
+    "routerConfidence": 100
+  },
+  "time": "2026-04-09T06:43:30.974Z"
+}

@@ -1,0 +1,47 @@
+{
+  "version": 1,
+  "project": "Trading Pro Max",
+  "target": "Global #1 AI autonomous trading platform",
+  "modules": [
+    {
+      "slug": "brain",
+      "title": "AI Brain",
+      "target": 100
+    },
+    {
+      "slug": "strategy",
+      "title": "Strategy Engine",
+      "target": 100
+    },
+    {
+      "slug": "autonomy",
+      "title": "Autonomy Core",
+      "target": 100
+    },
+    {
+      "slug": "surface",
+      "title": "Operator Surface",
+      "target": 100
+    },
+    {
+      "slug": "research",
+      "title": "Research Vault",
+      "target": 100
+    },
+    {
+      "slug": "operations",
+      "title": "Operations",
+      "target": 100
+    },
+    {
+      "slug": "deployment",
+      "title": "Deployment",
+      "target": 100
+    },
+    {
+      "slug": "expansion",
+      "title": "Desktop + Mobile Expansion",
+      "target": 100
+    }
+  ]
+}

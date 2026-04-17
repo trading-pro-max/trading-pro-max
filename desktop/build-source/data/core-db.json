@@ -1,0 +1,51 @@
+{
+  "portfolio": {
+    "cash": 100000,
+    "positions": []
+  },
+  "watchlist": [
+    "BTC/USDT",
+    "ETH/USDT",
+    "SOL/USDT",
+    "XAU/USD",
+    "EUR/USD"
+  ],
+  "alerts": [],
+  "journal": [],
+  "orders": [],
+  "ledger": [],
+  "users": [
+    {
+      "id": "USR-LOCAL-OWNER",
+      "name": "Global Operator",
+      "email": "owner@tradingpromax.ai",
+      "role": "OWNER",
+      "status": "ACTIVE",
+      "createdAt": "2026-04-08T00:49:18.709Z"
+    }
+  ],
+  "brokers": [
+    {
+      "id": "BRK-BINANCE",
+      "key": "BINANCE",
+      "name": "Binance",
+      "connected": true,
+      "status": "CONNECTED",
+      "mode": "SANDBOX",
+      "lastSyncAt": "2026-04-08T00:49:18.710Z"
+    }
+  ],
+  "settings": {
+    "theme": "dark",
+    "timezone": "UTC",
+    "defaultRisk": "BALANCED",
+    "liveTrading": false,
+    "onboardingComplete": true
+  },
+  "session": {
+    "active": true,
+    "userId": "USR-LOCAL-OWNER",
+    "token": "SESS-LOCAL-OWNER",
+    "lastLoginAt": "2026-04-08T00:49:18.710Z"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "towers": [
+    {
+      "slug": "runtime",
+      "title": "Runtime Omega",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "governance",
+      "title": "Governance Omega",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence",
+      "title": "Evidence Omega",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity",
+      "title": "Continuity Omega",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "certifiedLayers": 18,
+    "activePages": 33,
+    "activeLoops": 15,
+    "protectedStores": 23
+  },
+  "time": "2026-04-13T18:40:47.208Z"
+}

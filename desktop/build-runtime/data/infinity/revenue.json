@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "panels": [
+    {
+      "slug": "revenue-panel",
+      "title": "Revenue Panel",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-panel",
+      "title": "Capital Panel",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-panel",
+      "title": "Growth Panel",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "enterprise-panel",
+      "title": "Enterprise Panel",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "monetizedSurfaces": 14,
+    "governedCapitalPaths": 12,
+    "enterpriseStrength": 100,
+    "revenueConfidence": 100
+  },
+  "time": "2026-04-09T01:32:45.953Z"
+}

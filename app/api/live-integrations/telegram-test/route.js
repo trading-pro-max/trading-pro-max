@@ -1,5 +1,5 @@
 ﻿import { NextResponse } from "next/server";
-import { runTelegramTest } from "../../../../../lib/tpm-live-integrations.mjs";
+import { runTelegramTest } from "../../../../lib/tpm-live-integrations.mjs";
 
 export const dynamic = "force-dynamic";
 

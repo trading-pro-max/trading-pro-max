@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "chambers": [
+    {
+      "slug": "alpha-commons",
+      "title": "Alpha Commons",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-commons",
+      "title": "Risk Commons",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-commons",
+      "title": "Policy Commons",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-commons",
+      "title": "Growth Commons",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "commonStrategies": 18,
+    "ratifiedPatterns": 22,
+    "governedRoutes": 20,
+    "commonsConfidence": 100
+  },
+  "time": "2026-04-09T00:48:11.366Z"
+}

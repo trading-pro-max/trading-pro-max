@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "chambers": [
+    {
+      "slug": "signal-brain",
+      "title": "Signal Brain",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "route-brain",
+      "title": "Route Brain",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-brain",
+      "title": "Policy Brain",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "memory-brain",
+      "title": "Memory Brain",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "governedDecisions": 32,
+    "routedActions": 26,
+    "learnedPatterns": 24,
+    "operatorConfidence": 100
+  },
+  "time": "2026-04-09T01:48:22.318Z"
+}

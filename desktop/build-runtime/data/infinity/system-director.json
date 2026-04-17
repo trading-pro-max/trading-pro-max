@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "consoles": [
+    {
+      "slug": "runtime-director",
+      "title": "Runtime Director",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ops-director",
+      "title": "Ops Director",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-director",
+      "title": "Capital Director",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-director",
+      "title": "Trust Director",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeConsoles": 16,
+    "governedPlanes": 24,
+    "continuityStrength": 100,
+    "directorConfidence": 100
+  },
+  "time": "2026-04-08T23:11:30.426Z"
+}

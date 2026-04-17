@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "scenarios": [
+    {
+      "slug": "balanced",
+      "title": "Balanced Exchange",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "adaptive",
+      "title": "Adaptive Exchange",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "defense",
+      "title": "Defense Exchange",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth",
+      "title": "Growth Exchange",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "exchangeScenarios": 18,
+    "replayableScenarios": 16,
+    "protectedTransfers": 14,
+    "exchangeConfidence": 100
+  },
+  "time": "2026-04-09T01:00:39.253Z"
+}

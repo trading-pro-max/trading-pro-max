@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "labs": [
+    {
+      "slug": "autonomy",
+      "title": "Autonomy Lab",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution",
+      "title": "Execution Lab",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "governance",
+      "title": "Governance Lab",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth",
+      "title": "Growth Lab",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeLabs": 4,
+    "governedLoops": 18,
+    "replayableStates": 20,
+    "autonomyConfidence": 100
+  },
+  "time": "2026-04-09T03:23:35.935Z"
+}

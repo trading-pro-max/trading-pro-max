@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "experiments": [
+    {
+      "slug": "runtime-evo",
+      "title": "Runtime Evolution",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-evo",
+      "title": "Policy Evolution",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "route-evo",
+      "title": "Route Evolution",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-evo",
+      "title": "Growth Evolution",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeExperiments": 20,
+    "governedExperiments": 18,
+    "replayableOutcomes": 16,
+    "evolutionConfidence": 100
+  },
+  "time": "2026-04-09T02:18:43.346Z"
+}

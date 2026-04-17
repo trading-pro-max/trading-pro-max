@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "stages": [
+    {
+      "slug": "agent-stage",
+      "title": "Agent Stage",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-stage",
+      "title": "Market Stage",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "command-stage",
+      "title": "Command Stage",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-stage",
+      "title": "Trust Stage",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "autonomy-stage",
+      "title": "Autonomy Stage",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "visibleStages": 18,
+    "replayableStages": 16,
+    "autonomyDepth": 100,
+    "orchestrationDepth": 100
+  },
+  "time": "2026-04-08T23:42:47.339Z"
+}

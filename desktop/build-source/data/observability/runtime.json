@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "boards": [
+    {
+      "slug": "runtime",
+      "title": "Runtime Board",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market",
+      "title": "Market Board",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "broker",
+      "title": "Broker Board",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "platform",
+      "title": "Platform Board",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedBoards": 12,
+    "trackedStreams": 24,
+    "protectedNodes": 18,
+    "alertCoverage": 100
+  },
+  "time": "2026-04-13T18:40:47.698Z"
+}

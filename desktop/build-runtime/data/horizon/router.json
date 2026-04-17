@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "routes": [
+    {
+      "slug": "ops",
+      "title": "Ops Route",
+      "progress": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "market",
+      "title": "Market Route",
+      "progress": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "broker",
+      "title": "Broker Route",
+      "progress": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "platform",
+      "title": "Platform Route",
+      "progress": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "evidence",
+      "title": "Evidence Route",
+      "progress": 99,
+      "status": "strong"
+    }
+  ],
+  "maps": {
+    "activeRoutes": 15,
+    "workspaceSurfaces": 30,
+    "routerConfidence": 99,
+    "continuityConfidence": 100
+  },
+  "time": "2026-04-13T18:40:45.721Z"
+}

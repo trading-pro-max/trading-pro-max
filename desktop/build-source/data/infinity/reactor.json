@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "cores": [
+    {
+      "slug": "runtime-reactor",
+      "title": "Runtime Reactor",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-reactor",
+      "title": "Growth Reactor",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-reactor",
+      "title": "Capital Reactor",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-reactor",
+      "title": "Trust Reactor",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeCores": 4,
+    "linkedLayers": 24,
+    "certifiedChains": 20,
+    "reactorConfidence": 100
+  },
+  "time": "2026-04-08T23:59:50.087Z"
+}

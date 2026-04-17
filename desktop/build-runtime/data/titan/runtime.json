@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "pillars": [
+    {
+      "slug": "runtime-titan",
+      "title": "Runtime Titan",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "strategy-titan",
+      "title": "Strategy Titan",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-titan",
+      "title": "Growth Titan",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-titan",
+      "title": "Trust Titan",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "infinity-titan",
+      "title": "Infinity Titan",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "linkedLayers": 26,
+    "protectedStores": 31,
+    "governedRoutes": 24,
+    "titanConfidence": 100
+  },
+  "time": "2026-04-09T01:48:28.091Z"
+}

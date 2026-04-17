@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "gates": [
+    {
+      "slug": "local-certified",
+      "title": "Local Certified",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "connector-surface",
+      "title": "Connector Surface",
+      "progress": 40,
+      "status": "partial"
+    },
+    {
+      "slug": "deploy-switch",
+      "title": "Deploy Switch",
+      "progress": 70,
+      "status": "blocked-by-plan"
+    },
+    {
+      "slug": "external-gate",
+      "title": "External Gate",
+      "progress": 70,
+      "status": "blocked-by-plan"
+    }
+  ],
+  "metrics": {
+    "localReadiness": 100,
+    "connectorReadiness": 40,
+    "externalSwitchReadiness": 70,
+    "hostPlanBlocked": true
+  },
+  "time": "2026-04-09T23:02:56.221Z"
+}

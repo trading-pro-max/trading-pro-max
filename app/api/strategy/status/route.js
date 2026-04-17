@@ -1,7 +1,7 @@
 ﻿import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
-import { runStrategyCycle } from "../../../../../lib/tpm-strategy-core.mjs";
+import { runStrategyCycle } from "../../../../lib/tpm-strategy-core.mjs";
 
 export const dynamic = "force-dynamic";
 

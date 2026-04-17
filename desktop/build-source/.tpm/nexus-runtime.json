@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "TPM_NEXUS_ACTIVE",
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
+  "domains": {
+    "nexus": 100,
+    "ledger": 83,
+    "radar": 100,
+    "proof": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "nexus-close",
+      "title": "nexus close",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ledger-close",
+      "title": "ledger close",
+      "progress": 83,
+      "status": "closed"
+    },
+    {
+      "slug": "radar-close",
+      "title": "radar close",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "time": "2026-04-13T18:40:46.217Z"
+}

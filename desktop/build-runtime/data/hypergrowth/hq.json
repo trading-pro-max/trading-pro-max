@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "towers": [
+    {
+      "slug": "command",
+      "title": "Command Tower",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital",
+      "title": "Capital Tower",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "intelligence",
+      "title": "Intelligence Tower",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth",
+      "title": "Growth Tower",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeTowers": 4,
+    "connectedRuntimes": 24,
+    "governedRoutes": 22,
+    "hypergrowthConfidence": 100
+  },
+  "time": "2026-04-09T01:48:28.442Z"
+}

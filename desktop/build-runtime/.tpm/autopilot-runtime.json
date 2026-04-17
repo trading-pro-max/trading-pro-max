@@ -1,0 +1,23 @@
+﻿{
+    "ok":  true,
+    "mode":  "TPM_AUTOPILOT_ACTIVE",
+    "overallProgress":  100,
+    "completed":  100,
+    "remaining":  0,
+    "localCertified":  true,
+    "releaseGate":  "OPEN_LOCAL",
+    "externalDeployBlocked":  true,
+    "infiniteContinuation":  "ACTIVE",
+    "serviceCount":  1,
+    "activeCount":  1,
+    "services":  [
+                     {
+                         "name":  "next-dev",
+                         "script":  "dev",
+                         "pid":  25724,
+                         "alive":  true,
+                         "status":  "ACTIVE"
+                     }
+                 ],
+    "updatedAt":  "2026-04-10T01:02:43.6399670+02:00"
+}

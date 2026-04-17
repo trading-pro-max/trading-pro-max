@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "directors": [
+    {
+      "slug": "autonomy-director",
+      "title": "Autonomy Director",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "learning-director",
+      "title": "Learning Director",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-director",
+      "title": "Policy Director",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity-director",
+      "title": "Continuity Director",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "governedLoops": 22,
+    "protectedPolicies": 20,
+    "controlledRoutes": 18,
+    "autonomyConfidence": 100
+  },
+  "time": "2026-04-09T01:32:45.953Z"
+}

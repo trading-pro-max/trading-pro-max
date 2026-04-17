@@ -1,0 +1,82 @@
+{
+  "ok": true,
+  "mode": "TPM_LIVE_BRIDGE_ACTIVE",
+  "overallProgress": 67,
+  "completed": 67,
+  "remaining": 33,
+  "domains": {
+    "system": 100,
+    "providers": 0,
+    "runtime": 100
+  },
+  "direction": "LIVE_CONNECTORS_PATH",
+  "providers": [
+    {
+      "slug": "openai",
+      "title": "OpenAI",
+      "ready": false,
+      "status": "EMPTY",
+      "note": "Add OPENAI_API_KEY"
+    },
+    {
+      "slug": "telegram",
+      "title": "Telegram",
+      "ready": false,
+      "status": "EMPTY",
+      "note": "Add TELEGRAM_BOT_TOKEN + TELEGRAM_CHAT_ID"
+    },
+    {
+      "slug": "ibkr",
+      "title": "IBKR",
+      "ready": false,
+      "status": "EMPTY",
+      "note": "Add IBKR_HOST + IBKR_PORT + IBKR_CLIENT_ID"
+    },
+    {
+      "slug": "smtp",
+      "title": "SMTP",
+      "ready": false,
+      "status": "EMPTY",
+      "note": "Add SMTP_HOST + SMTP_PORT + SMTP_USER + SMTP_PASS"
+    }
+  ],
+  "lanes": [
+    {
+      "slug": "ai",
+      "title": "AI Lane",
+      "progress": 55,
+      "status": "awaiting-env"
+    },
+    {
+      "slug": "alerts",
+      "title": "Alerts Lane",
+      "progress": 55,
+      "status": "awaiting-env"
+    },
+    {
+      "slug": "broker",
+      "title": "Broker Lane",
+      "progress": 55,
+      "status": "awaiting-env"
+    },
+    {
+      "slug": "mail",
+      "title": "Mail Lane",
+      "progress": 55,
+      "status": "awaiting-env"
+    }
+  ],
+  "envKeysExpected": [
+    "OPENAI_API_KEY",
+    "TELEGRAM_BOT_TOKEN",
+    "TELEGRAM_CHAT_ID",
+    "IBKR_HOST",
+    "IBKR_PORT",
+    "IBKR_CLIENT_ID",
+    "SMTP_HOST",
+    "SMTP_PORT",
+    "SMTP_USER",
+    "SMTP_PASS"
+  ],
+  "time": "2026-04-09T23:02:56.004Z"
+}

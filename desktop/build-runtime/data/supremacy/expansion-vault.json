@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "vaults": [
+    {
+      "slug": "platform-vault",
+      "title": "Platform Vault",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "enterprise-vault",
+      "title": "Enterprise Vault",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-vault",
+      "title": "Evidence Vault",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-vault",
+      "title": "Growth Vault",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "governedVaults": 16,
+    "trackedMilestones": 30,
+    "expansionConfidence": 100,
+    "readinessConfidence": 100
+  },
+  "time": "2026-04-09T01:47:44.744Z"
+}

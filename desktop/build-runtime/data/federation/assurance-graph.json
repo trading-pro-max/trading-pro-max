@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "checks": [
+    {
+      "slug": "runtime-assurance",
+      "title": "Runtime Assurance",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-assurance",
+      "title": "Risk Assurance",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-assurance",
+      "title": "Evidence Assurance",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity-assurance",
+      "title": "Continuity Assurance",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeChecks": 18,
+    "replayableChecks": 16,
+    "governedChecks": 18,
+    "assuranceConfidence": 100
+  },
+  "time": "2026-04-09T03:19:55.992Z"
+}

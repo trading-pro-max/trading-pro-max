@@ -1,0 +1,65 @@
+{
+  "ok": true,
+  "mode": "TPM_INTELLIGENCE_ACTIVE",
+  "overallProgress": 95,
+  "completed": 95,
+  "remaining": 5,
+  "domains": {
+    "brain": 100,
+    "research": 100,
+    "autonomy": 100,
+    "surfaces": 93,
+    "deployment": 72,
+    "operations": 100,
+    "expansion": 100
+  },
+  "metrics": {
+    "routes": 1,
+    "pages": 378,
+    "libs": 103,
+    "scripts": 124,
+    "filesTracked": 1271
+  },
+  "executionQueue": [],
+  "nextWave": [
+    {
+      "slug": "research-memory",
+      "title": "Research memory engine",
+      "progress": 100,
+      "lane": "AI",
+      "status": "active"
+    },
+    {
+      "slug": "intelligence-surface",
+      "title": "Intelligence center surface",
+      "progress": 93,
+      "lane": "Surface",
+      "status": "active"
+    },
+    {
+      "slug": "autonomous-queue",
+      "title": "Autonomous execution queue",
+      "progress": 100,
+      "lane": "Autonomy",
+      "status": "active"
+    },
+    {
+      "slug": "external-deploy",
+      "title": "External deployment bridge",
+      "progress": 72,
+      "lane": "Deploy",
+      "status": "waiting-plan"
+    },
+    {
+      "slug": "expansion-shells",
+      "title": "Desktop and mobile shells",
+      "progress": 100,
+      "lane": "Expansion",
+      "status": "next"
+    }
+  ],
+  "blockers": [
+    "External GoDaddy automation blocked by current plan"
+  ],
+  "time": "2026-04-13T18:40:38.036Z"
+}

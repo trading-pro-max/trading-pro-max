@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "nodes": [
+    {
+      "slug": "master",
+      "title": "Master Runtime",
+      "score": 100,
+      "status": "up"
+    },
+    {
+      "slug": "platform",
+      "title": "Platform Runtime",
+      "score": 100,
+      "status": "up"
+    },
+    {
+      "slug": "enterprise",
+      "title": "Enterprise Runtime",
+      "score": 100,
+      "status": "up"
+    },
+    {
+      "slug": "observability",
+      "title": "Observability Runtime",
+      "score": 100,
+      "status": "up"
+    }
+  ],
+  "metrics": {
+    "activeNodes": 4,
+    "totalNodes": 4,
+    "runtimeHealth": 100,
+    "localState": "CLOSED_100"
+  },
+  "time": "2026-04-09T01:48:15.180Z"
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "chapters": [
+    {
+      "slug": "certification",
+      "title": "Certification Chapter",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "governance",
+      "title": "Governance Chapter",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "platform",
+      "title": "Platform Chapter",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity",
+      "title": "Continuity Chapter",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "storedChapters": 20,
+    "replayableMilestones": 18,
+    "governedNarratives": 16,
+    "chronicleConfidence": 100
+  },
+  "time": "2026-04-13T18:40:50.757Z"
+}

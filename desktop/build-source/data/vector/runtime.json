@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "engines": [
+    {
+      "slug": "runtime-vector",
+      "title": "Runtime Vector",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-vector",
+      "title": "Policy Vector",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution-vector",
+      "title": "Execution Vector",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-vector",
+      "title": "Trust Vector",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeVectors": 20,
+    "linkedSignals": 26,
+    "governedDecisions": 22,
+    "vectorConfidence": 100
+  },
+  "time": "2026-04-09T23:02:55.885Z"
+}

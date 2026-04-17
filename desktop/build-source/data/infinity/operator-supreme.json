@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "towers": [
+    {
+      "slug": "ops-tower",
+      "title": "Ops Supreme",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-tower",
+      "title": "Growth Supreme",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "platform-tower",
+      "title": "Platform Supreme",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity-tower",
+      "title": "Continuity Supreme",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "visiblePlanes": 20,
+    "governedDecisions": 28,
+    "launchStrength": 100,
+    "supremeConfidence": 100
+  },
+  "time": "2026-04-09T00:33:24.825Z"
+}

@@ -1,0 +1,43 @@
+{
+  "ok": true,
+  "nodes": [
+    {
+      "slug": "builder",
+      "title": "Builder Agent",
+      "load": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "strategist",
+      "title": "Strategist Agent",
+      "load": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "operator",
+      "title": "Operator Agent",
+      "load": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "governor",
+      "title": "Governor Agent",
+      "load": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "growth",
+      "title": "Growth Agent",
+      "load": 97,
+      "status": "strong"
+    }
+  ],
+  "bridges": {
+    "ai": 99,
+    "strategy": 99,
+    "market": 98,
+    "broker": 97,
+    "governance": 99
+  },
+  "time": "2026-04-13T18:40:43.186Z"
+}

@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "mode": "TPM_LIVE_INTEGRATIONS_ACTIVE",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "providers": {
+    "openai": {
+      "provider": "openai",
+      "configured": false,
+      "ok": false,
+      "status": "not_configured"
+    },
+    "telegram": {
+      "provider": "telegram",
+      "configured": false,
+      "ok": false,
+      "status": "not_configured"
+    },
+    "ibkr": {
+      "provider": "ibkr",
+      "configured": true,
+      "ok": false,
+      "status": "unreachable",
+      "host": "127.0.0.1",
+      "port": 7497
+    },
+    "smtp": {
+      "provider": "smtp",
+      "configured": false,
+      "ok": false,
+      "status": "not_configured",
+      "host": null,
+      "port": null
+    }
+  },
+  "summary": {
+    "configuredCount": 1,
+    "liveReadyCount": 0,
+    "totalProviders": 4
+  },
+  "actions": {
+    "statusUrl": "/api/live-integrations/status",
+    "checkUrl": "/api/live-integrations/check",
+    "telegramTestUrl": "/api/live-integrations/telegram-test"
+  },
+  "time": "2026-04-09T23:02:56.109Z"
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "loops": [
+    {
+      "slug": "product-depth",
+      "title": "Product Depth",
+      "progress": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "ai-depth",
+      "title": "AI Depth",
+      "progress": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "market-depth",
+      "title": "Market Depth",
+      "progress": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "ops-depth",
+      "title": "Ops Depth",
+      "progress": 99,
+      "status": "strong"
+    }
+  ],
+  "vectors": {
+    "retention": 97,
+    "coverage": 99,
+    "autonomy": 100,
+    "continuity": 100
+  },
+  "time": "2026-04-13T18:40:43.187Z"
+}

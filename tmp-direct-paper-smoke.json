@@ -1,0 +1,21 @@
+{
+  "entry": 1.0851,
+  "orderOk": true,
+  "orderNotice": "EUR/USD Buy filled into the paper engine.",
+  "validationOk": true,
+  "hardBlocks": [],
+  "warnings": [],
+  "openedPosition": true,
+  "closeOk": true,
+  "fillsAfter": 2,
+  "positionsAfter": 0,
+  "persistence": {
+    "pending": "0->1",
+    "positions": "0->0",
+    "fills": "0->2",
+    "activity": "0->2",
+    "audit": "247->249"
+  },
+  "readiness": "Ready",
+  "guardrails": "Healthy"
+}

@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "title": "Autonomous Revenue Rail",
+  "cards": [
+    {
+      "slug": "autonomous-revenue-rail-core",
+      "title": "Autonomous Revenue Rail Core",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "autonomous-revenue-rail-ops",
+      "title": "Ops Layer",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "autonomous-revenue-rail-trust",
+      "title": "Trust Layer",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "autonomous-revenue-rail-continuity",
+      "title": "Continuity Layer",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeBoards": 10,
+    "linkedRuntimes": 24,
+    "protectedPaths": 22,
+    "confidence": 100
+  },
+  "time": "2026-04-09T01:48:14.024Z"
+}

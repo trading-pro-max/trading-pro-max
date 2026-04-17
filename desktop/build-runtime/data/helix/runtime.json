@@ -1,0 +1,34 @@
+{
+  "engines": [
+    {
+      "slug": "runtime-helix",
+      "title": "Runtime Helix",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-helix",
+      "title": "Policy Helix",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution-helix",
+      "title": "Execution Helix",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-helix",
+      "title": "Trust Helix",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "helixNodes": 20,
+    "governedSpirals": 18,
+    "connectedStores": 28,
+    "helixConfidence": 100
+  }
+}

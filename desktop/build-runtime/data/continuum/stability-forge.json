@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "decks": [
+    {
+      "slug": "runtime-forge",
+      "title": "Runtime Forge",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-forge",
+      "title": "Risk Forge",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-forge",
+      "title": "Recovery Forge",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-forge",
+      "title": "Trust Forge",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "hardenedPaths": 20,
+    "protectedStates": 24,
+    "replayConfidence": 100,
+    "forgeConfidence": 100
+  },
+  "time": "2026-04-09T23:02:56.007Z"
+}

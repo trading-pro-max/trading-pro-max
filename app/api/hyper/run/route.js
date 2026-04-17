@@ -1,5 +1,5 @@
 ﻿import { NextResponse } from "next/server";
-import { runHyperCycle } from "../../../../../lib/tpm-hyper-core.mjs";
+import { runHyperCycle } from "../../../../lib/tpm-hyper-core.mjs";
 
 export const dynamic = "force-dynamic";
 

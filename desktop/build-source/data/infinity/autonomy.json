@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "lanes": [
+    {
+      "slug": "builder",
+      "title": "Builder Lane",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "governance",
+      "title": "Governance Lane",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution",
+      "title": "Execution Lane",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity",
+      "title": "Continuity Lane",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeLoops": 22,
+    "guardedAutomations": 18,
+    "autonomousDecisions": 20,
+    "autonomyConfidence": 100
+  },
+  "time": "2026-04-08T23:02:41.673Z"
+}

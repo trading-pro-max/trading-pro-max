@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "decks": [
+    {
+      "slug": "billing-deck",
+      "title": "Billing Deck",
+      "score": 100,
+      "status": "closed-local"
+    },
+    {
+      "slug": "capital-deck",
+      "title": "Capital Deck",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-deck",
+      "title": "Growth Deck",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "retention-deck",
+      "title": "Retention Deck",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "recurringModel": 100,
+    "capitalDiscipline": 100,
+    "growthDiscipline": 100,
+    "localMonetizationReadiness": 100
+  },
+  "time": "2026-04-09T00:52:56.892Z"
+}

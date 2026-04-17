@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Trading Pro Max</title>
+    <style>
+      :root { color-scheme: dark; }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        min-height: 100vh;
+        display: grid;
+        place-items: center;
+        background:
+          radial-gradient(circle at top, rgba(248, 113, 113, 0.18) 0%, transparent 18%),
+          radial-gradient(circle at 82% 18%, rgba(249, 115, 22, 0.14) 0%, transparent 24%),
+          linear-gradient(180deg, #08111f 0%, #040914 54%, #02050c 100%);
+        color: #f8fafc;
+        font-family: "Segoe UI", Arial, sans-serif;
+      }
+      .panel {
+        width: min(780px, calc(100vw - 48px));
+        padding: 34px;
+        border-radius: 32px;
+        border: 1px solid rgba(248, 113, 113, 0.20);
+        background: linear-gradient(180deg, rgba(8, 15, 29, 0.94) 0%, rgba(5, 10, 20, 0.985) 100%);
+        box-shadow: 0 40px 120px rgba(0, 0, 0, 0.5);
+      }
+      .eyebrow {
+        color: #fda4af;
+        font-size: 11px;
+        font-weight: 900;
+        letter-spacing: 4px;
+        text-transform: uppercase;
+      }
+      .heading {
+        display: flex;
+        justify-content: space-between;
+        gap: 16px;
+        align-items: flex-start;
+        margin-top: 14px;
+      }
+      h1 {
+        margin: 0;
+        font-size: 42px;
+        letter-spacing: -1px;
+      }
+      .chips {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+      }
+      .chip {
+        display: inline-flex;
+        align-items: center;
+        padding: 8px 12px;
+        border-radius: 999px;
+        border: 1px solid rgba(148, 163, 184, 0.14);
+        background: rgba(15, 23, 42, 0.86);
+        color: #f8d5d8;
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 0.7px;
+        text-transform: uppercase;
+      }
+      p {
+        margin: 14px 0 0;
+        color: #cbd5e1;
+        line-height: 1.8;
+      }
+      .callout {
+        margin-top: 20px;
+        padding: 16px 18px;
+        border-radius: 18px;
+        background: rgba(15, 23, 42, 0.74);
+        border: 1px solid rgba(148, 163, 184, 0.10);
+        color: #dbeafe;
+        font-weight: 700;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 12px;
+        margin-top: 20px;
+      }
+      .card {
+        padding: 14px 16px;
+        border-radius: 16px;
+        background: rgba(15, 23, 42, 0.66);
+        border: 1px solid rgba(148, 163, 184, 0.08);
+      }
+      .card-label {
+        color: #94a3b8;
+        font-size: 11px;
+        font-weight: 800;
+        letter-spacing: 1.2px;
+        text-transform: uppercase;
+      }
+      .card-value {
+        margin-top: 8px;
+        color: #f8fafc;
+        font-size: 15px;
+        font-weight: 800;
+      }
+      .card-note {
+        margin-top: 6px;
+        color: #fca5a5;
+        font-size: 12px;
+        line-height: 1.6;
+      }
+      .code {
+        margin-top: 18px;
+        padding: 14px 16px;
+        border-radius: 16px;
+        background: rgba(15, 23, 42, 0.76);
+        color: #7dd3fc;
+        font-weight: 800;
+        border: 1px solid rgba(148, 163, 184, 0.10);
+      }
+      @media (max-width: 720px) {
+        .heading {
+          flex-direction: column;
+        }
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="panel">
+      <div class="eyebrow">Trading Pro Max</div>
+      <div class="heading">
+        <h1>Workspace Startup Needs Attention</h1>
+        <div class="chips">
+          <div class="chip">Windows Desktop Release</div>
+          <div class="chip">Fallback Screen</div>
+        </div>
+      </div>
+      <p>The desktop shell was able to open, but the packaged Trading Pro Max workspace did not finish loading normally. This screen is a safe recovery layer, not the intended desktop experience.</p>
+      <div class="callout">Primary next step: relaunch the installed Trading Pro Max app. If the issue persists, review the local runtime log and retry the desktop build.</div>
+      <div class="grid">
+        <div class="card">
+          <div class="card-label">Installed App Retry</div>
+          <div class="card-value">Relaunch Trading Pro Max</div>
+          <div class="card-note">The packaged workspace normally starts without any external dev server.</div>
+        </div>
+        <div class="card">
+          <div class="card-label">Runtime Log</div>
+          <div class="card-value">%APPDATA%\Trading Pro Max\desktop-runtime.log</div>
+          <div class="card-note">Use this file for the exact packaged startup trace.</div>
+        </div>
+        <div class="card">
+          <div class="card-label">Desktop Recovery</div>
+          <div class="card-value">npm run desktop:dev</div>
+          <div class="card-note">Confirms the local Electron shell and product runtime are healthy.</div>
+        </div>
+        <div class="card">
+          <div class="card-label">Web Workspace</div>
+          <div class="card-value">npm run web:dev</div>
+          <div class="card-note">Keeps the Trading Pro Max product workspace available while desktop startup is being checked.</div>
+        </div>
+      </div>
+      <div class="code">Release support note: final branded installer assets can be added under desktop/assets/brand before public distribution.</div>
+    </main>
+  </body>
+</html>

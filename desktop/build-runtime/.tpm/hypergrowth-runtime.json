@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "mode": "TPM_HYPERGROWTH_ACTIVE",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "domains": {
+    "hq": 100,
+    "titan": 100,
+    "universe": 100,
+    "exchange": 100,
+    "radar": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "titan-density",
+      "title": "titan density",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "universe-coverage",
+      "title": "universe coverage",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "exchange-depth",
+      "title": "exchange depth",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "revenue-clarity",
+      "title": "revenue clarity",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-09T01:48:28.443Z"
+}

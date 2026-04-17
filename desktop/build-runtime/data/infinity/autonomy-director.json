@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "directors": [
+    {
+      "slug": "builder",
+      "title": "Builder Director",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "governor",
+      "title": "Governor Director",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "operator",
+      "title": "Operator Director",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth",
+      "title": "Growth Director",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeDirectors": 4,
+    "governedLoops": 18,
+    "autonomousStrength": 100,
+    "routeConfidence": 100
+  },
+  "time": "2026-04-09T00:52:56.892Z"
+}

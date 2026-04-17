@@ -1,0 +1,12 @@
+{
+  "ok": true,
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "status": "CLOSED_100_LOCAL",
+  "deploy": "DEFERRED",
+  "localCertified": true,
+  "releaseGate": "OPEN_LOCAL",
+  "note": "External deployment deferred until hosting plan upgrade and user approval.",
+  "time": "2026-04-09T03:10:04.810Z"
+}

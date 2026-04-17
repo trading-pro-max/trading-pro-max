@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "engines": [
+    {
+      "slug": "revenue-logic",
+      "title": "Revenue Logic",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "pricing-logic",
+      "title": "Pricing Logic",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "retention-logic",
+      "title": "Retention Logic",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "expansion-logic",
+      "title": "Expansion Logic",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "monetizationFlows": 18,
+    "retainedFunnels": 14,
+    "governedUpsells": 12,
+    "moneyConfidence": 100
+  },
+  "time": "2026-04-09T01:48:28.091Z"
+}

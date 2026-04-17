@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "systems": [
+    {
+      "slug": "builder-empire",
+      "title": "Builder Empire",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "operator-empire",
+      "title": "Operator Empire",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-empire",
+      "title": "Policy Empire",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-empire",
+      "title": "Evidence Empire",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "autonomousAgents": 24,
+    "governedDecisions": 30,
+    "commandDepth": 100,
+    "autonomyStrength": 100
+  },
+  "time": "2026-04-08T23:49:08.609Z"
+}

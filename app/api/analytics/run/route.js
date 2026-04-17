@@ -1,5 +1,5 @@
 ﻿import { NextResponse } from "next/server";
-import { runAnalyticsCycle } from "../../../../../lib/tpm-analytics-core.mjs";
+import { runAnalyticsCycle } from "../../../../lib/tpm-analytics-core.mjs";
 
 export const dynamic = "force-dynamic";
 

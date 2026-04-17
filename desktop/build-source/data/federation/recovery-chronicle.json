@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "chapters": [
+    {
+      "slug": "runtime-recovery",
+      "title": "Runtime Recovery",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-recovery",
+      "title": "Audit Recovery",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-recovery",
+      "title": "Policy Recovery",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity-recovery",
+      "title": "Continuity Recovery",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "replayableChapters": 20,
+    "protectedRestores": 18,
+    "recoveryConfidence": 100,
+    "continuityConfidence": 100
+  },
+  "time": "2026-04-09T02:38:43.387Z"
+}

@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "TPM_SUPREMACY_ACTIVE",
+  "overallProgress": 90,
+  "completed": 90,
+  "remaining": 10,
+  "domains": {
+    "supremacy": 100,
+    "genome": 100,
+    "autonomy": 86,
+    "expansion": 100,
+    "zeroTouch": 63
+  },
+  "nextWave": [
+    {
+      "slug": "genome-density",
+      "title": "genome density",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "autonomy-scaling",
+      "title": "autonomy scaling",
+      "progress": 86,
+      "status": "active"
+    },
+    {
+      "slug": "zero-touch-depth",
+      "title": "zero touch depth",
+      "progress": 63,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-09T01:47:44.744Z"
+}

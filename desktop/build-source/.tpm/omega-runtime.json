@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "TPM_OMEGA_ACTIVE",
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
+  "domains": {
+    "omega": 100,
+    "recovery": 100,
+    "trust": 100,
+    "proof": 83,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "omega-close",
+      "title": "omega close",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-close",
+      "title": "recovery close",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-close",
+      "title": "trust close",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "time": "2026-04-13T18:40:47.209Z"
+}

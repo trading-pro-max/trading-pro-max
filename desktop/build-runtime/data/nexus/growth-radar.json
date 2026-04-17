@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "vectors": [
+    {
+      "slug": "product",
+      "title": "Product Vector",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ai",
+      "title": "AI Vector",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ops",
+      "title": "Ops Vector",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "platform",
+      "title": "Platform Vector",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "maps": {
+    "localReadiness": 100,
+    "expansionReadiness": 100,
+    "continuityReadiness": 100,
+    "externalSwitchReadiness": 70
+  },
+  "time": "2026-04-13T18:40:46.217Z"
+}

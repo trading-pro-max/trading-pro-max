@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "TPM_APEX_ACTIVE",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "domains": {
+    "command": 100,
+    "memory": 100,
+    "deploy": 100,
+    "proof": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "command-unification",
+      "title": "command unification",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "memory-density",
+      "title": "memory density",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "deploy-discipline",
+      "title": "deploy discipline",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-09T01:48:13.965Z"
+}

@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "TPM_SOVEREIGN_ACTIVE",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "domains": {
+    "sovereign": 100,
+    "vault": 100,
+    "nexus": 100,
+    "proof": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "sovereign-discipline",
+      "title": "sovereign discipline",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "vault-depth",
+      "title": "vault depth",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "nexus-unification",
+      "title": "nexus unification",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-13T18:40:50.252Z"
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "engines": [
+    {
+      "slug": "surface-expansion",
+      "title": "Surface Expansion",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "product-expansion",
+      "title": "Product Expansion",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ops-expansion",
+      "title": "Ops Expansion",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "intelligence-expansion",
+      "title": "Intelligence Expansion",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "expandedSurfaces": 36,
+    "expandedStores": 26,
+    "continuityStrength": 100,
+    "expansionConfidence": 100
+  },
+  "time": "2026-04-08T23:07:37.365Z"
+}

@@ -1,0 +1,25 @@
+﻿{
+    "rootStatus":  200,
+    "rootTitle":  "Terminal",
+    "overviewSignatureStable":  true,
+    "selectedSymbol":  "EUR/USD",
+    "selectedTimeframe":  "15m",
+    "providerState":  null,
+    "providerSequence":  null,
+    "quoteCount":  8,
+    "candleCount":  72,
+    "readiness":  "Warning",
+    "readinessGuardrails":  "Warning",
+    "orderOk":  false,
+    "orderValidation":  null,
+    "closeOk":  false,
+    "persistence":  {
+                        "pending":  "0-\u003e1",
+                        "positions":  "0-\u003e0",
+                        "fills":  "0-\u003e0",
+                        "activity":  "0-\u003e1",
+                        "audit":  "247-\u003e220"
+                    },
+    "recommendationHistory":  122,
+    "decisionJournal":  125
+}

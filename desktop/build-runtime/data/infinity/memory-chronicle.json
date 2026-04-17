@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "chapters": [
+    {
+      "slug": "runtime-memory",
+      "title": "Runtime Memory",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-memory",
+      "title": "Policy Memory",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-memory",
+      "title": "Growth Memory",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "chronicle-memory",
+      "title": "Chronicle Memory",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedChapters": 24,
+    "replayableMemories": 20,
+    "governedArtifacts": 22,
+    "chronicleConfidence": 100
+  },
+  "time": "2026-04-08T19:23:13.860Z"
+}

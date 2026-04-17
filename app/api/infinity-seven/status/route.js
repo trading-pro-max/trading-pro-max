@@ -1,7 +1,7 @@
 ﻿import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
-import { runInfinitySevenCycle } from "../../../../../lib/tpm-infinity-seven-core.mjs";
+import { runInfinitySevenCycle } from "../../../../lib/tpm-infinity-seven-core.mjs";
 
 export const dynamic = "force-dynamic";
 

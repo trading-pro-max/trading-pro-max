@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "teams": [
+    {
+      "slug": "builder-team",
+      "title": "Builder Team",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ops-team",
+      "title": "Ops Team",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-team",
+      "title": "Policy Team",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-team",
+      "title": "Growth Team",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeTeams": 4,
+    "activeAgents": 16,
+    "delegatedMissions": 28,
+    "workforceConfidence": 100
+  },
+  "time": "2026-04-08T19:13:52.188Z"
+}

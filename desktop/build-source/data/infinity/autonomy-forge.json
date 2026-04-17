@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "forges": [
+    {
+      "slug": "builder-forge",
+      "title": "Builder Forge",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "strategy-forge",
+      "title": "Strategy Forge",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution-forge",
+      "title": "Execution Forge",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "memory-forge",
+      "title": "Memory Forge",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "autonomousChains": 24,
+    "selfImprovementLoops": 18,
+    "governedAgents": 16,
+    "forgeConfidence": 100
+  },
+  "time": "2026-04-08T23:40:33.661Z"
+}

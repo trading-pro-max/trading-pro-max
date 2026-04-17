@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "decisions": [
+    {
+      "slug": "risk-arb",
+      "title": "Risk Arbitration",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-arb",
+      "title": "Capital Arbitration",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "route-arb",
+      "title": "Route Arbitration",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-arb",
+      "title": "Trust Arbitration",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "archivedDecisions": 28,
+    "replayableDecisions": 22,
+    "governedDecisions": 20,
+    "archiveConfidence": 100
+  },
+  "time": "2026-04-13T18:40:49.715Z"
+}

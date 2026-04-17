@@ -1,0 +1,21 @@
+{
+  "appName": "Trading Pro Max",
+  "title": "Trading Pro Max Desktop",
+  "channel": "local-release-candidate",
+  "generatedAt": "2026-04-10T19:25:58.547Z",
+  "runtime": {
+    "webCommand": "npm run web:dev",
+    "desktopCommand": "npm run desktop:dev",
+    "releaseCommand": "npm run desktop:rc"
+  },
+  "files": {
+    "desktopEntry": "desktop\\main.cjs",
+    "bootFile": "desktop\\boot.html",
+    "fallbackFile": "desktop\\fallback.html",
+    "iconPlaceholder": "desktop\\assets\\trading-pro-max-placeholder.svg"
+  },
+  "notes": [
+    "This is a local release-candidate preparation artifact, not a signed distributable installer.",
+    "Use the desktop dev launcher for the current packaged-desktop direction."
+  ]
+}

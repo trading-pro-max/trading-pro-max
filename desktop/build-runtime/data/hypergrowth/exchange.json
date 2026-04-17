@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "channels": [
+    {
+      "slug": "policy",
+      "title": "Policy Channel",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "runtime",
+      "title": "Runtime Channel",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence",
+      "title": "Evidence Channel",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "learning",
+      "title": "Learning Channel",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "exchangeChannels": 16,
+    "replayableKnowledge": 24,
+    "governedArtifacts": 22,
+    "exchangeConfidence": 100
+  },
+  "time": "2026-04-09T01:48:28.443Z"
+}

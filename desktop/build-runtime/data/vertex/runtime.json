@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "vertices": [
+    {
+      "slug": "runtime-vertex",
+      "title": "Runtime Vertex",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-vertex",
+      "title": "Market Vertex",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "command-vertex",
+      "title": "Command Vertex",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-vertex",
+      "title": "Trust Vertex",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeVertices": 16,
+    "linkedVectors": 22,
+    "protectedStates": 20,
+    "vertexConfidence": 100
+  },
+  "time": "2026-04-09T01:48:13.987Z"
+}

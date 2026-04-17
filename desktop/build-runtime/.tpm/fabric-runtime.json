@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "TPM_FABRIC_ACTIVE",
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
+  "domains": {
+    "fabric": 100,
+    "autonomy": 83,
+    "memory": 100,
+    "nodes": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "fabric-routing",
+      "title": "fabric routing",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "autonomy-bridges",
+      "title": "autonomy bridges",
+      "progress": 83,
+      "status": "active"
+    },
+    {
+      "slug": "release-memory",
+      "title": "release memory",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-13T18:40:43.701Z"
+}

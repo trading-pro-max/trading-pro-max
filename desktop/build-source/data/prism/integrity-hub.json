@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "controls": [
+    {
+      "slug": "runtime-control",
+      "title": "Runtime Control",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-control",
+      "title": "Policy Control",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-control",
+      "title": "Evidence Control",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity-control",
+      "title": "Continuity Control",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeControls": 16,
+    "protectedPolicies": 18,
+    "auditedRoutes": 20,
+    "integrityConfidence": 100
+  },
+  "time": "2026-04-08T22:31:38.584Z"
+}

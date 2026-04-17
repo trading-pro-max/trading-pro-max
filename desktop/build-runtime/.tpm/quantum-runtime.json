@@ -1,0 +1,41 @@
+{
+  "ok": true,
+  "mode": "TPM_QUANTUM_ACTIVE",
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
+  "domains": {
+    "quantum": 100,
+    "brain": 86,
+    "revenue": 100,
+    "deployment": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "quantum-density",
+      "title": "quantum density",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "brain-governance",
+      "title": "brain governance",
+      "progress": 86,
+      "status": "active"
+    },
+    {
+      "slug": "flight-visibility",
+      "title": "flight visibility",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "deployment-wall",
+      "title": "deployment wall",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-09T01:48:22.318Z"
+}

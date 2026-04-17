@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "cabinets": [
+    {
+      "slug": "ops-cabinet",
+      "title": "Ops Cabinet",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-cabinet",
+      "title": "Market Cabinet",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "route-cabinet",
+      "title": "Route Cabinet",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "launch-cabinet",
+      "title": "Launch Cabinet",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeCabinets": 12,
+    "governedActions": 18,
+    "switchConfidence": 100,
+    "continuityConfidence": 100
+  },
+  "time": "2026-04-09T06:55:30.459Z"
+}

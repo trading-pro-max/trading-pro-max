@@ -1,0 +1,16 @@
+﻿{
+    "ok":  true,
+    "mode":  "TPM_AUTOPILOT_ACTIVE",
+    "localMode":  "100%",
+    "remaining":  0,
+    "infiniteContinuation":  "ACTIVE",
+    "generatedAt":  "2026-04-09T00:17:27.0233637+02:00",
+    "serviceCount":  1,
+    "services":  [
+                     {
+                         "name":  "next-dev",
+                         "kind":  "npm",
+                         "script":  "dev"
+                     }
+                 ]
+}

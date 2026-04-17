@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "scenes": [
+    {
+      "slug": "runtime-scenes",
+      "title": "Runtime Scenes",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-scenes",
+      "title": "Audit Scenes",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-scenes",
+      "title": "Recovery Scenes",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-scenes",
+      "title": "Trust Scenes",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "storedScenes": 22,
+    "replayableScenes": 20,
+    "memoryCoverage": 100,
+    "theaterConfidence": 100
+  },
+  "time": "2026-04-08T20:58:18.437Z"
+}

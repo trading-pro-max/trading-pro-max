@@ -1,13 +1,13 @@
 {
   "ok": true,
   "mode": "TPM_PLATFORM_ACTIVE",
-  "overallProgress": 87,
-  "completed": 87,
-  "remaining": 13,
+  "overallProgress": 90,
+  "completed": 90,
+  "remaining": 10,
   "domains": {
     "gateway": 100,
     "integrations": 50,
-    "lifecycle": 83,
+    "lifecycle": 100,
     "control": 100,
     "continuity": 100
   },
@@ -27,9 +27,9 @@
     {
       "slug": "lifecycle-depth",
       "title": "lifecycle depth",
-      "progress": 83,
+      "progress": 100,
       "status": "active"
     }
   ],
-  "time": "2026-04-10T01:43:25.803Z"
+  "time": "2026-04-16T23:38:33.212Z"
 }

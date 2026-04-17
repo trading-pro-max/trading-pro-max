@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "vaults": [
+    {
+      "slug": "signal-memory",
+      "title": "Signal Memory",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "route-memory",
+      "title": "Route Memory",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-memory",
+      "title": "Capital Memory",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-memory",
+      "title": "Trust Memory",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "storedPatterns": 32,
+    "replayableSignals": 26,
+    "auditedMemories": 22,
+    "memoryConfidence": 100
+  },
+  "time": "2026-04-08T23:39:40.127Z"
+}

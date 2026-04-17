@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "rooms": [
+    {
+      "slug": "product-room",
+      "title": "Product Room",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "traction-room",
+      "title": "Traction Room",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "economics-room",
+      "title": "Economics Room",
+      "progress": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "trust-room",
+      "title": "Trust Room",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "evidenceRooms": 8,
+    "strategyRooms": 6,
+    "auditStrength": 100,
+    "investorReadiness": 100
+  },
+  "time": "2026-04-08T23:40:33.661Z"
+}

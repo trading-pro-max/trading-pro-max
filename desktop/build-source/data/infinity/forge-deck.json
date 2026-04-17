@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "tracks": [
+    {
+      "slug": "strategy-forge",
+      "title": "Strategy Forge",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-forge",
+      "title": "Policy Forge",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-forge",
+      "title": "Market Forge",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-forge",
+      "title": "Growth Forge",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "forgedTracks": 16,
+    "replayablePatterns": 22,
+    "governedOutputs": 20,
+    "forgeConfidence": 100
+  },
+  "time": "2026-04-08T21:16:43.724Z"
+}

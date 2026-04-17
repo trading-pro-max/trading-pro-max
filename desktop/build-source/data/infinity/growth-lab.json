@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "labs": [
+    {
+      "slug": "product-lab",
+      "title": "Product Lab",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ai-lab",
+      "title": "AI Lab",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "platform-lab",
+      "title": "Platform Lab",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "enterprise-lab",
+      "title": "Enterprise Lab",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeLabs": 12,
+    "governedExpansions": 14,
+    "productDepth": 100,
+    "growthConfidence": 100
+  },
+  "time": "2026-04-08T21:42:41.998Z"
+}

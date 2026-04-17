@@ -1,7 +1,7 @@
 ﻿import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
-import { runLiveIntegrationsCycle } from "../../../../../lib/tpm-live-integrations.mjs";
+import { runLiveIntegrationsCycle } from "../../../../lib/tpm-live-integrations.mjs";
 
 export const dynamic = "force-dynamic";
 

@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "towers": [
+    {
+      "slug": "runtime",
+      "title": "Runtime Supremacy",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "governance",
+      "title": "Governance Supremacy",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth",
+      "title": "Growth Supremacy",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity",
+      "title": "Continuity Supremacy",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "autonomy",
+      "title": "Autonomy Supremacy",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeSurfaces": 48,
+    "activeRuntimes": 28,
+    "protectedStores": 34,
+    "certifiedCoverage": 100
+  },
+  "time": "2026-04-09T01:47:44.743Z"
+}

@@ -1,0 +1,33 @@
+{
+  "ok": true,
+  "mode": "TPM_HYPER_ACTIVE",
+  "overallProgress": 99,
+  "completed": 99,
+  "remaining": 0,
+  "domains": {
+    "hyper": 100,
+    "runtimeDepth": 96,
+    "proof": 100
+  },
+  "nextWave": [
+    {
+      "slug": "quantum-stack",
+      "title": "quantum stack",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "autonomy-command",
+      "title": "autonomy command",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "deployment-readiness",
+      "title": "deployment readiness",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-09T01:48:27.655Z"
+}

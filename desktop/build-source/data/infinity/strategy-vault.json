@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "vaults": [
+    {
+      "slug": "macro-vault",
+      "title": "Macro Vault",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-vault",
+      "title": "Risk Vault",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution-vault",
+      "title": "Execution Vault",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-vault",
+      "title": "Growth Vault",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "storedStrategies": 28,
+    "governedStrategies": 24,
+    "protectedPolicies": 20,
+    "vaultConfidence": 100
+  },
+  "time": "2026-04-08T21:40:16.373Z"
+}

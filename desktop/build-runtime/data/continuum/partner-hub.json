@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "hubs": [
+    {
+      "slug": "alliances",
+      "title": "Alliances Hub",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "channels",
+      "title": "Channels Hub",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "operations",
+      "title": "Operations Hub",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence",
+      "title": "Evidence Hub",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "partnershipRoutes": 14,
+    "governedLinks": 12,
+    "integrationClarity": 100,
+    "partnerConfidence": 100
+  },
+  "time": "2026-04-09T01:48:18.084Z"
+}

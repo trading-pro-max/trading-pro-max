@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "gates": [
+    {
+      "slug": "local-gate",
+      "title": "Local Gate",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity-gate",
+      "title": "Continuity Gate",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "provider-gate",
+      "title": "Provider Gate",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "hosting-gate",
+      "title": "Hosting Gate",
+      "score": 70,
+      "status": "blocked-by-plan"
+    }
+  ],
+  "metrics": {
+    "localReadiness": 100,
+    "continuityReadiness": 100,
+    "providerReadiness": 99,
+    "externalSwitchReadiness": 70
+  },
+  "blocker": "GoDaddy hosting plan upgrade required for final external switch.",
+  "time": "2026-04-09T23:02:58.362Z"
+}

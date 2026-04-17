@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "clusters": [
+    {
+      "slug": "runtime-cluster",
+      "title": "Runtime Cluster",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-cluster",
+      "title": "Market Cluster",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-cluster",
+      "title": "Policy Cluster",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-cluster",
+      "title": "Trust Cluster",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeClusters": 16,
+    "linkedModules": 24,
+    "governedRoutes": 20,
+    "constellationConfidence": 100
+  },
+  "time": "2026-04-09T23:02:56.661Z"
+}

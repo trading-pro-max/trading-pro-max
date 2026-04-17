@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "buffers": [
+    {
+      "slug": "local-release",
+      "title": "Local Release Buffer",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "sftp-path",
+      "title": "SFTP Path Buffer",
+      "progress": 90,
+      "status": "configured-path"
+    },
+    {
+      "slug": "hosting-plan",
+      "title": "Hosting Plan Buffer",
+      "progress": 70,
+      "status": "blocked-by-plan"
+    },
+    {
+      "slug": "external-switch",
+      "title": "External Switch Buffer",
+      "progress": 70,
+      "status": "blocked-by-plan"
+    }
+  ],
+  "metrics": {
+    "localCertified": true,
+    "externalBlocked": true,
+    "host": "pending",
+    "switchState": "WAITING_GODADDY_PLAN"
+  },
+  "time": "2026-04-09T00:52:56.892Z"
+}

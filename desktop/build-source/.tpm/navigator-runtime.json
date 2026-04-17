@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "TPM_NAVIGATOR_ACTIVE",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "domains": {
+    "navigator": 100,
+    "portfolio": 100,
+    "audit": 100,
+    "proof": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "navigator-discipline",
+      "title": "navigator discipline",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "portfolio-scenarios",
+      "title": "portfolio scenarios",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "audit-depth",
+      "title": "audit depth",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-13T18:40:48.197Z"
+}

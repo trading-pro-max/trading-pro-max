@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "channels": [
+    {
+      "slug": "operator",
+      "title": "Operator Alerts",
+      "strength": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "risk",
+      "title": "Risk Alerts",
+      "strength": 97,
+      "status": "strong"
+    },
+    {
+      "slug": "execution",
+      "title": "Execution Alerts",
+      "strength": 96,
+      "status": "strong"
+    },
+    {
+      "slug": "telegram",
+      "title": "Telegram Alerts",
+      "strength": 82,
+      "status": "awaiting-telegram"
+    }
+  ],
+  "queues": {
+    "urgent": 4,
+    "high": 7,
+    "normal": 12,
+    "muted": 2
+  },
+  "time": "2026-04-13T18:40:42.146Z"
+}

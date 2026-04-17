@@ -1,0 +1,31 @@
+{
+  "version": 1,
+  "vision": "Trading Pro Max global AI autonomous platform",
+  "domains": [
+    {
+      "slug": "autonomy",
+      "title": "Autonomy Core",
+      "target": 100
+    },
+    {
+      "slug": "ai",
+      "title": "AI Brain",
+      "target": 100
+    },
+    {
+      "slug": "surface",
+      "title": "Product Surface",
+      "target": 100
+    },
+    {
+      "slug": "deployment",
+      "title": "External Deployment",
+      "target": 100
+    },
+    {
+      "slug": "operations",
+      "title": "Operations",
+      "target": 100
+    }
+  ]
+}

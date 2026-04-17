@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "registries": [
+    {
+      "slug": "runtime-reg",
+      "title": "Runtime Registry",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-reg",
+      "title": "Policy Registry",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "proof-reg",
+      "title": "Proof Registry",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "launch-reg",
+      "title": "Launch Registry",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedRegistries": 16,
+    "trackedArtifacts": 32,
+    "trustCoverage": 100,
+    "registryConfidence": 100
+  },
+  "time": "2026-04-09T02:18:43.346Z"
+}

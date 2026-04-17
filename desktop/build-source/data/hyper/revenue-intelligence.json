@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "engines": [
+    {
+      "slug": "pricing-intel",
+      "title": "Pricing Intelligence",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "billing-intel",
+      "title": "Billing Intelligence",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "retention-intel",
+      "title": "Retention Intelligence",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "expansion-intel",
+      "title": "Expansion Intelligence",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "recurringReadiness": 100,
+    "expansionReadiness": 100,
+    "notificationReadiness": 100,
+    "revenueConfidence": 100
+  },
+  "time": "2026-04-09T01:48:27.655Z"
+}

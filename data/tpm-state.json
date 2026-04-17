@@ -3,7 +3,7 @@
   "autoMode": true,
   "aiEnabled": true,
   "riskMode": "BALANCED",
-  "lastCommand": "AUTO_ON",
+  "lastCommand": "BOOT",
   "metrics": {
     "engineReadiness": 82,
     "platformReadiness": 76,
@@ -12,11 +12,7 @@
   },
   "logs": [
     {
-      "time": "2026-04-07T14:04:00.904Z",
-      "text": "AUTO MODE ENABLED"
-    },
-    {
-      "time": "2026-04-07T11:59:17.105Z",
+      "time": "2026-04-16T23:09:13.576Z",
       "text": "CORE REBUILD ONLINE"
     }
   ],

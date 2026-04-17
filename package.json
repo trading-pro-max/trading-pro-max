@@ -1,15 +1,28 @@
 {
   "name": "trading-pro-max-full",
+  "productName": "Trading Pro Max",
+  "description": "Trading Pro Max desktop-first trading workspace.",
+  "author": "Trading Pro Max",
   "private": true,
   "version": "1.0.0",
+  "main": "desktop/main.cjs",
   "scripts": {
     "dev": "next dev",
+    "web:dev": "next dev",
+    "dev:desktop-web": "next dev -p 3232",
     "build": "next build",
     "start": "next start",
+    "web:start": "next start",
+    "desktop:dev": "node ./scripts/tpm-desktop-dev.mjs",
+    "desktop:web": "next dev -p 3232",
+    "desktop:app": "electron ./desktop/main.cjs",
+    "desktop:rc": "node ./scripts/tpm-desktop-rc.mjs",
+    "desktop:dist": "node ./scripts/tpm-desktop-dist.mjs",
     "lint": "next lint",
     "tpm:build": "node ./scripts/tpm-build.mjs",
     "tpm:heal": "node ./scripts/tpm-self-heal.mjs",
     "tpm:validate": "node ./scripts/tpm-validate.mjs",
+    "tpm:canonical:smoke": "node ./scripts/tpm-canonical-routes-smoke.mjs",
     "tpm:builder": "node ./scripts/tpm-autobuilder-loop.mjs",
     "tpm:builder:start": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-builder-start.ps1",
     "tpm:builder:stop": "powershell -ExecutionPolicy Bypass -File ./scripts/tpm-builder-stop.ps1",
@@ -178,6 +191,49 @@
   "devDependencies": {
     "@types/node": "25.5.2",
     "@types/react": "19.2.14",
+    "electron": "^37.3.1",
+    "electron-builder": "^26.8.1",
     "typescript": "6.0.2"
+  },
+  "build": {
+    "appId": "com.tradingpromax.desktop",
+    "productName": "Trading Pro Max",
+    "artifactName": "Trading-Pro-Max-${version}-${arch}.${ext}",
+    "asar": true,
+    "npmRebuild": false,
+    "copyright": "Copyright (c) Trading Pro Max",
+    "directories": {
+      "output": "desktop/dist",
+      "buildResources": "desktop/assets"
+    },
+    "files": [
+      "desktop/main.cjs",
+      "desktop/boot.html",
+      "desktop/fallback.html",
+      "desktop/config.json",
+      "desktop/assets/**/*",
+      "package.json"
+    ],
+    "extraResources": [
+      {
+        "from": "desktop/build-runtime",
+        "to": "app-runtime",
+        "filter": [
+          "**/*"
+        ]
+      }
+    ],
+    "win": {
+      "target": [
+        "nsis"
+      ],
+      "signAndEditExecutable": false
+    },
+    "nsis": {
+      "oneClick": false,
+      "allowToChangeInstallationDirectory": true,
+      "createDesktopShortcut": true,
+      "shortcutName": "Trading Pro Max"
+    }
   }
 }

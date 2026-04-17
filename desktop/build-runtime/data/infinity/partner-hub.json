@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "hubs": [
+    {
+      "slug": "broker-partners",
+      "title": "Broker Partners",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "infra-partners",
+      "title": "Infra Partners",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "distribution-partners",
+      "title": "Distribution Partners",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "data-partners",
+      "title": "Data Partners",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "partnerTracks": 12,
+    "revenueTracks": 10,
+    "readiness": 100,
+    "growthCoverage": 100
+  },
+  "time": "2026-04-08T23:40:33.661Z"
+}

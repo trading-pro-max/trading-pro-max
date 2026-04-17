@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "title": "Strategic Memory Vault",
+  "cards": [
+    {
+      "slug": "strategic-memory-vault-core",
+      "title": "Strategic Memory Vault Core",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "strategic-memory-vault-ops",
+      "title": "Ops Layer",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "strategic-memory-vault-trust",
+      "title": "Trust Layer",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "strategic-memory-vault-continuity",
+      "title": "Continuity Layer",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeBoards": 5,
+    "linkedRuntimes": 19,
+    "protectedPaths": 17,
+    "confidence": 100
+  },
+  "time": "2026-04-09T01:48:14.007Z"
+}

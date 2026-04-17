@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "mirrors": [
+    {
+      "slug": "runtime-mirror",
+      "title": "Runtime Mirror",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-mirror",
+      "title": "Policy Mirror",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-mirror",
+      "title": "Audit Mirror",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-mirror",
+      "title": "Trust Mirror",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeMirrors": 14,
+    "reflectedPolicies": 18,
+    "verifiedAudits": 16,
+    "mirrorConfidence": 100
+  },
+  "time": "2026-04-08T13:01:58.655Z"
+}

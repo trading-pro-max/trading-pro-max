@@ -1,0 +1,89 @@
+{
+  "portfolio": {
+    "cash": 100000,
+    "positions": []
+  },
+  "journal": [],
+  "watchlist": [
+    "BTC/USDT",
+    "ETH/USDT",
+    "EUR/USD"
+  ],
+  "alerts": [],
+  "orders": [],
+  "ledger": [],
+  "settings": {
+    "theme": "dark",
+    "timezone": "UTC",
+    "defaultRisk": "BALANCED",
+    "liveTrading": false,
+    "onboardingComplete": false
+  },
+  "users": [],
+  "session": {
+    "active": false,
+    "userId": null,
+    "token": null,
+    "lastLoginAt": null
+  },
+  "brokers": [
+    {
+      "id": "BRK-IBKR",
+      "key": "IBKR",
+      "name": "Interactive Brokers",
+      "category": "multi-asset",
+      "status": "READY",
+      "connected": false,
+      "mode": "SANDBOX",
+      "coverage": [
+        "stocks",
+        "options",
+        "futures",
+        "fx"
+      ],
+      "lastSyncAt": null
+    },
+    {
+      "id": "BRK-BINANCE",
+      "key": "BINANCE",
+      "name": "Binance",
+      "category": "crypto",
+      "status": "READY",
+      "connected": false,
+      "mode": "SANDBOX",
+      "coverage": [
+        "spot",
+        "futures"
+      ],
+      "lastSyncAt": null
+    },
+    {
+      "id": "BRK-BYBIT",
+      "key": "BYBIT",
+      "name": "Bybit",
+      "category": "crypto",
+      "status": "READY",
+      "connected": false,
+      "mode": "SANDBOX",
+      "coverage": [
+        "spot",
+        "perps"
+      ],
+      "lastSyncAt": null
+    },
+    {
+      "id": "BRK-OANDA",
+      "key": "OANDA",
+      "name": "OANDA",
+      "category": "fx-cfd",
+      "status": "READY",
+      "connected": false,
+      "mode": "SANDBOX",
+      "coverage": [
+        "fx",
+        "cfd"
+      ],
+      "lastSyncAt": null
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "models": [
+    {
+      "slug": "continuity-brain",
+      "title": "Continuity Brain",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-brain",
+      "title": "Recovery Brain",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-brain",
+      "title": "Policy Brain",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "memory-brain",
+      "title": "Memory Brain",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeModels": 12,
+    "protectedStates": 22,
+    "recoveryConfidence": 100,
+    "continuityConfidence": 100
+  },
+  "time": "2026-04-09T03:29:00.287Z"
+}

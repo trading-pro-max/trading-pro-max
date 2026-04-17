@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "cores": [
+    {
+      "slug": "builder-core",
+      "title": "Builder Core",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "operator-core",
+      "title": "Operator Core",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "learning-core",
+      "title": "Learning Core",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-core",
+      "title": "Policy Core",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeAgents": 12,
+    "autonomousLoops": 18,
+    "governedActions": 22,
+    "foundryConfidence": 100
+  },
+  "time": "2026-04-08T23:40:18.151Z"
+}

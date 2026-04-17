@@ -1,0 +1,56 @@
+{
+  "ok": true,
+  "missions": [
+    {
+      "slug": "ai-routing",
+      "title": "AI Routing Grid",
+      "priority": "P1",
+      "progress": 99,
+      "owner": "orchestrator",
+      "source": 86
+    },
+    {
+      "slug": "strategy-governance",
+      "title": "Strategy Governance",
+      "priority": "P1",
+      "progress": 99,
+      "owner": "strategy",
+      "source": 98
+    },
+    {
+      "slug": "market-command",
+      "title": "Market Command Fusion",
+      "priority": "P1",
+      "progress": 99,
+      "owner": "market-command",
+      "source": 96
+    },
+    {
+      "slug": "broker-live-ops",
+      "title": "Broker Live Ops",
+      "priority": "P1",
+      "progress": 98,
+      "owner": "broker",
+      "source": 96
+    },
+    {
+      "slug": "governance-lock",
+      "title": "Governance Lock",
+      "priority": "P1",
+      "progress": 99,
+      "owner": "governance",
+      "source": 97
+    }
+  ],
+  "scores": {
+    "ai": 86,
+    "strategy": 98,
+    "intelligence": 95,
+    "market": 96,
+    "command": 100,
+    "broker": 96,
+    "governance": 97,
+    "master": 100
+  },
+  "time": "2026-04-16T23:38:30.827Z"
+}

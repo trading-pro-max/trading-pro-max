@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "grids": [
+    {
+      "slug": "ops-grid",
+      "title": "Ops Grid",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-grid",
+      "title": "Market Grid",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "broker-grid",
+      "title": "Broker Grid",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "platform-grid",
+      "title": "Platform Grid",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "visibleGrids": 16,
+    "protectedRoutes": 24,
+    "launchReadiness": 100,
+    "globalOpsConfidence": 100
+  },
+  "time": "2026-04-08T23:09:10.907Z"
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "vaults": [
+    {
+      "slug": "runtime-archive",
+      "title": "Runtime Archive",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-archive",
+      "title": "Audit Archive",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "decision-archive",
+      "title": "Decision Archive",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-archive",
+      "title": "Recovery Archive",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "archivedFlows": 26,
+    "replayableArchives": 22,
+    "trustedArtifacts": 24,
+    "archiveConfidence": 100
+  },
+  "time": "2026-04-09T01:48:13.153Z"
+}

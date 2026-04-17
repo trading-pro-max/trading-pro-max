@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "strands": [
+    {
+      "slug": "risk-strand",
+      "title": "Risk Strand",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "route-strand",
+      "title": "Route Strand",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-strand",
+      "title": "Growth Strand",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-strand",
+      "title": "Trust Strand",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "mappedStrands": 20,
+    "governedMutations": 18,
+    "stablePatterns": 22,
+    "genomeConfidence": 100
+  },
+  "time": "2026-04-08T22:57:09.020Z"
+}

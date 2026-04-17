@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "cards": [
+    {
+      "slug": "success-cosmos",
+      "title": "Success Cosmos",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "retention-cosmos",
+      "title": "Retention Cosmos",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "alerts-cosmos",
+      "title": "Alerts Cosmos",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-cosmos",
+      "title": "Growth Cosmos",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeHubs": 10,
+    "clientContinuity": 100,
+    "platformReadiness": 100,
+    "cosmosConfidence": 100
+  },
+  "time": "2026-04-09T00:05:08.165Z"
+}

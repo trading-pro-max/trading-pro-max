@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "scenarios": [
+    {
+      "slug": "global-stable",
+      "title": "Global Stable",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "high-volatility",
+      "title": "High Volatility",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "defense-mode",
+      "title": "Defense Mode",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "adaptive-mode",
+      "title": "Adaptive Mode",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeScenarios": 20,
+    "replayableScenarios": 18,
+    "governedTransitions": 16,
+    "genomeConfidence": 100
+  },
+  "time": "2026-04-09T01:48:32.916Z"
+}

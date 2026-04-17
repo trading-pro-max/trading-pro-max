@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "memories": [
+    {
+      "slug": "execution-memory",
+      "title": "Execution Memory",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "route-memory",
+      "title": "Route Memory",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-memory",
+      "title": "Audit Memory",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "replay-memory",
+      "title": "Replay Memory",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "memorySets": 24,
+    "replayableExecutions": 20,
+    "protectedSnapshots": 18,
+    "memoryConfidence": 100
+  },
+  "time": "2026-04-08T22:22:38.125Z"
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "lanes": [
+    {
+      "slug": "replay",
+      "title": "Replay Lane",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "rollback",
+      "title": "Rollback Lane",
+      "progress": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "restart",
+      "title": "Restart Lane",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity",
+      "title": "Continuity Lane",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "maps": {
+    "restartConfidence": 100,
+    "rollbackConfidence": 99,
+    "replayCoverage": 100,
+    "recoveryDiscipline": 100
+  },
+  "time": "2026-04-13T18:40:47.209Z"
+}

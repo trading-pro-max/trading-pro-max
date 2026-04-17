@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "chambers": [
+    {
+      "slug": "exec-forum",
+      "title": "Execution Forum",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "route-forum",
+      "title": "Route Forum",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "broker-forum",
+      "title": "Broker Forum",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-forum",
+      "title": "Risk Forum",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeForums": 12,
+    "governedRoutes": 18,
+    "arbitrationStrength": 100,
+    "forumConfidence": 100
+  },
+  "time": "2026-04-09T01:48:20.739Z"
+}

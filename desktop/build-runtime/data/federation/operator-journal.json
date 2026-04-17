@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "journals": [
+    {
+      "slug": "ops-journal",
+      "title": "Ops Journal",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-journal",
+      "title": "Risk Journal",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "audit-journal",
+      "title": "Audit Journal",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "launch-journal",
+      "title": "Launch Journal",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "loggedStreams": 20,
+    "verifiedEntries": 24,
+    "auditedMoments": 18,
+    "journalConfidence": 100
+  },
+  "time": "2026-04-08T22:36:08.637Z"
+}

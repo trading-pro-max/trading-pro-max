@@ -1,7 +1,7 @@
 ﻿import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
-import { runAiCycle } from "../../../../../lib/tpm-ai-brain.mjs";
+import { runAiCycle } from "../../../../lib/tpm-ai-brain.mjs";
 
 export const dynamic = "force-dynamic";
 

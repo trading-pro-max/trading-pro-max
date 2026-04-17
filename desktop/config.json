@@ -1,6 +1,48 @@
-﻿{
-  "name": "desktop-hq",
-  "mode": "operator-shell",
+{
+  "name": "trading-pro-max",
+  "title": "Trading Pro Max",
+  "productName": "Trading Pro Max",
+  "version": "1.0.0",
+  "author": "Trading Pro Max",
+  "channel": "windows-desktop-release",
+  "mode": "desktop-release",
   "status": "ACTIVE",
-  "surfaces": ["workspace-panels","market-wall","strategy-wall","ai-assist","operator-tray"]
+  "identity": {
+    "appName": "Trading Pro Max",
+    "windowTitle": "Trading Pro Max",
+    "desktopTitle": "Trading Pro Max Desktop",
+    "aboutTitle": "Trading Pro Max Desktop",
+    "releaseLabel": "Windows Desktop Release",
+    "supportLabel": "Desktop Support"
+  },
+  "release": {
+    "channelLabel": "Windows Desktop Release",
+    "docsLabel": "Local release guide",
+    "versionLabel": "Version 1.0.0"
+  },
+  "surfaces": [
+    "workspace-panels",
+    "market-wall",
+    "strategy-wall",
+    "ai-assist",
+    "operator-tray"
+  ],
+  "assets": {
+    "iconPlaceholder": "./assets/trading-pro-max-placeholder.svg",
+    "brandReadme": "./assets/README.md",
+    "windowsIcon": "./assets/brand/icons/trading-pro-max.ico",
+    "installerHeader": "./assets/brand/installer/trading-pro-max-installer-header.bmp",
+    "installerSidebar": "./assets/brand/installer/trading-pro-max-installer-sidebar.bmp",
+    "wordmark": "./assets/brand/trading-pro-max-wordmark.svg"
+  },
+  "distribution": {
+    "output": "./dist",
+    "targets": [
+      "nsis"
+    ]
+  },
+  "startup": {
+    "packagedBootTimeoutMs": 12000,
+    "packagedRecoveryWindowMs": 12000
+  }
 }

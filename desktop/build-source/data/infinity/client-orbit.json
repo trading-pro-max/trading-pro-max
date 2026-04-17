@@ -1,0 +1,37 @@
+{
+  "ok": true,
+  "title": "Client Orbit Hub",
+  "cards": [
+    {
+      "slug": "client-orbit-hub-core",
+      "title": "Client Orbit Hub Core",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "client-orbit-hub-ops",
+      "title": "Ops Layer",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "client-orbit-hub-trust",
+      "title": "Trust Layer",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "client-orbit-hub-continuity",
+      "title": "Continuity Layer",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeBoards": 8,
+    "linkedRuntimes": 22,
+    "protectedPaths": 20,
+    "confidence": 100
+  },
+  "time": "2026-04-09T01:48:14.018Z"
+}

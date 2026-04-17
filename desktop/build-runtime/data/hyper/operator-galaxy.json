@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "clusters": [
+    {
+      "slug": "operator",
+      "title": "Operator Cluster",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "strategy",
+      "title": "Strategy Cluster",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "broker",
+      "title": "Broker Cluster",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "governance",
+      "title": "Governance Cluster",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence",
+      "title": "Evidence Cluster",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeClusters": 5,
+    "protectedFlows": 28,
+    "routingConfidence": 100,
+    "operatorConfidence": 100
+  },
+  "time": "2026-04-09T00:34:19.556Z"
+}

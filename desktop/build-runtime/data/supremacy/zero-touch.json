@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "operations": [
+    {
+      "slug": "provider-autostate",
+      "title": "Provider Autostate",
+      "score": 25,
+      "status": "strong"
+    },
+    {
+      "slug": "git-autoflow",
+      "title": "Git Autoflow",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "runtime-autoflow",
+      "title": "Runtime Autoflow",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "control-autoflow",
+      "title": "Control Autoflow",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "providerCoverage": 25,
+    "workflowCoverage": 100,
+    "controlCoverage": 100,
+    "zeroTouchConfidence": 100
+  },
+  "time": "2026-04-09T01:47:44.744Z"
+}

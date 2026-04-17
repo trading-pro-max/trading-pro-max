@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "engines": [
+    {
+      "slug": "market-world",
+      "title": "Market World",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "platform-world",
+      "title": "Platform World",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "enterprise-world",
+      "title": "Enterprise World",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-world",
+      "title": "Growth World",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "worldVectors": 16,
+    "launchPaths": 14,
+    "governedExpansion": 100,
+    "worldConfidence": 100
+  },
+  "time": "2026-04-08T23:49:08.609Z"
+}

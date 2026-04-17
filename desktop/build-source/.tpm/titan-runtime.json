@@ -1,0 +1,48 @@
+{
+  "ok": true,
+  "mode": "TPM_TITAN_ACTIVE",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "domains": {
+    "titan": 100,
+    "genome": 100,
+    "money": 100,
+    "orbit": 100,
+    "chamber": 100,
+    "proof": 100
+  },
+  "nextWave": [
+    {
+      "slug": "titan-density",
+      "title": "titan density",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "genome-depth",
+      "title": "genome depth",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "monetization-depth",
+      "title": "monetization depth",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "orbit-clarity",
+      "title": "orbit clarity",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "chamber-strength",
+      "title": "chamber strength",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-09T01:48:28.091Z"
+}

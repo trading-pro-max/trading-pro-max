@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "panels": [
+    {
+      "slug": "ops-wall",
+      "title": "Ops Wall",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-wall",
+      "title": "Market Wall",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "broker-wall",
+      "title": "Broker Wall",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "platform-wall",
+      "title": "Platform Wall",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-wall",
+      "title": "Trust Wall",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "visiblePanels": 20,
+    "commandRoutes": 26,
+    "protectedCommands": 24,
+    "wallConfidence": 100
+  },
+  "time": "2026-04-09T00:43:29.199Z"
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "desks": [
+    {
+      "slug": "ops-desk",
+      "title": "Ops Desk",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-desk",
+      "title": "Market Desk",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "broker-desk",
+      "title": "Broker Desk",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "platform-desk",
+      "title": "Platform Desk",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeDesks": 12,
+    "governedFlows": 20,
+    "responseClarity": 100,
+    "embassyConfidence": 100
+  },
+  "time": "2026-04-08T21:13:19.005Z"
+}

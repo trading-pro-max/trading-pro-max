@@ -1,0 +1,8 @@
+⨯ Another next dev server is already running.
+
+- Local:        http://localhost:3401
+- PID:          17880
+- Dir:          C:\Users\ahmad\Desktop\trading-pro-max-full
+- Log:          .next\dev\logs\next-development.log
+
+Run taskkill /PID 17880 /F to stop it.

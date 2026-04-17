@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "strands": [
+    {
+      "slug": "signal-strand",
+      "title": "Signal Strand",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-strand",
+      "title": "Policy Strand",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-strand",
+      "title": "Capital Strand",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-strand",
+      "title": "Trust Strand",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-strand",
+      "title": "Growth Strand",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedStrands": 20,
+    "mergedPatterns": 18,
+    "genomeConfidence": 100,
+    "knowledgeDensity": 100
+  },
+  "time": "2026-04-09T01:47:44.744Z"
+}

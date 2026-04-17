@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "chambers": [
+    {
+      "slug": "continuity-chamber",
+      "title": "Continuity Chamber",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "autonomy-chamber",
+      "title": "Autonomy Chamber",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-chamber",
+      "title": "Evidence Chamber",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "sovereignty-chamber",
+      "title": "Sovereignty Chamber",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "infiniteLoops": 18,
+    "replayableStates": 24,
+    "recoveryStrength": 100,
+    "chamberConfidence": 100
+  },
+  "time": "2026-04-09T01:48:28.091Z"
+}

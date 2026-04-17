@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "labs": [
+    {
+      "slug": "runtime-lab",
+      "title": "Runtime Lab",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-lab",
+      "title": "Evidence Lab",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-lab",
+      "title": "Recovery Lab",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-lab",
+      "title": "Trust Lab",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "labCoverage": 100,
+    "experimentCoverage": 100,
+    "resilienceCoverage": 100,
+    "globalConfidence": 100
+  },
+  "time": "2026-04-08T23:59:50.088Z"
+}

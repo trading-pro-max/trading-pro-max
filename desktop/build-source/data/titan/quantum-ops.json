@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "engines": [
+    {
+      "slug": "routing-quantum",
+      "title": "Routing Quantum",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-quantum",
+      "title": "Risk Quantum",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-quantum",
+      "title": "Capital Quantum",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "memory-quantum",
+      "title": "Memory Quantum",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-quantum",
+      "title": "Trust Quantum",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeEngines": 5,
+    "governedStates": 28,
+    "replayStates": 24,
+    "quantumConfidence": 100
+  },
+  "time": "2026-04-09T00:43:29.199Z"
+}

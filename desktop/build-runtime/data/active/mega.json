@@ -1,0 +1,165 @@
+{
+  "ok": true,
+  "counts": {
+    "modules": 388,
+    "pages": 372,
+    "apiRoutes": 148,
+    "loops": 58,
+    "stores": 674
+  },
+  "controls": {
+    "localCertified": true,
+    "releaseGate": "OPEN_LOCAL",
+    "infiniteContinuation": "ACTIVE",
+    "externalDeployBlocked": true
+  },
+  "stacks": {
+    "topModules": [
+      {
+        "slug": "agent-mesh",
+        "title": "Agent Mesh",
+        "progress": 100,
+        "status": "closed",
+        "readiness": "closed"
+      },
+      {
+        "slug": "ai-control",
+        "title": "Ai Control",
+        "progress": 100,
+        "status": "closed",
+        "readiness": "closed"
+      },
+      {
+        "slug": "ai-director",
+        "title": "Ai Director",
+        "progress": 100,
+        "status": "closed",
+        "readiness": "closed"
+      },
+      {
+        "slug": "ai-ops-forge",
+        "title": "Ai Ops Forge",
+        "progress": 100,
+        "status": "closed",
+        "readiness": "closed"
+      },
+      {
+        "slug": "alert-center",
+        "title": "Alert Center",
+        "progress": 100,
+        "status": "closed",
+        "readiness": "closed"
+      },
+      {
+        "slug": "analytics",
+        "title": "Analytics",
+        "progress": 100,
+        "status": "closed",
+        "readiness": "closed"
+      },
+      {
+        "slug": "analytics-center",
+        "title": "Analytics Center",
+        "progress": 100,
+        "status": "closed",
+        "readiness": "closed"
+      },
+      {
+        "slug": "apex",
+        "title": "Apex",
+        "progress": 100,
+        "status": "closed",
+        "readiness": "closed"
+      },
+      {
+        "slug": "apex-command",
+        "title": "Apex Command",
+        "progress": 100,
+        "status": "closed",
+        "readiness": "closed"
+      },
+      {
+        "slug": "apex-matrix",
+        "title": "Apex Matrix",
+        "progress": 100,
+        "status": "closed",
+        "readiness": "closed"
+      },
+      {
+        "slug": "api-gateway",
+        "title": "Api Gateway",
+        "progress": 100,
+        "status": "closed",
+        "readiness": "closed"
+      },
+      {
+        "slug": "assurance-board",
+        "title": "Assurance Board",
+        "progress": 100,
+        "status": "closed",
+        "readiness": "closed"
+      }
+    ],
+    "pages": [
+      "app/active-center/page.js",
+      "app/agent-mesh/page.js",
+      "app/ai-control/page.js",
+      "app/ai-director/page.js",
+      "app/ai-ops-forge/page.js",
+      "app/alert-center/page.js",
+      "app/analytics-center/page.js",
+      "app/apex-command/page.js",
+      "app/apex-matrix/page.js",
+      "app/api-gateway/page.js",
+      "app/assurance-board/page.js",
+      "app/assurance-bridge/page.js",
+      "app/assurance-console/page.js",
+      "app/assurance-graph/page.js",
+      "app/assurance-hub/page.js",
+      "app/assurance-nexus/page.js",
+      "app/assurance-vault/page.js",
+      "app/assurance-wall/page.js"
+    ],
+    "apis": [
+      "app/api/active/run/route.js",
+      "app/api/active/status/route.js",
+      "app/api/agentmesh/run/route.js",
+      "app/api/agentmesh/status/route.js",
+      "app/api/ai/run/route.js",
+      "app/api/ai/status/route.js",
+      "app/api/analytics/run/route.js",
+      "app/api/analytics/status/route.js",
+      "app/api/apex/run/route.js",
+      "app/api/apex/status/route.js",
+      "app/api/atlas/run/route.js",
+      "app/api/atlas/status/route.js",
+      "app/api/autonomous-core/run/route.js",
+      "app/api/autonomous-core/status/route.js",
+      "app/api/autopilot/run/route.js",
+      "app/api/autopilot/status/route.js",
+      "app/api/bridge/run/route.js",
+      "app/api/bridge/status/route.js"
+    ],
+    "loops": [
+      "scripts/tpm-active-loop.mjs",
+      "scripts/tpm-agentmesh-loop.mjs",
+      "scripts/tpm-ai-loop.mjs",
+      "scripts/tpm-analytics-loop.mjs",
+      "scripts/tpm-apex-loop.mjs",
+      "scripts/tpm-atlas-loop.mjs",
+      "scripts/tpm-autobuilder-loop.mjs",
+      "scripts/tpm-autopilot-loop.mjs",
+      "scripts/tpm-bridge-loop.mjs",
+      "scripts/tpm-broker-loop.mjs",
+      "scripts/tpm-builder-loop.mjs",
+      "scripts/tpm-command-loop.mjs",
+      "scripts/tpm-constellation-loop.mjs",
+      "scripts/tpm-continuum-loop.mjs",
+      "scripts/tpm-council-loop.mjs",
+      "scripts/tpm-enterprise-loop.mjs",
+      "scripts/tpm-executive-loop.mjs",
+      "scripts/tpm-expansion-loop.mjs"
+    ]
+  },
+  "time": "2026-04-09T23:02:59.769Z"
+}

@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "towers": [
+    {
+      "slug": "control",
+      "title": "Control Tower",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market",
+      "title": "Market Tower",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution",
+      "title": "Execution Tower",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust",
+      "title": "Trust Tower",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth",
+      "title": "Growth Tower",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeDomains": 24,
+    "linkedStores": 32,
+    "governedRoutes": 26,
+    "hyperConfidence": 100
+  },
+  "time": "2026-04-09T00:34:19.556Z"
+}

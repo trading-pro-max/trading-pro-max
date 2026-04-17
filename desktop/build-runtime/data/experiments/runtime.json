@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "labs": [
+    {
+      "slug": "routing",
+      "title": "Routing Experiments",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "risk",
+      "title": "Risk Experiments",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital",
+      "title": "Capital Experiments",
+      "score": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "growth",
+      "title": "Growth Experiments",
+      "score": 99,
+      "status": "strong"
+    }
+  ],
+  "maps": {
+    "activeExperiments": 16,
+    "replayableTests": 14,
+    "verifiedScenarios": 20,
+    "stableOutcomes": 18
+  },
+  "time": "2026-04-13T18:40:46.713Z"
+}

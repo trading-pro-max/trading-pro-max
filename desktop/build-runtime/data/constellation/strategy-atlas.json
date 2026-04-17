@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "maps": [
+    {
+      "slug": "capital-map",
+      "title": "Capital Map",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-map",
+      "title": "Risk Map",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "signal-map",
+      "title": "Signal Map",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution-map",
+      "title": "Execution Map",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "atlasRoutes": 18,
+    "validatedMaps": 16,
+    "protectedStrategies": 14,
+    "atlasConfidence": 100
+  },
+  "time": "2026-04-09T02:31:56.533Z"
+}

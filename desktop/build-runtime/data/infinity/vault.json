@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "vaults": [
+    {
+      "slug": "proof-vault",
+      "title": "Proof Vault",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-vault",
+      "title": "Recovery Vault",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-vault",
+      "title": "Policy Vault",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-vault",
+      "title": "Trust Vault",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "securedArtifacts": 34,
+    "replayableStates": 26,
+    "trustStrength": 100,
+    "vaultConfidence": 100
+  },
+  "time": "2026-04-08T23:02:41.673Z"
+}

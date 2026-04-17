@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "screens": [
+    {
+      "slug": "ops-screen",
+      "title": "Ops Screen",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-screen",
+      "title": "Risk Screen",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-screen",
+      "title": "Market Screen",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-screen",
+      "title": "Trust Screen",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeScreens": 16,
+    "watchedSignals": 30,
+    "governedAlerts": 22,
+    "radarConfidence": 100
+  },
+  "time": "2026-04-08T22:39:34.069Z"
+}

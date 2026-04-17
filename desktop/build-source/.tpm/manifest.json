@@ -1,0 +1,35 @@
+{
+  "productName": "Trading Pro Max",
+  "systemTitle": "Global Operating System",
+  "theme": {
+    "bg": "#020617",
+    "panel": "#111827",
+    "panelSoft": "#0b1220",
+    "border": "#1f2937",
+    "text": "#ffffff",
+    "muted": "#94a3b8",
+    "accent": "#60a5fa",
+    "good": "#22c55e",
+    "warn": "#f59e0b"
+  },
+  "modules": [
+    {
+      "slug": "launchpad",
+      "title": "Launchpad",
+      "stage": "Core Shell",
+      "status": "ONLINE",
+      "progress": 88,
+      "readiness": 95,
+      "description": "Central local operating shell."
+    },
+    {
+      "slug": "local-command",
+      "title": "Local Command",
+      "stage": "Command Bus",
+      "status": "ONLINE",
+      "progress": 99,
+      "readiness": 96,
+      "description": "Central command surface for the local system."
+    }
+  ]
+}

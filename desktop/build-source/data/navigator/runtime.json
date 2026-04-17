@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "lanes": [
+    {
+      "slug": "capital-routing",
+      "title": "Capital Routing",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-navigation",
+      "title": "Market Navigation",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution-navigation",
+      "title": "Execution Navigation",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "evidence-navigation",
+      "title": "Evidence Navigation",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "guidedRoutes": 16,
+    "protectedPlans": 14,
+    "activeVectors": 12,
+    "confidence": 100
+  },
+  "time": "2026-04-13T18:40:48.196Z"
+}

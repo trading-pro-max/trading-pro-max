@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "pillars": [
+    {
+      "slug": "core",
+      "title": "Infinity Core",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "expansion",
+      "title": "Expansion Infinity",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "autonomy",
+      "title": "Autonomy Infinity",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity",
+      "title": "Continuity Infinity",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activePlanes": 24,
+    "connectedRuntimes": 28,
+    "governedStores": 32,
+    "infinityConfidence": 100
+  },
+  "time": "2026-04-09T01:48:17.983Z"
+}

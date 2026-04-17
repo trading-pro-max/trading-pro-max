@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "hubs": [
+    {
+      "slug": "onboarding",
+      "title": "Onboarding Hub",
+      "progress": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "retention",
+      "title": "Retention Hub",
+      "progress": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "alerts",
+      "title": "Success Alerts",
+      "progress": 90,
+      "status": "configured-path"
+    },
+    {
+      "slug": "mail",
+      "title": "Success Mail",
+      "progress": 88,
+      "status": "configured-path"
+    }
+  ],
+  "health": {
+    "userContinuity": 99,
+    "experienceDepth": 98,
+    "supportReadiness": 97,
+    "expansionReadiness": 99
+  },
+  "time": "2026-04-13T18:40:46.713Z"
+}

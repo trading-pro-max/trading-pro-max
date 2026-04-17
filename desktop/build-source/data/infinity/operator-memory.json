@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "segments": [
+    {
+      "slug": "ops-memory",
+      "title": "Ops Memory",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "decision-memory",
+      "title": "Decision Memory",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-memory",
+      "title": "Risk Memory",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-memory",
+      "title": "Growth Memory",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedMemories": 24,
+    "replayableDecisions": 22,
+    "governedArtifacts": 20,
+    "memoryConfidence": 100
+  },
+  "time": "2026-04-08T21:18:45.728Z"
+}

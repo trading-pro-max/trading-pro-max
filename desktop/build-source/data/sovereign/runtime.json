@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "pillars": [
+    {
+      "slug": "runtime-sovereignty",
+      "title": "Runtime Sovereignty",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "governance-sovereignty",
+      "title": "Governance Sovereignty",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "command-sovereignty",
+      "title": "Command Sovereignty",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-sovereignty",
+      "title": "Evidence Sovereignty",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "governedPlanes": 22,
+    "certifiedStores": 24,
+    "protectedChains": 19,
+    "sovereigntyConfidence": 100
+  },
+  "time": "2026-04-13T18:40:50.251Z"
+}

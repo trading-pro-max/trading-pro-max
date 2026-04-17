@@ -1,0 +1,42 @@
+{
+  "ok": true,
+  "bridges": [
+    {
+      "slug": "ai-strategy",
+      "title": "AI → Strategy",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "strategy-market",
+      "title": "Strategy → Market",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-broker",
+      "title": "Market → Broker",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "broker-governance",
+      "title": "Broker → Governance",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "governance-trust",
+      "title": "Governance → Trust",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeBridges": 15,
+    "protectedRoutes": 21,
+    "linkedStores": 30,
+    "bridgeConfidence": 100
+  },
+  "time": "2026-04-09T23:02:56.221Z"
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "routes": [
+    {
+      "slug": "safe-route",
+      "title": "Safe Route",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "fast-route",
+      "title": "Fast Route",
+      "progress": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "adaptive-route",
+      "title": "Adaptive Route",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-route",
+      "title": "Capital Route",
+      "progress": 99,
+      "status": "strong"
+    }
+  ],
+  "metrics": {
+    "activeRoutes": 14,
+    "rankedRoutes": 12,
+    "protectedRoutes": 11,
+    "arbitrationConfidence": 100
+  },
+  "time": "2026-04-13T18:40:48.700Z"
+}

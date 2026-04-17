@@ -1,7 +1,7 @@
 ﻿import { NextResponse } from "next/server";
 import fs from "fs";
 import path from "path";
-import { runExpansionCycle } from "../../../../../lib/tpm-expansion-core.mjs";
+import { runExpansionCycle } from "../../../../lib/tpm-expansion-core.mjs";
 
 export const dynamic = "force-dynamic";
 

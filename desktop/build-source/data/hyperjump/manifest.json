@@ -1,0 +1,53 @@
+﻿{
+  "ok": true,
+  "layers": [
+    {
+      "slug": "hyperjump-titan-mesh",
+      "title": "Titan Mesh",
+      "description": "Global runtime fusion layer.",
+      "cards": ["Global Runtime", "Execution Fusion", "Trust Fabric", "Scale Plane"]
+    },
+    {
+      "slug": "hyperjump-blackbox-lab",
+      "title": "Blackbox Lab",
+      "description": "Advanced scenario and pattern lab.",
+      "cards": ["Pattern Vault", "Scenario Engine", "Model Review", "Route Testing"]
+    },
+    {
+      "slug": "hyperjump-partner-hub",
+      "title": "Partner Hub",
+      "description": "Partnership and ecosystem expansion layer.",
+      "cards": ["Partner Routes", "Integration Paths", "Alliance Metrics", "Expansion Desk"]
+    },
+    {
+      "slug": "hyperjump-data-lake",
+      "title": "Data Lake",
+      "description": "Unified data intelligence surface.",
+      "cards": ["Signal Lake", "Audit Lake", "Replay Lake", "Knowledge Lake"]
+    },
+    {
+      "slug": "hyperjump-revenue-command",
+      "title": "Revenue Command",
+      "description": "Commercial operating layer.",
+      "cards": ["Revenue Flow", "Billing Strength", "Growth Levers", "Retention Pulse"]
+    },
+    {
+      "slug": "hyperjump-compliance-radar",
+      "title": "Compliance Radar",
+      "description": "Policy and compliance visibility layer.",
+      "cards": ["Policy Radar", "Audit Radar", "Risk Radar", "Trust Radar"]
+    },
+    {
+      "slug": "hyperjump-scenario-forge",
+      "title": "Scenario Forge",
+      "description": "Mega-scale simulation and adaptive planning.",
+      "cards": ["Forge Queue", "Stress Grid", "Adaptive Paths", "Validation Deck"]
+    },
+    {
+      "slug": "hyperjump-autonomy-factory",
+      "title": "Autonomy Factory",
+      "description": "Autonomous production and continuity expansion.",
+      "cards": ["Agent Factory", "Loop Factory", "Control Factory", "Continuity Factory"]
+    }
+  ]
+}

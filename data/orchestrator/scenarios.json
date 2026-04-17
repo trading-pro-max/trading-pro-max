@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "items": [
+    {
+      "slug": "stable-growth",
+      "title": "Stable Growth",
+      "readiness": 99,
+      "status": "ready"
+    },
+    {
+      "slug": "high-volatility",
+      "title": "High Volatility",
+      "readiness": 97,
+      "status": "ready"
+    },
+    {
+      "slug": "defense-mode",
+      "title": "Defense Mode",
+      "readiness": 98,
+      "status": "ready"
+    },
+    {
+      "slug": "broker-ops",
+      "title": "Broker Ops",
+      "readiness": 96,
+      "status": "ready"
+    }
+  ],
+  "time": "2026-04-16T23:38:30.827Z"
+}

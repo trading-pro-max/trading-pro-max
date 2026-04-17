@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "lanes": [
+    {
+      "slug": "global-view",
+      "title": "Global View",
+      "strength": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "runtime-frontier",
+      "title": "Runtime Frontier",
+      "strength": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "expansion-frontier",
+      "title": "Expansion Frontier",
+      "strength": 98,
+      "status": "strong"
+    },
+    {
+      "slug": "evidence-frontier",
+      "title": "Evidence Frontier",
+      "strength": 99,
+      "status": "strong"
+    }
+  ],
+  "metrics": {
+    "activeLayers": 14,
+    "connectedRuntimes": 18,
+    "protectedStores": 17,
+    "certifiedDepth": 100
+  },
+  "time": "2026-04-13T18:40:45.720Z"
+}

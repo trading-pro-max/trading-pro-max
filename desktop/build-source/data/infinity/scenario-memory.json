@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "scenarios": [
+    {
+      "slug": "adaptive-scenario",
+      "title": "Adaptive Scenario",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-scenario",
+      "title": "Capital Scenario",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-scenario",
+      "title": "Recovery Scenario",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-scenario",
+      "title": "Growth Scenario",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedScenarios": 24,
+    "replayableScenarios": 20,
+    "learnedScenarios": 18,
+    "scenarioConfidence": 100
+  },
+  "time": "2026-04-08T19:36:50.677Z"
+}

@@ -1,0 +1,17 @@
+
+> trading-pro-max-full@1.0.0 web:dev
+> next dev
+
+▲ Next.js 16.2.2 (Turbopack)
+- Local:         http://localhost:3000
+- Network:       http://26.15.183.73:3000
+✓ Ready in 1003ms
+
+ GET /execution-center 200 in 1159ms (next.js: 473ms, application-code: 686ms)
+ GET /journal-vault 200 in 1536ms (next.js: 83ms, application-code: 1453ms)
+ GET /market-intelligence 200 in 1558ms (next.js: 277ms, application-code: 1281ms)
+ GET /ai-copilot 200 in 1586ms (next.js: 460ms, application-code: 1126ms)
+ GET /execution-center 200 in 880ms (next.js: 32ms, application-code: 848ms)
+ GET /risk-control 200 in 907ms (next.js: 210ms, application-code: 697ms)
+ GET /strategy-lab 200 in 925ms (next.js: 366ms, application-code: 559ms)
+[?25h

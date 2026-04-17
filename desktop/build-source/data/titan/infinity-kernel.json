@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "cards": [
+    {
+      "slug": "infinite-engine",
+      "title": "Infinite Engine",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "runtime-depth",
+      "title": "Runtime Depth",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "autonomy-force",
+      "title": "Autonomy Force",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuation",
+      "title": "Continuation",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeLayers": 24,
+    "activeLoops": 21,
+    "controlledStores": 30,
+    "infinityState": "ACTIVE"
+  },
+  "time": "2026-04-09T00:05:08.165Z"
+}

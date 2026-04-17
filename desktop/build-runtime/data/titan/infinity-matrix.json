@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "cells": [
+    {
+      "slug": "autonomy",
+      "title": "Autonomy Cell",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "routing",
+      "title": "Routing Cell",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "resilience",
+      "title": "Resilience Cell",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth",
+      "title": "Growth Cell",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeCells": 16,
+    "governedPaths": 24,
+    "adaptiveStrength": 100,
+    "infinityConfidence": 100
+  },
+  "time": "2026-04-08T23:04:47.936Z"
+}

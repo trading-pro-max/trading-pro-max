@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "cards": [
+    {
+      "slug": "edge-board",
+      "title": "Edge Board",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "flow-router",
+      "title": "Flow Router",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "retention-mesh",
+      "title": "Retention Mesh",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "continuity-lock",
+      "title": "Continuity Lock",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "governedFlows": 18,
+    "retainedPaths": 16,
+    "protectedStates": 20,
+    "infinityReadiness": 100
+  },
+  "time": "2026-04-09T01:48:31.209Z"
+}

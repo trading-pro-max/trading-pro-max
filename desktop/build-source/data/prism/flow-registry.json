@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "flows": [
+    {
+      "slug": "control-flow",
+      "title": "Control Flow",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "signal-flow",
+      "title": "Signal Flow",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "broker-flow",
+      "title": "Broker Flow",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "platform-flow",
+      "title": "Platform Flow",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "registeredFlows": 22,
+    "protectedFlows": 20,
+    "replayableFlows": 18,
+    "flowConfidence": 100
+  },
+  "time": "2026-04-09T02:30:32.504Z"
+}

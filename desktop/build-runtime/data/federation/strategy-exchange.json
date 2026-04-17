@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "markets": [
+    {
+      "slug": "alpha-exchange",
+      "title": "Alpha Exchange",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-exchange",
+      "title": "Risk Exchange",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-exchange",
+      "title": "Capital Exchange",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "route-exchange",
+      "title": "Route Exchange",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "listedStrategies": 24,
+    "governedRoutes": 20,
+    "protectedAllocations": 18,
+    "exchangeConfidence": 100
+  },
+  "time": "2026-04-09T23:02:56.084Z"
+}

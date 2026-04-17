@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "scenarios": [
+    {
+      "slug": "balanced",
+      "title": "Balanced Portfolio",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth",
+      "title": "Growth Portfolio",
+      "progress": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "defense",
+      "title": "Defense Portfolio",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "adaptive",
+      "title": "Adaptive Portfolio",
+      "progress": 99,
+      "status": "strong"
+    }
+  ],
+  "metrics": {
+    "activeScenarios": 12,
+    "protectedAllocations": 10,
+    "rebalanceConfidence": 99,
+    "capitalClarity": 100
+  },
+  "time": "2026-04-13T18:40:48.197Z"
+}

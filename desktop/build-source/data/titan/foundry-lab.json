@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "foundries": [
+    {
+      "slug": "signal-foundry",
+      "title": "Signal Foundry",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "route-foundry",
+      "title": "Route Foundry",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-foundry",
+      "title": "Capital Foundry",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-foundry",
+      "title": "Policy Foundry",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeFoundries": 10,
+    "replayableBuilds": 18,
+    "governedPatterns": 20,
+    "foundryConfidence": 100
+  },
+  "time": "2026-04-08T23:39:23.080Z"
+}

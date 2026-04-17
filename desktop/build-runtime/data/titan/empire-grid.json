@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "grids": [
+    {
+      "slug": "platform-grid",
+      "title": "Platform Grid",
+      "strength": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "enterprise-grid",
+      "title": "Enterprise Grid",
+      "strength": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-grid",
+      "title": "Trust Grid",
+      "strength": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "expansion-grid",
+      "title": "Expansion Grid",
+      "strength": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "governedGrids": 18,
+    "expansionVectors": 16,
+    "protectedStores": 24,
+    "empireConfidence": 100
+  },
+  "time": "2026-04-08T23:40:18.151Z"
+}

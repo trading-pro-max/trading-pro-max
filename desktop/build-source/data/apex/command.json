@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "towers": [
+    {
+      "slug": "runtime-command",
+      "title": "Runtime Command",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-command",
+      "title": "Policy Command",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-command",
+      "title": "Market Command",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-command",
+      "title": "Trust Command",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "unifiedRoutes": 22,
+    "governedDecisions": 26,
+    "commandConfidence": 100,
+    "expansionState": 100
+  },
+  "time": "2026-04-09T01:48:13.963Z"
+}

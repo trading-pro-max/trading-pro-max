@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "panels": [
+    {
+      "slug": "runtime-quantum",
+      "title": "Runtime Quantum",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-quantum",
+      "title": "Market Quantum",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "command-quantum",
+      "title": "Command Quantum",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-quantum",
+      "title": "Trust Quantum",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activePanels": 20,
+    "linkedSystems": 30,
+    "governedPlanes": 24,
+    "quantumConfidence": 100
+  },
+  "time": "2026-04-08T19:50:22.449Z"
+}

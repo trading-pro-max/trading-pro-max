@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "reactors": [
+    {
+      "slug": "signal-reactor",
+      "title": "Signal Reactor",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-reactor",
+      "title": "Risk Reactor",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-reactor",
+      "title": "Capital Reactor",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution-reactor",
+      "title": "Execution Reactor",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeReactors": 12,
+    "rankedSignals": 24,
+    "governedStrategies": 18,
+    "reactorConfidence": 100
+  },
+  "time": "2026-04-08T13:01:58.654Z"
+}

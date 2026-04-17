@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "sessions": [
+    {
+      "slug": "ops-session",
+      "title": "Ops Session",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-session",
+      "title": "Market Session",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "command-session",
+      "title": "Command Session",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-session",
+      "title": "Trust Session",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeSessions": 16,
+    "bridgedSessions": 16,
+    "continuitySessions": 14,
+    "bridgeConfidence": 100
+  },
+  "time": "2026-04-08T11:59:20.064Z"
+}

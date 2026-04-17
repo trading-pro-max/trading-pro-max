@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "docks": [
+    {
+      "slug": "runtime-dock",
+      "title": "Runtime Dock",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "research-dock",
+      "title": "Research Dock",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-dock",
+      "title": "Policy Dock",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "replay-dock",
+      "title": "Replay Dock",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "storedMemories": 32,
+    "replayableStates": 24,
+    "governedMemories": 18,
+    "harborConfidence": 100
+  },
+  "time": "2026-04-09T02:31:56.533Z"
+}

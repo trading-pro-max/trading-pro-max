@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "routes": [
+    {
+      "slug": "alpha-route",
+      "title": "Alpha Route",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "defense-route",
+      "title": "Defense Route",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "adaptive-route",
+      "title": "Adaptive Route",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "recovery-route",
+      "title": "Recovery Route",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeRoutes": 16,
+    "routedScenarios": 22,
+    "arbitrationStrength": 100,
+    "scenarioConfidence": 100
+  },
+  "time": "2026-04-09T01:48:13.166Z"
+}

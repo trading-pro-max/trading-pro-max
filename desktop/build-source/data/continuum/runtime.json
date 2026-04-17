@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "lanes": [
+    {
+      "slug": "runtime-continuum",
+      "title": "Runtime Continuum",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "strategy-continuum",
+      "title": "Strategy Continuum",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-continuum",
+      "title": "Evidence Continuum",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-continuum",
+      "title": "Growth Continuum",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeLanes": 16,
+    "governedLinks": 24,
+    "linkedRuntimes": 20,
+    "continuumConfidence": 100
+  },
+  "time": "2026-04-09T00:48:11.366Z"
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "charters": [
+    {
+      "slug": "runtime-charter",
+      "title": "Runtime Charter",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-charter",
+      "title": "Policy Charter",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity-charter",
+      "title": "Continuity Charter",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-charter",
+      "title": "Trust Charter",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeCharters": 16,
+    "guardedRules": 20,
+    "routeGovernance": 100,
+    "charterConfidence": 100
+  },
+  "time": "2026-04-09T01:48:13.562Z"
+}

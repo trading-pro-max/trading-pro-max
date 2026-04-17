@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "tracks": [
+    {
+      "slug": "runtime-log",
+      "title": "Runtime Log",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution-log",
+      "title": "Execution Log",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "governance-log",
+      "title": "Governance Log",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "expansion-log",
+      "title": "Expansion Log",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedLogs": 24,
+    "replayableEntries": 20,
+    "journalConfidence": 100,
+    "operatorClarity": 100
+  },
+  "time": "2026-04-09T02:35:29.155Z"
+}

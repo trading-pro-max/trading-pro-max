@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "lanes": [
+    {
+      "slug": "ops-switch",
+      "title": "Ops Switch",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "market-switch",
+      "title": "Market Switch",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "broker-switch",
+      "title": "Broker Switch",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "platform-switch",
+      "title": "Platform Switch",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeSwitches": 12,
+    "guardedSwitches": 10,
+    "routeClarity": 100,
+    "continuityStrength": 100
+  },
+  "time": "2026-04-13T18:40:49.208Z"
+}

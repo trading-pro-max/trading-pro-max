@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "TPM_ZENITH_ACTIVE",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "domains": {
+    "zenith": 100,
+    "cartography": 100,
+    "charter": 100,
+    "proof": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "zenith-density",
+      "title": "zenith density",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "memory-cartography",
+      "title": "memory cartography",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "runtime-charter",
+      "title": "runtime charter",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-09T01:48:13.563Z"
+}

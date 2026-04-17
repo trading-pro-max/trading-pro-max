@@ -1,0 +1,38 @@
+{
+  "ok": true,
+  "mode": "TPM_GOVERNANCE_ACTIVE",
+  "overallProgress": 97,
+  "completed": 97,
+  "remaining": 3,
+  "domains": {
+    "governance": 100,
+    "alerts": 100,
+    "config": 83,
+    "policies": 100,
+    "continuity": 100
+  },
+  "blockers": [
+    "External GoDaddy deploy still blocked by current hosting plan."
+  ],
+  "nextWave": [
+    {
+      "slug": "policy-enforcement",
+      "title": "policy enforcement",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "alert-routing",
+      "title": "alert routing",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "config-governance",
+      "title": "config governance",
+      "progress": 83,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-13T18:40:42.148Z"
+}

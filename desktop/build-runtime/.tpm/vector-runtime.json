@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "TPM_VECTOR_ACTIVE",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "domains": {
+    "vector": 100,
+    "consensus": 100,
+    "theater": 100,
+    "proof": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "vector-density",
+      "title": "vector density",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "consensus-depth",
+      "title": "consensus depth",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "theater-strength",
+      "title": "theater strength",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-09T23:02:55.886Z"
+}

@@ -1,0 +1,30 @@
+{
+  "ok": true,
+  "feeds": [
+    {
+      "slug": "market-pulse",
+      "title": "Market Pulse",
+      "strength": 96,
+      "status": "strong"
+    },
+    {
+      "slug": "volatility-grid",
+      "title": "Volatility Grid",
+      "strength": 93,
+      "status": "strong"
+    },
+    {
+      "slug": "liquidity-lens",
+      "title": "Liquidity Lens",
+      "strength": 92,
+      "status": "strong"
+    },
+    {
+      "slug": "execution-watch",
+      "title": "Execution Watch",
+      "strength": 95,
+      "status": "strong"
+    }
+  ],
+  "time": "2026-04-13T18:40:40.585Z"
+}

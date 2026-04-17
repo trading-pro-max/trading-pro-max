@@ -1,0 +1,34 @@
+{
+  "gates": [
+    {
+      "slug": "runtime-gate",
+      "title": "Runtime Gate",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-gate",
+      "title": "Risk Gate",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-gate",
+      "title": "Capital Gate",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-gate",
+      "title": "Trust Gate",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeGates": 12,
+    "guardedDecisions": 24,
+    "enforcementStrength": 100,
+    "gateConfidence": 100
+  }
+}

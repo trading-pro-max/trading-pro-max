@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "grids": [
+    {
+      "slug": "alpha-grid",
+      "title": "Alpha Grid",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "capital-grid",
+      "title": "Capital Grid",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "signal-grid",
+      "title": "Signal Grid",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "trust-grid",
+      "title": "Trust Grid",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "titanLanes": 20,
+    "governedSignals": 24,
+    "protectedAllocations": 18,
+    "titanConfidence": 100
+  },
+  "time": "2026-04-09T01:48:28.443Z"
+}

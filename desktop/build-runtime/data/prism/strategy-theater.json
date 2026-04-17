@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "scenes": [
+    {
+      "slug": "alpha-scene",
+      "title": "Alpha Scene",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "risk-scene",
+      "title": "Risk Scene",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "route-scene",
+      "title": "Route Scene",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-scene",
+      "title": "Growth Scene",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeScenes": 14,
+    "replayableScenes": 12,
+    "governedStrategies": 18,
+    "theaterConfidence": 100
+  },
+  "time": "2026-04-08T22:31:38.584Z"
+}

@@ -1,0 +1,35 @@
+{
+  "ok": true,
+  "mode": "TPM_ORCHESTRATOR_ACTIVE",
+  "overallProgress": 100,
+  "completed": 100,
+  "remaining": 0,
+  "domains": {
+    "orchestrator": 100,
+    "planner": 100,
+    "scenarios": 100,
+    "knowledge": 100,
+    "continuity": 100
+  },
+  "nextWave": [
+    {
+      "slug": "plan-router",
+      "title": "plan router",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "scenario-switching",
+      "title": "scenario switching",
+      "progress": 100,
+      "status": "active"
+    },
+    {
+      "slug": "knowledge-mesh",
+      "title": "knowledge mesh",
+      "progress": 100,
+      "status": "active"
+    }
+  ],
+  "time": "2026-04-16T23:38:30.827Z"
+}

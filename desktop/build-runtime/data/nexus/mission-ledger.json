@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "missions": [
+    {
+      "slug": "local-100",
+      "title": "Local 100",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "expansion-100",
+      "title": "Expansion 100",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity-100",
+      "title": "Continuity 100",
+      "progress": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "evidence-100",
+      "title": "Evidence 100",
+      "progress": 100,
+      "status": "closed"
+    }
+  ],
+  "totals": {
+    "closedMissions": 4,
+    "openMissions": 0,
+    "blockedMissions": 1,
+    "blockedReason": "GoDaddy hosting plan only"
+  },
+  "time": "2026-04-13T18:40:46.217Z"
+}

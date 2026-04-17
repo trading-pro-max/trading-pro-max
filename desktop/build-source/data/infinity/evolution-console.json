@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "consoles": [
+    {
+      "slug": "product-evolution",
+      "title": "Product Evolution",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ai-evolution",
+      "title": "AI Evolution",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "ops-evolution",
+      "title": "Ops Evolution",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-evolution",
+      "title": "Growth Evolution",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "activeVectors": 16,
+    "replayableGrowth": 14,
+    "governedEvolution": 100,
+    "evolutionConfidence": 100
+  },
+  "time": "2026-04-08T19:09:44.343Z"
+}

@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "grids": [
+    {
+      "slug": "market-research",
+      "title": "Market Research",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "execution-research",
+      "title": "Execution Research",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "policy-research",
+      "title": "Policy Research",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "growth-research",
+      "title": "Growth Research",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "trackedResearchStreams": 20,
+    "replayableStudies": 18,
+    "protectedFindings": 16,
+    "researchConfidence": 100
+  },
+  "time": "2026-04-09T02:15:06.315Z"
+}

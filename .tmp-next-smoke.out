@@ -1,0 +1,26 @@
+
+> trading-pro-max-full@1.0.0 dev
+> next dev --hostname 127.0.0.1 --port 3401
+
+▲ Next.js 16.2.2 (Turbopack)
+- Local:         http://127.0.0.1:3401
+- Network:       http://127.0.0.1:3401
+- Environments: .env.local
+✓ Ready in 4.0s
+Creating turbopack project {
+  dir: 'C:\\Users\\ahmad\\Desktop\\trading-pro-max-full',
+  testMode: true
+}
+
+ GET /market-intelligence 200 in 5.4s (next.js: 960ms, application-code: 4.4s)
+ GET /execution-center 200 in 2.4s (next.js: 271ms, application-code: 2.1s)
+ GET /risk-control 200 in 1905ms (next.js: 361ms, application-code: 1544ms)
+ GET /ai-copilot 200 in 830ms (next.js: 145ms, application-code: 685ms)
+ GET /journal-vault 200 in 1567ms (next.js: 253ms, application-code: 1314ms)
+ GET / 200 in 3.8s (next.js: 1847ms, application-code: 1968ms)
+ GET /market-intelligence 200 in 2.3s (next.js: 94ms, application-code: 2.2s)
+ GET /execution-center 200 in 487ms (next.js: 54ms, application-code: 432ms)
+ GET /risk-control 200 in 817ms (next.js: 31ms, application-code: 786ms)
+ GET /ai-copilot 200 in 985ms (next.js: 32ms, application-code: 953ms)
+ GET /journal-vault 200 in 710ms (next.js: 19ms, application-code: 691ms)
+[?25h

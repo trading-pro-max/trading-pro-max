@@ -1,0 +1,13 @@
+{
+  "ok": true,
+  "cycle": 1062,
+  "workspaces": 3,
+  "lastSyncAt": "2026-04-13T18:40:38.539Z",
+  "syncedZones": [
+    "ai",
+    "strategy",
+    "intelligence",
+    "master"
+  ],
+  "status": "ACTIVE"
+}

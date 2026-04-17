@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "items": [
+    {
+      "slug": "local-certification",
+      "title": "Local Certification",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "runtime-coverage",
+      "title": "Runtime Coverage",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "surface-coverage",
+      "title": "Surface Coverage",
+      "score": 99,
+      "status": "strong"
+    },
+    {
+      "slug": "autonomy-continuity",
+      "title": "Autonomy Continuity",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "maps": {
+    "certifiedLayers": 12,
+    "trackedRuntimes": 15,
+    "trackedPages": 30,
+    "trackedStores": 14
+  },
+  "time": "2026-04-13T18:40:43.701Z"
+}

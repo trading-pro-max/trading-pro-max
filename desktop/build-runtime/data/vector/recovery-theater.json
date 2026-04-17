@@ -1,0 +1,36 @@
+{
+  "ok": true,
+  "stages": [
+    {
+      "slug": "rollback-stage",
+      "title": "Rollback Stage",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "restart-stage",
+      "title": "Restart Stage",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "replay-stage",
+      "title": "Replay Stage",
+      "score": 100,
+      "status": "closed"
+    },
+    {
+      "slug": "continuity-stage",
+      "title": "Continuity Stage",
+      "score": 100,
+      "status": "closed"
+    }
+  ],
+  "metrics": {
+    "replayWindows": 20,
+    "recoveryPaths": 18,
+    "protectedSnapshots": 22,
+    "theaterConfidence": 100
+  },
+  "time": "2026-04-09T23:02:55.886Z"
+}
